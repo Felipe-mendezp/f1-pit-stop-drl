@@ -1,0 +1,37 @@
+{
+  "gp_name": "Singapore Grand Prix",
+  "n_laps": 62,
+  "compounds": [
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "vsc_prob": 0.43,
+  "sc_prob": 0.93,
+  "initial_positions_2024": {
+    "Driver_NOR": 1,
+    "Driver_VER": 2,
+    "Driver_HAM": 3,
+    "Driver_RUS": 4,
+    "Driver_PIA": 5,
+    "Driver_HUL": 6,
+    "Driver_ALO": 7,
+    "Driver_TSU": 8,
+    "Driver_LEC": 9,
+    "Driver_SAI": 10,
+    "Driver_ALB": 11,
+    "Driver_SAR": 12,
+    "Driver_PER": 13,
+    "Driver_MAG": 14,
+    "Driver_OCO": 15,
+    "Driver_RIC": 16,
+    "Driver_STR": 17,
+    "Driver_GAS": 18,
+    "Driver_BOT": 19,
+    "Driver_ZHO": 20
+  },
+  "initial_positions_list_2024": [11, 7, 19, 18, 3, 6, 9, 14, 1, 15, 13, 5, 16, 4, 10, 12, 17, 8, 2, 20],
+  "notes": "COMPOUNDS: C3=3, C4=4, C5=5. Replace null with compound number used AFTER pit stop. Many drivers ran zero-stop or single-stop. Colapinto replaced Sargeant (Driver_SAR in code). First Singapore GP ever with NO Safety Car!",
+  "laps_vsc_2024": [],
+  "laps_sc_2024": []
+}

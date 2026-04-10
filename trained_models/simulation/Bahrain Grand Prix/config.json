@@ -1,0 +1,32 @@
+{
+  "gp_name": "Bahrain Grand Prix",
+  "n_laps": 57,
+  "compounds": ["C1", "C2", "C3"],
+  "vsc_prob": 0.22,
+  "sc_prob": 0.37,
+  "initial_positions_2024": {
+    "Driver_VER": 1,
+    "Driver_LEC": 2,
+    "Driver_RUS": 3,
+    "Driver_SAI": 4,
+    "Driver_PER": 5,
+    "Driver_ALO": 6,
+    "Driver_NOR": 7,
+    "Driver_PIA": 8,
+    "Driver_HAM": 9,
+    "Driver_HUL": 10,
+    "Driver_TSU": 11,
+    "Driver_STR": 12,
+    "Driver_ALB": 13,
+    "Driver_RIC": 14,
+    "Driver_MAG": 15,
+    "Driver_BOT": 16,
+    "Driver_ZHO": 17,
+    "Driver_SAR": 18,
+    "Driver_OCO": 19,
+    "Driver_GAS": 20
+  },
+  "initial_positions_list_2024": [13, 6, 16, 20, 9, 10, 2, 15, 7, 19, 5, 8, 14, 3, 4, 18, 12, 11, 1, 17],
+  "laps_vsc_2024": [],
+  "laps_sc_2024": []
+}

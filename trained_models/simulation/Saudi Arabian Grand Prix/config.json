@@ -1,0 +1,37 @@
+{
+  "gp_name": "Saudi Arabian Grand Prix",
+  "n_laps": 50,
+  "compounds": [
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "vsc_prob": 0.67,
+  "sc_prob": 0.7,
+  "initial_positions_2024": {
+    "Driver_VER": 1,
+    "Driver_LEC": 2,
+    "Driver_PER": 3,
+    "Driver_ALO": 4,
+    "Driver_PIA": 5,
+    "Driver_NOR": 6,
+    "Driver_RUS": 7,
+    "Driver_HAM": 8,
+    "Driver_TSU": 9,
+    "Driver_STR": 10,
+    "Driver_SAI": 11,
+    "Driver_ALB": 12,
+    "Driver_MAG": 13,
+    "Driver_RIC": 14,
+    "Driver_HUL": 15,
+    "Driver_BOT": 16,
+    "Driver_OCO": 17,
+    "Driver_GAS": 18,
+    "Driver_SAR": 19,
+    "Driver_ZHO": 20
+  },
+  "initial_positions_list_2024": [12, 4, 16, 18, 8, 15, 2, 13, 6, 17, 3, 5, 14, 7, 11, 19, 10, 9, 1, 20],
+  "notes": "COMPOUNDS: C2 (Hard)=2, C3 (Medium)=3, C4 (Soft)=4. Replace null with compound number used AFTER pit stop. Safety car on lap 7 triggered early stops for most drivers.",
+  "laps_vsc_2024": [],
+  "laps_sc_2024": [6, 7, 8, 9, 10]
+}

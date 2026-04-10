@@ -1,0 +1,37 @@
+{
+  "gp_name": "Hungarian Grand Prix",
+  "n_laps": 70,
+  "compounds": [
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "vsc_prob": 0.33,
+  "sc_prob": 0.25,
+  "initial_positions_2024": {
+    "Driver_NOR": 1,
+    "Driver_PIA": 2,
+    "Driver_VER": 3,
+    "Driver_SAI": 4,
+    "Driver_HAM": 5,
+    "Driver_LEC": 6,
+    "Driver_ALO": 7,
+    "Driver_STR": 8,
+    "Driver_RIC": 9,
+    "Driver_TSU": 10,
+    "Driver_HUL": 11,
+    "Driver_BOT": 12,
+    "Driver_ALB": 13,
+    "Driver_SAR": 14,
+    "Driver_MAG": 15,
+    "Driver_PER": 16,
+    "Driver_RUS": 17,
+    "Driver_ZHO": 18,
+    "Driver_OCO": 19,
+    "Driver_GAS": 20
+  },
+  "initial_positions_list_2024": [13, 7, 12, 20, 5, 11, 6, 15, 1, 19, 16, 2, 9, 17, 4, 14, 8, 10, 3, 18],
+  "notes": "COMPOUNDS: C3=3, C4=4, C5=5. Replace null with compound number used AFTER pit stop. Gasly started from pit lane. VSC on lap 2-3 for debris at Turn 2.",
+  "laps_vsc_2024": [2, 3],
+  "laps_sc_2024": []
+}

@@ -1,0 +1,37 @@
+{
+  "gp_name": "United States Grand Prix",
+  "n_laps": 56,
+  "compounds": [
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "vsc_prob": 0.38,
+  "sc_prob": 0.36,
+  "initial_positions_2024": {
+    "Driver_NOR": 1,
+    "Driver_VER": 2,
+    "Driver_SAI": 3,
+    "Driver_LEC": 4,
+    "Driver_PIA": 5,
+    "Driver_GAS": 6,
+    "Driver_ALO": 7,
+    "Driver_MAG": 8,
+    "Driver_PER": 9,
+    "Driver_TSU": 10,
+    "Driver_HUL": 11,
+    "Driver_OCO": 12,
+    "Driver_STR": 13,
+    "Driver_ALB": 14,
+    "Driver_SAR": 15,
+    "Driver_BOT": 16,
+    "Driver_HAM": 17,
+    "Driver_ZHO": 18,
+    "Driver_RIC": 19,
+    "Driver_RUS": 20
+  },
+  "initial_positions_list_2024": [14, 7, 16, 6, 17, 11, 4, 8, 1, 12, 9, 5, 19, 20, 3, 15, 13, 10, 2, 18],
+  "notes": "COMPOUNDS: C2=2, C3=3, C4=4. Replace null with compound number used AFTER pit stop. Colapinto (Driver_SAR), Lawson (Driver_RIC) replaced others. Russell started from pit lane.",
+  "laps_vsc_2024": [],
+  "laps_sc_2024": []
+}

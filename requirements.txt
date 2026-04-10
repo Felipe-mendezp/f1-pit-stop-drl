@@ -1,0 +1,16 @@
+fastf1>=3.4
+numpy>=1.26
+pandas>=2.2
+statsmodels>=0.14
+scikit-learn>=1.4
+fancyimpute>=0.7
+gymnasium>=0.29
+stable-baselines3>=2.3
+sb3-contrib>=2.3
+torch>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.13
+tqdm>=4.66
+# Optional: QMIP benchmark requires a Gurobi license
+# gurobipy>=11.0

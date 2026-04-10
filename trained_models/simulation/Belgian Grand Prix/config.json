@@ -1,0 +1,37 @@
+{
+  "gp_name": "Belgian Grand Prix",
+  "n_laps": 44,
+  "compounds": [
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "vsc_prob": 0.11,
+  "sc_prob": 0.64,
+  "initial_positions_2024": {
+    "Driver_LEC": 1,
+    "Driver_PER": 2,
+    "Driver_HAM": 3,
+    "Driver_NOR": 4,
+    "Driver_PIA": 5,
+    "Driver_RUS": 6,
+    "Driver_SAI": 7,
+    "Driver_ALO": 8,
+    "Driver_OCO": 9,
+    "Driver_ALB": 10,
+    "Driver_VER": 11,
+    "Driver_GAS": 12,
+    "Driver_RIC": 13,
+    "Driver_BOT": 14,
+    "Driver_STR": 15,
+    "Driver_HUL": 16,
+    "Driver_MAG": 17,
+    "Driver_SAR": 18,
+    "Driver_ZHO": 19,
+    "Driver_TSU": 20
+  },
+  "initial_positions_list_2024": [10, 8, 14, 12, 3, 16, 1, 17, 4, 9, 2, 5, 13, 6, 7, 18, 15, 20, 11, 19],
+  "notes": "COMPOUNDS: C2=2, C3=3, C4=4. Replace null with compound number used AFTER pit stop. Verstappen had 10-place grid penalty, Zhou 3-place, Tsunoda started from back. VERIFY SC/VSC laps if needed.",
+  "laps_vsc_2024": [],
+  "laps_sc_2024": []
+}
