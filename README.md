@@ -15,7 +15,7 @@ This repository contains the data and code accompanying the manuscript
 vs. Mathematical Programming*, submitted to the **European Journal of
 Operational Research (EJOR)**.
 
-> Repository: `https://github.com/Felipe-mendezp/f1-pit-stop-drl` &nbsp;·&nbsp; Archived release (DOI): `<ZENODO_DOI>`
+> Repository: `https://github.com/Felipe-mendezp/f1-pit-stop-drl` &nbsp;·&nbsp; Archived release: [`10.5281/zenodo.20060266`](https://doi.org/10.5281/zenodo.20060266)
 
 ## Abstract
 
@@ -326,7 +326,7 @@ take full responsibility for the content of the published article.
 ## Data Availability
 
 The data and code supporting the results of this study are available at
-`https://github.com/Felipe-mendezp/f1-pit-stop-drl` and archived at `<ZENODO_DOI>`.
+`https://github.com/Felipe-mendezp/f1-pit-stop-drl` and archived on Zenodo at [https://doi.org/10.5281/zenodo.20060266](https://doi.org/10.5281/zenodo.20060266).
 
 ## Citation
 
@@ -344,7 +344,7 @@ The data and code supporting the results of this study are available at
   author    = {M{\'e}ndez, Felipe and Thraves, Charles},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {<ZENODO_DOI>},
+  doi       = {10.5281/zenodo.20060266},
   url       = {https://github.com/Felipe-mendezp/f1-pit-stop-drl}
 }
 ```
