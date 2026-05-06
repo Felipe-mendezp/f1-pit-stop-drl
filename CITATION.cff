@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the article and this archive."
+title: "Data and Code for: Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming"
+type: software
+authors:
+  - family-names: "Méndez"
+    given-names: "Felipe"
+    affiliation: "Department of Industrial Engineering, University of Chile, Santiago, Chile"
+    email: "felipe.mendez.p@ug.uchile.cl"
+  - family-names: "Thraves"
+    given-names: "Charles"
+    affiliation: "Department of Industrial Engineering, University of Chile, and Instituto Sistemas Complejos de Ingeniería (ISCI), Santiago, Chile"
+    email: "cthraves@dii.uchile.cl"
+version: "1.0.0"
+date-released: "2025-05-06"
+license: MIT
+repository-code: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
+url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
+identifiers:
+  - type: doi
+    value: "<ZENODO_DOI>"
+    description: "Archived release on Zenodo"
+keywords:
+  - "Operations Research in Sports"
+  - "Deep Reinforcement Learning"
+  - "Pit-Stop Strategy"
+  - "Optimization"
+  - "Quadratic Mixed-Integer Programming"
+  - "Formula 1"
+preferred-citation:
+  type: article
+  title: "Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming"
+  authors:
+    - family-names: "Méndez"
+      given-names: "Felipe"
+    - family-names: "Thraves"
+      given-names: "Charles"
+  journal: "European Journal of Operational Research"
+  year: 2025
+  notes: "Under review"

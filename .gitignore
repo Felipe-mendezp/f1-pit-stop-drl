@@ -5,6 +5,7 @@ __pycache__/
 *.log
 fastf1_cache/
 tensorboard_*/
+tensorboard/
 *.egg-info/
 .env
 .venv/
