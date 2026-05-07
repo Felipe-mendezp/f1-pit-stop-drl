@@ -331,7 +331,7 @@ The data and code supporting the results of this study are available at
 ## Citation
 
 ```bibtex
-@article{mendez2025f1drl,
+@article{mendez_thraves_2025f1drl,
   title   = {Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming},
   author  = {M{\'e}ndez, Felipe and Thraves, Charles},
   journal = {European Journal of Operational Research},
@@ -339,7 +339,7 @@ The data and code supporting the results of this study are available at
   note    = {Under review}
 }
 
-@misc{mendez2025f1drl_code,
+@misc{mendez_thraves_2025_data,
   title     = {Data and Code for: Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming},
   author    = {M{\'e}ndez, Felipe and Thraves, Charles},
   year      = {2025},
