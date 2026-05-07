@@ -340,12 +340,16 @@ The data and code supporting the results of this study are available at
 }
 
 @misc{mendez_thraves_2025_data,
-  title     = {Data and Code for: Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming},
   author    = {M{\'e}ndez, Felipe and Thraves, Charles},
+  title     = {Data and Code for: Optimizing Pit Stop Strategies in
+               {Formula 1}: {Deep Reinforcement Learning} vs.
+               {Mathematical Programming}},
   year      = {2025},
   publisher = {Zenodo},
+  version   = {v1.0.0},
   doi       = {10.5281/zenodo.20060266},
-  url       = {https://github.com/Felipe-mendezp/f1-pit-stop-drl}
+  url       = {https://doi.org/10.5281/zenodo.20060266},
+  note      = {[dataset]}
 }
 ```
 
