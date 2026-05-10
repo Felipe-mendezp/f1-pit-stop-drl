@@ -11,8 +11,8 @@ authors:
     given-names: "Charles"
     affiliation: "Department of Industrial Engineering, University of Chile, and Instituto Sistemas Complejos de Ingeniería (ISCI), Santiago, Chile"
     email: "cthraves@dii.uchile.cl"
-version: "1.0.0"
-date-released: "2025-05-06"
+version: "1.1.0"
+date-released: "2026-05-10"
 license: MIT
 repository-code: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
