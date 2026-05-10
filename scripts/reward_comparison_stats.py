@@ -59,7 +59,7 @@ REWARD_TYPES  = ['mix', 'time', 'position', 'points']
 REWARD_LABELS = ['mix', 'time', 'pos', 'points']
 
 METRIC_COLS   = ['total_time', 'final_position', 'points']
-METRIC_NAMES  = ['Race Time [s]', 'Final Position', 'Points']
+METRIC_NAMES  = ['Race Time [s]', 'Final Position', 'Championship Points']
 
 ALPHA = 0.05
 

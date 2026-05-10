@@ -69,8 +69,15 @@ REWARD_TYPES = ['mix', 'time', 'position', 'points']
 REWARD_LABELS = ['mix', 'time', 'pos', 'points']
 REWARD_COLORS = ['#0072B2', '#E69F00', '#009E73', '#CC79A7']  # blue, orange, green, pink
 
-# Column metrics
-METRIC_NAMES = ['Race Time [s]', 'Final Position', 'Points']
+# Column metrics (matches paper figure headers)
+METRIC_NAMES = ['Race Time [s]', 'Final Position', 'Championship Points']
+
+# Consistent y-axis formatting across rows so all GPs share the same scale
+# (mirrors F1_all_drivers/evaluate_reward_comparison_oco_miami.py).
+FINAL_POSITION_YTICKS = [3, 6, 9, 12, 15, 18]
+FINAL_POSITION_YLIM   = (1.5, 20.5)
+POINTS_YTICKS         = [0, 5, 10, 15, 20, 25]
+POINTS_YLIM           = (0, 26)
 
 # Cache file for simulation results
 CACHE_FILE = os.path.join(str(config.RL_AGENTS_DIR), 'reward_comparison_results.csv')
@@ -385,13 +392,17 @@ def plot_reward_comparison(
             for lbl in ax.get_yticklabels():
                 lbl.set_fontweight('normal')
 
-            # Integer y-axis for positions column
-            if col == 1:
-                from matplotlib.ticker import MaxNLocator
-                ax.yaxis.set_major_locator(MaxNLocator(integer=True))
-
-            # Invert y-axis for points column (more points = lower = better)
-            if col == 2:
+            # Consistent y-axis formatting across all rows so panels match the
+            # paper figures (Bahrain / Miami / Dutch share the same scale).
+            from matplotlib.ticker import MaxNLocator
+            if col == 0:
+                ax.yaxis.set_major_locator(MaxNLocator(integer=True, nbins=5))
+            elif col == 1:
+                ax.set_ylim(*FINAL_POSITION_YLIM)
+                ax.set_yticks(FINAL_POSITION_YTICKS)
+            elif col == 2:
+                ax.set_ylim(*POINTS_YLIM)
+                ax.set_yticks(POINTS_YTICKS)
                 ax.invert_yaxis()
 
     # Legend at bottom center: red diamond = Mean
