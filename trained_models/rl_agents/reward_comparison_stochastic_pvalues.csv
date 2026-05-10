@@ -11,12 +11,12 @@ Bahrain GP (ALO),mix-points,Final Position,0.2588983066200512,0.5911682797660542
 Bahrain GP (ALO),time-pos,Final Position,0.18171612345875043,0.5911682797660542
 Bahrain GP (ALO),time-points,Final Position,0.09802406541882995,0.49012032709414977
 Bahrain GP (ALO),position-points,Final Position,0.7750545545949779,0.7750545545949779
-Bahrain GP (ALO),mix-time,Points,0.01712532941995976,0.10275197651975856
-Bahrain GP (ALO),mix-pos,Points,0.18497254405082653,0.7398901762033061
-Bahrain GP (ALO),mix-points,Points,0.3733061445190984,0.9041554311597266
-Bahrain GP (ALO),time-pos,Points,0.3013851437199089,0.9041554311597266
-Bahrain GP (ALO),time-points,Points,0.13923658715131876,0.6961829357565938
-Bahrain GP (ALO),position-points,Points,0.6800336134665528,0.9041554311597266
+Bahrain GP (ALO),mix-time,Championship Points,0.01712532941995976,0.10275197651975856
+Bahrain GP (ALO),mix-pos,Championship Points,0.18497254405082653,0.7398901762033061
+Bahrain GP (ALO),mix-points,Championship Points,0.3733061445190984,0.9041554311597266
+Bahrain GP (ALO),time-pos,Championship Points,0.3013851437199089,0.9041554311597266
+Bahrain GP (ALO),time-points,Championship Points,0.13923658715131876,0.6961829357565938
+Bahrain GP (ALO),position-points,Championship Points,0.6800336134665528,0.9041554311597266
 Miami GP (OCO),mix-time,Race Time [s],0.07170329039516359,0.4302197423709815
 Miami GP (OCO),mix-pos,Race Time [s],0.7808484300202402,1.0
 Miami GP (OCO),mix-points,Race Time [s],0.7326458166034082,1.0
@@ -29,12 +29,12 @@ Miami GP (OCO),mix-points,Final Position,0.6484268699042184,1.0
 Miami GP (OCO),time-pos,Final Position,0.00821835863385809,0.04931015180314854
 Miami GP (OCO),time-points,Final Position,0.021152923894457942,0.10576461947228971
 Miami GP (OCO),position-points,Final Position,0.7880403785793522,1.0
-Miami GP (OCO),mix-time,Points,0.13734686006849045,0.5493874402739618
-Miami GP (OCO),mix-pos,Points,0.7344773921540377,1.0
-Miami GP (OCO),mix-points,Points,0.6971800309445619,1.0
-Miami GP (OCO),time-pos,Points,0.0647374223512075,0.36403272454588015
-Miami GP (OCO),time-points,Points,0.06067212075764669,0.36403272454588015
-Miami GP (OCO),position-points,Points,0.9573550300271799,1.0
+Miami GP (OCO),mix-time,Championship Points,0.13734686006849045,0.5493874402739618
+Miami GP (OCO),mix-pos,Championship Points,0.7344773921540377,1.0
+Miami GP (OCO),mix-points,Championship Points,0.6971800309445619,1.0
+Miami GP (OCO),time-pos,Championship Points,0.0647374223512075,0.36403272454588015
+Miami GP (OCO),time-points,Championship Points,0.06067212075764669,0.36403272454588015
+Miami GP (OCO),position-points,Championship Points,0.9573550300271799,1.0
 Dutch GP (RUS),mix-time,Race Time [s],0.24947992623381776,0.997919704935271
 Dutch GP (RUS),mix-pos,Race Time [s],0.7204016176358525,1.0
 Dutch GP (RUS),mix-points,Race Time [s],0.8303353415879671,1.0
@@ -47,9 +47,9 @@ Dutch GP (RUS),mix-points,Final Position,0.5849469642386302,1.0
 Dutch GP (RUS),time-pos,Final Position,1.6195095625758086e-06,9.717057375454851e-06
 Dutch GP (RUS),time-points,Final Position,1.0429389970610132e-05,5.214694985305066e-05
 Dutch GP (RUS),position-points,Final Position,0.6436999438285338,1.0
-Dutch GP (RUS),mix-time,Points,9.85020009652192e-05,0.0003940080038608768
-Dutch GP (RUS),mix-pos,Points,0.30867467659032843,0.9260240297709853
-Dutch GP (RUS),mix-points,Points,0.5873770312901665,1.0
-Dutch GP (RUS),time-pos,Points,1.6205435575213658e-06,9.723261345128195e-06
-Dutch GP (RUS),time-points,Points,1.0475798667689088e-05,5.237899333844544e-05
-Dutch GP (RUS),position-points,Points,0.643534506824375,1.0
+Dutch GP (RUS),mix-time,Championship Points,9.85020009652192e-05,0.0003940080038608768
+Dutch GP (RUS),mix-pos,Championship Points,0.30867467659032843,0.9260240297709853
+Dutch GP (RUS),mix-points,Championship Points,0.5873770312901665,1.0
+Dutch GP (RUS),time-pos,Championship Points,1.6205435575213658e-06,9.723261345128195e-06
+Dutch GP (RUS),time-points,Championship Points,1.0475798667689088e-05,5.237899333844544e-05
+Dutch GP (RUS),position-points,Championship Points,0.643534506824375,1.0
