@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+\multicolumn{1}{l}{}               & \multicolumn{2}{c}{Position}   & \multicolumn{2}{c}{Points} \\ \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\multicolumn{1}{c}{Model}          &    $\mu$ & $\sigma$ &   $\mu$  & $\sigma$ \\ \midrule
+\multicolumn{1}{c}{Double DQN    } &    11.77  &     5.60  &     3.39  &     5.48  \\
+\multicolumn{1}{c}{A2C           } &     8.72  &     4.49  &     5.48  &     5.89  \\
+\multicolumn{1}{c}{TRPO          } &     9.87  &     6.01  &     5.51  &     5.91  \\
+\multicolumn{1}{c}{PPO           } &     8.60  &     4.67  &     5.93  &     6.31  \\
+\multicolumn{1}{c}{Recurrent PPO } &     7.14  &     4.07  &     7.67  &     6.35  \\
+\multicolumn{1}{c}{QMIP          } &     7.36  &     4.10  &     7.33  &     6.52  \\
+\bottomrule
+\end{tabular}
+\caption{Average positions and points per model (including QMIP) with real 2024 SC/VSC and real rival pit strategies, across 500 simulations per model on selected 2024 GPs.}
+\label{tab:tab_all_gps_2024_with_qmip}
+\end{table}

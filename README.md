@@ -286,9 +286,11 @@ python scripts/reward_comparison_stats.py
 | Fig. 3 | Tire performance with vs. without outlier removal (Belgian GP) | `scripts/plot_outlier_removal.py` |
 | Fig. 4 | Driver-coefficient MSE with vs. without correction | `scripts/plot_driver_coef_mse.py` |
 | Fig. 5 | DRL strategies vs. QMIP optimum (single-driver) | `scripts/evaluate_qmip_vs_drl.py` |
-| Figs. 6 & 7 | Final position distributions (simulated / real-2024) | `scripts/plot_final_position_distribution.py` |
-| Figs. 8 & 9 | Reward function comparison (simulated / real-2024) | `scripts/evaluate_reward_comparison*.py` |
-| Figs. O.1 & O.2 | Mann–Whitney U pairwise heatmaps | `scripts/reward_comparison_stats.py` |
+| Fig. 6 | Final-position distributions, fully simulated, DRL + QMIP | `scripts/evaluate_qmip_vs_drl.py` |
+| Fig. 7 | Final-position distributions, real 2024 realizations, DRL + QMIP | `scripts/evaluate_all_gps_with_qmip.py` |
+| Figs. 6 & 7 (no QMIP overlay) | DRL-only final-position distributions | `scripts/plot_final_position_distribution.py` |
+| Figs. 8 & 9 | Reward function comparison (deterministic / stochastic) | `scripts/evaluate_reward_comparison{,_stochastic}.py` |
+| Figs. O.1 & O.2 | Mann–Whitney U pairwise heatmaps | `scripts/reward_comparison_stats.py [--stochastic]` |
 
 > **Note on hyperparameters.** The values in `hyperparams/config.py` are the
 > source of truth for the trained agents shipped in `trained_models/`. If a

@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+\multicolumn{1}{l}{}               & \multicolumn{2}{c}{Position}   & \multicolumn{2}{c}{Points} \\ \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\multicolumn{1}{c}{Model}          &    $\mu$ & $\sigma$ &   $\mu$  & $\sigma$ \\ \midrule
+\multicolumn{1}{c}{Double DQN    } &    11.79  &     5.85  &     3.71  &     5.77  \\
+\multicolumn{1}{c}{A2C           } &     8.43  &     4.93  &     6.39  &     6.37  \\
+\multicolumn{1}{c}{TRPO          } &    10.72  &     6.58  &     5.29  &     6.07  \\
+\multicolumn{1}{c}{PPO           } &     8.20  &     4.57  &     6.40  &     6.44  \\
+\multicolumn{1}{c}{Recurrent PPO } &     7.07  &     4.19  &     7.94  &     6.55  \\
+\multicolumn{1}{c}{QMIP          } &     7.77  &     4.41  &     6.99  &     6.71  \\
+\bottomrule
+\end{tabular}
+\caption{Average positions and points obtained by each model (including QMIP), along with their standard deviations on selected circuits after 500 stochastic simulations per model for the 2024 Season.}
+\label{tab:tab_qmip_vs_drl_stochastic_2024}
+\end{table}

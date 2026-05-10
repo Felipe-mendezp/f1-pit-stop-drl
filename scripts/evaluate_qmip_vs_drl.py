@@ -30,10 +30,22 @@ import torch
 
 import matplotlib
 matplotlib.use('Agg')
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from typing import Dict, List, Tuple, Optional
 from dataclasses import dataclass
+
+# Match the typography used in the paper figures.
+mpl.rcParams.update({
+    'font.family':           'sans-serif',
+    'axes.titlesize':        17,
+    'axes.labelsize':        18,
+    'xtick.labelsize':       15,
+    'ytick.labelsize':       15,
+    'legend.fontsize':       16,
+    'legend.title_fontsize': 16,
+})
 
 from stable_baselines3 import DQN, PPO, A2C
 from stable_baselines3.common.vec_env import DummyVecEnv, VecNormalize
@@ -50,11 +62,11 @@ from evaluate_reward_comparison_stochastic import (
 )
 from model_loader import ModelLoader
 
-# QMIP imports
-from qmip import solve_MIP_GUROBI, solve_MIP_GUROBI_start, Tires
+# QMIP imports (in src/optimization/ — `src/` is on sys.path via config.py)
+from optimization.qmip import solve_MIP_GUROBI, solve_MIP_GUROBI_start, Tires
 
 # Simplified calculator for extracting betas
-from utils_qmip_simplified import extract_simplified_calculator
+from optimization.utils_qmip import extract_simplified_calculator
 
 
 # =============================================================================
@@ -667,7 +679,7 @@ def plot_grid_boxplot(
     n_gps = len(all_gp_results)
     nrows, ncols = 3, 3
 
-    fig, axes = plt.subplots(nrows, ncols, figsize=(20, 18), sharey=True)
+    fig, axes = plt.subplots(nrows, ncols, figsize=(20, 11), sharex=True, sharey=True)
     axes_flat = axes.flatten()
 
     for idx, gp_data in enumerate(all_gp_results):
@@ -722,16 +734,20 @@ def plot_grid_boxplot(
                 linewidth=1.5, zorder=0,
             )
 
-        ax.set_title(gp_data['display_name'], fontsize=14, fontweight='bold')
+        ax.set_title(gp_data['display_name'], fontweight='bold')
         ax.set_ylim(0.5, 20.5)
-        ax.set_yticks(range(1, 21))
+        ax.set_yticks(range(2, 21, 2))
         ax.invert_yaxis()
         ax.grid(axis='y', alpha=0.3, linestyle='-')
-        ax.tick_params(axis='x', rotation=30, labelsize=10)
-        ax.tick_params(axis='y', labelsize=10)
+        ax.tick_params(axis='x')
+        ax.tick_params(axis='y')
+        for lbl in ax.get_xticklabels():
+            lbl.set_fontweight('normal')
+        for lbl in ax.get_yticklabels():
+            lbl.set_fontweight('normal')
 
         if idx % ncols == 0:
-            ax.set_ylabel('Agent Final Position', fontsize=12, fontweight='bold')
+            ax.set_ylabel('Final Position')
 
     for idx in range(n_gps, nrows * ncols):
         axes_flat[idx].set_visible(False)
@@ -739,22 +755,20 @@ def plot_grid_boxplot(
     # Shared legend
     legend_elements = [
         Line2D([0], [0], color='red', linestyle='--', linewidth=1.5,
-               label='Starting Position'),
+               label='Actual Starting Position'),
         Line2D([0], [0], color='blue', linestyle='--', linewidth=1.5,
-               label='Real Final Position'),
+               label='Actual Final Position'),
         Line2D([0], [0], marker='D', color='w', markerfacecolor='red',
                markeredgecolor='red', markersize=8, label='Mean'),
     ]
 
-    plt.tight_layout()
-    plt.subplots_adjust(bottom=0.06)
+    plt.tight_layout(rect=[0, 0.04, 1, 1])
 
     fig.legend(
         handles=legend_elements,
         loc='lower center',
-        bbox_to_anchor=(0.5, 0.01),
+        bbox_to_anchor=(0.5, 0.0),
         ncol=len(legend_elements),
-        fontsize=12,
         frameon=True,
     )
 

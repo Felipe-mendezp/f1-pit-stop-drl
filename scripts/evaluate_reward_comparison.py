@@ -26,10 +26,23 @@ import torch
 
 import matplotlib
 matplotlib.use('Agg')
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from typing import Dict, List
 from dataclasses import dataclass
+
+# Match the typography used in the paper figures (see
+# F1_all_drivers/evaluate_reward_comparison.py).
+mpl.rcParams.update({
+    'font.family':           'sans-serif',
+    'axes.titlesize':        17,
+    'axes.labelsize':        18,
+    'xtick.labelsize':       15,
+    'ytick.labelsize':       15,
+    'legend.fontsize':       16,
+    'legend.title_fontsize': 16,
+})
 
 from stable_baselines3.common.vec_env import DummyVecEnv, VecNormalize
 from sb3_contrib import RecurrentPPO
@@ -305,7 +318,7 @@ def plot_reward_comparison(
     save_dir: str,
 ):
     """Generate 3x3 grid boxplot: rows=GPs, columns=metrics (Times, Positions, Points)."""
-    fig, axes = plt.subplots(3, 3, figsize=(14, 10))
+    fig, axes = plt.subplots(3, 3, figsize=(20, 11), sharex=True)
 
     gp_display_names = [GP_CONFIGS[i]['display_name'] for i in GP_INDICES]
     metric_keys = ['total_time', 'final_position', 'points']
@@ -358,15 +371,19 @@ def plot_reward_comparison(
 
             # Column titles on top row only
             if row == 0:
-                ax.set_title(metric_name, fontsize=14, fontweight='bold')
+                ax.set_title(metric_name, fontweight='bold')
 
             # GP name as y-label on leftmost column only
             if col == 0:
-                ax.set_ylabel(gp_display_names[row], fontsize=12, fontweight='bold')
+                ax.set_ylabel(gp_display_names[row])
 
             ax.grid(axis='y', alpha=0.3, linestyle='-')
-            ax.tick_params(axis='x', labelsize=10)
-            ax.tick_params(axis='y', labelsize=10)
+            ax.tick_params(axis='x')
+            ax.tick_params(axis='y')
+            for lbl in ax.get_xticklabels():
+                lbl.set_fontweight('normal')
+            for lbl in ax.get_yticklabels():
+                lbl.set_fontweight('normal')
 
             # Integer y-axis for positions column
             if col == 1:
@@ -386,15 +403,13 @@ def plot_reward_comparison(
         ),
     ]
 
-    plt.tight_layout()
-    plt.subplots_adjust(bottom=0.08, wspace=0.25)
+    plt.tight_layout(rect=[0, 0.04, 1, 1])
 
     fig.legend(
         handles=legend_elements,
         loc='lower center',
-        bbox_to_anchor=(0.5, 0.005),
+        bbox_to_anchor=(0.5, 0.0),
         ncol=1,
-        fontsize=12,
         frameon=True,
     )
 

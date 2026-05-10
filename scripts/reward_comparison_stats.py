@@ -26,6 +26,7 @@ import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 from scipy.stats import mannwhitneyu
@@ -33,12 +34,26 @@ from statsmodels.stats.multitest import multipletests
 
 from evaluate_all_gps import GP_CONFIGS
 
+# Match the typography used in the paper figures (see
+# F1_all_drivers/reward_comparison_stats.py). Must come AFTER imports because
+# evaluate_all_gps sets font.family at module scope.
+mpl.rcParams.update({
+    'font.family':           'sans-serif',
+    'axes.titlesize':        17,
+    'axes.labelsize':        18,
+    'xtick.labelsize':       15,
+    'ytick.labelsize':       15,
+    'legend.fontsize':       16,
+    'legend.title_fontsize': 16,
+})
+
 # -------------------------------------------------------------------------
 # Constants
 # -------------------------------------------------------------------------
 
 BASE_DIR   = str(config.RL_AGENTS_DIR)
-GP_INDICES = [0, 3, 6]
+# GP indices in GP_CONFIGS: Bahrain=0, Miami=2, Dutch=6
+GP_INDICES = [0, 2, 6]
 
 REWARD_TYPES  = ['mix', 'time', 'position', 'points']
 REWARD_LABELS = ['mix', 'time', 'pos', 'points']
@@ -154,7 +169,7 @@ def plot_stats_grid(pval_df: pd.DataFrame, save_dir: str, variant: str) -> None:
     row_labels = REWARD_LABELS[0:3]  # ['mix', 'time', 'pos']
     col_labels = REWARD_LABELS[1:4]  # ['time', 'pos', 'points']
 
-    fig, axes = plt.subplots(3, 3, figsize=(13, 10))
+    fig, axes = plt.subplots(3, 3, figsize=(20, 11), sharex=True, sharey=True)
 
     for row, gp_name in enumerate(gp_display_names):
         for col, metric_name in enumerate(METRIC_NAMES):
@@ -177,12 +192,16 @@ def plot_stats_grid(pval_df: pd.DataFrame, save_dir: str, variant: str) -> None:
                     if not np.isnan(val):
                         txt = f"{val:.3f}" if val >= 0.001 else "<.001"
                         ax.text(j, i, txt, ha='center', va='center',
-                                fontsize=11, color='white', fontweight='bold')
+                                fontsize=18, color='white', fontweight='bold')
 
             ax.set_xticks(range(n))
             ax.set_yticks(range(n))
-            ax.set_xticklabels(col_labels, fontsize=9)
-            ax.set_yticklabels(row_labels, fontsize=9)
+            ax.set_xticklabels(col_labels)
+            ax.set_yticklabels(row_labels)
+            for lbl in ax.get_xticklabels():
+                lbl.set_fontweight('normal')
+            for lbl in ax.get_yticklabels():
+                lbl.set_fontweight('normal')
 
             # Hide invalid cells (strictly lower triangle: i > j)
             for i in range(n):
@@ -193,20 +212,19 @@ def plot_stats_grid(pval_df: pd.DataFrame, save_dir: str, variant: str) -> None:
                     ))
 
             if row == 0:
-                ax.set_title(metric_name, fontsize=13, fontweight='bold')
+                ax.set_title(metric_name, fontweight='bold')
             if col == 0:
-                ax.set_ylabel(gp_name, fontsize=11, fontweight='bold')
+                ax.set_ylabel(gp_name)
 
     # Legend
     from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor='#5CB85C', label=f'p < {ALPHA}'),
-        Patch(facecolor='#D9534F', label=f'p >= {ALPHA}'),
+        Patch(facecolor='#D9534F', label=f'p ≥ {ALPHA}'),
     ]
-    plt.tight_layout()
-    plt.subplots_adjust(bottom=0.08, wspace=0.3, hspace=0.3)
+    plt.tight_layout(rect=[0, 0.04, 1, 1])
     fig.legend(handles=legend_elements, loc='lower center',
-               bbox_to_anchor=(0.5, 0.005), ncol=2, fontsize=11, frameon=True)
+               bbox_to_anchor=(0.5, 0.0), ncol=2, frameon=True)
 
     pdf_name, png_name = PLOT_FILES[variant]
     pdf_path = os.path.join(save_dir, pdf_name)
