@@ -19,7 +19,10 @@ url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20060266"
-    description: "Archived release on Zenodo"
+    description: "Concept DOI on Zenodo (resolves to the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.20114287"
+    description: "Version DOI on Zenodo (v1.1.0, this specific snapshot)"
 keywords:
   - "Operations Research in Sports"
   - "Deep Reinforcement Learning"

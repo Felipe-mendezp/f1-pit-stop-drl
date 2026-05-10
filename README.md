@@ -15,7 +15,7 @@ This repository contains the data and code accompanying the manuscript
 vs. Mathematical Programming*, submitted to the **European Journal of
 Operational Research (EJOR)**.
 
-> Repository: `https://github.com/Felipe-mendezp/f1-pit-stop-drl` &nbsp;·&nbsp; Archived release: [`10.5281/zenodo.20060266`](https://doi.org/10.5281/zenodo.20060266)
+> Repository: `https://github.com/Felipe-mendezp/f1-pit-stop-drl` &nbsp;·&nbsp; Archived release (latest): [`10.5281/zenodo.20060266`](https://doi.org/10.5281/zenodo.20060266) &nbsp;·&nbsp; v1.1.0: [`10.5281/zenodo.20114287`](https://doi.org/10.5281/zenodo.20114287)
 
 ## Abstract
 
@@ -103,14 +103,15 @@ f1-pit-stop-drl/
 │   ├── train_rl_agents.py             # Train DRL agents (5 algorithms)
 │   ├── train_reward_comparison.py     # Train reward comparison agents
 │   ├── train_one_driver.py            # Single-driver training (QMIP benchmark)
-│   ├── evaluate_all_gps.py            # Evaluate vs. real 2024 data
-│   ├── evaluate_qmip_vs_drl.py        # QMIP vs. DRL comparison (Fig. 5, Tab. M.1)
-│   ├── evaluate_reward_comparison.py            # Reward comparison (deterministic)
-│   ├── evaluate_reward_comparison_stochastic.py # Reward comparison (stochastic)
+│   ├── evaluate_all_gps.py            # DRL-only evaluation vs. real 2024 data
+│   ├── evaluate_all_gps_with_qmip.py  # DRL + QMIP vs. real 2024 (Fig. 7)
+│   ├── evaluate_qmip_vs_drl.py        # DRL + QMIP fully simulated (Fig. 5, Fig. 6, Tab. M.1)
+│   ├── evaluate_reward_comparison.py            # Reward comparison deterministic (Fig. 8)
+│   ├── evaluate_reward_comparison_stochastic.py # Reward comparison stochastic (Fig. 9)
 │   ├── reward_comparison_stats.py     # Mann-Whitney U tests (Figs. O.1, O.2)
 │   ├── plot_outlier_removal.py        # Tire performance pre/post outlier removal (Fig. 3)
 │   ├── plot_driver_coef_mse.py        # Driver coefficient MSE (Fig. 4)
-│   └── plot_final_position_distribution.py  # Final position boxplots (Figs. 6, 7)
+│   └── plot_final_position_distribution.py  # DRL-only final-position boxplots (auxiliary)
 │
 ├── hyperparams/                 # RL hyperparameter configurations
 │   └── config.py                # DQN, A2C, TRPO, PPO, RPPO configs
@@ -149,21 +150,32 @@ Emilia Romagna, Hungarian, Belgian, Dutch, Singapore, and United States.
 Five DRL algorithms are compared: Double DQN, A2C, TRPO, PPO, and Recurrent
 PPO (RPPO).
 
+All cached simulation results are shipped under `trained_models/rl_agents/`, so
+the figures of the paper reproduce **byte-identically** with `--plot-only`
+(no GPU / no simulation required, runs in seconds):
+
 ```bash
-# QMIP vs. DRL benchmark (Figure 5, Table M.1)
-python scripts/evaluate_qmip_vs_drl.py
+# Fig. 6 — fully simulated DRL + QMIP (also produces Fig. 5 stints / Tab. M.1)
+python scripts/evaluate_qmip_vs_drl.py --plot-only
 
-# Final-position distributions on the full grid (Figures 6 & 7)
-python scripts/plot_final_position_distribution.py --mode simulated --output figs/figure_6.png
-python scripts/plot_final_position_distribution.py --mode real      --output figs/figure_7.png
+# Fig. 7 — real 2024 realizations, DRL + QMIP
+python scripts/evaluate_all_gps_with_qmip.py --plot-only
 
-# Reward comparison (Figures 8 & 9)
-python scripts/evaluate_reward_comparison.py
-python scripts/evaluate_reward_comparison_stochastic.py
+# Figs. 8 & 9 — reward function comparison (deterministic / stochastic)
+python scripts/evaluate_reward_comparison.py --plot-only
+python scripts/evaluate_reward_comparison_stochastic.py --plot-only
 
-# Mann-Whitney U statistical tests (Figures O.1 & O.2)
+# Figs. O.1 & O.2 — Mann-Whitney U pairwise heatmaps
 python scripts/reward_comparison_stats.py
+python scripts/reward_comparison_stats.py --stochastic
+
+# Figs. 3 & 4 — simulation-environment calibration
+python scripts/plot_outlier_removal.py --output figs/figure_3.png
+python scripts/plot_driver_coef_mse.py  --output figs/figure_4.png
 ```
+
+To re-run the underlying simulations (~10–60 min depending on GP count), drop
+`--plot-only`; results are statistically equivalent.
 
 ## Full Reproduction Pipeline
 
@@ -230,12 +242,18 @@ Trains DQN, A2C, TRPO, PPO, and Recurrent PPO using Stable-Baselines3
 ### Step 8: Evaluate
 
 ```bash
-python scripts/evaluate_all_gps.py
-python scripts/evaluate_qmip_vs_drl.py
-python scripts/evaluate_reward_comparison.py
-python scripts/evaluate_reward_comparison_stochastic.py
-python scripts/reward_comparison_stats.py
+python scripts/evaluate_qmip_vs_drl.py            # Fig. 6 (also Fig. 5 / Tab. M.1)
+python scripts/evaluate_all_gps_with_qmip.py      # Fig. 7
+python scripts/evaluate_reward_comparison.py      # Fig. 8
+python scripts/evaluate_reward_comparison_stochastic.py  # Fig. 9
+python scripts/reward_comparison_stats.py                # Fig. O.1
+python scripts/reward_comparison_stats.py --stochastic   # Fig. O.2
 ```
+
+> **Reproducibility note.** All `evaluate_*.py` scripts accept `--plot-only`,
+> which reuses the cached CSVs under `trained_models/rl_agents/` and produces
+> figures byte-identical to the paper artifacts. Re-running without
+> `--plot-only` re-runs the simulations (seeded, statistically identical).
 
 ## Reproducibility Map (Paper → Code)
 
@@ -328,7 +346,11 @@ take full responsibility for the content of the published article.
 ## Data Availability
 
 The data and code supporting the results of this study are available at
-`https://github.com/Felipe-mendezp/f1-pit-stop-drl` and archived on Zenodo at [https://doi.org/10.5281/zenodo.20060266](https://doi.org/10.5281/zenodo.20060266).
+`https://github.com/Felipe-mendezp/f1-pit-stop-drl` and archived on Zenodo at
+[https://doi.org/10.5281/zenodo.20060266](https://doi.org/10.5281/zenodo.20060266)
+(concept DOI — always resolves to the latest version). The specific snapshot
+accompanying this revision is v1.1.0,
+[https://doi.org/10.5281/zenodo.20114287](https://doi.org/10.5281/zenodo.20114287).
 
 ## Citation
 
@@ -348,7 +370,7 @@ The data and code supporting the results of this study are available at
                {Mathematical Programming}},
   year      = {2025},
   publisher = {Zenodo},
-  version   = {v1.0.0},
+  version   = {v1.1.0},
   doi       = {10.5281/zenodo.20060266},
   url       = {https://doi.org/10.5281/zenodo.20060266},
   note      = {[dataset]}
