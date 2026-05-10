@@ -83,7 +83,7 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
     Elimina ciertos Grandes Premios y filas con TrackStatus erroneo.
 
     Args:
-    - laps (pd.DataFrame): DataFrame con datos de vueltas de carreras.
+    - laps (pd.DataFrame): DataFrame with race lap data.
 
     Returns:
     - pd.DataFrame: DataFrame limpio.
@@ -91,10 +91,10 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
     # Eliminamos los GP donde se uso Compound WET o INTERMEDIATE
     laps_filter = laps[~laps['Compound'].isin(['WET', 'INTERMEDIATE'])].copy()
 
-    # Filtramos solo compuestos C1-C5 (excluir C0)
+    # Keep only compounds C1-C5 (exclude C0)
     laps_filter = laps_filter[laps_filter['Compound_Detail'].isin(['C1', 'C2', 'C3', 'C4', 'C5'])].copy()
 
-    # Calcular el numero maximo de vueltas por Year, GP y Driver
+    # Compute the maximum lap number per (Year, GP, Driver)
     max_laps = laps_filter.groupby(['Year', 'GP', 'Driver'])['LapNumber'].transform('max')
 
     # Crear la columna 'LapsLeft'
@@ -108,10 +108,10 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
 
 def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
     """
-    Funcion optimizada para el analisis de vueltas de F1.
+    Optimized function for analyzing F1 laps.
 
     Args:
-        laps_2021_2022_2023: DataFrame con datos de vueltas
+        laps_2021_2022_2023: DataFrame with lap data
         selected_GP: Lista de GPs seleccionados
         reg_clear_dd: Diccionario con modelos de regresion
 
@@ -120,7 +120,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
     """
 
     # 1. PREPARACION DE DATOS CON ENCODING EFICIENTE
-    print("Preparando datos y creando variables dummy...")
+    print("Preparing data and creating dummy variables...")
     all_laps_df = laps_2021_2022_2023.copy()
 
     # Guardar columnas originales antes de crear dummies (necesarias para merge)
@@ -141,7 +141,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
     all_laps_df['Driver'] = all_laps_df['Driver_original']
     all_laps_df = all_laps_df.drop(columns=['Year_original', 'Driver_original'])
 
-    # Crear variable LapNumber_square (PitIn y PitOut ya existen en los datos)
+    # Build LapNumber_square (PitIn and PitOut already exist in the data)
     all_laps_df['LapNumber_square'] = all_laps_df['LapNumber'] ** 2
 
     # Variable FirstLap_pos (ya se calculo antes, pero aseguramos que existe)
@@ -158,7 +158,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
 
     # 2. PREDICCIONES OPTIMIZADAS
     print("Calculando predicciones...")
-    # Filtrar datos relevantes desde el inicio
+    # Filter relevant data up front
     relevant_data = all_laps_df[all_laps_df['GP'].isin(selected_GP)].copy()
     relevant_data['LapTime_pred'] = np.nan
 
@@ -187,7 +187,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
 
     # 3. PREPARACION DEL DATASET FINAL
     print("Preparando dataset final...")
-    # Usar datos originales filtrados y agregar predicciones
+    # Use original filtered data and append predictions
     logit_df = laps_2021_2022_2023[laps_2021_2022_2023['GP'].isin(selected_GP)].copy()
 
     # Merge correcto usando columnas clave para asegurar alineacion
@@ -216,7 +216,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
     print("Detectando adelantamientos...")
     logit_df['overtake'] = 0
 
-    # Pre-filtrar candidatos a adelantamiento
+    # Pre-filter overtake candidates
     overtake_candidates = logit_df[
         (logit_df['LapNumber'] > 1) &
         (logit_df['position_gain/loss'] > 0) &
@@ -267,7 +267,7 @@ def optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd):
         lap_times_dict = group.set_index(['Driver', 'LapNumber'])['LapTime_pred'].to_dict()
         position_dict = group.set_index(['LapNumber', 'Position'])['Driver'].to_dict()
 
-        # Filtrar solo posiciones que no son primera
+        # Keep only positions that are not the leader (P1)
         non_leaders = group[group['Position'] > 1].copy()
 
         for idx, row in non_leaders.iterrows():
@@ -298,7 +298,7 @@ def enhanced_logit_modeling_with_evaluation(logit_df, min_samples=30, min_positi
     Funcion mejorada que combina modelado robusto con evaluacion completa.
 
     Args:
-        logit_df: DataFrame con los datos
+        logit_df: DataFrame with the data
         min_samples: Minimo numero de muestras por GP
         min_positives: Minimo numero de casos positivos por GP
         show_plots: Si mostrar graficos
@@ -315,7 +315,7 @@ def enhanced_logit_modeling_with_evaluation(logit_df, min_samples=30, min_positi
         os.makedirs(plot_dir, exist_ok=True)
 
     # 1. LIMPIEZA DE DATOS
-    print("Preparando datos...")
+    print("Preparing data...")
     logit_df_clean = logit_df.dropna(subset=['interval_front_real', 'delta_t_lap', 'DRS', 'overtake']).copy()
     logit_df_clean = logit_df_clean[logit_df_clean['interval_front_real'] <= 1.0]
     logit_df_clean['delta_total'] = logit_df_clean['interval_front_real'] + logit_df_clean['delta_t_lap']
@@ -355,7 +355,7 @@ def enhanced_logit_modeling_with_evaluation(logit_df, min_samples=30, min_positi
             'delta_total_std': gp_df['delta_total'].std(),
         }
 
-        # Verificar datos suficientes
+        # Verify sufficient data
         if n_total < min_samples:
             print(f"SALTADO: Muy pocas muestras ({n_total} < {min_samples})")
             results['failed_gps'].append((gp, "insufficient_samples"))
@@ -400,7 +400,7 @@ def enhanced_logit_modeling_with_evaluation(logit_df, min_samples=30, min_positi
 
         # 4. PREDICCIONES Y EVALUACION
         try:
-            # Preparar datos para prediccion
+            # Prepare data for prediction
             if method_used == "statsmodels":
                 X_pred = sm.add_constant(X)
             else:
@@ -552,7 +552,7 @@ if __name__ == "__main__":
     laps_2021_2022_2023, selected_GP, reg_clear_dd = load_data()
     logit_df = optimize_f1_analysis(laps_2021_2022_2023, selected_GP, reg_clear_dd)
 
-    # Filtramos algunas excepciones
+    # Filter a few exceptions
     logit_df = logit_df[logit_df['LapNumber'] > 3]
     logit_df = logit_df[logit_df['LapNumber'] < logit_df['LastLap']]
 

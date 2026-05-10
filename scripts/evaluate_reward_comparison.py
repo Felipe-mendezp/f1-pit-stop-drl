@@ -9,7 +9,7 @@ if _scripts_dir not in sys.path:
 
 """
 Evaluate RecurrentPPO models trained with 4 reward types (mix, time, position, points)
-across 3 GPs (Bahrain, Emilia Romagna, Dutch).
+across 3 GPs (Bahrain, Miami, Dutch).
 
 Generates a 3x3 grid boxplot: rows=GPs, columns=metrics (Times, Positions, Points).
 Each subplot has 4 boxplots for the 4 reward types.
@@ -48,8 +48,8 @@ F1_POINTS = {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}
 
 N_SIMULATIONS = 500
 
-# GP indices in GP_CONFIGS: Bahrain=0, Emilia Romagna=3, Dutch=6
-GP_INDICES = [0, 3, 6]
+# GP indices in GP_CONFIGS: Bahrain=0, Miami=2, Dutch=6
+GP_INDICES = [0, 2, 6]
 
 # Reward types and display labels
 REWARD_TYPES = ['mix', 'time', 'position', 'points']

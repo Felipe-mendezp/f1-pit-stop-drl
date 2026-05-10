@@ -23,7 +23,10 @@ Algorithm Priority (research-based):
 5. TRPO - Included for completeness (10x slower than PPO)
 """
 
+import argparse
 import pickle
+import random
+import numpy as np
 from tqdm import tqdm
 import torch
 import torch.nn as nn
@@ -34,6 +37,15 @@ from stable_baselines3.common.callbacks import EvalCallback
 from stable_baselines3.common.vec_env import sync_envs_normalization
 from sb3_contrib import RecurrentPPO, TRPO
 from environment.f1_env_one_driver import F1EnvOneDriverV2Optimized
+
+
+def seed_all(seed: int) -> None:
+    """Seed every RNG that affects training reproducibility."""
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 # Import FastLinearPredictor from reg.py
 from reg import FastLinearPredictor
@@ -83,6 +95,14 @@ MODELS_OUTPUT = str(config.RL_AGENTS_DIR / 'one_driver')
 # Main execution (required for multiprocessing with SubprocVecEnv)
 # ============================================================================
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Single-driver RL training (QMIP benchmark setup).")
+    parser.add_argument('--seed', type=int, default=42,
+                        help='Base random seed for reproducibility. Default: 42.')
+    args = parser.parse_args()
+
+    BASE_SEED = args.seed
+    seed_all(BASE_SEED)
+
     # ============================================================================
     # Load FAST PREDICTORS (32x speedup)
     # ============================================================================
@@ -191,7 +211,8 @@ if __name__ == "__main__":
             policy_kwargs=policy_kwargs_rppo,
             tensorboard_log=f"{MODELS_OUTPUT}/tensorboard_det/",
             device="cpu",  # RecurrentPPO is CPU-bound on M3
-            verbose=1
+            verbose=1,
+            seed=BASE_SEED,
         )
 
         model_RecurrentPPO.learn(
@@ -238,7 +259,8 @@ if __name__ == "__main__":
             policy_kwargs=policy_kwargs_ppo,
             tensorboard_log=f"{MODELS_OUTPUT}/tensorboard_det/",
             device="cpu",  # PPO is CPU-bound
-            verbose=1
+            verbose=1,
+            seed=BASE_SEED + 1,
         )
 
         model_PPO.learn(
@@ -285,7 +307,8 @@ if __name__ == "__main__":
             policy_kwargs=policy_kwargs_dqn,
             tensorboard_log=f"{MODELS_OUTPUT}/tensorboard_det/",
             device="cpu",
-            verbose=1
+            verbose=1,
+            seed=BASE_SEED + 2,
         )
 
         model_DQN.learn(
@@ -330,7 +353,8 @@ if __name__ == "__main__":
             policy_kwargs=policy_kwargs_a2c,
             tensorboard_log=f"{MODELS_OUTPUT}/tensorboard_det/",
             device="cpu",
-            verbose=1
+            verbose=1,
+            seed=BASE_SEED + 3,
         )
 
         model_A2C.learn(
@@ -372,7 +396,8 @@ if __name__ == "__main__":
             policy_kwargs=policy_kwargs_trpo,
             tensorboard_log=f"{MODELS_OUTPUT}/tensorboard_det/",
             device="cpu",
-            verbose=1
+            verbose=1,
+            seed=BASE_SEED + 4,
         )
 
         model_TRPO.learn(

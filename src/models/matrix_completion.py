@@ -185,7 +185,7 @@ def add_component(compound):
     return None
 
 def print_diagnostic(title, data, map_compound_2024=None):
-    """Imprime diagnostico de cuantos GPs y que datos tienen."""
+    """Print a diagnostic of how many GPs are present and what data they have."""
     print(f"\n{'='*60}")
     print(f"DIAGNOSTICO: {title}")
     print(f"{'='*60}")
@@ -215,13 +215,13 @@ def fun_real_data_v2():
     cols_components = ["C"+str(i)+"" for i in range(0, 6)]
 
     # table of 2024 compounds
-    # NOTA: Chinese Grand Prix excluido porque no tiene datos historicos (2021-2023)
+    # NOTE: Chinese Grand Prix excluded because it has no historical data (2021-2023)
     map_compound_2024 = {
         'Bahrain Grand Prix': {'SOFT': 'C3', 'MEDIUM': 'C2', 'HARD': 'C1'},
         'Saudi Arabian Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
         'Australian Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Japanese Grand Prix': {'SOFT': 'C3', 'MEDIUM': 'C2', 'HARD': 'C1'},
-        # 'Chinese Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},  # Excluido: sin datos historicos
+        # 'Chinese Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},  # Excluded: no historical data
         'Miami Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
         'Emilia Romagna Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Monaco Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
@@ -267,15 +267,15 @@ def fun_real_data_v2():
     df_fixed["ref_code"] = df_fixed["Variable"].str.extract(r"reference='(C\d+)'", expand=True)
     gp_ref = (df_fixed[["GP", "ref_code"]].dropna().drop_duplicates(subset=["GP"]))  # asumimos 1 ref_code por GP
 
-    # 2) Construir filas nuevas (una por GP) con Variable=ref_code, Coef=0, p-value=-1
+    # 2) Build new rows (one per GP) with Variable=ref_code, Coef=0, p-value=-1
     new_rows = (gp_ref.rename(columns={"ref_code": "Variable"}).assign(Coef=0, **{"p-value": -1}))
 
-    # 3) En las filas antiguas: dejar Variable como (antepenultimo + penultimo) caracter.
-    #    Preferimos extraer "C#" con regex; si no, fallback con slicing [-3:-1].
+    # 3) For legacy rows: keep Variable as the (antepenultimate + penultimate) character.
+    #    Prefer extracting "C#" with regex; otherwise fall back to slicing [-3:-1].
     old = df_fixed.drop(columns=["ref_code"]).copy()
     # Intento con regex [T.C#]
     extracted = old["Variable"].str.extract(r"\[T\.(C\d+)\]", expand=True)[0]
-    # Fallback: antepenultimo + penultimo (siempre que el string tenga largo suficiente)
+    # Fallback: antepenultimate + penultimate (when the string is long enough)
     fallback = old["Variable"].str[-3:-1]
     old["Variable"] = extracted.fillna(fallback)
 
@@ -305,8 +305,8 @@ def fun_real_data_v2():
     # remover GP que no esten en 2024
     df_wide_fixed = df_wide_fixed[df_wide_fixed.index.isin(map_compound_2024.keys())]
 
-    # DIAGNOSTICO 2: df_wide_fixed despues de filtrar por GPs 2024
-    print_diagnostic("2. df_wide_fixed (despues de filtrar GPs 2024)", df_wide_fixed, map_compound_2024)
+    # DIAGNOSTIC 2: df_wide_fixed after filtering by 2024 GPs
+    print_diagnostic("2. df_wide_fixed (after filtering 2024 GPs)", df_wide_fixed, map_compound_2024)
 
     # aplicar un offset en las filas en que el C3 no sea 0, para que lo sea
     dict_offset_fixed = {}
@@ -353,21 +353,21 @@ def fun_real_data_v2():
     # remover GP que no esten en 2024
     df_wide_variable = df_wide_variable[df_wide_variable.index.isin(map_compound_2024.keys())]
 
-    # DIAGNOSTICO 3: df_wide_variable antes de filtrar negativos
-    print_diagnostic("3. df_wide_variable (antes de filtrar negativos)", df_wide_variable, map_compound_2024)
+    # DIAGNOSTIC 3: df_wide_variable before filtering negatives
+    print_diagnostic("3. df_wide_variable (before filtering negatives)", df_wide_variable, map_compound_2024)
 
     # replace negative values with NaN
     n_negative = (df_wide_variable < 0).sum().sum()
     print(f"\n*** Valores negativos encontrados (seran NaN): {n_negative} ***")
     df_wide_variable = df_wide_variable.where(df_wide_variable >= 0, np.nan)
 
-    # DIAGNOSTICO 4: df_wide_variable despues de filtrar negativos
-    print_diagnostic("4. df_wide_variable (despues de filtrar negativos)", df_wide_variable, map_compound_2024)
+    # DIAGNOSTIC 4: df_wide_variable after filtering negatives
+    print_diagnostic("4. df_wide_variable (after filtering negatives)", df_wide_variable, map_compound_2024)
 
     print(f"\ndf_wide_variable:")
     print(df_wide_variable)
 
-    # construir dataframe con valores pivotes, con NaN en todas las posiciones excepto en las que haya 0 para coeficientes fijos
+    # Build a pivot dataframe with NaN in all positions except where there is a 0 for fixed coefficients
     df_pivotes_fixed = df_wide_fixed.copy()
     # fill all values with nan except values that are equal to 0
     df_pivotes_fixed = df_pivotes_fixed.where(df_pivotes_fixed == 0, np.nan)
@@ -407,7 +407,7 @@ def fun_real_data_v2():
     print(df_pivotes_fixed)
     dict_fixed = df_to_dict(df_pivotes_fixed)
 
-    # DIAGNOSTICO 5: dict_fixed despues de filtrar por compatibilidad
+    # DIAGNOSTIC 5: dict_fixed after compatibility filtering
     print_diagnostic("5. dict_fixed (despues de check_compatibility)", dict_fixed, map_compound_2024)
 
     # Contar cuantos compuestos tiene cada GP vs cuantos necesita para 2024
@@ -454,7 +454,7 @@ def fun_real_data_v2():
 
     dict_variable = df_to_dict(df_pivotes_variable)
 
-    # DIAGNOSTICO 6: dict_variable despues de filtrar por compatibilidad
+    # DIAGNOSTIC 6: dict_variable after compatibility filtering
     print_diagnostic("6. dict_variable (despues de check_compatibility)", dict_variable, map_compound_2024)
 
     # Contar cuantos compuestos tiene cada GP vs cuantos necesita para 2024
@@ -608,7 +608,7 @@ def fun_real_data_v2():
         df_fixed_final.to_excel(writer, sheet_name='fixed')
         df_variable_final.to_excel(writer, sheet_name='variable')
 
-    # si quisieramos filtrar los circuitos de 2024 con 3 neumaticos, seria asi
+    # To filter the 2024 circuits with 3 compounds, do this:
     gp_with_3 = []
     for gp, comp_map in map_compound_2024.items():
         if gp in dict_fixed and gp in dict_variable:

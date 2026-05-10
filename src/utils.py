@@ -188,7 +188,7 @@ def update_lap_state(lap_state: pd.DataFrame, action: int, pit_out: int, yellow_
     Actualiza el estado de una vuelta en una simulacion de carreras de Formula 1.
 
     Args:
-        lap_state (pd.DataFrame): Estado actual de la vuelta, representado como un diccionario.
+        lap_state (pd.DataFrame): Current lap state, represented as a dictionary.
         env: Ambiente de Gym de formula 1.
 
     Returns:
@@ -238,7 +238,7 @@ def update_lap_state2(lap_state: dict, action: int, prev_action: int, yf: bool) 
     Actualiza el estado de una vuelta en una simulacion de carreras de Formula 1.
 
     Args:
-        lap_state (dict): Estado actual de la vuelta, representado como un diccionario.
+        lap_state (dict): Current lap state, represented as a dictionary.
         action (int): Accion que toma el agente
 
     Returns:
@@ -289,7 +289,7 @@ def update_lap_state3(lap_state: dict, action: int, prev_action: int, position: 
     Actualiza el estado de una vuelta en una simulacion de carreras de Formula 1.
 
     Args:
-        lap_state (dict): Estado actual de la vuelta, representado como un diccionario.
+        lap_state (dict): Current lap state, represented as a dictionary.
         action (int): Accion que toma el agente
 
     Returns:
@@ -528,10 +528,10 @@ def evaluate_strategy(gp: str, driver: str, strategy: list[tuple]) -> tuple[list
     Args:
         model_laptime (_type_): modelo de la regresion para predecir el tiempo de cada vuelta.
         driver (str): Piloto a evaluar.
-        strategy (list[tuple]): Estrategia a evaluar. Debe ser una lista de tuplas con el tipo de nuematico y la cantidad de vueltas.
+        strategy (list[tuple]): Strategy to evaluate. Must be a list of tuples (tire compound, number of laps).
 
     Returns:
-        tuple[list, float]: Tupla con la lista con los tiempos de vuelta y el tiempo total de la carrera.
+        tuple[list, float]: Tuple with the list of lap times and the total race time.
     """
     path = SIMULATION_DIR
     with open(f"{path}/{gp}_reg_Pickle.pkl", "rb") as f:
@@ -581,10 +581,10 @@ def evaluate_strategy2(gp: str, driver: str, strategy: list[tuple]) -> tuple[lis
     Args:
         model_laptime (_type_): modelo de la regresion para predecir el tiempo de cada vuelta.
         driver (str): Piloto a evaluar.
-        strategy (list[tuple]): Estrategia a evaluar. Debe ser una lista de tuplas con el tipo de nuematico y la cantidad de vueltas.
+        strategy (list[tuple]): Strategy to evaluate. Must be a list of tuples (tire compound, number of laps).
 
     Returns:
-        tuple[list, float]: Tupla con la lista con los tiempos de vuelta y el tiempo total de la carrera.
+        tuple[list, float]: Tuple with the list of lap times and the total race time.
     """
     path = SIMULATION_DIR
     with open(f"{path}/{gp}_reg_Pickle.pkl", "rb") as f:

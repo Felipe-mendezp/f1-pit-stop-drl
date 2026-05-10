@@ -221,8 +221,8 @@ decisions.
 # Train all 5 algorithms on a specific GP/driver
 python scripts/train_rl_agents.py --gp "Bahrain Grand Prix" --driver Driver_ALO
 
-# Train on every GP
-python scripts/train_rl_agents.py --all
+# Train on every GP (one driver, all 5 algorithms)
+python scripts/train_rl_agents.py --gp all --driver Driver_VER
 ```
 Trains DQN, A2C, TRPO, PPO, and Recurrent PPO using Stable-Baselines3
 (5 M timesteps each). Hyperparameters are listed in `hyperparams/config.py`.

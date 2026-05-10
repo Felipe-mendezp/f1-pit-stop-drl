@@ -21,9 +21,9 @@ import torch.nn as nn
 # =============================================================================
 TRAINING_CONFIG = {
     'total_timesteps': 5_000_000,
-    'n_envs': 10,                    # Menos envs → más episodios por env (~8600)
-    'eval_freq': 15_000,             # Evaluación más frecuente para early stopping preciso
-    'n_eval_episodes': 50,           # Reducido para ahorrar tiempo de evaluación
+    'n_envs': 10,                    # Fewer envs -> more episodes per env (~8600)
+    'eval_freq': 15_000,             # More frequent evaluation for precise early stopping
+    'n_eval_episodes': 50,           # Reduced to save evaluation time
     'early_stop_patience': 25,
 }
 
@@ -40,73 +40,19 @@ def linear_schedule(lr_start: float, lr_end: float):
 # =============================================================================
 # 1. DQN
 # =============================================================================
-# DQN_CONFIG (previous - median P8, IQR P5-P11)
-# DQN_CONFIG = {
-#     'policy': 'MultiInputPolicy',
-#     'gamma': 0.995,
-#     'buffer_size': 1_500_000,
-#     'batch_size': 256,
-#     'exploration_fraction': 0.3,
-#     'exploration_final_eps': 0.03,
-#     'target_update_interval': 1500,
-#     'policy_kwargs': {
-#         'activation_fn': nn.ReLU,
-#         'net_arch': [256, 256, 256],
-#     },
-# }
-
-# DQN_CONFIG v2 (mean P10.18, IQR 5.37 — worst among 5 algos)
-# DQN_CONFIG = {
-#     'policy': 'MultiInputPolicy',
-#     'gamma': 0.995,
-#     'learning_rate': 5e-4,
-#     'buffer_size': 1_500_000,
-#     'batch_size': 512,
-#     'learning_starts': 10_000,
-#     'exploration_fraction': 0.4,
-#     'exploration_final_eps': 0.05,
-#     'target_update_interval': 1000,
-#     'policy_kwargs': {
-#         'activation_fn': nn.ReLU,
-#         'net_arch': [256, 128],
-#     },
-# }
-
-# DQN_CONFIG v3 (mean P11.87 — too many changes at once)
-# DQN_CONFIG = {
-#     'policy': 'MultiInputPolicy',
-#     'gamma': 0.99, 'learning_rate': linear_schedule(5e-4, 5e-5),
-#     'buffer_size': 500_000, 'batch_size': 256, 'learning_starts': 10_000,
-#     'train_freq': 4, 'gradient_steps': 4, 'tau': 0.01,
-#     'target_update_interval': 500, 'exploration_fraction': 0.5,
-#     'exploration_final_eps': 0.08, 'max_grad_norm': 1.0,
-#     'policy_kwargs': {'activation_fn': nn.ReLU, 'net_arch': [512, 256, 128]},
-# }
-
-# DQN_CONFIG v4 (mean P10.56 — LR schedule + bigger net on v2 base)
-# DQN_CONFIG = {
-#     'policy': 'MultiInputPolicy',
-#     'gamma': 0.995, 'learning_rate': linear_schedule(5e-4, 5e-5),
-#     'buffer_size': 1_500_000, 'batch_size': 512, 'learning_starts': 10_000,
-#     'exploration_fraction': 0.4, 'exploration_final_eps': 0.05,
-#     'target_update_interval': 1000,
-#     'policy_kwargs': {'activation_fn': nn.ReLU, 'net_arch': [512, 256, 128]},
-# }
-
-# v5: Based on v1 (median P8) + LR schedule as only new addition
 DQN_CONFIG = {
     'policy': 'MultiInputPolicy',
     'gamma': 0.995,
-    'learning_rate': linear_schedule(3e-4, 1e-5),           # v1 used 1e-4 fixed; start 3x faster, decay to avoid late oscillation.
+    'learning_rate': linear_schedule(3e-4, 1e-5),  # Annealed: start fast, decay to avoid late oscillation
     'buffer_size': 1_500_000,
-    'batch_size': 256,                                      # v1's value (smaller → more diverse gradient updates).
-    'learning_starts': 30_000,                              # Compromise: v1=50K, v2=10K. Let buffer fill before learning.
-    'exploration_fraction': 0.3,                            # v1's value.
-    'exploration_final_eps': 0.05,                          # Slight bump from v1's 0.03 for non-stationary env.
-    'target_update_interval': 1500,                         # v1's value (slower → more stable target network).
+    'batch_size': 256,
+    'learning_starts': 30_000,                     # Let buffer accumulate before learning
+    'exploration_fraction': 0.3,
+    'exploration_final_eps': 0.05,
+    'target_update_interval': 1500,                # Slower target updates -> more stable
     'policy_kwargs': {
         'activation_fn': nn.ReLU,
-        'net_arch': [256, 256, 256],                        # v1's architecture (3-layer, more capacity for 203-259 dim input).
+        'net_arch': [256, 256, 256],               # 3-layer net for the 203-259 dim input
     },
 }
 
@@ -117,12 +63,13 @@ DQN_CONFIG = {
 A2C_CONFIG = {
     'policy': 'MultiInputPolicy',
     'gamma': 0.995,
-    'learning_rate': 5e-4,   # Más alto para convergencia rápida con 5M
-    'ent_coef': 0.01,        # Menos ruido exploratorio → explotación más rápida
+    'learning_rate': 5e-4,   # Higher LR for faster convergence within 5M timesteps
+    'ent_coef': 0.01,        # Lower exploration noise -> faster exploitation
     'vf_coef': 0.5,
+    'gae_lambda': 1.0,       # Matches Table F.2 (high-variance Monte-Carlo advantage)
     'policy_kwargs': {
         'activation_fn': nn.ReLU,
-        'net_arch': [256, 128],  # Más compacta: suficiente para Discrete(4)
+        'net_arch': [256, 128],  # Compact: sufficient for Discrete(4) action space
     },
 }
 
@@ -134,7 +81,8 @@ TRPO_CONFIG = {
     'gamma': 0.995,
     'learning_rate': 5e-4,
     'cg_max_steps': 15,
-    'target_kl': 0.02,      # Más permisivo → pasos de policy más grandes con pocos datos
+    'target_kl': 0.02,       # Looser KL bound -> larger policy steps when data is scarce
+    'gae_lambda': 0.95,
     'policy_kwargs': {
         'activation_fn': nn.ReLU,
         'net_arch': [256, 128],
@@ -172,6 +120,7 @@ RECURRENT_PPO_CONFIG = {
     'clip_range': 0.25,
     'vf_coef': 0.01,
     'max_grad_norm': 0.6,
+    'gae_lambda': 0.95,
     'policy_kwargs': {
         'activation_fn': nn.ReLU,
         'lstm_hidden_size': 64,

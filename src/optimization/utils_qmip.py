@@ -68,7 +68,7 @@ class SimplifiedLaptimeCalculator:
             c_num = int(param.split('[T.C')[1].rstrip(']'))
             compounds_in_params.add(c_num)
 
-        # Construir diccionario de efectos
+        # Build effects dictionary
         self.compound_effects = {}
         for compound in self.available_compounds:
             if compound == reference_compound:
@@ -97,7 +97,7 @@ class SimplifiedLaptimeCalculator:
 
         Args:
             compound: Compuesto actual (3, 4, 5)
-            tyre_life: Edad del neumatico
+            tyre_life: Age of the tire (laps in use)
             pit_in: 1.0 si entra a pits, 0.0 si no
             pit_out: 1.0 si sale de pits, 0.0 si no
 
@@ -146,7 +146,7 @@ def extract_simplified_calculator(model_laptime, available_compounds: list) -> S
         has_fast = False
         FastLinearPredictor = None
 
-    # Extraer parametros segun el tipo de modelo
+    # Extract parameters according to the model type
     if has_fast and isinstance(model_laptime, FastLinearPredictor):
         # FastLinearPredictor: usar coef_ y feature_names_
         params_dict = dict(zip(model_laptime.feature_names_, model_laptime.coef_))

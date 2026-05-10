@@ -5,23 +5,22 @@ from gurobipy import GRB
 Tires = ["Soft", "Medium", "Hard"]
 
 def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous, p, gamma, N, verbose=True):
-    # betas_dicts : diccionario de los beta, la llave el el tipo de neumatico, y el valor es una lista de tamaño 2 (beta0 y beta1)
-    # time_stop : tiempo de parada en piuts
-    # n : numero de vueltas faltantes
-    # t_current : tipo de neumatico actual
-    # w_current : desgaste actual del neumatico
-    # t_previous : tipos de neumaticos anteriores usados // Soft, Medium, Hard
-    # p : number of stints to consider
-    # gamma : 1 if we are at a yellow flag right now, 0 if not
+    # betas_dict : dict of regression betas; key = tire compound name, value = list of length 2 [beta0, beta1]
+    # time_stop  : pit-stop time loss (seconds)
+    # n          : number of remaining laps
+    # t_current  : current tire compound in use
+    # w_current  : current tire wear (laps on this compound)
+    # t_previous : list of previously used tire compounds (subset of Soft / Medium / Hard)
+    # p          : number of stints to consider
+    # gamma      : 1 if a yellow flag is active now, 0 otherwise
+    # N          : total race length in laps (used to detect the start-of-race case)
 
     # Create a new optimization model
     model = gp.Model("MIQP_Problem")
     if not verbose:
         model.setParam('OutputFlag', 0)
 
-    # Define your parameters
-    # n = 20
-    # w_current = 5
+    # Encode the candidate stint sequence: p copies of (Soft, Medium, Hard).
     t_s = [1, 2, 3] * p
     k = len(t_s)
 
@@ -82,11 +81,11 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     for i in range(0, 3 * (p - 1), 3):
         model.addConstr(y[i] + y[i + 1] + y[i + 2] >= y[i + 3] + y[i + 4] + y[i + 5])
 
-    # restricción de parar durante la bandera amarilla
+    # Constraint to enforce pitting under a yellow flag if one is active
     model.addConstr(z <= gamma  - x[0] * gamma / n)
     model.addConstr(gamma  - x[0] * gamma <= z)
-    
-    # restricciones para arreglar grafico estrategias 
+
+    # Constraints used by the strategy-plot post-processing
     model.addConstr(x[0] >= int(n == N))
     
     for i in range(1, 3 * (p - 1) + 1, 3):
@@ -109,14 +108,15 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     return x_values, y_values, opt_val
 
 def solve_MIP_GUROBI_start(betas_dict, time_stop, n, w_current, t_previous, p, gamma, N, verbose=True):
-    # betas_dicts : diccionario de los beta, la llave el el tipo de neumatico, y el valor es una lista de tamaño 2 (beta0 y beta1)
-    # time_stop : tiempo de parada en piuts
-    # n : numero de vueltas faltantes
-    # t_current : tipo de neumatico actual
-    # w_current : desgaste actual del neumatico
-    # t_previous : tipos de neumaticos anteriores usados
-    # p : cantidad máxima de paradas en pits
-    # gamma : 1 if we are at a yellow flag right now, 0 if not
+    # Start-of-race variant: also chooses the starting compound by sweeping all Tires.
+    # betas_dict : dict of regression betas; key = tire compound name, value = list of length 2 [beta0, beta1]
+    # time_stop  : pit-stop time loss (seconds)
+    # n          : number of remaining laps
+    # w_current  : current tire wear
+    # t_previous : list of previously used tire compounds
+    # p          : maximum number of pit stops to consider
+    # gamma      : 1 if a yellow flag is active now, 0 otherwise
+    # N          : total race length in laps
 
     x_opt = None
     y_opt = None

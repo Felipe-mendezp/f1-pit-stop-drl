@@ -50,7 +50,7 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
     Elimina ciertos Grandes Premios y filas con compound WET - INT.
 
     Args:
-    - laps (pd.DataFrame): DataFrame con datos de vueltas de carreras.
+    - laps (pd.DataFrame): DataFrame with race lap data.
 
     Returns:
     - pd.DataFrame: DataFrame limpio.
@@ -101,7 +101,7 @@ def all_laps(outliers=False):
         # Condicion para excepciones
         exceptions = (laps_2021_2022_2023['PitIn'] == 1.0) | (laps_2021_2022_2023['PitOut'] == 1.0) | (laps_2021_2022_2023['LapNumber'] == 1)
 
-        # Filtrar: eliminar solo los casos que son muy lentos y **no** cumplen una excepcion
+        # Filter: drop only the very-slow cases that do **not** satisfy an exception
         laps_2021_2022_2023 = laps_2021_2022_2023[~(too_slow & ~exceptions)]
 
     return laps_2021_2022_2023
@@ -119,7 +119,7 @@ def calibrar_regresion_gp(data_gp):
     Parameters
     ----------
     data_gp : pandas.DataFrame
-        DataFrame con los datos de vueltas ya filtrados por GP y TrackStatus.
+        DataFrame with the lap data ya filtrados por GP y TrackStatus.
 
     Returns
     -------
@@ -127,7 +127,7 @@ def calibrar_regresion_gp(data_gp):
         Modelo calibrado final.
     """
     if data_gp.empty:
-        raise ValueError("No hay datos para calibrar la regresion")
+        raise ValueError("No data available to calibrate the regression")
 
     # convertir Year a string para tratarlo como categorica
     data_gp = data_gp.copy()
@@ -158,28 +158,28 @@ def calibrar_regresion_gp(data_gp):
 def filtrar_outliers_iqr(df, gp_name, k=3, max_iter=10):
     """
     Filtra iterativamente outliers usando el metodo IQR sobre los residuos de la regresion
-    y recalibra el modelo con los datos filtrados.
+    and recalibrates the model on the filtered data.
 
     Parameters
     ----------
     df : pandas.DataFrame
-        DataFrame con los datos de vueltas.
+        DataFrame with the lap data.
     gp_name : str
-        Nombre del GP sobre el cual filtrar y calibrar la regresion.
+        Name of the GP on which to filter and calibrate the regression.
     k : float
-        Multiplicador del IQR para filtrar outliers.
+        IQR multiplier for outlier filtering.
     max_iter : int
         Numero maximo de iteraciones para evitar loops infinitos.
 
     Returns
     -------
     modelo : statsmodels.regression.linear_model.RegressionResultsWrapper
-        Modelo calibrado final despues de filtrar outliers.
+        Final calibrated model after outlier filtering.
     """
-    # filtrar por GP y TrackStatus, luego resetear indice
+    # Filter by GP and TrackStatus, then reset index
     data_gp = df[(df["GP"] == gp_name) & (df['TrackStatus'] == 1.0)].copy().reset_index(drop=True)
     if data_gp.empty:
-        raise ValueError(f"No hay datos para el GP '{gp_name}'")
+        raise ValueError(f"No data available for GP '{gp_name}'")
 
 
     counter = 0

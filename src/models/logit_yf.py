@@ -36,7 +36,7 @@ def load_data():
     # Concatenamos las vuelta del 2021 al 2023
     laps_2021_2022_2023 = pd.concat([laps_2021, laps_2022, laps_2023])
 
-    # Filtramos las vueltas
+    # Filter the laps
     laps_2021_2022_2023_yf = filter_laps(laps_2021_2022_2023).reset_index(drop=True)
     laps_2021_2022_2023_yf['TrackStatus'] = laps_2021_2022_2023_yf['TrackStatus'].replace(7.0, 6.0)
 
@@ -77,7 +77,7 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
     Elimina ciertos Grandes Premios y filas con TrackStatus erroneo.
 
     Args:
-    - laps (pd.DataFrame): DataFrame con datos de vueltas de carreras.
+    - laps (pd.DataFrame): DataFrame with race lap data.
 
     Returns:
     - pd.DataFrame: DataFrame limpio.
@@ -85,10 +85,10 @@ def filter_laps(laps: pd.DataFrame) -> pd.DataFrame:
     # Eliminamos los GP donde se uso Compound WET o INTERMEDIATE
     laps_filter = laps[~laps['Compound'].isin(['WET', 'INTERMEDIATE'])].copy()
 
-    # Filtramos solo compuestos C1-C5 (excluir C0)
+    # Keep only compounds C1-C5 (exclude C0)
     laps_filter = laps_filter[laps_filter['Compound_Detail'].isin(['C1', 'C2', 'C3', 'C4', 'C5'])].copy()
 
-    # Calcular el numero maximo de vueltas por Year, GP y Driver
+    # Compute the maximum lap number per (Year, GP, Driver)
     max_laps = laps_filter.groupby(['Year', 'GP', 'Driver'])['LapNumber'].transform('max')
 
     # Crear la columna 'LapsLeft'
@@ -121,7 +121,7 @@ def simple_pitstop_prediction(pitstop_df, random_state=42,
     Todo el dataset se usa para entrenamiento (sin division train/test)
 
     Args:
-        pitstop_df: DataFrame con los datos de pit stops
+        pitstop_df: DataFrame with the data de pit stops
         random_state: Semilla para reproducibilidad
         show_plots: Si mostrar graficos
         save_plots: Si guardar graficos
@@ -140,7 +140,7 @@ def simple_pitstop_prediction(pitstop_df, random_state=42,
     print("=" * 80)
     print("MODELO SIMPLE DE PREDICCION DE PIT STOPS (CON INTERACCIONES)")
     print("=" * 80)
-    print("Preparando datos...")
+    print("Preparing data...")
 
     # Variables requeridas
     required_vars = ['PitIn', 'SC', 'Compound_Detail', 'TyreLife', 'LapsLeft', 'Position']
@@ -150,10 +150,10 @@ def simple_pitstop_prediction(pitstop_df, random_state=42,
     if missing_vars:
         raise ValueError(f"Variables faltantes en el DataFrame: {missing_vars}")
 
-    # Limpiar datos
+    # Clean data
     df_clean = pitstop_df.dropna(subset=required_vars).copy()
 
-    # Filtros para datos validos
+    # Filters for valid data
     df_clean = df_clean[
         (df_clean['TyreLife'] >= 0) &
         (df_clean['TyreLife'] <= 100) &
@@ -192,7 +192,7 @@ def simple_pitstop_prediction(pitstop_df, random_state=42,
     print(f"   Pit stops: {n_pitstops:,}")
     print(f"   Tasa general de pit stops: {pitstop_rate:.1%}")
     print(f"   SC rate: {df_clean['SC'].mean():.1%}")
-    print(f"   Vida promedio neumaticos: {df_clean['TyreLife'].mean():.1f} vueltas")
+    print(f"   Avg tire life: {df_clean['TyreLife'].mean():.1f} laps")
     print(f"   Vueltas restantes promedio: {df_clean['LapsLeft'].mean():.1f}")
 
     # Distribucion por compuesto
@@ -413,7 +413,7 @@ def simple_pitstop_prediction(pitstop_df, random_state=42,
 
         direction = "aumenta" if coef > 0 else "disminuye" if coef < 0 else "neutro"
 
-        # Clasificar tipo de variable
+        # Classify variable type
         if var == 'const':
             var_type = "[INTERCEPTO]"
         elif var in ['SC', 'Position', 'LapsLeft']:
@@ -507,7 +507,7 @@ def predict_pitstop_simple(new_data, results):
     feature_cols = results['feature_columns']
     compounds = results['compounds']
 
-    # Preparar datos
+    # Prepare data
     new_data_prep = new_data.copy()
 
     # Crear interacciones (LapsLeft + TyreLife) * Compound para cada compuesto

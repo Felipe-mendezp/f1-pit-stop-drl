@@ -17,7 +17,7 @@ def read_and_preprocess_data():
         Elimina ciertos Grandes Premios y filas con compound WET - INT.
 
         Args:
-        - laps (pd.DataFrame): DataFrame con datos de vueltas de carreras.
+        - laps (pd.DataFrame): DataFrame with race lap data.
 
         Returns:
         - pd.DataFrame: DataFrame limpio.
@@ -254,7 +254,7 @@ def perform_all_linear_regressons(printear: bool = True):
         results[gp] = partial_dict
 
     print(results)
-    # pasar el diccionario a un dataframe
+    # Convert the dictionary to a dataframe
     results_df = pd.DataFrame.from_dict(results, orient='index')
     print(results_df)
     # save to csv

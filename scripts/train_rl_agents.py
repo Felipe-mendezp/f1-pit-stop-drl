@@ -23,6 +23,8 @@ Usage:
 """
 
 import json
+import random
+import numpy as np
 import torch
 import argparse
 from stable_baselines3 import DQN, PPO, A2C
@@ -136,7 +138,23 @@ Examples:
         help='Override total timesteps (e.g. 10000 for quick test). Defaults to config value.'
     )
 
+    parser.add_argument(
+        '--seed',
+        type=int,
+        default=42,
+        help='Base random seed for reproducibility (numpy, torch, SB3, env). Default: 42.'
+    )
+
     return parser.parse_args()
+
+
+def seed_all(seed: int) -> None:
+    """Seed every RNG that affects training reproducibility."""
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
 def get_initial_positions(gp: str) -> list:
@@ -188,7 +206,7 @@ def create_eval_callback(eval_env, save_path: str, log_path: str,
     """Create evaluation callback with early stopping."""
     stop_callback = StopTrainingOnNoModelImprovement(
         max_no_improvement_evals=early_stop_patience,
-        min_evals=10,  # Aumentado de 5 -> 10 para dar mas tiempo inicial
+        min_evals=10,  # Raised from 5 to 10 to give early training more time before being stopped
         verbose=1
     )
 
@@ -206,7 +224,7 @@ def create_eval_callback(eval_env, save_path: str, log_path: str,
 def train_algorithm(algo_name, algo_cls, algo_config, env_factory, n_envs,
                     output_dir, dynamic_batch_size, dynamic_n_steps,
                     total_timesteps, eval_freq, n_eval_episodes,
-                    early_stop_patience):
+                    early_stop_patience, seed: int = 42):
     """Train a single algorithm with fresh, independent environments."""
     print(f"\n{'─' * 70}")
     print(f"Training {algo_name}")
@@ -241,6 +259,7 @@ def train_algorithm(algo_name, algo_cls, algo_config, env_factory, n_envs,
         'tensorboard_log': os.path.join(output_dir, 'tensorboard'),
         'device': 'cpu',
         'verbose': 1,
+        'seed': seed,
     }
 
     # Add algorithm-specific params
@@ -337,6 +356,9 @@ if __name__ == "__main__":
     eval_freq = TRAINING_CONFIG['eval_freq']
     n_eval_episodes = TRAINING_CONFIG['n_eval_episodes']
     early_stop_patience = TRAINING_CONFIG['early_stop_patience']
+    seed = args.seed
+
+    seed_all(seed)
 
     print("\n" + "=" * 70)
     print("F1 MULTI-DRIVER ENVIRONMENT - RL TRAINING")
@@ -350,6 +372,7 @@ if __name__ == "__main__":
     print(f"  Eval episodes: {n_eval_episodes}")
     print(f"  Early stop patience: {early_stop_patience}")
     print(f"  Algorithms to train: {', '.join(algorithms_to_train)}")
+    print(f"  Base seed: {seed}")
 
     # Initialize model loader (reused across GPs)
     loader = ModelLoader()
@@ -409,10 +432,12 @@ if __name__ == "__main__":
             early_stop_patience=early_stop_patience,
         )
 
-        # Train selected algorithms for this GP
-        for algo_name in algorithms_to_train:
+        # Train selected algorithms for this GP (offset seed per algorithm so they don't share RNG state)
+        for algo_idx, algo_name in enumerate(algorithms_to_train):
             algo_cls, algo_config = AVAILABLE_ALGORITHMS[algo_name]
-            train_algorithm(algo_name, algo_cls, algo_config, **train_kwargs)
+            train_algorithm(algo_name, algo_cls, algo_config,
+                            seed=seed + algo_idx,
+                            **train_kwargs)
 
         # GP Summary
         print("\n" + "=" * 70)

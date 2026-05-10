@@ -166,14 +166,14 @@ GP_CONFIGS = [
     },
 
     # -------------------------------------------------------------------------
-    # 3. Miami GP (RUS)
+    # 3. Miami GP (OCO)
     # -------------------------------------------------------------------------
     {
         'gp_name': 'Miami Grand Prix',
-        'agent_driver': 'Driver_RUS',
-        'model_dir': 'Miami_RUS',
-        'display_name': 'Miami GP (RUS)',
-        'real_finishing_pos': 8,
+        'agent_driver': 'Driver_OCO',
+        'model_dir': 'Miami_OCO',
+        'display_name': 'Miami GP (OCO)',
+        'real_finishing_pos': 10,
         'rival_strategies': {
             'Driver_VER': {0: 3, 23: 2},
             'Driver_LEC': {0: 3, 19: 2},
@@ -186,7 +186,7 @@ GP_CONFIGS = [
             'Driver_TSU': {0: 3, 28: 2},
             'Driver_STR': {0: 3, 11: 2, 28: 3},
             'Driver_GAS': {0: 3, 12: 2},
-            'Driver_OCO': {0: 3, 22: 2},
+            'Driver_RUS': {0: 3, 25: 2},
             'Driver_ALB': {0: 3, 10: 2, 53: 4},
             'Driver_ALO': {0: 2, 23: 3},
             'Driver_BOT': {0: 4, 11: 2, 29: 3},

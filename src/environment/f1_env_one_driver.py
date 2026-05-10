@@ -63,7 +63,7 @@ class F1EnvOneDriverV2Optimized(Env):
         Inicializa el environment optimizado.
 
         Args:
-            n_laps: Numero de vueltas de la carrera
+            n_laps: Number of laps in the race
             available_compounds: Lista de compuestos disponibles (e.g., [3, 4, 5])
             gp: Nombre del Gran Premio
             driver: Codigo del piloto (e.g., 'VER')
