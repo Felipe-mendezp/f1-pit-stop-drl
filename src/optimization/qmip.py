@@ -130,7 +130,8 @@ def solve_MIP_GUROBI_start(betas_dict, time_stop, n, w_current, t_previous, p, g
             y_opt = y.copy()
             obj_opt = obj
             t0_opt = t_current
-    return x_opt, y_opt, obj, t0_opt
+    # Return the OPTIMAL objective (obj would be the last compound tried)
+    return x_opt, y_opt, obj_opt, t0_opt
 
 if __name__ == "__main__":
     beta_dict = {"Soft" : [float(sys.argv[1]), float(sys.argv[2])],

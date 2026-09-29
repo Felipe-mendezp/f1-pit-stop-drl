@@ -1,0 +1,75 @@
+{
+  "gp": "Singapore Grand Prix",
+  "driver": "Driver_HUL",
+  "lap": 5,
+  "M": 500,
+  "n_laps": 62,
+  "history": [
+    [
+      0,
+      5,
+      true
+    ],
+    [
+      1,
+      5,
+      false
+    ],
+    [
+      2,
+      5,
+      false
+    ],
+    [
+      3,
+      5,
+      false
+    ],
+    [
+      4,
+      5,
+      false
+    ]
+  ],
+  "prefix_yf_laps": [],
+  "available_compounds": [
+    3,
+    4,
+    5
+  ],
+  "action_labels": {
+    "0": "No pit",
+    "1": "Hard (C3)",
+    "2": "Medium (C4)",
+    "3": "Soft (C5)"
+  },
+  "recommended_action": 0,
+  "recommended_label": "No pit",
+  "agent_start_position": 6,
+  "agent_state_at_lap": {
+    "position": 5,
+    "compound": 5,
+    "tyrelife": 4
+  },
+  "prefix_seed": 0,
+  "base_seed": 1000,
+  "variant": "real_2024_masked",
+  "legal_mask": true,
+  "det_cont": true,
+  "sim_future": true,
+  "pit_pass_deterministic": false,
+  "following_gap_scale": 1.0,
+  "sc_bunching": true,
+  "sc_bunch_delta": 1.5,
+  "dsq_penalty": -1000.0,
+  "last_lap_pit_full_cost": true,
+  "simulation_dir": "trained_models/simulation",
+  "rl_agents_dir": "trained_models/rl_agents",
+  "algo": "PPO",
+  "model_path": "trained_models/rl_agents/Singapore_HUL/PPO/best_model.zip",
+  "model_mtime": "2026-09-03T23:54:34",
+  "real_2024": true,
+  "real_yf": false,
+  "laps_sc_2024": [],
+  "laps_vsc_2024": []
+}

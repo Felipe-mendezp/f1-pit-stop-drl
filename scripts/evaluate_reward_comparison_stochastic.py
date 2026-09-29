@@ -168,14 +168,21 @@ def pregenenerate_race_scenarios(
 ) -> List[Tuple[List[int], List[int]]]:
     """
     Pre-generate SC/VSC events for all n_sims races.
-    Uses seeds base_seed, base_seed+1, ..., base_seed+n_sims-1.
+
+    FIX (2026-07-21): scenario seeds are offset by base_seed*1000 so they do
+    NOT overlap with the per-simulation race-noise seeds (base_seed+i). With
+    overlapping seeds the SC/VSC triggers and the first lap-time noise draws
+    of each race came from the same RNG stream (subtle correlation). Matches
+    the convention of evaluate_qmip_vs_drl.py / rollout_policy_eval.py.
+    NOTE: this changes the generated scenarios; cached/previous stochastic
+    reward-comparison results are not comparable and must be regenerated.
 
     Returns list of (laps_vsc, laps_sc) tuples, one per simulation.
     """
     scenarios = []
     for i in range(n_sims):
         laps_vsc, laps_sc = generate_sc_vsc_events(
-            n_laps, race_vsc_prob, race_sc_prob, seed=base_seed + i,
+            n_laps, race_vsc_prob, race_sc_prob, seed=base_seed * 1000 + i,
         )
         scenarios.append((laps_vsc, laps_sc))
     return scenarios
@@ -193,7 +200,7 @@ def run_single_race(
     laps_vsc: List[int],
     laps_sc: List[int],
     initial_positions: List[int],
-    deterministic_policy: bool = False,
+    deterministic_policy: bool = True,
 ) -> ExtendedSimResult:
     """
     Run one race with:
@@ -285,21 +292,18 @@ def evaluate_reward_type_stochastic(
     algo_dir     = os.path.dirname(model_path)
     vecnorm_path = os.path.join(algo_dir, 'vecnormalize_stats.pkl')
 
-    if os.path.exists(vecnorm_path):
-        try:
-            vec_env = VecNormalize.load(vecnorm_path, vec_env)
-            vec_env.training  = False
-            vec_env.norm_reward = False
-        except (ValueError, AttributeError) as e:
-            print(f"    WARNING: Failed to load VecNormalize ({e})")
-            vec_env = VecNormalize(vec_env, norm_reward=False,
-                                   norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0)
-            vec_env.training = False
-    else:
-        print(f"    WARNING: No VecNormalize stats at {vecnorm_path}")
-        vec_env = VecNormalize(vec_env, norm_reward=False,
-                               norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0)
-        vec_env.training = False
+    # FIX (2026-07-21): missing/corrupt VecNormalize stats used to fall back
+    # silently to a FRESH VecNormalize (identity statistics) -> garbage
+    # evaluation behind a warning. Now fatal.
+    if not os.path.exists(vecnorm_path):
+        raise FileNotFoundError(
+            f"VecNormalize stats not found: {vecnorm_path}\n"
+            f"The model at {model_path} cannot be evaluated without the "
+            f"observation-normalization statistics it was trained with."
+        )
+    vec_env = VecNormalize.load(vecnorm_path, vec_env)
+    vec_env.training  = False
+    vec_env.norm_reward = False
 
     model = RecurrentPPO.load(model_path, env=vec_env)
 

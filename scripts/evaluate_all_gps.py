@@ -151,14 +151,14 @@ GP_CONFIGS = [
             'Driver_RUS': {0: 3, 7: 2},
             'Driver_HAM': {0: 3, 36: 4},
             'Driver_TSU': {0: 3, 7: 2},
-            'Driver_STR': {0: 3},  # DNF
+            'Driver_STR': {0: 3, 7: -1},  # DNF: last completed lap 6 (session_2024_V2)
             'Driver_SAI': {0: 4, 7: 2},
             'Driver_ALB': {0: 3, 7: 2},
             'Driver_MAG': {0: 3, 7: 2},
             'Driver_RIC': {0: 3, 7: 2},
             'Driver_HUL': {0: 3, 33: 2},
             'Driver_OCO': {0: 3, 7: 2},
-            'Driver_GAS': {0: 3},  # DNF
+            'Driver_GAS': {0: 3, 2: -1},  # DNF: last completed lap 1 (session_2024_V2)
             'Driver_BOT': {0: 4, 7: 2, 35: 4},
             'Driver_SAR': {0: 3, 7: 2},
             'Driver_ZHO': {0: 3, 41: 4},
@@ -190,7 +190,7 @@ GP_CONFIGS = [
             'Driver_ALB': {0: 3, 10: 2, 53: 4},
             'Driver_ALO': {0: 2, 23: 3},
             'Driver_BOT': {0: 4, 11: 2, 29: 3},
-            'Driver_SAR': {0: 3, 11: 2},       # DNF
+            'Driver_SAR': {0: 3, 11: 2, 29: -1},       # DNF: last completed lap 28
             'Driver_MAG': {0: 2, 22: 3, 28: 3, 31: 3},
             'Driver_ZHO': {0: 3, 28: 4},
             'Driver_RIC': {0: 2, 28: 3},
@@ -219,7 +219,7 @@ GP_CONFIGS = [
             'Driver_PER': {0: 3, 37: 4},
             'Driver_OCO': {0: 4, 25: 3},
             'Driver_STR': {0: 4, 37: 3},
-            'Driver_ALB': {0: 4, 8: 3, 9: 4, 23: 4, 28: 4}, # DNF
+            'Driver_ALB': {0: 4, 8: 3, 9: 4, 23: 4, 28: 4, 52: -1}, # DNF: last completed lap 51
             'Driver_GAS': {0: 5, 8: 3, 30: 4},
             'Driver_BOT': {0: 4, 8: 3},
             'Driver_ZHO': {0: 3, 33: 4},
@@ -257,7 +257,7 @@ GP_CONFIGS = [
             'Driver_RUS': {0: 3, 33: 4, 53: 3},
             'Driver_ZHO': {0: 4, 7: 3, 36: 3},
             'Driver_OCO': {0: 4, 6: 3, 30: 3, 64: 5},
-            'Driver_GAS': {0: 3, 28: 4},   # DNF
+            'Driver_GAS': {0: 3, 28: 4, 34: -1},   # DNF: last completed lap 33
         },
     },
 
@@ -275,7 +275,11 @@ GP_CONFIGS = [
             'Driver_PER': {0: 3, 11: 3, 21: 2, 42: 4},
             'Driver_HAM': {0: 3, 11: 2, 26: 2},
             'Driver_PIA': {0: 3, 11: 2, 30: 2},
-            'Driver_RUS': {0: 3, 10: 2},  # DNF
+            # RUS completed all 44 laps on the road and was DISQUALIFIED
+            # post-race (underweight car). An in-race DNF marker (-1) would
+            # wrongly remove him from the racing; the post-race exclusion is
+            # NOT modeled (the paper's Table N.1 counts 1 DNF at Spa = ZHO).
+            'Driver_RUS': {0: 3, 10: 2},  # DSQ post-carrera, corre completo
             'Driver_SAI': {0: 2, 20: 3, 28: 2},
             'Driver_ALO': {0: 3, 13: 2},
             'Driver_OCO': {0: 3, 12: 2, 30: 2},
@@ -288,7 +292,7 @@ GP_CONFIGS = [
             'Driver_HUL': {0: 3, 7: 2, 20: 3},
             'Driver_MAG': {0: 3, 17: 2},
             'Driver_SAR': {0: 3, 8: 3, 24: 2},
-            'Driver_ZHO': {0: 2},         # DNF
+            'Driver_ZHO': {0: 2, 6: -1},  # DNF: last completed lap 5
             'Driver_TSU': {0: 3, 15: 2},
         },
     },
@@ -344,10 +348,10 @@ GP_CONFIGS = [
             'Driver_TSU': {0: 4, 33: 5},
             'Driver_LEC': {0: 4, 36: 3},
             'Driver_SAI': {0: 4, 13: 3},
-            'Driver_ALB': {0: 4, 11: 3},  # DNF
+            'Driver_ALB': {0: 4, 11: 3, 16: -1},  # DNF: last completed lap 15
             'Driver_SAR': {0: 4, 29: 3},
             'Driver_PER': {0: 4, 28: 3},
-            'Driver_MAG': {0: 3, 28: 4, 49: 5},    # DNF
+            'Driver_MAG': {0: 3, 28: 4, 49: 5, 58: -1},    # DNF: last completed lap 57
             'Driver_OCO': {0: 4, 29: 3},
             'Driver_RIC': {0: 5, 10: 4, 46: 5, 58: 5},
             'Driver_STR': {0: 3, 26: 4},
@@ -382,7 +386,7 @@ GP_CONFIGS = [
             'Driver_ALB': {0: 3, 3: 2, 33: 2},
             'Driver_SAR': {0: 2, 39: 3},
             'Driver_BOT': {0: 3, 15: 2},
-            'Driver_HAM': {0: 2},     # DNF
+            'Driver_HAM': {0: 2, 3: -1},     # DNF: last completed lap 2
             'Driver_ZHO': {0: 3, 13: 3, 35: 2},
             'Driver_RIC': {0: 2, 36: 3},
             'Driver_RUS': {0: 2, 40: 3},
@@ -459,7 +463,7 @@ def run_single_race(
     algo_name: str,
     seed: int,
     initial_compounds: Dict[str, int],
-    deterministic_policy: bool = False,
+    deterministic_policy: bool = True,
 ) -> SimResult:
     """Run a single race evaluation with real rival strategies.
 
@@ -470,21 +474,21 @@ def run_single_race(
         algo_name: Algorithm name
         seed: Random seed
         initial_compounds: Per-rival starting compound {driver_name: compound}
-        deterministic_policy: Whether to use deterministic actions
+        deterministic_policy: Use the policy's mode/greedy action. True by
+            default so the final evaluation matches the protocol used for
+            best-model selection (EvalCallback evaluates deterministically);
+            with False, DQN would act epsilon-greedy with the checkpoint's
+            frozen exploration_rate, injecting random pit stops.
     """
     # Seed all RNGs for full reproducibility
     np.random.seed(seed)
     torch.manual_seed(seed)
     raw_env.np_random = np.random.default_rng(seed)
     raw_env.action_space.seed(seed)
+    # Rival starting compounds are applied INSIDE reset via
+    # set_evaluation_mode(rival_initial_compounds=...), so the lap-0
+    # observation already shows the real 2024 grid compounds.
     obs = vec_env.reset()
-
-    # Set each rival's starting compound individually
-    for rival in raw_env.rival_drivers:
-        compound = initial_compounds.get(rival.name)
-        if compound is not None:
-            rival.compound = compound
-            rival.initial_compound = compound
 
     # LSTM states for RecurrentPPO
     use_lstm = (algo_name == 'RecurrentPPO')
@@ -576,13 +580,14 @@ def evaluate_algorithm(
         verbose=False,
     )
 
-    # Set evaluation mode
+    # Set evaluation mode (real events, strategies AND starting compounds)
     raw_env.set_evaluation_mode(
         eval_mode=True,
         laps_vsc=laps_vsc,
         laps_sc=laps_sc,
         initial_positions=initial_positions,
         rival_actions=rival_strategies,
+        rival_initial_compounds=initial_compounds,
     )
 
     # Wrap in DummyVecEnv + VecNormalize
@@ -592,21 +597,22 @@ def evaluate_algorithm(
     algo_dir = os.path.dirname(model_path)
     vecnorm_path = os.path.join(algo_dir, 'vecnormalize_stats.pkl')
 
-    if os.path.exists(vecnorm_path):
-        try:
-            vec_env = VecNormalize.load(vecnorm_path, vec_env)
-            vec_env.training = False
-            vec_env.norm_reward = False
-            print(f"    Loaded VecNormalize stats from {vecnorm_path}")
-        except (ValueError, AttributeError) as e:
-            print(f"    WARNING: Failed to load VecNormalize stats ({e})")
-            print(f"    Creating fresh VecNormalize with same config as training")
-            vec_env = VecNormalize(vec_env, norm_reward=False, norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0)
-            vec_env.training = False
-    else:
-        print(f"    WARNING: No VecNormalize stats found at {vecnorm_path}")
-        vec_env = VecNormalize(vec_env, norm_reward=False, norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0)
-        vec_env.training = False
+    # FIX (2026-07-21): missing/corrupt VecNormalize stats used to fall back
+    # silently to a FRESH VecNormalize (identity statistics), so the policy
+    # received observations normalized differently than in training and the
+    # whole evaluation was garbage behind a mere warning. Now fatal.
+    if not os.path.exists(vecnorm_path):
+        raise FileNotFoundError(
+            f"VecNormalize stats not found: {vecnorm_path}\n"
+            f"The model at {model_path} was trained with normalized "
+            f"observations; evaluating with fresh statistics yields garbage "
+            f"results. Re-train (the training script saves "
+            f"vecnormalize_stats.pkl next to best_model.zip)."
+        )
+    vec_env = VecNormalize.load(vecnorm_path, vec_env)
+    vec_env.training = False
+    vec_env.norm_reward = False
+    print(f"    Loaded VecNormalize stats from {vecnorm_path}")
 
     # Load model
     AlgoClass = ALGO_CLASSES[algo_name]

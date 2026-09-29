@@ -1,11 +1,17 @@
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .DS_Store
 *.log
-fastf1_cache/
-tensorboard_*/
-tensorboard/
-*.egg-info/
 .env
 .venv/
+*.egg-info/
+
+# Trained models and simulator: distributed as a Zenodo archive (see trained_models/README.md)
+trained_models/*
+!trained_models/README.md
+
+# Outputs of the reproduction scripts
+figures_regenerated/
+results/decision_support_reeval/
+data/fastf1_cache/
+tensorboard*/

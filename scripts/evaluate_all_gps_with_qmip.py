@@ -129,6 +129,7 @@ def run_single_race_qmip_real(
         laps_sc=laps_sc,
         initial_positions=initial_positions,
         rival_actions=rival_actions,
+        rival_initial_compounds=initial_compounds,
     )
 
     np.random.seed(seed)
@@ -136,12 +137,6 @@ def run_single_race_qmip_real(
     raw_env.action_space.seed(seed)
 
     obs, _ = raw_env.reset()
-
-    for rival in raw_env.rival_drivers:
-        compound = initial_compounds.get(rival.name)
-        if compound is not None:
-            rival.compound = compound
-            rival.initial_compound = compound
 
     action, t0_name = qmip_choose_start_compound(
         betas_dict, time_stop, raw_env.n_laps,

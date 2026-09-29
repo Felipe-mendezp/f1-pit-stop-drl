@@ -46,10 +46,16 @@ class FastLinearPredictor:
         self.coef_ = np.array(coef_values, dtype=self.dtype_)
 
         # OLS prediction variance components:
-        # sigma_square = SSR / (n - 2)
+        # sigma_square = SSR / df_resid = SSR / (n - p), i.e. the unbiased
+        # residual variance estimate (statsmodels' result.scale). Using
+        # (n - 2) underestimates the noise std when the model has many
+        # parameters (p ~ 40 driver/compound terms here).
         # xtx_inv = (X^T X)^{-1} -- full matrix including intercept
-        n_obs = len(statsmodels_result.resid)
-        self.sigma_square_ = float(statsmodels_result.ssr / (n_obs - 2))
+        df_resid = float(getattr(statsmodels_result, 'df_resid', 0.0))
+        if df_resid > 0:
+            self.sigma_square_ = float(statsmodels_result.ssr / df_resid)
+        else:
+            self.sigma_square_ = 0.0
         self.xtx_inv_ = np.array(
             statsmodels_result.normalized_cov_params.values, dtype=np.float64
         )

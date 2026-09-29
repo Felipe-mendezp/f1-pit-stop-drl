@@ -12,6 +12,7 @@ Run this script once before training agents.
 
 import config
 
+import os
 import pandas as pd
 import numpy as np
 import statsmodels.formula.api as smf
@@ -234,16 +235,17 @@ def preprocess_laps(laps: pd.DataFrame) -> pd.DataFrame:
     # Process TrackStatus
     laps = preprocess_track_status(laps)
 
-    # Add LapsLeft
-    laps['LapsLeft'] = laps.apply(
-        lambda row: LAPS_DD.get(row['GP'], 0) - row['LapNumber'], axis=1
-    )
+    # Add LapsLeft. Race length is derived FROM THE DATA (max lap observed
+    # in each race). LAPS_DD only covers the 2024-selected GPs, but the
+    # 2021-2023 training data spans ~28 GPs: using LAPS_DD.get(gp, 0) made
+    # LapsLeft negative (= -LapNumber) and LateLaps=1 for ~38% of the rows,
+    # biasing the LateLaps and C(alt):LapsLeft coefficients.
+    race_total_laps = laps.groupby(['Year', 'GP'])['LapNumber'].transform('max')
+    laps['LapsLeft'] = race_total_laps - laps['LapNumber']
 
     # Add EarlyLaps and LateLaps (binary race phase indicators)
     laps['EarlyLaps'] = (laps['LapNumber'] <= 10).astype(int)
-    laps['LateLaps'] = laps.apply(
-        lambda row: 1 if row['LapNumber'] >= (LAPS_DD.get(row['GP'], 0) - 10) else 0, axis=1
-    )
+    laps['LateLaps'] = (laps['LapNumber'] >= (race_total_laps - 10)).astype(int)
 
     # NewCompound (compound after pit stop)
     laps = laps.sort_values(['Year', 'GP', 'Driver', 'LapNumber'])
@@ -607,6 +609,18 @@ def train_all_models(selected_gps: Dict[str, List[str]], year: int = 2024):
             if result_stop_yf is not None:
                 with open(f'{MODELS_PATH}/{gp}_threshold_stop_yf.pkl', 'wb') as f:
                     pickle.dump(threshold_stop_yf, f)
+
+            # Save to the per-GP layout that ModelLoader actually loads.
+            # LogitStop and CondLogitCompound are GLOBAL models (with GP
+            # terms); each GP directory receives its own copy.
+            gp_dir = os.path.join(MODELS_PATH, gp)
+            os.makedirs(gp_dir, exist_ok=True)
+            with open(os.path.join(gp_dir, 'rival_pitstop_logit.pkl'), 'wb') as f:
+                pickle.dump(result_stop, f)
+            if result_compound is not None:
+                with open(os.path.join(gp_dir, 'rival_compound_logit.pkl'), 'wb') as f:
+                    pickle.dump(result_compound, f)
+            print(f"  Saved loader models to {gp_dir}")
 
         except Exception as e:
             print(f"  Error: {e}")

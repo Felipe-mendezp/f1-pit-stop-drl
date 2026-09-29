@@ -1,8 +1,19 @@
 """
 Step 3: Train yellow flag lap time models (RegLTYF - Eq. 3).
 
-Trains OLS models for SC/VSC lap times for target GPs,
-saves both statsmodels and FastLinearPredictor versions.
+Full reproducible pipeline for the YF lap-time models consumed by the
+simulation environment (trained_models/simulation/<GP>/laptime_yf_fast_v2.pkl):
+
+1. Fit a per-GP OLS (no intercept) on 2021-2023 SC/VSC laps:
+       LapTime ~ 0 + PitIn + PitOut + SC + SC_firstlap + VSC + VSC_firstlap
+   including only the terms identifiable in that GP's data.
+2. Some GPs lack SC or VSC history entirely (e.g. Belgian/Emilia Romagna
+   have no VSC laps in 2021-2023): the missing coefficients are completed
+   with SoftImpute (rank 2) over the GP x coefficient matrix of ALL GPs
+   with YF data (Algorithm B.1 style completion).
+3. For each target GP the completed coefficient vector is materialized as
+   a FastLinearPredictor (exact-recovery synthetic OLS) and saved as
+   laptime_yf_fast_v2.pkl (+ the statsmodels result as laptime_yf.pkl).
 """
 
 import sys, os
@@ -208,76 +219,148 @@ def perform_linear_regression_yf(laps: pd.DataFrame, gp: str,
 # Main training function
 # ---------------------------------------------------------------------------
 
-def train_missing_yf_models(target_gps: list = None) -> Dict[str, Tuple]:
+YF_TERMS = ['PitIn', 'PitOut', 'SC', 'SC_firstlap', 'VSC', 'VSC_firstlap']
+
+TARGET_GPS = [
+    'Bahrain Grand Prix',
+    'Saudi Arabian Grand Prix',
+    'Miami Grand Prix',
+    'Emilia Romagna Grand Prix',
+    'Hungarian Grand Prix',
+    'Belgian Grand Prix',
+    'Dutch Grand Prix',
+    'Singapore Grand Prix',
+    'United States Grand Prix',
+]
+
+
+def fit_all_gp_coefficients(df_yf: pd.DataFrame) -> pd.DataFrame:
     """
-    Train YF models for specified GPs.
+    Fit the per-GP YF OLS for EVERY GP with YF data and collect the
+    coefficients into a (GP x term) matrix. Terms that are not identifiable
+    in a GP (no such laps, or perfectly collinear, e.g. every SC lap is a
+    first lap) are left as NaN for the completion step.
+    """
+    rows = {}
+    for gp in sorted(df_yf['GP'].unique()):
+        try:
+            res = perform_linear_regression_yf(df_yf, gp, printear=False)
+        except Exception as e:
+            print(f"  Skipping {gp}: {e}")
+            continue
+        rows[gp] = {t: res.params.get(t, np.nan) for t in YF_TERMS}
+    coef_df = pd.DataFrame.from_dict(rows, orient='index')[YF_TERMS]
+    return coef_df
 
-    Args:
-        target_gps: List of GP names to train. If None, trains Belgian, Dutch,
-                    Emilia Romagna, Miami
 
-    Returns:
-        Dictionary with GP name -> (statsmodels_result, FastLinearPredictor)
+def complete_coefficients(coef_df: pd.DataFrame, max_rank: int = 2) -> pd.DataFrame:
+    """
+    Complete missing YF coefficients with SoftImpute over the GP x term
+    matrix (Algorithm B.1 style). Rank-2 captures the dominant
+    'circuit lap-time scale' factor plus one contrast.
+    """
+    from fancyimpute import SoftImpute
+
+    n_missing = int(coef_df.isna().sum().sum())
+    print(f"\nMatrix completion: {coef_df.shape[0]} GPs x {coef_df.shape[1]} terms, "
+          f"{n_missing} missing entries")
+    if n_missing == 0:
+        return coef_df.copy()
+
+    imputer = SoftImpute(
+        max_rank=max_rank,
+        init_fill_method="zero",
+        max_iters=200,
+        convergence_threshold=1e-6,
+        verbose=False,
+    )
+    completed = imputer.fit_transform(coef_df.values)
+    out = pd.DataFrame(completed, index=coef_df.index, columns=coef_df.columns)
+    # Keep observed entries exactly (SoftImpute already does, but be explicit)
+    out[~coef_df.isna()] = coef_df
+    return out
+
+
+def build_yf_predictor(coefs: Dict[str, float]) -> Tuple[object, FastLinearPredictor]:
+    """
+    Materialize a coefficient vector as a fitted statsmodels OLS result
+    (and its FastLinearPredictor) via an exact-recovery synthetic design:
+    y = X @ beta on a full-rank design reproduces beta exactly.
+    """
+    beta = np.array([coefs[t] for t in YF_TERMS], dtype=float)
+    # Full-rank design covering each term (SC_firstlap/VSC_firstlap occur
+    # together with SC/VSC, as in reality); duplicated for positive dof.
+    X = np.array([
+        [1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0],
+        [0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 1, 1],
+    ], dtype=float)
+    X = np.vstack([X, X])
+    y = X @ beta
+    df_synth = pd.DataFrame(X, columns=YF_TERMS)
+    df_synth['LapTime'] = y
+    formula = 'LapTime ~ 0 + ' + ' + '.join(YF_TERMS)
+    res = smf.ols(formula=formula, data=df_synth).fit()
+    assert np.allclose(res.params[YF_TERMS].values, beta), "exact recovery failed"
+    return res, FastLinearPredictor(res, use_float32=True)
+
+
+def train_yf_models(target_gps: list = None) -> Dict[str, Tuple]:
+    """
+    Train (and where necessary complete) the YF models for the target GPs
+    and save them where ModelLoader expects them:
+    trained_models/simulation/<GP>/laptime_yf_fast_v2.pkl (+ laptime_yf.pkl).
     """
     if target_gps is None:
-        target_gps = [
-            'Belgian Grand Prix',
-            'Dutch Grand Prix',
-            'Emilia Romagna Grand Prix',
-            'Miami Grand Prix'
-        ]
+        target_gps = TARGET_GPS
 
-    # Load and preprocess data
     print("Loading and preprocessing YF data...")
     df_yf = read_and_preprocess_yf_data()
+    print(f"\nGPs with YF data (2021-2023): {df_yf['GP'].nunique()}")
 
-    available_gps = df_yf['GP'].unique()
-    print(f"\nAvailable GPs with YF data: {len(available_gps)}")
+    # 1-2. Per-GP fits + completion of non-identifiable coefficients
+    coef_df = fit_all_gp_coefficients(df_yf)
+    completed_df = complete_coefficients(coef_df, max_rank=2)
+
+    # Persist the coefficient matrices for the paper appendix / audit
+    coef_df.to_csv(str(config.SIMULATION_DIR / 'yf_coefficients_raw.csv'))
+    completed_df.to_csv(str(config.SIMULATION_DIR / 'yf_coefficients_completed.csv'))
+
+    # Sanity: SC slower than VSC, both slower than a green lap would be
+    bad = completed_df[completed_df['SC'] <= completed_df['VSC']]
+    if len(bad):
+        print(f"WARNING: SC <= VSC after completion for: {list(bad.index)}")
 
     results = {}
-    models_dir = str(config.SIMULATION_DIR)
-    os.makedirs(models_dir, exist_ok=True)
-
     for gp in target_gps:
-        if gp not in available_gps:
-            print(f"\nWarning: {gp} not found in YF data. Skipping...")
+        if gp not in completed_df.index:
+            print(f"\nWarning: {gp} has no YF row (no 2021-2023 YF laps at all). Skipping.")
             continue
 
-        try:
-            # Train model
-            model = perform_linear_regression_yf(df_yf, gp, printear=True)
+        coefs = completed_df.loc[gp, YF_TERMS].to_dict()
+        n_imputed = int(coef_df.loc[gp, YF_TERMS].isna().sum())
+        print(f"\n{gp}: {coefs}  ({n_imputed} imputed)")
 
-            # Create FastLinearPredictor for fast inference
-            fast_pred = FastLinearPredictor(model, use_float32=True)
+        sm_res, fast_pred = build_yf_predictor(coefs)
 
-            # Save statsmodels model
-            filepath_sm = f'{models_dir}/{gp}_YF_reg_Pickle.pkl'
-            with open(filepath_sm, 'wb') as f:
-                pickle.dump(model, f)
-            print(f"Saved statsmodels model: {filepath_sm}")
+        gp_dir = config.SIMULATION_DIR / gp
+        os.makedirs(gp_dir, exist_ok=True)
+        with open(gp_dir / 'laptime_yf_fast_v2.pkl', 'wb') as f:
+            pickle.dump(fast_pred, f)
+        with open(gp_dir / 'laptime_yf.pkl', 'wb') as f:
+            pickle.dump(sm_res, f)
+        print(f"Saved: {gp_dir / 'laptime_yf_fast_v2.pkl'}")
 
-            # Save FastLinearPredictor
-            filepath_fast = f'{models_dir}/{gp}_YF_fast_predictor.pkl'
-            with open(filepath_fast, 'wb') as f:
-                pickle.dump(fast_pred, f)
-            print(f"Saved FastLinearPredictor: {filepath_fast}")
-
-            results[gp] = (model, fast_pred)
-
-        except Exception as e:
-            print(f"\nError training model for {gp}: {e}")
-            import traceback
-            traceback.print_exc()
+        results[gp] = (sm_res, fast_pred)
 
     print(f"\n{'='*60}")
-    print(f"TRAINING COMPLETE")
-    print(f"Successfully trained models for {len(results)} GPs:")
-    for gp in results:
-        print(f"  - {gp}")
+    print(f"TRAINING COMPLETE — YF models saved for {len(results)} GPs")
     print(f"{'='*60}")
-
     return results
 
 
 if __name__ == "__main__":
-    results = train_missing_yf_models()
+    results = train_yf_models()

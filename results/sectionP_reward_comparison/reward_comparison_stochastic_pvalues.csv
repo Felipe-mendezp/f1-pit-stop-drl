@@ -1,0 +1,55 @@
+gp,pair,metric,p_value,p_value_adjusted
+Bahrain GP (ALO),mix-time,Race Time [s],0.38645496696853776,1.0
+Bahrain GP (ALO),mix-pos,Race Time [s],0.911772044563318,1.0
+Bahrain GP (ALO),mix-points,Race Time [s],0.43738830286319375,1.0
+Bahrain GP (ALO),time-pos,Race Time [s],0.42375000091069615,1.0
+Bahrain GP (ALO),time-points,Race Time [s],0.8848253727244799,1.0
+Bahrain GP (ALO),position-points,Race Time [s],0.4726688300782519,1.0
+Bahrain GP (ALO),mix-time,Final Position,0.2651870071967394,1.0
+Bahrain GP (ALO),mix-pos,Final Position,0.26736746841561576,1.0
+Bahrain GP (ALO),mix-points,Final Position,0.13644971851689638,0.8186983111013784
+Bahrain GP (ALO),time-pos,Final Position,0.9427530748779044,1.0
+Bahrain GP (ALO),time-points,Final Position,0.7832518866611149,1.0
+Bahrain GP (ALO),position-points,Final Position,0.7045116341128742,1.0
+Bahrain GP (ALO),mix-time,Championship Points,0.2605472002196313,1.0
+Bahrain GP (ALO),mix-pos,Championship Points,0.27608380888122386,1.0
+Bahrain GP (ALO),mix-points,Championship Points,0.1446924536500676,0.8681547219004057
+Bahrain GP (ALO),time-pos,Championship Points,0.9183395118801847,1.0
+Bahrain GP (ALO),time-points,Championship Points,0.8140928693849725,1.0
+Bahrain GP (ALO),position-points,Championship Points,0.7122427600920552,1.0
+Miami GP (OCO),mix-time,Race Time [s],0.7254879786036497,1.0
+Miami GP (OCO),mix-pos,Race Time [s],0.7190090770195845,1.0
+Miami GP (OCO),mix-points,Race Time [s],9.627142735495719e-163,5.776285641297432e-162
+Miami GP (OCO),time-pos,Race Time [s],0.9780753475157297,1.0
+Miami GP (OCO),time-points,Race Time [s],1.1580883095241274e-162,5.790441547620637e-162
+Miami GP (OCO),position-points,Race Time [s],1.1931157672094386e-162,5.790441547620637e-162
+Miami GP (OCO),mix-time,Final Position,0.35690745112430944,0.7138149022486189
+Miami GP (OCO),mix-pos,Final Position,0.7695389088132186,0.7695389088132186
+Miami GP (OCO),mix-points,Final Position,2.2960781528739404e-187,1.1480390764369701e-186
+Miami GP (OCO),time-pos,Final Position,0.21593172726812915,0.6477951818043874
+Miami GP (OCO),time-points,Final Position,2.375978924988927e-187,1.1480390764369701e-186
+Miami GP (OCO),position-points,Final Position,6.209180930605021e-188,3.7255085583630125e-187
+Miami GP (OCO),mix-time,Championship Points,0.6478105992391117,1.0
+Miami GP (OCO),mix-pos,Championship Points,0.8445982852081602,1.0
+Miami GP (OCO),mix-points,Championship Points,2.0057106661225301e-56,1.2034263996735182e-55
+Miami GP (OCO),time-pos,Championship Points,0.5157302572639567,1.0
+Miami GP (OCO),time-points,Championship Points,3.8090136677862377e-54,1.523605467114495e-53
+Miami GP (OCO),position-points,Championship Points,4.375276877039529e-56,2.1876384385197644e-55
+Dutch GP (RUS),mix-time,Race Time [s],0.6488445155455973,1.0
+Dutch GP (RUS),mix-pos,Race Time [s],0.914985303169622,1.0
+Dutch GP (RUS),mix-points,Race Time [s],0.8364021406627555,1.0
+Dutch GP (RUS),time-pos,Race Time [s],0.7436331134135721,1.0
+Dutch GP (RUS),time-points,Race Time [s],0.7947498256386386,1.0
+Dutch GP (RUS),position-points,Race Time [s],0.9456167686350966,1.0
+Dutch GP (RUS),mix-time,Final Position,0.03079194973816284,0.1539597486908142
+Dutch GP (RUS),mix-pos,Final Position,0.517913926779461,1.0
+Dutch GP (RUS),mix-points,Final Position,0.8743784595844611,1.0
+Dutch GP (RUS),time-pos,Final Position,0.1265388700178605,0.506155480071442
+Dutch GP (RUS),time-points,Final Position,0.023725864607910194,0.14235518764746116
+Dutch GP (RUS),position-points,Final Position,0.42284951194984144,1.0
+Dutch GP (RUS),mix-time,Championship Points,0.03769469233606594,0.1884734616803297
+Dutch GP (RUS),mix-pos,Championship Points,0.4985305730938161,1.0
+Dutch GP (RUS),mix-points,Championship Points,0.8464269169984481,1.0
+Dutch GP (RUS),time-pos,Championship Points,0.16762923843885524,0.670516953755421
+Dutch GP (RUS),time-points,Championship Points,0.025148367789534012,0.15089020673720407
+Dutch GP (RUS),position-points,Championship Points,0.38364767094551677,1.0

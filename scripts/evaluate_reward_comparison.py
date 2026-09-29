@@ -105,22 +105,20 @@ def run_single_race_extended(
     raw_env,
     seed: int,
     initial_compounds: Dict[str, int],
-    deterministic_policy: bool = False,
+    deterministic_policy: bool = True,
 ) -> ExtendedSimResult:
-    """Run a single race and capture position, total_time, and points."""
+    """Run a single race and capture position, total_time, and points.
+
+    deterministic_policy=True matches the best-model selection protocol.
+    Rival starting compounds are applied inside reset via
+    set_evaluation_mode(rival_initial_compounds=...).
+    """
     # Seed all RNGs for full reproducibility
     np.random.seed(seed)
     torch.manual_seed(seed)
     raw_env.np_random = np.random.default_rng(seed)
     raw_env.action_space.seed(seed)
     obs = vec_env.reset()
-
-    # Set each rival's starting compound
-    for rival in raw_env.rival_drivers:
-        compound = initial_compounds.get(rival.name)
-        if compound is not None:
-            rival.compound = compound
-            rival.initial_compound = compound
 
     lstm_states = None
     episode_start = np.ones((1,), dtype=bool)
@@ -193,6 +191,7 @@ def evaluate_reward_type(
     loader: ModelLoader,
     n_simulations: int = N_SIMULATIONS,
     base_seed: int = 42,
+    allow_missing_vecnormalize: bool = False,
 ) -> List[ExtendedSimResult]:
     """Evaluate a single reward type for a given GP."""
     gp_config = load_gp_config(config_entry['gp_name'])
@@ -226,6 +225,7 @@ def evaluate_reward_type(
         laps_sc=laps_sc,
         initial_positions=initial_positions,
         rival_actions=rival_strategies,
+        rival_initial_compounds=initial_compounds,
     )
 
     # Wrap in DummyVecEnv + VecNormalize
@@ -234,25 +234,36 @@ def evaluate_reward_type(
     algo_dir = os.path.dirname(model_path)
     vecnorm_path = os.path.join(algo_dir, 'vecnormalize_stats.pkl')
 
+    # FIX (2026-07-20): missing/corrupt VecNormalize stats used to fall back
+    # silently to a FRESH VecNormalize (untrained obs statistics), producing
+    # garbage evaluations behind a mere warning. Now fatal unless explicitly
+    # overridden with --allow-missing-vecnormalize.
     if os.path.exists(vecnorm_path):
-        try:
-            vec_env = VecNormalize.load(vecnorm_path, vec_env)
-            vec_env.training = False
-            vec_env.norm_reward = False
-        except (ValueError, AttributeError) as e:
-            print(f"    WARNING: Failed to load VecNormalize ({e})")
-            vec_env = VecNormalize(
-                vec_env, norm_reward=False,
-                norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0,
-            )
-            vec_env.training = False
-    else:
-        print(f"    WARNING: No VecNormalize stats at {vecnorm_path}")
+        # A load failure (corrupt/incompatible pickle) is fatal: evaluating
+        # with fresh stats would silently mismatch the training normalization.
+        vec_env = VecNormalize.load(vecnorm_path, vec_env)
+        vec_env.training = False
+        vec_env.norm_reward = False
+    elif allow_missing_vecnormalize:
+        print(f"    WARNING: No VecNormalize stats at {vecnorm_path} -- "
+              f"proceeding with FRESH stats (--allow-missing-vecnormalize). "
+              f"Results are NOT comparable to properly normalized runs.")
         vec_env = VecNormalize(
             vec_env, norm_reward=False,
             norm_obs_keys=NORM_OBS_KEYS, clip_reward=10000.0,
         )
         vec_env.training = False
+    else:
+        raise FileNotFoundError(
+            f"VecNormalize stats not found: {vecnorm_path}\n"
+            f"The model at {model_path} cannot be evaluated without the "
+            f"observation-normalization statistics it was trained with "
+            f"(a fresh VecNormalize would yield garbage results). "
+            f"Re-train the model (the training script saves "
+            f"vecnormalize_stats.pkl next to best_model.zip) or, if you "
+            f"really want an unnormalized evaluation, pass "
+            f"--allow-missing-vecnormalize."
+        )
 
     model = RecurrentPPO.load(model_path, env=vec_env)
 
@@ -457,6 +468,11 @@ if __name__ == '__main__':
         '--plot-only', action='store_true',
         help='Load cache and regenerate plots without running simulations',
     )
+    parser.add_argument(
+        '--allow-missing-vecnormalize', action='store_true',
+        help='Evaluate with FRESH VecNormalize stats when vecnormalize_stats.pkl '
+             'is missing (results NOT comparable to normalized runs)',
+    )
     args = parser.parse_args()
 
     gp_names = [GP_CONFIGS[i]['display_name'] for i in GP_INDICES]
@@ -499,6 +515,7 @@ if __name__ == '__main__':
                 results = evaluate_reward_type(
                     entry, reward_type, loader,
                     n_simulations=args.n_sims, base_seed=args.seed,
+                    allow_missing_vecnormalize=args.allow_missing_vecnormalize,
                 )
                 if results:
                     gp_results[reward_type] = results

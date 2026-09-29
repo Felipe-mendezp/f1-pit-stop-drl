@@ -10,9 +10,14 @@ Prix of the 2024 season.
     driver).
 
 For each 2024 GP we build per-driver features (Prev_race_1/2/3, Best FP,
-Best Qualy) and use leave-one-GP-out OLS to predict the corrected
-coefficient. The ground truth is the coefficient obtained by training
-Equation (1) on lap times from the target GP itself, available in
+Best Qualy) and fit the Equation (2) OLS on an EXPANDING WINDOW: only GPs
+that occur EARLIER in the 2024 calendar than the target GP are used for
+training (FIX 2026-07-21: the previous leave-one-GP-out scheme trained on
+GPs *after* the target, a temporal leakage that inflated the "With
+correction" curve). Early-season GPs without enough prior data get no
+corrected estimate (shown as gaps). Use --loo to reproduce the old leaky
+behaviour for comparison. The ground truth is the coefficient obtained by
+training Equation (1) on lap times from the target GP itself, available in
 `data/coef_drivers_2024.csv`.
 """
 
@@ -136,6 +141,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', default='figs/figure_4_driver_coef_mse.png',
                         help='Output image path (PNG)')
+    parser.add_argument('--loo', action='store_true',
+                        help='Use the old leave-one-GP-out training scheme '
+                             '(TEMPORAL LEAKAGE: trains on GPs after the '
+                             'target; only for comparison)')
+    parser.add_argument('--min-train-rows', type=int, default=30,
+                        help='Minimum complete training rows required to fit '
+                             'the correction for a GP (default: 30)')
     args = parser.parse_args()
 
     coefs_2024 = pd.read_csv(os.path.join(DATA_DIR, 'coef_drivers_2024.csv'))
@@ -151,7 +163,16 @@ def main():
             continue
 
         target = feats[feats['GP'] == full]
-        train = feats[feats['GP'] != full]
+        if args.loo:
+            # Old scheme, kept only for comparison: trains on ALL other GPs,
+            # including those AFTER the target (temporal leakage).
+            train = feats[feats['GP'] != full]
+        else:
+            # Expanding window: only information available BEFORE the target
+            # race, as Equation (2) requires.
+            target_idx = feats.loc[feats['GP'] == full, 'cal_idx'].iloc[0] \
+                if not target.empty else None
+            train = feats[feats['cal_idx'] < target_idx] if target_idx is not None else feats.iloc[0:0]
         if target.empty:
             mse_with.append(np.nan)
             mse_without.append(np.nan)
@@ -169,6 +190,15 @@ def main():
 
         # ----- With correction ----------------------------------------
         try:
+            cols_needed = ['Prev_race_1', 'Prev_race_2', 'Prev_race_3',
+                           'BestFP', 'BestQualy', 'Coef']
+            n_complete = len(train.dropna(subset=cols_needed))
+            if n_complete < args.min_train_rows:
+                print(f"[info] {short}: only {n_complete} complete training "
+                      f"rows before this GP (<{args.min_train_rows}); "
+                      f"no corrected estimate.")
+                mse_with.append(np.nan)
+                continue
             model, cols = fit_correction(train)
             valid_yes = target.dropna(subset=cols + ['Coef'])
             if valid_yes.empty:

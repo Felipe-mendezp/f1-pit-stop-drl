@@ -11,8 +11,8 @@ authors:
     given-names: "Charles"
     affiliation: "Department of Industrial Engineering, University of Chile, and Instituto Sistemas Complejos de Ingeniería (ISCI), Santiago, Chile"
     email: "cthraves@dii.uchile.cl"
-version: "1.1.0"
-date-released: "2026-05-10"
+version: "2.0.0"
+date-released: "2026-09-29"
 license: MIT
 repository-code: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
@@ -20,9 +20,6 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20060266"
     description: "Concept DOI on Zenodo (resolves to the latest version)"
-  - type: doi
-    value: "10.5281/zenodo.20114287"
-    description: "Version DOI on Zenodo (v1.1.0, this specific snapshot)"
 keywords:
   - "Operations Research in Sports"
   - "Deep Reinforcement Learning"
@@ -38,6 +35,6 @@ preferred-citation:
       given-names: "Felipe"
     - family-names: "Thraves"
       given-names: "Charles"
-  journal: "European Journal of Operational Research"
-  year: 2025
+  journal: "Annals of Operations Research"
+  year: 2026
   notes: "Under review"

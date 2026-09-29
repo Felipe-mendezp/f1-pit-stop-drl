@@ -389,8 +389,9 @@ def main():
         season_df = process_season(year, num_races, use_parallel=False)
 
         if not season_df.empty:
-            # Save individual season file
-            output_file = output_dir / f'session_{year}_optimized.csv'
+            # Save individual season file with the name the rest of the
+            # pipeline consumes (all loaders read session_{year}_V2.csv)
+            output_file = output_dir / f'session_{year}_V2.csv'
             season_df.to_csv(output_file, index=False)
             print(f"Saved {year} data: {len(season_df)} laps to {output_file}")
 

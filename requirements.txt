@@ -1,16 +1,25 @@
-fastf1>=3.4
-numpy>=1.26
-pandas>=2.2
-statsmodels>=0.14
-scikit-learn>=1.4
-fancyimpute>=0.7
-gymnasium>=0.29
-stable-baselines3>=2.3
-sb3-contrib>=2.3
-torch>=2.0
-matplotlib>=3.8
-seaborn>=0.13
-scipy>=1.13
-tqdm>=4.66
-# Optional: QMIP benchmark requires a Gurobi license
-# gurobipy>=11.0
+# Exact versions used to train all agents and generate every figure of the paper
+# (Python 3.12.12, macOS / Apple M3 Pro, CPU only).
+numpy==2.4.1
+pandas==3.0.0
+statsmodels==0.14.6
+scikit-learn==1.8.0
+fancyimpute==0.7.0
+gymnasium==1.2.3
+stable-baselines3==2.7.1
+sb3-contrib==2.7.1
+torch==2.10.0
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.17.0
+tqdm==4.67.1
+openpyxl==3.1.5
+tensorboard==2.20.0   # SB3 training logs (tensorboard_log is set by the trainers)
+rich==14.3.1          # SB3 progress bar used by the trainers
+
+# QMIP benchmark (src/optimization/qmip.py). The pip package ships a size-limited licence that
+# is sufficient for the models of the paper.
+gurobipy==13.0.2
+
+# Only needed to rebuild data/ from the FastF1 API (reproduce/build_simulator.sh, WITH_FASTF1=1)
+# fastf1>=3.4

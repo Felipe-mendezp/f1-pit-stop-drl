@@ -185,6 +185,23 @@ def qmip_choose_start_compound(
     return action, t0_opt
 
 
+# Counter of QMIP solver failures (per exception type). Reported at the end
+# of the run; a persistent failure (e.g. licence) would otherwise silently
+# read as "QMIP never pits" -> DSQ.
+_QMIP_SOLVER_ERRORS: Dict[str, int] = {}
+
+
+def report_qmip_solver_errors():
+    """Print (and reset) the QMIP solver failure counters, if any."""
+    if _QMIP_SOLVER_ERRORS:
+        total = sum(_QMIP_SOLVER_ERRORS.values())
+        print(f"\nWARNING: {total} QMIP solver failures during this run "
+              f"(defaulted to no-pit): {_QMIP_SOLVER_ERRORS}")
+        print("If failures are systematic, QMIP results are INVALID "
+              "(check the Gurobi licence).")
+        _QMIP_SOLVER_ERRORS.clear()
+
+
 def qmip_choose_action(
     betas_dict: dict,
     time_stop: float,
@@ -202,14 +219,34 @@ def qmip_choose_action(
     if n_remaining <= 0:
         return 0
 
+    # FIX (2026-07-21, MPC off-by-one): the stint-0 marginal cost in the QMIP
+    # is beta_0 + (w - 0.5)*beta_1. In the MPC context the current lap is sunk
+    # cost and the n_remaining continuation laps run at tyre ages
+    # w_current+1 .. w_current+x0, so the effective wear entering the model is
+    # w_current + 1 (the age of the NEXT decidable lap). Passing the raw
+    # tyrelife underestimated the marginal cost by beta_1 per lap and made
+    # every stop execute one lap late (e.g. Bahrain pits at 20/39 instead of
+    # the true optimum 19/38). Under an active yellow flag the tyre does not
+    # age this lap, hence the +0. The start-of-race solve (fresh tyre, lap 1
+    # still decidable) keeps its own convention and is NOT routed through
+    # this adjustment.
+    w_effective = w_current + (0 if gamma else 1)
+
     try:
         x_values, y_values, _ = solve_MIP_GUROBI(
             betas_dict, time_stop, n=n_remaining,
-            t_current=t_current_name, w_current=w_current,
+            t_current=t_current_name, w_current=w_effective,
             t_previous=t_previous, p=p, gamma=gamma, N=n_total,
             verbose=False,
         )
-    except Exception:
+    except Exception as exc:
+        # A persistent solver failure (e.g. Gurobi licence) must not
+        # masquerade as a deliberate "never pit" strategy.
+        err_key = type(exc).__name__
+        if err_key not in _QMIP_SOLVER_ERRORS:
+            print(f"    WARNING: QMIP solver failed ({err_key}: {exc}); "
+                  f"defaulting to no-pit. Further identical errors muted.")
+        _QMIP_SOLVER_ERRORS[err_key] = _QMIP_SOLVER_ERRORS.get(err_key, 0) + 1
         return 0  # Default: no pit on solver failure
 
     # If x[0] >= 1, stay on current tires
@@ -358,14 +395,18 @@ def run_single_race_drl(
     terminal_info = {}
 
     while not done:
+        # deterministic=True: evaluate the policy's greedy/mode action, the
+        # same protocol EvalCallback used to select the best model (with
+        # False, DQN would act epsilon-greedy with its frozen exploration
+        # rate, injecting random pit calls).
         if use_lstm:
             action, lstm_states = model.predict(
                 obs, state=lstm_states, episode_start=episode_start,
-                deterministic=False,
+                deterministic=True,
             )
             episode_start = np.zeros((1,), dtype=bool)
         else:
-            action, _ = model.predict(obs, deterministic=False)
+            action, _ = model.predict(obs, deterministic=True)
 
         is_lap_zero = (raw_env.lap_number == 0)
         agent_compound = raw_env.agent_driver.compound
@@ -1004,3 +1045,5 @@ if __name__ == '__main__':
                       f"Mean P{np.mean(positions):.1f} "
                       f"+/- {np.std(positions):.1f}  "
                       f"Median P{int(np.median(positions))}")
+
+    report_qmip_solver_errors()

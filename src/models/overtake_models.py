@@ -3,6 +3,7 @@
 
 import config
 
+import os
 import pandas as pd
 import numpy as np
 from sklearn.metrics import confusion_matrix, roc_auc_score
@@ -56,6 +57,17 @@ def prepare_data_for_logit(laps_2021, laps_2022, laps_2023, selected_GP, reg_cle
     """
     # Concatenate
     laps_all = pd.concat([laps_2021, laps_2022, laps_2023])
+
+    # Consistency with the RegLTC training (train_regressions.py): Styrian
+    # races are pooled with Austrian, and the historical Emilia Romagna C2
+    # was relabeled C5. The clear-track predictors were FIT with these
+    # relabels, so the laps we predict on must use the same labels.
+    laps_all['GP'] = laps_all['GP'].replace('Styrian Grand Prix', 'Austrian Grand Prix')
+    _emr = laps_all['GP'] == 'Emilia Romagna Grand Prix'
+    laps_all.loc[_emr, 'Compound_Detail'] = (
+        laps_all.loc[_emr, 'Compound_Detail'].replace('C2', 'C5')
+    )
+
     laps_all = filter_laps(laps_all)
 
     # Save original interval before transformation
@@ -85,9 +97,14 @@ def optimize_f1_analysis(all_laps_df, selected_GP, reg_clear_dd):
     """
     print("Preparing data and creating dummy variables...")
 
-    # Save original columns
+    # Save original columns. Compound_Detail MUST be restored too:
+    # FastLinearPredictor resolves compound and TyreLife:C(Compound_Detail)
+    # terms through the semantic 'Compound_Detail' key; without it,
+    # LapTime_pred is blind to compound/degradation and delta_total loses
+    # the physical signal that drives overtakes.
     all_laps_df['Year_original'] = all_laps_df['Year'].copy()
     all_laps_df['Driver_original'] = all_laps_df['Driver'].copy()
+    all_laps_df['Compound_Detail_original'] = all_laps_df['Compound_Detail'].copy()
 
     # Create dummies
     dummy_columns = ["Driver", "Compound_Detail", "Year"]
@@ -101,7 +118,8 @@ def optimize_f1_analysis(all_laps_df, selected_GP, reg_clear_dd):
     # Restore original columns
     all_laps_df['Year'] = all_laps_df['Year_original']
     all_laps_df['Driver'] = all_laps_df['Driver_original']
-    all_laps_df = all_laps_df.drop(columns=['Year_original', 'Driver_original'])
+    all_laps_df['Compound_Detail'] = all_laps_df['Compound_Detail_original']
+    all_laps_df = all_laps_df.drop(columns=['Year_original', 'Driver_original', 'Compound_Detail_original'])
 
     all_laps_df['LapNumber_square'] = all_laps_df['LapNumber'] ** 2
 
@@ -365,12 +383,17 @@ def train_missing_overtake_models(target_gps: list = None) -> Dict[str, Dict]:
         Dictionary with GP name -> model info
     """
     if target_gps is None:
-        target_gps = ['Emilia Romagna Grand Prix', 'Miami Grand Prix']
+        # All 9 paper GPs (the LogitOvertake of EVERY GP is trained here)
+        target_gps = [
+            'Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
+            'Miami Grand Prix', 'Emilia Romagna Grand Prix',
+            'Hungarian Grand Prix', 'Belgian Grand Prix',
+            'Dutch Grand Prix', 'Singapore Grand Prix',
+            'United States Grand Prix',
+        ]
 
     # Load FastLinearPredictor for lap time predictions
     selected_GP = {gp: [] for gp in target_gps}
-    selected_GP['Emilia Romagna Grand Prix'] = ['C3', 'C4', 'C5']
-    selected_GP['Miami Grand Prix'] = ['C2', 'C3', 'C4']
 
     reg_clear_dd = {}
     models_dir = str(config.SIMULATION_DIR)
@@ -397,7 +420,7 @@ def train_missing_overtake_models(target_gps: list = None) -> Dict[str, Dict]:
         try:
             result = train_overtake_logit(logit_df, gp)
 
-            # Save model
+            # Save model (legacy flat layout, for reference)
             filepath = f'{overtakes_dir}/{gp}_logit_V2.pkl'
             with open(filepath, 'wb') as f:
                 pickle.dump(result['model'], f)
@@ -408,6 +431,15 @@ def train_missing_overtake_models(target_gps: list = None) -> Dict[str, Dict]:
             with open(filepath_threshold, 'wb') as f:
                 pickle.dump(result['threshold'], f)
             print(f"Saved threshold: {filepath_threshold}")
+
+            # Save to the per-GP layout that ModelLoader actually loads
+            gp_dir = os.path.join(overtakes_dir, gp)
+            os.makedirs(gp_dir, exist_ok=True)
+            with open(os.path.join(gp_dir, 'overtake_logit.pkl'), 'wb') as f:
+                pickle.dump(result['model'], f)
+            with open(os.path.join(gp_dir, 'overtake_threshold.pkl'), 'wb') as f:
+                pickle.dump(result['threshold'], f)
+            print(f"Saved loader model: {os.path.join(gp_dir, 'overtake_logit.pkl')}")
 
             results[gp] = result
 

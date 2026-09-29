@@ -15,6 +15,7 @@ RENDIMIENTO ESPERADO:
 """
 
 import config
+import os
 
 from typing import Dict, Tuple, List, Optional
 import numpy as np
@@ -87,6 +88,13 @@ class F1EnvOneDriverV2Optimized(Env):
         # PHASE 1 FIX: Reduced penalties to be proportional to lap times (~10-20 seconds)
         # Regulatory violations still penalized but not catastrophically
         self._penalty_no_compound_change = -100.0  # Reduced from -300.0 (regulatory)
+        # Opt-in (2026-09-23): align the two-compound-rule penalty with the
+        # disqualification penalty of the multi-driver environment / the paper
+        # (F1_DSQ_PENALTY = -1000). Default keeps the legacy -100 so that the
+        # existing single-driver checkpoints remain reproducible.
+        _dsq = os.environ.get('F1_ONE_DRIVER_DSQ_PENALTY')
+        if _dsq:
+            self._penalty_no_compound_change = float(_dsq)
         self._penalty_pit_last_lap = -30.0  # Reduced from -500.0 (strategic mistake)
         self._penalty_early_pit = -15.0  # Reduced from -300.0 (discourage, not forbid)
         self._penalty_consecutive_pit = -20.0  # Reduced from -300.0 (wasteful)
@@ -121,12 +129,12 @@ class F1EnvOneDriverV2Optimized(Env):
             "prev_action": 0,
         }
 
-        # Spaces
+        # Spaces (lap_number reaches n_laps + 1 after the final racing lap)
         self.observation_space = GymDict({
             "compound": Discrete(self.max_compound + 1),
             "tyre_life": Discrete(n_laps + 1),
             "change_compound": Discrete(2),
-            "lap_number": Discrete(n_laps + 1),
+            "lap_number": Discrete(n_laps + 2),
             "laps_left": Discrete(n_laps + 1),
             "prev_action": Discrete(self.max_compound + 1),
         })
@@ -171,7 +179,7 @@ class F1EnvOneDriverV2Optimized(Env):
         cache["change_compound"] = 0
 
         # Retornar dict directamente (Gymnasium hace la copia internamente si es necesario)
-        return cache, {}
+        return dict(cache), {}
 
     def step(self, action: int) -> Tuple[Dict[str, int], float, bool, bool, Dict]:
         """Step ultra-optimizado usando calculo directo con 4 coeficientes."""
@@ -188,7 +196,7 @@ class F1EnvOneDriverV2Optimized(Env):
         else:
             # Invalid action (should not happen with Discrete(4) and 3 compounds)
             self._update_obs_cache()
-            return self._obs_cache, self._penalty_invalid, False, False, {}
+            return dict(self._obs_cache), self._penalty_invalid, False, False, {}
 
         # PASO 1: Determinar PitIn para esta vuelta
         pit_in = 1.0 if pit_compound > 0 else 0.0
@@ -225,11 +233,20 @@ class F1EnvOneDriverV2Optimized(Env):
         # Progress lap (batch updates, usar referencias locales)
         lap_number = self.lap_number + 1
         self.lap_number = lap_number
-        self.laps_left -= 1
+        # laps remaining AFTER the lap about to be simulated (same convention
+        # as the multi-driver environment)
+        self.laps_left = max(0, self.n_laps - lap_number)
 
-        # Update previous action with one step delay and compound
+        # FIX (2026-07-20): the prev_action observation was delayed one lap
+        # too much — after the step of lap t it exposed a_{t-1} instead of
+        # a_t (the multi-driver environment exposes a_t). Now the obs cache
+        # gets THIS step's action. The local `prev_action` still holds the
+        # PREVIOUS lap's action, as required by the consecutive-pit penalty
+        # below. NOTE: this changes the observation, so single-driver
+        # checkpoints trained before this date are misaligned and must be
+        # re-trained.
         prev_action = self.current_action
-        self.prev_action = prev_action
+        self.prev_action = action
         self.current_action = action
         if pit_compound > 0:
             self.prev_compound = pit_compound
@@ -257,7 +274,7 @@ class F1EnvOneDriverV2Optimized(Env):
         self._update_obs_cache()
 
         # Retornar cache directamente (sin copia)
-        return self._obs_cache, reward, done, False, {}
+        return dict(self._obs_cache), reward, done, False, {}
 
     def _handle_lap_0(self, action: int) -> Tuple[Dict[str, int], float, bool, bool, Dict]:
         """Manejo ultra-optimizado de lap 0."""
@@ -265,7 +282,8 @@ class F1EnvOneDriverV2Optimized(Env):
         if action == 0:
             # Invalid: must select a compound at lap 0
             penalty = self._penalty_invalid
-            compound = np.random.choice(self.available_compounds)
+            # Use the seeded env RNG (np.random would break reproducibility)
+            compound = self.np_random.choice(self.available_compounds)
         elif 1 <= action <= self._n_compounds:
             # Valid action: map to compound (softest to hardest)
             penalty = 0.0
@@ -273,7 +291,7 @@ class F1EnvOneDriverV2Optimized(Env):
         else:
             # Invalid action (should not happen)
             self._update_obs_cache()
-            return self._obs_cache, self._penalty_invalid, False, False, {}
+            return dict(self._obs_cache), self._penalty_invalid, False, False, {}
 
         # Set compound (batch updates)
         self.compound = compound
@@ -286,17 +304,19 @@ class F1EnvOneDriverV2Optimized(Env):
 
         # Progress to lap 1 (batch updates)
         self.lap_number = 1
-        # self.laps_left = self.n_laps - 1
+        self.laps_left = self.n_laps - 1
 
-        # Update actions
-        self.prev_action = self.current_action
-        self.current_action = action
+        # No pit stop happened before lap 1: current_action must stay 0 so
+        # the compound selection is not treated as a pit for the
+        # consecutive-pit penalty / PitOut logic of the first racing lap.
+        self.prev_action = 0
+        self.current_action = 0
 
         # Update observation cache
         self._update_obs_cache()
 
         # Retornar cache directamente (sin copia)
-        return self._obs_cache, penalty, False, False, {}
+        return dict(self._obs_cache), penalty, False, False, {}
 
     def _update_obs_cache(self) -> None:
         """Actualiza el cache de observacion in-place (ultra-optimizado)."""

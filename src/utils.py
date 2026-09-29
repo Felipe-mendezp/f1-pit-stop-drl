@@ -785,10 +785,13 @@ def update_lap_state_v3(
     if 'PitIn' in lap_state:
         lap_state['PitIn'] = 1.0 if action != 0 else 0.0
 
-    # Update FirstLap_pos
+    # FirstLap_pos is only active on lap 1, whose state is built by
+    # initial_lap_v3 (with the grid position) and consumed directly by the
+    # environment. This update always produces the state for lap >= 2, so
+    # the first-lap effect must be switched off here.
     current_lap = lap_state.get('LapNumber', 1.0)
     if 'FirstLap_pos' in lap_state:
-        lap_state['FirstLap_pos'] = float(position) if current_lap == 1 else 0.0
+        lap_state['FirstLap_pos'] = 0.0
 
     # Update DRS (available after lap 2 if within 1 second)
     if 'DRS' in lap_state and current_lap > 2:

@@ -73,7 +73,7 @@ def fun_real_data():
         'Singapore Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'United States Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
         'Mexico City Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
-        'Sao Paulo Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
+        'São Paulo Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Las Vegas Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Abu Dhabi Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
     }
@@ -140,6 +140,59 @@ def check_compatibility(dict_compound_coef, new_compound, new_coef, fixed = True
                 if new_coef <= coef:
                     return False
     return True
+
+def fill_by_monotone_extrapolation(gp_dict, needed_compounds, fixed, gp_name=""):
+    """
+    Final fallback for 2024-needed compounds that SoftImpute + the
+    compatibility filter could not fill (the original pipeline filled these
+    few cells MANUALLY in completed_coefs_V2_filled.xlsx; this reproduces
+    that step deterministically).
+
+    Missing coefficients are linearly extrapolated over the compound index
+    from the known values and then clipped so that the physical
+    monotonicity enforced by check_compatibility holds:
+      fixed    : lap-time effect strictly DEcreasing with softness
+      variable : degradation   strictly INcreasing with softness (and > 0)
+    """
+    EPS = 1e-3
+    for c in sorted(needed_compounds):
+        if c in gp_dict:
+            continue
+        vals = {int(k[1:]): v for k, v in gp_dict.items()}
+        if not vals:
+            continue
+        i = int(c[1:])
+        idxs = sorted(vals)
+        if len(idxs) >= 2:
+            x0, x1 = idxs[0], idxs[-1]
+            slope = (vals[x1] - vals[x0]) / (x1 - x0)
+            val = vals[x0] + slope * (i - x0)
+        else:
+            # Un solo anchor NO permite extrapolar de forma defendible (el
+            # antiguo paso fijo -0.3 fabricaba 2 de 3 compuestos desde un
+            # punto). Se omite: el GP queda incompleto y fuera de la
+            # interseccion de elegibles, igual que en el pipeline original.
+            continue
+        # clip to keep strict monotonicity against known values
+        harder = [vals[j] for j in idxs if j < i]
+        softer = [vals[j] for j in idxs if j > i]
+        if fixed:
+            if harder:
+                val = min(val, min(harder) - EPS)
+            if softer:
+                val = max(val, max(softer) + EPS)
+        else:
+            if harder:
+                val = max(val, max(harder) + EPS)
+            if softer:
+                val = min(val, min(softer) - EPS)
+            val = max(val, EPS)  # degradation must stay positive
+        if check_compatibility(gp_dict, c, val, fixed=fixed):
+            gp_dict[c] = val
+            print(f"\t\t[extrapolation] Filled {'fixed' if fixed else 'variable'} "
+                  f"coef {c} = {val:.4f} for {gp_name}")
+    return gp_dict
+
 
 def df_to_dict(df):
     '''
@@ -237,7 +290,7 @@ def fun_real_data_v2():
         'Singapore Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'United States Grand Prix': {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
         'Mexico City Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
-        'Sao Paulo Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
+        'São Paulo Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Las Vegas Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
         'Abu Dhabi Grand Prix': {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
     }
@@ -367,15 +420,18 @@ def fun_real_data_v2():
     print(f"\ndf_wide_variable:")
     print(df_wide_variable)
 
-    # Build a pivot dataframe with NaN in all positions except where there is a 0 for fixed coefficients
+    # Pivotes inician TODO-NaN: solo el greedy de consistencia escribe valores.
+    # FIX (pre-seed): antes se pre-sembraban las celdas ==0 (p.ej. C3=0 en
+    # espacio-C3) y sobrevivian aunque el greedy RECHAZARA ese compuesto por
+    # inconsistencia, resucitando valores rechazados (caso Singapore fixed C3).
+    # Los rechazados deben quedar NaN y pasar por imputacion/interpolacion
+    # (Algoritmo B.1).
     df_pivotes_fixed = df_wide_fixed.copy()
-    # fill all values with nan except values that are equal to 0
-    df_pivotes_fixed = df_pivotes_fixed.where(df_pivotes_fixed == 0, np.nan)
+    df_pivotes_fixed.loc[:, :] = np.nan
     print(df_pivotes_fixed)
 
     df_pivotes_variable = df_wide_variable.copy()
-    # fill all values with nan except values that are equal to 0
-    df_pivotes_variable = df_pivotes_variable.where(df_pivotes_variable == 0, np.nan)
+    df_pivotes_variable.loc[:, :] = np.nan
     print(df_pivotes_variable)
 
     # anadir coeficientes compatibles a df_pivotes_fixed, recorriendo p-valores en orden creciente
@@ -478,12 +534,14 @@ def fun_real_data_v2():
     df_fixed_completed = pd.DataFrame(X_fixed_completed, columns=cols_components, index=df_pivotes_fixed.index)
     df_variable_completed = pd.DataFrame(X_variable_completed, columns=cols_components, index=df_pivotes_variable.index)
 
-    # remove the offsets from df_fixed_completed
-    for index, row in df_fixed_completed.iterrows():
-        GP = index
-        offset = dict_offset_fixed.get(GP, 0)
-        for col in cols_components:
-            df_fixed_completed.at[GP, col] = row[col] + offset
+    # FIX (escalas): df_fixed_completed se mantiene en espacio-C3 (cada fila
+    # fue normalizada restando el offset por GP), la MISMA escala en que viven
+    # dict_fixed / df_pivotes_fixed. Asi el chequeo de consistencia
+    # post-imputacion compara valores comparables (la consistencia es
+    # invariante a un shift por fila). El offset se re-suma UNA sola vez, a
+    # TODOS los valores fijos, justo antes de exportar (ver desnormalizacion
+    # final mas abajo). Antes se re-sumaba solo aqui, mezclando espacio-C3
+    # (greedy-aceptados) con espacio-referencia (imputados) en la salida.
 
     # print the first 3 decimals only
     print(df_fixed_completed.round(3))
@@ -528,10 +586,12 @@ def fun_real_data_v2():
         for c in gp_2024_compounds_to_fill:
             # c = gp_2024_compounds_to_fill[0]
             # check if c is consistent with dict_fixed[gp]
-            is_compatible_variable = check_compatibility(dict_variable.get(gp, {}), c, df_variable_completed.at[gp, c], fixed = False)
+            imputed_val = df_variable_completed.at[gp, c]
+            # la degradacion debe ser POSITIVA ademas de monotona
+            is_compatible_variable = (imputed_val > 0) and check_compatibility(dict_variable.get(gp, {}), c, imputed_val, fixed = False)
             if is_compatible_variable:
-                dict_variable.setdefault(gp, {})[c] = df_variable_completed.at[gp, c]
-                print(f"\t\tFilled variable coef for compound {c} with value {df_variable_completed.at[gp, c]}")
+                dict_variable.setdefault(gp, {})[c] = imputed_val
+                print(f"\t\tFilled variable coef for compound {c} with value {imputed_val}")
 
         # fill compounds with average of neighbours of matrix completion if its compatible
         gp_2024_compounds_to_fill = [c for c in gp_2024_compounds if not c in list(dict_variable.get(gp, {}).keys())]
@@ -545,6 +605,27 @@ def fun_real_data_v2():
                     if is_compatible_variable:
                         dict_variable.setdefault(gp, {})[c] = avg_coef
                         print(f"\t\tFilled variable coef for compound {c} with average value {avg_coef}")
+
+    # Final fallback: monotone extrapolation for the few 2024-needed cells
+    # still missing after SoftImpute + neighbour averaging (originally
+    # hand-filled in the Excel; here reproduced deterministically).
+    for gp, comp_map in map_compound_2024.items():
+        needed = list(comp_map.values())
+        if gp in dict_fixed:
+            fill_by_monotone_extrapolation(dict_fixed[gp], needed, fixed=True, gp_name=gp)
+        if gp in dict_variable:
+            fill_by_monotone_extrapolation(dict_variable[gp], needed, fixed=False, gp_name=gp)
+
+    # Desnormalizacion FINAL (invariante: la salida queda integramente en
+    # escala ABSOLUTA, la de la regresion, con la referencia del GP en 0).
+    # Todo dict_fixed vive hasta aqui en espacio-C3; se suma el offset del GP
+    # a TODOS los valores fijos (greedy-aceptados, imputados-aceptados e
+    # interpolados) para que la 2a pasada de train_regressions.py los pueda
+    # aplicar directamente como coeficientes. Los variables NO usan offset.
+    for gp in dict_fixed:
+        offset = dict_offset_fixed.get(gp, 0)
+        for c in list(dict_fixed[gp].keys()):
+            dict_fixed[gp][c] = dict_fixed[gp][c] + offset
 
     df_fixed_final = dict_to_df(dict_fixed)
     df_variable_final = dict_to_df(dict_variable)

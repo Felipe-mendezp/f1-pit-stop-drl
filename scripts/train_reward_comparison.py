@@ -56,12 +56,45 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train RecurrentPPO under different reward types.")
     parser.add_argument('--seed', type=int, default=42,
                         help='Base random seed for reproducibility. Default: 42.')
+    parser.add_argument('--gps', nargs='+', default=None,
+                        help='Subset of GP names to train (default: all pairs). '
+                             'E.g. --gps "Miami Grand Prix"')
+    parser.add_argument('--timesteps', type=int, default=None,
+                        help='Override total timesteps per run (default: config).')
+    parser.add_argument('--fast-env', action='store_true',
+                        help='Numpy fast path for rival/overtake logits '
+                             '(validated at init, ~3x faster env steps).')
+    parser.add_argument('--n-envs', type=int, default=None,
+                        help='Override number of parallel envs (default: config).')
+    parser.add_argument('--torch-threads', type=int, default=None,
+                        help='Override torch.set_num_threads (module default 8).')
+    # --- Opt-ins (2026-09-11, regeneración de la Sección P bajo la física del paper);
+    # defaults reproducen el protocolo original (física legacy, 4 rewards, árbol RL_REWARD_DIR).
+    parser.add_argument('--reward-types', nargs='+', default=None, choices=REWARD_TYPES,
+                        help='Subconjunto de rewards a entrenar (default: los 4). Las semillas se '
+                             'asignan por el índice en la lista completa, así que un subconjunto '
+                             'reproduce las mismas semillas que la corrida completa.')
+    parser.add_argument('--output-dir', default=None,
+                        help='Árbol de salida (default: RL_REWARD_DIR). Layout <GP>_<DRV>/RecurrentPPO_<reward>/')
+    parser.add_argument('--following-gap-scale', type=float, default=0.0)
+    parser.add_argument('--sc-bunching', action='store_true')
+    parser.add_argument('--sc-bunch-delta', type=float, default=1.5)
+    parser.add_argument('--checkpoint-freq', type=int, default=0)
     args = parser.parse_args()
 
     seed_all(args.seed)
 
-    n_envs = TRAINING_CONFIG['n_envs']
-    total_timesteps = TRAINING_CONFIG['total_timesteps']
+    if args.torch_threads is not None:
+        torch.set_num_threads(args.torch_threads)
+
+    if args.gps:
+        GP_DRIVER_PAIRS = [(gp, drv) for gp, drv in GP_DRIVER_PAIRS
+                           if gp in args.gps]
+        if not GP_DRIVER_PAIRS:
+            raise SystemExit(f"--gps {args.gps} matched no configured pair")
+
+    n_envs = args.n_envs or TRAINING_CONFIG['n_envs']
+    total_timesteps = args.timesteps or TRAINING_CONFIG['total_timesteps']
     eval_freq = TRAINING_CONFIG['eval_freq']
     n_eval_episodes = TRAINING_CONFIG['n_eval_episodes']
     early_stop_patience = TRAINING_CONFIG['early_stop_patience']
@@ -109,10 +142,11 @@ if __name__ == "__main__":
         # Output directory for this GP+driver
         gp_short = gp.replace(' Grand Prix', '').replace(' ', '_')
         agent_short = agent_driver.replace('Driver_', '')
-        output_dir = os.path.join(MODELS_REWARD_DIR, f"{gp_short}_{agent_short}")
+        output_dir = os.path.join(args.output_dir or MODELS_REWARD_DIR, f"{gp_short}_{agent_short}")
         os.makedirs(output_dir, exist_ok=True)
 
-        for rt_idx, reward_type in enumerate(REWARD_TYPES):
+        for reward_type in (args.reward_types or REWARD_TYPES):
+            rt_idx = REWARD_TYPES.index(reward_type)
             run_idx += 1
             algo_name = f"RecurrentPPO_{reward_type}"
             # Distinct seed per (GP, reward_type) so they don't share RNG state
@@ -126,6 +160,10 @@ if __name__ == "__main__":
             env_factory = create_env_factory(
                 gp, agent_driver, loader, initial_positions,
                 reward_type=reward_type,
+                fast_rivals=args.fast_env,
+                following_gap_scale=args.following_gap_scale,
+                sc_bunching=args.sc_bunching,
+                sc_bunch_delta=args.sc_bunch_delta,
             )
 
             train_algorithm(
@@ -142,6 +180,7 @@ if __name__ == "__main__":
                 n_eval_episodes=n_eval_episodes,
                 early_stop_patience=early_stop_patience,
                 seed=run_seed,
+                checkpoint_freq=args.checkpoint_freq,
             )
 
         print("\n" + "=" * 70)
