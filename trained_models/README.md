@@ -4,9 +4,9 @@ This folder is empty in the git repository. The simulator and all trained agents
 as a separate archive in the Zenodo record of this release:
 
     f1-pit-stop-drl-v2.0.0-models.tar.gz   (116 MB compressed, ~190 MB extracted)
-    SHA-256  601d86431801cb2086faeb4a39190b33ab318d0f69ffaa0d0cb9b6a7c4eee5e1
+    SHA-256  fae7c6db55eab59daaf5eeadff467a6cd1c7701071cb682e241d69ba00f8f8fe
 
-Download it from https://doi.org/10.5281/zenodo.20060266 (latest version) and extract it at the
+Download it from https://doi.org/10.5281/zenodo.20060265 (latest version) and extract it at the
 repository root:
 
     tar -xzf f1-pit-stop-drl-v2.0.0-models.tar.gz        # creates trained_models/{simulation,rl_agents,rl_agents_reward}

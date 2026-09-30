@@ -3,7 +3,7 @@
 Code, data, trained agents and final figures for the article by **Felipe Méndez and Charles Thraves**
 (Department of Industrial Engineering, University of Chile), submitted to *Annals of Operations Research*.
 
-> Archived on Zenodo — concept DOI [`10.5281/zenodo.20060266`](https://doi.org/10.5281/zenodo.20060266)
+> Archived on Zenodo — concept DOI [`10.5281/zenodo.20060265`](https://doi.org/10.5281/zenodo.20060265)
 > (always resolves to the latest version). **v2.0.0** is the version of the ANOR manuscript.
 
 The repository contains a race simulator for 2024 Formula 1 Grands Prix calibrated on 2021–2023 race
@@ -173,8 +173,8 @@ The figures are reproduced from the shipped agents.
   title     = {Data and Code for: Optimizing Pit Stop Strategies in {Formula} 1},
   version   = {2.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20060266},
-  url       = {https://doi.org/10.5281/zenodo.20060266}
+  doi       = {10.5281/zenodo.20060265},
+  url       = {https://doi.org/10.5281/zenodo.20060265}
 }
 ```
 
@@ -190,7 +190,7 @@ The figures are reproduced from the shipped agents.
   * the 5 % compound filter of the single-driver benchmark.
 
   All agents were retrained, and only the final code, figures, data and agents are included.
-* v1.1.0 / v1.0.0 (2026) — earlier submission snapshots (DOI `10.5281/zenodo.20114287` for v1.1.0).
+* v1.1.0 / v1.0.0 (2026) — earlier submission snapshots (version DOIs `10.5281/zenodo.20060266` for v1.0.0 and `10.5281/zenodo.20114287` for v1.1.0).
 
 ## License
 

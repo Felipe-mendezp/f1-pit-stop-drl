@@ -18,7 +18,7 @@ repository-code: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.20060266"
+    value: "10.5281/zenodo.20060265"
     description: "Concept DOI on Zenodo (resolves to the latest version)"
 keywords:
   - "Operations Research in Sports"
