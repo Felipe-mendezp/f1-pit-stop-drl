@@ -1,0 +1,97 @@
+display_name,opcion,algo,pos_media,pos_sd,puntos_media,dsq_pct,paradas_media,n
+Bahrain GP (ALO),actual,PPO,5.862,2.604,8.87,0.0,1.87,500
+Bahrain GP (ALO),actual,QMIP,6.36,3.401,8.472,0.0,1.002,500
+Bahrain GP (ALO),actual,RecurrentPPO,6.084,2.667,8.492,0.0,1.954,500
+Bahrain GP (ALO),control,PPO,5.942,2.692,8.758,0.0,1.866,500
+Bahrain GP (ALO),control,QMIP,6.36,3.401,8.472,0.0,1.002,500
+Bahrain GP (ALO),control,RecurrentPPO,5.95,2.685,8.774,0.0,1.542,500
+Bahrain GP (ALO),opcion2,PPO,6.472,2.997,7.934,1.2,1.396,500
+Bahrain GP (ALO),opcion2,QMIP,6.788,3.222,7.54,0.0,1.006,500
+Bahrain GP (ALO),opcion2,RecurrentPPO,6.534,2.932,7.782,0.0,1.006,500
+Bahrain GP (ALO),opcion3,PPO,6.664,2.858,7.478,0.0,1.806,500
+Bahrain GP (ALO),opcion3,QMIP,7.01,3.236,7.162,0.0,1.002,500
+Bahrain GP (ALO),opcion3,RecurrentPPO,6.708,3.027,7.486,1.8,1.902,500
+Belgian GP (NOR),actual,PPO,8.086,3.649,5.66,0.0,1.9,500
+Belgian GP (NOR),actual,QMIP,9.844,4.546,4.266,0.0,1.0,500
+Belgian GP (NOR),actual,RecurrentPPO,8.134,3.848,5.808,0.0,1.98,500
+Belgian GP (NOR),control,PPO,8.406,3.854,5.372,0.0,1.972,500
+Belgian GP (NOR),control,QMIP,9.844,4.546,4.266,0.0,1.0,500
+Belgian GP (NOR),control,RecurrentPPO,8.478,4.091,5.49,0.0,1.85,500
+Belgian GP (NOR),opcion2,PPO,9.482,4.229,4.24,0.0,1.0,500
+Belgian GP (NOR),opcion2,QMIP,10.472,4.527,3.612,0.0,1.0,500
+Belgian GP (NOR),opcion2,RecurrentPPO,8.994,4.021,4.704,0.0,1.0,500
+Belgian GP (NOR),opcion3,PPO,9.202,4.039,4.392,0.0,1.0,500
+Belgian GP (NOR),opcion3,QMIP,10.194,4.533,3.896,0.0,1.002,500
+Belgian GP (NOR),opcion3,RecurrentPPO,8.896,4.005,4.81,0.0,1.0,500
+Dutch GP (RUS),actual,PPO,5.982,3.59,9.36,0.0,0.998,500
+Dutch GP (RUS),actual,QMIP,7.634,4.549,7.252,0.0,1.426,500
+Dutch GP (RUS),actual,RecurrentPPO,6.052,3.599,9.182,0.0,1.0,500
+Dutch GP (RUS),control,PPO,5.646,3.419,9.9,0.2,0.998,500
+Dutch GP (RUS),control,QMIP,7.634,4.549,7.252,0.0,1.426,500
+Dutch GP (RUS),control,RecurrentPPO,5.892,3.646,9.582,0.0,1.0,500
+Dutch GP (RUS),opcion2,PPO,6.65,3.428,7.83,0.4,0.996,500
+Dutch GP (RUS),opcion2,QMIP,8.874,4.293,5.144,0.0,1.182,500
+Dutch GP (RUS),opcion2,RecurrentPPO,6.938,3.559,7.406,0.2,0.998,500
+Dutch GP (RUS),opcion3,PPO,7.34,3.502,6.63,0.0,1.0,500
+Dutch GP (RUS),opcion3,QMIP,9.262,4.321,4.698,0.0,1.228,500
+Dutch GP (RUS),opcion3,RecurrentPPO,7.15,3.501,6.984,0.0,1.0,500
+Hungarian GP (SAI),actual,PPO,4.424,3.507,13.276,0.2,0.998,500
+Hungarian GP (SAI),actual,QMIP,4.77,3.586,12.372,0.0,1.0,500
+Hungarian GP (SAI),actual,RecurrentPPO,4.3,3.474,13.544,0.2,0.998,500
+Hungarian GP (SAI),control,PPO,4.572,3.695,13.108,0.4,0.996,500
+Hungarian GP (SAI),control,QMIP,4.77,3.586,12.372,0.0,1.0,500
+Hungarian GP (SAI),control,RecurrentPPO,4.14,3.337,13.966,0.0,1.0,500
+Hungarian GP (SAI),opcion2,PPO,3.812,3.324,15.03,0.0,1.0,500
+Hungarian GP (SAI),opcion2,QMIP,4.432,3.752,13.882,0.0,1.01,500
+Hungarian GP (SAI),opcion2,RecurrentPPO,3.442,2.865,15.802,0.0,1.0,500
+Hungarian GP (SAI),opcion3,PPO,4.326,3.198,13.234,0.2,1.322,500
+Hungarian GP (SAI),opcion3,QMIP,4.568,3.725,13.22,0.0,1.006,500
+Hungarian GP (SAI),opcion3,RecurrentPPO,3.94,3.222,14.496,0.0,1.714,500
+Miami GP (OCO),actual,PPO,11.496,2.779,1.08,0.0,1.0,500
+Miami GP (OCO),actual,QMIP,12.054,3.033,0.926,0.0,1.0,500
+Miami GP (OCO),actual,RecurrentPPO,11.636,2.879,1.028,0.0,1.0,500
+Miami GP (OCO),control,PPO,13.366,2.467,0.232,0.0,1.0,500
+Miami GP (OCO),control,QMIP,12.054,3.033,0.926,0.0,1.0,500
+Miami GP (OCO),control,RecurrentPPO,11.414,2.808,1.132,0.2,0.998,500
+Miami GP (OCO),opcion2,PPO,12.764,2.415,0.352,0.0,1.0,500
+Miami GP (OCO),opcion2,QMIP,11.668,3.171,1.238,0.0,1.0,500
+Miami GP (OCO),opcion2,RecurrentPPO,11.642,3.137,1.206,0.0,1.0,500
+Miami GP (OCO),opcion3,PPO,13.846,2.395,0.106,0.0,1.0,500
+Miami GP (OCO),opcion3,QMIP,11.604,3.182,1.25,0.0,1.002,500
+Miami GP (OCO),opcion3,RecurrentPPO,11.37,3.038,1.316,0.0,1.0,500
+Saudi Arabian GP (NOR),actual,PPO,9.256,4.262,4.408,1.0,0.99,500
+Saudi Arabian GP (NOR),actual,QMIP,10.696,4.356,3.072,0.0,1.014,500
+Saudi Arabian GP (NOR),actual,RecurrentPPO,8.844,3.633,4.414,0.2,0.998,500
+Saudi Arabian GP (NOR),control,PPO,9.106,3.884,4.28,0.4,0.996,500
+Saudi Arabian GP (NOR),control,QMIP,10.696,4.356,3.072,0.0,1.014,500
+Saudi Arabian GP (NOR),control,RecurrentPPO,9.414,4.273,4.214,2.0,0.978,500
+Saudi Arabian GP (NOR),opcion2,PPO,9.592,3.574,3.418,0.0,1.0,500
+Saudi Arabian GP (NOR),opcion2,QMIP,10.89,3.904,2.426,0.0,1.0,500
+Saudi Arabian GP (NOR),opcion2,RecurrentPPO,9.532,3.591,3.506,0.4,0.992,500
+Saudi Arabian GP (NOR),opcion3,PPO,8.984,3.662,4.25,0.0,1.0,500
+Saudi Arabian GP (NOR),opcion3,QMIP,11.506,4.327,2.29,0.4,0.996,500
+Saudi Arabian GP (NOR),opcion3,RecurrentPPO,8.996,3.585,4.206,0.0,1.0,500
+Singapore GP (HUL),actual,PPO,10.496,3.889,2.72,0.0,0.998,500
+Singapore GP (HUL),actual,QMIP,11.676,3.99,1.978,0.0,1.014,500
+Singapore GP (HUL),actual,RecurrentPPO,10.592,3.752,2.564,0.0,1.0,500
+Singapore GP (HUL),control,PPO,10.608,3.925,2.646,0.0,1.0,500
+Singapore GP (HUL),control,QMIP,11.676,3.99,1.978,0.0,1.014,500
+Singapore GP (HUL),control,RecurrentPPO,10.696,3.956,2.608,0.0,1.0,500
+Singapore GP (HUL),opcion2,PPO,10.59,4.994,3.792,1.6,0.984,500
+Singapore GP (HUL),opcion2,QMIP,11.598,4.787,2.874,0.0,1.0,500
+Singapore GP (HUL),opcion2,RecurrentPPO,9.43,4.379,4.444,0.4,0.996,500
+Singapore GP (HUL),opcion3,PPO,10.158,4.654,3.89,0.4,0.996,500
+Singapore GP (HUL),opcion3,QMIP,11.734,4.847,2.864,0.0,1.116,500
+Singapore GP (HUL),opcion3,RecurrentPPO,10.164,4.479,3.664,0.2,0.998,500
+United States GP (PIA),actual,PPO,5.73,2.636,9.168,0.0,1.738,500
+United States GP (PIA),actual,QMIP,6.42,3.446,8.396,0.0,1.088,500
+United States GP (PIA),actual,RecurrentPPO,5.756,2.943,9.324,0.0,1.0,500
+United States GP (PIA),control,PPO,5.74,2.779,9.276,0.2,1.774,500
+United States GP (PIA),control,QMIP,6.42,3.446,8.396,0.0,1.088,500
+United States GP (PIA),control,RecurrentPPO,5.48,2.736,9.772,0.0,1.0,500
+United States GP (PIA),opcion2,PPO,4.958,2.986,11.136,0.0,1.0,500
+United States GP (PIA),opcion2,QMIP,5.508,3.408,10.24,0.0,1.0,500
+United States GP (PIA),opcion2,RecurrentPPO,5.036,2.78,10.804,0.0,1.0,500
+United States GP (PIA),opcion3,PPO,5.134,2.638,10.484,0.0,1.0,500
+United States GP (PIA),opcion3,QMIP,6.268,3.494,8.712,0.0,1.014,500
+United States GP (PIA),opcion3,RecurrentPPO,5.426,2.377,9.696,0.0,1.0,500

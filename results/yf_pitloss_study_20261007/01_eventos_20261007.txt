@@ -1,0 +1,41 @@
+(98363, 20)
+st
+G         88244
+SC         4610
+Y          3436
+VSC        1620
+RED         360
+VSCend       93
+Name: count, dtype: int64
+
+Eventos SC/VSC (inicios) 2021-24 por GP del paper:
+lap_st                    SC  VSC
+GP                               
+Bahrain Grand Prix         2    2
+Belgian Grand Prix         1    0
+Dutch Grand Prix           3    1
+Hungarian Grand Prix       1    2
+Miami Grand Prix           2    2
+Saudi Arabian Grand Prix   4    4
+Singapore Grand Prix       3    4
+United States Grand Prix   2    1
+
+Total carreras con datos: 90  con algún SC: 51  con algún VSC: 37
+
+PitIn bajo YF según vuelta del evento:
+ev_idx    1    2   3  4  5  6
+lap_st                       
+SC      259  152  61  5  8  3
+VSC      89   29   1  0  0  0
+
+PitIn bajo YF por GP del paper (2021-24), SC / VSC:
+lap_st                    SC  VSC
+GP                               
+Bahrain Grand Prix        10    8
+Belgian Grand Prix         2    0
+Dutch Grand Prix          32    9
+Hungarian Grand Prix       1    2
+Miami Grand Prix          17    7
+Saudi Arabian Grand Prix  44    2
+Singapore Grand Prix      14    6
+United States Grand Prix  11    0

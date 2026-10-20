@@ -15,3 +15,21 @@ figures_regenerated/
 results/decision_support_reeval/
 data/fastf1_cache/
 tensorboard*/
+
+# 2026-10-20 (v8): large outputs not versioned (simulator pickles ship in the Zenodo models archive;
+# look-ahead rollouts and diagnostic runs go to the Zenodo results archive)
+figures_regenerated_v8/
+results/**/artifacts_*/
+results/decision_support_v8w24belief_20261019/PPO/
+results/decision_support_v8w24belief_20261019/RecurrentPPO/
+results/decision_support_v8w24belief_20261019/figs/
+results/decision_support_v7w24belief_20261015/
+results/decision_support_v6w24belief_20261015/
+results/decision_support_v5hw24belief_20261012/
+results/decision_support_v5w24_20261011/
+results/decision_support_diag_20260930/
+results/decision_support_tyre_opcion2_20261004/
+results/decision_support_tyre_opcion3_20261004/
+results/ablation_pubagents_v4_20261010/
+results/yf_pits_diag_20261007/
+results/yf_pits_diag_20261007_reveal/

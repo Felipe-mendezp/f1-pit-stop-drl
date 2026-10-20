@@ -1,0 +1,65 @@
+set,algo,model_dir,pits,n_laps
+actual,PPO,Bahrain_ALO,"17, 31, 41",57
+actual,RecurrentPPO,Bahrain_ALO,"17, 33",57
+actual,PPO,Saudi_Arabian_NOR,"21",50
+actual,RecurrentPPO,Saudi_Arabian_NOR,"16",50
+actual,PPO,Miami_OCO,"12",57
+actual,RecurrentPPO,Miami_OCO,"11",57
+actual,PPO,Hungarian_SAI,"30",70
+actual,RecurrentPPO,Hungarian_SAI,"30",70
+actual,PPO,Belgian_NOR,"10, 19, 26, 32",44
+actual,RecurrentPPO,Belgian_NOR,"9, 19, 30",44
+actual,PPO,Dutch_RUS,"30",72
+actual,RecurrentPPO,Dutch_RUS,"19",72
+actual,PPO,Singapore_HUL,"18",62
+actual,RecurrentPPO,Singapore_HUL,"17, 39",62
+actual,PPO,United_States_PIA,"14, 28, 36",56
+actual,RecurrentPPO,United_States_PIA,"22",56
+control,PPO,Bahrain_ALO,"17, 34",57
+control,RecurrentPPO,Bahrain_ALO,"14, 35",57
+control,PPO,Saudi_Arabian_NOR,"12",50
+control,RecurrentPPO,Saudi_Arabian_NOR,"22",50
+control,PPO,Miami_OCO,"1",57
+control,RecurrentPPO,Miami_OCO,"12",57
+control,PPO,Hungarian_SAI,"34",70
+control,RecurrentPPO,Hungarian_SAI,"30",70
+control,PPO,Belgian_NOR,"12, 21, 29, 33",44
+control,RecurrentPPO,Belgian_NOR,"9, 16, 22, 27, 30, 32, 34",44
+control,PPO,Dutch_RUS,"30",72
+control,RecurrentPPO,Dutch_RUS,"28",72
+control,PPO,Singapore_HUL,"23, 60",62
+control,RecurrentPPO,Singapore_HUL,"18, 39",62
+control,PPO,United_States_PIA,"20, 39",56
+control,RecurrentPPO,United_States_PIA,"24, 39",56
+opcion2,PPO,Bahrain_ALO,"16, 35",57
+opcion2,RecurrentPPO,Bahrain_ALO,"19, 35",57
+opcion2,PPO,Saudi_Arabian_NOR,"18",50
+opcion2,RecurrentPPO,Saudi_Arabian_NOR,"13",50
+opcion2,PPO,Miami_OCO,"1",57
+opcion2,RecurrentPPO,Miami_OCO,"12, 37",57
+opcion2,PPO,Hungarian_SAI,"18",70
+opcion2,RecurrentPPO,Hungarian_SAI,"25",70
+opcion2,PPO,Belgian_NOR,"14, 21, 29",44
+opcion2,RecurrentPPO,Belgian_NOR,"11, 21, 29",44
+opcion2,PPO,Dutch_RUS,"24",72
+opcion2,RecurrentPPO,Dutch_RUS,"32",72
+opcion2,PPO,Singapore_HUL,"26",62
+opcion2,RecurrentPPO,Singapore_HUL,"18",62
+opcion2,PPO,United_States_PIA,"22",56
+opcion2,RecurrentPPO,United_States_PIA,"21, 41",56
+opcion3,PPO,Bahrain_ALO,"15, 36",57
+opcion3,RecurrentPPO,Bahrain_ALO,"19, 37",57
+opcion3,PPO,Saudi_Arabian_NOR,"18",50
+opcion3,RecurrentPPO,Saudi_Arabian_NOR,"40",50
+opcion3,PPO,Miami_OCO,"1",57
+opcion3,RecurrentPPO,Miami_OCO,"12",57
+opcion3,PPO,Hungarian_SAI,"17, 36, 47",70
+opcion3,RecurrentPPO,Hungarian_SAI,"21, 40, 47",70
+opcion3,PPO,Belgian_NOR,"14, 29",44
+opcion3,RecurrentPPO,Belgian_NOR,"11, 19, 28",44
+opcion3,PPO,Dutch_RUS,"30",72
+opcion3,RecurrentPPO,Dutch_RUS,"25",72
+opcion3,PPO,Singapore_HUL,"17, 36",62
+opcion3,RecurrentPPO,Singapore_HUL,"17, 31, 40",62
+opcion3,PPO,United_States_PIA,"23",56
+opcion3,RecurrentPPO,United_States_PIA,"26",56

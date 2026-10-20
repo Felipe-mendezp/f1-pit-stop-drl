@@ -1,0 +1,1 @@
+seed 2  pos_media_val 11.095  share_ok 1.000  ok-neutral

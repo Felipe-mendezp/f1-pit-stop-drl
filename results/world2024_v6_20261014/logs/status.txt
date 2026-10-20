@@ -1,0 +1,34 @@
+18:16:19 select eval Saudi_Arabian_NOR Singapore_HUL
+18:32:40 select pick Saudi_Arabian_NOR Singapore_HUL
+18:32:43 fig7 Saudi_Arabian_NOR Singapore_HUL
+18:35:44 fig7 Saudi_Arabian_NOR exit 0
+18:37:37 fig7 Singapore_HUL exit 0
+18:37:37 dnfobs Saudi_Arabian_NOR Singapore_HUL
+18:38:51 dnfobs Saudi_Arabian_NOR exit 0
+18:39:37 dnfobs Singapore_HUL exit 0
+18:39:37 summary
+18:39:42 fin check
+19:13:46 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+19:56:40 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+19:56:43 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+20:09:27 fig6 Saudi_Arabian_NOR exit 0
+20:14:09 fig6 Belgian_GAS exit 0
+20:14:55 fig6 Miami_OCO exit 0
+20:16:15 fig6 Singapore_HUL exit 0
+20:17:40 fig6 United_States_MAG exit 0
+20:19:46 fig6 Bahrain_ALO exit 0
+20:21:18 fig6 Dutch_STR exit 0
+20:21:38 fig6 Hungarian_TSU exit 0
+20:21:38 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+20:26:26 fig7 Saudi_Arabian_NOR exit 0
+20:29:54 fig7 Miami_OCO exit 0
+20:31:10 fig7 Singapore_HUL exit 0
+20:32:22 fig7 Belgian_GAS exit 0
+20:33:10 fig7 United_States_MAG exit 0
+20:34:35 fig7 Hungarian_TSU exit 0
+20:34:46 fig7 Bahrain_ALO exit 0
+20:34:53 fig7 Dutch_STR exit 0
+20:34:53 summary
+400 tareas, 8 GP: ['Bahrain_ALO', 'Belgian_GAS', 'Dutch_STR', 'Hungarian_TSU', 'Miami_OCO', 'Saudi_Arabian_NOR', 'Singapore_HUL', 'United_States_MAG']
+40 filas -> /Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/reproduce/MODELS_MANIFEST_v6_20261014.csv
+20:35:04 fin all

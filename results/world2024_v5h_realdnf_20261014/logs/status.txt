@@ -1,0 +1,10 @@
+18:30:00 start
+18:42:46 fig6 Saudi_Arabian_NOR exit 0
+18:47:14 fig6 Belgian_NOR exit 0
+18:48:37 fig6 Miami_OCO exit 0
+18:49:32 fig6 Singapore_HUL exit 0
+18:50:56 fig6 United_States_PIA exit 0
+18:53:25 fig6 Bahrain_ALO exit 0
+18:54:51 fig6 Dutch_RUS exit 0
+18:55:12 fig6 Hungarian_SAI exit 0
+18:55:12 ALLDONE

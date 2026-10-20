@@ -1,0 +1,35 @@
+            n    med    iqr   mean     sd
+cls                                      
+G      2009.0  22.64   4.97  23.42   5.22
+SC1      75.0  20.40   9.37  21.20   9.34
+SC2+     70.0   8.31  34.73  16.55  28.12
+VSC1     69.0  15.39   5.80  17.18   7.09
+VSC2+    28.0  22.63  10.98  25.00  10.28
+
+in-lap / out-lap excess por clase (mediana):
+        exc  next_exc
+cls                  
+G      4.07     18.70
+SC1    7.13     13.80
+SC2+   2.04      5.20
+VSC1   5.20     12.84
+VSC2+  3.57     18.76
+
+Por GP (paper):
+                           med                              n                       
+cls                          G   SC1  SC2+  VSC1 VSC2+      G   SC1  SC2+ VSC1 VSC2+
+GP                                                                                  
+Bahrain Grand Prix        24.2  18.7   4.2  18.8   NaN  163.0   4.0   3.0  7.0   NaN
+Saudi Arabian Grand Prix  21.3  17.2   6.2   NaN  28.6   25.0   6.0   3.0  NaN   1.0
+Miami Grand Prix          19.7  14.9   4.7  14.7  20.7   49.0  11.0   4.0  5.0   1.0
+Hungarian Grand Prix      21.4   NaN   NaN  18.3  22.2  132.0   NaN   NaN  1.0   1.0
+Belgian Grand Prix        18.8   NaN   NaN   NaN   NaN  105.0   NaN   NaN  NaN   NaN
+Dutch Grand Prix          22.7  33.6  46.5  24.9  30.2  112.0   7.0  22.0  5.0   4.0
+Singapore Grand Prix      30.4   NaN   NaN   NaN  31.0   27.0   NaN   NaN  NaN   3.0
+United States Grand Prix  20.7   NaN   NaN   NaN   NaN  124.0   NaN   NaN  NaN   NaN
+
+Ratio pérdida YF / verde (GPs con >=3 paradas), resumen:
+SC1 nGP 11 med 0.81 IQR 0.75 0.91
+SC2+ nGP 9 med 0.18 IQR 0.01 0.29
+VSC1 nGP 9 med 0.74 IQR 0.64 0.78
+VSC2+ nGP 4 med 1.02 IQR 0.97 1.1

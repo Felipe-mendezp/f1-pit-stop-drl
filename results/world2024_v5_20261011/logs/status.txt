@@ -1,0 +1,17 @@
+fig6 Saudi_Arabian_NOR exit 0
+fig6 Miami_OCO exit 0
+fig6 Singapore_HUL exit 0
+fig6 Belgian_NOR exit 0
+fig7 Saudi_Arabian_NOR exit 0
+fig6 United_States_PIA exit 0
+fig6 Hungarian_SAI exit 0
+fig6 Dutch_RUS exit 0
+fig7 Miami_OCO exit 0
+fig6 Bahrain_ALO exit 0
+fig7 Bahrain_ALO exit 0
+fig7 Belgian_NOR exit 0
+fig7 Hungarian_SAI exit 0
+fig7 Singapore_HUL exit 0
+fig7 Dutch_RUS exit 0
+fig7 United_States_PIA exit 0
+ALLDONE

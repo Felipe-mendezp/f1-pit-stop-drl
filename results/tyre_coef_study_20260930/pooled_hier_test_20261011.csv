@@ -1,0 +1,65 @@
+cov,tau_lev,GP,C1,C2,C3,C4,C5
+OLS,libre,Bahrain,0.122,0.1322,0.1466,,
+OLS,libre,Belgian,,0.1508,0.1689,0.1819,
+OLS,libre,Dutch,0.0392,0.0431,0.0487,,
+OLS,libre,Hungarian,,,0.0505,0.0603,0.0721
+OLS,libre,Miami,,0.0162,0.0195,0.022,
+OLS,libre,Saudi Arabian,,0.0019,0.0024,0.0028,
+OLS,libre,Singapore,,,0.0406,0.0464,0.053
+OLS,libre,United States,,0.0676,0.077,0.0838,
+OLS,1.0,Bahrain,0.1221,0.1319,0.1465,,
+OLS,1.0,Belgian,,0.1503,0.1687,0.1818,
+OLS,1.0,Dutch,0.0392,0.043,0.0488,,
+OLS,1.0,Hungarian,,,0.0505,0.0603,0.072
+OLS,1.0,Miami,,0.0163,0.0197,0.0222,
+OLS,1.0,Saudi Arabian,,0.0056,0.0073,0.0087,
+OLS,1.0,Singapore,,,0.0406,0.0464,0.0531
+OLS,1.0,United States,,0.0675,0.077,0.0838,
+OLS,0.5,Bahrain,0.1221,0.1315,0.1462,,
+OLS,0.5,Belgian,,0.1493,0.1681,0.1811,
+OLS,0.5,Dutch,0.0393,0.0429,0.0488,,
+OLS,0.5,Hungarian,,,0.0506,0.0603,0.0718
+OLS,0.5,Miami,,0.0166,0.0202,0.0229,
+OLS,0.5,Saudi Arabian,,0.0087,0.0122,0.0151,
+OLS,0.5,Singapore,,,0.0406,0.0465,0.0532
+OLS,0.5,United States,,0.0673,0.0768,0.0835,
+OLS,0.3,Bahrain,0.1222,0.1306,0.1455,,
+OLS,0.3,Belgian,,0.1472,0.1666,0.1796,
+OLS,0.3,Dutch,0.0394,0.0427,0.0488,,
+OLS,0.3,Hungarian,,,0.0506,0.0601,0.0714
+OLS,0.3,Miami,,0.0172,0.0214,0.0244,
+OLS,0.3,Saudi Arabian,,0.0113,0.0183,0.0246,
+OLS,0.3,Singapore,,,0.0409,0.0468,0.0536
+OLS,0.3,United States,,0.0669,0.0765,0.083,
+cluster,libre,Bahrain,0.1284,0.1284,0.1458,,
+cluster,libre,Belgian,,0.1507,0.1797,0.1797,
+cluster,libre,Dutch,0.0399,0.0399,0.0456,,
+cluster,libre,Hungarian,,,0.0534,0.0534,0.0534
+cluster,libre,Miami,,0.0152,0.0175,0.0175,
+cluster,libre,Saudi Arabian,,0.0,0.0,0.0,
+cluster,libre,Singapore,,,0.0308,0.0308,0.0308
+cluster,libre,United States,,0.0654,0.0745,0.0745,
+cluster,1.0,Bahrain,0.128,0.128,0.1455,,
+cluster,1.0,Belgian,,0.1499,0.179,0.179,
+cluster,1.0,Dutch,0.0398,0.0398,0.0456,,
+cluster,1.0,Hungarian,,,0.0533,0.0533,0.0533
+cluster,1.0,Miami,,0.0156,0.0181,0.0181,
+cluster,1.0,Saudi Arabian,,0.0084,0.0098,0.0098,
+cluster,1.0,Singapore,,,0.0311,0.0311,0.0311
+cluster,1.0,United States,,0.0652,0.0743,0.0743,
+cluster,0.5,Bahrain,0.1272,0.1272,0.1443,,
+cluster,0.5,Belgian,,0.1483,0.1766,0.1766,
+cluster,0.5,Dutch,0.0398,0.0398,0.0456,,
+cluster,0.5,Hungarian,,,0.0531,0.0531,0.0531
+cluster,0.5,Miami,,0.0169,0.0196,0.0196,
+cluster,0.5,Saudi Arabian,,0.014,0.0166,0.0166,
+cluster,0.5,Singapore,,,0.032,0.032,0.032
+cluster,0.5,United States,,0.0647,0.0737,0.0737,
+cluster,0.3,Bahrain,0.1254,0.1254,0.1417,,
+cluster,0.3,Belgian,,0.1448,0.1713,0.1713,
+cluster,0.3,Dutch,0.0399,0.0399,0.0457,,
+cluster,0.3,Hungarian,,,0.0528,0.0528,0.0528
+cluster,0.3,Miami,,0.019,0.0223,0.0223,
+cluster,0.3,Saudi Arabian,,0.0197,0.0236,0.0236,
+cluster,0.3,Singapore,,,0.034,0.034,0.034
+cluster,0.3,United States,,0.0637,0.0725,0.0725,

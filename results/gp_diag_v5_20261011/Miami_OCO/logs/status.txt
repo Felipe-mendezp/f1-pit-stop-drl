@@ -1,0 +1,7 @@
+rstoch yreal exit 0
+rstoch ystoch exit 0
+rstoch ynone exit 0
+rreal yreal exit 0
+rreal ynone exit 0
+rreal ystoch exit 0
+ALLDONE

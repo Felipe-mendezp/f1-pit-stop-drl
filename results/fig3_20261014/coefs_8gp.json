@@ -1,0 +1,562 @@
+[
+ {
+  "gp": "Bahrain",
+  "base": "C1",
+  "laps": 57,
+  "compounds": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "stints": {
+   "C1": 34,
+   "C2": 45,
+   "C3": 109
+  },
+  "n_raw": 2848,
+  "n_clean": 2826,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C1": {
+      "offset": 0.0,
+      "slope": 0.1039
+     },
+     "C2": {
+      "offset": -0.151,
+      "slope": 0.136
+     },
+     "C3": {
+      "offset": -0.4761,
+      "slope": 0.1467
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C1": {
+      "offset": 0.0,
+      "slope": 0.1259
+     },
+     "C2": {
+      "offset": 0.0844,
+      "slope": 0.1421
+     },
+     "C3": {
+      "offset": -0.1592,
+      "slope": 0.1405
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C1": {
+      "offset": 0.0,
+      "slope": 0.1221
+     },
+     "C2": {
+      "offset": -0.0796,
+      "slope": 0.1318
+     },
+     "C3": {
+      "offset": -0.3339,
+      "slope": 0.1465
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Belgian",
+  "base": "C2",
+  "laps": 44,
+  "compounds": [
+   "C2",
+   "C3",
+   "C4"
+  ],
+  "stints": {
+   "C2": 16,
+   "C3": 58,
+   "C4": 35
+  },
+  "n_raw": 1461,
+  "n_clean": 1433,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.1405
+     },
+     "C3": {
+      "offset": -0.5311,
+      "slope": 0.2064
+     },
+     "C4": {
+      "offset": -0.1219,
+      "slope": 0.1274
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.1413
+     },
+     "C3": {
+      "offset": -0.5559,
+      "slope": 0.203
+     },
+     "C4": {
+      "offset": -0.23,
+      "slope": 0.1424
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.15
+     },
+     "C3": {
+      "offset": -0.2031,
+      "slope": 0.1685
+     },
+     "C4": {
+      "offset": -0.3395,
+      "slope": 0.1816
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Dutch",
+  "base": "C2",
+  "laps": 72,
+  "compounds": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "stints": {
+   "C1": 0,
+   "C2": 42,
+   "C3": 55
+  },
+  "n_raw": 2474,
+  "n_clean": 2433,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C1": {
+      "offset": null,
+      "slope": null
+     },
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0439
+     },
+     "C3": {
+      "offset": 0.0959,
+      "slope": 0.0187
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C1": {
+      "offset": null,
+      "slope": null
+     },
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0454
+     },
+     "C3": {
+      "offset": -0.2259,
+      "slope": 0.0391
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C1": {
+      "offset": 0.0772,
+      "slope": 0.0392
+     },
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.043
+     },
+     "C3": {
+      "offset": -0.2466,
+      "slope": 0.0488
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Hungarian",
+  "base": "C3",
+  "laps": 70,
+  "compounds": [
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "stints": {
+   "C3": 76,
+   "C4": 45,
+   "C5": 3
+  },
+  "n_raw": 3336,
+  "n_clean": 3238,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0482
+     },
+     "C4": {
+      "offset": -0.6544,
+      "slope": 0.0756
+     },
+     "C5": {
+      "offset": -1.2397,
+      "slope": 0.1342
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0491
+     },
+     "C4": {
+      "offset": -0.3798,
+      "slope": 0.064
+     },
+     "C5": {
+      "offset": -0.3871,
+      "slope": 0.0886
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0505
+     },
+     "C4": {
+      "offset": -0.2296,
+      "slope": 0.0603
+     },
+     "C5": {
+      "offset": -0.4591,
+      "slope": 0.072
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Miami",
+  "base": "C2",
+  "laps": 57,
+  "compounds": [
+   "C2",
+   "C3",
+   "C4"
+  ],
+  "stints": {
+   "C2": 39,
+   "C3": 40,
+   "C4": 5
+  },
+  "n_raw": 1994,
+  "n_clean": 1972,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0151
+     },
+     "C3": {
+      "offset": 0.0837,
+      "slope": -0.0032
+     },
+     "C4": {
+      "offset": 0.0376,
+      "slope": -0.0116
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0174
+     },
+     "C3": {
+      "offset": -0.0448,
+      "slope": 0.0123
+     },
+     "C4": {
+      "offset": -0.1449,
+      "slope": 0.0173
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0164
+     },
+     "C3": {
+      "offset": -0.1563,
+      "slope": 0.0198
+     },
+     "C4": {
+      "offset": -0.2614,
+      "slope": 0.0224
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Saudi Arabian",
+  "base": "C2",
+  "laps": 50,
+  "compounds": [
+   "C2",
+   "C3",
+   "C4"
+  ],
+  "stints": {
+   "C2": 51,
+   "C3": 62,
+   "C4": 5
+  },
+  "n_raw": 2039,
+  "n_clean": 2002,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": -0.0484
+     },
+     "C3": {
+      "offset": -0.0531,
+      "slope": -0.0595
+     },
+     "C4": {
+      "offset": -0.3348,
+      "slope": -0.0029
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": -0.0065
+     },
+     "C3": {
+      "offset": -0.2872,
+      "slope": 0.0151
+     },
+     "C4": {
+      "offset": 0.8927,
+      "slope": -0.0234
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0068
+     },
+     "C3": {
+      "offset": -0.1984,
+      "slope": 0.0091
+     },
+     "C4": {
+      "offset": -0.3318,
+      "slope": 0.0109
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "Singapore",
+  "base": "C3",
+  "laps": 62,
+  "compounds": [
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "stints": {
+   "C3": 18,
+   "C4": 21,
+   "C5": 3
+  },
+  "n_raw": 845,
+  "n_clean": 839,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0444
+     },
+     "C4": {
+      "offset": -0.7684,
+      "slope": 0.0566
+     },
+     "C5": {
+      "offset": -0.2338,
+      "slope": 0.0171
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0417
+     },
+     "C4": {
+      "offset": -0.6502,
+      "slope": 0.0469
+     },
+     "C5": {
+      "offset": -0.1041,
+      "slope": 0.0161
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C3": {
+      "offset": 0.0,
+      "slope": 0.0406
+     },
+     "C4": {
+      "offset": -0.2394,
+      "slope": 0.0464
+     },
+     "C5": {
+      "offset": -0.4788,
+      "slope": 0.0531
+     }
+    }
+   }
+  ]
+ },
+ {
+  "gp": "United States",
+  "base": "C2",
+  "laps": 56,
+  "compounds": [
+   "C2",
+   "C3",
+   "C4"
+  ],
+  "stints": {
+   "C2": 79,
+   "C3": 86,
+   "C4": 5
+  },
+  "n_raw": 2812,
+  "n_clean": 2764,
+  "stages": [
+   {
+    "stage": "raw",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0526
+     },
+     "C3": {
+      "offset": -0.3185,
+      "slope": 0.0567
+     },
+     "C4": {
+      "offset": 1.0866,
+      "slope": -0.0754
+     }
+    }
+   },
+   {
+    "stage": "clean",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0726
+     },
+     "C3": {
+      "offset": -0.2461,
+      "slope": 0.0701
+     },
+     "C4": {
+      "offset": 0.5838,
+      "slope": 0.0384
+     }
+    }
+   },
+   {
+    "stage": "joint",
+    "coefs": {
+     "C2": {
+      "offset": 0.0,
+      "slope": 0.0674
+     },
+     "C3": {
+      "offset": -0.2272,
+      "slope": 0.0769
+     },
+     "C4": {
+      "offset": -0.3798,
+      "slope": 0.0837
+     }
+    }
+   }
+  ]
+ }
+]

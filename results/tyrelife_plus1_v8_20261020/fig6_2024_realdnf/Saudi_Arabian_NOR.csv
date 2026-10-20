@@ -1,0 +1,1501 @@
+gp_idx,algo,display_name,final_position,total_reward,pit_stops,changed_compound,n_pits_all,pit_laps,last_lap_pit
+0,PPO,Saudi Arabian GP (NOR),4,1239.2919921875,1,True,1,8,0
+0,PPO,Saudi Arabian GP (NOR),4,994.03759765625,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),3,2186.30322265625,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),10,-2931.70556640625,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),5,625.2021484375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2279.00830078125,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),4,921.42578125,1,True,2,4 28,0
+0,PPO,Saudi Arabian GP (NOR),8,-1641.54638671875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1063.56103515625,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),20,-5941.7138671875,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),20,-5863.3955078125,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),5,430.25634765625,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),6,-119.662109375,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),1,5396.93408203125,1,True,2,10 46,0
+0,PPO,Saudi Arabian GP (NOR),5,-27.0439453125,1,True,1,1,0
+0,PPO,Saudi Arabian GP (NOR),17,-4651.65869140625,1,True,2,2 40,0
+0,PPO,Saudi Arabian GP (NOR),5,19.28515625,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),3,2222.12158203125,1,True,1,25,0
+0,PPO,Saudi Arabian GP (NOR),1,5546.546875,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),1,5743.81640625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,417.4130859375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,1849.55419921875,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),6,-195.4169921875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),2,3109.19189453125,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),2,3211.01611328125,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),2,3265.6767578125,1,True,2,19 49,0
+0,PPO,Saudi Arabian GP (NOR),8,-1705.72412109375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1108.85205078125,1,True,1,39,0
+0,PPO,Saudi Arabian GP (NOR),3,2018.9208984375,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),5,259.12939453125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),4,1165.00537109375,1,True,1,18,0
+0,PPO,Saudi Arabian GP (NOR),5,488.55078125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,503.0625,1,True,1,45,0
+0,PPO,Saudi Arabian GP (NOR),2,3051.3447265625,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),3,2342.53857421875,1,True,1,43,0
+0,PPO,Saudi Arabian GP (NOR),3,2322.37841796875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),7,-1077.087158203125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,47.2333984375,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),7,-1216.53955078125,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),4,1179.30859375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),2,2825.1328125,1,True,2,7 44,0
+0,PPO,Saudi Arabian GP (NOR),11,-3526.6484375,1,True,1,17,0
+0,PPO,Saudi Arabian GP (NOR),4,1241.97119140625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),10,-3175.41748046875,1,True,2,5 14,0
+0,PPO,Saudi Arabian GP (NOR),4,1250.41650390625,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),4,1113.60107421875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),5,173.11279296875,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),8,-1710.666259765625,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),5,563.87841796875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3109.396484375,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),4,822.5537109375,1,True,2,14 44,0
+0,PPO,Saudi Arabian GP (NOR),3,2300.13525390625,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),4,1067.86279296875,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),20,-5841.884765625,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),6,-323.50537109375,1,True,1,43,0
+0,PPO,Saudi Arabian GP (NOR),8,-1650.555419921875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),2,3338.31640625,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),4,1116.1181640625,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),6,-675.455078125,1,True,2,6 28,0
+0,PPO,Saudi Arabian GP (NOR),5,321.38525390625,1,True,2,14 36,0
+0,PPO,Saudi Arabian GP (NOR),4,1234.45849609375,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),4,1339.07373046875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),9,-2563.560546875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),3,2036.4873046875,1,True,1,42,0
+0,PPO,Saudi Arabian GP (NOR),5,637.3388671875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),2,3245.30419921875,1,True,1,1,0
+0,PPO,Saudi Arabian GP (NOR),6,-119.85791015625,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),3,1931.48046875,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),4,1173.18798828125,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),6,-195.35546875,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),3,2191.10009765625,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),2,2936.54443359375,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),7,-1068.187744140625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),3,2167.50732421875,1,True,1,4,0
+0,PPO,Saudi Arabian GP (NOR),5,503.11767578125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),8,-1633.2822265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1158.4248046875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),2,3241.8173828125,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),4,1179.95166015625,1,True,1,12,0
+0,PPO,Saudi Arabian GP (NOR),5,560.89306640625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),7,-944.899169921875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),9,-2484.050537109375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),6,-188.419921875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2119.42822265625,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),5,500.12158203125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3323.01123046875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),6,-202.1201171875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),4,703.9423828125,1,True,2,1 32,0
+0,PPO,Saudi Arabian GP (NOR),5,511.23681640625,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),5,506.74658203125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-248.0947265625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),20,-5934.5595703125,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),6,-122.74462890625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),2,3343.65380859375,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),4,1180.744140625,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),1,5372.66064453125,1,True,2,14 43,0
+0,PPO,Saudi Arabian GP (NOR),5,149.10595703125,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),6,-327.783203125,1,True,1,35,0
+0,PPO,Saudi Arabian GP (NOR),3,2395.38623046875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-353.36962890625,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),3,2387.841796875,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),7,-1327.5185546875,1,True,2,9 44,0
+0,PPO,Saudi Arabian GP (NOR),2,2984.3837890625,1,True,1,1,0
+0,PPO,Saudi Arabian GP (NOR),2,3160.08984375,1,True,1,21,0
+0,PPO,Saudi Arabian GP (NOR),5,559.8193359375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,-18.15576171875,1,True,2,2 43,0
+0,PPO,Saudi Arabian GP (NOR),4,1320.95703125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),11,-3749.41015625,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),7,-1181.3876953125,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),4,1260.42333984375,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),6,-444.5546875,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),8,-1702.79443359375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),9,-2470.979248046875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3304.01611328125,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),5,636.54150390625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1322.07861328125,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),3,2137.22900390625,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),3,2216.6875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),8,-2007.1982421875,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),5,617.13232421875,1,True,1,43,0
+0,PPO,Saudi Arabian GP (NOR),3,2055.33837890625,1,True,1,39,0
+0,PPO,Saudi Arabian GP (NOR),5,565.65771484375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),5,502.81005859375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1241.697265625,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),8,-1654.633544921875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,550.52294921875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,2921.2421875,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),2,3284.46875,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),2,3211.7958984375,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),4,1260.42333984375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-577.6142578125,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),5,300.06103515625,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),4,1313.64697265625,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),4,967.68359375,1,True,2,5 33,0
+0,PPO,Saudi Arabian GP (NOR),2,3283.3544921875,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),6,-125.07421875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),7,-889.4033203125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2248.59326171875,1,True,1,48,0
+0,PPO,Saudi Arabian GP (NOR),1,5428.55859375,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),2,3170.46484375,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),3,1860.52392578125,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),4,1399.66552734375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),15,-4519.42529296875,1,True,2,5 28,0
+0,PPO,Saudi Arabian GP (NOR),5,347.37646484375,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),9,-2682.506103515625,1,True,2,5 41,0
+0,PPO,Saudi Arabian GP (NOR),1,5175.93505859375,1,True,2,7 37,0
+0,PPO,Saudi Arabian GP (NOR),8,-1826.138916015625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,1263.7685546875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1379.29541015625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,1259.97802734375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),6,-148.0029296875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,179.45849609375,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),3,2293.80322265625,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),4,1074.0859375,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),6,-125.13232421875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,1237.5693359375,1,True,1,21,0
+0,PPO,Saudi Arabian GP (NOR),5,415.00244140625,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),3,2145.5380859375,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),5,412.58544921875,1,True,1,19,0
+0,PPO,Saudi Arabian GP (NOR),4,1321.05419921875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),2,3220.37548828125,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),5,415.35498046875,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),3,2193.017578125,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),8,-1834.623046875,1,True,1,43,0
+0,PPO,Saudi Arabian GP (NOR),3,2213.1640625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2241.91162109375,1,True,1,49,0
+0,PPO,Saudi Arabian GP (NOR),4,1329.20458984375,1,True,1,35,0
+0,PPO,Saudi Arabian GP (NOR),5,530.09521484375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),11,-3453.395263671875,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),5,403.9375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,293.7919921875,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),7,-1135.483154296875,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),1,5444.43017578125,1,True,2,9 35,0
+0,PPO,Saudi Arabian GP (NOR),7,-1292.654052734375,1,True,1,4,0
+0,PPO,Saudi Arabian GP (NOR),11,-3658.0009765625,1,True,2,15 46,0
+0,PPO,Saudi Arabian GP (NOR),2,3354.50927734375,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),3,2121.75830078125,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),6,-119.03759765625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,1218.9609375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),10,-3039.3369140625,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),2,3230.1494140625,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),3,2438.0751953125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),1,5554.8740234375,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),5,497.99609375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),14,-3856.71875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2237.17626953125,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),5,222.17626953125,1,True,1,4,0
+0,PPO,Saudi Arabian GP (NOR),4,1187.3779296875,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),3,2222.06591796875,1,True,1,11,0
+0,PPO,Saudi Arabian GP (NOR),4,1163.4384765625,1,True,1,25,0
+0,PPO,Saudi Arabian GP (NOR),3,2243.4599609375,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),2,3352.80517578125,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),3,2296.49609375,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),3,1942.52783203125,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),3,2039.349609375,1,True,2,2 44,0
+0,PPO,Saudi Arabian GP (NOR),3,1962.85205078125,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),8,-1630.45751953125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),1,5359.759765625,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),4,1064.75048828125,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),6,-181.2802734375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2183.24365234375,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),3,2232.123046875,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),10,-2870.027587890625,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),3,2099.47900390625,1,True,1,21,0
+0,PPO,Saudi Arabian GP (NOR),5,619.21728515625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),6,-119.62255859375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3288.828125,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),7,-950.994873046875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,630.13525390625,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),4,891.642578125,1,True,2,5 48,0
+0,PPO,Saudi Arabian GP (NOR),3,2229.19775390625,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),6,-258.904296875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),6,-123.275390625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1119.134765625,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),2,3177.6875,1,True,1,17,0
+0,PPO,Saudi Arabian GP (NOR),4,775.87109375,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),8,-1784.0029296875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,620.5888671875,1,True,2,5 31,0
+0,PPO,Saudi Arabian GP (NOR),5,417.9892578125,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),16,-4498.6787109375,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),4,1173.6943359375,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),2,3354.17724609375,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),10,-3310.130859375,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),3,2052.79052734375,1,True,1,1,0
+0,PPO,Saudi Arabian GP (NOR),3,2158.62255859375,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),4,567.31103515625,1,True,2,4 41,0
+0,PPO,Saudi Arabian GP (NOR),5,444.94140625,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),6,-530.46630859375,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),3,2276.28955078125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),6,-691.36328125,1,True,2,12 49,0
+0,PPO,Saudi Arabian GP (NOR),11,-3524.53076171875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),14,-3910.19580078125,1,True,1,24,0
+0,PPO,Saudi Arabian GP (NOR),8,-1692.199951171875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-179.75341796875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3171.84521484375,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),4,1233.9501953125,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),5,452.43603515625,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),5,564.14697265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-179.1171875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1200.056640625,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),3,2119.58349609375,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),3,1984.04248046875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),6,-406.9541015625,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),3,2167.13525390625,1,True,1,49,0
+0,PPO,Saudi Arabian GP (NOR),8,-1763.87744140625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3282.22314453125,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),2,3211.09814453125,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),1,5494.0712890625,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),14,-3873.046630859375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-412.5380859375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),2,3124.7255859375,1,True,1,18,0
+0,PPO,Saudi Arabian GP (NOR),2,3288.05419921875,1,True,1,8,0
+0,PPO,Saudi Arabian GP (NOR),2,3489.90380859375,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),3,2341.0302734375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,900.953125,1,True,1,1,0
+0,PPO,Saudi Arabian GP (NOR),5,505.314453125,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),8,-1642.75390625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),8,-1706.242919921875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),5,621.75732421875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2215.615234375,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),4,1108.0166015625,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),3,1860.96826171875,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),3,1803.130859375,1,True,1,21,0
+0,PPO,Saudi Arabian GP (NOR),12,-3803.63330078125,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),3,2120.8134765625,1,True,1,11,0
+0,PPO,Saudi Arabian GP (NOR),3,2218.15234375,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),3,2270.07080078125,1,True,1,11,0
+0,PPO,Saudi Arabian GP (NOR),3,2073.8701171875,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),7,-948.7119140625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),11,-3681.8759765625,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),5,506.1015625,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),6,-252.638671875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1398.96826171875,1,True,1,35,0
+0,PPO,Saudi Arabian GP (NOR),6,-121.6015625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,576.28173828125,1,True,1,43,0
+0,PPO,Saudi Arabian GP (NOR),20,-5899.51416015625,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),7,-1006.074462890625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),2,3299.49658203125,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),5,45.1845703125,1,True,2,4 31,0
+0,PPO,Saudi Arabian GP (NOR),2,3279.08642578125,1,True,1,24,0
+0,PPO,Saudi Arabian GP (NOR),7,-883.36328125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,365.75048828125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),3,2302.189453125,1,True,1,39,0
+0,PPO,Saudi Arabian GP (NOR),2,3426.33349609375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),13,-4163.3701171875,1,True,2,2 42,0
+0,PPO,Saudi Arabian GP (NOR),6,-116.5654296875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2290.08056640625,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),8,-2005.729736328125,1,True,2,7 40,0
+0,PPO,Saudi Arabian GP (NOR),2,3042.19140625,1,True,1,24,0
+0,PPO,Saudi Arabian GP (NOR),6,-150.5458984375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1184.9775390625,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),5,310.0,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),3,2240.57763671875,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),8,-1706.560302734375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3292.0517578125,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),2,3233.48583984375,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),2,3019.80029296875,1,True,2,1 47,0
+0,PPO,Saudi Arabian GP (NOR),9,-2846.09521484375,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),4,993.47119140625,1,True,1,12,0
+0,PPO,Saudi Arabian GP (NOR),7,-1011.567626953125,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),5,397.6572265625,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),10,-3221.51220703125,1,True,1,17,0
+0,PPO,Saudi Arabian GP (NOR),6,-257.31298828125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),1,5434.8935546875,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),7,-954.71240234375,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),5,428.71875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2166.4619140625,1,True,2,23 47,0
+0,PPO,Saudi Arabian GP (NOR),3,2216.5947265625,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),5,563.83447265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1063.63037109375,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),6,-123.498046875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1332.2861328125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),2,3153.42431640625,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),1,5348.255859375,1,True,1,24,0
+0,PPO,Saudi Arabian GP (NOR),2,3079.728515625,1,True,2,10 48,0
+0,PPO,Saudi Arabian GP (NOR),20,-5942.8388671875,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),7,-1125.19140625,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),4,1328.65380859375,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),5,474.3466796875,1,True,1,8,0
+0,PPO,Saudi Arabian GP (NOR),5,290.04443359375,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),4,1191.85888671875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),2,3342.2236328125,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),4,985.0927734375,1,True,2,3 44,0
+0,PPO,Saudi Arabian GP (NOR),3,2227.9638671875,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),4,1082.79345703125,1,True,2,10 38,0
+0,PPO,Saudi Arabian GP (NOR),7,-1078.486328125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),2,3109.2607421875,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),3,2341.82763671875,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),5,481.60009765625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),3,2075.4150390625,1,True,1,39,0
+0,PPO,Saudi Arabian GP (NOR),2,3112.33837890625,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),3,2291.90625,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),6,-131.9072265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),20,-5817.06103515625,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),2,3115.501953125,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),5,177.9853515625,1,True,2,7 32,0
+0,PPO,Saudi Arabian GP (NOR),4,843.81787109375,1,True,2,9 38,0
+0,PPO,Saudi Arabian GP (NOR),3,2378.2392578125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),7,-1007.716064453125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-126.6708984375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),12,-3931.7548828125,1,True,2,1 38,0
+0,PPO,Saudi Arabian GP (NOR),5,500.83447265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),7,-953.596923828125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),10,-3235.6337890625,1,True,1,12,0
+0,PPO,Saudi Arabian GP (NOR),8,-1971.45751953125,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),3,1900.74658203125,1,True,2,2 38,0
+0,PPO,Saudi Arabian GP (NOR),2,3116.89404296875,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),6,-592.66650390625,1,True,2,11 37,0
+0,PPO,Saudi Arabian GP (NOR),4,1391.26904296875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,1898.08154296875,1,True,2,2 23,0
+0,PPO,Saudi Arabian GP (NOR),7,-1010.856201171875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),4,1334.49609375,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),4,1332.70849609375,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),8,-1805.060546875,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),5,567.45556640625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,3289.9580078125,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),2,2911.16015625,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),2,3297.0107421875,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),7,-1110.70361328125,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),5,244.64306640625,1,True,2,7 46,0
+0,PPO,Saudi Arabian GP (NOR),5,500.8203125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-185.048828125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2052.50927734375,1,True,1,6,0
+0,PPO,Saudi Arabian GP (NOR),4,1118.08349609375,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),3,2451.5322265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,563.1875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-392.38330078125,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),3,2294.71142578125,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),7,-961.578125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1181.1767578125,1,True,1,25,0
+0,PPO,Saudi Arabian GP (NOR),4,1169.810546875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),3,2230.146484375,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),5,575.8359375,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),3,1851.78466796875,1,True,2,7 50,1
+0,PPO,Saudi Arabian GP (NOR),2,3356.38623046875,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),5,343.0322265625,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),5,443.66845703125,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),3,2006.623046875,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),3,2129.11474609375,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),3,2059.50048828125,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),7,-950.017333984375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),2,2812.73779296875,1,True,2,7 43,0
+0,PPO,Saudi Arabian GP (NOR),5,631.51416015625,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),2,3110.62158203125,1,True,2,10 29,0
+0,PPO,Saudi Arabian GP (NOR),4,1267.587890625,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),6,-264.18505859375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-190.2802734375,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1323.9599609375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),7,-1248.772216796875,1,True,2,23 41,0
+0,PPO,Saudi Arabian GP (NOR),4,1393.03076171875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),20,-5755.072265625,0,False,0,,0
+0,PPO,Saudi Arabian GP (NOR),4,1264.583984375,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),4,944.81103515625,1,True,2,1 40,0
+0,PPO,Saudi Arabian GP (NOR),3,2232.61572265625,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),1,5390.80517578125,1,True,2,18 48,0
+0,PPO,Saudi Arabian GP (NOR),3,2173.40576171875,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),4,1322.75341796875,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),8,-1805.73828125,1,True,1,10,0
+0,PPO,Saudi Arabian GP (NOR),2,3272.12548828125,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),4,1183.8486328125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,558.6416015625,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),3,1989.970703125,1,True,1,27,0
+0,PPO,Saudi Arabian GP (NOR),6,-767.13525390625,1,True,2,2 30,0
+0,PPO,Saudi Arabian GP (NOR),2,3182.82568359375,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),6,-428.83837890625,1,True,1,12,0
+0,PPO,Saudi Arabian GP (NOR),3,2305.5283203125,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),3,1894.3076171875,1,True,2,15 46,0
+0,PPO,Saudi Arabian GP (NOR),3,2380.40625,1,True,1,34,0
+0,PPO,Saudi Arabian GP (NOR),2,3300.2841796875,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),3,2065.9619140625,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),5,598.0947265625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-316.41845703125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),5,556.52783203125,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),6,-192.06787109375,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2061.9560546875,1,True,2,16 45,0
+0,PPO,Saudi Arabian GP (NOR),3,2069.845703125,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),4,1202.53857421875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),2,3109.36767578125,1,True,1,9,0
+0,PPO,Saudi Arabian GP (NOR),4,1322.49267578125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2181.3994140625,1,True,1,2,0
+0,PPO,Saudi Arabian GP (NOR),4,1069.6220703125,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),4,1354.47998046875,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),4,1244.86767578125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2230.515625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),6,-274.568359375,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),2,3290.91650390625,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),7,-1313.550537109375,1,True,1,25,0
+0,PPO,Saudi Arabian GP (NOR),2,3188.14404296875,1,True,1,19,0
+0,PPO,Saudi Arabian GP (NOR),4,1061.6962890625,1,True,1,5,0
+0,PPO,Saudi Arabian GP (NOR),5,500.12939453125,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),4,1106.07958984375,1,True,1,7,0
+0,PPO,Saudi Arabian GP (NOR),3,1936.50830078125,1,True,1,8,0
+0,PPO,Saudi Arabian GP (NOR),2,3155.17919921875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2352.88916015625,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),3,2327.3974609375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),4,703.7607421875,1,True,1,18,0
+0,PPO,Saudi Arabian GP (NOR),4,1238.3232421875,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),3,1953.224609375,1,True,1,4,0
+0,PPO,Saudi Arabian GP (NOR),5,472.2431640625,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),6,-118.23095703125,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2376.17626953125,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),1,5298.08544921875,1,True,2,11 44,0
+0,PPO,Saudi Arabian GP (NOR),4,1172.38720703125,1,True,1,15,0
+0,PPO,Saudi Arabian GP (NOR),4,1205.3076171875,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),9,-2875.4296875,1,True,1,4,0
+0,PPO,Saudi Arabian GP (NOR),5,263.70068359375,1,True,1,18,0
+0,PPO,Saudi Arabian GP (NOR),14,-4048.9375,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),4,1309.91455078125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),1,5373.646484375,1,True,1,22,0
+0,PPO,Saudi Arabian GP (NOR),1,5377.3310546875,1,True,1,14,0
+0,PPO,Saudi Arabian GP (NOR),4,1064.78466796875,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),6,-136.79541015625,1,True,1,35,0
+0,PPO,Saudi Arabian GP (NOR),4,1249.72900390625,1,True,1,33,0
+0,PPO,Saudi Arabian GP (NOR),2,3170.06982421875,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),6,-132.28564453125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1050.33984375,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),2,3052.71337890625,1,True,2,11 44,0
+0,PPO,Saudi Arabian GP (NOR),2,3082.40380859375,1,True,1,40,0
+0,PPO,Saudi Arabian GP (NOR),7,-1196.02685546875,1,True,1,20,0
+0,PPO,Saudi Arabian GP (NOR),4,1174.90234375,1,True,1,11,0
+0,PPO,Saudi Arabian GP (NOR),3,2311.3310546875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),3,2230.7890625,1,True,1,23,0
+0,PPO,Saudi Arabian GP (NOR),2,3500.171875,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-189.35791015625,1,True,1,38,0
+0,PPO,Saudi Arabian GP (NOR),6,-307.03125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),4,1164.650390625,1,True,1,31,0
+0,PPO,Saudi Arabian GP (NOR),1,5047.28955078125,1,True,2,1 32,0
+0,PPO,Saudi Arabian GP (NOR),3,2377.7548828125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),7,-1288.8349609375,1,True,2,2 28,0
+0,PPO,Saudi Arabian GP (NOR),4,1328.607421875,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),6,-465.04443359375,1,True,1,26,0
+0,PPO,Saudi Arabian GP (NOR),3,1888.134765625,1,True,2,9 34,0
+0,PPO,Saudi Arabian GP (NOR),7,-1077.9521484375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),6,-404.50537109375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),4,836.63623046875,1,True,1,28,0
+0,PPO,Saudi Arabian GP (NOR),9,-2387.035400390625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),6,-386.38916015625,1,True,1,3,0
+0,PPO,Saudi Arabian GP (NOR),5,441.23828125,1,True,1,32,0
+0,PPO,Saudi Arabian GP (NOR),6,-191.6337890625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),4,1335.517578125,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),3,2224.7021484375,1,True,1,24,0
+0,PPO,Saudi Arabian GP (NOR),3,2152.56640625,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),5,228.5048828125,1,True,1,21,0
+0,PPO,Saudi Arabian GP (NOR),3,2316.150390625,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),10,-3119.84765625,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),2,3430.81005859375,1,True,1,36,0
+0,PPO,Saudi Arabian GP (NOR),4,999.462890625,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),6,-256.10009765625,1,True,1,41,0
+0,PPO,Saudi Arabian GP (NOR),5,573.0888671875,1,True,1,44,0
+0,PPO,Saudi Arabian GP (NOR),8,-1923.078125,1,True,1,30,0
+0,PPO,Saudi Arabian GP (NOR),4,1076.71484375,1,True,1,13,0
+0,PPO,Saudi Arabian GP (NOR),5,-123.009765625,1,True,2,3 36,0
+0,PPO,Saudi Arabian GP (NOR),3,2036.65673828125,1,True,2,16 43,0
+0,PPO,Saudi Arabian GP (NOR),3,2106.5908203125,1,True,1,37,0
+0,PPO,Saudi Arabian GP (NOR),5,333.54541015625,1,True,1,12,0
+0,PPO,Saudi Arabian GP (NOR),7,-1273.0439453125,1,True,2,8 18,0
+0,PPO,Saudi Arabian GP (NOR),2,3261.6259765625,1,True,1,29,0
+0,PPO,Saudi Arabian GP (NOR),5,415.29248046875,1,True,1,19,0
+0,PPO,Saudi Arabian GP (NOR),8,-2081.38623046875,1,True,1,16,0
+0,PPO,Saudi Arabian GP (NOR),2,3222.87548828125,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1234.25390625,1,True,1,8,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2042.0791015625,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2191.1474609375,1,True,1,9,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1722.048828125,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-896.22265625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-276.69677734375,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-613.36474609375,1,True,2,4 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-890.475341796875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1078.19287109375,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1193.7294921875,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2315.0771484375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2239.51611328125,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-126.7265625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5398.001953125,1,True,2,10 46,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1535.164794921875,1,True,2,1 27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3047.05419921875,1,True,2,2 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,15.8291015625,1,True,2,20 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2221.98779296875,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2227.46533203125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-119.65625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1842.315673828125,1,True,2,30 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2908.15087890625,1,True,2,2 24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,555.29443359375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3125.63134765625,1,True,2,6 21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3212.015625,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5534.48095703125,1,True,1,19,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,569.62109375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,348.3994140625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-557.53955078125,1,True,2,3 33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,263.80517578125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1162.67626953125,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1238.7509765625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,500.54296875,1,True,1,12,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3069.5625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1297.3955078125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,506.62939453125,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1060.037841796875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2936.24267578125,1,True,2,6 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3655.99609375,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1164.26318359375,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2822.27001953125,1,True,3,7 22 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1081.814697265625,1,True,1,17,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1246.89453125,1,True,2,35 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2203.630859375,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1022.380126953125,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1108.21435546875,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,178.490234375,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),10,-2936.32568359375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-942.59033203125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3106.92724609375,1,True,1,5,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3836.58349609375,1,True,2,14 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,490.06640625,1,True,2,20 31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1074.9228515625,1,True,2,14 22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1706.70849609375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1187.99560546875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,626.09130859375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2283.74853515625,1,True,1,6,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,351.544921875,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),17,-4767.53076171875,1,True,3,6 28 33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1075.18798828125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1237.99853515625,1,True,1,6,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-178.31005859375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),15,-4093.85107421875,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2028.84765625,1,True,2,11 42,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1393.21337890625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2195.2275390625,1,True,1,1,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1388.3505859375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2985.05126953125,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1173.9189453125,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-946.921630859375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3241.4482421875,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,840.3115234375,1,True,2,15 20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,425.0390625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-387.3671875,1,True,1,4,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2310.09912109375,1,True,1,17,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-884.17724609375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,413.90576171875,1,True,2,32 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3239.09716796875,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,401.546875,1,True,1,12,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2376.87548828125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,568.4580078125,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3405.65966796875,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1317.7421875,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),13,-3951.63427734375,1,True,1,6,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2313.3955078125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1199.60302734375,1,True,2,30 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-960.54833984375,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1766.646484375,1,True,2,1 32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,511.27978515625,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2320.14306640625,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2313.55908203125,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2251.88330078125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-117.71435546875,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1242.9912109375,1,True,1,34,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2612.257568359375,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5366.71923828125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5276.30224609375,1,True,3,10 22 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,421.57080078125,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1327.4970703125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-356.3203125,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2389.45458984375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2821.2119140625,1,True,2,9 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,862.33251953125,1,True,1,1,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3163.42431640625,1,True,2,21 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2391.83251953125,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,-25.98046875,1,True,2,2 43,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,570.04833984375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,176.51513671875,1,True,2,9 27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1165.131591796875,1,True,3,29 31 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,503.041015625,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3179.47265625,1,True,2,27 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2464.361572265625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1699.732666015625,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1822.521240234375,1,True,2,24 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1395.20654296875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-948.840576171875,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-412.4091796875,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2224.81103515625,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2063.267578125,1,True,2,10 32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-882.936279296875,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1000.3525390625,1,True,2,35 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,571.78173828125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-240.83154296875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5587.97314453125,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-137.35693359375,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1316.27490234375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2921.123046875,1,True,1,13,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1853.875,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3216.5234375,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1029.658447265625,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-577.59716796875,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,300.2099609375,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-934.5576171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2022.283203125,1,True,2,5 33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2228.02685546875,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1390.7255859375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1385.4951171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,442.31640625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-439.0205078125,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2111.7353515625,1,True,2,5 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,48.78369140625,1,True,3,20 31 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1403.70263671875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3877.873046875,1,True,2,5 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1911.150634765625,1,True,1,5,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3735.49951171875,1,True,2,5 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,837.1171875,1,True,3,7 20 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3479.201171875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-252.32861328125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-125.103515625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1255.80419921875,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-893.467529296875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-586.82861328125,1,True,3,16 28 35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2299.73828125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),15,-4269.6787109375,1,True,2,13 25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2442.18115234375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3335.63525390625,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,415.09326171875,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2157.17138671875,1,True,2,21 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1095.62353515625,1,True,1,19,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2388.52001953125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3218.11767578125,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),14,-3963.22265625,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2193.01708984375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1079.0546875,1,True,2,16 35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1845.46923828125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1075.572265625,1,True,1,38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1334.00244140625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1294.59033203125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1792.435546875,1,True,1,13,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1074.237548828125,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1227.008056640625,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,360.615234375,1,True,2,35 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5448.62646484375,1,True,2,9 35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2019.9033203125,1,True,1,4,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3657.81787109375,1,True,1,15,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3327.53857421875,1,True,2,35 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2122.35595703125,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-123.94775390625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-274.50341796875,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-329.25,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1119.06787109375,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1384.982421875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2224.87109375,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,485.18017578125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3391.68603515625,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3270.95849609375,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-2103.241455078125,1,True,2,4 20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,426.97314453125,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1121.76708984375,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1166.7255859375,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2243.8505859375,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5613.96337890625,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,488.58544921875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,891.369140625,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3090.1416015625,1,True,2,2 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1955.86376953125,1,True,1,15,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,639.27978515625,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5358.51220703125,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1065.56640625,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-941.03955078125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2178.04248046875,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2221.60693359375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1636.54150390625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2100.181640625,1,True,2,21 42,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1396.92919921875,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,631.59423828125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3282.9990234375,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-189.69677734375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1390.5576171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2999.74609375,1,True,2,5 48,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3295.09716796875,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-252.775390625,1,True,1,17,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,630.13525390625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1146.240478515625,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2105.9033203125,1,True,2,17 23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1827.11376953125,1,True,2,7 34,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2537.912109375,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,4969.125,1,True,4,5 23 31 42,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2221.5244140625,1,True,1,15,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,912.4453125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,418.9208984375,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3347.09326171875,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),10,-3324.931884765625,1,True,2,10 20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,992.6865234375,1,True,1,1,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2161.67333984375,1,True,1,6,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1616.673828125,1,True,2,4 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1202.24072265625,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3683.8232421875,1,True,2,11 20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,461.98046875,1,True,2,35 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,823.2734375,1,True,2,12 39,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3672.62890625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3450.3779296875,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-189.10205078125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,564.17724609375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-458.294921875,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-270.40576171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,454.7626953125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2376.36865234375,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-187.96728515625,1,True,1,17,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-318.10009765625,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1081.94482421875,1,True,2,13 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1988.4296875,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-407.19384765625,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-385.802734375,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-266.578125,1,True,2,22 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1185.4130859375,1,True,2,21 31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-426.189453125,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5497.14013671875,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3557.852783203125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2170.77294921875,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3103.8486328125,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2223.90234375,1,True,1,8,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3492.998046875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-218.1240234375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-2129.448486328125,1,True,1,1,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1253.6640625,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,630.37060546875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-186.4345703125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,630.0146484375,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2216.1962890625,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2159.7158203125,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-696.26904296875,1,True,2,9 39,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1803.13037109375,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3803.93310546875,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2122.49169921875,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1162.943359375,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1236.97509765625,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-503.29931640625,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1328.98291015625,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-2032.866943359375,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3367.04443359375,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1252.64892578125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2447.1142578125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1391.494140625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-194.5048828125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,500.1796875,1,True,1,37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-281.1455078125,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),15,-4114.68603515625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,49.94873046875,1,True,2,4 31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3287.205078125,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-874.43310546875,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1890.4833984375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1249.5263671875,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2384.18798828125,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),13,-4163.37060546875,1,True,2,2 42,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-875.796142578125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5591.85595703125,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1014.58544921875,1,True,2,7 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3059.6591796875,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-897.0947265625,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1185.7333984375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1067.5556640625,1,True,2,27 36,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1169.07568359375,1,True,2,28 35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-955.51953125,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5526.7333984375,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3225.421875,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3007.22509765625,1,True,1,1,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1337.61767578125,1,True,1,9,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1004.169921875,1,True,2,12 30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-258.23974609375,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-324.3291015625,1,True,2,18 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1261.916259765625,1,True,2,17 30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),13,-3766.5595703125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2660.511474609375,1,True,2,16 22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-959.65625,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1194.166015625,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2180.2861328125,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1175.0126953125,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1323.8583984375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1056.78125,1,True,1,5,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1387.16943359375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,566.44921875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5401.9892578125,1,True,1,9,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,239.18212890625,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5340.41943359375,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-319.287109375,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1152.1982421875,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-977.98388671875,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2279.02099609375,1,True,1,8,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1220.40478515625,1,True,2,23 30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1195.5126953125,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2288.8583984375,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,216.998046875,1,True,2,3 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3280.515625,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5430.82861328125,1,True,2,10 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2234.24853515625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3109.02294921875,1,True,1,9,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2341.75439453125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,482.90283203125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2067.81396484375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3112.42578125,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2294.80712890625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1386.96044921875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,577.0009765625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1234.892333984375,1,True,2,19 46,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1996.8544921875,1,True,2,7 32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1429.988525390625,1,True,3,9 16 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2383.8251953125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,497.46240234375,1,True,1,17,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1374.33154296875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1972.98828125,1,True,2,1 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1263.6279296875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-938.255615234375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,250.34814453125,1,True,2,12 20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1218.010986328125,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2953.6025390625,1,True,2,2 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1015.7705078125,1,True,1,34,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,894.30517578125,1,True,3,11 21 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,634.3125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,832.9384765625,1,True,2,2 23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1011.23388671875,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1321.91259765625,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1335.88525390625,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2573.095947265625,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1329.271484375,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3288.72900390625,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2924.3623046875,1,True,2,7 32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1181.73974609375,1,True,1,15,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),11,-3521.6953125,1,True,2,17 26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,243.8525390625,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1255.3740234375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,563.26611328125,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,998.306640625,1,True,2,6 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2179.61572265625,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,625.67041015625,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2356.3759765625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,367.6162109375,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,482.67578125,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-219.94189453125,1,True,1,28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1181.49365234375,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2591.667236328125,1,True,2,18 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1187.54541015625,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,567.39599609375,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5319.4375,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3645.78662109375,1,True,1,13,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-393.20556640625,1,True,2,11 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,443.47021484375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,976.328125,1,True,2,3 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2130.6220703125,1,True,2,15 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,256.07763671875,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1319.171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2811.7275390625,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-876.826416015625,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3109.92822265625,1,True,2,10 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1263.287109375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,493.6142578125,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2386.52587890625,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,573.38525390625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1248.771484375,1,True,2,23 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1397.751953125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2433.27734375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1262.412109375,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,944.810546875,1,True,2,1 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3283.1142578125,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1064.90185546875,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1114.4306640625,1,True,2,35 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1334.50146484375,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1053.94921875,1,True,1,10,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,403.94580078125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,433.01513671875,1,True,1,40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1700.616455078125,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),10,-3375.547119140625,1,True,3,5 27 48,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,734.19140625,1,True,2,2 30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-430.77978515625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5427.31103515625,1,True,2,12 34,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3358.40673828125,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,840.884765625,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2374.3525390625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1843.0654296875,1,True,1,24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5361.390625,1,True,2,26 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2401.74462890625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,437.58447265625,1,True,1,38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-198.1142578125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1316.2373046875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2071.39990234375,1,True,2,16 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3112.8701171875,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1205.3291015625,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3107.39697265625,1,True,1,9,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,572.861328125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1134.982421875,1,True,1,2,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1072.8662109375,1,True,1,5,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1355.99755859375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1245.28466796875,1,True,2,32 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1089.02783203125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3346.4814453125,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5540.40869140625,1,True,1,16,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),16,-4490.93994140625,1,True,1,25,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2115.99462890625,1,True,2,19 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1070.12451171875,1,True,1,5,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,500.3212890625,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1105.9052734375,1,True,1,7,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,867.95068359375,1,True,2,8 33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,304.23974609375,1,True,2,11 38,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1303.88525390625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-246.7314453125,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,2808.74755859375,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3351.3916015625,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-615.58349609375,1,True,1,4,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1233.00634765625,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1624.342529296875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-186.271484375,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5271.2685546875,1,True,2,11 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1169.9404296875,1,True,1,15,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3320.056640625,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-2138.63671875,1,True,2,4 12,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2072.0,1,True,1,18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),12,-3745.5009765625,1,True,2,22 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2383.7314453125,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1019.693359375,1,True,1,22,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3123.03369140625,1,True,1,14,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3171.5966796875,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-136.94970703125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2305.375,1,True,1,33,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3178.52294921875,1,True,2,20 35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,613.84814453125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),8,-1965.021484375,1,True,2,17 31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3035.72021484375,1,True,2,11 44,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,220.5908203125,1,True,2,35 40,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1069.708984375,1,True,1,20,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1187.376953125,1,True,1,11,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1254.8759765625,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3288.13232421875,1,True,1,23,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,641.240234375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,583.52490234375,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2237.69970703125,1,True,2,16 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3275.22412109375,1,True,1,31,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),16,-4760.8779296875,1,True,3,1 32 41,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,554.70458984375,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,1999.4873046875,1,True,2,2 28,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1325.08203125,1,True,1,29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2124.1748046875,1,True,1,26,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),18,-4910.09130859375,1,True,2,9 45,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,442.9482421875,1,True,2,19 36,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2167.3310546875,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1420.738037109375,1,True,2,28 36,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-115.40673828125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-385.87939453125,1,True,1,3,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1198.78515625,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,564.3037109375,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),5,578.5419921875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1165.83251953125,1,True,2,16 24,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2153.1630859375,1,True,1,13,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3121.419921875,1,True,1,21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2324.5234375,1,True,1,32,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1147.46875,1,True,2,22 36,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),2,3446.6982421875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-506.0205078125,1,True,2,16 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-253.20751953125,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1336.3974609375,1,True,1,27,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1191.74072265625,1,True,1,30,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),7,-1192.926025390625,1,True,2,13 21,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-3153.698486328125,1,True,4,3 14 21 36,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-501.0810546875,1,True,2,16 43,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),1,5399.8076171875,1,True,1,35,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),6,-416.07568359375,1,True,1,12,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),9,-2797.96142578125,1,True,2,8 18,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2212.740234375,1,True,2,26 29,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),4,1159.96142578125,1,True,1,19,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),13,-4048.1416015625,1,True,2,16 37,0
+0,RecurrentPPO,Saudi Arabian GP (NOR),3,2154.1005859375,1,True,1,31,0
+0,QMIP,Saudi Arabian GP (NOR),2,3326.163326870803,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),3,2042.078071816677,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2761.125680400917,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),10,-2925.898053283037,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1383.6114692562533,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-276.69694403443555,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),4,906.4936999991004,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),6,-124.00160154956028,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-433.8490128773355,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,336.5006445415929,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1107.9713644639603,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1182.5176713003275,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,634.9128373428857,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5410.166021399707,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),2,2827.187754403282,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),3,1990.2245184318351,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,19.28512867442896,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),4,1163.9965321914233,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2605.146396970896,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),5,638.541181825517,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1844.6711146312664,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),2,2897.690760456141,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,553.5772332670058,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3121.066545415735,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),6,-412.681243316546,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),1,5534.481461549098,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,1325.0866222732984,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),6,-392.8938087723791,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-554.265150599329,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),3,2060.250625641892,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1100.9836547402974,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),3,2302.014737636797,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,500.5436080376867,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),3,1943.8745521974745,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,534.782575561464,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2221.3758304505245,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3467.046448307274,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,2926.355467336656,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1321.2649388837958,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),3,2236.1954462454505,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),18,-5112.735167985893,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1106.584825048375,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),5,492.97207037432145,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1966.227420542018,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,503.3528260843131,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2626.921044289817,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,178.49138134082568,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3375.6132841832073,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-941.991580263325,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3106.928182816625,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3831.164633462791,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),6,-270.80278552443633,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1069.107332865492,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3376.517004729075,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),2,3303.842359287115,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),5,615.7489225648324,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2283.748550642681,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),5,351.5454646361741,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2942.1176758962793,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),4,1075.1877633527656,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,1237.9976224946386,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),6,-180.4183110505755,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3476.47451740347,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),15,-4386.762036832385,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),3,2441.8394540978716,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2195.2270457377017,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1389.2403460476023,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,2985.0526635978667,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),6,-338.8218377038993,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-199.8491604418232,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3241.4483708160196,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,68.69683268768313,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1082.35386640852,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-387.3673294374821,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),3,2310.0995729900023,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),5,628.6835431281816,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1089.3185313879603,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),2,3239.097715336892,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),5,401.54644104931776,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),3,2376.8748507960872,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),5,568.457465405033,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),13,-3714.439836478346,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-190.36145635037977,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),13,-3951.633774427107,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2316.249337904108,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),2,3322.2833157693003,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-960.54810229753,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),3,1778.3910347791807,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),5,508.93315672727294,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1106.2212224881123,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1869.8390480520677,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1165.171526738287,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),6,-120.95046100746548,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-271.7477268026987,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,423.19555496209887,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5366.718478125048,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,908.6372681925222,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),6,-325.5258463270811,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1322.5707147050389,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),6,-356.3200976051148,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),4,1329.35327625831,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1430.03105601974,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),4,862.3326402699076,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1056.9297844035254,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2380.263213844708,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,1776.1714916513783,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),3,2383.6393329823723,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),5,175.62834308601032,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1920.3920415154064,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,502.9544082724133,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1076.9804289635367,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-962.757591939966,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1699.732055574128,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),4,1191.9483708690375,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,631.2110915744242,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1696.4243019113856,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-413.47711692777466,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2219.4646123854527,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),6,-497.5513985371572,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),5,617.4082356654671,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1259.6344114906983,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,1323.6645744635289,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1875.2585186722024,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),4,1214.793479232374,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-145.041936546344,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1312.2753278525806,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,2921.123758772951,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1853.875358102554,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2660.2196908167125,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1029.6574566489453,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),6,-577.5967945974198,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),5,300.2106821996713,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),5,566.4011266250654,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),6,-542.8928808035989,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),3,2227.8558553161847,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1391.7227827996549,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-886.9422487462753,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3160.4517562512,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),6,-439.0207853434067,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),2,3175.4070755521343,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),17,-4765.300959611783,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),3,2449.1889861590043,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),18,-4953.765826108421,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1911.1511140409784,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),14,-4038.413027444238,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),2,2943.953776627326,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),5,426.0562627744039,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,497.7462639378973,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),4,1389.2391859908494,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,514.446031011722,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-891.8029675924536,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,163.20073307492203,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),3,2299.7380327294404,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),2,3160.534199429656,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),3,2451.2351502128067,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3335.635315137627,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1172.9757591742027,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2170.867120666003,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1095.6239479362312,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),3,2382.659118741356,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),2,3218.117685733837,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),5,420.1816797488363,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1138.4942568703518,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1070.7768429473567,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),4,1077.1019359783386,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),5,439.12468626922146,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),4,1337.4741480497514,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1292.3648567252058,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1792.4350058938144,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1078.5013731149402,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1227.008567879786,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,364.2721703826191,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5436.565971570026,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),3,2019.9035259970117,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3657.8177934668206,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),6,-265.58014972855744,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2122.3555974022265,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),5,631.0594865400153,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1237.8356275650794,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1067.3682170729708,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),4,1119.0670563058984,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),3,2441.131187709274,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1083.8302623807358,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1243.5651777305748,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1824.9020947341296,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),5,409.7362397610159,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,951.6947416619104,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),4,1179.6411677853712,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1121.7666309815108,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),4,1160.7702367348602,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3060.977407081137,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),1,5613.963065789616,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,1245.4502954715808,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,891.3693565099147,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),4,984.5283575256964,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),3,1955.8643882602591,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),3,2451.2696712688185,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,991.5969574438824,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1065.567292345735,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1045.7459994038454,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),3,2178.043060843247,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),3,2226.530105713706,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),5,646.3517901404848,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2099.502564148076,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,632.478985742142,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-113.38752656796896,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3282.998951632723,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),4,1221.0363086705229,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,636.8367946375383,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,2999.7456374871836,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2699.0700376392974,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),6,-252.77438975303176,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),4,1392.3108819585705,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1133.0666937416113,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),3,2103.95870521897,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),1,5011.905419147336,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),16,-4226.212165248768,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1624.736425235662,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),3,2221.524197749871,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),16,-4502.631474295665,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),5,418.91995876400233,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),3,2289.2539289146553,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3324.8796292824854,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),4,992.6860126461924,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),3,2161.6732440760634,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),4,563.2368962864412,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),4,1207.4455321441674,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2037.912844062412,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),4,1227.99234251484,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,822.6771868096876,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),3,2253.347815006925,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3450.377654568175,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),5,568.4974342739042,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2366.8410303326546,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),6,-458.2946660924299,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,478.82046206352425,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1195.0414761592074,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),6,-190.10853747946297,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-187.96771157092823,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),6,-307.2826436880623,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2140.957585783637,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1431.8987270379755,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1084.339708784176,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1882.663400237123,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),6,-275.02227913144,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,426.14592524765885,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1096.104317252536,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5497.141008704738,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3386.3746554693394,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2161.667940679279,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),2,3103.848066192284,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2743.1195260408676,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),2,3484.5488398825273,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-216.6262463509347,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2129.4484732086776,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1253.6640386914323,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),6,-126.72970731960775,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1699.080477866692,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),6,-125.38412186112964,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2216.1967682654995,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),4,1119.45458795589,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),2,2913.967326482079,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),3,1791.041593803704,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),12,-3803.9334319077207,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),3,2122.491726642048,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),4,1162.9429223092802,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),4,1236.974450614175,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),3,2051.219585441888,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1315.0814219780368,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2032.8659171907912,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),2,3363.2747820162112,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),11,-3546.8989502596405,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),3,2444.5991823477407,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1398.0663203541462,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1815.0884427971157,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1140.90669380474,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),6,-281.1454529810817,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),13,-3789.512366885229,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1455.202089793564,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),5,399.3862294827686,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-876.801515641685,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,350.80946010761363,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-255.9507952508102,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1326.8188921552028,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1470.938126727042,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,627.4902163160805,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3351.9835474407264,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1010.128870716766,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),2,3023.628017150083,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1671.5711328178086,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1076.0454290712487,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1062.0707128593267,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,430.90118104460635,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-955.5199276500066,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),1,5526.734326870942,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2016.591679575879,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),2,3007.2243068755433,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1337.617006237373,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),4,996.7891707759572,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),5,502.9457289978054,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-327.9318457472691,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),5,247.2647482002685,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),13,-3766.559078891205,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3127.456058857125,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-937.5061644654191,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),5,452.0405818674881,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),3,2184.6141236571357,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2611.609822674311,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2388.953472047717,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),4,1056.7808238855932,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),4,1393.3426420838678,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,566.0257115169679,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),1,5401.988841365505,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),4,988.7848513517864,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5340.420233992001,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),6,-308.8410792701279,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),4,1152.1976146028692,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1719.1377314317165,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2279.021590375117,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2725.4922783568886,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),5,424.80894519036065,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),4,1221.4882841883991,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,965.7206611321336,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),2,3280.515615194994,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),1,5436.618338183433,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1192.280414319469,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),2,3109.023744656659,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),7,-989.9413984186604,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-253.28785836392944,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-461.0061106329722,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),2,3112.4252573837657,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),3,2303.964262412548,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1385.1577930360008,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1331.51578311679,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2738.040238407867,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,941.9466067431384,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),5,88.40784895226534,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),3,2372.4067869529,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,497.46244116735033,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),6,-123.20212285876914,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,913.4417919524576,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1789.505721244378,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),3,2282.6264588849062,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,993.3457466270048,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1218.010910634769,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),2,2949.0912318732508,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3335.4727400616594,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3303.8835973487785,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),6,-137.8012748965839,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,77.73682136840307,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1772.764900687827,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,567.1442964023036,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1335.8841481573409,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2573.095836493484,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),4,1329.2712239915772,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,1175.388617913155,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,2913.1307015601915,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),4,1181.7394664097055,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),13,-3828.5290429151105,1,True,1,17,0
+0,QMIP,Saudi Arabian GP (NOR),5,243.85245999632207,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),6,-261.5534586005451,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,563.265997865371,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),4,994.7837754800266,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2179.6164429789897,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),3,2458.1532708816812,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2367.065563104925,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-392.75788170999294,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),14,-3899.303863242858,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1285.06293381242,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,413.34539172087625,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,422.4503378167065,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),4,1187.780047973326,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),4,1316.451204511347,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),1,5319.437923310519,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),12,-3645.786856467956,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),4,1110.6595259694325,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),5,325.8610960550677,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1286.3565790430744,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),3,2127.7714618534446,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),5,256.07772453130747,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),4,1313.1291311994128,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,-151.62581385032354,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),5,641.1401381208079,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2125.61335818546,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),4,1262.6883969867267,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,488.5874491161467,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2386.526869881767,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3042.0731068683294,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1994.511799794247,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),4,1390.856055971075,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1389.930210090235,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2324.7814844374616,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),4,942.110166295908,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),5,322.23914977607456,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),4,1064.902237093722,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),3,2148.1174481012777,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,1334.5018711928506,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1053.9491577608796,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2612.120862196207,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1183.1474924833649,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),3,2386.119163190984,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2174.2377039483044,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),4,725.4527608270091,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),5,314.0214960537851,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),1,5428.070971821459,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),2,3358.40644396209,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),4,840.8849749189221,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),3,2384.5172616421096,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-333.502561117808,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),17,-4576.642431991469,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2417.5109169973393,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1199.5297039691086,1,True,1,15,0
+0,QMIP,Saudi Arabian GP (NOR),6,-200.56702757059705,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-183.8920197073949,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2074.0200920696316,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),2,3112.8708864365244,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1068.797988955922,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2874.020125420493,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),5,567.0984956212369,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1134.981994829468,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),4,1072.8669361524244,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),4,1351.686192642298,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-277.59015234704384,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,398.7739166413867,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2306.3328440652094,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5540.408078920622,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),5,182.03719305594495,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),3,2117.6373797910273,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,1070.124972412421,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,500.3218020546874,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2782.865720367457,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),4,860.5743354647484,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),5,292.70243193949864,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2364.2370229134012,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1871.6942758031448,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),9,-3160.097229646701,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),5,469.51186647007034,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-615.5830595581338,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),4,1233.0062485006683,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),6,-117.20859964806276,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-943.6950072328692,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),1,5281.93242126678,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),3,2235.9539239341393,1,True,1,7,0
+0,QMIP,Saudi Arabian GP (NOR),2,3320.056462961178,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2875.3394948180653,1,True,1,4,0
+0,QMIP,Saudi Arabian GP (NOR),8,-2005.2616555786271,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),5,309.9078438810511,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2379.8615173027556,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,258.59233160099484,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3123.034830198824,1,True,1,14,0
+0,QMIP,Saudi Arabian GP (NOR),3,2110.2755550921493,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1382.821107365442,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),2,3358.2605790003554,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,2124.7034846104843,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),4,1378.7218226948908,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-573.7150463205198,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),6,-653.2114254045828,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),10,-3306.571851825516,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),4,1069.7087391271943,1,True,1,20,0
+0,QMIP,Saudi Arabian GP (NOR),4,1187.377339374365,1,True,1,11,0
+0,QMIP,Saudi Arabian GP (NOR),4,1248.0711376172549,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1834.281672759173,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1392.628682995829,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1339.2240222273604,1,True,1,18,0
+0,QMIP,Saudi Arabian GP (NOR),3,2236.357150610901,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),9,-2600.927405240982,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),15,-4606.70911044196,1,True,1,1,0
+0,QMIP,Saudi Arabian GP (NOR),6,-196.69563187189945,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-547.7273580833271,1,True,1,2,0
+0,QMIP,Saudi Arabian GP (NOR),6,-185.96901697520116,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),5,305.54632900480647,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),3,1872.6849144817224,1,True,1,9,0
+0,QMIP,Saudi Arabian GP (NOR),6,-311.55000245250994,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,1109.185164323876,1,True,1,10,0
+0,QMIP,Saudi Arabian GP (NOR),12,-4073.317475046397,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,633.1955826033945,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),6,-385.8796047136448,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),4,1198.7855635120004,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1318.4643281188391,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1802.3129363976932,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,408.1766299414667,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),3,2153.163888857958,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),2,3121.420878942302,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),8,-1878.8257941688544,1,True,1,5,0
+0,QMIP,Saudi Arabian GP (NOR),5,347.9736545965152,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),4,1329.3949025770216,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1019.12969967145,1,True,1,6,0
+0,QMIP,Saudi Arabian GP (NOR),3,2289.4429643318126,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1342.2149121123912,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),14,-4055.756895770139,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1193.0809606647645,1,True,1,13,0
+0,QMIP,Saudi Arabian GP (NOR),3,1669.8683699946614,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),5,250.11718553204355,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),7,-1307.5826957973482,1,True,1,3,0
+0,QMIP,Saudi Arabian GP (NOR),6,-416.07541775451864,1,True,1,12,0
+0,QMIP,Saudi Arabian GP (NOR),15,-4308.416332518563,1,True,1,8,0
+0,QMIP,Saudi Arabian GP (NOR),4,1166.526294789027,1,True,1,21,0
+0,QMIP,Saudi Arabian GP (NOR),4,1159.9607002948187,1,True,1,19,0
+0,QMIP,Saudi Arabian GP (NOR),16,-4500.7946086108195,1,True,1,16,0
+0,QMIP,Saudi Arabian GP (NOR),15,-4275.970555019348,1,True,1,5,0

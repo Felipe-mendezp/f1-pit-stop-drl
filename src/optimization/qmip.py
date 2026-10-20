@@ -4,7 +4,8 @@ from gurobipy import GRB
 
 Tires = ["Soft", "Medium", "Hard"]
 
-def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous, p, gamma, N, verbose=True):
+def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous, p, gamma, N, verbose=True,
+                     time_stop_yf=None):
     # betas_dict : dict of regression betas; key = tire compound name, value = list of length 2 [beta0, beta1]
     # time_stop  : pit-stop time loss (seconds)
     # n          : number of remaining laps
@@ -14,6 +15,8 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     # p          : number of stints to consider
     # gamma      : 1 if a yellow flag is active now, 0 otherwise
     # N          : total race length in laps (used to detect the start-of-race case)
+    # time_stop_yf : (2026-10-09, opcional) pérdida de parada bajo SC/VSC. None = descuento
+    #                legacy time_stop/2 (publicado); si no, descuento time_stop - time_stop_yf
 
     # Create a new optimization model
     model = gp.Model("MIQP_Problem")
@@ -28,6 +31,9 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     x = [model.addVar(lb=0, vtype=GRB.INTEGER, name=f'x_{i}') for i in range(k + 1)]
     y = [model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name=f'y_{i}') for i in range(k)]
     z = model.addVar(lb=0, ub=1, vtype=GRB.BINARY, name='z')
+
+    # Ahorro de parar bajo amarilla (z = 1)
+    yf_discount = time_stop / 2 if time_stop_yf is None else time_stop - time_stop_yf
 
     # Define the objective function
     dx = []
@@ -50,7 +56,7 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     objective = gp.quicksum(dx[i] * x[i] for i in range(len(dx))) + \
                 gp.quicksum(dy[i] * y[i] for i in range(len(dy))) + \
                 gp.quicksum(Dxx[i] * x[i] * x[i] / 2 for i in range(len(Dxx))) - \
-                (time_stop / 2) * z
+                yf_discount * z
     model.setObjective(objective, GRB.MINIMIZE)
 
     # Add constraints

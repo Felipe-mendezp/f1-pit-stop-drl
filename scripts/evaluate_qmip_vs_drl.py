@@ -154,9 +154,19 @@ def build_qmip_params(loader: ModelLoader, gp_name: str) -> dict:
 
     time_stop = calc.pit_in_cost + calc.pit_out_cost
 
+    # 2026-10-09 (D5), opt-in con F1_QMIP_YF_LOSS=model: la parada bajo SC/VSC cuesta lo mismo
+    # que en el simulador (coeficientes PitIn + PitOut del modelo de vueltas YF del GP, p. ej.
+    # el v4), en vez del descuento legacy time_stop/2. Sin la variable: None -> publicado.
+    time_stop_yf = None
+    if os.environ.get('F1_QMIP_YF_LOSS') == 'model':
+        yf = models.laptime_yf
+        coef = dict(zip(yf.feature_names_, (float(c) for c in yf.coef_)))
+        time_stop_yf = coef['PitIn'] + coef['PitOut']
+
     return {
         'betas_dict': betas_dict,
         'time_stop': time_stop,
+        'time_stop_yf': time_stop_yf,
         'compound_to_qmip': compound_to_qmip,
         'qmip_to_compound': qmip_to_compound,
         'available_compounds': available_compounds_int,
@@ -202,6 +212,26 @@ def report_qmip_solver_errors():
         _QMIP_SOLVER_ERRORS.clear()
 
 
+def qmip_gamma(raw_env) -> Tuple[int, Optional[int]]:
+    """(gamma, yf_now) para qmip_choose_action a partir del estado del entorno.
+
+    Legacy (sin `sc_reveal`): gamma = 1 si la última vuelta simulada tuvo
+    SC/VSC; yf_now = None (el desgaste usa el mismo gamma) -> comportamiento
+    publicado exacto.
+
+    Con `sc_reveal` (2026-10-07) el estado ya describe la vuelta que se decide:
+    gamma (descuento de parada bajo amarilla) = 1 solo si esa parada está
+    permitida (cualquier vuelta de VSC, o la 1a vuelta de SC: con sc_bunching
+    las siguientes la anulan); yf_now = 1 si la vuelta es amarilla (el
+    neumático no envejece en ella).
+    """
+    yf = 1 if (raw_env.vsc > 0 or raw_env.sc > 0) else 0
+    if not getattr(raw_env, 'sc_reveal', False):
+        return yf, None
+    admissible = raw_env.vsc > 0 or (raw_env.sc > 0 and getattr(raw_env, '_sc_lap_idx', 0) <= 1)
+    return int(admissible), yf
+
+
 def qmip_choose_action(
     betas_dict: dict,
     time_stop: float,
@@ -214,8 +244,16 @@ def qmip_choose_action(
     qmip_to_compound: dict,
     available_compounds: List[int],
     p: int = 3,
+    yf_now: Optional[int] = None,
+    time_stop_yf: Optional[float] = None,
 ) -> int:
-    """Call QMIP to decide pit/no-pit for current lap. Returns env action (0-3)."""
+    """Call QMIP to decide pit/no-pit for current lap. Returns env action (0-3).
+
+    yf_now: estado amarillo de la vuelta que se decide, para el desgaste
+    (ver qmip_gamma); None = usar gamma (legacy).
+    time_stop_yf: pérdida de parada bajo SC/VSC (ver build_qmip_params);
+    None = descuento legacy time_stop/2.
+    """
     if n_remaining <= 0:
         return 0
 
@@ -230,14 +268,14 @@ def qmip_choose_action(
     # age this lap, hence the +0. The start-of-race solve (fresh tyre, lap 1
     # still decidable) keeps its own convention and is NOT routed through
     # this adjustment.
-    w_effective = w_current + (0 if gamma else 1)
+    w_effective = w_current + (0 if (gamma if yf_now is None else yf_now) else 1)
 
     try:
         x_values, y_values, _ = solve_MIP_GUROBI(
             betas_dict, time_stop, n=n_remaining,
             t_current=t_current_name, w_current=w_effective,
             t_previous=t_previous, p=p, gamma=gamma, N=n_total,
-            verbose=False,
+            verbose=False, time_stop_yf=time_stop_yf,
         )
     except Exception as exc:
         # A persistent solver failure (e.g. Gurobi licence) must not
@@ -321,13 +359,14 @@ def run_single_race_qmip(
         n_remaining = raw_env.laps_left
         t_current_name = compound_to_qmip.get(raw_env.agent_driver.compound, "Medium")
         w_current = raw_env.agent_driver.tyrelife
-        gamma = 1 if (raw_env.vsc > 0 or raw_env.sc > 0) else 0
+        gamma, yf_now = qmip_gamma(raw_env)
         n_total = raw_env.n_laps
 
         action = qmip_choose_action(
             betas_dict, time_stop, n_remaining,
             t_current_name, w_current, t_previous, n_total, gamma,
-            qmip_to_compound, available_compounds, p=p,
+            qmip_to_compound, available_compounds, p=p, yf_now=yf_now,
+            time_stop_yf=qmip_params.get('time_stop_yf'),
         )
 
         obs, reward, terminated, truncated, info = raw_env.step(action)
@@ -636,6 +675,8 @@ def evaluate_gp(
     qmip_params = build_qmip_params(loader, gp_name)
     print(f"    betas: { {k: [f'{v[0]:.2f}', f'{v[1]:.4f}'] for k, v in qmip_params['betas_dict'].items()} }")
     print(f"    time_stop: {qmip_params['time_stop']:.2f}s")
+    if qmip_params.get('time_stop_yf') is not None:
+        print(f"    time_stop_yf: {qmip_params['time_stop_yf']:.2f}s (F1_QMIP_YF_LOSS=model)")
 
     results = evaluate_qmip(
         loader=loader,

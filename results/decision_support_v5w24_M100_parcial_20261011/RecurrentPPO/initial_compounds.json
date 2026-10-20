@@ -1,0 +1,212 @@
+{
+  "Bahrain_ALO": {
+    "compound": 3,
+    "action": 3,
+    "label": "Soft (C3)"
+  },
+  "Saudi_Arabian_NOR": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Miami_OCO": {
+    "compound": 2,
+    "action": 1,
+    "label": "Hard (C2)"
+  },
+  "Emilia_Romagna_TSU": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "Hungarian_SAI": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Belgian_NOR": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Dutch_RUS": {
+    "compound": 1,
+    "action": 1,
+    "label": "Hard (C1)"
+  },
+  "Singapore_HUL": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "United_States_PIA": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Belgian_NOR_masked": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Belgian_NOR_s205": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Bahrain_ALO_s22": {
+    "compound": 3,
+    "action": 3,
+    "label": "Soft (C3)"
+  },
+  "Saudi_Arabian_NOR_s4": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Miami_OCO_s186": {
+    "compound": 2,
+    "action": 1,
+    "label": "Hard (C2)"
+  },
+  "Emilia_Romagna_TSU_s3": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "Hungarian_SAI_s11": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Bahrain_ALO_s164": {
+    "compound": 3,
+    "action": 3,
+    "label": "Soft (C3)"
+  },
+  "Dutch_RUS_s36": {
+    "compound": 1,
+    "action": 1,
+    "label": "Hard (C1)"
+  },
+  "Singapore_HUL_s32": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "Miami_OCO_s108": {
+    "compound": 2,
+    "action": 1,
+    "label": "Hard (C2)"
+  },
+  "United_States_PIA_s19": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Hungarian_SAI_s44": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Singapore_HUL_s35": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "United_States_PIA_s124": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Bahrain_ALO_real": {
+    "compound": 3,
+    "action": 3,
+    "label": "Soft (C3)"
+  },
+  "Miami_OCO_real": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Emilia_Romagna_TSU_real": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Hungarian_SAI_real": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Belgian_NOR_real": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Dutch_RUS_real": {
+    "compound": 2,
+    "action": 2,
+    "label": "Medium (C2)"
+  },
+  "Singapore_HUL_real": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "United_States_PIA_real": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Bahrain_ALO_realyf": {
+    "compound": 3,
+    "action": 3,
+    "label": "Soft (C3)"
+  },
+  "Miami_OCO_realyf": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Emilia_Romagna_TSU_realyf": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Hungarian_SAI_realyf": {
+    "compound": 4,
+    "action": 2,
+    "label": "Medium (C4)"
+  },
+  "Belgian_NOR_realyf": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Dutch_RUS_realyf": {
+    "compound": 2,
+    "action": 2,
+    "label": "Medium (C2)"
+  },
+  "Singapore_HUL_realyf": {
+    "compound": 5,
+    "action": 3,
+    "label": "Soft (C5)"
+  },
+  "United_States_PIA_realyf": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Saudi_Arabian_NOR_real": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  },
+  "Saudi_Arabian_NOR_realyf": {
+    "compound": 4,
+    "action": 3,
+    "label": "Soft (C4)"
+  }
+}

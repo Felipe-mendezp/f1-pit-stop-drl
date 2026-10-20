@@ -1,0 +1,46 @@
+(a) Ritmo (vuelta sin pit / vuelta verde), vueltas 100% bajo el estado:
+2021-23
+       vueltas  carreras    med    q25    q75
+k                                            
+SC_1         1         1  1.315  1.315  1.315
+SC_2        25        23  1.389  1.361  1.545
+SC_3        20        18  1.465  1.296  1.557
+SC_4+       26        13  1.433  1.219  1.544
+VSC         13        11  1.348  1.328  1.353
+2021-24
+       vueltas  carreras    med    q25    q75
+k                                            
+SC_1         1         1  1.315  1.315  1.315
+SC_2        30        28  1.392  1.363  1.564
+SC_3        24        22  1.465  1.278  1.572
+SC_4+       33        17  1.437  1.227  1.558
+VSC         16        13  1.348  1.327  1.358
+
+Por GP del paper (2021-23), razón sobre vuelta verde; sim = yf_SC|VSC / reg_intercept 2024:
+                 n        raw       shrunk         sim      
+est             SC  VSC    SC   VSC     SC   VSC    SC   VSC
+GP                                                          
+Bahrain        5.0  0.0  1.27   NaN   1.30  1.35  1.29  1.21
+Belgian        0.0  0.0   NaN   NaN   1.43  1.35  1.25  0.99
+Dutch          2.0  2.0  1.38  1.35   1.40  1.35  1.46  1.36
+Hungarian      0.0  1.0   NaN  1.35   1.43  1.35  1.72  1.29
+Miami          4.0  0.0  1.30   NaN   1.33  1.35  1.32  1.12
+Saudi Arabian  6.0  3.0  1.44  1.34   1.44  1.34  1.35  1.28
+Singapore      0.0  1.0   NaN  1.37   1.43  1.37  1.16  1.19
+United States  2.0  0.0  1.38   NaN   1.40  1.35  1.37  1.02
+
+(b) Gap al de adelante (Interval_front, s) bajo SC, autos sin pit, vuelta 100% SC, P>1:
+   count   10%   25%   50%    75%    90%
+k                                       
+1   12.0  2.64  3.51  4.90  11.77  27.80
+2  321.0  0.83  1.15  1.77   2.86   5.53
+3  286.0  0.86  1.10  1.63   2.39   4.09
+4  200.0  0.82  1.15  1.68   2.52   4.98
+5  149.0  0.77  1.09  1.37   2.07   3.31
+6   97.0  0.67  0.85  1.21   1.83   2.62
+
+Vuelta >=3 del SC, mediana por posición (P2..P20):
+{2.0: 1.39, 3.0: 1.7, 4.0: 1.64, 5.0: 1.4, 6.0: 1.5, 7.0: 1.67, 8.0: 1.58, 9.0: 1.24, 10.0: 1.24, 11.0: 1.35, 12.0: 1.5, 13.0: 1.54, 14.0: 1.39, 15.0: 2.09, 16.0: 1.94, 17.0: 1.56, 18.0: 1.92, 19.0: 2.35, 20.0: 2.5}
+Vuelta >=3: mediana por carrera (distribución): {'count': 26.0, 'mean': 1.71, 'std': 0.45, 'min': 0.97, '25%': 1.34, '50%': 1.62, '75%': 1.96, 'max': 2.7}
+
+Comparación verde (vueltas verdes, sin pit, P>1): mediana 2.45

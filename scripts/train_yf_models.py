@@ -29,6 +29,7 @@ import pickle
 from typing import Dict, Tuple
 
 from reg import FastLinearPredictor
+from tyrelife_2021 import adjust_2021
 
 
 # ---------------------------------------------------------------------------
@@ -99,11 +100,7 @@ def read_and_preprocess_yf_data() -> pd.DataFrame:
     laps_2023 = pd.read_csv(str(config.DATA_DIR / 'session_2023_V2.csv'))
 
     # Apply tyre life adjustment for 2021 data
-    tyrelife_adjust = {
-        'C0': 0.65, 'C1': 1.0, 'C2': 0.90,
-        'C3': 0.98, 'C4': 0.92, 'C5': 0.92
-    }
-    laps_2021['TyreLife'] = laps_2021['TyreLife'] * laps_2021['Compound_Detail'].map(tyrelife_adjust)
+    adjust_2021(laps_2021)                       # factor de 2021: src/tyrelife_2021.py
 
     # Concatenate all years
     laps_all = pd.concat([laps_2021, laps_2022, laps_2023])

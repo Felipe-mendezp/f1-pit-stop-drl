@@ -1,0 +1,9 @@
+{
+ "C0": 0.716,
+ "C1": 0.716,
+ "C2": 0.716,
+ "C3": 0.716,
+ "C4": 0.716,
+ "C5": 0.716,
+ "_nota": "2026-10-15: factor unico de TyreLife 2021 (equivalente 2022-23), estimacion conjunta fisica (Ec. 1 con combustible por anio, 0.660 ee 0.072) y conductual (logit de parada con tramo de carrera propio de 2021, 0.786 ee 0.080); IC95 0.61-0.82. results/tyrelife_2021_20261015/joint_factor_20261015.py"
+}

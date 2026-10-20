@@ -1,0 +1,12 @@
+{
+  "_doc": "2026-10-07. Vueltas SC/VSC de las carreras 2024, corregidas contra data/session_2024_V2.csv (TrackStatus 4=SC, 6/7=VSC, y mediana del tiempo de vuelta). Criterio: desde la primera vuelta con estado amarillo y tiempo claramente afectado hasta la vuelta de relanzada. Reemplaza laps_sc_2024/laps_vsc_2024 de trained_models/simulation/*/config.json (que no se modifican). Cambios: Saudi SC 6-10 -> 7-9; Miami SC 29-32 -> 28-32; USA SC [] -> 3-5; Hungary VSC 2-3 -> [].",
+  "Bahrain Grand Prix":        {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "Saudi Arabian Grand Prix":  {"laps_sc_2024": [7, 8, 9],            "laps_vsc_2024": []},
+  "Miami Grand Prix":          {"laps_sc_2024": [28, 29, 30, 31, 32], "laps_vsc_2024": [22, 23]},
+  "Emilia Romagna Grand Prix": {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "Hungarian Grand Prix":      {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "Belgian Grand Prix":        {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "Dutch Grand Prix":          {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "Singapore Grand Prix":      {"laps_sc_2024": [],                   "laps_vsc_2024": []},
+  "United States Grand Prix":  {"laps_sc_2024": [3, 4, 5],            "laps_vsc_2024": []}
+}

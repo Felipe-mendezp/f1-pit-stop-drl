@@ -406,6 +406,23 @@ class F1EnvAllDrivers(Env):
         """Reset environment to initial state."""
         super().reset(seed=seed)
         self._initialize_race_state()
+        # ABANDONOS DE RIVALES (opt-in `rival_dnf`, 2026-10-14): con rivales
+        # estocasticos, cada rival abandona con prob. p_dnf en la vuelta
+        # round(frac * n_laps) (frac de la distribucion empirica 2021-23, ver
+        # scripts/rival_dnf_calibration_20261014.py). Antes nunca abandonaban,
+        # y en la Fig. 7 (estrategias reales con -1) el rival retirado
+        # (time_diff = +500) quedaba fuera de distribucion. Con estrategias
+        # reales (eval + rival_actions_dict) no se usa. Se sortea con un
+        # generador propio derivado de np_random (una sola extraccion).
+        self._rival_dnf_lap = {}
+        cal = getattr(self, 'rival_dnf', None)
+        if cal and not (self.eval and self.rival_actions_dict):
+            g = np.random.default_rng(int(self.np_random.integers(2**62)))
+            fr = cal['frac_completed']
+            for d in self.rival_drivers:
+                if g.random() < cal['p_dnf']:
+                    f = fr[int(g.integers(len(fr)))]
+                    self._rival_dnf_lap[d.name] = int(min(max(round(f * self.n_laps), 1), self.n_laps - 1))
         self._update_obs_cache()
         return self._get_obs(), {}
 
@@ -481,7 +498,15 @@ class F1EnvAllDrivers(Env):
             self._tt_before = {d.name: d.total_time for d in self._ordered_drivers}
 
         # 1. Update safety car status
-        is_yf = self._update_sc_vsc()
+        # SC REVEAL (opt-in `sc_reveal`, 2026-10-07): el SC/VSC de esta vuelta
+        # ya se sorteó/leyó al final del paso anterior (_reveal_next_lap_yf),
+        # así que la observación con que el agente decidió ya lo mostraba,
+        # igual que los rivales (que deciden tras el sorteo). La secuencia de
+        # llamadas al RNG es la misma que sin el flag (mismos eventos).
+        if getattr(self, 'sc_reveal', False):
+            is_yf = self._revealed_is_yf
+        else:
+            is_yf = self._update_sc_vsc()
 
         # --- SC BUNCHING (opt-in `sc_bunching`, 2026-08-28) -----------------
         # Índice de vuelta DENTRO del período SC vigente (1 = primera vuelta
@@ -495,13 +520,22 @@ class F1EnvAllDrivers(Env):
         # Los rivales ya tenían la restricción "solo 1a vuelta de YF"
         # (_simulate_rival_pits); aquí se extiende al agente (no-op sin
         # castigo). VSC queda INTACTO (en la realidad no aglomera).
-        if self.sc > 0:
-            self._sc_lap_idx = getattr(self, '_sc_lap_idx', 0) + 1
-        else:
-            self._sc_lap_idx = 0
+        # (con sc_reveal el índice ya se actualizó en _reveal_next_lap_yf)
+        if not getattr(self, 'sc_reveal', False):
+            if self.sc > 0:
+                self._sc_lap_idx = getattr(self, '_sc_lap_idx', 0) + 1
+            else:
+                self._sc_lap_idx = 0
         if (getattr(self, 'sc_bunching', False) and self.sc > 0
                 and self._sc_lap_idx >= 2 and agent_action != 0):
             agent_action = 0
+
+        # Abandonos sorteados en reset (opt-in `rival_dnf`): mismo momento que
+        # el -1 de las estrategias reales (_get_real_rival_actions, paso 2).
+        if getattr(self, '_rival_dnf_lap', None):
+            for d in self.rival_drivers:
+                if self._rival_dnf_lap.get(d.name) == self.lap_number:
+                    d.is_dnf = True
 
         # 2. Simulate rival pit decisions
         rival_actions = self._simulate_rival_pits(is_yf)
@@ -560,6 +594,11 @@ class F1EnvAllDrivers(Env):
         # Calculate reward
         reward = self._calculate_reward(action, done, agent_prev_action)
 
+        # SC reveal: sortear/leer el SC/VSC de la vuelta siguiente ANTES de
+        # construir la observación (no después de la última vuelta).
+        if getattr(self, 'sc_reveal', False) and not done:
+            self._reveal_next_lap_yf()
+
         # Update observation cache
         self._update_obs_cache()
 
@@ -575,7 +614,12 @@ class F1EnvAllDrivers(Env):
     def _handle_lap_0(self, action: int) -> Tuple[Dict, float, bool, bool, Dict]:
         """Handle lap 0 - agent chooses starting compound."""
         # Map action to compound: action 0 is invalid, 1-3 map to available compounds
-        if action == 0:
+        if action == 0 and getattr(self, 'lap0_action0_medium', False):
+            # v8 (2026-10-18, opt-in): la accion 0 en la vuelta 0 = compuesto medio
+            # (sin sorteo), con la penalizacion lap0_penalty (default la de siempre).
+            penalty = getattr(self, 'lap0_penalty', self._penalty_invalid)
+            compound = self.available_compounds[len(self.available_compounds) // 2]
+        elif action == 0:
             # Invalid: must select a compound at lap 0
             # Assign random compound but still penalize
             penalty = self._penalty_invalid
@@ -604,6 +648,11 @@ class F1EnvAllDrivers(Env):
         # prev_action=0 means "no pit stop happened before this lap"
         # Setting it to the compound would incorrectly trigger PitOut logic on lap 1
         self.agent_driver.prev_action = 0
+
+        # SC reveal: el SC/VSC de la vuelta 1 se conoce antes de decidirla.
+        if getattr(self, 'sc_reveal', False):
+            self._sc_lap_idx = 0
+            self._reveal_next_lap_yf()
 
         # Update observation cache
         self._update_obs_cache()
@@ -644,6 +693,17 @@ class F1EnvAllDrivers(Env):
         )
         self.drivers.append(self.agent_driver)
 
+        # Compuestos de partida de los rivales (opt-in `rival_start_alpha`,
+        # 2026-10-18, v8): p ~ Dirichlet(alpha, ..., alpha) una vez por
+        # episodio y cada rival parte con p (Dirichlet-multinomial simetrica,
+        # alpha ajustado a la vuelta 1 de 2021-23, ver
+        # scripts/fit_rival_start_alpha_20261018.py). Misma marginal (1/3 por
+        # compuesto) que el sorteo uniforme, pero rivales concentrados como en
+        # las carreras reales. p se sortea solo si algun rival no tiene
+        # compuesto real (Fig. 7 no cambia). Default (None) = sorteo uniforme.
+        alpha = getattr(self, 'rival_start_alpha', None)
+        p_start = None
+
         # Create rival drivers
         for i, name in enumerate(driver_names):
             if name == agent_name:
@@ -654,7 +714,13 @@ class F1EnvAllDrivers(Env):
             # provided (set via set_evaluation_mode), otherwise sample.
             compound = self.eval_initial_compounds.get(name)
             if compound is None or compound not in self.available_compounds:
-                compound = self.np_random.choice(self.available_compounds)
+                if alpha:
+                    if p_start is None:
+                        p_start = self.np_random.dirichlet([alpha] * len(self.available_compounds))
+                    compound = self.available_compounds[
+                        int(self.np_random.choice(len(self.available_compounds), p=p_start))]
+                else:
+                    compound = self.np_random.choice(self.available_compounds)
 
             driver = Driver(
                 name=name,
@@ -842,6 +908,36 @@ class F1EnvAllDrivers(Env):
         self.sc = 1
         self.laps_left_sc = SC_DURATION
         self._is_first_yf_lap = True
+
+    def _reveal_next_lap_yf(self):
+        """
+        SC reveal (opt-in `sc_reveal`, 2026-10-07): determina el SC/VSC de la
+        vuelta self.lap_number (la que el agente está por decidir) al FINAL del
+        paso anterior, para que la observación lo muestre.
+
+        Contador observado (incluye la vuelta por decidir):
+          - modo estocástico: SC 4,3,2,1 / VSC 2,1 (sale solo del countdown);
+          - modo eval (eventos reales): la 1a vuelta del evento muestra siempre
+            SC_DURATION / VSC_DURATION (lo único que el agente vio en
+            entrenamiento en esa vuelta); las siguientes, las vueltas que
+            quedan contando la actual, acotadas a SC_DURATION-1 /
+            VSC_DURATION-1. Así el máximo (4 / 2) significa siempre "1a vuelta
+            del evento" (un SC real de 5 vueltas no muestra 4 dos veces, uno de
+            3 vueltas no oculta su 1a vuelta).
+        """
+        self._revealed_is_yf = self._update_sc_vsc()
+        if self.sc > 0:
+            self._sc_lap_idx = getattr(self, '_sc_lap_idx', 0) + 1
+        else:
+            self._sc_lap_idx = 0
+        if self.eval:
+            first = bool(self._is_first_yf_lap)
+            if self.sc > 0:
+                self.laps_left_sc = (SC_DURATION if first
+                                     else min(self.laps_left_sc + 1, SC_DURATION - 1))
+            if self.vsc > 0:
+                self.laps_left_vsc = (VSC_DURATION if first
+                                      else min(self.laps_left_vsc + 1, VSC_DURATION - 1))
 
     def _simulate_rival_pits(self, is_yf: bool) -> np.ndarray:
         """
@@ -2019,6 +2115,29 @@ def create_f1_env_all_drivers(
         env.last_lap_pit_full_cost = True
     if os.environ.get('F1_REWARD_RELATIVE'):
         env.reward_relative = True
+    # SC reveal (2026-10-07): el SC/VSC de la vuelta L se revela antes de que
+    # el agente decida la vuelta L (ver _reveal_next_lap_yf).
+    if os.environ.get('F1_SC_REVEAL'):
+        env.sc_reveal = True
+    # Abandonos de rivales (2026-10-14): F1_RIVAL_DNF = ruta del JSON de
+    # scripts/rival_dnf_calibration_20261014.py (ver reset).
+    _dnf = os.environ.get('F1_RIVAL_DNF')
+    if _dnf:
+        import json
+        with open(_dnf) as _f:
+            env.rival_dnf = json.load(_f)
+    # Compuestos de partida de rivales Dirichlet-multinomial (2026-10-18, v8):
+    # F1_RIVAL_START_ALPHA = alpha simetrico (ver _initialize_race_state).
+    _rsa = os.environ.get('F1_RIVAL_START_ALPHA')
+    if _rsa:
+        env.rival_start_alpha = float(_rsa)
+    # Accion 0 en la vuelta 0 (2026-10-18, v8): F1_LAP0_ACTION0_MEDIUM=1 la
+    # convierte en el compuesto medio; F1_LAP0_PENALTY = su penalizacion.
+    if os.environ.get('F1_LAP0_ACTION0_MEDIUM'):
+        env.lap0_action0_medium = True
+    _l0p = os.environ.get('F1_LAP0_PENALTY')
+    if _l0p:
+        env.lap0_penalty = float(_l0p)
     return env
 
 

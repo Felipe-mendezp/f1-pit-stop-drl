@@ -1,0 +1,8 @@
+11:34:07 start
+11:35:56 dnfobs Saudi_Arabian_NOR exit 0
+11:36:00 nodnf Saudi_Arabian_NOR exit 0
+11:36:39 dnfobs Miami_OCO exit 0
+11:36:39 nodnf Miami_OCO exit 0
+11:36:59 dnfobs Singapore_HUL exit 0
+11:36:59 nodnf Singapore_HUL exit 0
+11:36:59 ALLDONE

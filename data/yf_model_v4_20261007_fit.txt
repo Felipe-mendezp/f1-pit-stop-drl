@@ -1,0 +1,35 @@
+2026-10-07 — Modelo de tiempos de vuelta bajo SC/VSC "v4" (reemplaza la regresión YF 2024 del autor).
+
+Estudio y justificación: results/yf_pitloss_study_20261007/ (README y scripts 01-11).
+
+Datos 2021-2023 (data/session_202{1,2,3}_V2.csv), filtro A (carreras con <=10% de vueltas WET/INT;
+neumáticos de lluvia excluidos), sin la vuelta 1. Solo vueltas que el piloto corrió 100% bajo un
+estado (TrackStatus de la vuelta = '1', '4' o '6'):
+
+  LapTime/Lref_g = rho_VSC*VSC + rho_SCl*SC_libre + rho_SCf*SC_fila + u_g*SC            (ritmo)
+                 + k_in*PitIn*Gin_g/Lref_g + k_out*PitOut*Gout_g/Lref_g                   (pit)
+                 + v_(carrera,vuelta) + e
+
+  Lref_g        vuelta verde de referencia del GP (mediana de vueltas limpias sin pit)
+  Gin_g, Gout_g pérdida verde de la in-lap y la out-lap del GP: exceso sobre la mediana de los autos
+                sin pit de la misma vuelta (>=3 autos con vuelta verde pura)
+  SC_libre      2a vuelta real del evento (antes de que la fila se forme) = 1a vuelta SC del simulador
+  SC_fila       vueltas >=3 del evento (autos alineados)
+  u_g           efecto GP en el ritmo SC; v_(carrera,vuelta) ruido común de cada vuelta
+Se excluyen la vuelta real del despliegue (cada auto la corre parcialmente bajo SC) y las paradas en
+vueltas SC_fila (su tiempo mezcla el reagrupamiento, que el simulador modela aparte). SC y VSC
+comparten k_in, k_out (mismo ritmo antes de juntarse; ver estudio, scripts 07-08).
+
+Muestra: 1182 vueltas, 34 carreras; VSC 159, SC libre 425, SC fila 598, PitIn 98, PitOut 99
+
+        Coef. Std.Err.       z  P>|z|  [0.025 0.975]
+VSC     1.339    0.023  58.990  0.000   1.294  1.383
+SCl     1.441    0.026  55.447  0.000   1.390  1.492
+SCf     1.420    0.026  55.349  0.000   1.370  1.471
+PI      0.384    0.220   1.743  0.081  -0.048  0.816
+PO      0.623    0.080   7.781  0.000   0.466  0.780
+SC Var  0.007    0.030                              
+rl Var  0.008    0.014                              
+
+sd efecto GP en SC: 0.0850
+converged: True

@@ -1,0 +1,33 @@
+algo,scen,gp,N,start,pits (vuelta:comp),DSQ,rec=mejor %,regret pos medio,"n rec=no pit, mejor=pit","rec=pit, mejor=no pit (vuelta(+pos))",real 2024 start,real 2024 pits
+PPO,(i),bahrain_alo,56,C2,19:C3 39:C3,False,86,0.02,6,39(+0.1),C3,15:C1 41:C1
+PPO,(i),belgian_gas,43,C4,15:C3 28:C3,False,86,0.02,4,15(+0.2) 28(+0.0),C3,9:C2 28:C2
+PPO,(i),dutch_str,71,C3,33:C2,False,94,0.0,4,—,C2,30:C1
+PPO,(i),hungarian_tsu,69,C5,22:C4 48:C4,False,87,0.02,7,22(+0.2),C4,29:C3
+PPO,(i),miami_oco,56,C3,28:C4,False,98,0.01,1,—,C3,22:C2
+PPO,(i),saudi_arabian_nor,49,C4,7:C3,False,100,0.0,0,—,C3,37:C4
+PPO,(i),singapore_hul,61,C4,41:C5,False,98,0.01,0,41(+0.6),C4,29:C3
+PPO,(i),united_states_mag,55,C3,3:C4 27:C4,False,98,0.0,0,27(+0.1),C3,17:C2 38:C3
+PPO,(ii),bahrain_alo,56,C2,15:C3 35:C3,False,95,0.01,3,—,C3,15:C1 41:C1
+PPO,(ii),belgian_gas,43,C4,13:C3 26:C3,False,91,0.03,2,13(+0.1) 26(+0.6),C3,9:C2 28:C2
+PPO,(ii),dutch_str,71,C3,31:C2,False,99,0.0,1,—,C2,30:C1
+PPO,(ii),hungarian_tsu,69,C5,26:C4,False,62,0.04,25,26(+0.2),C4,29:C3
+PPO,(ii),miami_oco,56,C3,28:C4,False,98,0.01,1,—,C3,22:C2
+PPO,(ii),saudi_arabian_nor,49,C4,7:C3,False,100,0.0,0,—,C3,37:C4
+PPO,(ii),singapore_hul,61,C4,42:C5,False,84,0.02,10,—,C4,29:C3
+PPO,(ii),united_states_mag,55,C3,3:C4 34:C4,False,96,0.0,2,—,C3,17:C2 38:C3
+RecurrentPPO,(i),bahrain_alo,56,C1,19:C3 42:C3,False,88,0.03,5,19(+0.7) 42(+0.0),C3,15:C1 41:C1
+RecurrentPPO,(i),belgian_gas,43,C4,15:C3 29:C3,False,84,0.03,5,15(+0.2) 29(+0.1),C3,9:C2 28:C2
+RecurrentPPO,(i),dutch_str,71,C3,28:C2,False,92,0.01,5,28(+0.2),C2,30:C1
+RecurrentPPO,(i),hungarian_tsu,69,C5,20:C4 46:C5,False,97,0.0,1,20(+0.2),C4,29:C3
+RecurrentPPO,(i),miami_oco,56,C4,22:C2,False,96,0.02,1,—,C3,22:C2
+RecurrentPPO,(i),saudi_arabian_nor,49,C3,7:C4,False,100,0.0,0,—,C3,37:C4
+RecurrentPPO,(i),singapore_hul,61,C4,40:C5,False,97,0.02,1,40(+1.4),C4,29:C3
+RecurrentPPO,(i),united_states_mag,55,C4,3:C3 31:C3,False,84,0.04,7,3(+0.5),C3,17:C2 38:C3
+RecurrentPPO,(ii),bahrain_alo,56,C1,17:C3 35:C3,False,98,0.0,0,17(+0.1),C3,15:C1 41:C1
+RecurrentPPO,(ii),belgian_gas,43,C4,13:C3 29:C3,False,91,0.01,2,13(+0.0) 29(+0.1),C3,9:C2 28:C2
+RecurrentPPO,(ii),dutch_str,71,C3,28:C2,False,87,0.02,8,28(+0.6),C2,30:C1
+RecurrentPPO,(ii),hungarian_tsu,69,C5,19:C4 38:C5,False,96,0.0,1,19(+0.1) 38(+0.1),C4,29:C3
+RecurrentPPO,(ii),miami_oco,56,C4,22:C2,False,95,0.01,2,—,C3,22:C2
+RecurrentPPO,(ii),saudi_arabian_nor,49,C3,7:C4,False,100,0.0,0,—,C3,37:C4
+RecurrentPPO,(ii),singapore_hul,61,C4,35:C5,False,89,0.01,7,—,C4,29:C3
+RecurrentPPO,(ii),united_states_mag,55,C4,3:C3 34:C3,False,75,0.05,12,3(+0.5) 34(+0.1),C3,17:C2 38:C3

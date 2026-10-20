@@ -1,0 +1,23 @@
+09:34:04 trace_s01_f7 exit 0
+09:34:05 seeds/seed06 exit 0
+09:34:06 seeds/seed03 exit 0
+09:34:06 seeds/seed07 exit 0
+09:34:06 seeds/seed04 exit 0
+09:34:06 seeds/seed02 exit 0
+09:34:06 seeds/seed08 exit 0
+09:34:07 trace_s05_f7 exit 0
+09:34:46 trace_s05_f6 exit 0
+09:40:01 seeds/seed10 exit 0
+09:40:01 seeds/seed09 exit 0
+09:40:01 fin
+09:45:50 short/s04_f7 exit 0
+09:45:50 short/s09_f7 exit 0
+09:45:50 short/s03_f7 exit 0
+09:45:51 short/s10_f7 exit 0
+09:45:51 short/s07_f7 exit 0
+09:45:51 short/s05_f7 exit 0
+09:46:02 short/s05_f6 exit 0
+09:46:03 short/s03_f6 exit 0
+09:46:03 short/s04_f6 exit 0
+09:46:03 short/s07_f6 exit 0
+09:46:03 fin2

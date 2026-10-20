@@ -158,6 +158,71 @@ and simulator switches with which it was trained. In short:
 Training is seeded, but bit-identical retraining across machines and library versions is not guaranteed.
 The figures are reproduced from the shipped agents.
 
+## Revised version (v8, manuscript under revision)
+
+> **Status (2026-10-20).** The figures and tables of the revised manuscript come from the **v8** agents and the
+> **v7** simulator described here. The sections above still describe the shipped v2.0.0 archive; the Zenodo record
+> will be updated with the v8 archive (`reproduce/pack_models_v8_20261020.py`). Nothing in the v2.0.0 trees
+> (`trained_models/simulation`, `trained_models/rl_agents*`) was modified: every revised artefact lives in a new,
+> dated tree.
+
+### What changed
+
+| Component | v2.0.0 | Revised (v8) | Code |
+|---|---|---|---|
+| Tire coefficients | matrix completion | joint hierarchical model (offsets and monotone slopes, GP random effect), 2021–2023, with 2021 tire life rescaled by 0.716 | `results/tyre_coef_study_20260930/`, `results/tyrelife_2021_20261015/`, `results/sim_v7_20261015/` |
+| Driver coefficients (2024) | Eq. 2 (v2.0.0 version) | Eq. 2 in percent; races where the reference driver has < 15 clean laps are excluded | `results/driver_coef_study_20261010/` |
+| Lap times under SC/VSC | OLS on 2024 | single 2021–2023 regression on 100 % SC/VSC laps (YF v4) | `scripts/fit_yf_model_v4_20261007.py` |
+| QMIP pit loss under SC/VSC | half the green-flag loss | same loss as the simulator (`F1_QMIP_YF_LOSS=model`) | `src/optimization/qmip.py` |
+| SC/VSC timing | revealed after the decision | revealed before the agent decides (`F1_SC_REVEAL=1`) | `src/environment/f1_env_all_drivers.py` |
+| Miami SC/VSC probability | 0.10 / 0.15 | 0.50 / 0.50 (2022–2023 frequency) | `scripts/patch_miami_yf_v6_20261014.py` |
+| Rival pit-stop logit | as published | re-estimated with the rescaled 2021 tire life | `results/sim_v7_20261015/rivals_v7_20261015.py` |
+| Rival compound choice | binary logit per alternative, normalised | conditional logit (base C3, no GP effects) | `src/models/cond_logit_compound.py` |
+| Rival starting compounds | uniform | per race p ~ Dirichlet(α, α, α), α = 0.4368 (ML on lap 1 of 19 races, 2021–2023) | `scripts/fit_rival_start_alpha_20261018.py`, `F1_RIVAL_START_ALPHA` |
+| Rival retirements | never in training or Fig. 6 | random in training and seed selection (p = 0.132 per rival, lap from 2021–2023); real 2024 retirements in Figs. 6 and 7 | `scripts/rival_dnf_calibration_20261014.py` |
+| Overtaking logit | 9 GP | re-estimated with the rescaled 2021 tire life, 8 GP | `results/sim_v7_20261015/overtake_v7_20261015.py` |
+| Action 0 at lap 0 | random compound, −600 (single-driver −150) | medium compound, −1000 (both environments) | `F1_LAP0_ACTION0_MEDIUM`, `F1_LAP0_PENALTY`, `scripts/one_driver_v8_20261019.py` |
+| Single-driver penalties | consecutive −20, laps 1–5 −15, last lap −30 | −200, −100, −150 (as multi-driver) | `scripts/one_driver_v8_20261019.py` |
+| Agent's driver | — | Belgian GAS, Hungarian TSU, Dutch STR, US MAG (mid-grid starters); others unchanged | `scripts/gp_drivers_v5hd_20261014.py` |
+| Circuits | 9 | 8 (Emilia Romagna dropped) | |
+| Seeds | 42 (+ rescue seeds) | multi-driver: 10 per agent, selected on 200 validation races (1–4 stops, rules 5/7/8, ≤ 1 % disqualified); single-driver: 5 per agent, smallest gap to the QMIP | `scripts/select_seeds_v5_20261010.py --calib v8`, `results/onedriver_v8_20261019/select_seeds_20261019.py` |
+| Evaluation world (Figs. 6–7) | same as training | races simulated with 2021–2024 tire coefficients; agents and QMIP keep the 2021–2023 ones (`F1_WORLD2024_TYRES=v7`) | `scripts/evaluate_world2024_20261010.py` |
+
+### Trees
+
+| Tree | Content | Built by |
+|---|---|---|
+| `trained_models/simulation_v7_20261015` | multi-driver simulator | `results/sim_v7_20261015/README.md` |
+| `trained_models/simulation_onedriver_v7_20261015` | single-driver simulator (links into the above) | same |
+| `trained_models/rl_agents_v8_20261018/seedXX` | 400 agents (8 GP × 5 methods × 10 seeds) | cluster, `reproduce/cluster/tasks_v8.tsv` (wrapper `scripts/rival_start_v8_20261018.py`) |
+| `trained_models/rl_agents_v8_20261018/selected` | the 40 selected agents (Figs. 6–10) | `reproduce/pipeline_v8_20261019.sh select` |
+| `trained_models/rl_agents_onedriver_v8_20261019/seedXX` | 200 single-driver agents (8 GP × 5 methods × 5 seeds); selection in `results/onedriver_v8_20261019/selection_20261019.tsv` (Fig. 5, Table N.1) | cluster, `reproduce/cluster/tasks_onedriver_v8.tsv` |
+
+Provenance of the 80 agents used in the paper: `reproduce/MODELS_MANIFEST_v8_20261020.csv`
+(`scripts/make_manifest_v8_20261020.py`, same columns as `MODELS_MANIFEST.csv`).
+
+### Environment
+
+Source `reproduce/env_paper_v3_20261007.sh` (it sources `env_paper.sh` and adds `F1_SC_REVEAL=1`,
+`F1_QMIP_YF_LOSS=model` and `F1_YF_LAPS_2024`). The v8 pipelines then set `F1_SIMULATION_DIR`,
+`F1_WORLD2024_TYRES=v7`, `F1_RIVAL_START_ALPHA`, `F1_LAP0_ACTION0_MEDIUM=1` and `F1_LAP0_PENALTY=-1000`
+themselves; the training wrappers (`scripts/rival_start_v8_20261018.py`, `scripts/one_driver_v8_20261019.py`) also
+set `F1_RIVAL_DNF` and the single-driver penalties.
+
+### Pipeline and figures
+
+```bash
+# training (cluster): reproduce/cluster/tasks_v8.tsv (400) and tasks_onedriver_v8.tsv (200)
+zsh reproduce/pipeline_v8_20261019.sh all                         # seed selection, Figs. 6 and 7 (500 races per GP), summary
+zsh results/decision_support_v8w24belief_20261019/run_20261019.sh  # look-ahead rollouts, 8 GP x 2 scenarios, PPO and RPPO (~4.6 h)
+# single-driver: steps 1-4 of results/onedriver_v8_20261019/README.md
+zsh reproduce/figures_v8_20261020.sh                              # all paper figures and tables from the cached results (minutes)
+```
+
+`figures_v8_20261020.sh` collects the figures, with the file names used by the manuscript, in
+`figures_regenerated_v8/`. Figs. 8–10 are the Saudi Arabian GP 2024 (NOR), decision lap 7, PPO, scenario with the
+actual race replayed up to the decision lap.
+
 ## Citation
 
 ```bibtex

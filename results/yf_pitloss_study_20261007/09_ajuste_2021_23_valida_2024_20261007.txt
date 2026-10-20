@@ -1,0 +1,26 @@
+kappa 2021-23: {'in': 0.15, 'out': 0.74}  n {'in': 25, 'out': 58}  carreras {'in': 13, 'out': 19}
+kappa 2021-24: {'in': 0.38, 'out': 0.74}
+IC90 2021-23: {'in': {0.05: -0.09, 0.95: 0.73}, 'out': {0.05: 0.46, 0.95: 0.81}}
+               verde_2123   sim  unif_2123   lo    hi  unif_2124
+GP                                                              
+Bahrain              24.1  12.8       15.8  9.4  19.1       16.7
+Saudi Arabian        22.4  12.1       14.5  8.5  17.8       15.2
+Miami                19.9  13.6       11.7  6.4  15.6       12.8
+Hungarian            21.7  12.9       14.2  8.4  17.3       14.5
+Belgian              18.8  16.0       10.8  5.9  14.7       12.0
+Dutch                22.4  10.9       14.3  8.3  17.8       15.5
+Singapore            29.9  14.1       16.2  8.4  23.3       18.7
+United States        20.3  15.6       14.6  9.1  16.3       14.9
+Media                22.4  13.5       14.0  8.0  17.8       15.1
+
+Eventos limpios 2024: 11  carreras 2 {('2024 Miami Grand Prix', 'in'): 2, ('2024 Miami Grand Prix', 'out'): 7, ('2024 Qatar Grand Prix', 'out'): 2}
+in n 2  MAE unif(2021-23) 2.35  MAE sim(2024) 1.31  MAE const(2021-23) 2.14  | sesgo unif -2.35  sim 0.24
+out n 9  MAE unif(2021-23) 6.8  MAE sim(2024) 5.45  MAE const(2021-23) 6.97  | sesgo unif 1.89  sim 1.18
+total n 11  MAE unif(2021-23) 5.99  MAE sim(2024) 4.7  MAE const(2021-23) 6.09  | sesgo unif 1.81  sim 1.18
+
+Por carrera 2024 (mediana observada vs predicha):
+                            exc  pred_unif  pred_sim
+race                  comp                          
+2024 Miami Grand Prix in    3.1        0.8       3.4
+                      out   9.1       10.9      10.2
+2024 Qatar Grand Prix out  -6.3       16.2      11.8

@@ -1,0 +1,158 @@
+21:59:28 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (v8: F1_RIVAL_START_ALPHA=0.4368 F1_LAP0_PENALTY=-1000)
+21:59:34 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+      Bahrain_ALO          DQN     1      5.050     0.960             
+      Bahrain_ALO          A2C     8      4.950     0.995             
+      Bahrain_ALO         TRPO     3      5.295     0.960             
+      Bahrain_ALO          PPO     6      4.465     0.995             
+      Bahrain_ALO RecurrentPPO     3      4.380     1.000             
+Saudi_Arabian_NOR          DQN     5      4.170     0.995             
+Saudi_Arabian_NOR          A2C     2      4.225     0.995             
+Saudi_Arabian_NOR         TRPO     5      4.565     0.960             
+Saudi_Arabian_NOR          PPO     7      3.940     0.995             
+Saudi_Arabian_NOR RecurrentPPO     2      3.990     0.995             
+        Miami_OCO          DQN     1     11.085     0.990             
+        Miami_OCO          A2C     2     11.200     0.990             
+        Miami_OCO         TRPO     2     11.380     0.935 NINGUNA PASA
+        Miami_OCO          PPO     3     10.685     0.985             
+        Miami_OCO RecurrentPPO     9     10.650     1.000             
+    Hungarian_TSU          DQN     4      8.445     0.910 NINGUNA PASA
+    Hungarian_TSU          A2C     8      7.865     1.000             
+    Hungarian_TSU         TRPO     4      8.280     0.965             
+    Hungarian_TSU          PPO     9      7.345     1.000             
+    Hungarian_TSU RecurrentPPO     2      7.245     1.000             
+      Belgian_GAS          DQN     8      8.985     0.950             
+      Belgian_GAS          A2C     8      8.625     1.000             
+      Belgian_GAS         TRPO     9     10.030     0.975             
+      Belgian_GAS          PPO     6      8.380     0.990             
+      Belgian_GAS RecurrentPPO     1      8.470     0.990             
+        Dutch_STR          DQN     6      6.920     0.995             
+        Dutch_STR          A2C     9      7.535     1.000             
+        Dutch_STR         TRPO     7      7.510     0.955             
+        Dutch_STR          PPO    10      6.475     1.000             
+        Dutch_STR RecurrentPPO     1      6.485     1.000             
+    Singapore_HUL          DQN     1      6.025     0.975             
+    Singapore_HUL          A2C     2      6.455     1.000             
+    Singapore_HUL         TRPO     9      6.550     0.950             
+    Singapore_HUL          PPO     9      5.725     0.995             
+    Singapore_HUL RecurrentPPO     4      5.890     0.980             
+United_States_MAG          DQN     3      7.700     1.000             
+United_States_MAG          A2C     7      7.730     1.000             
+United_States_MAG         TRPO     3      8.350     0.970             
+United_States_MAG          PPO     5      7.305     1.000             
+United_States_MAG RecurrentPPO     7      7.345     1.000             
+
+Modelos elegidos copiados a /Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/trained_models/rl_agents_v8_20261018/selected (usar F1_RL_AGENTS_DIR=<esa carpeta> en los evaluadores)
+21:59:39 fin 
+21:59:39 fig6 Bahrain_ALO Singapore_HUL
+22:14:48 fin Bahrain_ALO
+22:14:48 fig7 Bahrain_ALO Singapore_HUL
+22:22:04 fin Bahrain_ALO
+22:22:04 summary
+
+=== posicion media
+algo                              DQN    A2C   TRPO    PPO  RecurrentPPO   QMIP
+GP                src                                                          
+Bahrain_ALO       fig6_realdnf   5.52   5.72   5.73   5.21          5.18   5.40
+                  fig7           7.91   6.58   6.75   6.15          6.70   7.13
+                  fig7_base200   8.02   6.74   6.84   6.16          6.66   7.29
+                  fig7_v5h       7.29   7.44   6.49   6.27          6.16   7.07
+Saudi_Arabian_NOR fig6_realdnf   4.76   5.02   4.98   5.06          4.79   5.34
+                  fig7           5.82   5.39   5.88   5.68          5.37   5.37
+                  fig7_base200   5.80   5.38   5.85   5.70          5.38   5.37
+                  fig7_v5h       7.63   7.56   7.57   5.75          7.30   5.41
+Miami_OCO         fig6_realdnf  12.84  12.97  13.01  12.52         12.50  12.33
+                  fig7          11.08  11.26  12.59  11.12         12.62  12.46
+                  fig7_base200  11.21  11.24  12.54  11.00         12.56  12.60
+                  fig7_v5h      13.30  13.54  13.98  11.28         12.99  11.69
+Hungarian_TSU     fig6_realdnf   9.61   9.64   9.91   8.74          8.75   8.73
+                  fig7           8.62   8.30   8.36   8.54          9.00   8.31
+                  fig7_base200   8.72   8.36   8.53   8.76          9.18   8.35
+Belgian_GAS       fig6_realdnf  10.50  10.86  11.13  10.73         10.65  11.23
+                  fig7          10.61  11.81  12.34  11.79         11.85  11.48
+                  fig7_base200  10.72  11.85  12.26  11.83         11.80  11.53
+Dutch_STR         fig6_realdnf   7.70   8.96   8.37   7.49          7.52   8.25
+                  fig7          10.01   8.98   9.69   8.83          9.36   9.86
+                  fig7_base200   9.88   8.85   9.37   8.60          9.24   9.56
+Singapore_HUL     fig6_realdnf   6.74   7.30   7.45   6.50          6.89   7.14
+                  fig7           7.81   7.43   7.93   8.61          7.87   7.64
+                  fig7_base200   7.98   7.50   7.87   8.60          7.97   7.85
+                  fig7_v5h       7.41   8.01  14.24   7.74          7.49   7.58
+United_States_MAG fig6_realdnf   8.24   8.84   9.47   8.71          8.21   8.82
+                  fig7           8.81   8.66   9.73   8.54          8.97   8.80
+                  fig7_base200   8.72   8.82   9.80   8.48          8.76   8.86
+
+=== paradas reales medias
+algo                             DQN   A2C  TRPO   PPO  RecurrentPPO  QMIP
+GP                src                                                     
+Bahrain_ALO       fig6_realdnf  2.11  2.11  2.36  2.14          2.14  2.12
+                  fig7          2.00  2.02  2.17  2.00          2.00  2.00
+                  fig7_base200  2.01  2.01  2.19  2.00          2.00  2.00
+                  fig7_v5h      1.96  2.52  2.00  2.15          2.05  2.00
+Saudi_Arabian_NOR fig6_realdnf  1.29  1.07  1.81  1.09          1.25  1.00
+                  fig7          1.11  1.00  1.98  1.00          1.00  1.00
+                  fig7_base200  1.09  1.00  1.98  1.00          1.00  1.00
+                  fig7_v5h      3.00  1.00  1.94  1.00          1.62  1.00
+Miami_OCO         fig6_realdnf  1.12  1.03  1.24  1.00          1.10  1.00
+                  fig7          1.09  1.00  1.23  1.00          1.11  1.00
+                  fig7_base200  1.08  1.00  1.28  1.00          1.12  1.00
+                  fig7_v5h      4.49  2.71  2.62  1.02          1.03  1.00
+Hungarian_TSU     fig6_realdnf  2.06  1.05  1.22  1.91          2.21  2.01
+                  fig7          2.01  1.00  1.05  1.20          2.00  2.00
+                  fig7_base200  2.01  1.00  1.06  1.18          2.00  2.00
+Belgian_GAS       fig6_realdnf  1.69  2.12  2.05  2.07          2.02  2.03
+                  fig7          1.07  2.00  1.46  2.00          2.00  2.00
+                  fig7_base200  1.06  2.00  1.44  2.00          2.00  2.00
+Dutch_STR         fig6_realdnf  1.44  1.05  1.59  1.84          2.08  2.04
+                  fig7          1.00  1.00  1.43  1.00          1.00  2.00
+                  fig7_base200  1.00  1.00  1.25  1.00          1.00  2.00
+Singapore_HUL     fig6_realdnf  1.73  1.02  2.09  1.32          1.74  1.14
+                  fig7          1.03  1.00  1.08  1.00          1.00  1.00
+                  fig7_base200  1.03  1.00  1.06  1.00          1.00  1.00
+                  fig7_v5h      1.05  1.02  4.48  1.11          1.10  1.00
+United_States_MAG fig6_realdnf  1.20  1.05  1.52  1.92          1.46  1.90
+                  fig7          1.00  1.00  1.73  1.99          1.98  1.00
+                  fig7_base200  1.00  1.00  1.72  2.00          2.00  1.00
+
+=== % carreras con parada en las ultimas 6 vueltas
+algo                             DQN  A2C  TRPO  PPO  RecurrentPPO  QMIP
+GP                src                                                   
+Bahrain_ALO       fig6_realdnf   2.2  2.6   2.6  3.0           2.4   0.0
+                  fig7           0.4  0.0   0.0  0.0           0.0   0.0
+                  fig7_base200   1.0  0.0   0.0  0.0           0.0   0.0
+                  fig7_v5h       0.0  0.0   0.0  0.0           0.0   0.0
+Saudi_Arabian_NOR fig6_realdnf   4.0  4.4   9.0  3.2           1.8   0.0
+                  fig7           2.0  0.0   0.0  0.0           0.0   0.0
+                  fig7_base200   2.5  0.0   0.0  0.0           0.0   0.0
+                  fig7_v5h       0.0  6.4  63.4  2.6          61.4   0.0
+Miami_OCO         fig6_realdnf   0.8  0.0   3.2  0.8           1.4   0.0
+                  fig7           0.0  0.0   4.0  0.0           0.0   0.0
+                  fig7_base200   0.0  0.0   5.5  0.0           0.0   0.0
+                  fig7_v5h       0.0  0.0   2.4  0.0           0.0   0.0
+Hungarian_TSU     fig6_realdnf   1.4  0.0   0.0  0.4           1.4   0.0
+                  fig7           1.0  0.0   0.0  0.0           0.0   0.0
+                  fig7_base200   1.0  0.0   0.0  0.0           0.0   0.0
+Belgian_GAS       fig6_realdnf   9.8  6.0   6.2  4.0           4.4   0.0
+                  fig7           0.8  0.0   1.8  0.0           0.0   0.0
+                  fig7_base200   0.5  0.0   2.5  0.0           0.0   0.0
+Dutch_STR         fig6_realdnf   4.8  0.2   3.2  5.0           3.8   0.0
+                  fig7           0.0  0.0   0.2  0.0           0.0   0.0
+                  fig7_base200   0.0  0.0   0.0  0.0           0.0   0.0
+Singapore_HUL     fig6_realdnf  16.2  1.0  20.8  4.4           8.8   0.0
+                  fig7           2.2  0.0   2.6  0.0           0.0   0.0
+                  fig7_base200   2.0  0.0   1.0  0.0           0.0   0.0
+                  fig7_v5h       0.8  2.0  99.0  0.0           3.4   0.0
+United_States_MAG fig6_realdnf   2.8  0.0   1.8  3.4           3.0   0.0
+                  fig7           0.0  0.0   0.0  0.0           0.0   0.0
+                  fig7_base200   0.0  0.0   0.0  0.0           0.0   0.0
+
+Grid plot saved to: results/world2024_v8_20261019/fig6_2024_realdnf/figure_6.png
+
+Grid plot saved to: results/world2024_v8_20261019/fig6_2024_realdnf/figure_6.pdf
+figura 6: results/world2024_v8_20261019/fig6_2024_realdnf/figure_6.png
+
+Grid plot saved to: results/world2024_v8_20261019/fig7_2024/figure_7.png
+
+Grid plot saved to: results/world2024_v8_20261019/fig7_2024/figure_7.pdf
+figura 7: results/world2024_v8_20261019/fig7_2024/figure_7.png
+22:22:12 fin summary
+exit 0

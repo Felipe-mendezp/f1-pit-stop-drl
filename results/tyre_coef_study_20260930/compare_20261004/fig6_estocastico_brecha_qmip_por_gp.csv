@@ -1,0 +1,33 @@
+opcion,display_name,QMIP-PPO,QMIP-RecurrentPPO
+actual,Bahrain GP (ALO),0.5,0.28
+actual,Belgian GP (NOR),1.76,1.71
+actual,Dutch GP (RUS),1.65,1.58
+actual,Hungarian GP (SAI),0.35,0.47
+actual,Miami GP (OCO),0.56,0.42
+actual,Saudi Arabian GP (NOR),1.44,1.85
+actual,Singapore GP (HUL),1.18,1.08
+actual,United States GP (PIA),0.69,0.66
+control,Bahrain GP (ALO),0.42,0.41
+control,Belgian GP (NOR),1.44,1.37
+control,Dutch GP (RUS),1.99,1.74
+control,Hungarian GP (SAI),0.2,0.63
+control,Miami GP (OCO),-1.31,0.64
+control,Saudi Arabian GP (NOR),1.59,1.28
+control,Singapore GP (HUL),1.07,0.98
+control,United States GP (PIA),0.68,0.94
+opcion2,Bahrain GP (ALO),0.32,0.25
+opcion2,Belgian GP (NOR),0.99,1.48
+opcion2,Dutch GP (RUS),2.22,1.94
+opcion2,Hungarian GP (SAI),0.62,0.99
+opcion2,Miami GP (OCO),-1.1,0.03
+opcion2,Saudi Arabian GP (NOR),1.3,1.36
+opcion2,Singapore GP (HUL),1.01,2.17
+opcion2,United States GP (PIA),0.55,0.47
+opcion3,Bahrain GP (ALO),0.35,0.3
+opcion3,Belgian GP (NOR),0.99,1.3
+opcion3,Dutch GP (RUS),1.92,2.11
+opcion3,Hungarian GP (SAI),0.24,0.63
+opcion3,Miami GP (OCO),-2.24,0.23
+opcion3,Saudi Arabian GP (NOR),2.52,2.51
+opcion3,Singapore GP (HUL),1.58,1.57
+opcion3,United States GP (PIA),1.13,0.84

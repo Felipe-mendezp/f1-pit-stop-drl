@@ -73,10 +73,24 @@ def load_gp_config(gp_name: str) -> dict:
     with open(config_path, 'r') as f:
         cfg = json.load(f)
 
+    laps_vsc = cfg.get('laps_vsc_2024', [])
+    laps_sc = cfg.get('laps_sc_2024', [])
+    # Override opt-in (2026-10-07): F1_YF_LAPS_2024=<json> con las vueltas
+    # SC/VSC 2024 corregidas contra los datos (data/yf_laps_2024_20261007.json);
+    # el config.json publicado no se modifica.
+    _yf_path = os.environ.get('F1_YF_LAPS_2024')
+    if _yf_path:
+        with open(_yf_path, 'r') as f:
+            _yf = json.load(f)
+        if gp_name not in _yf:
+            raise KeyError(f"{gp_name} no está en F1_YF_LAPS_2024={_yf_path}")
+        laps_vsc = _yf[gp_name]['laps_vsc_2024']
+        laps_sc = _yf[gp_name]['laps_sc_2024']
+
     return {
         'initial_positions_list_2024': cfg.get('initial_positions_list_2024', []),
-        'laps_vsc_2024': cfg.get('laps_vsc_2024', []),
-        'laps_sc_2024': cfg.get('laps_sc_2024', []),
+        'laps_vsc_2024': laps_vsc,
+        'laps_sc_2024': laps_sc,
         'initial_positions_2024': cfg.get('initial_positions_2024', {}),
     }
 

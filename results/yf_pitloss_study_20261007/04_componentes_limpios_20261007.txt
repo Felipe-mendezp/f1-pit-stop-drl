@@ -1,0 +1,32 @@
+            n    med    q25    q75  GPs  races
+cls                                           
+in_G     2007   4.11   2.97   5.51   28     78
+in_SC     106   3.07  -2.63  19.69   15     23
+in_VSC     14   3.04  -0.03   4.55    7      7
+out_G    1943  18.70  16.51  20.74   28     78
+out_SC    212  15.27   4.08  21.13   18     26
+out_VSC     9  18.61  13.67  27.09    4      5
+
+Mediana por fuente de la referencia:
+                     count  median
+cls     ref_src                   
+in_SC   carrera         41    8.26
+        vuelta          30   13.00
+        vuelta_pura     35   -0.81
+in_VSC  vuelta           4    1.72
+        vuelta_pura     10    3.30
+out_SC  carrera         58   15.79
+        vuelta          41   32.11
+        vuelta_pura    113    9.75
+out_VSC vuelta           3   29.82
+        vuelta_pura      6   14.59
+
+n por GP del paper:
+cls                       in_SC  in_VSC  out_SC  out_VSC
+GP                                                      
+Bahrain Grand Prix            5       0       8        0
+Dutch Grand Prix             19       3      26        4
+Hungarian Grand Prix          0       1       0        0
+Miami Grand Prix              5       0      14        0
+Saudi Arabian Grand Prix      5       0       8        0
+Singapore Grand Prix          0       2       0        0

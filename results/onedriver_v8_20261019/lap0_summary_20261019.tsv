@@ -1,0 +1,201 @@
+gp	algo	seed	action	compound	flag	gap_s
+Bahrain Grand Prix	DQN	01	3	C3	sane	0.997
+Bahrain Grand Prix	A2C	01	2	C2	sane	1.075
+Bahrain Grand Prix	TRPO	01	3	C3	sane	3.348
+Bahrain Grand Prix	PPO	01	3	C3	sane	2.038
+Bahrain Grand Prix	RecurrentPPO	01	2	C2	sane	0.000
+Belgian Grand Prix	DQN	01	3	C4	sane	0.000
+Belgian Grand Prix	A2C	01	2	C3	sane	0.125
+Belgian Grand Prix	TRPO	01	2	C3	sane	6.010
+Belgian Grand Prix	PPO	01	2	C3	sane	0.599
+Belgian Grand Prix	RecurrentPPO	01	3	C4	sane	0.000
+Dutch Grand Prix	DQN	01	2	C2	sane	0.000
+Dutch Grand Prix	A2C	01	3	C3	sane	0.000
+Dutch Grand Prix	TRPO	01	2	C2	sane	0.901
+Dutch Grand Prix	PPO	01	2	C2	sane	1.367
+Dutch Grand Prix	RecurrentPPO	01	2	C2	sane	0.065
+Hungarian Grand Prix	DQN	01	3	C5	sane	0.000
+Hungarian Grand Prix	A2C	01	3	C5	sane	0.000
+Hungarian Grand Prix	TRPO	01	2	C4	sane	2.140
+Hungarian Grand Prix	PPO	01	2	C4	sane	0.000
+Hungarian Grand Prix	RecurrentPPO	01	2	C4	sane	0.006
+Miami Grand Prix	DQN	01	3	C4	sane	0.000
+Miami Grand Prix	A2C	01	3	C4	sane	1.443
+Miami Grand Prix	TRPO	01	2	C3	sane	9.453
+Miami Grand Prix	PPO	01	3	C4	sane	5.227
+Miami Grand Prix	RecurrentPPO	01	2	C3	sane	0.117
+Saudi Arabian Grand Prix	DQN	01	2	C3	sane	0.000
+Saudi Arabian Grand Prix	A2C	01	2	C3	sane	0.793
+Saudi Arabian Grand Prix	TRPO	01	3	C4	sane	10.859
+Saudi Arabian Grand Prix	PPO	01	2	C3	sane	0.000
+Saudi Arabian Grand Prix	RecurrentPPO	01	3	C4	sane	1.584
+Singapore Grand Prix	DQN	01	2	C4	sane	16.355
+Singapore Grand Prix	A2C	01	3	C5	sane	0.015
+Singapore Grand Prix	TRPO	01	2	C4	sane	4.513
+Singapore Grand Prix	PPO	01	3	C5	sane	0.015
+Singapore Grand Prix	RecurrentPPO	01	3	C5	sane	0.000
+United States Grand Prix	DQN	01	3	C4	sane	0.000
+United States Grand Prix	A2C	01	3	C4	sane	0.082
+United States Grand Prix	TRPO	01	3	C4	sane	1.726
+United States Grand Prix	PPO	01	3	C4	sane	0.512
+United States Grand Prix	RecurrentPPO	01	1	C2	sane	2.085
+Bahrain Grand Prix	DQN	02	3	C3	sane	0.099
+Bahrain Grand Prix	A2C	02	3	C3	sane	0.212
+Bahrain Grand Prix	TRPO	02	3	C3	sane	1.230
+Bahrain Grand Prix	PPO	02	3	C3	sane	0.651
+Bahrain Grand Prix	RecurrentPPO	02	3	C3	sane	0.000
+Belgian Grand Prix	DQN	02	2	C3	sane	0.044
+Belgian Grand Prix	A2C	02	3	C4	sane	0.000
+Belgian Grand Prix	TRPO	02	3	C4	sane	7.970
+Belgian Grand Prix	PPO	02	3	C4	sane	1.963
+Belgian Grand Prix	RecurrentPPO	02	2	C3	sane	0.000
+Dutch Grand Prix	DQN	02	3	C3	sane	0.000
+Dutch Grand Prix	A2C	02	2	C2	sane	0.046
+Dutch Grand Prix	TRPO	02	2	C2	sane	4.191
+Dutch Grand Prix	PPO	02	3	C3	sane	0.007
+Dutch Grand Prix	RecurrentPPO	02	2	C2	sane	0.000
+Hungarian Grand Prix	DQN	02	3	C5	sane	0.915
+Hungarian Grand Prix	A2C	02	2	C4	sane	0.068
+Hungarian Grand Prix	TRPO	02	1	C3	sane	13.751
+Hungarian Grand Prix	PPO	02	3	C5	sane	0.123
+Hungarian Grand Prix	RecurrentPPO	02	2	C4	sane	0.000
+Miami Grand Prix	DQN	02	3	C4	sane	0.000
+Miami Grand Prix	A2C	02	2	C3	sane	0.130
+Miami Grand Prix	TRPO	02	1	C2	sane	4.997
+Miami Grand Prix	PPO	02	2	C3	sane	0.046
+Miami Grand Prix	RecurrentPPO	02	3	C4	sane	0.000
+Saudi Arabian Grand Prix	DQN	02	3	C4	sane	0.000
+Saudi Arabian Grand Prix	A2C	02	2	C3	sane	0.470
+Saudi Arabian Grand Prix	TRPO	02	2	C3	sane	25.210
+Saudi Arabian Grand Prix	PPO	02	1	C2	sane	2.863
+Saudi Arabian Grand Prix	RecurrentPPO	02	2	C3	sane	0.000
+Singapore Grand Prix	DQN	02	3	C5	sane	0.000
+Singapore Grand Prix	A2C	02	2	C4	sane	2.140
+Singapore Grand Prix	TRPO	02	3	C5	sane	3.378
+Singapore Grand Prix	PPO	02	2	C4	sane	0.640
+Singapore Grand Prix	RecurrentPPO	02	3	C5	sane	0.000
+United States Grand Prix	DQN	02	3	C4	sane	0.000
+United States Grand Prix	A2C	02	3	C4	sane	0.698
+United States Grand Prix	TRPO	02	2	C3	sane	1.726
+United States Grand Prix	PPO	02	2	C3	sane	0.843
+United States Grand Prix	RecurrentPPO	02	3	C4	sane	0.000
+Bahrain Grand Prix	DQN	03	3	C3	sane	0.000
+Bahrain Grand Prix	A2C	03	3	C3	sane	0.163
+Bahrain Grand Prix	TRPO	03	3	C3	sane	3.999
+Bahrain Grand Prix	PPO	03	2	C2	sane	0.163
+Bahrain Grand Prix	RecurrentPPO	03	3	C3	sane	0.000
+Belgian Grand Prix	DQN	03	3	C4	sane	0.599
+Belgian Grand Prix	A2C	03	2	C3	sane	0.000
+Belgian Grand Prix	TRPO	03	1	C2	sane	5.156
+Belgian Grand Prix	PPO	03	2	C3	sane	0.765
+Belgian Grand Prix	RecurrentPPO	03	2	C3	sane	0.000
+Dutch Grand Prix	DQN	03	3	C3	sane	0.000
+Dutch Grand Prix	A2C	03	3	C3	sane	0.240
+Dutch Grand Prix	TRPO	03	2	C2	sane	3.433
+Dutch Grand Prix	PPO	03	3	C3	sane	2.508
+Dutch Grand Prix	RecurrentPPO	03	3	C3	sane	0.007
+Hungarian Grand Prix	DQN	03	2	C4	sane	0.000
+Hungarian Grand Prix	A2C	03	3	C5	sane	0.141
+Hungarian Grand Prix	TRPO	03	2	C4	sane	4.795
+Hungarian Grand Prix	PPO	03	2	C4	sane	0.073
+Hungarian Grand Prix	RecurrentPPO	03	2	C4	sane	0.000
+Miami Grand Prix	DQN	03	3	C4	sane	0.597
+Miami Grand Prix	A2C	03	2	C3	sane	3.207
+Miami Grand Prix	TRPO	03	2	C3	sane	0.046
+Miami Grand Prix	PPO	03	2	C3	sane	1.160
+Miami Grand Prix	RecurrentPPO	03	3	C4	sane	0.117
+Saudi Arabian Grand Prix	DQN	03	2	C3	sane	0.000
+Saudi Arabian Grand Prix	A2C	03	2	C3	sane	0.340
+Saudi Arabian Grand Prix	TRPO	03	3	C4	sane	0.415
+Saudi Arabian Grand Prix	PPO	03	3	C4	sane	0.415
+Saudi Arabian Grand Prix	RecurrentPPO	03	3	C4	sane	0.000
+Singapore Grand Prix	DQN	03	2	C4	sane	0.000
+Singapore Grand Prix	A2C	03	3	C5	sane	0.015
+Singapore Grand Prix	TRPO	03	3	C5	sane	1.543
+Singapore Grand Prix	PPO	03	2	C4	sane	1.043
+Singapore Grand Prix	RecurrentPPO	03	2	C4	sane	0.000
+United States Grand Prix	DQN	03	3	C4	sane	0.000
+United States Grand Prix	A2C	03	3	C4	sane	0.082
+United States Grand Prix	TRPO	03	3	C4	sane	7.070
+United States Grand Prix	PPO	03	2	C3	sane	0.512
+United States Grand Prix	RecurrentPPO	03	2	C3	sane	0.023
+Bahrain Grand Prix	DQN	04	3	C3	sane	0.212
+Bahrain Grand Prix	A2C	04	2	C2	sane	0.000
+Bahrain Grand Prix	TRPO	04	3	C3	sane	1.294
+Bahrain Grand Prix	PPO	04	2	C2	sane	2.727
+Bahrain Grand Prix	RecurrentPPO	04	3	C3	sane	0.000
+Belgian Grand Prix	DQN	04	2	C3	sane	1.907
+Belgian Grand Prix	A2C	04	3	C4	sane	0.765
+Belgian Grand Prix	TRPO	04	1	C2	sane	5.986
+Belgian Grand Prix	PPO	04	2	C3	sane	2.601
+Belgian Grand Prix	RecurrentPPO	04	2	C3	sane	0.000
+Dutch Grand Prix	DQN	04	2	C2	sane	1.591
+Dutch Grand Prix	A2C	04	2	C2	sane	0.007
+Dutch Grand Prix	TRPO	04	1	C1	sane	9.297
+Dutch Grand Prix	PPO	04	2	C2	sane	1.344
+Dutch Grand Prix	RecurrentPPO	04	2	C2	sane	0.000
+Hungarian Grand Prix	DQN	04	3	C5	sane	0.000
+Hungarian Grand Prix	A2C	04	2	C4	sane	0.073
+Hungarian Grand Prix	TRPO	04	3	C5	sane	8.362
+Hungarian Grand Prix	PPO	04	3	C5	sane	0.270
+Hungarian Grand Prix	RecurrentPPO	04	2	C4	sane	0.000
+Miami Grand Prix	DQN	04	2	C3	sane	0.000
+Miami Grand Prix	A2C	04	3	C4	sane	0.236
+Miami Grand Prix	TRPO	04	1	C2	sane	8.175
+Miami Grand Prix	PPO	04	2	C3	sane	0.255
+Miami Grand Prix	RecurrentPPO	04	3	C4	sane	0.000
+Saudi Arabian Grand Prix	DQN	04	2	C3	sane	0.000
+Saudi Arabian Grand Prix	A2C	04	2	C3	sane	0.000
+Saudi Arabian Grand Prix	TRPO	04	3	C4	sane	3.612
+Saudi Arabian Grand Prix	PPO	04	2	C3	sane	0.004
+Saudi Arabian Grand Prix	RecurrentPPO	04	2	C3	sane	0.017
+Singapore Grand Prix	DQN	04	3	C5	sane	0.000
+Singapore Grand Prix	A2C	04	1	C3	sane	3.946
+Singapore Grand Prix	TRPO	04	3	C5	sane	7.687
+Singapore Grand Prix	PPO	04	2	C4	sane	1.951
+Singapore Grand Prix	RecurrentPPO	04	2	C4	sane	0.000
+United States Grand Prix	DQN	04	2	C3	sane	0.082
+United States Grand Prix	A2C	04	3	C4	sane	0.023
+United States Grand Prix	TRPO	04	2	C3	sane	0.135
+United States Grand Prix	PPO	04	3	C4	sane	0.843
+United States Grand Prix	RecurrentPPO	04	3	C4	sane	0.000
+Bahrain Grand Prix	DQN	05	3	C3	sane	1.764
+Bahrain Grand Prix	A2C	05	3	C3	sane	0.997
+Bahrain Grand Prix	TRPO	05	1	C1	sane	0.672
+Bahrain Grand Prix	PPO	05	2	C2	sane	0.099
+Bahrain Grand Prix	RecurrentPPO	05	3	C3	sane	0.000
+Belgian Grand Prix	DQN	05	3	C4	sane	0.847
+Belgian Grand Prix	A2C	05	3	C4	sane	1.083
+Belgian Grand Prix	TRPO	05	3	C4	sane	0.125
+Belgian Grand Prix	PPO	05	3	C4	sane	1.519
+Belgian Grand Prix	RecurrentPPO	05	3	C4	sane	0.000
+Dutch Grand Prix	DQN	05	3	C3	sane	0.000
+Dutch Grand Prix	A2C	05	2	C2	sane	0.901
+Dutch Grand Prix	TRPO	05	3	C3	sane	3.444
+Dutch Grand Prix	PPO	05	2	C2	sane	0.936
+Dutch Grand Prix	RecurrentPPO	05	3	C3	sane	0.000
+Hungarian Grand Prix	DQN	05	3	C5	sane	0.000
+Hungarian Grand Prix	A2C	05	2	C4	sane	0.675
+Hungarian Grand Prix	TRPO	05	3	C5	sane	0.141
+Hungarian Grand Prix	PPO	05	3	C5	sane	2.848
+Hungarian Grand Prix	RecurrentPPO	05	3	C5	sane	0.006
+Miami Grand Prix	DQN	05	3	C4	sane	0.000
+Miami Grand Prix	A2C	05	2	C3	sane	1.857
+Miami Grand Prix	TRPO	05	2	C3	sane	6.781
+Miami Grand Prix	PPO	05	2	C3	sane	0.626
+Miami Grand Prix	RecurrentPPO	05	2	C3	sane	0.000
+Saudi Arabian Grand Prix	DQN	05	2	C3	sane	0.231
+Saudi Arabian Grand Prix	A2C	05	2	C3	sane	0.004
+Saudi Arabian Grand Prix	TRPO	05	2	C3	sane	0.793
+Saudi Arabian Grand Prix	PPO	05	2	C3	sane	0.000
+Saudi Arabian Grand Prix	RecurrentPPO	05	2	C3	sane	0.004
+Singapore Grand Prix	DQN	05	3	C5	sane	0.000
+Singapore Grand Prix	A2C	05	2	C4	sane	1.043
+Singapore Grand Prix	TRPO	05	1	C3	sane	5.513
+Singapore Grand Prix	PPO	05	2	C4	sane	0.335
+Singapore Grand Prix	RecurrentPPO	05	2	C4	sane	0.000
+United States Grand Prix	DQN	05	2	C3	sane	3.270
+United States Grand Prix	A2C	05	2	C3	sane	0.624
+United States Grand Prix	TRPO	05	1	C2	sane	2.316
+United States Grand Prix	PPO	05	3	C4	sane	0.637
+United States Grand Prix	RecurrentPPO	05	3	C4	sane	0.000

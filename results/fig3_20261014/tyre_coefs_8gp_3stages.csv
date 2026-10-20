@@ -1,0 +1,73 @@
+gp,race_laps,stage,compound,role,offset_s,slope_s_per_lap,stints_2021_23,laps_all,laps_clean,baseline
+Bahrain,57,With outliers,C1,Hard,0.0,0.1039,34,2848,2826,C1
+Bahrain,57,With outliers,C2,Medium,-0.151,0.136,45,2848,2826,C1
+Bahrain,57,With outliers,C3,Soft,-0.4761,0.1467,109,2848,2826,C1
+Bahrain,57,Without outliers,C1,Hard,0.0,0.1259,34,2848,2826,C1
+Bahrain,57,Without outliers,C2,Medium,0.0844,0.1421,45,2848,2826,C1
+Bahrain,57,Without outliers,C3,Soft,-0.1592,0.1405,109,2848,2826,C1
+Bahrain,57,Joint model,C1,Hard,0.0,0.1221,34,2848,2826,C1
+Bahrain,57,Joint model,C2,Medium,-0.0796,0.1318,45,2848,2826,C1
+Bahrain,57,Joint model,C3,Soft,-0.3339,0.1465,109,2848,2826,C1
+Belgian,44,With outliers,C2,Hard,0.0,0.1405,16,1461,1433,C2
+Belgian,44,With outliers,C3,Medium,-0.5311,0.2064,58,1461,1433,C2
+Belgian,44,With outliers,C4,Soft,-0.1219,0.1274,35,1461,1433,C2
+Belgian,44,Without outliers,C2,Hard,0.0,0.1413,16,1461,1433,C2
+Belgian,44,Without outliers,C3,Medium,-0.5559,0.203,58,1461,1433,C2
+Belgian,44,Without outliers,C4,Soft,-0.23,0.1424,35,1461,1433,C2
+Belgian,44,Joint model,C2,Hard,0.0,0.15,16,1461,1433,C2
+Belgian,44,Joint model,C3,Medium,-0.2031,0.1685,58,1461,1433,C2
+Belgian,44,Joint model,C4,Soft,-0.3395,0.1816,35,1461,1433,C2
+Dutch,72,With outliers,C1,Hard,,,0,2474,2433,C2
+Dutch,72,With outliers,C2,Medium,0.0,0.0439,42,2474,2433,C2
+Dutch,72,With outliers,C3,Soft,0.0959,0.0187,55,2474,2433,C2
+Dutch,72,Without outliers,C1,Hard,,,0,2474,2433,C2
+Dutch,72,Without outliers,C2,Medium,0.0,0.0454,42,2474,2433,C2
+Dutch,72,Without outliers,C3,Soft,-0.2259,0.0391,55,2474,2433,C2
+Dutch,72,Joint model,C1,Hard,0.0772,0.0392,0,2474,2433,C2
+Dutch,72,Joint model,C2,Medium,0.0,0.043,42,2474,2433,C2
+Dutch,72,Joint model,C3,Soft,-0.2466,0.0488,55,2474,2433,C2
+Hungarian,70,With outliers,C3,Hard,0.0,0.0482,76,3336,3238,C3
+Hungarian,70,With outliers,C4,Medium,-0.6544,0.0756,45,3336,3238,C3
+Hungarian,70,With outliers,C5,Soft,-1.2397,0.1342,3,3336,3238,C3
+Hungarian,70,Without outliers,C3,Hard,0.0,0.0491,76,3336,3238,C3
+Hungarian,70,Without outliers,C4,Medium,-0.3798,0.064,45,3336,3238,C3
+Hungarian,70,Without outliers,C5,Soft,-0.3871,0.0886,3,3336,3238,C3
+Hungarian,70,Joint model,C3,Hard,0.0,0.0505,76,3336,3238,C3
+Hungarian,70,Joint model,C4,Medium,-0.2296,0.0603,45,3336,3238,C3
+Hungarian,70,Joint model,C5,Soft,-0.4591,0.072,3,3336,3238,C3
+Miami,57,With outliers,C2,Hard,0.0,0.0151,39,1994,1972,C2
+Miami,57,With outliers,C3,Medium,0.0837,-0.0032,40,1994,1972,C2
+Miami,57,With outliers,C4,Soft,0.0376,-0.0116,5,1994,1972,C2
+Miami,57,Without outliers,C2,Hard,0.0,0.0174,39,1994,1972,C2
+Miami,57,Without outliers,C3,Medium,-0.0448,0.0123,40,1994,1972,C2
+Miami,57,Without outliers,C4,Soft,-0.1449,0.0173,5,1994,1972,C2
+Miami,57,Joint model,C2,Hard,0.0,0.0164,39,1994,1972,C2
+Miami,57,Joint model,C3,Medium,-0.1563,0.0198,40,1994,1972,C2
+Miami,57,Joint model,C4,Soft,-0.2614,0.0224,5,1994,1972,C2
+Saudi Arabian,50,With outliers,C2,Hard,0.0,-0.0484,51,2039,2002,C2
+Saudi Arabian,50,With outliers,C3,Medium,-0.0531,-0.0595,62,2039,2002,C2
+Saudi Arabian,50,With outliers,C4,Soft,-0.3348,-0.0029,5,2039,2002,C2
+Saudi Arabian,50,Without outliers,C2,Hard,0.0,-0.0065,51,2039,2002,C2
+Saudi Arabian,50,Without outliers,C3,Medium,-0.2872,0.0151,62,2039,2002,C2
+Saudi Arabian,50,Without outliers,C4,Soft,0.8927,-0.0234,5,2039,2002,C2
+Saudi Arabian,50,Joint model,C2,Hard,0.0,0.0068,51,2039,2002,C2
+Saudi Arabian,50,Joint model,C3,Medium,-0.1984,0.0091,62,2039,2002,C2
+Saudi Arabian,50,Joint model,C4,Soft,-0.3318,0.0109,5,2039,2002,C2
+Singapore,62,With outliers,C3,Hard,0.0,0.0444,18,845,839,C3
+Singapore,62,With outliers,C4,Medium,-0.7684,0.0566,21,845,839,C3
+Singapore,62,With outliers,C5,Soft,-0.2338,0.0171,3,845,839,C3
+Singapore,62,Without outliers,C3,Hard,0.0,0.0417,18,845,839,C3
+Singapore,62,Without outliers,C4,Medium,-0.6502,0.0469,21,845,839,C3
+Singapore,62,Without outliers,C5,Soft,-0.1041,0.0161,3,845,839,C3
+Singapore,62,Joint model,C3,Hard,0.0,0.0406,18,845,839,C3
+Singapore,62,Joint model,C4,Medium,-0.2394,0.0464,21,845,839,C3
+Singapore,62,Joint model,C5,Soft,-0.4788,0.0531,3,845,839,C3
+United States,56,With outliers,C2,Hard,0.0,0.0526,79,2812,2764,C2
+United States,56,With outliers,C3,Medium,-0.3185,0.0567,86,2812,2764,C2
+United States,56,With outliers,C4,Soft,1.0866,-0.0754,5,2812,2764,C2
+United States,56,Without outliers,C2,Hard,0.0,0.0726,79,2812,2764,C2
+United States,56,Without outliers,C3,Medium,-0.2461,0.0701,86,2812,2764,C2
+United States,56,Without outliers,C4,Soft,0.5838,0.0384,5,2812,2764,C2
+United States,56,Joint model,C2,Hard,0.0,0.0674,79,2812,2764,C2
+United States,56,Joint model,C3,Medium,-0.2272,0.0769,86,2812,2764,C2
+United States,56,Joint model,C4,Soft,-0.3798,0.0837,5,2812,2764,C2

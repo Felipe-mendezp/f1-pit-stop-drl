@@ -1,0 +1,151 @@
+{
+  "threshold": 0.0,
+  "source": "models.regressions.all_laps() (2021-2023 race laps)",
+  "gps": {
+    "Bahrain Grand Prix": {
+      "compounds_2024": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "share_2021_2023": {
+        "C1": 0.18697342838626052,
+        "C2": 0.24983797796500323,
+        "C3": 0.5
+      },
+      "keep": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "dropped": []
+    },
+    "Belgian Grand Prix": {
+      "compounds_2024": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "share_2021_2023": {
+        "C2": 0.17343649258542876,
+        "C3": 0.5235332043842682,
+        "C4": 0.30303030303030304
+      },
+      "keep": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "dropped": []
+    },
+    "Dutch Grand Prix": {
+      "compounds_2024": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "share_2021_2023": {
+        "C1": 0.0,
+        "C2": 0.3801407928862542,
+        "C3": 0.3356798814375695
+      },
+      "keep": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "dropped": []
+    },
+    "Hungarian Grand Prix": {
+      "compounds_2024": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "share_2021_2023": {
+        "C3": 0.5382870107770845,
+        "C4": 0.2280204197390811,
+        "C5": 0.009642654566080544
+      },
+      "keep": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "dropped": []
+    },
+    "Miami Grand Prix": {
+      "compounds_2024": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "share_2021_2023": {
+        "C2": 0.6515944788196097,
+        "C3": 0.3250832936696811,
+        "C4": 0.023322227510709188
+      },
+      "keep": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "dropped": []
+    },
+    "Saudi Arabian Grand Prix": {
+      "compounds_2024": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "share_2021_2023": {
+        "C2": 0.5533632286995516,
+        "C3": 0.42556053811659195,
+        "C4": 0.021076233183856503
+      },
+      "keep": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "dropped": []
+    },
+    "Singapore Grand Prix": {
+      "compounds_2024": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "share_2021_2023": {
+        "C3": 0.53515625,
+        "C4": 0.408203125,
+        "C5": 0.056640625
+      },
+      "keep": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "dropped": []
+    },
+    "United States Grand Prix": {
+      "compounds_2024": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "share_2021_2023": {
+        "C2": 0.5517477724468814,
+        "C3": 0.43728581220013707,
+        "C4": 0.010966415352981495
+      },
+      "keep": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "dropped": []
+    }
+  },
+  "note": "2026-10-14: sin filtro (homologado con el multi-piloto); share_2021_2023 copiado de compound_filter_one_driver_5pct_wetA_20261011.json solo como referencia."
+}

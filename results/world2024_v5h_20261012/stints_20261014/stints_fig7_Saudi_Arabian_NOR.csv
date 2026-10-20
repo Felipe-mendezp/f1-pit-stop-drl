@@ -1,0 +1,1501 @@
+algo,pos,plan,pits
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3,[32]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3,[34]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[37]
+RecurrentPPO,8,C4 -> C3,[37]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3,[7]
+RecurrentPPO,12,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,16,C4 -> C3,[35]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[37]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,4,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3,[7]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,13,C4 -> C3,[36]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[37]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,5,C4 -> C3,[34]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,14,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[31]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[35]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,11,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3,[7]
+RecurrentPPO,15,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3,[35]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[31]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,14,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,13,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,10,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[7]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[34]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3,[31]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,3,C4 -> C3,[31]
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[35]
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,3,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,14,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3,[37]
+RecurrentPPO,10,C4 -> C3,[35]
+RecurrentPPO,10,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,14,C4 -> C3,[7]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[37]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3,[37]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[37]
+RecurrentPPO,4,C4 -> C3,[31]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,11,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3,[36]
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,9,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,15,C4 -> C3,[7]
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,16,C4 -> C3,[37]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,5,C4 -> C3,[37]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3,[31]
+RecurrentPPO,13,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3,[7]
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 41]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[7]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,12,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3,[37]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,12,C4 -> C3,[36]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,4,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,15,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,15,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3,[7]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,13,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,5,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,11,C4 -> C3,[7]
+RecurrentPPO,9,C4 -> C3,[35]
+RecurrentPPO,6,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,9,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 48]"
+RecurrentPPO,8,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,7,C4 -> C3,[35]
+RecurrentPPO,7,C4 -> C3 -> C3,"[7, 46]"
+RecurrentPPO,10,C4 -> C3 -> C3,"[7, 48]"
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,12,C4 -> C3,[48]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3 -> C3,"[7, 48]"
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[41]
+PPO,4,C4 -> C3,[7]
+PPO,9,C4 -> C3,[34]
+PPO,6,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,7,C4 -> C3,[41]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,8,C4 -> C3,[35]
+PPO,9,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[48]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,6,C4 -> C3 -> C3,"[7, 48]"
+PPO,6,C4 -> C3,[7]
+PPO,8,C4 -> C3,[41]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,12,C4 -> C3,[39]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[41]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[35]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,2,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[46]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[48]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,3,C4 -> C3,[46]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[39]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,11,C4 -> C3,[41]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,2,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[35]
+PPO,11,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[39]
+PPO,8,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,14,C4 -> C3,[7]
+PPO,5,C4 -> C3,[48]
+PPO,13,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[41]
+PPO,6,C4 -> C3,[7]
+PPO,2,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,2,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,8,C4 -> C3,[39]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,15,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[46]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[48]
+PPO,8,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[41]
+PPO,5,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,5,C4 -> C3,[41]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[39]
+PPO,6,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[39]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,4,C4 -> C3,[41]
+PPO,3,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,13,C4 -> C3,[7]
+PPO,5,C4 -> C3,[41]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[41]
+PPO,6,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,9,C4 -> C3,[7]
+PPO,6,C4 -> C3,[41]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,8,C4 -> C3,[39]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,12,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+PPO,3,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,2,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,5,C4 -> C3,[35]
+PPO,6,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,11,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,13,C4 -> C3,[46]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[41]
+PPO,3,C4 -> C3,[7]
+PPO,10,C4 -> C3,[7]
+PPO,5,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,7,C4 -> C3,[39]
+PPO,4,C4 -> C3,[7]
+PPO,5,C4 -> C3,[39]
+PPO,8,C4 -> C3,[46]
+PPO,8,C4 -> C3,[7]
+PPO,4,C4 -> C3,[7]
+PPO,7,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,6,C4 -> C3,[7]
+PPO,7,C4 -> C3,[46]
+PPO,4,C4 -> C3,[7]
+PPO,6,C4 -> C3,[41]
+PPO,5,C4 -> C3,[7]
+PPO,8,C4 -> C3,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,13,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,14,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,14,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,14,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,15,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,14,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,15,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,12,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,9,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,2,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,11,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,8,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,10,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,4,C3 -> C4,[7]
+QMIP,7,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,3,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,5,C3 -> C4,[7]
+QMIP,6,C3 -> C4,[7]

@@ -1,0 +1,162 @@
+{
+ "alpha": 0.4368,
+ "years": [
+  2021,
+  2022,
+  2023
+ ],
+ "gps": [
+  "Bahrain",
+  "Saudi Arabian",
+  "Miami",
+  "Hungarian",
+  "Belgian",
+  "Dutch",
+  "Singapore",
+  "United States"
+ ],
+ "n_races": 19,
+ "loglik": -275.61854566724577,
+ "alpha_asym_SMH": [
+  0.6156,
+  1.097,
+  0.3103
+ ],
+ "loglik_asym": -269.2823799073048,
+ "mean_majority_share_real": 0.7561865189289012,
+ "races": [
+  {
+   "year": 2021,
+   "gp": "Bahrain",
+   "SOFT": 9,
+   "MEDIUM": 11,
+   "HARD": 0
+  },
+  {
+   "year": 2021,
+   "gp": "Saudi Arabian",
+   "SOFT": 1,
+   "MEDIUM": 16,
+   "HARD": 3
+  },
+  {
+   "year": 2021,
+   "gp": "Dutch",
+   "SOFT": 14,
+   "MEDIUM": 5,
+   "HARD": 1
+  },
+  {
+   "year": 2021,
+   "gp": "United States",
+   "SOFT": 2,
+   "MEDIUM": 18,
+   "HARD": 0
+  },
+  {
+   "year": 2022,
+   "gp": "Bahrain",
+   "SOFT": 18,
+   "MEDIUM": 2,
+   "HARD": 0
+  },
+  {
+   "year": 2022,
+   "gp": "Saudi Arabian",
+   "SOFT": 0,
+   "MEDIUM": 15,
+   "HARD": 3
+  },
+  {
+   "year": 2022,
+   "gp": "Miami",
+   "SOFT": 0,
+   "MEDIUM": 15,
+   "HARD": 5
+  },
+  {
+   "year": 2022,
+   "gp": "Hungarian",
+   "SOFT": 10,
+   "MEDIUM": 10,
+   "HARD": 0
+  },
+  {
+   "year": 2022,
+   "gp": "Belgian",
+   "SOFT": 4,
+   "MEDIUM": 15,
+   "HARD": 1
+  },
+  {
+   "year": 2022,
+   "gp": "Dutch",
+   "SOFT": 14,
+   "MEDIUM": 6,
+   "HARD": 0
+  },
+  {
+   "year": 2022,
+   "gp": "United States",
+   "SOFT": 0,
+   "MEDIUM": 16,
+   "HARD": 4
+  },
+  {
+   "year": 2023,
+   "gp": "Bahrain",
+   "SOFT": 19,
+   "MEDIUM": 0,
+   "HARD": 1
+  },
+  {
+   "year": 2023,
+   "gp": "Saudi Arabian",
+   "SOFT": 2,
+   "MEDIUM": 16,
+   "HARD": 2
+  },
+  {
+   "year": 2023,
+   "gp": "Miami",
+   "SOFT": 2,
+   "MEDIUM": 11,
+   "HARD": 7
+  },
+  {
+   "year": 2023,
+   "gp": "Hungarian",
+   "SOFT": 4,
+   "MEDIUM": 14,
+   "HARD": 2
+  },
+  {
+   "year": 2023,
+   "gp": "Belgian",
+   "SOFT": 13,
+   "MEDIUM": 7,
+   "HARD": 0
+  },
+  {
+   "year": 2023,
+   "gp": "Dutch",
+   "SOFT": 19,
+   "MEDIUM": 1,
+   "HARD": 0
+  },
+  {
+   "year": 2023,
+   "gp": "Singapore",
+   "SOFT": 3,
+   "MEDIUM": 13,
+   "HARD": 3
+  },
+  {
+   "year": 2023,
+   "gp": "United States",
+   "SOFT": 0,
+   "MEDIUM": 18,
+   "HARD": 2
+  }
+ ]
+}

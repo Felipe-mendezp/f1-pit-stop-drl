@@ -1,0 +1,17 @@
+algo,scen,action,rec,pos_media,pts_media,top10,paradas
+PPO,(i),No pit,True,5.83,9.17,0.946,1.24
+PPO,(i),Hard (C3),False,8.77,4.21,0.798,1.89
+PPO,(i),Medium (C4),False,9.15,4.05,0.722,2.19
+PPO,(i),Soft (C5),False,8.1,5.01,0.844,1.68
+PPO,(ii),No pit,True,5.64,9.58,0.95,1.14
+PPO,(ii),Hard (C3),False,7.55,5.95,0.874,1.78
+PPO,(ii),Medium (C4),False,8.08,5.49,0.792,2.07
+PPO,(ii),Soft (C5),False,7.35,6.25,0.87,1.64
+RecurrentPPO,(i),No pit,True,5.84,9.26,0.924,1.37
+RecurrentPPO,(i),Hard (C3),False,8.81,4.16,0.796,1.82
+RecurrentPPO,(i),Medium (C4),False,9.25,3.97,0.702,2.27
+RecurrentPPO,(i),Soft (C5),False,8.13,4.94,0.842,1.7
+RecurrentPPO,(ii),No pit,True,5.46,9.94,0.948,1.58
+RecurrentPPO,(ii),Hard (C3),False,7.52,6.0,0.88,2.15
+RecurrentPPO,(ii),Medium (C4),False,7.92,5.59,0.808,2.34
+RecurrentPPO,(ii),Soft (C5),False,7.33,6.44,0.872,1.99

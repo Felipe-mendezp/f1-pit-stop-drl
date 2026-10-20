@@ -35,6 +35,9 @@ from matplotlib.patches import Patch, Rectangle
 
 from environment.f1_env_all_drivers import create_f1_env_all_drivers
 from model_loader import ModelLoader
+# 2026-10-11 opt-in: entorno con neumaticos opcion3 2021-24 (agente 2021-23), ver ds_rollouts_world2024_20261011.py
+if os.environ.get('F1_DS_WORLD2024') == '1':
+    import ds_rollouts_world2024_20261011  # noqa: F401  (parchea ModelLoader.load)
 from evaluate_all_gps import (load_gp_config, build_rival_strategies, GP_CONFIGS,
                               ALGO_CLASSES, NORM_OBS_KEYS)
 from stable_baselines3.common.vec_env import DummyVecEnv, VecNormalize

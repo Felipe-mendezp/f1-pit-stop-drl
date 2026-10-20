@@ -49,6 +49,7 @@ from evaluate_qmip_vs_drl import (
     build_qmip_params,
     qmip_choose_start_compound,
     qmip_choose_action,
+    qmip_gamma,
 )
 from model_loader import ModelLoader
 
@@ -154,13 +155,14 @@ def run_single_race_qmip_real(
         n_remaining = raw_env.laps_left
         t_current_name = compound_to_qmip.get(raw_env.agent_driver.compound, "Medium")
         w_current = raw_env.agent_driver.tyrelife
-        gamma = 1 if (raw_env.vsc > 0 or raw_env.sc > 0) else 0
+        gamma, yf_now = qmip_gamma(raw_env)
         n_total = raw_env.n_laps
 
         action = qmip_choose_action(
             betas_dict, time_stop, n_remaining,
             t_current_name, w_current, t_previous, n_total, gamma,
-            qmip_to_compound, available_compounds, p=p,
+            qmip_to_compound, available_compounds, p=p, yf_now=yf_now,
+            time_stop_yf=qmip_params.get('time_stop_yf'),
         )
 
         obs, reward, terminated, truncated, info = raw_env.step(action)
@@ -314,6 +316,8 @@ def evaluate_gp_with_qmip(
     qmip_params = build_qmip_params(loader, config_entry['gp_name'])
     print(f"    betas: { {k: [f'{v[0]:.2f}', f'{v[1]:.4f}'] for k, v in qmip_params['betas_dict'].items()} }")
     print(f"    time_stop: {qmip_params['time_stop']:.2f}s")
+    if qmip_params.get('time_stop_yf') is not None:
+        print(f"    time_stop_yf: {qmip_params['time_stop_yf']:.2f}s (F1_QMIP_YF_LOSS=model)")
 
     qmip_results = evaluate_qmip_real(
         loader=loader,

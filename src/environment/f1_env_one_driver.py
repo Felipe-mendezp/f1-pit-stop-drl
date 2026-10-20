@@ -50,7 +50,7 @@ class F1EnvOneDriverV2Optimized(Env):
         'gp', 'driver_name', 'laptime_calculator',
         '_penalty_no_compound_change', '_penalty_pit_last_lap',
         '_penalty_early_pit', '_penalty_consecutive_pit', '_penalty_invalid',
-        '_early_laps_set', '_n_compounds',
+        '_early_laps_set', '_n_compounds', '_lap0_action0_medium', '_lap0_penalty',
         'compound', 'tyre_life', 'change_compound', 'lap_number',
         'laps_left', 'prev_action', 'current_action', 'initial_compound',
         'total_time', 'lap_state', 'prev_compound', 'pit_in_flag', 'pit_out_flag',
@@ -99,6 +99,16 @@ class F1EnvOneDriverV2Optimized(Env):
         self._penalty_early_pit = -15.0  # Reduced from -300.0 (discourage, not forbid)
         self._penalty_consecutive_pit = -20.0  # Reduced from -300.0 (wasteful)
         self._penalty_invalid = -150.0  # Reduced from -500.0 (Lap 0 violation, regulatory)
+        # v8 (2026-10-19, opt-in): mismas penalizaciones que el multi-piloto ('mix') y accion 0 en la vuelta 0 =
+        # compuesto medio (sin sorteo) con penalizacion F1_ONE_DRIVER_LAP0_PENALTY. Sin las variables, como antes.
+        for _var, _attr in (('F1_ONE_DRIVER_PENALTY_PIT_LAST_LAP', '_penalty_pit_last_lap'),
+                            ('F1_ONE_DRIVER_PENALTY_EARLY_PIT', '_penalty_early_pit'),
+                            ('F1_ONE_DRIVER_PENALTY_CONSECUTIVE_PIT', '_penalty_consecutive_pit')):
+            if os.environ.get(_var):
+                setattr(self, _attr, float(os.environ[_var]))
+        self._lap0_action0_medium = bool(os.environ.get('F1_ONE_DRIVER_LAP0_ACTION0_MEDIUM'))
+        _l0p = os.environ.get('F1_ONE_DRIVER_LAP0_PENALTY')
+        self._lap0_penalty = float(_l0p) if _l0p else self._penalty_invalid
 
         # Set de early laps (inmutable, mas rapido que list)
         self._early_laps_set = frozenset([1, 2, 3, 4, 5])
@@ -279,7 +289,11 @@ class F1EnvOneDriverV2Optimized(Env):
     def _handle_lap_0(self, action: int) -> Tuple[Dict[str, int], float, bool, bool, Dict]:
         """Manejo ultra-optimizado de lap 0."""
         # Map action to compound: action 0 is invalid, 1-3 map to available compounds
-        if action == 0:
+        if action == 0 and self._lap0_action0_medium:
+            # v8 (opt-in): compuesto medio, sin sorteo
+            penalty = self._lap0_penalty
+            compound = self.available_compounds[self._n_compounds // 2]
+        elif action == 0:
             # Invalid: must select a compound at lap 0
             penalty = self._penalty_invalid
             # Use the seeded env RNG (np.random would break reproducibility)

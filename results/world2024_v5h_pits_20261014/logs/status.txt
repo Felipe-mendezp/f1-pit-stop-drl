@@ -1,0 +1,10 @@
+10:33:29 start
+10:39:32 fig7 Saudi_Arabian_NOR exit 0
+10:43:00 fig7 Miami_OCO exit 0
+10:44:57 fig7 Singapore_HUL exit 0
+10:47:57 fig7 Bahrain_ALO exit 0
+10:48:27 fig6 Saudi_Arabian_NOR exit 0
+10:52:24 fig6 Miami_OCO exit 0
+10:52:59 fig6 Singapore_HUL exit 0
+10:56:10 fig6 Bahrain_ALO exit 0
+10:56:10 ALLDONE

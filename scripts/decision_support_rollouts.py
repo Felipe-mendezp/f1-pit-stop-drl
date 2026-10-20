@@ -189,10 +189,16 @@ def run_prefix_multi(model, vec_env, raw_env, laps, initial_compounds, prefix_se
         # variant these were invisible: nothing recorded them, so the evolution
         # figure could not shade them and a scenario believed to be SC/VSC-free
         # went unnoticed (Dutch prefix seed 34 actually has 5 yellow-flag laps).
+        # FIX (2026-10-20): with sc_reveal the env already holds, after step(cur_lap),
+        # the SC/VSC of the NEXT lap (_reveal_next_lap_yf), so the flag belongs to
+        # raw_env.lap_number (= cur_lap + 1); without sc_reveal it is cur_lap's own.
+        # Previously recorded as cur_lap -> one lap early under F1_SC_REVEAL=1
+        # (Saudi prefix: [6] instead of the real SC laps 7-9).
+        yf_lap = raw_env.lap_number if getattr(raw_env, 'sc_reveal', False) else cur_lap
         if raw_env.sc > 0:
-            yf_laps.append((cur_lap, 'SC'))
+            yf_laps.append((yf_lap, 'SC'))
         elif raw_env.vsc > 0:
-            yf_laps.append((cur_lap, 'VSC'))
+            yf_laps.append((yf_lap, 'VSC'))
         guard += 1
         if done or guard > raw_env.n_laps + 5:
             raise RuntimeError(f"Race ended before reaching lap {max_lap} "

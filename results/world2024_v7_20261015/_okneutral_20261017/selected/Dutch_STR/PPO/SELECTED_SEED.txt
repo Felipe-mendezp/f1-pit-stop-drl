@@ -1,0 +1,1 @@
+seed 5  pos_media_val 6.370  share_ok 0.990  ok-neutral

@@ -1,0 +1,35 @@
+20:28:16 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+20:40:59 fig6 Saudi_Arabian_NOR exit 0
+20:46:14 fig6 Belgian_GAS exit 0
+20:47:12 fig6 Miami_OCO exit 0
+20:47:41 fig6 Singapore_HUL exit 0
+20:49:14 fig6 United_States_MAG exit 0
+20:51:05 fig6 Bahrain_ALO exit 0
+20:51:59 fig6 Dutch_STR exit 0
+20:52:27 fig6 Hungarian_TSU exit 0
+20:52:27 fin 
+20:52:28 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+20:57:38 fig7 Saudi_Arabian_NOR exit 0
+21:02:14 fig7 Miami_OCO exit 0
+21:02:34 fig7 Singapore_HUL exit 0
+21:04:43 fig7 Belgian_GAS exit 0
+21:05:40 fig7 United_States_MAG exit 0
+21:06:33 fig7 Dutch_STR exit 0
+21:06:54 fig7 Bahrain_ALO exit 0
+21:06:54 fig7 Hungarian_TSU exit 0
+21:06:54 fin 
+21:06:54 summary
+21:07:03 fin summary
+21:59:28 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (v8: F1_RIVAL_START_ALPHA=0.4368 F1_LAP0_PENALTY=-1000)
+21:59:34 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+21:59:39 fin 
+21:59:39 fig6 Bahrain_ALO Singapore_HUL
+22:12:20 fig6 Singapore_HUL exit 0
+22:14:48 fig6 Bahrain_ALO exit 0
+22:14:48 fin Bahrain_ALO
+22:14:48 fig7 Bahrain_ALO Singapore_HUL
+22:19:50 fig7 Singapore_HUL exit 0
+22:22:04 fig7 Bahrain_ALO exit 0
+22:22:04 fin Bahrain_ALO
+22:22:04 summary
+22:22:12 fin summary

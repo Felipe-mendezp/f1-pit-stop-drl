@@ -1,0 +1,13 @@
+opcion,algo,pos_media,pos_sd,puntos_media,dsq_pct,paradas_media,n
+actual,PPO,7.666,4.166,6.818,0.15,1.312,4000
+actual,QMIP,8.682,4.666,5.842,0.0,1.068,4000
+actual,RecurrentPPO,7.675,4.139,6.794,0.05,1.241,4000
+control,PPO,7.923,4.404,6.696,0.15,1.325,4000
+control,QMIP,8.682,4.666,5.842,0.0,1.068,4000
+control,RecurrentPPO,7.683,4.297,6.942,0.275,1.171,4000
+opcion2,PPO,8.04,4.569,6.716,0.4,1.047,4000
+opcion2,QMIP,8.779,4.746,5.87,0.0,1.025,4000
+opcion2,RecurrentPPO,7.694,4.27,6.957,0.125,0.999,4000
+opcion3,PPO,8.207,4.464,6.308,0.075,1.14,4000
+opcion3,QMIP,9.018,4.757,5.512,0.05,1.046,4000
+opcion3,RecurrentPPO,7.831,4.162,6.582,0.25,1.202,4000

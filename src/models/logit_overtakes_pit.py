@@ -2,6 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import config
 import compat; compat.setup_all()  # shims necesarios para despicklear FastLinearPredictor
+from tyrelife_2021 import adjust_2021
 
 """
 Logit de adelantamientos PIT-AWARE (propuesta del autor, 2026-08-07).
@@ -65,13 +66,7 @@ def load_data():
     laps_2022 = pd.read_csv(str(config.DATA_DIR / 'session_2022_V2.csv'))
     laps_2023 = pd.read_csv(str(config.DATA_DIR / 'session_2023_V2.csv'))
 
-    tyrelife_adjust = {'C0': 0.65,
-                       'C1': 1.0,
-                       'C2': 0.90,
-                       'C3': 0.98,
-                       'C4': 0.92,
-                       'C5': 0.92}
-    laps_2021['TyreLife'] = laps_2021['TyreLife'] * laps_2021['Compound_Detail'].map(tyrelife_adjust)
+    adjust_2021(laps_2021)                       # factor de 2021: src/tyrelife_2021.py
 
     selected_GP = {
             'Bahrain Grand Prix': ['C1', 'C2', 'C3'],

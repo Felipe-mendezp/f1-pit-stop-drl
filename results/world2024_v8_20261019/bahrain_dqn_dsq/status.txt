@@ -1,0 +1,15 @@
+21:30:40 trace_s08_f7 exit 0
+21:30:41 seeds/seed03 exit 0
+21:30:41 seeds/seed06 exit 0
+21:30:41 seeds/seed01 exit 0
+21:30:42 seeds/seed05 exit 0
+21:30:43 seeds/seed02 exit 0
+21:30:43 seeds/seed04 exit 0
+21:31:32 trace_s08_f6 exit 0
+21:38:39 seeds/seed10 exit 0
+21:38:39 seeds/seed07 exit 0
+21:38:39 seeds/seed09 exit 0
+21:38:39 fin
+21:45:42 trace2_s08_f7 exit 0
+21:45:43 trace2_s03_f7 exit 0
+21:48:06 trace2_s08_f6 exit 0

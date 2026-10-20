@@ -20,6 +20,7 @@ import statsmodels.api as sm
 import pickle
 import os
 from typing import Dict, Tuple, List
+from tyrelife_2021 import factors
 
 # === CONSTANTS ===
 
@@ -145,14 +146,7 @@ COMPOUND_MAPS = {
     }
 }
 
-TYRELIFE_ADJUST = {
-    'C0': 0.65,
-    'C1': 1.0,
-    'C2': 0.90,
-    'C3': 0.98,
-    'C4': 0.92,
-    'C5': 0.92
-}
+TYRELIFE_ADJUST = factors()                  # factor de 2021: src/tyrelife_2021.py
 
 
 # === DATA LOADING ===

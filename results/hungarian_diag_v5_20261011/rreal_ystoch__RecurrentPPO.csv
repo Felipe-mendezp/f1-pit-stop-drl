@@ -1,0 +1,301 @@
+sim,start,n_stops,n_stops_compound,stops,sc_laps,vsc_laps,any_yf,final_position,policy,rivals,yf
+0,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+1,5,2,2,17:4 38:5,,,0,2,RecurrentPPO,real,stoch
+2,5,2,2,9:4 38:5,8 9 10 11,2 3 49 50 68 69 70,1,1,RecurrentPPO,real,stoch
+3,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+4,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+5,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+6,5,2,2,22:4 45:5,61 62 63 64,45 46,1,2,RecurrentPPO,real,stoch
+7,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+8,5,2,2,17:4 38:5,,,0,9,RecurrentPPO,real,stoch
+9,5,2,2,23:4 47:5,,4 5,1,2,RecurrentPPO,real,stoch
+10,5,2,2,17:4 43:5,63 64 65 66,,1,2,RecurrentPPO,real,stoch
+11,5,2,2,22:4 47:5,,32 33,1,4,RecurrentPPO,real,stoch
+12,5,2,2,17:4 40:5,,61 62,1,1,RecurrentPPO,real,stoch
+13,5,3,2,17:4 40:5 52:5,51 52 53 54,,1,2,RecurrentPPO,real,stoch
+14,5,2,2,14:4 40:5,13 14 15 16,,1,1,RecurrentPPO,real,stoch
+15,5,2,1,2:4 36:4,1 2 3 4,,1,6,RecurrentPPO,real,stoch
+16,5,2,2,22:4 45:5,,44 45,1,2,RecurrentPPO,real,stoch
+17,5,2,2,22:4 45:5,,44 45,1,1,RecurrentPPO,real,stoch
+18,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+19,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+20,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+21,5,2,2,17:4 45:5,20 21 22 23,,1,4,RecurrentPPO,real,stoch
+22,5,2,2,17:4 38:5,,,0,2,RecurrentPPO,real,stoch
+23,5,3,2,17:4 38:5 53:5,,52 53,1,11,RecurrentPPO,real,stoch
+24,5,2,1,9:4 35:4,8 9 10 11,34 35,1,1,RecurrentPPO,real,stoch
+25,5,2,2,17:4 40:5,,57 58,1,3,RecurrentPPO,real,stoch
+26,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+27,5,3,2,17:4 38:5 47:5,46 47 48 49,,1,5,RecurrentPPO,real,stoch
+28,5,2,1,3:4 36:4,2 3 4 5,,1,6,RecurrentPPO,real,stoch
+29,5,2,2,17:4 40:5,,56 57,1,3,RecurrentPPO,real,stoch
+30,5,3,2,18:4 45:5 58:5,17 18 19 20 57 58 59 60,7 8,1,1,RecurrentPPO,real,stoch
+31,5,2,2,17:4 43:5,,,0,3,RecurrentPPO,real,stoch
+32,5,2,2,23:4 44:5,,43 44,1,3,RecurrentPPO,real,stoch
+33,5,2,2,17:4 40:5,,65 66,1,3,RecurrentPPO,real,stoch
+34,5,3,2,22:4 45:5 63:5,62 63 64 65,,1,2,RecurrentPPO,real,stoch
+35,5,3,2,17:4 38:5 50:5,,49 50,1,9,RecurrentPPO,real,stoch
+36,5,3,2,17:4 38:5 51:5,50 51 52 53 69 70,,1,2,RecurrentPPO,real,stoch
+37,5,2,2,12:4 25:5,24 25 26 27,11 12,1,1,RecurrentPPO,real,stoch
+38,5,1,1,30:4,,0 1,1,3,RecurrentPPO,real,stoch
+39,5,2,2,17:4 43:5,,32 33 51 52,1,2,RecurrentPPO,real,stoch
+40,5,2,2,22:4 47:5,56 57 58 59,26 27,1,3,RecurrentPPO,real,stoch
+41,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+42,5,2,2,17:4 40:5,39 40 41 42,,1,2,RecurrentPPO,real,stoch
+43,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+44,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+45,5,2,2,17:4 43:5,,28 29,1,5,RecurrentPPO,real,stoch
+46,5,2,2,16:4 40:5,,15 16,1,2,RecurrentPPO,real,stoch
+47,5,1,1,29:4,,,0,4,RecurrentPPO,real,stoch
+48,5,2,2,30:4 50:5,59 60 61 62,49 50,1,2,RecurrentPPO,real,stoch
+49,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+50,5,2,2,17:4 43:5,,17 18,1,2,RecurrentPPO,real,stoch
+51,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+52,5,2,2,19:4 45:5,18 19 20 21,60 61,1,3,RecurrentPPO,real,stoch
+53,5,2,2,22:4 45:5,,,0,1,RecurrentPPO,real,stoch
+54,5,2,2,12:4 38:5,,11 12,1,2,RecurrentPPO,real,stoch
+55,5,2,2,22:4 45:5,,,0,1,RecurrentPPO,real,stoch
+56,5,2,2,22:4 45:5,69 70,,1,6,RecurrentPPO,real,stoch
+57,5,2,2,17:4 43:5,,32 33,1,4,RecurrentPPO,real,stoch
+58,5,2,2,13:4 25:5,24 25 26 27,12 13,1,3,RecurrentPPO,real,stoch
+59,5,2,2,17:4 43:5,,49 50,1,3,RecurrentPPO,real,stoch
+60,5,3,2,17:4 38:5 49:5,,48 49 66 67,1,8,RecurrentPPO,real,stoch
+61,5,2,2,17:4 40:5,,5 6,1,3,RecurrentPPO,real,stoch
+62,5,2,2,17:4 38:5,,,0,10,RecurrentPPO,real,stoch
+63,5,1,1,30:4,,38 39,1,1,RecurrentPPO,real,stoch
+64,5,2,2,22:4 45:5,,59 60,1,3,RecurrentPPO,real,stoch
+65,5,2,2,17:4 38:5,,,0,2,RecurrentPPO,real,stoch
+66,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+67,5,3,2,3:4 21:4 40:5,2 3 4 5,20 21 22 23,1,10,RecurrentPPO,real,stoch
+68,5,2,2,23:4 60:5,22 23 24 25,59 60,1,2,RecurrentPPO,real,stoch
+69,5,2,2,23:4 47:5,,,0,1,RecurrentPPO,real,stoch
+70,5,2,2,22:4 47:5,,,0,1,RecurrentPPO,real,stoch
+71,5,2,2,12:4 38:5,,11 12 65 66,1,2,RecurrentPPO,real,stoch
+72,5,2,2,22:4 39:5,,38 39,1,2,RecurrentPPO,real,stoch
+73,5,2,2,17:4 38:5,,,0,7,RecurrentPPO,real,stoch
+74,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+75,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+76,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+77,5,2,2,22:4 47:5,,,0,1,RecurrentPPO,real,stoch
+78,5,2,2,22:4 38:5,,37 38,1,2,RecurrentPPO,real,stoch
+79,5,2,2,22:4 45:5,,60 61,1,3,RecurrentPPO,real,stoch
+80,5,2,2,17:4 40:5,,20 21,1,5,RecurrentPPO,real,stoch
+81,5,2,2,23:4 47:5,,,0,2,RecurrentPPO,real,stoch
+82,5,2,2,17:4 43:5,,25 26 50 51,1,3,RecurrentPPO,real,stoch
+83,5,2,2,16:4 40:5,,15 16 45 46,1,1,RecurrentPPO,real,stoch
+84,5,2,2,23:4 47:5,,28 29,1,3,RecurrentPPO,real,stoch
+85,5,3,2,22:4 45:5 51:5,50 51 52 53,,1,3,RecurrentPPO,real,stoch
+86,5,2,2,17:4 40:5,,17 18,1,4,RecurrentPPO,real,stoch
+87,5,2,2,17:4 29:5,28 29 30 31,,1,4,RecurrentPPO,real,stoch
+88,5,2,2,22:4 47:5,,34 35,1,3,RecurrentPPO,real,stoch
+89,5,2,2,22:4 47:5,26 27 28 29,1 2,1,2,RecurrentPPO,real,stoch
+90,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+91,5,2,2,22:4 47:5,,29 30,1,3,RecurrentPPO,real,stoch
+92,5,2,2,17:4 38:5,,,0,11,RecurrentPPO,real,stoch
+93,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+94,5,2,2,22:4 47:5,,27 28,1,1,RecurrentPPO,real,stoch
+95,5,3,2,14:4 43:5 47:5,13 14 15 16 46 47 48 49,,1,2,RecurrentPPO,real,stoch
+96,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+97,5,2,2,22:4 45:5,,,0,1,RecurrentPPO,real,stoch
+98,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+99,5,2,2,22:4 39:5,,38 39,1,3,RecurrentPPO,real,stoch
+100,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+101,5,2,2,17:4 38:5,,,0,7,RecurrentPPO,real,stoch
+102,5,3,2,1:4 24:4 49:5,0 1 2 3 23 24 25 26,8 9 49 50,1,1,RecurrentPPO,real,stoch
+103,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+104,5,2,2,23:4 47:5,,,0,2,RecurrentPPO,real,stoch
+105,5,2,2,17:4 29:5,28 29 30 31,,1,2,RecurrentPPO,real,stoch
+106,5,2,2,22:4 47:5,,68 69 70,1,4,RecurrentPPO,real,stoch
+107,5,3,2,17:4 24:5 45:5,23 24 25 26,,1,7,RecurrentPPO,real,stoch
+108,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+109,5,2,2,22:4 42:5,,41 42,1,1,RecurrentPPO,real,stoch
+110,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+111,5,2,2,22:4 45:5,,6 7,1,4,RecurrentPPO,real,stoch
+112,5,2,2,17:4 38:5,,,0,10,RecurrentPPO,real,stoch
+113,5,2,2,17:4 38:5,,,0,7,RecurrentPPO,real,stoch
+114,5,2,2,17:4 43:5,,,0,2,RecurrentPPO,real,stoch
+115,5,2,2,22:4 47:5,,31 32,1,3,RecurrentPPO,real,stoch
+116,5,2,1,17:4 37:4,,,0,11,RecurrentPPO,real,stoch
+117,5,3,2,17:4 40:5 50:5,49 50 51 52,,1,3,RecurrentPPO,real,stoch
+118,5,3,2,17:4 40:5 58:5,57 58 59 60,,1,1,RecurrentPPO,real,stoch
+119,5,2,2,22:4 47:5,,,0,5,RecurrentPPO,real,stoch
+120,5,2,2,19:4 45:5,,18 19,1,2,RecurrentPPO,real,stoch
+121,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+122,5,2,2,12:4 37:5,,11 12,1,8,RecurrentPPO,real,stoch
+123,5,2,2,17:4 38:5,,,0,9,RecurrentPPO,real,stoch
+124,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+125,5,2,2,17:4 40:5,,45 46,1,2,RecurrentPPO,real,stoch
+126,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+127,5,1,1,22:4,,25 26,1,3,RecurrentPPO,real,stoch
+128,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+129,5,2,2,17:4 40:5,,17 18,1,3,RecurrentPPO,real,stoch
+130,5,2,2,17:4 40:5,,40 41 62 63,1,2,RecurrentPPO,real,stoch
+131,5,2,1,17:4 36:4,,35 36,1,4,RecurrentPPO,real,stoch
+132,5,2,2,9:4 37:5,,8 9,1,2,RecurrentPPO,real,stoch
+133,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+134,5,2,1,17:4 34:4,33 34 35 36,,1,1,RecurrentPPO,real,stoch
+135,5,2,2,23:4 47:5,,,0,3,RecurrentPPO,real,stoch
+136,5,2,2,22:4 47:5,59 60 61 62,,1,4,RecurrentPPO,real,stoch
+137,5,2,2,13:4 40:5,,12 13,1,2,RecurrentPPO,real,stoch
+138,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+139,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+140,5,2,2,22:4 36:5,35 36 37 38,,1,1,RecurrentPPO,real,stoch
+141,5,2,2,17:4 38:5,,,0,10,RecurrentPPO,real,stoch
+142,5,2,1,5:4 31:4,4 5 6 7 30 31 32 33,,1,1,RecurrentPPO,real,stoch
+143,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+144,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+145,5,2,2,17:4 43:5,16 17 18 19,,1,2,RecurrentPPO,real,stoch
+146,5,2,2,23:4 47:5,63 64 65 66,,1,2,RecurrentPPO,real,stoch
+147,5,2,2,22:4 44:5,,43 44,1,2,RecurrentPPO,real,stoch
+148,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+149,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+150,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+151,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+152,5,2,2,23:4 47:5,,,0,3,RecurrentPPO,real,stoch
+153,5,3,2,17:4 22:4 47:5,21 22 23 24,50 51,1,3,RecurrentPPO,real,stoch
+154,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+155,5,2,2,23:4 47:5,,,0,3,RecurrentPPO,real,stoch
+156,5,1,1,22:4,21 22 23 24,,1,1,RecurrentPPO,real,stoch
+157,5,3,2,11:4 37:5 44:5,43 44 45 46,10 11,1,2,RecurrentPPO,real,stoch
+158,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+159,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+160,5,2,2,19:4 45:5,,18 19 52 53,1,3,RecurrentPPO,real,stoch
+161,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+162,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+163,5,2,2,16:4 43:5,,15 16 21 22,1,4,RecurrentPPO,real,stoch
+164,5,2,2,31:4 41:5,40 41 42 43,0 1 64 65,1,1,RecurrentPPO,real,stoch
+165,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+166,5,2,2,17:4 43:5,,34 35,1,3,RecurrentPPO,real,stoch
+167,5,2,2,16:4 40:5,,15 16,1,2,RecurrentPPO,real,stoch
+168,5,2,2,22:4 47:5,,61 62,1,3,RecurrentPPO,real,stoch
+169,5,2,2,17:4 40:5,,,0,5,RecurrentPPO,real,stoch
+170,5,2,1,2:4 36:4,1 2 3 4,,1,2,RecurrentPPO,real,stoch
+171,5,3,2,17:4 43:5 47:5,46 47 48 49,24 25,1,4,RecurrentPPO,real,stoch
+172,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+173,5,3,2,17:4 43:5 57:5,56 57 58 59,,1,1,RecurrentPPO,real,stoch
+174,5,3,2,17:4 40:5 42:5,41 42 43 44,,1,1,RecurrentPPO,real,stoch
+175,5,2,2,22:4 45:5,,68 69 70,1,3,RecurrentPPO,real,stoch
+176,5,2,2,3:4 37:5,2 3 4 5,,1,1,RecurrentPPO,real,stoch
+177,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+178,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+179,5,2,2,22:4 45:5,,66 67,1,4,RecurrentPPO,real,stoch
+180,5,1,1,31:4,,2 3,1,3,RecurrentPPO,real,stoch
+181,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+182,5,3,2,17:4 22:5 47:5,21 22 23 24,,1,3,RecurrentPPO,real,stoch
+183,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+184,5,2,2,23:4 47:5,,3 4,1,2,RecurrentPPO,real,stoch
+185,5,2,2,17:4 33:5,32 33 34 35,,1,3,RecurrentPPO,real,stoch
+186,5,3,2,22:4 45:5 49:5,48 49 50 51 60 61 62 63,,1,4,RecurrentPPO,real,stoch
+187,5,2,2,22:4 47:5,,,0,5,RecurrentPPO,real,stoch
+188,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+189,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+190,5,2,2,17:4 38:5,,,0,2,RecurrentPPO,real,stoch
+191,5,1,1,31:4,,,0,3,RecurrentPPO,real,stoch
+192,5,2,2,22:4 37:5,36 37 38 39,,1,1,RecurrentPPO,real,stoch
+193,5,2,2,17:4 38:5,,,0,6,RecurrentPPO,real,stoch
+194,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+195,5,2,2,17:4 43:5,18 19 20 21,,1,4,RecurrentPPO,real,stoch
+196,5,2,2,17:4 38:5,,,0,8,RecurrentPPO,real,stoch
+197,5,1,1,30:4,,,0,3,RecurrentPPO,real,stoch
+198,5,2,2,23:4 47:5,,,0,2,RecurrentPPO,real,stoch
+199,5,1,1,31:4,,2 3,1,3,RecurrentPPO,real,stoch
+200,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+201,5,2,2,17:4 43:5,,,0,3,RecurrentPPO,real,stoch
+202,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+203,5,1,1,23:4,,33 34,1,3,RecurrentPPO,real,stoch
+204,5,2,2,17:4 38:5,,,0,5,RecurrentPPO,real,stoch
+205,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+206,5,2,2,22:4 45:5,,,0,5,RecurrentPPO,real,stoch
+207,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+208,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+209,5,3,2,17:4 38:5 43:5,42 43 44 45,,1,6,RecurrentPPO,real,stoch
+210,5,2,2,22:4 47:5,,,0,2,RecurrentPPO,real,stoch
+211,5,2,2,23:4 47:5,,,0,5,RecurrentPPO,real,stoch
+212,5,3,2,17:4 38:5 69:5,68 69 70,,1,4,RecurrentPPO,real,stoch
+213,5,2,2,22:4 43:5,42 43 44 45,31 32,1,1,RecurrentPPO,real,stoch
+214,5,3,2,17:4 20:4 43:5,19 20 21 22,,1,9,RecurrentPPO,real,stoch
+215,5,2,2,17:4 40:5,,,0,5,RecurrentPPO,real,stoch
+216,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+217,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+218,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+219,5,2,2,13:4 38:5,,12 13,1,2,RecurrentPPO,real,stoch
+220,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+221,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+222,5,2,2,15:4 43:5,16 17 18 19,14 15 42 43,1,2,RecurrentPPO,real,stoch
+223,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+224,5,2,1,6:4 33:4,5 6 7 8,32 33,1,1,RecurrentPPO,real,stoch
+225,5,2,2,17:4 40:5,,31 32,1,4,RecurrentPPO,real,stoch
+226,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+227,5,2,2,20:4 47:5,19 20 21 22 25 26 27 28,,1,4,RecurrentPPO,real,stoch
+228,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+229,5,1,1,31:4,,,0,4,RecurrentPPO,real,stoch
+230,5,2,2,16:4 40:5,,15 16 64 65,1,3,RecurrentPPO,real,stoch
+231,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+232,5,2,2,17:4 38:5,,,0,8,RecurrentPPO,real,stoch
+233,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+234,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+235,5,2,2,17:4 38:5,,,0,4,RecurrentPPO,real,stoch
+236,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+237,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+238,5,2,2,17:4 43:5,,16 17 63 64,1,2,RecurrentPPO,real,stoch
+239,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+240,5,2,2,13:4 40:5,12 13 14 15,,1,6,RecurrentPPO,real,stoch
+241,5,1,1,30:4,,0 1,1,3,RecurrentPPO,real,stoch
+242,5,2,2,23:4 49:5,,,0,2,RecurrentPPO,real,stoch
+243,5,2,2,10:4 38:5,,9 10 14 15,1,3,RecurrentPPO,real,stoch
+244,5,2,2,22:4 47:5,63 64 65 66,,1,2,RecurrentPPO,real,stoch
+245,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+246,5,2,2,22:4 40:5,,22 23 39 40,1,1,RecurrentPPO,real,stoch
+247,5,2,2,10:4 40:5,9 10 11 12,20 21,1,2,RecurrentPPO,real,stoch
+248,5,2,2,22:4 47:5,,29 30,1,3,RecurrentPPO,real,stoch
+249,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+250,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+251,5,2,2,22:4 47:5,,47 48,1,1,RecurrentPPO,real,stoch
+252,5,2,2,17:4 40:5,,,0,2,RecurrentPPO,real,stoch
+253,5,2,2,22:4 45:5,,48 49,1,3,RecurrentPPO,real,stoch
+254,5,2,2,23:4 45:5,,,0,3,RecurrentPPO,real,stoch
+255,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+256,5,2,2,17:4 38:5,,,0,10,RecurrentPPO,real,stoch
+257,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+258,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+259,5,2,2,17:4 38:5,,58 59,1,3,RecurrentPPO,real,stoch
+260,5,2,2,17:4 40:5,,,0,3,RecurrentPPO,real,stoch
+261,5,2,2,10:4 37:5,,9 10,1,3,RecurrentPPO,real,stoch
+262,5,2,2,10:4 38:5,,9 10,1,2,RecurrentPPO,real,stoch
+263,5,2,2,23:4 49:5,,35 36,1,1,RecurrentPPO,real,stoch
+264,5,3,2,17:4 43:5 65:5,64 65 66 67,32 33,1,5,RecurrentPPO,real,stoch
+265,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+266,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+267,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+268,5,2,2,22:4 45:5,,,0,5,RecurrentPPO,real,stoch
+269,5,3,1,14:4 37:4 46:4,13 14 15 16 45 46 47 48,,1,5,RecurrentPPO,real,stoch
+270,5,2,2,22:4 47:5,,,0,3,RecurrentPPO,real,stoch
+271,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+272,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+273,5,2,2,22:4 47:5,63 64 65 66,,1,1,RecurrentPPO,real,stoch
+274,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+275,5,1,1,31:4,,0 1,1,2,RecurrentPPO,real,stoch
+276,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+277,5,2,2,17:4 40:5,,68 69 70,1,3,RecurrentPPO,real,stoch
+278,5,2,2,17:4 38:5,,,0,3,RecurrentPPO,real,stoch
+279,5,1,1,23:4,23 24 25 26,,1,3,RecurrentPPO,real,stoch
+280,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+281,5,2,2,17:4 37:5,36 37 38 39,,1,1,RecurrentPPO,real,stoch
+282,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+283,5,1,1,23:4,,23 24,1,1,RecurrentPPO,real,stoch
+284,5,3,2,17:4 38:4 41:5,40 41 42 43,,1,6,RecurrentPPO,real,stoch
+285,5,2,2,22:4 45:5,,65 66 67 68,1,3,RecurrentPPO,real,stoch
+286,5,2,2,22:4 45:5,,,0,4,RecurrentPPO,real,stoch
+287,5,2,2,17:4 43:5,,54 55,1,4,RecurrentPPO,real,stoch
+288,5,3,2,17:4 24:4 44:5,23 24 25 26 43 44 45 46,52 53,1,5,RecurrentPPO,real,stoch
+289,5,2,2,22:4 47:5,,,0,4,RecurrentPPO,real,stoch
+290,5,2,2,22:4 47:5,,63 64,1,2,RecurrentPPO,real,stoch
+291,5,2,2,17:4 38:5,,,0,2,RecurrentPPO,real,stoch
+292,5,2,2,22:4 45:5,,,0,3,RecurrentPPO,real,stoch
+293,5,2,2,22:4 45:5,,56 57,1,2,RecurrentPPO,real,stoch
+294,5,2,2,22:4 45:5,,,0,2,RecurrentPPO,real,stoch
+295,5,2,1,17:4 38:4,,,0,9,RecurrentPPO,real,stoch
+296,5,2,2,29:4 49:5,48 49 50 51,68 69 70,1,3,RecurrentPPO,real,stoch
+297,5,1,1,31:4,,35 36,1,2,RecurrentPPO,real,stoch
+298,5,2,2,17:4 40:5,,,0,4,RecurrentPPO,real,stoch
+299,5,2,2,17:4 38:5,,58 59,1,6,RecurrentPPO,real,stoch
