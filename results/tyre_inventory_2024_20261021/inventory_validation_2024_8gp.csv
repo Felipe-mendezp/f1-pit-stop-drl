@@ -1,0 +1,51 @@
+GP,Driver,RaceStint,StartLap,Compound,TyreLifeAtStart,Matched,Gap
+Bahrain Grand Prix,ALO,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,HAM,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,HUL,4,42,SOFT,2,False,
+Bahrain Grand Prix,LEC,1,1,SOFT,4,True,0.0
+Bahrain Grand Prix,NOR,1,1,SOFT,4,True,0.0
+Bahrain Grand Prix,PER,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,PIA,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,RIC,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,RUS,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,SAI,1,1,SOFT,4,True,1.0
+Bahrain Grand Prix,VER,1,1,SOFT,4,True,1.0
+Dutch Grand Prix,RUS,3,55,SOFT,4,True,1.0
+Hungarian Grand Prix,ALO,1,1,SOFT,3,True,0.0
+Hungarian Grand Prix,ALO,2,8,MEDIUM,2,True,1.0
+Hungarian Grand Prix,ALO,3,38,HARD,2,True,1.0
+Hungarian Grand Prix,BOT,1,1,MEDIUM,2,True,1.0
+Hungarian Grand Prix,NOR,2,18,HARD,2,True,1.0
+Hungarian Grand Prix,NOR,3,46,MEDIUM,2,True,1.0
+Hungarian Grand Prix,PIA,2,19,HARD,2,True,1.0
+Hungarian Grand Prix,PIA,3,48,MEDIUM,2,True,1.0
+Hungarian Grand Prix,STR,1,1,SOFT,4,True,1.0
+Hungarian Grand Prix,STR,2,15,MEDIUM,2,True,1.0
+Hungarian Grand Prix,STR,3,46,HARD,2,True,1.0
+Hungarian Grand Prix,ZHO,1,1,MEDIUM,2,True,1.0
+Miami Grand Prix,ALO,1,1,HARD,2,True,1.0
+Miami Grand Prix,ALO,2,23,MEDIUM,2,False,
+Miami Grand Prix,HAM,2,27,MEDIUM,4,True,1.0
+Miami Grand Prix,MAG,4,32,MEDIUM,4,False,
+Miami Grand Prix,PER,3,29,MEDIUM,6,False,
+Miami Grand Prix,PIA,3,41,MEDIUM,7,False,
+Miami Grand Prix,RIC,2,29,MEDIUM,6,False,
+Miami Grand Prix,RUS,1,1,MEDIUM,4,True,1.0
+Miami Grand Prix,STR,1,1,MEDIUM,2,False,
+Miami Grand Prix,STR,2,12,HARD,2,True,1.0
+Saudi Arabian Grand Prix,ALO,1,1,MEDIUM,2,True,1.0
+Saudi Arabian Grand Prix,ALO,2,8,HARD,2,True,1.0
+Saudi Arabian Grand Prix,HAM,2,37,SOFT,4,True,1.0
+Saudi Arabian Grand Prix,NOR,2,38,SOFT,7,True,1.0
+Saudi Arabian Grand Prix,PIA,2,8,HARD,2,True,1.0
+Saudi Arabian Grand Prix,STR,1,1,MEDIUM,2,True,1.0
+Singapore Grand Prix,ALO,1,1,MEDIUM,2,True,1.0
+Singapore Grand Prix,ALO,2,26,HARD,2,True,1.0
+Singapore Grand Prix,HAM,1,1,SOFT,3,True,0.0
+Singapore Grand Prix,RIC,4,59,SOFT,4,True,1.0
+Singapore Grand Prix,STR,1,1,HARD,2,True,1.0
+Singapore Grand Prix,STR,2,27,MEDIUM,2,True,1.0
+Singapore Grand Prix,TSU,2,34,SOFT,4,True,1.0
+United States Grand Prix,ALO,2,27,HARD,2,True,1.0
+United States Grand Prix,OCO,3,52,SOFT,4,True,1.0
+United States Grand Prix,STR,1,1,HARD,2,True,1.0

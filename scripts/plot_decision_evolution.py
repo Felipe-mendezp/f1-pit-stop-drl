@@ -297,9 +297,10 @@ def main():
         if init is not None:
             axs.scatter(0, 0, color=ACTION_COLORS.get(init['action'], 'k'),
                         s=70, marker='s', edgecolor='black', linewidth=1.2, zorder=5)
-            axs.annotate(("Starting compound: " if paper else "start: ") + init['label'],
-                         xy=(0, 0), xytext=(0, 0.6), ha='left', va='bottom',
-                         fontsize=8.5)
+            if not paper:  # 2026-10-21: no starting-compound label in the manuscript
+                axs.annotate("start: " + init['label'],
+                             xy=(0, 0), xytext=(0, 0.6), ha='left', va='bottom',
+                             fontsize=8.5)
         for n in laps:
             is_pit = rec_by_lap.get(n, 0) != 0
             # Positive marking: black edge where the DRL choice IS the strict
@@ -327,7 +328,7 @@ def main():
         # The laps where the agent really stops (what the strip encodes with one
         # small square, easy to miss among 60), annotated with the compound it
         # takes so the "pit window opens -> agent pits" reading is immediate.
-        for n in pit_laps:
+        for n in ([] if paper else pit_laps):  # 2026-10-21: no pit-lap line in the manuscript
             for a_ in (ax, axs):
                 a_.axvline(n, color=PIT_LAP_COLOR, linestyle='--', linewidth=1.3,
                            alpha=0.9, zorder=1)
@@ -366,7 +367,10 @@ def main():
 
         ax.set_ylabel(ylabel, fontsize=11)
         ax.set_xlabel('Current lap', fontsize=11)
-        ax.grid(True, alpha=0.3)
+        if paper:  # 2026-10-21: no grid in the manuscript (it showed through the bands)
+            ax.grid(False)  # grid(False, alpha=...) would switch it back on
+        else:
+            ax.grid(True, alpha=0.3)
         ax.set_xlim(-1.5, (n_laps or laps.max()) + 0.5)
         if invert:
             ax.invert_yaxis()
@@ -382,7 +386,7 @@ def main():
         if sddata is not None and not paper:
             extra.append(Patch(facecolor='0.4', alpha=0.10,
                                label='±1 SD (spread of outcomes)'))
-        if pit_laps:
+        if pit_laps and not paper:
             extra.append(Line2D([], [], color=PIT_LAP_COLOR, linestyle='--',
                                 linewidth=1.3, label='Agent pits here'))
         if misaligned:
@@ -395,6 +399,9 @@ def main():
                   frameon=True)
 
         fig.tight_layout()
+        # 2026-10-21: manuscript fonts (opt-in F1_PAPER_FONTS=1, see paper_fonts_20261021.py)
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import paper_fonts_20261021; paper_fonts_20261021.apply(fig)
 
         for d, fmt in [(args.pdf_dir, 'pdf'), (args.png_dir, 'png')]:
             if not d:

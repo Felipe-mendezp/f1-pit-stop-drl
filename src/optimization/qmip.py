@@ -1,3 +1,4 @@
+import os
 import sys
 import gurobipy as gp
 from gurobipy import GRB
@@ -87,6 +88,19 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     for i in range(0, 3 * (p - 1), 3):
         model.addConstr(y[i] + y[i + 1] + y[i + 2] >= y[i + 3] + y[i + 4] + y[i + 5])
 
+    # 2026-10-21, opt-in with F1_QMIP_SYMMETRY=full: complete symmetry breaking among the future stints
+    # (all start on new tyres and cost the same, so their order does not change the objective). Stints are
+    # sorted Soft -> Medium -> Hard (cumulative sums of y non-increasing; the Hard case is the constraint
+    # above) and, within a compound, by non-increasing length. Without the variable: only the Soft
+    # ordering below (published behaviour); Medium/Hard ties are left to the solver.
+    full_symmetry = os.environ.get('F1_QMIP_SYMMETRY') == 'full'
+    if full_symmetry:
+        for i in range(0, 3 * (p - 1), 3):
+            model.addConstr(y[i] >= y[i + 3])
+            model.addConstr(y[i] + y[i + 1] >= y[i + 3] + y[i + 4])
+            for c in range(3):
+                model.addConstr(x[i + c + 1] >= x[i + c + 4] - n * (1 - y[i + c]))
+
     # Constraint to enforce pitting under a yellow flag if one is active
     model.addConstr(z <= gamma  - x[0] * gamma / n)
     model.addConstr(gamma  - x[0] * gamma <= z)
@@ -94,9 +108,10 @@ def solve_MIP_GUROBI(betas_dict, time_stop, n, t_current, w_current, t_previous,
     # Constraints used by the strategy-plot post-processing
     model.addConstr(x[0] >= int(n == N))
     
-    for i in range(1, 3 * (p - 1) + 1, 3):
-        model.addConstr(x[i] >= x[i + 3])
-        
+    if not full_symmetry:  # with full_symmetry the Soft ordering is part of the block above
+        for i in range(1, 3 * (p - 1) + 1, 3):
+            model.addConstr(x[i] >= x[i + 3])
+
     model.addConstr(n * gamma + x[0] + w_current >= x[1]*int(t_current== "Soft") + x[2]*int(t_current== "Medium") + x[3]* int(t_current== "Hard"))
 
     # Optimize the MIQP problem using Gurobi solver

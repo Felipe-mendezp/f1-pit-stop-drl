@@ -277,6 +277,9 @@ def main():
     fig.legend(handles=[qmip_line, hard_patch, medium_patch, soft_patch],
                loc='lower center', ncol=4, bbox_to_anchor=(0.5, -0.06), frameon=True)
 
+    # 2026-10-21: manuscript fonts (opt-in F1_PAPER_FONTS=1, see paper_fonts_20261021.py)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import paper_fonts_20261021; paper_fonts_20261021.apply(fig)
     os.makedirs(os.path.dirname(args.output) or '.', exist_ok=True)
     fig.savefig(args.output, dpi=150, bbox_inches='tight')
     fig.savefig(args.output.replace('.png', '.pdf'), bbox_inches='tight')

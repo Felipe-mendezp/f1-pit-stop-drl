@@ -89,6 +89,8 @@ def main():
                              'recommended arm, "-" instead of the star, shorter '
                              'text boxes, every 1..20 x tick and a tighter y '
                              'axis (auto-raised so no box covers a bar).')
+    parser.add_argument('--ymax', type=float, default=None,
+                        help='Fixed upper limit of the y axis (2026-10-21); still raised if a stats box would cover a bar.')
     args = parser.parse_args()
     paper = args.paper_style
 
@@ -112,12 +114,16 @@ def main():
         counts, _ = np.histogram(v, bins=bins)
         ymax = max(ymax, counts.max())
     ymax = ymax / M * (1.12 if paper else 1.30)  # fractions + headroom for annotations
+    if args.ymax is not None:
+        ymax = max(args.ymax, ymax / (1.12 if paper else 1.30))  # never below the tallest bar
 
     # Crop the x axis to the observed support: with the retrained agents every
     # arm finishes inside the points, so a fixed 1..20 axis squeezed all the mass
     # into the leftmost fifth of the panel and hid the differences.
     pos_max = max(int(v.max()) for v in pos_by.values())
     xhi = min(20.5, max(pos_max + 1, 8) + 0.5)
+    if paper:
+        xhi = 20.5  # 2026-10-21: every final position 1..20 on the axis
     xticks = (list(range(1, int(xhi) + 1)) if paper
               else [t for t in (1, 3, 5, 8, 10, 12, 15, 20) if t <= xhi])
 
@@ -143,7 +149,8 @@ def main():
     best_sig = (best_action != rec_action
                 and delta[best_action][0] - delta[best_action][1] > 0)
 
-    fig, axes = plt.subplots(2, 2, figsize=(10, 7.4), sharex=True, sharey=True)
+    # 2026-10-21: shorter in the manuscript variant (author request)
+    fig, axes = plt.subplots(2, 2, figsize=(10, 6.2 if paper else 7.4), sharex=True, sharey=True)
     axes = axes.ravel()
 
     # --- Decision context + global verdict ---------------------------------
@@ -274,6 +281,9 @@ def main():
             ymax *= 1.05
             axes[0].set_ylim(0, ymax)  # sharey propagates to the other panels
 
+    # 2026-10-21: manuscript fonts (opt-in F1_PAPER_FONTS=1, see paper_fonts_20261021.py)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import paper_fonts_20261021; paper_fonts_20261021.apply(fig)
     saved = []
     for path, fmt in [(args.out_pdf, 'pdf'), (args.out_png, 'png')]:
         if not path:

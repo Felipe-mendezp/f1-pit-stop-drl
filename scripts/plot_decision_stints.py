@@ -273,7 +273,7 @@ def main():
         y = len(rows) - 1 - i
         yticks.append(y)
         name = labels[a] if a != 0 else 'Stay out'
-        star = '  ★' if a == cap['rec_action'] else ''
+        star = '  ★' if a == cap['rec_action'] and not paper else ''
         ylabels.append(name + star)
         for s, e, c in stints:
             # lap L occupies [L-0.5, L+0.5] so the bars line up with the ticks
@@ -327,8 +327,8 @@ def main():
                     fontsize=8, color='0.35', annotation_clip=False)
 
     if paper:
-        # Only the bars and the x axis remain (2026-09-24: left spine and y tick
-        # marks removed as well; the row labels stay).
+        # Only the bars and the x axis remain (2026-09-24; the left spine was
+        # restored and removed again on 2026-10-21 at the author's request).
         for sp in ('top', 'right', 'left'):
             ax.spines[sp].set_visible(False)
         ax.tick_params(axis='y', length=0)
@@ -350,6 +350,9 @@ def main():
               loc='upper center', bbox_to_anchor=(0.5, -0.28), frameon=True)
     fig.tight_layout()
 
+    # 2026-10-21: manuscript fonts (opt-in F1_PAPER_FONTS=1, see paper_fonts_20261021.py)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import paper_fonts_20261021; paper_fonts_20261021.apply(fig)
     saved = []
     for path, fmt in [(args.out_pdf, 'pdf'), (args.out_png, 'png')]:
         if not path:

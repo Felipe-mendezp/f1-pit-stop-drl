@@ -1,0 +1,2431 @@
+Driver,LapNumber,Stint,Compound,TyreLife,FreshTyre,Session,GP
+VER,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+VER,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+VER,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+VER,4.0,2.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+VER,5.0,2.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+VER,6.0,2.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+VER,7.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+VER,8.0,3.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+VER,9.0,3.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+VER,10.0,4.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+VER,11.0,4.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+VER,12.0,5.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+VER,13.0,5.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+VER,14.0,5.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+VER,15.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+VER,16.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+VER,17.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+LEC,1.0,1.0,MEDIUM,1.0,True,Qualifying,Bahrain Grand Prix
+LEC,2.0,1.0,MEDIUM,2.0,True,Qualifying,Bahrain Grand Prix
+LEC,3.0,1.0,MEDIUM,3.0,True,Qualifying,Bahrain Grand Prix
+LEC,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+LEC,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+LEC,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+LEC,7.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+LEC,8.0,4.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+LEC,9.0,4.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+LEC,10.0,4.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+LEC,11.0,5.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+LEC,12.0,5.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+LEC,13.0,5.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+LEC,14.0,6.0,SOFT,2.0,False,Qualifying,Bahrain Grand Prix
+LEC,15.0,6.0,SOFT,3.0,False,Qualifying,Bahrain Grand Prix
+LEC,16.0,6.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+LEC,17.0,7.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+LEC,18.0,7.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+LEC,19.0,7.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RUS,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RUS,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RUS,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RUS,4.0,2.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+RUS,5.0,2.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+RUS,6.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+RUS,7.0,3.0,SOFT,7.0,False,Qualifying,Bahrain Grand Prix
+RUS,8.0,3.0,SOFT,8.0,False,Qualifying,Bahrain Grand Prix
+RUS,9.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RUS,10.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RUS,11.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RUS,12.0,5.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RUS,13.0,5.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RUS,14.0,5.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RUS,15.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RUS,16.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RUS,17.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAI,1.0,1.0,MEDIUM,1.0,True,Qualifying,Bahrain Grand Prix
+SAI,2.0,1.0,MEDIUM,2.0,True,Qualifying,Bahrain Grand Prix
+SAI,3.0,1.0,MEDIUM,3.0,True,Qualifying,Bahrain Grand Prix
+SAI,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAI,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAI,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAI,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+SAI,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+SAI,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+SAI,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAI,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAI,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAI,13.0,5.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAI,14.0,5.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAI,15.0,5.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAI,16.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAI,17.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAI,18.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PER,4.0,2.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+PER,5.0,2.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+PER,6.0,2.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+PER,7.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PER,8.0,3.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PER,9.0,3.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PER,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PER,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PER,12.0,5.0,SOFT,3.0,False,Qualifying,Bahrain Grand Prix
+PER,13.0,5.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+PER,14.0,5.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+PER,15.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PER,16.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PER,17.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALO,4.0,2.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+ALO,5.0,2.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+ALO,6.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALO,7.0,3.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALO,8.0,3.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALO,9.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALO,10.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALO,11.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALO,12.0,5.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALO,13.0,5.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALO,14.0,5.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+NOR,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+NOR,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+NOR,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+NOR,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+NOR,5.0,3.0,SOFT,2.0,False,Qualifying,Bahrain Grand Prix
+NOR,6.0,3.0,SOFT,3.0,False,Qualifying,Bahrain Grand Prix
+NOR,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+NOR,8.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+NOR,9.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+NOR,10.0,5.0,SOFT,3.0,False,Qualifying,Bahrain Grand Prix
+NOR,11.0,5.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+NOR,12.0,5.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+NOR,13.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+NOR,14.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+NOR,15.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PIA,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PIA,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PIA,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PIA,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PIA,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PIA,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PIA,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+PIA,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+PIA,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+PIA,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PIA,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PIA,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+PIA,13.0,5.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+PIA,14.0,5.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+PIA,15.0,5.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+PIA,16.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+PIA,17.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+PIA,18.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HAM,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HAM,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HAM,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HAM,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HAM,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HAM,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HAM,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+HAM,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+HAM,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+HAM,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HAM,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HAM,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HAM,13.0,5.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+HAM,14.0,5.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+HAM,15.0,5.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+HAM,16.0,6.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HAM,17.0,6.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HAM,18.0,6.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HUL,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HUL,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HUL,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HUL,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+HUL,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+HUL,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+HUL,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+HUL,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+HUL,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+HUL,13.0,5.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+HUL,14.0,5.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+HUL,15.0,5.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+HUL,16.0,6.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+HUL,17.0,6.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+HUL,18.0,6.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+TSU,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+TSU,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+TSU,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+TSU,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+TSU,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+TSU,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+TSU,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+TSU,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+TSU,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+STR,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+STR,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+STR,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+STR,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+STR,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+STR,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+STR,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+STR,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+STR,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALB,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALB,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALB,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ALB,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+ALB,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+ALB,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+ALB,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ALB,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ALB,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RIC,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RIC,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RIC,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+RIC,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+RIC,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+RIC,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+RIC,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+RIC,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+RIC,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+MAG,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+MAG,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+MAG,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+MAG,7.0,3.0,SOFT,4.0,False,Qualifying,Bahrain Grand Prix
+MAG,8.0,3.0,SOFT,5.0,False,Qualifying,Bahrain Grand Prix
+MAG,9.0,3.0,SOFT,6.0,False,Qualifying,Bahrain Grand Prix
+MAG,10.0,4.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+MAG,11.0,4.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+MAG,12.0,4.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+BOT,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+BOT,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+BOT,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+ZHO,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+ZHO,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+ZHO,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAR,1.0,1.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAR,2.0,1.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAR,3.0,1.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+SAR,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+SAR,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+SAR,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+OCO,1.0,1.0,MEDIUM,1.0,True,Qualifying,Bahrain Grand Prix
+OCO,2.0,1.0,MEDIUM,2.0,True,Qualifying,Bahrain Grand Prix
+OCO,3.0,1.0,MEDIUM,3.0,True,Qualifying,Bahrain Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+OCO,7.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+OCO,8.0,3.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+OCO,9.0,3.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+GAS,1.0,1.0,MEDIUM,1.0,True,Qualifying,Bahrain Grand Prix
+GAS,2.0,1.0,MEDIUM,2.0,True,Qualifying,Bahrain Grand Prix
+GAS,3.0,1.0,MEDIUM,3.0,True,Qualifying,Bahrain Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+GAS,7.0,3.0,SOFT,1.0,True,Qualifying,Bahrain Grand Prix
+GAS,8.0,3.0,SOFT,2.0,True,Qualifying,Bahrain Grand Prix
+GAS,9.0,3.0,SOFT,3.0,True,Qualifying,Bahrain Grand Prix
+VER,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,4.0,2.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,5.0,2.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,6.0,2.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,7.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,8.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,9.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,10.0,4.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,11.0,4.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,12.0,4.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+VER,13.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,14.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,15.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,16.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,17.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,18.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,7.0,1.0,SOFT,7.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,8.0,1.0,SOFT,8.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,9.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,10.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,11.0,3.0,SOFT,3.0,False,Qualifying,Saudi Arabian Grand Prix
+LEC,12.0,3.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+LEC,13.0,3.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+LEC,14.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,15.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,16.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,17.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,18.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,19.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,20.0,5.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,21.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,22.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+LEC,23.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,4.0,2.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,5.0,2.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,6.0,2.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,7.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,8.0,4.0,SOFT,2.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,9.0,4.0,SOFT,3.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,10.0,4.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,11.0,5.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,12.0,5.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,13.0,5.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+PER,14.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,15.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,16.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,17.0,7.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,18.0,7.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PER,19.0,7.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,7.0,2.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+ALO,8.0,2.0,SOFT,8.0,False,Qualifying,Saudi Arabian Grand Prix
+ALO,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,12.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,13.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,14.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,15.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,16.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALO,17.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,6.0,2.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+PIA,7.0,2.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+PIA,8.0,2.0,SOFT,8.0,False,Qualifying,Saudi Arabian Grand Prix
+PIA,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,12.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,13.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,14.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,15.0,4.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,16.0,4.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,17.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,18.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,19.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,20.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,21.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+PIA,22.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,6.0,2.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,7.0,2.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,8.0,2.0,SOFT,8.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,12.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,13.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,14.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,15.0,4.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,16.0,4.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,17.0,5.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,18.0,5.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,19.0,5.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+NOR,20.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,21.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+NOR,22.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,1.0,1.0,MEDIUM,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,2.0,1.0,MEDIUM,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,3.0,1.0,MEDIUM,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,4.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,5.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,6.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,7.0,2.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,8.0,2.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,12.0,4.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,13.0,4.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,14.0,4.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,15.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,16.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,17.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,18.0,6.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,19.0,6.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,20.0,6.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+RUS,21.0,7.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RUS,22.0,7.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,1.0,1.0,MEDIUM,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,2.0,1.0,MEDIUM,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,3.0,1.0,MEDIUM,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,4.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,5.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,6.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,7.0,2.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,8.0,2.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,9.0,2.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,10.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,11.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,12.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,13.0,4.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,14.0,4.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,15.0,4.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,16.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,17.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,18.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,19.0,6.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,20.0,6.0,SOFT,8.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,21.0,6.0,SOFT,9.0,False,Qualifying,Saudi Arabian Grand Prix
+HAM,22.0,7.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,23.0,7.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HAM,24.0,7.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,4.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,5.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,6.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,7.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,8.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,9.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,10.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,11.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,12.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,13.0,5.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+TSU,14.0,5.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+TSU,15.0,5.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+TSU,16.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,17.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+TSU,18.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,6.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,7.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,8.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,12.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,13.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,14.0,5.0,SOFT,3.0,False,Qualifying,Saudi Arabian Grand Prix
+STR,15.0,5.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+STR,16.0,5.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+STR,17.0,6.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,18.0,6.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+STR,19.0,6.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,7.0,1.0,SOFT,7.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,8.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,9.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,10.0,3.0,SOFT,3.0,False,Qualifying,Saudi Arabian Grand Prix
+BEA,11.0,3.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+BEA,12.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,13.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,14.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,15.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,16.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,17.0,5.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+BEA,18.0,5.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,6.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,7.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,8.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,9.0,3.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+ALB,10.0,3.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+ALB,11.0,4.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+ALB,12.0,4.0,SOFT,7.0,False,Qualifying,Saudi Arabian Grand Prix
+ALB,13.0,4.0,SOFT,8.0,False,Qualifying,Saudi Arabian Grand Prix
+ALB,14.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,15.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+ALB,16.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,6.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,7.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,8.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,11.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,12.0,4.0,SOFT,4.0,False,Qualifying,Saudi Arabian Grand Prix
+MAG,13.0,4.0,SOFT,5.0,False,Qualifying,Saudi Arabian Grand Prix
+MAG,14.0,4.0,SOFT,6.0,False,Qualifying,Saudi Arabian Grand Prix
+MAG,15.0,5.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,16.0,5.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+MAG,17.0,5.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,4.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,5.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,6.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,7.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,8.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,9.0,3.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,10.0,4.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,11.0,4.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+RIC,12.0,4.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,6.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,7.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,8.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,9.0,3.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+HUL,10.0,3.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,6.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,7.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,8.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+BOT,9.0,2.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,7.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,8.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,9.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+OCO,10.0,2.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,7.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,8.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+GAS,9.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,3.0,1.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,4.0,1.0,SOFT,4.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,5.0,1.0,SOFT,5.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,6.0,1.0,SOFT,6.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,7.0,2.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,8.0,2.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+SAR,9.0,2.0,SOFT,3.0,True,Qualifying,Saudi Arabian Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Saudi Arabian Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Saudi Arabian Grand Prix
+VER,1.0,1.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+VER,2.0,1.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+VER,3.0,1.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+VER,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+VER,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+VER,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+VER,7.0,3.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+VER,8.0,3.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+VER,9.0,3.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+VER,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+VER,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+VER,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+VER,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+VER,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+VER,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+VER,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+VER,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+VER,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+LEC,1.0,1.0,SOFT,3.0,False,Qualifying,Miami Grand Prix
+LEC,2.0,1.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+LEC,3.0,1.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+LEC,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+LEC,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+LEC,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+LEC,7.0,3.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+LEC,8.0,3.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+LEC,9.0,3.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+LEC,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+LEC,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+LEC,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+LEC,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+LEC,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+LEC,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+LEC,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+LEC,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+LEC,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+LEC,19.0,7.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+LEC,20.0,7.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+LEC,21.0,7.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAI,1.0,1.0,SOFT,9.0,False,Qualifying,Miami Grand Prix
+SAI,2.0,1.0,SOFT,10.0,False,Qualifying,Miami Grand Prix
+SAI,3.0,1.0,SOFT,11.0,False,Qualifying,Miami Grand Prix
+SAI,4.0,2.0,SOFT,3.0,False,Qualifying,Miami Grand Prix
+SAI,5.0,2.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+SAI,6.0,2.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+SAI,7.0,3.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+SAI,8.0,3.0,SOFT,7.0,False,Qualifying,Miami Grand Prix
+SAI,9.0,3.0,SOFT,8.0,False,Qualifying,Miami Grand Prix
+SAI,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAI,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAI,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAI,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAI,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAI,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAI,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAI,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAI,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAI,19.0,7.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAI,20.0,7.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAI,21.0,7.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PER,1.0,1.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+PER,2.0,1.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+PER,3.0,1.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+PER,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PER,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PER,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PER,7.0,3.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+PER,8.0,3.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+PER,9.0,3.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+PER,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PER,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PER,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PER,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PER,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PER,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PER,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PER,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PER,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+NOR,1.0,1.0,SOFT,3.0,False,Qualifying,Miami Grand Prix
+NOR,2.0,1.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+NOR,3.0,1.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+NOR,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+NOR,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+NOR,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+NOR,7.0,2.0,SOFT,4.0,True,Qualifying,Miami Grand Prix
+NOR,8.0,2.0,SOFT,5.0,True,Qualifying,Miami Grand Prix
+NOR,9.0,2.0,SOFT,6.0,True,Qualifying,Miami Grand Prix
+NOR,10.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+NOR,11.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+NOR,12.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+NOR,13.0,4.0,MEDIUM,4.0,False,Qualifying,Miami Grand Prix
+NOR,14.0,4.0,MEDIUM,5.0,False,Qualifying,Miami Grand Prix
+NOR,15.0,4.0,MEDIUM,6.0,False,Qualifying,Miami Grand Prix
+NOR,16.0,5.0,MEDIUM,1.0,True,Qualifying,Miami Grand Prix
+NOR,17.0,5.0,MEDIUM,2.0,True,Qualifying,Miami Grand Prix
+NOR,18.0,5.0,MEDIUM,3.0,True,Qualifying,Miami Grand Prix
+NOR,19.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+NOR,20.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+NOR,21.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PIA,1.0,1.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+PIA,2.0,1.0,SOFT,7.0,False,Qualifying,Miami Grand Prix
+PIA,3.0,1.0,SOFT,8.0,False,Qualifying,Miami Grand Prix
+PIA,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PIA,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PIA,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PIA,7.0,3.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+PIA,8.0,3.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+PIA,9.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PIA,10.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PIA,11.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PIA,12.0,5.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+PIA,13.0,5.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+PIA,14.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PIA,15.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PIA,16.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+PIA,17.0,7.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+PIA,18.0,7.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+PIA,19.0,7.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,1.0,1.0,SOFT,9.0,False,Qualifying,Miami Grand Prix
+RUS,2.0,1.0,SOFT,10.0,False,Qualifying,Miami Grand Prix
+RUS,3.0,1.0,SOFT,11.0,False,Qualifying,Miami Grand Prix
+RUS,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RUS,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RUS,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RUS,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RUS,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RUS,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RUS,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RUS,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RUS,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RUS,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RUS,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RUS,19.0,7.0,MEDIUM,1.0,True,Qualifying,Miami Grand Prix
+RUS,20.0,7.0,MEDIUM,2.0,True,Qualifying,Miami Grand Prix
+RUS,21.0,7.0,MEDIUM,3.0,True,Qualifying,Miami Grand Prix
+HAM,1.0,1.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+HAM,2.0,1.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+HAM,3.0,1.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+HAM,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HAM,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HAM,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HAM,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HAM,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HAM,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HAM,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HAM,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HAM,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HAM,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HAM,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HAM,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HAM,16.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HAM,17.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HAM,18.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HAM,19.0,7.0,MEDIUM,1.0,True,Qualifying,Miami Grand Prix
+HAM,20.0,7.0,MEDIUM,2.0,True,Qualifying,Miami Grand Prix
+HAM,21.0,7.0,MEDIUM,3.0,True,Qualifying,Miami Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HUL,4.0,2.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+HUL,5.0,2.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+HUL,6.0,2.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+HUL,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HUL,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HUL,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HUL,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HUL,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HUL,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HUL,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HUL,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HUL,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+HUL,16.0,6.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+HUL,17.0,6.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+HUL,18.0,6.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+HUL,19.0,7.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+HUL,20.0,7.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+HUL,21.0,7.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+TSU,4.0,1.0,SOFT,4.0,True,Qualifying,Miami Grand Prix
+TSU,5.0,1.0,SOFT,5.0,True,Qualifying,Miami Grand Prix
+TSU,6.0,1.0,SOFT,6.0,True,Qualifying,Miami Grand Prix
+TSU,7.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+TSU,8.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+TSU,9.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+TSU,10.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+TSU,11.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+TSU,12.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+TSU,13.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+TSU,14.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+TSU,15.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+TSU,16.0,5.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+TSU,17.0,5.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+TSU,18.0,5.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+TSU,19.0,6.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+TSU,20.0,6.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+TSU,21.0,6.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+STR,4.0,1.0,SOFT,4.0,True,Qualifying,Miami Grand Prix
+STR,5.0,1.0,SOFT,5.0,True,Qualifying,Miami Grand Prix
+STR,6.0,1.0,SOFT,6.0,True,Qualifying,Miami Grand Prix
+STR,7.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+STR,8.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+STR,9.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+STR,10.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+STR,11.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+STR,12.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+STR,13.0,4.0,SOFT,1.0,False,Qualifying,Miami Grand Prix
+STR,14.0,4.0,SOFT,2.0,False,Qualifying,Miami Grand Prix
+STR,15.0,4.0,SOFT,3.0,False,Qualifying,Miami Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+GAS,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+GAS,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+GAS,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+GAS,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+GAS,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+GAS,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+GAS,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+GAS,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+GAS,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+OCO,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+OCO,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+OCO,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+OCO,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+OCO,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+OCO,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+OCO,13.0,5.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+OCO,14.0,5.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+OCO,15.0,5.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALB,4.0,1.0,SOFT,4.0,True,Qualifying,Miami Grand Prix
+ALB,5.0,1.0,SOFT,5.0,True,Qualifying,Miami Grand Prix
+ALB,6.0,1.0,SOFT,6.0,True,Qualifying,Miami Grand Prix
+ALB,7.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALB,8.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALB,9.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALB,10.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALB,11.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALB,12.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALB,13.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALB,14.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALB,15.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALO,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALO,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALO,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALO,7.0,3.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+ALO,8.0,3.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+ALO,9.0,3.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+ALO,10.0,4.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ALO,11.0,4.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ALO,12.0,4.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ALO,13.0,5.0,SOFT,1.0,False,Qualifying,Miami Grand Prix
+ALO,14.0,5.0,SOFT,2.0,False,Qualifying,Miami Grand Prix
+ALO,15.0,5.0,SOFT,3.0,False,Qualifying,Miami Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+BOT,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+BOT,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+BOT,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAR,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAR,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAR,3.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAR,4.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAR,5.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+SAR,6.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+SAR,7.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+SAR,8.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+RIC,4.0,2.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+RIC,5.0,2.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+RIC,6.0,2.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+RIC,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+RIC,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+RIC,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+MAG,4.0,2.0,SOFT,4.0,False,Qualifying,Miami Grand Prix
+MAG,5.0,2.0,SOFT,5.0,False,Qualifying,Miami Grand Prix
+MAG,6.0,2.0,SOFT,6.0,False,Qualifying,Miami Grand Prix
+MAG,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+MAG,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+MAG,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ZHO,4.0,2.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ZHO,5.0,2.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ZHO,6.0,2.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+ZHO,7.0,3.0,SOFT,1.0,True,Qualifying,Miami Grand Prix
+ZHO,8.0,3.0,SOFT,2.0,True,Qualifying,Miami Grand Prix
+ZHO,9.0,3.0,SOFT,3.0,True,Qualifying,Miami Grand Prix
+NOR,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+NOR,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+NOR,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+NOR,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+NOR,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+NOR,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+NOR,7.0,1.0,SOFT,7.0,True,Qualifying,Hungarian Grand Prix
+NOR,8.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+NOR,9.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+NOR,10.0,3.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+NOR,11.0,3.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+NOR,12.0,3.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+NOR,13.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+NOR,14.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+NOR,15.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+NOR,16.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+NOR,17.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+NOR,18.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+NOR,19.0,6.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+NOR,20.0,6.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+NOR,21.0,7.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+NOR,22.0,7.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+PIA,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+PIA,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+PIA,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+PIA,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+PIA,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+PIA,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+PIA,7.0,1.0,SOFT,7.0,True,Qualifying,Hungarian Grand Prix
+PIA,8.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+PIA,9.0,3.0,SOFT,2.0,False,Qualifying,Hungarian Grand Prix
+PIA,10.0,3.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+PIA,11.0,3.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+PIA,12.0,4.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+PIA,13.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+PIA,14.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+PIA,15.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+PIA,16.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+PIA,17.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+PIA,18.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+PIA,19.0,6.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+PIA,20.0,7.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+PIA,21.0,7.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+VER,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+VER,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+VER,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+VER,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+VER,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+VER,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+VER,7.0,2.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+VER,8.0,2.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+VER,9.0,2.0,SOFT,9.0,False,Qualifying,Hungarian Grand Prix
+VER,10.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+VER,11.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+VER,12.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+VER,13.0,4.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+VER,14.0,4.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+VER,15.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+VER,16.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+VER,17.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+VER,18.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+VER,19.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+VER,20.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+VER,21.0,6.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAI,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAI,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAI,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAI,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+SAI,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+SAI,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+SAI,7.0,2.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+SAI,8.0,2.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+SAI,9.0,2.0,SOFT,9.0,False,Qualifying,Hungarian Grand Prix
+SAI,10.0,2.0,SOFT,10.0,False,Qualifying,Hungarian Grand Prix
+SAI,11.0,3.0,SOFT,11.0,False,Qualifying,Hungarian Grand Prix
+SAI,12.0,3.0,SOFT,12.0,False,Qualifying,Hungarian Grand Prix
+SAI,13.0,3.0,SOFT,13.0,False,Qualifying,Hungarian Grand Prix
+SAI,14.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAI,15.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAI,16.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAI,17.0,5.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+SAI,18.0,5.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+SAI,19.0,5.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+SAI,20.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAI,21.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAI,22.0,6.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAI,23.0,7.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAI,24.0,7.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAI,25.0,7.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAI,26.0,8.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+HAM,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HAM,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HAM,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HAM,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+HAM,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+HAM,6.0,2.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+HAM,7.0,2.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+HAM,8.0,2.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+HAM,9.0,2.0,SOFT,9.0,False,Qualifying,Hungarian Grand Prix
+HAM,10.0,3.0,SOFT,10.0,False,Qualifying,Hungarian Grand Prix
+HAM,11.0,3.0,SOFT,11.0,False,Qualifying,Hungarian Grand Prix
+HAM,12.0,3.0,SOFT,12.0,False,Qualifying,Hungarian Grand Prix
+HAM,13.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HAM,14.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HAM,15.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HAM,16.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HAM,17.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HAM,18.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HAM,19.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HAM,20.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HAM,21.0,6.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HAM,22.0,7.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+HAM,23.0,7.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+HAM,24.0,7.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+LEC,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+LEC,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+LEC,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+LEC,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+LEC,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+LEC,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+LEC,7.0,1.0,SOFT,7.0,True,Qualifying,Hungarian Grand Prix
+LEC,8.0,2.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+LEC,9.0,2.0,SOFT,9.0,False,Qualifying,Hungarian Grand Prix
+LEC,10.0,2.0,SOFT,10.0,False,Qualifying,Hungarian Grand Prix
+LEC,11.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+LEC,12.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+LEC,13.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+LEC,14.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+LEC,15.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+LEC,16.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+LEC,17.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+LEC,18.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+LEC,19.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+LEC,20.0,6.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+LEC,21.0,7.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+LEC,22.0,7.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALO,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ALO,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+ALO,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+ALO,7.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALO,8.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALO,9.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALO,10.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALO,11.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALO,12.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALO,13.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALO,14.0,5.0,SOFT,2.0,False,Qualifying,Hungarian Grand Prix
+ALO,15.0,5.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+ALO,16.0,5.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+ALO,17.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALO,18.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+STR,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+STR,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+STR,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+STR,7.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,8.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+STR,9.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,10.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+STR,11.0,4.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+STR,12.0,4.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+STR,13.0,4.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+STR,14.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+STR,15.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,16.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+STR,17.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+STR,18.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+STR,19.0,6.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+STR,20.0,7.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+STR,21.0,8.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+STR,22.0,8.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+RIC,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+RIC,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+RIC,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+RIC,7.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RIC,8.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RIC,9.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+RIC,10.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RIC,11.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RIC,12.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+RIC,13.0,4.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+RIC,14.0,4.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+RIC,15.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+RIC,16.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RIC,17.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RIC,18.0,6.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+RIC,19.0,6.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+RIC,20.0,6.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+TSU,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+TSU,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+TSU,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+TSU,7.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+TSU,8.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+TSU,9.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+TSU,10.0,3.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+TSU,11.0,3.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+TSU,12.0,3.0,SOFT,9.0,False,Qualifying,Hungarian Grand Prix
+TSU,13.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+TSU,14.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+TSU,15.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+TSU,16.0,5.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+TSU,17.0,5.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+TSU,18.0,5.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+TSU,19.0,6.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+TSU,20.0,6.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HUL,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+HUL,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+HUL,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HUL,7.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HUL,8.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+HUL,9.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+HUL,10.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+HUL,11.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+HUL,12.0,4.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+HUL,13.0,4.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+HUL,14.0,5.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+HUL,15.0,5.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+HUL,16.0,5.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+BOT,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+BOT,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+BOT,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+BOT,7.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+BOT,8.0,3.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+BOT,9.0,3.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+BOT,10.0,3.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+BOT,11.0,3.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+BOT,12.0,3.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+BOT,13.0,3.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+BOT,14.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+BOT,15.0,4.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+BOT,16.0,4.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+BOT,17.0,5.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+BOT,18.0,5.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+BOT,19.0,5.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALB,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ALB,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+ALB,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALB,7.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALB,8.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ALB,9.0,2.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ALB,10.0,2.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+ALB,11.0,3.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+ALB,12.0,3.0,SOFT,7.0,False,Qualifying,Hungarian Grand Prix
+ALB,13.0,3.0,SOFT,8.0,False,Qualifying,Hungarian Grand Prix
+ALB,14.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ALB,15.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ALB,16.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAR,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAR,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAR,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAR,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+SAR,5.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAR,6.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAR,7.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+SAR,8.0,3.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+SAR,9.0,3.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+SAR,10.0,3.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+SAR,11.0,4.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+SAR,12.0,4.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+SAR,13.0,4.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+MAG,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+MAG,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+MAG,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+MAG,7.0,3.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+MAG,8.0,3.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+MAG,9.0,3.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+MAG,10.0,4.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+MAG,11.0,4.0,SOFT,5.0,False,Qualifying,Hungarian Grand Prix
+MAG,12.0,4.0,SOFT,6.0,False,Qualifying,Hungarian Grand Prix
+MAG,13.0,5.0,SOFT,2.0,False,Qualifying,Hungarian Grand Prix
+MAG,14.0,5.0,SOFT,3.0,False,Qualifying,Hungarian Grand Prix
+MAG,15.0,5.0,SOFT,4.0,False,Qualifying,Hungarian Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+PER,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+PER,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+PER,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+RUS,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RUS,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RUS,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+RUS,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+RUS,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+RUS,6.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+RUS,7.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+RUS,8.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+RUS,9.0,2.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ZHO,4.0,1.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ZHO,5.0,1.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+ZHO,6.0,1.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+ZHO,7.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+ZHO,8.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+ZHO,9.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+ZHO,10.0,2.0,SOFT,4.0,True,Qualifying,Hungarian Grand Prix
+ZHO,11.0,2.0,SOFT,5.0,True,Qualifying,Hungarian Grand Prix
+ZHO,12.0,2.0,SOFT,6.0,True,Qualifying,Hungarian Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,Hungarian Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,Hungarian Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,Hungarian Grand Prix
+VER,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+VER,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+VER,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+VER,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+VER,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+VER,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+VER,7.0,1.0,INTERMEDIATE,7.0,True,Qualifying,Belgian Grand Prix
+VER,8.0,1.0,INTERMEDIATE,8.0,True,Qualifying,Belgian Grand Prix
+VER,9.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+VER,10.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+VER,11.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+VER,12.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+VER,13.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+VER,14.0,2.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+VER,15.0,2.0,INTERMEDIATE,7.0,True,Qualifying,Belgian Grand Prix
+VER,16.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+VER,17.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+VER,18.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+VER,19.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+VER,20.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+VER,21.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+LEC,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+LEC,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+LEC,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+LEC,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+LEC,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+LEC,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+LEC,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+LEC,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+LEC,9.0,3.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+LEC,10.0,3.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+LEC,11.0,3.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+LEC,12.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+LEC,13.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+LEC,14.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+LEC,15.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+LEC,16.0,4.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+LEC,17.0,5.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+LEC,18.0,5.0,INTERMEDIATE,7.0,False,Qualifying,Belgian Grand Prix
+LEC,19.0,5.0,INTERMEDIATE,8.0,False,Qualifying,Belgian Grand Prix
+LEC,20.0,6.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+LEC,21.0,6.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+LEC,22.0,6.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PER,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PER,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PER,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PER,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+PER,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+PER,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+PER,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PER,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PER,9.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PER,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PER,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PER,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PER,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+PER,14.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PER,15.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PER,16.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PER,17.0,5.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+PER,18.0,5.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+PER,19.0,5.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+PER,20.0,6.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+PER,21.0,6.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+HAM,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HAM,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HAM,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+HAM,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+HAM,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+HAM,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+HAM,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HAM,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HAM,9.0,3.0,INTERMEDIATE,3.0,False,Qualifying,Belgian Grand Prix
+HAM,10.0,3.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+HAM,11.0,3.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+HAM,12.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HAM,13.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HAM,14.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+HAM,15.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+HAM,16.0,4.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+HAM,17.0,5.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HAM,18.0,5.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HAM,19.0,5.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+HAM,20.0,5.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+HAM,21.0,5.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+HAM,22.0,5.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+NOR,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+NOR,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+NOR,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+NOR,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+NOR,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+NOR,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+NOR,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+NOR,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+NOR,9.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+NOR,10.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+NOR,11.0,3.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+NOR,12.0,3.0,INTERMEDIATE,7.0,False,Qualifying,Belgian Grand Prix
+NOR,13.0,3.0,INTERMEDIATE,8.0,False,Qualifying,Belgian Grand Prix
+NOR,14.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+NOR,15.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+NOR,16.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+NOR,17.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+NOR,18.0,4.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+NOR,19.0,5.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+NOR,20.0,5.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+NOR,21.0,5.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+NOR,22.0,5.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+NOR,23.0,5.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+NOR,24.0,5.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+PIA,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PIA,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PIA,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PIA,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+PIA,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+PIA,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+PIA,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PIA,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PIA,9.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PIA,10.0,3.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+PIA,11.0,3.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+PIA,12.0,3.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+PIA,13.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PIA,14.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PIA,15.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PIA,16.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+PIA,17.0,5.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+PIA,18.0,5.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+PIA,19.0,5.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+PIA,20.0,5.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+PIA,21.0,5.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+PIA,22.0,5.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+PIA,23.0,5.0,INTERMEDIATE,7.0,True,Qualifying,Belgian Grand Prix
+RUS,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RUS,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RUS,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RUS,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+RUS,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+RUS,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RUS,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RUS,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RUS,9.0,3.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+RUS,10.0,3.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+RUS,11.0,3.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+RUS,12.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RUS,13.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RUS,14.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RUS,15.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+RUS,16.0,4.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+RUS,17.0,5.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RUS,18.0,5.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RUS,19.0,5.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RUS,20.0,5.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+RUS,21.0,5.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+RUS,22.0,5.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+SAI,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAI,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAI,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAI,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+SAI,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+SAI,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+SAI,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAI,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAI,9.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAI,10.0,3.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+SAI,11.0,3.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+SAI,12.0,3.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+SAI,13.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAI,14.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAI,15.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAI,16.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+SAI,17.0,4.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+SAI,18.0,5.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+SAI,19.0,5.0,INTERMEDIATE,7.0,False,Qualifying,Belgian Grand Prix
+SAI,20.0,5.0,INTERMEDIATE,8.0,False,Qualifying,Belgian Grand Prix
+SAI,21.0,6.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAI,22.0,6.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAI,23.0,6.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALO,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALO,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALO,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALO,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALO,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALO,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALO,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALO,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALO,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+ALO,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALO,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALO,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALO,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALO,14.0,3.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+ALO,15.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALO,16.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALO,17.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALO,18.0,5.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+ALO,19.0,5.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+ALO,20.0,5.0,INTERMEDIATE,7.0,False,Qualifying,Belgian Grand Prix
+ALO,21.0,6.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+ALO,22.0,6.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+ALO,23.0,6.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+OCO,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+OCO,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+OCO,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+OCO,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+OCO,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+OCO,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+OCO,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+OCO,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+OCO,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+OCO,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+OCO,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+OCO,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+OCO,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+OCO,14.0,3.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+OCO,15.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+OCO,16.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+OCO,17.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+OCO,18.0,5.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+OCO,19.0,5.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+OCO,20.0,5.0,INTERMEDIATE,7.0,False,Qualifying,Belgian Grand Prix
+OCO,21.0,6.0,INTERMEDIATE,4.0,False,Qualifying,Belgian Grand Prix
+OCO,22.0,6.0,INTERMEDIATE,5.0,False,Qualifying,Belgian Grand Prix
+OCO,23.0,6.0,INTERMEDIATE,6.0,False,Qualifying,Belgian Grand Prix
+ALB,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALB,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALB,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALB,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALB,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALB,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALB,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALB,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALB,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+ALB,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALB,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALB,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ALB,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ALB,14.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ALB,15.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ALB,16.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+GAS,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+GAS,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+GAS,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+GAS,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+GAS,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+GAS,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+GAS,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+GAS,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+GAS,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+GAS,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+GAS,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+GAS,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+GAS,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+GAS,14.0,3.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+GAS,15.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+GAS,16.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+GAS,17.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RIC,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RIC,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RIC,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RIC,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+RIC,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+RIC,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RIC,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RIC,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RIC,9.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RIC,10.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RIC,11.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+RIC,12.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+RIC,13.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+RIC,14.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+BOT,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+BOT,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+BOT,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+BOT,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+BOT,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+BOT,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+BOT,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+BOT,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+BOT,9.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+BOT,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+BOT,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+BOT,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+BOT,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+BOT,14.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+BOT,15.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+BOT,16.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+BOT,17.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+STR,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+STR,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+STR,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+STR,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+STR,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+STR,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+STR,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+STR,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+STR,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+STR,10.0,3.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+STR,11.0,3.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+STR,12.0,3.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+STR,13.0,3.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+STR,14.0,4.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+STR,15.0,4.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+STR,16.0,4.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+STR,17.0,4.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+HUL,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HUL,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HUL,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+HUL,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+HUL,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+HUL,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+HUL,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+HUL,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+HUL,9.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+MAG,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+MAG,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+MAG,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+MAG,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+MAG,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+MAG,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+MAG,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+MAG,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+MAG,9.0,2.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+TSU,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+TSU,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+TSU,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+TSU,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+TSU,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+TSU,6.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+TSU,7.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+TSU,8.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAR,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAR,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAR,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAR,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+SAR,5.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+SAR,6.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+SAR,7.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+SAR,8.0,2.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ZHO,1.0,1.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ZHO,2.0,1.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ZHO,3.0,1.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+ZHO,4.0,1.0,INTERMEDIATE,4.0,True,Qualifying,Belgian Grand Prix
+ZHO,5.0,1.0,INTERMEDIATE,5.0,True,Qualifying,Belgian Grand Prix
+ZHO,6.0,1.0,INTERMEDIATE,6.0,True,Qualifying,Belgian Grand Prix
+ZHO,7.0,2.0,INTERMEDIATE,1.0,True,Qualifying,Belgian Grand Prix
+ZHO,8.0,2.0,INTERMEDIATE,2.0,True,Qualifying,Belgian Grand Prix
+ZHO,9.0,2.0,INTERMEDIATE,3.0,True,Qualifying,Belgian Grand Prix
+NOR,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+NOR,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+NOR,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+NOR,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+NOR,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+NOR,6.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+NOR,7.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+NOR,8.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+NOR,9.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+NOR,10.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+NOR,11.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+NOR,12.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+NOR,13.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+NOR,14.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+VER,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+VER,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+VER,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+VER,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+VER,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+VER,6.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+VER,7.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+VER,8.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+VER,9.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+VER,10.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+VER,11.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+VER,12.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+VER,13.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+VER,14.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PIA,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PIA,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PIA,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PIA,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+PIA,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+PIA,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+PIA,7.0,2.0,SOFT,7.0,False,Qualifying,Dutch Grand Prix
+PIA,8.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PIA,9.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PIA,10.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PIA,11.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PIA,12.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PIA,13.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PIA,14.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PIA,15.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PIA,16.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RUS,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RUS,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RUS,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RUS,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+RUS,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+RUS,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+RUS,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RUS,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RUS,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RUS,10.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RUS,11.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RUS,12.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RUS,13.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RUS,14.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RUS,15.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RUS,16.0,6.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RUS,17.0,6.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RUS,18.0,6.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PER,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+PER,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+PER,6.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PER,7.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PER,8.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PER,9.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PER,10.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PER,11.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PER,12.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PER,13.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PER,14.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+PER,15.0,6.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+PER,16.0,6.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+PER,17.0,6.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+LEC,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+LEC,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+LEC,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+LEC,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+LEC,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+LEC,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+LEC,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+LEC,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+LEC,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+LEC,10.0,4.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+LEC,11.0,4.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+LEC,12.0,4.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+LEC,13.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+LEC,14.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+LEC,15.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+LEC,16.0,6.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+LEC,17.0,6.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+LEC,18.0,6.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+LEC,19.0,7.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+LEC,20.0,7.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+LEC,21.0,7.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+LEC,22.0,8.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+LEC,23.0,8.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+LEC,24.0,8.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALO,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+ALO,5.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALO,6.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALO,7.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALO,8.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALO,9.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALO,10.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALO,11.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALO,12.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALO,13.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALO,14.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALO,15.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALO,16.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+STR,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+STR,5.0,1.0,SOFT,5.0,True,Qualifying,Dutch Grand Prix
+STR,6.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+STR,7.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+STR,8.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+STR,9.0,2.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+STR,10.0,2.0,SOFT,5.0,True,Qualifying,Dutch Grand Prix
+STR,11.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+STR,12.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+STR,13.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+STR,14.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+STR,15.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+STR,16.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+STR,17.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+STR,18.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+STR,19.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+GAS,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+GAS,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+GAS,9.0,4.0,SOFT,3.0,False,Qualifying,Dutch Grand Prix
+GAS,10.0,4.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+GAS,11.0,4.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+GAS,12.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+GAS,13.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+GAS,14.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+GAS,15.0,6.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+GAS,16.0,6.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+GAS,17.0,6.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+GAS,18.0,7.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+GAS,19.0,7.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+GAS,20.0,7.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+SAI,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+SAI,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+SAI,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+SAI,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+SAI,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+SAI,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+SAI,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+SAI,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+SAI,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+SAI,10.0,4.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+SAI,11.0,4.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+SAI,12.0,4.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+SAI,13.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+SAI,14.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+SAI,15.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+SAI,16.0,6.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+SAI,17.0,6.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+SAI,18.0,6.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALB,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+ALB,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+ALB,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+ALB,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALB,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALB,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALB,10.0,4.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+ALB,11.0,4.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+ALB,12.0,4.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+ALB,13.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALB,14.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALB,15.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ALB,16.0,6.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ALB,17.0,6.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ALB,18.0,6.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HAM,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HAM,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HAM,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HAM,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+HAM,5.0,3.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+HAM,6.0,3.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+HAM,7.0,3.0,SOFT,7.0,False,Qualifying,Dutch Grand Prix
+HAM,8.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HAM,9.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HAM,10.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HAM,11.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HAM,12.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HAM,13.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+TSU,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+TSU,5.0,1.0,SOFT,5.0,True,Qualifying,Dutch Grand Prix
+TSU,6.0,1.0,SOFT,6.0,True,Qualifying,Dutch Grand Prix
+TSU,7.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+TSU,8.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+TSU,9.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+TSU,10.0,3.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+TSU,11.0,3.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+TSU,12.0,3.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+TSU,13.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+TSU,14.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+TSU,15.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HUL,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+HUL,5.0,1.0,SOFT,5.0,True,Qualifying,Dutch Grand Prix
+HUL,6.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HUL,7.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HUL,8.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HUL,9.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HUL,10.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HUL,11.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+HUL,12.0,4.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+HUL,13.0,4.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+HUL,14.0,4.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+HUL,15.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+HUL,16.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+HUL,17.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+MAG,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+MAG,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+MAG,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+MAG,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+MAG,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+MAG,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+MAG,10.0,4.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+MAG,11.0,4.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+MAG,12.0,4.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+MAG,13.0,5.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+MAG,14.0,5.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+MAG,15.0,5.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+RIC,4.0,1.0,SOFT,4.0,True,Qualifying,Dutch Grand Prix
+RIC,5.0,1.0,SOFT,5.0,True,Qualifying,Dutch Grand Prix
+RIC,6.0,1.0,SOFT,6.0,True,Qualifying,Dutch Grand Prix
+RIC,7.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+RIC,8.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+RIC,9.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+OCO,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+OCO,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+OCO,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+BOT,4.0,2.0,SOFT,4.0,False,Qualifying,Dutch Grand Prix
+BOT,5.0,2.0,SOFT,5.0,False,Qualifying,Dutch Grand Prix
+BOT,6.0,2.0,SOFT,6.0,False,Qualifying,Dutch Grand Prix
+BOT,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+BOT,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+BOT,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ZHO,4.0,2.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ZHO,5.0,2.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ZHO,6.0,2.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+ZHO,7.0,3.0,SOFT,1.0,True,Qualifying,Dutch Grand Prix
+ZHO,8.0,3.0,SOFT,2.0,True,Qualifying,Dutch Grand Prix
+ZHO,9.0,3.0,SOFT,3.0,True,Qualifying,Dutch Grand Prix
+NOR,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+NOR,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+NOR,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+NOR,4.0,2.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+NOR,5.0,2.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+NOR,6.0,2.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+NOR,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+NOR,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+NOR,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+NOR,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+NOR,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+NOR,12.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+NOR,13.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+NOR,14.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+NOR,15.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+NOR,16.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+VER,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+VER,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+VER,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+VER,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+VER,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+VER,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+VER,7.0,3.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+VER,8.0,3.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+VER,9.0,3.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+VER,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+VER,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+VER,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+VER,13.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+VER,14.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+VER,15.0,5.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+VER,16.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+VER,17.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+VER,18.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HAM,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HAM,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HAM,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HAM,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HAM,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HAM,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HAM,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HAM,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HAM,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HAM,10.0,4.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+HAM,11.0,4.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+HAM,12.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HAM,13.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HAM,14.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HAM,15.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HAM,16.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RUS,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RUS,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RUS,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RUS,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RUS,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RUS,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RUS,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RUS,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RUS,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RUS,10.0,4.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+RUS,11.0,4.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+RUS,12.0,4.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+RUS,13.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RUS,14.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RUS,15.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RUS,16.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RUS,17.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PIA,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PIA,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PIA,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PIA,4.0,2.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+PIA,5.0,2.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+PIA,6.0,2.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+PIA,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PIA,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PIA,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PIA,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PIA,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PIA,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PIA,13.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PIA,14.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PIA,15.0,5.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PIA,16.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PIA,17.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PIA,18.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HUL,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HUL,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HUL,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HUL,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HUL,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HUL,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HUL,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HUL,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HUL,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+HUL,13.0,5.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+HUL,14.0,5.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+HUL,15.0,5.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+HUL,16.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+HUL,17.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+HUL,18.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALO,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALO,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALO,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALO,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALO,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALO,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALO,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALO,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALO,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALO,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALO,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALO,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALO,13.0,5.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+ALO,14.0,5.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+ALO,15.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALO,16.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALO,17.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+TSU,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+TSU,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+TSU,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+TSU,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+TSU,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+TSU,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+TSU,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+TSU,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+TSU,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+TSU,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+TSU,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+TSU,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+TSU,13.0,5.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+TSU,14.0,5.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+TSU,15.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+TSU,16.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+TSU,17.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+LEC,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+LEC,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+LEC,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+LEC,4.0,1.0,SOFT,4.0,True,Qualifying,Singapore Grand Prix
+LEC,5.0,1.0,SOFT,5.0,True,Qualifying,Singapore Grand Prix
+LEC,6.0,1.0,SOFT,6.0,True,Qualifying,Singapore Grand Prix
+LEC,7.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+LEC,8.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+LEC,9.0,3.0,SOFT,3.0,False,Qualifying,Singapore Grand Prix
+LEC,10.0,3.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+LEC,11.0,3.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+LEC,12.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+LEC,13.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+LEC,14.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+LEC,15.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+LEC,16.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+LEC,17.0,6.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+LEC,18.0,6.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+LEC,19.0,6.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+SAI,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+SAI,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+SAI,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+SAI,4.0,1.0,SOFT,4.0,True,Qualifying,Singapore Grand Prix
+SAI,5.0,1.0,SOFT,5.0,True,Qualifying,Singapore Grand Prix
+SAI,6.0,1.0,SOFT,6.0,True,Qualifying,Singapore Grand Prix
+SAI,7.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+SAI,8.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+SAI,9.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+SAI,10.0,3.0,SOFT,3.0,False,Qualifying,Singapore Grand Prix
+SAI,11.0,3.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+SAI,12.0,3.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+SAI,13.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+SAI,14.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+SAI,15.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+SAI,16.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALB,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALB,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALB,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALB,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALB,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALB,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALB,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALB,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALB,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ALB,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ALB,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ALB,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+COL,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+COL,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+COL,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+COL,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+COL,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+COL,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+COL,7.0,3.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+COL,8.0,3.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+COL,9.0,3.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+COL,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+COL,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+COL,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PER,4.0,1.0,SOFT,4.0,True,Qualifying,Singapore Grand Prix
+PER,5.0,1.0,SOFT,5.0,True,Qualifying,Singapore Grand Prix
+PER,6.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PER,7.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PER,8.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PER,9.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PER,10.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PER,11.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+PER,12.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+PER,13.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+PER,14.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+MAG,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+MAG,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+MAG,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+MAG,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+MAG,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+MAG,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+MAG,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+MAG,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+MAG,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+MAG,10.0,4.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+MAG,11.0,4.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+MAG,12.0,4.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+OCO,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+OCO,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+OCO,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+OCO,10.0,4.0,SOFT,4.0,False,Qualifying,Singapore Grand Prix
+OCO,11.0,4.0,SOFT,5.0,False,Qualifying,Singapore Grand Prix
+OCO,12.0,4.0,SOFT,6.0,False,Qualifying,Singapore Grand Prix
+OCO,13.0,5.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+OCO,14.0,5.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+OCO,15.0,5.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RIC,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RIC,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RIC,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+RIC,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+RIC,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+RIC,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+STR,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+STR,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+STR,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+STR,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+STR,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+STR,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+GAS,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+GAS,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+GAS,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+BOT,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+BOT,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+BOT,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+BOT,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+BOT,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+BOT,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ZHO,4.0,2.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ZHO,5.0,2.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ZHO,6.0,2.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+ZHO,7.0,3.0,SOFT,1.0,True,Qualifying,Singapore Grand Prix
+ZHO,8.0,3.0,SOFT,2.0,True,Qualifying,Singapore Grand Prix
+ZHO,9.0,3.0,SOFT,3.0,True,Qualifying,Singapore Grand Prix
+NOR,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+NOR,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+NOR,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+NOR,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+NOR,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+NOR,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+NOR,7.0,2.0,SOFT,4.0,True,Qualifying,United States Grand Prix
+NOR,8.0,2.0,SOFT,5.0,True,Qualifying,United States Grand Prix
+NOR,9.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+NOR,10.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+NOR,11.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+NOR,12.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+NOR,13.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+NOR,14.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+NOR,15.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+NOR,16.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+VER,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+VER,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+VER,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+VER,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+VER,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+VER,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+VER,7.0,3.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+VER,8.0,3.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+VER,9.0,3.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+VER,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+VER,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+VER,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+VER,13.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+VER,14.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+VER,15.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+VER,16.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+VER,17.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+SAI,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+SAI,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+SAI,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+SAI,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+SAI,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+SAI,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+SAI,7.0,2.0,SOFT,4.0,True,Qualifying,United States Grand Prix
+SAI,8.0,2.0,SOFT,5.0,True,Qualifying,United States Grand Prix
+SAI,9.0,3.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+SAI,10.0,3.0,SOFT,7.0,False,Qualifying,United States Grand Prix
+SAI,11.0,3.0,SOFT,8.0,False,Qualifying,United States Grand Prix
+SAI,12.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+SAI,13.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+SAI,14.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+SAI,15.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+SAI,16.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+SAI,17.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+SAI,18.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+SAI,19.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LEC,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+LEC,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+LEC,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+LEC,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LEC,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LEC,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LEC,7.0,2.0,SOFT,4.0,True,Qualifying,United States Grand Prix
+LEC,8.0,2.0,SOFT,5.0,True,Qualifying,United States Grand Prix
+LEC,9.0,2.0,SOFT,6.0,True,Qualifying,United States Grand Prix
+LEC,10.0,3.0,SOFT,7.0,False,Qualifying,United States Grand Prix
+LEC,11.0,3.0,SOFT,8.0,False,Qualifying,United States Grand Prix
+LEC,12.0,3.0,SOFT,9.0,False,Qualifying,United States Grand Prix
+LEC,13.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LEC,14.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LEC,15.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LEC,16.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LEC,17.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LEC,18.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LEC,19.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LEC,20.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PIA,1.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+PIA,2.0,1.0,SOFT,7.0,False,Qualifying,United States Grand Prix
+PIA,3.0,1.0,SOFT,8.0,False,Qualifying,United States Grand Prix
+PIA,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PIA,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PIA,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PIA,7.0,2.0,SOFT,4.0,True,Qualifying,United States Grand Prix
+PIA,8.0,2.0,SOFT,5.0,True,Qualifying,United States Grand Prix
+PIA,9.0,2.0,SOFT,6.0,True,Qualifying,United States Grand Prix
+PIA,10.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PIA,11.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PIA,12.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PIA,13.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PIA,14.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PIA,15.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PIA,16.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PIA,17.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PIA,18.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PIA,19.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+RUS,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+RUS,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+RUS,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+RUS,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+RUS,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+RUS,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+RUS,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+RUS,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+RUS,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+RUS,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+RUS,11.0,5.0,SOFT,2.0,False,Qualifying,United States Grand Prix
+RUS,12.0,5.0,SOFT,3.0,False,Qualifying,United States Grand Prix
+RUS,13.0,5.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+RUS,14.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+GAS,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+GAS,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+GAS,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+GAS,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+GAS,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+GAS,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+GAS,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+GAS,13.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+GAS,14.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+GAS,15.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+GAS,16.0,6.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+GAS,17.0,6.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+GAS,18.0,6.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+GAS,19.0,7.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+GAS,20.0,7.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+ALO,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+ALO,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+ALO,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+ALO,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALO,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALO,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ALO,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALO,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALO,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ALO,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALO,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALO,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ALO,13.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALO,14.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALO,15.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ALO,16.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALO,17.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALO,18.0,6.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+MAG,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+MAG,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+MAG,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+MAG,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+MAG,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+MAG,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+MAG,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+MAG,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+MAG,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+MAG,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+MAG,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+MAG,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+MAG,13.0,5.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+MAG,14.0,5.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+MAG,15.0,5.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+MAG,16.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+MAG,17.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PER,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PER,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PER,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PER,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PER,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PER,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PER,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PER,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PER,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PER,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PER,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+PER,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+PER,13.0,5.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+PER,14.0,5.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+PER,15.0,5.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+PER,16.0,6.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+PER,17.0,6.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+TSU,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+TSU,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+TSU,3.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+TSU,4.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+TSU,5.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+TSU,6.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+TSU,7.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+TSU,8.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+TSU,9.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+TSU,10.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+TSU,11.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+TSU,12.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+TSU,13.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+TSU,14.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+HUL,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+HUL,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+HUL,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+HUL,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+HUL,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+HUL,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+HUL,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+HUL,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+HUL,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+HUL,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+HUL,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+HUL,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+OCO,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+OCO,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+OCO,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+OCO,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+OCO,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+OCO,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+OCO,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+OCO,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+OCO,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+OCO,10.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+OCO,11.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+OCO,12.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+OCO,13.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+OCO,14.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+OCO,15.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+STR,1.0,1.0,SOFT,8.0,False,Qualifying,United States Grand Prix
+STR,2.0,1.0,SOFT,9.0,False,Qualifying,United States Grand Prix
+STR,3.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+STR,4.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+STR,5.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+STR,6.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+STR,7.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+STR,8.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+STR,9.0,4.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+STR,10.0,4.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+STR,11.0,4.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+STR,12.0,5.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+STR,13.0,5.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+STR,14.0,5.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LAW,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LAW,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LAW,3.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LAW,4.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LAW,5.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LAW,6.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+LAW,7.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+LAW,8.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+LAW,9.0,4.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+LAW,10.0,5.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+LAW,11.0,6.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+ALB,1.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+ALB,2.0,1.0,SOFT,7.0,False,Qualifying,United States Grand Prix
+ALB,3.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALB,4.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALB,5.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ALB,6.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ALB,7.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ALB,8.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+COL,1.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+COL,2.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+COL,3.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+COL,4.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+COL,5.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+COL,6.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+BOT,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+BOT,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+BOT,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+BOT,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+BOT,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+BOT,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+BOT,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+BOT,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+BOT,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+HAM,1.0,1.0,SOFT,4.0,False,Qualifying,United States Grand Prix
+HAM,2.0,1.0,SOFT,5.0,False,Qualifying,United States Grand Prix
+HAM,3.0,1.0,SOFT,6.0,False,Qualifying,United States Grand Prix
+HAM,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+HAM,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+HAM,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ZHO,1.0,1.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ZHO,2.0,1.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ZHO,3.0,1.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ZHO,4.0,2.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ZHO,5.0,2.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ZHO,6.0,2.0,SOFT,3.0,True,Qualifying,United States Grand Prix
+ZHO,7.0,3.0,SOFT,1.0,True,Qualifying,United States Grand Prix
+ZHO,8.0,3.0,SOFT,2.0,True,Qualifying,United States Grand Prix
+ZHO,9.0,3.0,SOFT,3.0,True,Qualifying,United States Grand Prix

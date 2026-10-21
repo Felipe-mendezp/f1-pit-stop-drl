@@ -30,21 +30,28 @@ F1_TYRELIFE_2021=v7 $PY results/sim_v7_20261015/fig3_v7_20261015.py --gp "United
 cp results/sim_v7_20261015/fig3_v7/facet_compounds_United_States.pdf $OUT/main/facet_compounds.pdf
 
 step "Fig. 5 + Table N.1: single-driver benchmark (selected v8 seeds), re-solves the QMIP"
-bash results/onedriver_v8_20261019/run_fig5_tableN1_20261019.sh
-cp results/onedriver_v8_20261019/fig5/figure_5.pdf $OUT/main/stints_alone.pdf
-cp results/onedriver_v8_20261019/tableN1/table_M1.tex $OUT/supplementary/tableN1_optimality_gap.tex
+# 2026-10-21: QMIP with full symmetry breaking (F1_QMIP_SYMMETRY=full) and manuscript fonts
+bash results/onedriver_v8_20261019/run_fig5_tableN1_qmipsym_20261021.sh
+cp results/onedriver_v8_qmipsym_20261021/fig5/figure_5.pdf $OUT/main/stints_alone.pdf
+cp results/onedriver_v8_qmipsym_20261021/tableN1/table_M1.tex $OUT/supplementary/tableN1_optimality_gap.tex
 
 step "Figs. 6 and 7: DRL vs QMIP in the 2024 world (from the cached 500-race results)"
 zsh reproduce/pipeline_v8_20261019.sh summary
-cp results/world2024_v8_20261019/fig6_2024_realdnf/figure_6.pdf $OUT/main/qmip_vs_drl_stochastic_boxplot.pdf
-cp results/world2024_v8_20261019/fig7_2024/figure_7.pdf $OUT/main/all_gps_2024_qmip_boxplot.pdf
+# 2026-10-21: DRL rows of results/world2024_v8_20261019 + QMIP with full symmetry breaking
+# (reproduce/qmipsym_figs67_20261021.sh, then merge_20261021.py and the summary/ci_table scripts in merged/)
+M=results/world2024_v8_qmipsym_20261021/merged
+$PY results/world2024_v8_qmipsym_20261021/merge_20261021.py
+(export F1_WORLD2024_TYRES=v7 F1_SIMULATION_DIR=trained_models/simulation_v7_20261015
+ $PY scripts/gp_drivers_v5hd_20261014.py results/world2024_v6_20261014/summarize_v6_20261014.py --dir $M > $M/summary.log 2>&1)
+$PY $M/ci_table_20261020.py
+cp $M/fig6_2024_realdnf/figure_6.pdf $OUT/main/qmip_vs_drl_stochastic_boxplot.pdf
+cp $M/fig7_2024/figure_7.pdf $OUT/main/all_gps_2024_qmip_boxplot.pdf
+cp $M/ci_table_20261020.tex $OUT/supplementary/tableO1_ci_2024.tex
 
 step "Figs. 8-10: decision support, Saudi Arabian GP 2024 (NOR), lap 7, PPO (from the cached rollouts)"
-(export F1_WORLD2024_TYRES=v7 F1_LAP0_ACTION0_MEDIUM=1 F1_LAP0_PENALTY=-1000
- export F1_RIVAL_START_ALPHA=$($PY -c "import json; print(json.load(open('data/rival_start_alpha_2021_2023_20261018.json'))['alpha'])")
- unset F1_RIVAL_DNF
- $PY scripts/run_ds_v6_sweep_20261015.py --version v8 --algos PPO --gps Saudi_Arabian_NOR --figures-only)
-F=results/decision_support_v8w24belief_20261019/figs/PPO/pdf/Saudi_Arabian_NOR
+# 2026-10-21: manuscript style (--paper-style), see the script header
+zsh results/decision_support_v8w24belief_20261019/figs_paper_20261021.sh
+F=results/decision_support_v8w24belief_20261019/figs_paper_20261021/pdf
 cp $F/decision_support_real_lap7.pdf $F/decision_stints_real_lap7.pdf $F/saudi_arabian_nor_real_evolution_points.pdf $OUT/main/
 
 step "Supplementary tables: rivals' pit-stop and compound logits, overtaking logit (v7 simulator models)"
