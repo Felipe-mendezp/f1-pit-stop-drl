@@ -29,6 +29,9 @@ from model_loader import ModelLoader
 
 # Must match the keys used during training (train_rl_agents.py)
 NORM_OBS_KEYS = ['tyrelifes', 'positions', 'time_diff_to_agent']
+# Tyre sets (opt-in F1_TYRE_SETS, 2026-10-21): the agent's set counts/ages are normalised like the tyre lives
+if os.environ.get('F1_TYRE_SETS'):
+    NORM_OBS_KEYS = NORM_OBS_KEYS + ['tyre_sets']
 
 N_SIMULATIONS = 500
 

@@ -19,6 +19,12 @@
 #     sbatch --job-name=f1v8 --array=1-400%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v8.tsv
 #  Si el piloto ya corrio (18-oct), el resto (370) sin repetirlo:
 #     sbatch --job-name=f1v8 --array=1-370%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v8_rest.tsv
+# 2026-10-21 v9 (v8 + juegos de neumaticos reales 2024, F1_TYRE_SETS; scripts/make_tasks_v9_20261021.py): las 400
+#  de una pasada (decision del autor) y con 4 CPU por tarea en vez de 8 (v8: media 1.1-1.6 h, max 3.0 h con 8 CPU;
+#  con 4 se espera hasta ~2x, dentro de las 10 h). %80 x 4 CPU = la misma huella que v8 (%40 x 8); si la QOS
+#  limita el numero de trabajos, usar %40. Memoria 8G (decision del autor; RSS medido ~6.1 GB en el Mac, OOM con 6G
+#  el 07-oct): si alguna tarea cae por memoria, relanzar esos indices con --mem=10G (las terminadas se saltan):
+#     sbatch -c 4 --mem=8G --job-name=f1v9 --array=1-400%80 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9.tsv
 # Prueba corta (partición debug, 30 min):
 #     sbatch -p debug -t 00:25:00 -c 4 --mem=16G --array=1-2 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v3_control_smoke.tsv
 # (debug admite como máximo 4 CPUs)

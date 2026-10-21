@@ -1,0 +1,35 @@
+== A. OpenF1 vs FastF1 stints, 8 GP, sesiones FP1-3/Sprint/Q/Carrera
+emparejamiento: {'both': 2739, 'left_only': 8, 'right_only': 3}
+compuesto igual: 0.9974 (n=2739)
+edad inicial OpenF1 == TyreLife FastF1 - 1: 0.9270
+vuelta inicial igual: 0.9963
+vueltas OpenF1 (final-inicial+1) == FastF1: 0.374; == FastF1+1: 0.623
+
+== B. Carrera: OpenF1 vs session_2024_V2 (24 GP)
+emparejamiento: {'both': 1302, 'left_only': 7, 'right_only': 0}
+compuesto igual: 0.9954 (n=1302); edad inicial == TyreLife-1: 0.9508; vuelta inicial igual: 0.9132
+
+== Lapchive, consistencia interna
+sets usados: 5175; total == suma por sesion: 0.941; total > suma: 0.059; marcados 'estimado' (fusionados): 0.049
+asignacion por piloto-GP (H,M,S), frecuencias: {(2, 3, 8): 353, (2, 4, 6): 120}
+
+== C. Sets usados antes de la carrera, Lapchive vs inventario FastF1 (8 GP, piloto x compuesto)
+celdas: 418; mismo n.º de sets: 0.758; mismas vueltas set a set: 0.029; misma suma de vueltas: 0.041
+                          same_n  same_laps
+GP                                         
+Bahrain Grand Prix          0.62       0.00
+Belgian Grand Prix          0.92       0.00
+Dutch Grand Prix            0.66       0.00
+Hungarian Grand Prix        0.80       0.00
+Miami Grand Prix            0.75       0.13
+Saudi Arabian Grand Prix    0.72       0.00
+Singapore Grand Prix        0.63       0.00
+United States Grand Prix    0.93       0.09
+          same_n  same_laps
+Compound                   
+HARD        0.81       0.01
+MEDIUM      0.75       0.07
+SOFT        0.74       0.00
+
+== D. Tandas de carrera con juego usado (OpenF1, 23 GP) vs set Lapchive que llega a la carrera
+tandas: 185; hay set Lapchive con uso previo y en carrera: 0.681; vueltas previas (suma por sesion) == edad OpenF1: 0.162; (total - carrera) == edad: 0.162

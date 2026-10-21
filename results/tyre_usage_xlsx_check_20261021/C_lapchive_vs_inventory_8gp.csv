@@ -1,0 +1,419 @@
+GP,Driver,Compound,Lapchive,LapchiveTotal,FastF1,nL,nF,same_n,same_laps,laps_diff
+Bahrain Grand Prix,ALB,MEDIUM,"(6, 20)","(6.0, 20.0)","(4, 8, 9)",2,3,False,False,5.0
+Bahrain Grand Prix,ALB,SOFT,"(3, 4, 5, 8, 11, 15, 15)","(3.0, 4.0, 8.0, 11.0, 11.0, 15.0, 21.0)","(3, 3, 6, 6, 6, 10, 17)",7,7,True,False,10.0
+Bahrain Grand Prix,ALO,MEDIUM,"(23,)","(23.0,)","(9, 11)",1,2,False,False,3.0
+Bahrain Grand Prix,ALO,SOFT,"(3, 3, 4, 4, 7, 12, 13, 18)","(4.0, 4.0, 7.0, 9.0, 13.0, 15.0, 18.0, 18.0)","(3, 3, 3, 5, 6, 9, 9, 15)",8,8,True,False,11.0
+Bahrain Grand Prix,BOT,MEDIUM,"(6, 12)","(6.0, 12.0)","(6, 9)",2,2,True,False,3.0
+Bahrain Grand Prix,BOT,SOFT,"(3, 4, 7, 13, 14, 21)","(3.0, 4.0, 10.0, 13.0, 14.0, 21.0)","(3, 3, 6, 9, 12, 19)",6,6,True,False,10.0
+Bahrain Grand Prix,GAS,MEDIUM,"(4, 9, 18)","(4.0, 16.0, 18.0)","(3, 7, 16)",3,3,True,False,5.0
+Bahrain Grand Prix,GAS,SOFT,"(3, 4, 14, 14, 16)","(3.0, 4.0, 14.0, 16.0, 20.0)","(3, 3, 6, 6, 8, 19)",5,6,False,False,6.0
+Bahrain Grand Prix,HAM,MEDIUM,"(3, 10, 13)","(10.0, 13.0, 13.0)","(10, 12)",3,2,False,False,4.0
+Bahrain Grand Prix,HAM,SOFT,"(3, 4, 7, 8, 8, 17, 28)","(4.0, 8.0, 8.0, 10.0, 15.0, 17.0, 28.0)","(3, 3, 6, 6, 6, 9, 11, 19)",7,8,False,False,12.0
+Bahrain Grand Prix,HUL,MEDIUM,"(3, 27)","(17.0, 27.0)","(10, 17)",2,2,True,False,3.0
+Bahrain Grand Prix,HUL,SOFT,"(7, 8, 8, 11, 14, 14)","(7.0, 8.0, 8.0, 11.0, 14.0, 17.0)","(6, 6, 6, 6, 6, 7, 17)",6,7,False,False,8.0
+Bahrain Grand Prix,LEC,MEDIUM,"(4, 9, 18)","(4.0, 15.0, 18.0)","(3, 9, 15)",3,3,True,False,4.0
+Bahrain Grand Prix,LEC,SOFT,"(3, 4, 5, 8, 20, 29)","(4.0, 5.0, 8.0, 14.0, 20.0, 29.0)","(3, 3, 4, 6, 6, 6, 11, 20)",6,8,False,False,10.0
+Bahrain Grand Prix,MAG,MEDIUM,"(27,)","(27.0,)","(8, 17)",1,2,False,False,2.0
+Bahrain Grand Prix,MAG,SOFT,"(3, 4, 8, 14, 15, 23)","(3.0, 4.0, 8.0, 14.0, 21.0, 23.0)","(3, 3, 6, 6, 7, 13, 21)",6,7,False,False,8.0
+Bahrain Grand Prix,NOR,MEDIUM,"(10, 11)","(10.0, 11.0)","(9, 9)",2,2,True,False,3.0
+Bahrain Grand Prix,NOR,SOFT,"(3, 3, 4, 6, 7, 12, 17, 18)","(4.0, 6.0, 6.0, 7.0, 12.0, 16.0, 17.0, 18.0)","(2, 3, 4, 5, 6, 6, 16, 16)",8,8,True,False,12.0
+Bahrain Grand Prix,OCO,MEDIUM,"(4, 7, 17)","(4.0, 13.0, 17.0)","(3, 8, 13)",3,3,True,False,4.0
+Bahrain Grand Prix,OCO,SOFT,"(3, 4, 13, 13, 14)","(3.0, 4.0, 13.0, 14.0, 19.0)","(3, 3, 5, 6, 6, 19)",5,6,False,False,5.0
+Bahrain Grand Prix,PER,HARD,"(10,)","(10.0,)","(7,)",1,1,True,False,3.0
+Bahrain Grand Prix,PER,MEDIUM,"(9, 19)","(15.0, 19.0)","(9, 15)",2,2,True,False,4.0
+Bahrain Grand Prix,PER,SOFT,"(3, 4, 7, 8, 11, 12, 17)","(4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 20.0)","(2, 3, 5, 6, 6, 10, 20)",7,7,True,False,10.0
+Bahrain Grand Prix,PIA,MEDIUM,"(12, 21)","(12.0, 21.0)","(11, 20)",2,2,True,False,2.0
+Bahrain Grand Prix,PIA,SOFT,"(3, 4, 8, 8, 9, 13, 18)","(4.0, 8.0, 8.0, 9.0, 13.0, 15.0, 18.0)","(3, 3, 3, 6, 6, 6, 7, 16)",7,8,False,False,13.0
+Bahrain Grand Prix,RIC,MEDIUM,"(6, 11)","(6.0, 11.0)","(5, 10)",2,2,True,False,2.0
+Bahrain Grand Prix,RIC,SOFT,"(3, 4, 8, 15, 16, 22)","(4.0, 8.0, 15.0, 16.0, 16.0, 22.0)","(3, 3, 6, 6, 7, 13, 21)",6,7,False,False,9.0
+Bahrain Grand Prix,RUS,MEDIUM,"(10, 17)","(16.0, 17.0)","(9, 16)",2,2,True,False,2.0
+Bahrain Grand Prix,RUS,SOFT,"(3, 4, 4, 7, 7, 12, 12, 14)","(4.0, 4.0, 7.0, 10.0, 12.0, 12.0, 14.0, 17.0)","(3, 3, 3, 5, 6, 6, 8, 17)",8,8,True,False,12.0
+Bahrain Grand Prix,SAI,MEDIUM,"(4, 30)","(4.0, 30.0)","(3, 11, 15)",2,3,False,False,5.0
+Bahrain Grand Prix,SAI,SOFT,"(3, 4, 4, 4, 4, 12, 17, 21)","(4.0, 4.0, 4.0, 4.0, 12.0, 17.0, 20.0, 21.0)","(3, 3, 3, 5, 6, 7, 11, 19)",8,8,True,False,12.0
+Bahrain Grand Prix,SAR,MEDIUM,"(6, 21)","(6.0, 21.0)","(5, 8, 11)",2,3,False,False,3.0
+Bahrain Grand Prix,SAR,SOFT,"(3, 3, 4, 13, 13, 18)","(3.0, 4.0, 9.0, 13.0, 18.0, 19.0)","(3, 3, 6, 7, 9, 15)",6,6,True,False,11.0
+Bahrain Grand Prix,STR,MEDIUM,"(22,)","(22.0,)","(9, 11)",1,2,False,False,2.0
+Bahrain Grand Prix,STR,SOFT,"(3, 3, 4, 8, 14, 14, 17)","(3.0, 4.0, 8.0, 9.0, 14.0, 17.0, 18.0)","(3, 3, 6, 6, 8, 9, 18)",7,7,True,False,10.0
+Bahrain Grand Prix,TSU,MEDIUM,"(9, 10)","(9.0, 10.0)","(8, 9)",2,2,True,False,2.0
+Bahrain Grand Prix,TSU,SOFT,"(3, 4, 8, 16, 16, 22)","(3.0, 4.0, 8.0, 16.0, 16.0, 22.0)","(3, 3, 6, 7, 7, 15, 21)",6,7,False,False,7.0
+Bahrain Grand Prix,VER,HARD,"(7,)","(7.0,)","(6,)",1,1,True,False,1.0
+Bahrain Grand Prix,VER,MEDIUM,"(9, 15)","(15.0, 15.0)","(6, 15)",2,2,True,False,3.0
+Bahrain Grand Prix,VER,SOFT,"(3, 4, 7, 8, 11, 11, 16)","(4.0, 7.0, 8.0, 11.0, 11.0, 19.0, 20.0)","(3, 3, 5, 6, 6, 10, 19)",7,7,True,False,8.0
+Bahrain Grand Prix,ZHO,MEDIUM,"(9, 9)","(9.0, 9.0)","(6, 7)",2,2,True,False,5.0
+Bahrain Grand Prix,ZHO,SOFT,"(3, 4, 8, 11, 14, 23)","(3.0, 4.0, 11.0, 11.0, 14.0, 23.0)","(3, 3, 6, 9, 10, 21)",6,6,True,False,11.0
+Belgian Grand Prix,ALB,HARD,"(9,)","(9.0,)","(8,)",1,1,True,False,1.0
+Belgian Grand Prix,ALB,MEDIUM,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Belgian Grand Prix,ALB,SOFT,"(8, 14)","(8.0, 14.0)","(6, 13)",2,2,True,False,3.0
+Belgian Grand Prix,ALO,HARD,"(9,)","(9.0,)","(8,)",1,1,True,False,1.0
+Belgian Grand Prix,ALO,MEDIUM,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Belgian Grand Prix,ALO,SOFT,"(8, 12)","(8.0, 12.0)","(7, 11)",2,2,True,False,2.0
+Belgian Grand Prix,BOT,HARD,"(16,)","(16.0,)","(15,)",1,1,True,False,1.0
+Belgian Grand Prix,BOT,MEDIUM,"(19,)","(19.0,)","(18,)",1,1,True,False,1.0
+Belgian Grand Prix,BOT,SOFT,"(7, 7)","(7.0, 7.0)","(6, 6)",2,2,True,False,2.0
+Belgian Grand Prix,GAS,MEDIUM,"(19, 22)","(19.0, 22.0)","(17, 19)",2,2,True,False,5.0
+Belgian Grand Prix,GAS,SOFT,"(6, 7)","(6.0, 7.0)","(5, 5)",2,2,True,False,3.0
+Belgian Grand Prix,HAM,MEDIUM,"(9, 19)","(9.0, 19.0)","(8, 17)",2,2,True,False,3.0
+Belgian Grand Prix,HAM,SOFT,"(6, 17)","(6.0, 17.0)","(4, 17)",2,2,True,False,2.0
+Belgian Grand Prix,HUL,HARD,"(17,)","(17.0,)","(16,)",1,1,True,False,1.0
+Belgian Grand Prix,HUL,MEDIUM,"(16,)","(16.0,)","(15,)",1,1,True,False,1.0
+Belgian Grand Prix,HUL,SOFT,"(5, 6)","(5.0, 6.0)","(4, 5)",2,2,True,False,2.0
+Belgian Grand Prix,LEC,MEDIUM,"(22,)","(22.0,)","(21,)",1,1,True,False,1.0
+Belgian Grand Prix,LEC,SOFT,"(5, 12, 15)","(11.0, 12.0, 15.0)","(3, 11, 12)",3,3,True,False,6.0
+Belgian Grand Prix,MAG,HARD,"(8,)","(8.0,)","(7,)",1,1,True,False,1.0
+Belgian Grand Prix,MAG,MEDIUM,"(6,)","(6.0,)","(5,)",1,1,True,False,1.0
+Belgian Grand Prix,MAG,SOFT,"(13, 17)","(13.0, 17.0)","(12, 16)",2,2,True,False,2.0
+Belgian Grand Prix,NOR,MEDIUM,"(14,)","(14.0,)","(13,)",1,1,True,False,1.0
+Belgian Grand Prix,NOR,SOFT,"(11, 12, 13)","(12.0, 13.0, 14.0)","(5, 11, 14)",3,3,True,False,6.0
+Belgian Grand Prix,OCO,MEDIUM,"(1, 20)","(1.0, 20.0)","(1, 19)",2,2,True,False,1.0
+Belgian Grand Prix,OCO,SOFT,"(5,)","(5.0,)","(4,)",1,1,True,False,1.0
+Belgian Grand Prix,PER,HARD,"(8,)","(8.0,)","(7,)",1,1,True,False,1.0
+Belgian Grand Prix,PER,MEDIUM,"(23,)","(23.0,)","(21,)",1,1,True,False,2.0
+Belgian Grand Prix,PER,SOFT,"(4, 16)","(4.0, 16.0)","(3, 15)",2,2,True,False,2.0
+Belgian Grand Prix,PIA,MEDIUM,"(15, 20)","(15.0, 20.0)","(13, 19)",2,2,True,False,3.0
+Belgian Grand Prix,PIA,SOFT,"(4, 6, 7)","(4.0, 6.0, 7.0)","(5, 10)",3,2,False,False,2.0
+Belgian Grand Prix,RIC,HARD,"(2, 9)","(9.0, 25.0)","(1, 8)",2,2,True,False,2.0
+Belgian Grand Prix,RIC,MEDIUM,"(12,)","(12.0,)","(10,)",1,1,True,False,2.0
+Belgian Grand Prix,RIC,SOFT,"(8, 8, 13)","(8.0, 8.0, 13.0)","(11, 14)",3,2,False,False,4.0
+Belgian Grand Prix,RUS,MEDIUM,"(19, 20)","(19.0, 20.0)","(17, 19)",2,2,True,False,3.0
+Belgian Grand Prix,RUS,SOFT,"(6, 8)","(6.0, 8.0)","(5, 6)",2,2,True,False,3.0
+Belgian Grand Prix,SAI,MEDIUM,"(10, 18)","(10.0, 18.0)","(9, 16)",2,2,True,False,3.0
+Belgian Grand Prix,SAI,SOFT,"(11, 16)","(11.0, 16.0)","(9, 15)",2,2,True,False,3.0
+Belgian Grand Prix,SAR,HARD,"(7,)","(7.0,)","(6,)",1,1,True,False,1.0
+Belgian Grand Prix,SAR,MEDIUM,"(15,)","(15.0,)","(14,)",1,1,True,False,1.0
+Belgian Grand Prix,SAR,SOFT,"(12, 15)","(12.0, 15.0)","(10, 14)",2,2,True,False,3.0
+Belgian Grand Prix,STR,HARD,"(16,)","(16.0,)","(15,)",1,1,True,False,1.0
+Belgian Grand Prix,STR,MEDIUM,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Belgian Grand Prix,STR,SOFT,"(5, 6)","(5.0, 6.0)","(4, 5)",2,2,True,False,2.0
+Belgian Grand Prix,TSU,HARD,"(20,)","(20.0,)","(1, 17)",1,2,False,False,2.0
+Belgian Grand Prix,TSU,MEDIUM,"(22,)","(22.0,)","(20,)",1,1,True,False,2.0
+Belgian Grand Prix,TSU,SOFT,"(5, 6)","(5.0, 6.0)","(4, 5)",2,2,True,False,2.0
+Belgian Grand Prix,VER,HARD,"(13,)","(13.0,)","(12,)",1,1,True,False,1.0
+Belgian Grand Prix,VER,MEDIUM,"(19,)","(19.0,)","(16,)",1,1,True,False,3.0
+Belgian Grand Prix,VER,SOFT,"(11, 13)","(11.0, 13.0)","(10, 11)",2,2,True,False,3.0
+Belgian Grand Prix,ZHO,HARD,"(8,)","(8.0,)","(7,)",1,1,True,False,1.0
+Belgian Grand Prix,ZHO,MEDIUM,"(18,)","(18.0,)","(8, 9)",1,2,False,False,1.0
+Belgian Grand Prix,ZHO,SOFT,"(7, 17)","(7.0, 17.0)","(5, 16)",2,2,True,False,3.0
+Dutch Grand Prix,ALB,HARD,"(26,)","(26.0,)","(25,)",1,1,True,False,1.0
+Dutch Grand Prix,ALB,SOFT,"(3, 4, 4, 4, 4, 4, 9, 11)","(3.0, 4.0, 4.0, 4.0, 4.0, 4.0, 9.0, 11.0)","(3, 3, 6, 6, 8, 9)",8,6,False,False,8.0
+Dutch Grand Prix,ALO,MEDIUM,"(14,)","(14.0,)","(13,)",1,1,True,False,1.0
+Dutch Grand Prix,ALO,SOFT,"(3, 4, 4, 4, 5, 10, 19)","(3.0, 4.0, 4.0, 4.0, 5.0, 10.0, 19.0)","(3, 3, 3, 3, 4, 10, 17)",7,7,True,False,6.0
+Dutch Grand Prix,BOT,MEDIUM,"(4, 8)","(4.0, 8.0)","(10,)",2,1,False,False,2.0
+Dutch Grand Prix,BOT,SOFT,"(3, 8, 9, 14)","(3.0, 8.0, 9.0, 14.0)","(3, 6, 22)",4,3,False,False,3.0
+Dutch Grand Prix,GAS,HARD,"(10, 17)","(17.0, 49.0)","(26,)",2,1,False,False,1.0
+Dutch Grand Prix,GAS,SOFT,"(3, 4, 4, 4, 7, 7, 8)","(3.0, 4.0, 4.0, 4.0, 7.0, 7.0, 8.0)","(2, 3, 3, 3, 5, 6, 7)",7,7,True,False,8.0
+Dutch Grand Prix,HAM,MEDIUM,"(7, 9, 12)","(9.0, 12.0, 24.0)","(23,)",3,1,False,False,5.0
+Dutch Grand Prix,HAM,SOFT,"(3, 4, 8, 9, 10)","(3.0, 4.0, 8.0, 9.0, 10.0)","(3, 3, 7, 7, 9)",5,5,True,False,5.0
+Dutch Grand Prix,HUL,MEDIUM,"(11,)","(11.0,)","(10,)",1,1,True,False,1.0
+Dutch Grand Prix,HUL,SOFT,"(3, 4, 6, 8, 8)","(3.0, 4.0, 6.0, 8.0, 8.0)","(3, 3, 5, 6, 8)",5,5,True,False,4.0
+Dutch Grand Prix,LEC,MEDIUM,"(10, 11, 17)","(11.0, 17.0, 34.0)","(9, 26)",3,2,False,False,3.0
+Dutch Grand Prix,LEC,SOFT,"(3, 4, 4, 4, 6, 8, 8)","(3.0, 4.0, 4.0, 4.0, 6.0, 8.0, 8.0)","(3, 3, 5, 6, 6, 6)",7,6,False,False,8.0
+Dutch Grand Prix,MAG,HARD,"(10,)","(10.0,)","(9,)",1,1,True,False,1.0
+Dutch Grand Prix,MAG,SOFT,"(3, 4, 4, 8, 8, 25)","(3.0, 4.0, 4.0, 8.0, 8.0, 25.0)","(3, 3, 3, 6, 8, 24)",6,6,True,False,5.0
+Dutch Grand Prix,NOR,MEDIUM,"(22,)","(22.0,)","(19,)",1,1,True,False,3.0
+Dutch Grand Prix,NOR,SOFT,"(3, 3, 4, 4, 4, 11, 16)","(3.0, 3.0, 4.0, 4.0, 4.0, 11.0, 16.0)","(3, 3, 3, 5, 11, 15)",7,6,False,False,5.0
+Dutch Grand Prix,OCO,MEDIUM,"(10,)","(10.0,)","(9,)",1,1,True,False,1.0
+Dutch Grand Prix,OCO,SOFT,"(3, 4, 4, 7, 25)","(3.0, 4.0, 4.0, 7.0, 25.0)","(3, 3, 3, 6, 24)",5,5,True,False,4.0
+Dutch Grand Prix,PER,MEDIUM,"(26,)","(26.0,)","(24,)",1,1,True,False,2.0
+Dutch Grand Prix,PER,SOFT,"(3, 4, 4, 4, 6, 7, 8)","(3.0, 4.0, 4.0, 4.0, 6.0, 7.0, 8.0)","(3, 3, 3, 3, 5, 5, 8)",7,7,True,False,6.0
+Dutch Grand Prix,PIA,MEDIUM,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+Dutch Grand Prix,PIA,SOFT,"(3, 4, 4, 9, 11, 19)","(3.0, 4.0, 4.0, 9.0, 11.0, 19.0)","(3, 3, 3, 7, 11, 17)",6,6,True,False,6.0
+Dutch Grand Prix,RIC,MEDIUM,"(11,)","(11.0,)","(10,)",1,1,True,False,1.0
+Dutch Grand Prix,RIC,SOFT,"(3, 7, 8, 22)","(3.0, 7.0, 8.0, 22.0)","(3, 6, 8, 21)",4,4,True,False,2.0
+Dutch Grand Prix,RUS,MEDIUM,"(13,)","(13.0,)","(10,)",1,1,True,False,3.0
+Dutch Grand Prix,RUS,SOFT,"(3, 4, 4, 4, 4, 4, 10, 22)","(4.0, 4.0, 4.0, 4.0, 4.0, 10.0, 21.0, 22.0)","(3, 3, 3, 3, 6, 10, 20)",8,7,False,False,7.0
+Dutch Grand Prix,SAI,MEDIUM,"(8, 9)","(8.0, 9.0)","(7, 9)",2,2,True,False,1.0
+Dutch Grand Prix,SAI,SOFT,"(3, 4, 8, 8)","(3.0, 4.0, 8.0, 8.0)","(3, 3, 6, 6)",4,4,True,False,5.0
+Dutch Grand Prix,SAR,MEDIUM,"(8, 15)","(8.0, 15.0)","(22,)",2,1,False,False,1.0
+Dutch Grand Prix,SAR,SOFT,"(7, 12)","(7.0, 12.0)","(6, 10)",2,2,True,False,3.0
+Dutch Grand Prix,STR,MEDIUM,"(14,)","(14.0,)","(13,)",1,1,True,False,1.0
+Dutch Grand Prix,STR,SOFT,"(3, 4, 4, 6, 6, 9, 20)","(3.0, 4.0, 4.0, 6.0, 6.0, 9.0, 20.0)","(3, 3, 3, 5, 5, 9, 18)",7,7,True,False,6.0
+Dutch Grand Prix,TSU,HARD,"(26,)","(26.0,)","(25,)",1,1,True,False,1.0
+Dutch Grand Prix,TSU,SOFT,"(3, 7, 7, 7, 8)","(3.0, 7.0, 7.0, 7.0, 8.0)","(3, 6, 6, 6, 7)",5,5,True,False,4.0
+Dutch Grand Prix,VER,MEDIUM,"(8, 12)","(8.0, 12.0)","(17,)",2,1,False,False,3.0
+Dutch Grand Prix,VER,SOFT,"(3, 4, 4, 7, 9, 17)","(3.0, 4.0, 4.0, 7.0, 9.0, 17.0)","(3, 3, 3, 5, 9, 16)",6,6,True,False,5.0
+Dutch Grand Prix,ZHO,MEDIUM,"(10, 16)","(10.0, 16.0)","(25,)",2,1,False,False,1.0
+Dutch Grand Prix,ZHO,SOFT,"(3, 8, 8, 10)","(3.0, 8.0, 8.0, 10.0)","(3, 3, 3, 6, 8)",4,5,False,False,6.0
+Hungarian Grand Prix,ALB,MEDIUM,"(9, 21)","(9.0, 21.0)","(6, 19)",2,2,True,False,5.0
+Hungarian Grand Prix,ALB,SOFT,"(3, 6, 10, 11, 14, 17)","(3.0, 6.0, 10.0, 11.0, 14.0, 17.0)","(3, 3, 5, 5, 8, 10, 15)",6,7,False,False,12.0
+Hungarian Grand Prix,ALO,HARD,"(2, 13)","(13.0, 35.0)","(1, 10)",2,2,True,False,4.0
+Hungarian Grand Prix,ALO,MEDIUM,"(2, 15, 19)","(15.0, 19.0, 32.0)","(1, 12, 18)",3,3,True,False,5.0
+Hungarian Grand Prix,ALO,SOFT,"(2, 4, 4, 6, 6, 7, 7, 16)","(4.0, 4.0, 6.0, 6.0, 7.0, 7.0, 9.0, 16.0)","(2, 3, 3, 4, 5, 6, 7, 14)",8,8,True,False,8.0
+Hungarian Grand Prix,BEA,MEDIUM,"(21,)","(21.0,)","(18,)",1,1,True,False,3.0
+Hungarian Grand Prix,BEA,SOFT,"(12,)","(12.0,)","(9,)",1,1,True,False,3.0
+Hungarian Grand Prix,BOT,MEDIUM,"(2, 11, 20)","(11.0, 18.0, 20.0)","(1, 9, 18)",3,3,True,False,5.0
+Hungarian Grand Prix,BOT,SOFT,"(3, 7, 9, 10, 10, 16, 19)","(3.0, 9.0, 10.0, 10.0, 10.0, 16.0, 19.0)","(3, 5, 8, 8, 9, 10, 18)",7,7,True,False,13.0
+Hungarian Grand Prix,GAS,MEDIUM,"(20, 21)","(20.0, 21.0)","(18, 20)",2,2,True,False,3.0
+Hungarian Grand Prix,GAS,SOFT,"(3, 4, 7, 8, 8, 11)","(3.0, 4.0, 7.0, 8.0, 11.0, 11.0)","(3, 3, 5, 5, 6, 10)",6,6,True,False,9.0
+Hungarian Grand Prix,HAM,MEDIUM,"(7, 29)","(7.0, 29.0)","(5, 26)",2,2,True,False,5.0
+Hungarian Grand Prix,HAM,SOFT,"(4, 4, 5, 6, 7, 12, 14, 16)","(4.0, 4.0, 5.0, 6.0, 7.0, 12.0, 14.0, 16.0)","(3, 3, 3, 5, 6, 9, 12, 15)",8,8,True,False,12.0
+Hungarian Grand Prix,HUL,MEDIUM,"(10, 11)","(10.0, 11.0)","(19,)",2,1,False,False,2.0
+Hungarian Grand Prix,HUL,SOFT,"(4, 6, 6, 7, 11, 14)","(4.0, 6.0, 6.0, 10.0, 11.0, 14.0)","(2, 5, 5, 5, 8, 10)",6,6,True,False,13.0
+Hungarian Grand Prix,LEC,HARD,"(27,)","(27.0,)","(24,)",1,1,True,False,3.0
+Hungarian Grand Prix,LEC,MEDIUM,"(9,)","(9.0,)","(8,)",1,1,True,False,1.0
+Hungarian Grand Prix,LEC,SOFT,"(4, 6, 6, 8, 8, 9, 15)","(4.0, 6.0, 6.0, 8.0, 9.0, 11.0, 15.0)","(3, 3, 3, 6, 7, 10, 10)",7,7,True,False,14.0
+Hungarian Grand Prix,MAG,MEDIUM,"(10, 13, 20)","(10.0, 13.0, 20.0)","(18, 21)",3,2,False,False,4.0
+Hungarian Grand Prix,MAG,SOFT,"(6, 6, 7, 9, 11, 17)","(6.0, 6.0, 7.0, 9.0, 11.0, 17.0)","(1, 4, 5, 6, 7, 9, 10)",6,7,False,False,14.0
+Hungarian Grand Prix,NOR,HARD,"(2, 20)","(20.0, 30.0)","(1, 17)",2,2,True,False,4.0
+Hungarian Grand Prix,NOR,MEDIUM,"(2, 23)","(23.0, 27.0)","(1, 20)",2,2,True,False,4.0
+Hungarian Grand Prix,NOR,SOFT,"(6, 7, 7, 7, 8, 8, 8, 12)","(6.0, 7.0, 7.0, 8.0, 8.0, 8.0, 10.0, 12.0)","(3, 5, 5, 6, 6, 7, 7, 9)",8,8,True,False,15.0
+Hungarian Grand Prix,OCO,MEDIUM,"(17, 21)","(17.0, 21.0)","(15, 19)",2,2,True,False,4.0
+Hungarian Grand Prix,OCO,SOFT,"(3, 4, 8, 11, 19)","(3.0, 4.0, 8.0, 11.0, 19.0)","(3, 3, 6, 7, 9, 11)",5,6,False,False,6.0
+Hungarian Grand Prix,PER,HARD,"(21,)","(21.0,)","(18,)",1,1,True,False,3.0
+Hungarian Grand Prix,PER,MEDIUM,"(21,)","(21.0,)","(18,)",1,1,True,False,3.0
+Hungarian Grand Prix,PER,SOFT,"(6, 7, 8, 10, 17)","(6.0, 7.0, 8.0, 13.0, 17.0)","(5, 6, 6, 9, 13)",5,5,True,False,9.0
+Hungarian Grand Prix,PIA,HARD,"(2, 21)","(21.0, 31.0)","(1, 18)",2,2,True,False,4.0
+Hungarian Grand Prix,PIA,MEDIUM,"(2, 24)","(24.0, 25.0)","(1, 23)",2,2,True,False,2.0
+Hungarian Grand Prix,PIA,SOFT,"(2, 4, 4, 6, 8, 9, 9, 12)","(2.0, 4.0, 4.0, 6.0, 8.0, 9.0, 9.0, 12.0)","(3, 3, 3, 5, 6, 6, 7, 9)",8,8,True,False,12.0
+Hungarian Grand Prix,RIC,MEDIUM,"(19, 23)","(19.0, 23.0)","(17, 21)",2,2,True,False,4.0
+Hungarian Grand Prix,RIC,SOFT,"(3, 3, 4, 7, 8, 8, 10, 14)","(3.0, 3.0, 4.0, 7.0, 8.0, 8.0, 10.0, 14.0)","(2, 3, 5, 5, 6, 6, 7, 8)",8,8,True,False,15.0
+Hungarian Grand Prix,RUS,MEDIUM,"(4, 17, 27)","(17.0, 24.0, 27.0)","(17, 25)",3,2,False,False,6.0
+Hungarian Grand Prix,RUS,SOFT,"(4, 4, 6, 11, 12)","(4.0, 4.0, 6.0, 11.0, 12.0)","(3, 3, 4, 5, 6, 9)",5,6,False,False,7.0
+Hungarian Grand Prix,SAI,HARD,"(14,)","(14.0,)","(11,)",1,1,True,False,3.0
+Hungarian Grand Prix,SAI,MEDIUM,"(22,)","(22.0,)","(20,)",1,1,True,False,2.0
+Hungarian Grand Prix,SAI,SOFT,"(4, 5, 8, 12, 12, 16, 17)","(4.0, 5.0, 8.0, 12.0, 12.0, 16.0, 17.0)","(3, 3, 4, 6, 6, 9, 13, 16)",7,8,False,False,14.0
+Hungarian Grand Prix,SAR,MEDIUM,"(11, 20)","(11.0, 20.0)","(8, 18)",2,2,True,False,5.0
+Hungarian Grand Prix,SAR,SOFT,"(3, 5, 8, 11, 12, 20)","(3.0, 5.0, 8.0, 11.0, 12.0, 20.0)","(3, 3, 3, 6, 6, 9, 18)",6,7,False,False,11.0
+Hungarian Grand Prix,STR,HARD,"(2, 16)","(16.0, 27.0)","(1, 13)",2,2,True,False,4.0
+Hungarian Grand Prix,STR,MEDIUM,"(2, 12, 14)","(12.0, 14.0, 33.0)","(1, 9, 13)",3,3,True,False,5.0
+Hungarian Grand Prix,STR,SOFT,"(4, 6, 6, 6, 7, 7, 13, 17)","(6.0, 6.0, 6.0, 7.0, 7.0, 13.0, 17.0, 18.0)","(2, 3, 5, 5, 5, 7, 12, 16)",8,8,True,False,11.0
+Hungarian Grand Prix,TSU,MEDIUM,"(7, 20)","(7.0, 20.0)","(5, 17)",2,2,True,False,5.0
+Hungarian Grand Prix,TSU,SOFT,"(2, 4, 6, 7, 8, 11, 14, 15)","(2.0, 4.0, 7.0, 8.0, 9.0, 11.0, 14.0, 15.0)","(2, 3, 3, 6, 6, 8, 9, 12)",8,8,True,False,18.0
+Hungarian Grand Prix,VER,HARD,"(23,)","(23.0,)","(20,)",1,1,True,False,3.0
+Hungarian Grand Prix,VER,MEDIUM,"(19,)","(19.0,)","(17,)",1,1,True,False,2.0
+Hungarian Grand Prix,VER,SOFT,"(3, 4, 4, 8, 8, 11, 11, 15)","(3.0, 4.0, 4.0, 8.0, 8.0, 11.0, 13.0, 15.0)","(3, 3, 3, 6, 6, 8, 9, 12)",8,8,True,False,14.0
+Hungarian Grand Prix,ZHO,MEDIUM,"(2, 12, 25)","(9.0, 12.0, 25.0)","(1, 9, 23)",3,3,True,False,6.0
+Hungarian Grand Prix,ZHO,SOFT,"(5, 6, 7, 16, 17)","(5.0, 6.0, 7.0, 16.0, 17.0)","(2, 5, 6, 6, 9, 15)",5,6,False,False,8.0
+Miami Grand Prix,ALB,HARD,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+Miami Grand Prix,ALB,MEDIUM,"(1, 1, 17)","(1.0, 1.0, 17.0)","(19,)",3,1,False,False,0.0
+Miami Grand Prix,ALB,SOFT,"(3, 4, 4, 7, 9)","(3.0, 4.0, 4.0, 7.0, 9.0)","(3, 3, 3, 6, 8)",5,5,True,False,4.0
+Miami Grand Prix,ALO,HARD,"(23,)","(23.0,)","(1, 20)",1,2,False,False,2.0
+Miami Grand Prix,ALO,MEDIUM,"(21,)","(21.0,)","(24,)",1,1,True,False,-3.0
+Miami Grand Prix,ALO,SOFT,"(3, 4, 4, 8)","(3.0, 4.0, 4.0, 8.0)","(3, 3, 3, 6)",4,4,True,False,4.0
+Miami Grand Prix,BOT,HARD,"(16,)","(16.0,)","(13,)",1,1,True,False,3.0
+Miami Grand Prix,BOT,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+Miami Grand Prix,BOT,SOFT,"(3, 4, 10)","(3.0, 4.0, 10.0)","(3, 3, 10)",3,3,True,False,1.0
+Miami Grand Prix,GAS,HARD,"(20,)","(20.0,)","(18,)",1,1,True,False,2.0
+Miami Grand Prix,GAS,MEDIUM,"(1, 18)","(1.0, 18.0)","(19,)",2,1,False,False,0.0
+Miami Grand Prix,GAS,SOFT,"(3, 4, 4, 4, 4, 9)","(3.0, 4.0, 4.0, 4.0, 4.0, 9.0)","(3, 3, 3, 3, 3, 9)",6,6,True,False,4.0
+Miami Grand Prix,HAM,MEDIUM,"(3, 22, 22)","(21.0, 22.0, 22.0)","(3, 21, 25)",3,3,True,False,-2.0
+Miami Grand Prix,HAM,SOFT,"(4, 4, 4, 4, 4, 8)","(4.0, 4.0, 4.0, 4.0, 4.0, 8.0)","(3, 3, 3, 3, 3, 6)",6,6,True,False,7.0
+Miami Grand Prix,HUL,HARD,"(21,)","(21.0,)","(18,)",1,1,True,False,3.0
+Miami Grand Prix,HUL,MEDIUM,"(1, 1, 17)","(7.0, 17.0, 30.0)","(25,)",3,1,False,False,-6.0
+Miami Grand Prix,HUL,SOFT,"(4, 4, 4, 7, 7, 8)","(4.0, 4.0, 4.0, 7.0, 7.0, 8.0)","(3, 3, 3, 6, 6, 7)",6,6,True,False,6.0
+Miami Grand Prix,LEC,HARD,"(3,)","(3.0,)","(3,)",1,1,True,True,0.0
+Miami Grand Prix,LEC,MEDIUM,"(1, 18)","(1.0, 18.0)","(19,)",2,1,False,False,0.0
+Miami Grand Prix,LEC,SOFT,"(4, 4, 4, 4, 4, 7)","(4.0, 4.0, 4.0, 4.0, 6.0, 7.0)","(3, 3, 3, 3, 5, 6)",6,6,True,False,4.0
+Miami Grand Prix,MAG,HARD,"(21,)","(21.0,)","(19,)",1,1,True,False,2.0
+Miami Grand Prix,MAG,MEDIUM,"(1, 1, 17)","(7.0, 17.0, 27.0)","(25,)",3,1,False,False,-6.0
+Miami Grand Prix,MAG,SOFT,"(3, 7, 8)","(3.0, 7.0, 8.0)","(3, 6, 7)",3,3,True,False,2.0
+Miami Grand Prix,NOR,HARD,"(22,)","(22.0,)","(19,)",1,1,True,False,3.0
+Miami Grand Prix,NOR,MEDIUM,"(4, 5)","(5.0, 7.0)","(3, 6)",2,2,True,False,0.0
+Miami Grand Prix,NOR,SOFT,"(3, 4, 7, 7)","(3.0, 4.0, 7.0, 7.0)","(3, 3, 5, 6)",4,4,True,False,4.0
+Miami Grand Prix,OCO,HARD,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+Miami Grand Prix,OCO,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+Miami Grand Prix,OCO,SOFT,"(3, 4, 4, 4, 4, 7)","(3.0, 4.0, 4.0, 4.0, 4.0, 7.0)","(3, 3, 3, 3, 3, 7)",6,6,True,False,4.0
+Miami Grand Prix,PER,MEDIUM,"(19, 23)","(22.0, 23.0)","(20, 22)",2,2,True,False,0.0
+Miami Grand Prix,PER,SOFT,"(3, 4, 4, 4, 4, 8)","(3.0, 4.0, 4.0, 4.0, 4.0, 8.0)","(3, 3, 3, 6, 6)",6,5,False,False,6.0
+Miami Grand Prix,PIA,HARD,"(23,)","(23.0,)","(19,)",1,1,True,False,4.0
+Miami Grand Prix,PIA,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+Miami Grand Prix,PIA,SOFT,"(3, 4, 7, 7, 9)","(3.0, 4.0, 7.0, 7.0, 9.0)","(3, 3, 5, 5, 8)",5,5,True,False,6.0
+Miami Grand Prix,RIC,HARD,"(22,)","(22.0,)","(19,)",1,1,True,False,3.0
+Miami Grand Prix,RIC,MEDIUM,"(8, 19)","(19.0, 37.0)","(8, 19)",2,2,True,True,0.0
+Miami Grand Prix,RIC,SOFT,"(3, 4, 4)","(3.0, 4.0, 4.0)","(3, 6)",3,2,False,False,2.0
+Miami Grand Prix,RUS,MEDIUM,"(21, 22)","(21.0, 22.0)","(3, 18, 25)",2,3,False,False,-3.0
+Miami Grand Prix,RUS,SOFT,"(4, 4, 4, 4, 4, 13)","(4.0, 4.0, 4.0, 4.0, 4.0, 13.0)","(3, 3, 3, 3, 3, 11)",6,6,True,False,7.0
+Miami Grand Prix,SAI,HARD,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+Miami Grand Prix,SAI,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+Miami Grand Prix,SAI,SOFT,"(3, 4, 4, 4, 8, 13)","(3.0, 4.0, 4.0, 4.0, 10.0, 13.0)","(3, 3, 3, 3, 8, 11)",6,6,True,False,5.0
+Miami Grand Prix,SAR,HARD,"(17,)","(17.0,)","(14,)",1,1,True,False,3.0
+Miami Grand Prix,SAR,MEDIUM,"(10,)","(10.0,)","(9,)",1,1,True,False,1.0
+Miami Grand Prix,SAR,SOFT,"(1, 1, 3, 3, 4, 17)","(1.0, 1.0, 3.0, 3.0, 4.0, 17.0)","(2, 3, 3, 19)",6,4,False,False,2.0
+Miami Grand Prix,STR,HARD,"(18,)","(18.0,)","(1, 15)",1,2,False,False,2.0
+Miami Grand Prix,STR,MEDIUM,"(1, 2)","(2.0, 7.0)","(7,)",2,1,False,False,-4.0
+Miami Grand Prix,STR,SOFT,"(3, 4, 4, 7, 8)","(3.0, 4.0, 4.0, 7.0, 8.0)","(3, 3, 3, 6, 8)",5,5,True,False,3.0
+Miami Grand Prix,TSU,HARD,"(22,)","(22.0,)","(17,)",1,1,True,False,5.0
+Miami Grand Prix,TSU,MEDIUM,"(8,)","(8.0,)","(8,)",1,1,True,True,0.0
+Miami Grand Prix,TSU,SOFT,"(4, 4, 4, 5, 7, 21)","(4.0, 4.0, 4.0, 5.0, 7.0, 21.0)","(3, 3, 3, 6, 6, 19)",6,6,True,False,5.0
+Miami Grand Prix,VER,MEDIUM,"(2, 17, 19)","(5.0, 17.0, 19.0)","(17, 22)",3,2,False,False,-1.0
+Miami Grand Prix,VER,SOFT,"(3, 4, 4, 4, 8, 9)","(3.0, 4.0, 4.0, 7.0, 8.0, 9.0)","(3, 3, 3, 6, 6, 8)",6,6,True,False,3.0
+Miami Grand Prix,ZHO,MEDIUM,"(1, 15, 18)","(1.0, 15.0, 18.0)","(13, 19)",3,2,False,False,2.0
+Miami Grand Prix,ZHO,SOFT,"(3, 4, 4, 11)","(3.0, 4.0, 4.0, 11.0)","(3, 3, 3, 11)",4,4,True,False,2.0
+Saudi Arabian Grand Prix,ALB,HARD,"(8, 15)","(15.0, 51.0)","(22,)",2,1,False,False,1.0
+Saudi Arabian Grand Prix,ALB,MEDIUM,"(19,)","(19.0,)","(18,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,ALB,SOFT,"(4, 7, 9, 10, 11, 11)","(7.0, 7.0, 9.0, 10.0, 11.0, 11.0)","(3, 5, 5, 6, 7, 8, 8)",6,7,False,False,10.0
+Saudi Arabian Grand Prix,ALO,HARD,"(2, 18)","(18.0, 45.0)","(1, 16)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,ALO,MEDIUM,"(10, 23)","(10.0, 23.0)","(1, 7, 22)",2,3,False,False,3.0
+Saudi Arabian Grand Prix,ALO,SOFT,"(3, 4, 4, 5, 7, 8, 10)","(3.0, 4.0, 4.0, 5.0, 7.0, 8.0, 10.0)","(3, 3, 3, 5, 6, 8, 8)",7,7,True,False,5.0
+Saudi Arabian Grand Prix,BEA,MEDIUM,"(20,)","(20.0,)","(17,)",1,1,True,False,3.0
+Saudi Arabian Grand Prix,BEA,SOFT,"(3, 5, 5, 6, 8)","(3.0, 5.0, 5.0, 6.0, 8.0)","(2, 4, 5, 5, 7)",5,5,True,False,4.0
+Saudi Arabian Grand Prix,BOT,HARD,"(20,)","(20.0,)","(19,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,BOT,MEDIUM,"(8, 16)","(8.0, 16.0)","(7, 14)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,BOT,SOFT,"(4, 6, 8, 10, 21)","(4.0, 6.0, 8.0, 10.0, 21.0)","(4, 5, 7, 8, 19)",5,5,True,False,6.0
+Saudi Arabian Grand Prix,GAS,MEDIUM,"(9, 9, 22)","(9.0, 10.0, 22.0)","(17, 21)",3,2,False,False,2.0
+Saudi Arabian Grand Prix,GAS,SOFT,"(3, 7, 9, 9, 15)","(3.0, 7.0, 9.0, 9.0, 15.0)","(3, 5, 6, 8, 8, 8)",5,6,False,False,5.0
+Saudi Arabian Grand Prix,HAM,HARD,"(6, 11)","(6.0, 11.0)","(16,)",2,1,False,False,1.0
+Saudi Arabian Grand Prix,HAM,MEDIUM,"(4, 19)","(4.0, 19.0)","(3, 17)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,HAM,SOFT,"(3, 4, 7, 8, 8, 10, 22)","(4.0, 7.0, 8.0, 8.0, 10.0, 17.0, 22.0)","(3, 3, 5, 5, 6, 6, 9, 14)",7,8,False,False,11.0
+Saudi Arabian Grand Prix,HUL,HARD,"(21,)","(21.0,)","(19,)",1,1,True,False,2.0
+Saudi Arabian Grand Prix,HUL,MEDIUM,"(8, 14)","(14.0, 14.0)","(5, 14)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,HUL,SOFT,"(2, 4, 4, 4, 6, 13)","(2.0, 4.0, 4.0, 4.0, 6.0, 13.0)","(2, 3, 3, 4, 5, 5, 6)",6,7,False,False,5.0
+Saudi Arabian Grand Prix,LEC,HARD,"(19,)","(19.0,)","(17,)",1,1,True,False,2.0
+Saudi Arabian Grand Prix,LEC,MEDIUM,"(11, 14)","(11.0, 14.0)","(10, 11)",2,2,True,False,4.0
+Saudi Arabian Grand Prix,LEC,SOFT,"(3, 4, 5, 5, 7, 8, 9, 18)","(3.0, 4.0, 5.0, 5.0, 7.0, 8.0, 9.0, 18.0)","(3, 3, 4, 5, 5, 7, 8, 15)",8,8,True,False,9.0
+Saudi Arabian Grand Prix,MAG,HARD,"(7,)","(7.0,)","(6,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,MAG,MEDIUM,"(6, 13)","(6.0, 13.0)","(5, 12)",2,2,True,False,2.0
+Saudi Arabian Grand Prix,MAG,SOFT,"(3, 4, 6, 8, 14, 20)","(3.0, 4.0, 6.0, 8.0, 14.0, 20.0)","(3, 3, 5, 5, 6, 7, 19)",6,7,False,False,7.0
+Saudi Arabian Grand Prix,NOR,HARD,"(2, 14)","(2.0, 14.0)","(1, 13)",2,2,True,False,2.0
+Saudi Arabian Grand Prix,NOR,MEDIUM,"(12,)","(12.0,)","(11,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,NOR,SOFT,"(3, 6, 8, 10, 11, 13, 17)","(6.0, 8.0, 10.0, 11.0, 13.0, 16.0, 17.0)","(3, 5, 6, 8, 10, 10, 15)",7,7,True,False,11.0
+Saudi Arabian Grand Prix,OCO,MEDIUM,"(20, 21)","(20.0, 21.0)","(19, 19)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,OCO,SOFT,"(4, 7, 9, 9, 15)","(4.0, 7.0, 9.0, 9.0, 15.0)","(4, 5, 6, 8, 8, 8)",5,6,False,False,5.0
+Saudi Arabian Grand Prix,PER,HARD,"(13,)","(13.0,)","(6, 9)",1,2,False,False,-2.0
+Saudi Arabian Grand Prix,PER,MEDIUM,"(26,)","(26.0,)","(24,)",1,1,True,False,2.0
+Saudi Arabian Grand Prix,PER,SOFT,"(3, 4, 4, 6, 8, 8, 10, 14)","(3.0, 4.0, 6.0, 8.0, 8.0, 13.0, 14.0, 16.0)","(3, 3, 3, 3, 6, 7, 9, 12)",8,8,True,False,11.0
+Saudi Arabian Grand Prix,PIA,HARD,"(5, 8)","(8.0, 48.0)","(1, 10)",2,2,True,False,2.0
+Saudi Arabian Grand Prix,PIA,MEDIUM,"(7, 20)","(7.0, 20.0)","(6, 17)",2,2,True,False,4.0
+Saudi Arabian Grand Prix,PIA,SOFT,"(3, 4, 6, 6, 7, 8, 8, 14)","(3.0, 4.0, 6.0, 6.0, 7.0, 8.0, 8.0, 14.0)","(3, 3, 3, 3, 4, 5, 7, 8, 12)",8,9,False,False,8.0
+Saudi Arabian Grand Prix,RIC,HARD,"(13,)","(13.0,)","(12,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,RIC,MEDIUM,"(13, 15)","(13.0, 15.0)","(10, 13)",2,2,True,False,5.0
+Saudi Arabian Grand Prix,RIC,SOFT,"(3, 4, 4, 4, 5, 13, 18)","(3.0, 4.0, 4.0, 4.0, 5.0, 18.0, 19.0)","(3, 3, 3, 3, 5, 10, 19)",7,7,True,False,5.0
+Saudi Arabian Grand Prix,RUS,HARD,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,RUS,MEDIUM,"(4, 20)","(4.0, 20.0)","(3, 17)",2,2,True,False,4.0
+Saudi Arabian Grand Prix,RUS,SOFT,"(2, 6, 8, 8, 8, 8, 19)","(2.0, 6.0, 8.0, 8.0, 8.0, 8.0, 19.0)","(2, 5, 5, 6, 6, 6, 6, 12)",7,8,False,False,11.0
+Saudi Arabian Grand Prix,SAI,HARD,"(19,)","(19.0,)","(17,)",1,1,True,False,2.0
+Saudi Arabian Grand Prix,SAI,MEDIUM,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,SAI,SOFT,"(9, 11)","(9.0, 11.0)","(7, 9)",2,2,True,False,4.0
+Saudi Arabian Grand Prix,SAR,HARD,"(20,)","(20.0,)","(19,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,SAR,MEDIUM,"(21,)","(21.0,)","(20,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,SAR,SOFT,"(2, 3, 7, 9, 9)","(2.0, 3.0, 7.0, 9.0, 9.0)","(2, 3, 6, 7, 8)",5,5,True,False,4.0
+Saudi Arabian Grand Prix,STR,HARD,"(2, 6)","(2.0, 6.0)","(1, 5)",2,2,True,False,2.0
+Saudi Arabian Grand Prix,STR,MEDIUM,"(10, 20)","(10.0, 20.0)","(1, 7, 18)",2,3,False,False,4.0
+Saudi Arabian Grand Prix,STR,SOFT,"(4, 4, 5, 6, 6, 8, 10, 10)","(4.0, 4.0, 5.0, 6.0, 10.0, 10.0, 13.0, 13.0)","(2, 3, 3, 5, 5, 5, 9, 13)",8,8,True,False,8.0
+Saudi Arabian Grand Prix,TSU,HARD,"(13,)","(13.0,)","(12,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,TSU,MEDIUM,"(13, 16)","(13.0, 16.0)","(13, 13)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,TSU,SOFT,"(3, 4, 4, 4, 5, 8, 15, 15)","(3.0, 4.0, 4.0, 4.0, 5.0, 8.0, 15.0, 20.0)","(3, 3, 3, 3, 5, 6, 8, 20)",8,8,True,False,7.0
+Saudi Arabian Grand Prix,VER,HARD,"(9, 10)","(10.0, 52.0)","(18,)",2,1,False,False,1.0
+Saudi Arabian Grand Prix,VER,MEDIUM,"(10, 13)","(10.0, 13.0)","(21,)",2,1,False,False,2.0
+Saudi Arabian Grand Prix,VER,SOFT,"(3, 4, 7, 7, 8, 8, 14)","(3.0, 4.0, 7.0, 7.0, 8.0, 8.0, 14.0)","(3, 3, 3, 6, 6, 6, 6, 9)",7,8,False,False,9.0
+Saudi Arabian Grand Prix,ZHO,HARD,"(11,)","(11.0,)","(10,)",1,1,True,False,1.0
+Saudi Arabian Grand Prix,ZHO,MEDIUM,"(12, 21)","(12.0, 21.0)","(10, 20)",2,2,True,False,3.0
+Saudi Arabian Grand Prix,ZHO,SOFT,"(2, 2, 8, 16)","(2.0, 2.0, 8.0, 16.0)","(2, 2, 7, 14)",4,4,True,False,3.0
+Singapore Grand Prix,ALB,HARD,"(10, 10)","(10.0, 14.0)","(19,)",2,1,False,False,1.0
+Singapore Grand Prix,ALB,MEDIUM,"(5, 8, 11)","(8.0, 11.0, 16.0)","(4, 17)",3,2,False,False,3.0
+Singapore Grand Prix,ALB,SOFT,"(3, 4, 4, 4, 4, 7, 8, 10)","(3.0, 4.0, 4.0, 4.0, 4.0, 7.0, 8.0, 10.0)","(3, 3, 3, 3, 6, 9, 9)",8,7,False,False,8.0
+Singapore Grand Prix,ALO,HARD,"(11, 11)","(11.0, 47.0)","(1, 19)",2,2,True,False,2.0
+Singapore Grand Prix,ALO,MEDIUM,"(2, 9, 14)","(9.0, 14.0, 27.0)","(1, 8, 11)",3,3,True,False,5.0
+Singapore Grand Prix,ALO,SOFT,"(3, 4, 4, 4, 7, 8, 10, 19)","(3.0, 4.0, 4.0, 4.0, 7.0, 8.0, 10.0, 19.0)","(3, 3, 3, 3, 5, 6, 10, 17)",8,8,True,False,9.0
+Singapore Grand Prix,BOT,HARD,"(8, 12)","(12.0, 41.0)","(19,)",2,1,False,False,1.0
+Singapore Grand Prix,BOT,MEDIUM,"(9, 11)","(9.0, 11.0)","(19,)",2,1,False,False,1.0
+Singapore Grand Prix,BOT,SOFT,"(3, 4, 4, 7, 9, 21)","(3.0, 4.0, 4.0, 7.0, 9.0, 21.0)","(3, 3, 3, 6, 7, 7, 10)",6,7,False,False,9.0
+Singapore Grand Prix,COL,HARD,"(20,)","(20.0,)","(19,)",1,1,True,False,1.0
+Singapore Grand Prix,COL,MEDIUM,"(20,)","(20.0,)","(19,)",1,1,True,False,1.0
+Singapore Grand Prix,COL,SOFT,"(3, 4, 4, 4, 9, 11, 16)","(3.0, 4.0, 4.0, 4.0, 9.0, 11.0, 16.0)","(3, 3, 6, 6, 6, 6, 9)",7,7,True,False,12.0
+Singapore Grand Prix,GAS,HARD,"(12,)","(12.0,)","(11,)",1,1,True,False,1.0
+Singapore Grand Prix,GAS,MEDIUM,"(8, 14, 15)","(14.0, 15.0, 45.0)","(14, 21)",3,2,False,False,2.0
+Singapore Grand Prix,GAS,SOFT,"(3, 4, 4, 8, 8, 16)","(3.0, 4.0, 4.0, 8.0, 8.0, 16.0)","(3, 3, 3, 6, 8, 16)",6,6,True,False,4.0
+Singapore Grand Prix,HAM,HARD,"(8, 12)","(12.0, 53.0)","(19,)",2,1,False,False,1.0
+Singapore Grand Prix,HAM,MEDIUM,"(10, 13, 13)","(10.0, 13.0, 13.0)","(11, 21)",3,2,False,False,4.0
+Singapore Grand Prix,HAM,SOFT,"(3, 3, 4, 4, 4, 6, 7, 9)","(3.0, 4.0, 4.0, 4.0, 6.0, 7.0, 9.0, 20.0)","(2, 3, 3, 3, 3, 5, 5, 8)",8,8,True,False,8.0
+Singapore Grand Prix,HUL,HARD,"(20,)","(20.0,)","(18,)",1,1,True,False,2.0
+Singapore Grand Prix,HUL,MEDIUM,"(7, 22)","(7.0, 22.0)","(6, 21)",2,2,True,False,2.0
+Singapore Grand Prix,HUL,SOFT,"(3, 4, 4, 4, 7, 8, 8, 9)","(3.0, 4.0, 4.0, 4.0, 7.0, 8.0, 8.0, 9.0)","(3, 3, 3, 3, 5, 6, 6, 8)",8,8,True,False,10.0
+Singapore Grand Prix,LEC,HARD,"(7, 12)","(12.0, 33.0)","(18,)",2,1,False,False,1.0
+Singapore Grand Prix,LEC,MEDIUM,"(11, 13, 14)","(13.0, 14.0, 47.0)","(12, 22)",3,2,False,False,4.0
+Singapore Grand Prix,LEC,SOFT,"(3, 3, 4, 7, 7, 8, 9, 10)","(3.0, 3.0, 4.0, 7.0, 7.0, 8.0, 9.0, 10.0)","(2, 3, 3, 5, 6, 6, 8, 8)",8,8,True,False,10.0
+Singapore Grand Prix,MAG,HARD,"(16,)","(16.0,)","(15,)",1,1,True,False,1.0
+Singapore Grand Prix,MAG,MEDIUM,"(8, 8)","(8.0, 8.0)","(6, 7)",2,2,True,False,3.0
+Singapore Grand Prix,MAG,SOFT,"(3, 4, 4, 4, 7, 9, 20)","(3.0, 4.0, 4.0, 4.0, 7.0, 9.0, 20.0)","(3, 3, 3, 3, 6, 8, 19)",7,7,True,False,6.0
+Singapore Grand Prix,NOR,HARD,"(12,)","(12.0,)","(11,)",1,1,True,False,1.0
+Singapore Grand Prix,NOR,MEDIUM,"(8, 11, 12)","(11.0, 12.0, 38.0)","(10, 19)",3,2,False,False,2.0
+Singapore Grand Prix,NOR,SOFT,"(3, 4, 4, 4, 6, 8, 8, 19)","(3.0, 4.0, 4.0, 4.0, 6.0, 8.0, 8.0, 19.0)","(2, 2, 3, 3, 6, 6, 6, 16)",8,8,True,False,12.0
+Singapore Grand Prix,OCO,HARD,"(8, 14)","(14.0, 40.0)","(21,)",2,1,False,False,1.0
+Singapore Grand Prix,OCO,MEDIUM,"(13, 13)","(13.0, 13.0)","(12, 12)",2,2,True,False,2.0
+Singapore Grand Prix,OCO,SOFT,"(3, 4, 4, 4, 4, 7, 9, 15)","(3.0, 4.0, 4.0, 4.0, 4.0, 7.0, 9.0, 15.0)","(3, 3, 3, 6, 6, 8, 15)",8,7,False,False,6.0
+Singapore Grand Prix,PER,HARD,"(10, 11)","(11.0, 43.0)","(19,)",2,1,False,False,2.0
+Singapore Grand Prix,PER,MEDIUM,"(9, 10)","(9.0, 10.0)","(8, 8)",2,2,True,False,3.0
+Singapore Grand Prix,PER,SOFT,"(3, 4, 4, 6, 7, 8, 15)","(3.0, 4.0, 4.0, 6.0, 7.0, 8.0, 15.0)","(3, 3, 3, 5, 6, 7, 14)",7,7,True,False,6.0
+Singapore Grand Prix,PIA,HARD,"(8,)","(8.0,)","(7,)",1,1,True,False,1.0
+Singapore Grand Prix,PIA,MEDIUM,"(11, 24)","(11.0, 24.0)","(10, 21)",2,2,True,False,4.0
+Singapore Grand Prix,PIA,SOFT,"(4, 4, 4, 4, 7, 8, 8, 20)","(4.0, 4.0, 4.0, 4.0, 7.0, 8.0, 8.0, 20.0)","(3, 3, 3, 3, 6, 6, 6, 18)",8,8,True,False,11.0
+Singapore Grand Prix,RIC,HARD,"(11,)","(11.0,)","(9,)",1,1,True,False,2.0
+Singapore Grand Prix,RIC,MEDIUM,"(11, 22)","(11.0, 22.0)","(9, 21)",2,2,True,False,3.0
+Singapore Grand Prix,RIC,SOFT,"(3, 4, 6, 8, 13)","(4.0, 6.0, 6.0, 8.0, 13.0)","(3, 3, 5, 8, 12)",5,5,True,False,3.0
+Singapore Grand Prix,RUS,HARD,"(10, 13)","(13.0, 45.0)","(22,)",2,1,False,False,1.0
+Singapore Grand Prix,RUS,MEDIUM,"(10, 12, 13)","(12.0, 13.0, 37.0)","(12, 20)",3,2,False,False,3.0
+Singapore Grand Prix,RUS,SOFT,"(3, 3, 4, 4, 4, 7, 8, 8)","(3.0, 3.0, 4.0, 4.0, 4.0, 7.0, 8.0, 8.0)","(2, 3, 3, 3, 3, 5, 6, 7)",8,8,True,False,9.0
+Singapore Grand Prix,SAI,HARD,"(8, 13)","(13.0, 57.0)","(19,)",2,1,False,False,2.0
+Singapore Grand Prix,SAI,MEDIUM,"(11, 11, 15)","(11.0, 15.0, 24.0)","(13, 21)",3,2,False,False,3.0
+Singapore Grand Prix,SAI,SOFT,"(1, 4, 7, 8, 8, 8, 10)","(1.0, 4.0, 7.0, 8.0, 8.0, 8.0, 10.0)","(1, 3, 5, 6, 6, 7, 8)",7,7,True,False,10.0
+Singapore Grand Prix,STR,HARD,"(2, 10)","(10.0, 28.0)","(1, 9)",2,2,True,False,2.0
+Singapore Grand Prix,STR,MEDIUM,"(10, 10, 16)","(10.0, 16.0, 45.0)","(1, 12, 18)",3,3,True,False,5.0
+Singapore Grand Prix,STR,SOFT,"(3, 4, 8, 10, 12)","(3.0, 4.0, 8.0, 10.0, 12.0)","(3, 3, 7, 10, 12)",5,5,True,False,2.0
+Singapore Grand Prix,TSU,HARD,"(9, 14)","(9.0, 14.0)","(22,)",2,1,False,False,1.0
+Singapore Grand Prix,TSU,MEDIUM,"(10, 11, 11)","(11.0, 11.0, 43.0)","(9, 21)",3,2,False,False,2.0
+Singapore Grand Prix,TSU,SOFT,"(3, 4, 4, 4, 5, 7, 7, 8)","(4.0, 4.0, 4.0, 5.0, 7.0, 7.0, 8.0, 31.0)","(3, 3, 3, 3, 5, 5, 6, 7)",8,8,True,False,7.0
+Singapore Grand Prix,VER,HARD,"(18,)","(18.0,)","(17,)",1,1,True,False,1.0
+Singapore Grand Prix,VER,MEDIUM,"(10, 17)","(10.0, 17.0)","(8, 16)",2,2,True,False,3.0
+Singapore Grand Prix,VER,SOFT,"(3, 4, 4, 4, 7, 8, 9, 9)","(3.0, 4.0, 4.0, 4.0, 7.0, 8.0, 9.0, 9.0)","(3, 3, 3, 3, 5, 6, 7, 8)",8,8,True,False,10.0
+Singapore Grand Prix,ZHO,HARD,"(19,)","(19.0,)","(18,)",1,1,True,False,1.0
+Singapore Grand Prix,ZHO,MEDIUM,"(9, 11)","(9.0, 11.0)","(19,)",2,1,False,False,1.0
+Singapore Grand Prix,ZHO,SOFT,"(3, 4, 4, 7, 7, 11, 16)","(3.0, 4.0, 4.0, 7.0, 10.0, 11.0, 16.0)","(3, 3, 3, 6, 6, 9, 10)",7,7,True,False,12.0
+United States Grand Prix,ALB,HARD,"(24,)","(24.0,)","(21,)",1,1,True,False,3.0
+United States Grand Prix,ALB,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+United States Grand Prix,ALB,SOFT,"(3, 4, 9)","(3.0, 4.0, 9.0)","(3, 3, 7)",3,3,True,False,3.0
+United States Grand Prix,ALO,HARD,"(8, 17)","(18.0, 46.0)","(1, 20)",2,2,True,False,4.0
+United States Grand Prix,ALO,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,ALO,SOFT,"(3, 4, 4, 4, 4, 8)","(3.0, 4.0, 4.0, 4.0, 4.0, 8.0)","(3, 3, 3, 3, 3, 6)",6,6,True,False,6.0
+United States Grand Prix,BOT,MEDIUM,"(19, 23)","(23.0, 25.0)","(20, 25)",2,2,True,False,-3.0
+United States Grand Prix,BOT,SOFT,"(3, 4, 4, 6)","(3.0, 4.0, 4.0, 6.0)","(3, 3, 3, 6)",4,4,True,False,2.0
+United States Grand Prix,COL,HARD,"(25,)","(25.0,)","(22,)",1,1,True,False,3.0
+United States Grand Prix,COL,MEDIUM,"(19,)","(23.0,)","(23,)",1,1,True,False,-4.0
+United States Grand Prix,COL,SOFT,"(2, 4, 8)","(2.0, 4.0, 8.0)","(2, 3, 6)",3,3,True,False,3.0
+United States Grand Prix,GAS,HARD,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+United States Grand Prix,GAS,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,GAS,SOFT,"(4, 4, 4, 6, 8, 8)","(4.0, 4.0, 4.0, 6.0, 8.0, 8.0)","(3, 3, 3, 5, 6, 8)",6,6,True,False,6.0
+United States Grand Prix,HAM,HARD,"(17,)","(17.0,)","(14,)",1,1,True,False,3.0
+United States Grand Prix,HAM,MEDIUM,"(19,)","(23.0,)","(23,)",1,1,True,False,-4.0
+United States Grand Prix,HAM,SOFT,"(3, 4, 8)","(3.0, 7.0, 8.0)","(3, 6, 8)",3,3,True,False,-2.0
+United States Grand Prix,HUL,HARD,"(20,)","(20.0,)","(18,)",1,1,True,False,2.0
+United States Grand Prix,HUL,MEDIUM,"(19,)","(24.0,)","(24,)",1,1,True,False,-5.0
+United States Grand Prix,HUL,SOFT,"(3, 4, 4, 4, 6)","(3.0, 4.0, 4.0, 4.0, 6.0)","(3, 3, 3, 3, 6)",5,5,True,False,3.0
+United States Grand Prix,LAW,HARD,"(22,)","(22.0,)","(20,)",1,1,True,False,2.0
+United States Grand Prix,LAW,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,LAW,SOFT,"(1, 4, 5, 6, 9)","(1.0, 4.0, 5.0, 6.0, 9.0)","(2, 4, 5, 8)",5,4,False,False,6.0
+United States Grand Prix,LEC,HARD,"(21,)","(21.0,)","(19,)",1,1,True,False,2.0
+United States Grand Prix,LEC,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,LEC,SOFT,"(2, 4, 4, 7, 8, 8)","(2.0, 4.0, 4.0, 7.0, 8.0, 11.0)","(2, 3, 3, 6, 8, 9)",6,6,True,False,2.0
+United States Grand Prix,MAG,HARD,"(20,)","(20.0,)","(18,)",1,1,True,False,2.0
+United States Grand Prix,MAG,MEDIUM,"(19,)","(24.0,)","(24,)",1,1,True,False,-5.0
+United States Grand Prix,MAG,SOFT,"(2, 4, 4, 8, 10)","(2.0, 4.0, 4.0, 8.0, 10.0)","(2, 3, 3, 6, 6, 6)",5,6,False,False,2.0
+United States Grand Prix,NOR,HARD,"(22,)","(22.0,)","(20,)",1,1,True,False,2.0
+United States Grand Prix,NOR,MEDIUM,"(19,)","(24.0,)","(24,)",1,1,True,False,-5.0
+United States Grand Prix,NOR,SOFT,"(2, 4, 4, 6, 9)","(2.0, 4.0, 4.0, 6.0, 9.0)","(2, 3, 3, 5, 5, 6)",5,6,False,False,1.0
+United States Grand Prix,OCO,HARD,"(18,)","(18.0,)","(16,)",1,1,True,False,2.0
+United States Grand Prix,OCO,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+United States Grand Prix,OCO,SOFT,"(3, 4, 4, 4, 4, 8)","(4.0, 4.0, 4.0, 4.0, 7.0, 8.0)","(3, 3, 3, 3, 3, 8)",6,6,True,False,4.0
+United States Grand Prix,PER,HARD,"(10,)","(10.0,)","(9,)",1,1,True,False,1.0
+United States Grand Prix,PER,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,PER,SOFT,"(2, 4, 4, 4, 8, 17)","(2.0, 4.0, 4.0, 4.0, 8.0, 17.0)","(2, 3, 3, 3, 6, 15)",6,6,True,False,7.0
+United States Grand Prix,PIA,HARD,"(24,)","(24.0,)","(21,)",1,1,True,False,3.0
+United States Grand Prix,PIA,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+United States Grand Prix,PIA,SOFT,"(2, 3, 4, 4, 7, 9)","(2.0, 3.0, 4.0, 4.0, 7.0, 9.0)","(2, 2, 3, 3, 6, 8)",6,6,True,False,5.0
+United States Grand Prix,RUS,HARD,"(22,)","(22.0,)","(20,)",1,1,True,False,2.0
+United States Grand Prix,RUS,MEDIUM,"(19,)","(24.0,)","(24,)",1,1,True,False,-5.0
+United States Grand Prix,RUS,SOFT,"(2, 4, 4, 4, 6, 7)","(2.0, 4.0, 4.0, 6.0, 7.0, 7.0)","(1, 3, 3, 4, 6, 7)",6,6,True,False,3.0
+United States Grand Prix,SAI,HARD,"(19,)","(19.0,)","(17,)",1,1,True,False,2.0
+United States Grand Prix,SAI,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,SAI,SOFT,"(2, 4, 4, 4, 9, 10)","(2.0, 4.0, 4.0, 7.0, 9.0, 10.0)","(2, 3, 3, 5, 8, 8)",6,6,True,False,4.0
+United States Grand Prix,STR,HARD,"(20,)","(20.0,)","(1, 16)",1,2,False,False,3.0
+United States Grand Prix,STR,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,STR,SOFT,"(3, 4, 4, 4, 10)","(3.0, 4.0, 4.0, 4.0, 10.0)","(3, 3, 3, 3, 9)",5,5,True,False,4.0
+United States Grand Prix,TSU,HARD,"(20,)","(20.0,)","(17,)",1,1,True,False,3.0
+United States Grand Prix,TSU,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+United States Grand Prix,TSU,SOFT,"(3, 4, 4, 4, 6)","(3.0, 4.0, 4.0, 4.0, 6.0)","(3, 3, 3, 3, 5)",5,5,True,False,4.0
+United States Grand Prix,VER,HARD,"(8,)","(8.0,)","(7,)",1,1,True,False,1.0
+United States Grand Prix,VER,MEDIUM,"(19,)","(22.0,)","(22,)",1,1,True,False,-3.0
+United States Grand Prix,VER,SOFT,"(2, 4, 4, 4, 8, 17)","(2.0, 4.0, 4.0, 7.0, 8.0, 17.0)","(2, 3, 3, 6, 6, 16)",6,6,True,False,3.0
+United States Grand Prix,ZHO,MEDIUM,"(19,)","(19.0,)","(19,)",1,1,True,True,0.0
+United States Grand Prix,ZHO,SOFT,"(3, 4, 4, 17)","(3.0, 4.0, 4.0, 17.0)","(3, 3, 3, 15)",4,4,True,False,4.0
+Dutch Grand Prix,SHW,SOFT,,,"(6,)",0,1,False,False,

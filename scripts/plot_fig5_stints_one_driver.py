@@ -39,7 +39,7 @@ from stable_baselines3 import DQN, PPO, A2C
 from sb3_contrib import RecurrentPPO, TRPO
 
 from environment.f1_env_one_driver import F1EnvOneDriverV2Optimized
-from evaluate_qmip_vs_drl import build_qmip_params, qmip_choose_start_compound, qmip_choose_action
+from evaluate_qmip_vs_drl import build_qmip_params, qmip_choose_start_compound, qmip_choose_action, qmip_set_ages
 from model_loader import ModelLoader
 
 # Same 9 GPs / order / colors as the original notebook (cell 24)
@@ -176,7 +176,8 @@ def main():
             if not state['started']:
                 action, t0 = qmip_choose_start_compound(
                     qp['betas_dict'], qp['time_stop'], env.n_laps,
-                    qp['qmip_to_compound'], qp['available_compounds'])
+                    qp['qmip_to_compound'], qp['available_compounds'],
+                    set_ages=qmip_set_ages(env, qp['qmip_to_compound']))
                 state['t_prev'] = [t0]
                 state['started'] = True
                 return action
@@ -184,7 +185,8 @@ def main():
             action = qmip_choose_action(
                 qp['betas_dict'], qp['time_stop'], env.laps_left, t_cur,
                 env.tyre_life, state['t_prev'], env.n_laps, 0,
-                qp['qmip_to_compound'], qp['available_compounds'])
+                qp['qmip_to_compound'], qp['available_compounds'],
+                set_ages=qmip_set_ages(env, qp['qmip_to_compound']))
             if action > 0:
                 name = qp['compound_to_qmip'].get(
                     qp['available_compounds'][action - 1], 'Medium')

@@ -1,0 +1,186 @@
+GP,Driver,Stint,Compound,Age0,n_sets,pre_match,tot_match,pre,tot_minus_race
+Bahrain Grand Prix,VER,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,RIC,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,ALO,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,PIA,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,NOR,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,RUS,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,LEC,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,HAM,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,PER,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Bahrain Grand Prix,SAI,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Saudi Arabian Grand Prix,STR,1,MEDIUM,1,0,False,False,(),()
+Saudi Arabian Grand Prix,ALO,1,MEDIUM,1,0,False,False,(),()
+Saudi Arabian Grand Prix,ALO,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Saudi Arabian Grand Prix,PIA,2,HARD,1,1,False,False,"(5,)","(5.0,)"
+Saudi Arabian Grand Prix,HAM,2,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Saudi Arabian Grand Prix,NOR,2,SOFT,1,1,False,False,"(3,)","(3.0,)"
+Australian Grand Prix,STR,1,MEDIUM,1,1,False,False,"(10,)","(10.0,)"
+Australian Grand Prix,ALO,1,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,ZHO,1,SOFT,1,1,False,False,"(3,)","(3.0,)"
+Australian Grand Prix,BOT,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Australian Grand Prix,ZHO,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Australian Grand Prix,STR,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,PIA,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,NOR,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,ALO,2,MEDIUM,1,1,False,False,"(8,)","(8.0,)"
+Australian Grand Prix,PIA,3,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,NOR,3,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,ALO,3,HARD,1,1,False,False,"(4,)","(4.0,)"
+Australian Grand Prix,OCO,4,HARD,7,0,False,False,(),()
+Japanese Grand Prix,VER,2,MEDIUM,1,0,False,False,(),()
+Japanese Grand Prix,PER,2,MEDIUM,1,0,False,False,(),()
+Japanese Grand Prix,ALO,2,SOFT,1,0,False,False,(),()
+Japanese Grand Prix,PIA,2,MEDIUM,1,0,False,False,(),()
+Japanese Grand Prix,HUL,2,SOFT,1,0,False,False,(),()
+Japanese Grand Prix,ZHO,4,HARD,4,0,False,False,(),()
+Japanese Grand Prix,SAI,3,MEDIUM,1,0,False,False,(),()
+Japanese Grand Prix,RUS,4,MEDIUM,1,0,False,False,(),()
+Chinese Grand Prix,PIA,2,MEDIUM,1,0,False,False,(),()
+Miami Grand Prix,RUS,1,MEDIUM,3,0,False,False,(),()
+Miami Grand Prix,ALO,1,HARD,1,0,False,False,(),()
+Miami Grand Prix,STR,2,HARD,1,0,False,False,(),()
+Miami Grand Prix,ALO,2,MEDIUM,1,0,False,False,(),()
+Miami Grand Prix,HAM,2,MEDIUM,3,0,False,False,(),()
+Miami Grand Prix,PER,3,MEDIUM,5,0,False,False,(),()
+Miami Grand Prix,RIC,2,MEDIUM,5,1,False,False,"(8,)","(8.0,)"
+Miami Grand Prix,MAG,4,MEDIUM,3,1,False,False,"(1,)","(1.0,)"
+Miami Grand Prix,PIA,3,MEDIUM,6,0,False,False,(),()
+Emilia Romagna Grand Prix,STR,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Emilia Romagna Grand Prix,ALO,2,HARD,1,0,False,False,(),()
+Emilia Romagna Grand Prix,ALB,3,MEDIUM,8,0,False,False,(),()
+Emilia Romagna Grand Prix,NOR,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Emilia Romagna Grand Prix,PIA,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Emilia Romagna Grand Prix,ALB,4,MEDIUM,14,0,False,False,(),()
+Emilia Romagna Grand Prix,ALB,5,MEDIUM,8,0,False,False,(),()
+Emilia Romagna Grand Prix,STR,2,HARD,1,0,False,False,(),()
+Emilia Romagna Grand Prix,ALO,3,MEDIUM,1,1,False,False,"(3,)","(3.0,)"
+Emilia Romagna Grand Prix,RUS,3,MEDIUM,2,1,False,False,"(3,)","(3.0,)"
+Monaco Grand Prix,PIA,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,NOR,1,MEDIUM,1,1,True,True,"(1,)","(1.0,)"
+Monaco Grand Prix,ALO,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,STR,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,PIA,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,TSU,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,STR,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,RIC,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,SAR,2,HARD,1,0,False,False,(),()
+Monaco Grand Prix,ALO,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Monaco Grand Prix,BOT,3,HARD,1,0,False,False,(),()
+Canadian Grand Prix,RIC,3,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Canadian Grand Prix,STR,3,HARD,1,0,False,False,(),()
+Spanish Grand Prix,RUS,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,HAM,1,SOFT,8,2,False,False,"(4, 7)","(4.0, 7.0)"
+Spanish Grand Prix,GAS,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,PIA,1,SOFT,3,2,False,False,"(4, 4)","(4.0, 4.0)"
+Spanish Grand Prix,OCO,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,VER,1,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,PER,1,SOFT,3,3,True,True,"(4, 4, 3)","(4.0, 4.0, 3.0)"
+Spanish Grand Prix,BOT,2,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,PER,2,SOFT,3,3,True,True,"(4, 4, 3)","(4.0, 4.0, 3.0)"
+Spanish Grand Prix,STR,2,MEDIUM,1,0,False,False,(),()
+Spanish Grand Prix,ALO,2,MEDIUM,1,0,False,False,(),()
+Spanish Grand Prix,STR,3,HARD,1,1,False,False,"(2,)","(2.0,)"
+Spanish Grand Prix,HAM,3,SOFT,3,2,False,False,"(4, 7)","(4.0, 7.0)"
+Spanish Grand Prix,PIA,3,SOFT,3,2,False,False,"(4, 4)","(4.0, 4.0)"
+Spanish Grand Prix,LEC,3,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Spanish Grand Prix,PER,4,SOFT,3,3,True,True,"(4, 4, 3)","(4.0, 4.0, 3.0)"
+Austrian Grand Prix,STR,1,MEDIUM,1,0,False,False,(),()
+Austrian Grand Prix,ALO,1,MEDIUM,3,1,False,False,"(2,)","(2.0,)"
+Austrian Grand Prix,LEC,4,MEDIUM,1,0,False,False,(),()
+Austrian Grand Prix,ALO,3,HARD,1,1,False,False,"(3,)","(3.0,)"
+Austrian Grand Prix,STR,3,HARD,1,1,False,False,"(16,)","(16.0,)"
+Austrian Grand Prix,VER,3,MEDIUM,3,0,False,False,(),()
+Austrian Grand Prix,PER,3,MEDIUM,5,0,False,False,(),()
+Austrian Grand Prix,LEC,5,MEDIUM,6,0,False,False,(),()
+British Grand Prix,NOR,3,SOFT,2,1,True,True,"(2,)","(2.0,)"
+British Grand Prix,ZHO,5,SOFT,1,1,False,False,"(2,)","(2.0,)"
+British Grand Prix,HUL,3,SOFT,3,1,True,True,"(3,)","(3.0,)"
+British Grand Prix,SAI,4,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Hungarian Grand Prix,BOT,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,STR,1,SOFT,3,1,False,False,"(4,)","(4.0,)"
+Hungarian Grand Prix,ZHO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,ALO,1,SOFT,2,1,True,True,"(2,)","(2.0,)"
+Hungarian Grand Prix,ALO,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,STR,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,NOR,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,PIA,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,ALO,3,HARD,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,NOR,3,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,STR,3,HARD,1,1,False,False,"(2,)","(2.0,)"
+Hungarian Grand Prix,PIA,3,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Belgian Grand Prix,TSU,2,HARD,1,0,False,False,(),()
+Belgian Grand Prix,RIC,3,HARD,1,1,False,False,"(2,)","(2.0,)"
+Dutch Grand Prix,RUS,3,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Italian Grand Prix,STR,1,HARD,1,0,False,False,(),()
+Italian Grand Prix,TSU,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,BOT,1,HARD,1,1,False,False,"(4,)","(4.0,)"
+Italian Grand Prix,ZHO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,ALO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,RIC,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,ALO,2,HARD,1,1,False,False,"(5,)","(5.0,)"
+Italian Grand Prix,ZHO,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,STR,2,HARD,1,0,False,False,(),()
+Italian Grand Prix,BOT,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Italian Grand Prix,ALO,3,HARD,2,1,False,False,"(5,)","(5.0,)"
+Italian Grand Prix,STR,3,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Azerbaijan Grand Prix,STR,1,MEDIUM,1,1,True,True,"(1,)","(1.0,)"
+Azerbaijan Grand Prix,RIC,1,HARD,1,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,ALO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Azerbaijan Grand Prix,TSU,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Azerbaijan Grand Prix,ZHO,1,HARD,1,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,OCO,1,HARD,3,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,BOT,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Azerbaijan Grand Prix,STR,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,BOT,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,TSU,2,HARD,1,1,False,False,"(4,)","(4.0,)"
+Azerbaijan Grand Prix,ZHO,2,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Azerbaijan Grand Prix,VER,3,SOFT,3,1,False,False,"(6,)","(6.0,)"
+Singapore Grand Prix,HAM,1,SOFT,2,1,False,False,"(3,)","(3.0,)"
+Singapore Grand Prix,ALO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Singapore Grand Prix,STR,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Singapore Grand Prix,ALO,2,HARD,1,1,False,False,"(11,)","(11.0,)"
+Singapore Grand Prix,STR,2,MEDIUM,1,1,False,False,"(10,)","(10.0,)"
+Singapore Grand Prix,RIC,4,SOFT,3,1,True,True,"(3,)","(3.0,)"
+United States Grand Prix,STR,1,HARD,1,0,False,False,(),()
+United States Grand Prix,ALO,2,HARD,1,1,False,False,"(17,)","(17.0,)"
+United States Grand Prix,OCO,3,SOFT,3,1,True,True,"(3,)","(3.0,)"
+Mexico City Grand Prix,STR,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Mexico City Grand Prix,ZHO,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Mexico City Grand Prix,ALO,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Mexico City Grand Prix,BOT,1,HARD,1,1,False,False,"(2,)","(2.0,)"
+Mexico City Grand Prix,STR,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Mexico City Grand Prix,ZHO,2,MEDIUM,1,0,False,False,(),()
+Qatar Grand Prix,RUS,1,MEDIUM,1,0,False,False,(),()
+Qatar Grand Prix,LEC,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Qatar Grand Prix,SAI,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Qatar Grand Prix,VER,3,HARD,1,0,False,False,(),()
+Qatar Grand Prix,PER,3,HARD,1,0,False,False,(),()
+Qatar Grand Prix,RUS,4,HARD,1,0,False,False,(),()
+Qatar Grand Prix,SAI,3,HARD,2,1,False,False,"(11,)","(11.0,)"
+Qatar Grand Prix,MAG,3,HARD,27,0,False,False,(),()
+Qatar Grand Prix,ALO,3,MEDIUM,6,0,False,False,(),()
+Qatar Grand Prix,TSU,3,HARD,1,0,False,False,(),()
+Qatar Grand Prix,HUL,4,MEDIUM,5,0,False,False,(),()
+Qatar Grand Prix,LAW,3,HARD,1,0,False,False,(),()
+Qatar Grand Prix,NOR,4,HARD,2,0,False,False,(),()
+Qatar Grand Prix,LEC,4,HARD,2,1,False,False,"(11,)","(11.0,)"
+Qatar Grand Prix,PIA,4,HARD,3,0,False,False,(),()
+Qatar Grand Prix,GAS,4,HARD,2,0,False,False,(),()
+Qatar Grand Prix,RUS,5,HARD,2,0,False,False,(),()
+Qatar Grand Prix,SAI,4,HARD,3,1,False,False,"(11,)","(11.0,)"
+Qatar Grand Prix,ALO,4,MEDIUM,7,0,False,False,(),()
+Qatar Grand Prix,MAG,4,HARD,28,0,False,False,(),()
+Qatar Grand Prix,TSU,4,HARD,2,0,False,False,(),()
+Qatar Grand Prix,HUL,5,MEDIUM,6,0,False,False,(),()
+Qatar Grand Prix,HAM,5,HARD,13,0,False,False,(),()
+Abu Dhabi Grand Prix,STR,1,MEDIUM,1,1,False,False,"(2,)","(2.0,)"
+Abu Dhabi Grand Prix,ALO,1,MEDIUM,1,1,False,False,"(10,)","(10.0,)"
+Abu Dhabi Grand Prix,RUS,1,MEDIUM,1,1,False,False,"(11,)","(11.0,)"
+Abu Dhabi Grand Prix,STR,2,HARD,1,1,False,False,"(2,)","(2.0,)"
+Abu Dhabi Grand Prix,ALO,2,HARD,1,2,False,False,"(2, 2)","(2.0, 2.0)"
+Abu Dhabi Grand Prix,LAW,3,HARD,1,0,False,False,(),()
+Abu Dhabi Grand Prix,LAW,4,HARD,6,0,False,False,(),()
+Abu Dhabi Grand Prix,HAM,2,MEDIUM,1,1,False,False,"(12,)","(12.0,)"
+Abu Dhabi Grand Prix,ALO,3,HARD,1,2,False,False,"(2, 2)","(2.0, 2.0)"
+Abu Dhabi Grand Prix,MAG,5,SOFT,3,1,True,True,"(3,)","(3.0,)"

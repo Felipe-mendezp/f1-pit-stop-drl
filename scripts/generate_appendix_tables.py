@@ -191,7 +191,7 @@ def table_m1():
     )
     from environment.f1_env_one_driver import F1EnvOneDriverV2Optimized
     from evaluate_qmip_vs_drl import (
-        build_qmip_params, qmip_choose_start_compound, qmip_choose_action,
+        build_qmip_params, qmip_choose_start_compound, qmip_choose_action, qmip_set_ages,
     )
     from model_loader import ModelLoader
 
@@ -220,14 +220,16 @@ def table_m1():
             if not state['started']:
                 a, t0 = qmip_choose_start_compound(
                     qp['betas_dict'], qp['time_stop'], env.n_laps,
-                    qp['qmip_to_compound'], qp['available_compounds'])
+                    qp['qmip_to_compound'], qp['available_compounds'],
+                    set_ages=qmip_set_ages(env, qp['qmip_to_compound']))
                 state['t_prev'] = [t0]; state['started'] = True
                 return a
             t_cur = qp['compound_to_qmip'].get(env.compound, 'Medium')
             a = qmip_choose_action(
                 qp['betas_dict'], qp['time_stop'], env.laps_left, t_cur,
                 env.tyre_life, state['t_prev'], env.n_laps, 0,
-                qp['qmip_to_compound'], qp['available_compounds'])
+                qp['qmip_to_compound'], qp['available_compounds'],
+                set_ages=qmip_set_ages(env, qp['qmip_to_compound']))
             if a > 0:
                 nm = qp['compound_to_qmip'].get(qp['available_compounds'][a - 1], 'Medium')
                 if nm not in state['t_prev']:

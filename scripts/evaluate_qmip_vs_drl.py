@@ -63,7 +63,7 @@ from evaluate_reward_comparison_stochastic import (
 from model_loader import ModelLoader
 
 # QMIP imports (in src/optimization/ — `src/` is on sys.path via config.py)
-from optimization.qmip import solve_MIP_GUROBI, solve_MIP_GUROBI_start, Tires
+from optimization.qmip import solve_MIP_GUROBI, solve_MIP_GUROBI_start, Tires, slot_tires
 
 # Simplified calculator for extracting betas
 from optimization.utils_qmip import extract_simplified_calculator
@@ -177,6 +177,19 @@ def build_qmip_params(loader: ModelLoader, gp_name: str) -> dict:
 # QMIP DECISION LOGIC
 # =============================================================================
 
+def qmip_set_ages(raw_env, qmip_to_compound: dict) -> Optional[dict]:
+    """Tyre sets (opt-in F1_TYRE_SETS, 2026-10-21): {"Soft": [ages], ...} of the sets the agent has left (without
+    the mounted one), read from the environment (multi-driver: agent_driver.sets; single-driver: _sets).
+    None without the flag (published QMIP: unlimited new sets)."""
+    raw_env = getattr(raw_env, 'unwrapped', raw_env)
+    sets = getattr(getattr(raw_env, 'agent_driver', None), 'sets', None)
+    if sets is None:
+        sets = getattr(raw_env, '_sets', None)
+    if sets is None:
+        return None
+    return {name: list(sets.get(num, [])) for name, num in qmip_to_compound.items()}
+
+
 def qmip_choose_start_compound(
     betas_dict: dict,
     time_stop: float,
@@ -184,11 +197,14 @@ def qmip_choose_start_compound(
     qmip_to_compound: dict,
     available_compounds: List[int],
     p: int = 3,
+    set_ages: Optional[dict] = None,
 ) -> int:
-    """Call QMIP to choose starting compound. Returns env action (1-3)."""
+    """Call QMIP to choose starting compound. Returns env action (1-3).
+    set_ages: tyre sets of the agent at the start (qmip_set_ages); None = published model."""
     _, _, _, t0_opt = solve_MIP_GUROBI_start(
         betas_dict, time_stop, n=n_laps, w_current=0,
         t_previous=[], p=p, gamma=0, N=n_laps, verbose=False,
+        **({} if set_ages is None else {'set_ages': set_ages}),
     )
     compound_num = qmip_to_compound[t0_opt]
     action = available_compounds.index(compound_num) + 1
@@ -246,6 +262,7 @@ def qmip_choose_action(
     p: int = 3,
     yf_now: Optional[int] = None,
     time_stop_yf: Optional[float] = None,
+    set_ages: Optional[dict] = None,
 ) -> int:
     """Call QMIP to decide pit/no-pit for current lap. Returns env action (0-3).
 
@@ -276,6 +293,7 @@ def qmip_choose_action(
             t_current=t_current_name, w_current=w_effective,
             t_previous=t_previous, p=p, gamma=gamma, N=n_total,
             verbose=False, time_stop_yf=time_stop_yf,
+            **({} if set_ages is None else {'set_ages': set_ages}),
         )
     except Exception as exc:
         # A persistent solver failure (e.g. Gurobi licence) must not
@@ -292,7 +310,7 @@ def qmip_choose_action(
         return 0
 
     # x[0] == 0: pit now. Find which compound from y indicators.
-    t_s = [1, 2, 3] * p
+    t_s = slot_tires(p, set_ages)
     for i, y_val in enumerate(y_values):
         if y_val > 0.5:
             tire_name = Tires[t_s[i] - 1]  # "Soft", "Medium", or "Hard"
@@ -344,6 +362,7 @@ def run_single_race_qmip(
     action, t0_name = qmip_choose_start_compound(
         betas_dict, time_stop, raw_env.n_laps,
         qmip_to_compound, available_compounds, p=p,
+        set_ages=qmip_set_ages(raw_env, qmip_to_compound),
     )
     obs, reward, terminated, truncated, info = raw_env.step(action)
     total_reward = reward
@@ -367,6 +386,7 @@ def run_single_race_qmip(
             t_current_name, w_current, t_previous, n_total, gamma,
             qmip_to_compound, available_compounds, p=p, yf_now=yf_now,
             time_stop_yf=qmip_params.get('time_stop_yf'),
+            set_ages=qmip_set_ages(raw_env, qmip_to_compound),
         )
 
         obs, reward, terminated, truncated, info = raw_env.step(action)

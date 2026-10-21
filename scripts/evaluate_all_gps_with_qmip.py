@@ -49,6 +49,7 @@ from evaluate_qmip_vs_drl import (
     build_qmip_params,
     qmip_choose_start_compound,
     qmip_choose_action,
+    qmip_set_ages,
     qmip_gamma,
 )
 from model_loader import ModelLoader
@@ -142,6 +143,7 @@ def run_single_race_qmip_real(
     action, t0_name = qmip_choose_start_compound(
         betas_dict, time_stop, raw_env.n_laps,
         qmip_to_compound, available_compounds, p=p,
+        set_ages=qmip_set_ages(raw_env, qmip_to_compound),
     )
     obs, reward, terminated, truncated, info = raw_env.step(action)
     total_reward = reward
@@ -163,6 +165,7 @@ def run_single_race_qmip_real(
             t_current_name, w_current, t_previous, n_total, gamma,
             qmip_to_compound, available_compounds, p=p, yf_now=yf_now,
             time_stop_yf=qmip_params.get('time_stop_yf'),
+            set_ages=qmip_set_ages(raw_env, qmip_to_compound),
         )
 
         obs, reward, terminated, truncated, info = raw_env.step(action)

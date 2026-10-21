@@ -16,6 +16,8 @@
 #     sbatch --job-name=f1od7 --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v7.tsv
 # 2026-10-19 v8 (v7 + penalizaciones del multi-piloto y accion 0 en la vuelta 0 = medio; scripts/one_driver_v8_20261019.py):
 #     sbatch --job-name=f1od8 --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v8.tsv
+# 2026-10-21 v9 (v8 + juegos de neumaticos reales 2024, F1_TYRE_SETS; scripts/make_tasks_v9_20261021.py):
+#     sbatch --job-name=f1od9 --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v9.tsv
 # (4 h hasta el 2026-10-12: 5 tareas de f1od se cortaron por tiempo, todas en mn021/mn023)
 #SBATCH --exclude=mn021,mn023
 # 2026-10-12: se excluyen mn021 y mn023 (lentos: ahi se cortaron por tiempo f1v5o 140/145 y f1od

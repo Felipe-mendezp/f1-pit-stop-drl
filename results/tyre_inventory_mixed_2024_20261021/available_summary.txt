@@ -1,0 +1,69 @@
+devoluciones Lapchive emparejadas (grupos piloto x GP x compuesto x sesion): 1372; {'direct': 1198, 'ambiguous': 109, 'short': 65}; devoluciones sin juego nuestro: 65
+juegos usados antes de la carrera: 4239; devueltos: 1723 ({'direct': 1357, 'sprint rule': 214, 'ambiguous': 111, 'short': 41}); disponibles usados: 2516
+
+promedio por piloto y GP de juegos disponibles al inicio de la carrera:
+                  New  UsedKept  Returned
+Sprint Compound                          
+False  HARD      1.26      0.26      0.47
+       MEDIUM    1.16      0.45      1.41
+       SOFT      1.48      4.26      2.31
+True   HARD      1.55      0.00      0.45
+       MEDIUM    1.31      2.14      0.58
+       SOFT      1.41      3.92      0.68
+
+tandas de carrera con juego usado que calzan con un juego previo: 176; ese juego sigue disponible tras las devoluciones: 0.892 (edad >= 3: 1.000, n=51)
+                      GP Driver  Stint  Lap0 Compound  Age0
+    Abu Dhabi Grand Prix    HAM      2  35.0   MEDIUM   1.0
+    Abu Dhabi Grand Prix    RUS      1   1.0   MEDIUM   1.0
+     Austrian Grand Prix    ALO      2  12.0   MEDIUM   1.0
+     Austrian Grand Prix    ALO      3  36.0     HARD   1.0
+     Austrian Grand Prix    STR      1   1.0   MEDIUM   1.0
+     Austrian Grand Prix    STR      3  44.0     HARD   1.0
+      Chinese Grand Prix    PIA      2  17.0   MEDIUM   1.0
+    Hungarian Grand Prix    STR      2  15.0   MEDIUM   1.0
+  Mexico City Grand Prix    ALO      1   1.0   MEDIUM   1.0
+        Miami Grand Prix    ALO      1   1.0     HARD   1.0
+        Miami Grand Prix    ALO      2  23.0   MEDIUM   1.0
+        Miami Grand Prix    STR      1   1.0   MEDIUM   1.0
+        Miami Grand Prix    STR      2  12.0     HARD   1.0
+        Qatar Grand Prix    LEC      1   1.0   MEDIUM   1.0
+        Qatar Grand Prix    SAI      1   1.0   MEDIUM   1.0
+    Singapore Grand Prix    ALO      2  26.0     HARD   1.0
+    Singapore Grand Prix    STR      2  27.0   MEDIUM   1.0
+United States Grand Prix    ALO      2  27.0     HARD   1.0
+United States Grand Prix    STR      1   1.0     HARD   1.0
+
+tandas de carrera con juego nuevo: 947; celdas con mas juegos nuevos usados que disponibles: 17 de 796
+                       GP Driver Compound  FreshRace  New
+     Abu Dhabi Grand Prix    PER   MEDIUM          1    0
+     Abu Dhabi Grand Prix    RIC   MEDIUM          1    0
+     Abu Dhabi Grand Prix    SAR   MEDIUM          1    0
+     Abu Dhabi Grand Prix    ZHO   MEDIUM          1    0
+       Chinese Grand Prix    MAG   MEDIUM          1    0
+Emilia Romagna Grand Prix    ALB     HARD          1    0
+Emilia Romagna Grand Prix    LEC     HARD          1    0
+Emilia Romagna Grand Prix    RIC     HARD          1    0
+Emilia Romagna Grand Prix    TSU     HARD          1    0
+     Las Vegas Grand Prix    TSU   MEDIUM          1    0
+        Monaco Grand Prix    VER   MEDIUM          1    0
+         Qatar Grand Prix    BOT   MEDIUM          1    0
+         Qatar Grand Prix    GAS   MEDIUM          1    0
+         Qatar Grand Prix    HAM   MEDIUM          1    0
+         Qatar Grand Prix    HUL   MEDIUM          1    0
+         Qatar Grand Prix    MAG   MEDIUM          1    0
+ Saudi Arabian Grand Prix    PER     HARD          1    0
+
+compuestos usados en carrera sin ningun juego disponible: 6 de 928
+                      GP Driver Compound  RaceStints  New  UsedKept
+     Austrian Grand Prix    ALO     HARD           1  0.0       0.0
+     Austrian Grand Prix    STR     HARD           1  0.0       0.0
+        Miami Grand Prix    ALO     HARD           1  0.0       0.0
+        Miami Grand Prix    STR     HARD           1  0.0       0.0
+United States Grand Prix    ALO     HARD           1  0.0       0.0
+United States Grand Prix    STR     HARD           1  0.0       0.0
+
+juegos disponibles por piloto y GP (los 3 compuestos):
+        count   mean   std  min   25%   50%   75%   max
+Sprint                                                 
+False   360.0   8.86  1.55  7.0   8.0   9.0  10.0  14.0
+True    120.0  10.26  0.56  9.0  10.0  10.0  11.0  11.0

@@ -20,7 +20,8 @@ import os
 from typing import Dict, Tuple, List, Optional
 import numpy as np
 from gymnasium import Env
-from gymnasium.spaces import Dict as GymDict, Discrete
+from gymnasium.spaces import Dict as GymDict, Discrete, Box
+import tyre_sets
 from optimization.utils_qmip import (
     extract_simplified_calculator,
     SimplifiedLaptimeCalculator,
@@ -55,6 +56,7 @@ class F1EnvOneDriverV2Optimized(Env):
         'laps_left', 'prev_action', 'current_action', 'initial_compound',
         'total_time', 'lap_state', 'prev_compound', 'pit_in_flag', 'pit_out_flag',
         'pit_stop_count', 'compounds_used',
+        '_tyre_sets', '_sets', '_sets_start', '_no_set_penalty',
         '_obs_cache', 'observation_space', 'action_space'
     )
 
@@ -110,6 +112,16 @@ class F1EnvOneDriverV2Optimized(Env):
         _l0p = os.environ.get('F1_ONE_DRIVER_LAP0_PENALTY')
         self._lap0_penalty = float(_l0p) if _l0p else self._penalty_invalid
 
+        # Tyre sets (opt-in F1_TYRE_SETS, 2026-10-21, see src/tyre_sets.py): the generic driver gets the real 2024
+        # sets of the multi-driver agent of the GP (tyre_sets.ONE_DRIVER_SETS_OF); each stint takes the least-worn
+        # set of the chosen compound and starts at its age; a stop to a compound with no set left does not happen
+        # and is penalised (F1_NO_SET_PENALTY).
+        self._tyre_sets = tyre_sets.enabled()
+        self._no_set_penalty = tyre_sets.no_set_penalty()
+        self._sets_start = (tyre_sets.sets_for(gp, tyre_sets.ONE_DRIVER_SETS_OF[gp], self.available_compounds)
+                            if self._tyre_sets else None)
+        self._sets = None
+
         # Set de early laps (inmutable, mas rapido que list)
         self._early_laps_set = frozenset([1, 2, 3, 4, 5])
 
@@ -148,6 +160,11 @@ class F1EnvOneDriverV2Optimized(Env):
             "laps_left": Discrete(n_laps + 1),
             "prev_action": Discrete(self.max_compound + 1),
         })
+        if self._tyre_sets:
+            self.observation_space.spaces["tyre_life"] = Discrete(n_laps + 1 + tyre_sets.MAX_AGE)
+            self.observation_space.spaces["tyre_sets"] = Box(
+                low=0, high=float(tyre_sets.MAX_AGE), shape=(2 * self._n_compounds,), dtype=np.float32)
+            self._obs_cache["tyre_sets"] = np.zeros(2 * self._n_compounds, dtype=np.float32)
 
         # Action space: 0 (no pit) + 1-3 (softest to hardest available compound)
         # Fixed 4 actions that map dynamically to available compounds
@@ -174,6 +191,8 @@ class F1EnvOneDriverV2Optimized(Env):
         self.change_compound = False
         self.total_time = 0.0
         self.lap_state = None
+        if self._tyre_sets:
+            self._sets = {c: list(v) for c, v in self._sets_start.items()}
 
         # PHASE 2: Reset enhanced tracking
         # self.pit_stop_count = 0
@@ -187,6 +206,9 @@ class F1EnvOneDriverV2Optimized(Env):
         cache["tyre_life"] = 0
         cache["prev_action"] = 0
         cache["change_compound"] = 0
+        if self._tyre_sets:
+            cache["tyre_sets"] = np.asarray(tyre_sets.observation(self._sets, self.available_compounds),
+                                            dtype=np.float32)
 
         # Retornar dict directamente (Gymnasium hace la copia internamente si es necesario)
         return dict(cache), {}
@@ -207,6 +229,12 @@ class F1EnvOneDriverV2Optimized(Env):
             # Invalid action (should not happen with Discrete(4) and 3 compounds)
             self._update_obs_cache()
             return dict(self._obs_cache), self._penalty_invalid, False, False, {}
+
+        # Tyre sets (opt-in): no stop (and a penalty) when the compound has no set left
+        no_set = 0.0
+        if self._tyre_sets and pit_compound and not self._sets.get(pit_compound):
+            pit_compound = 0
+            no_set = self._no_set_penalty
 
         # PASO 1: Determinar PitIn para esta vuelta
         pit_in = 1.0 if pit_compound > 0 else 0.0
@@ -235,6 +263,9 @@ class F1EnvOneDriverV2Optimized(Env):
             old_compound = self.compound
             self.tyre_life = 0
             self.compound = pit_compound
+            if self._tyre_sets:
+                age = tyre_sets.take(self._sets, pit_compound)
+                self.tyre_life = 0 if age is None else age
 
             # Mark compound change if different from initial (and not from compound 0)
             if pit_compound != old_compound and old_compound != 0:
@@ -266,6 +297,8 @@ class F1EnvOneDriverV2Optimized(Env):
 
         # Calcular reward con penalizaciones (replicando logica original exacta)
         reward = -lap_time
+        if no_set:
+            reward += no_set
 
         # Apply penalties for invalid strategies
         if done and not self.change_compound:
@@ -307,6 +340,16 @@ class F1EnvOneDriverV2Optimized(Env):
             self._update_obs_cache()
             return dict(self._obs_cache), self._penalty_invalid, False, False, {}
 
+        # Tyre sets (opt-in): least-worn set of the chosen compound (none left: penalty, middle compound with sets)
+        if self._tyre_sets:
+            if not self._sets.get(compound):
+                penalty += self._no_set_penalty
+                ok = [c for c in self.available_compounds if self._sets.get(c)]
+                mid = self.available_compounds[self._n_compounds // 2]
+                compound = mid if mid in ok else (ok[0] if ok else compound)
+            age = tyre_sets.take(self._sets, compound)
+            self.tyre_life = 0 if age is None else age
+
         # Set compound (batch updates)
         self.compound = compound
         self.initial_compound = compound
@@ -342,6 +385,10 @@ class F1EnvOneDriverV2Optimized(Env):
         cache["lap_number"] = self.lap_number
         cache["laps_left"] = self.laps_left
         cache["prev_action"] = self.prev_action
+        if self._tyre_sets:
+            # new array each step: step() returns a shallow copy of the cache
+            cache["tyre_sets"] = np.asarray(tyre_sets.observation(self._sets, self.available_compounds),
+                                            dtype=np.float32)
 
     def _log_predictor_info(self) -> None:
         """Log information about the simplified calculator."""

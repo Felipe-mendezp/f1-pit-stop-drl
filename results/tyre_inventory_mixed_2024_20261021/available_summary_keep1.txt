@@ -1,0 +1,48 @@
+devoluciones Lapchive emparejadas (grupos piloto x GP x compuesto x sesion): 1372; {'direct': 1198, 'ambiguous': 109, 'short': 65}; devoluciones sin juego nuestro: 65
+juegos usados antes de la carrera: 4239; devueltos: 1694 ({'direct': 1343, 'sprint rule': 199, 'ambiguous': 111, 'short': 41}); disponibles usados: 2545
+
+promedio por piloto y GP de juegos disponibles al inicio de la carrera:
+                  New  UsedKept  Returned
+Sprint Compound                          
+False  HARD      1.26      0.27      0.47
+       MEDIUM    1.16      0.47      1.39
+       SOFT      1.48      4.27      2.30
+True   HARD      1.48      0.07      0.46
+       MEDIUM    1.31      2.20      0.52
+       SOFT      1.41      3.92      0.68
+
+tandas de carrera con juego usado que calzan con un juego previo: 176; ese juego sigue disponible tras las devoluciones: 1.000 (edad >= 3: 1.000, n=51)
+Empty DataFrame
+Columns: [GP, Driver, Stint, Lap0, Compound, Age0]
+Index: []
+
+tandas de carrera con juego nuevo: 947; celdas con mas juegos nuevos usados que disponibles: 17 de 796
+                       GP Driver Compound  FreshRace  New
+     Abu Dhabi Grand Prix    PER   MEDIUM          1    0
+     Abu Dhabi Grand Prix    RIC   MEDIUM          1    0
+     Abu Dhabi Grand Prix    SAR   MEDIUM          1    0
+     Abu Dhabi Grand Prix    ZHO   MEDIUM          1    0
+       Chinese Grand Prix    MAG   MEDIUM          1    0
+Emilia Romagna Grand Prix    ALB     HARD          1    0
+Emilia Romagna Grand Prix    LEC     HARD          1    0
+Emilia Romagna Grand Prix    RIC     HARD          1    0
+Emilia Romagna Grand Prix    TSU     HARD          1    0
+     Las Vegas Grand Prix    TSU   MEDIUM          1    0
+        Monaco Grand Prix    VER   MEDIUM          1    0
+         Qatar Grand Prix    BOT   MEDIUM          1    0
+         Qatar Grand Prix    GAS   MEDIUM          1    0
+         Qatar Grand Prix    HAM   MEDIUM          1    0
+         Qatar Grand Prix    HUL   MEDIUM          1    0
+         Qatar Grand Prix    MAG   MEDIUM          1    0
+ Saudi Arabian Grand Prix    PER     HARD          1    0
+
+compuestos usados en carrera sin ningun juego disponible: 0 de 928
+Empty DataFrame
+Columns: [GP, Driver, Compound, RaceStints, New, UsedKept]
+Index: []
+
+juegos disponibles por piloto y GP (los 3 compuestos):
+        count   mean   std   min   25%   50%   75%   max
+Sprint                                                  
+False   360.0   8.90  1.57   7.0   8.0   9.0  10.0  14.0
+True    120.0  10.38  0.49  10.0  10.0  10.0  11.0  11.0

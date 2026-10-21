@@ -1,0 +1,1373 @@
+GP,Driver,Compound,Session,LapchiveReturned,Candidates,Kind,LapchiveLaps,OurReturnedLaps
+Abu Dhabi Grand Prix,ALB,MEDIUM,Practice 2,2,1,short,3 10,10
+Abu Dhabi Grand Prix,ALB,SOFT,Practice 3,2,2,direct,11 11,6 9
+Abu Dhabi Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,20,16
+Abu Dhabi Grand Prix,ALO,MEDIUM,Practice 2,1,2,ambiguous,10,9
+Abu Dhabi Grand Prix,ALO,SOFT,Practice 2,1,2,ambiguous,7,6
+Abu Dhabi Grand Prix,ALO,SOFT,Practice 3,2,2,direct,7 19,6 11
+Abu Dhabi Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,10,17
+Abu Dhabi Grand Prix,BOT,SOFT,Practice 1,1,1,direct,18,16
+Abu Dhabi Grand Prix,BOT,SOFT,Practice 2,1,1,direct,10,7
+Abu Dhabi Grand Prix,BOT,SOFT,Practice 3,2,2,direct,9 14,7 9
+Abu Dhabi Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,16,14
+Abu Dhabi Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,12,21
+Abu Dhabi Grand Prix,GAS,SOFT,Practice 1,1,1,direct,12,10
+Abu Dhabi Grand Prix,GAS,SOFT,Practice 3,2,2,direct,8 15,8 9
+Abu Dhabi Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,23,21
+Abu Dhabi Grand Prix,HAM,MEDIUM,Practice 3,1,1,direct,13,1
+Abu Dhabi Grand Prix,HAM,SOFT,Practice 1,1,1,direct,8,6
+Abu Dhabi Grand Prix,HAM,SOFT,Practice 2,1,2,ambiguous,8,3
+Abu Dhabi Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,15,9
+Abu Dhabi Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,10,17
+Abu Dhabi Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,13,11
+Abu Dhabi Grand Prix,HUL,SOFT,Practice 1,1,1,direct,8,6
+Abu Dhabi Grand Prix,HUL,SOFT,Practice 2,1,3,ambiguous,19,11
+Abu Dhabi Grand Prix,HUL,SOFT,Practice 3,2,2,direct,8 12,6 8
+Abu Dhabi Grand Prix,LEC,MEDIUM,Practice 2,2,1,short,11 13,23
+Abu Dhabi Grand Prix,LEC,SOFT,Practice 1,1,1,direct,10,10
+Abu Dhabi Grand Prix,LEC,SOFT,Practice 3,2,2,direct,7 21,8 12
+Abu Dhabi Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,20,19
+Abu Dhabi Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,12,19
+Abu Dhabi Grand Prix,MAG,SOFT,Practice 1,1,1,direct,8,6
+Abu Dhabi Grand Prix,MAG,SOFT,Practice 2,1,1,direct,8,6
+Abu Dhabi Grand Prix,MAG,SOFT,Practice 3,2,2,direct,9 11,5 9
+Abu Dhabi Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,22,20
+Abu Dhabi Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,10,17
+Abu Dhabi Grand Prix,NOR,SOFT,Practice 1,1,1,direct,6,5
+Abu Dhabi Grand Prix,NOR,SOFT,Practice 2,1,2,ambiguous,7,5
+Abu Dhabi Grand Prix,NOR,SOFT,Practice 3,2,2,direct,4 18,7 8
+Abu Dhabi Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,20,18
+Abu Dhabi Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,11,17
+Abu Dhabi Grand Prix,OCO,SOFT,Practice 2,1,2,ambiguous,7,6
+Abu Dhabi Grand Prix,OCO,SOFT,Practice 3,2,2,direct,9 15,8 9
+Abu Dhabi Grand Prix,PER,MEDIUM,Practice 1,1,1,direct,21,20
+Abu Dhabi Grand Prix,PER,MEDIUM,Practice 2,1,2,ambiguous,12,4
+Abu Dhabi Grand Prix,PER,SOFT,Practice 1,1,1,direct,8,6
+Abu Dhabi Grand Prix,PER,SOFT,Practice 2,1,1,direct,8,6
+Abu Dhabi Grand Prix,PER,SOFT,Practice 3,2,2,direct,8 15,8 9
+Abu Dhabi Grand Prix,PIA,MEDIUM,Practice 2,2,1,short,10 11,19
+Abu Dhabi Grand Prix,PIA,SOFT,Practice 3,2,2,direct,8 19,7 9
+Abu Dhabi Grand Prix,RIC,HARD,Practice 3,1,1,direct,11,10
+Abu Dhabi Grand Prix,RIC,MEDIUM,Practice 1,1,2,ambiguous,22,19
+Abu Dhabi Grand Prix,RIC,MEDIUM,Practice 2,1,2,ambiguous,10,10
+Abu Dhabi Grand Prix,RIC,SOFT,Practice 1,1,2,ambiguous,10,8
+Abu Dhabi Grand Prix,RIC,SOFT,Practice 2,1,1,direct,8,6
+Abu Dhabi Grand Prix,RIC,SOFT,Practice 3,1,1,direct,10,9
+Abu Dhabi Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,23,21
+Abu Dhabi Grand Prix,RUS,MEDIUM,Practice 3,1,1,direct,13,1
+Abu Dhabi Grand Prix,RUS,SOFT,Practice 3,1,2,ambiguous,16,11
+Abu Dhabi Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,12,22
+Abu Dhabi Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,15,13
+Abu Dhabi Grand Prix,SAI,SOFT,Practice 2,1,1,direct,8,6
+Abu Dhabi Grand Prix,SAI,SOFT,Practice 3,1,1,direct,8,8
+Abu Dhabi Grand Prix,SAR,MEDIUM,Practice 1,1,2,ambiguous,21,19
+Abu Dhabi Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,8,7
+Abu Dhabi Grand Prix,SAR,SOFT,Practice 3,2,2,direct,10 15,6 9
+Abu Dhabi Grand Prix,STR,MEDIUM,Practice 2,2,1,short,12 12,23
+Abu Dhabi Grand Prix,STR,SOFT,Practice 3,2,2,direct,8 20,7 11
+Abu Dhabi Grand Prix,TSU,HARD,Practice 3,1,1,direct,10,9
+Abu Dhabi Grand Prix,TSU,MEDIUM,Practice 2,2,2,direct,10 12,10 11
+Abu Dhabi Grand Prix,TSU,SOFT,Practice 3,1,1,direct,9,9
+Abu Dhabi Grand Prix,VER,MEDIUM,Practice 2,2,1,short,12 14,23
+Abu Dhabi Grand Prix,VER,SOFT,Practice 1,2,2,direct,15 15,7 15
+Abu Dhabi Grand Prix,VER,SOFT,Practice 3,2,1,short,7 7,8
+Abu Dhabi Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,18,15
+Abu Dhabi Grand Prix,ZHO,MEDIUM,Practice 2,1,2,ambiguous,11,11
+Abu Dhabi Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,9,8
+Abu Dhabi Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,9 14,7 9
+Australian Grand Prix,ALB,MEDIUM,Practice 3,1,1,direct,13,13
+Australian Grand Prix,ALB,SOFT,Practice 1,1,0,short,2,
+Australian Grand Prix,ALB,SOFT,Practice 3,1,1,direct,12,10
+Australian Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,13,10
+Australian Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,16,20
+Australian Grand Prix,ALO,SOFT,Practice 2,1,1,direct,12,11
+Australian Grand Prix,ALO,SOFT,Practice 3,2,2,direct,12 14,8 9
+Australian Grand Prix,BOT,MEDIUM,Practice 1,1,1,direct,22,19
+Australian Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,26,25
+Australian Grand Prix,BOT,SOFT,Practice 2,1,1,direct,9,7
+Australian Grand Prix,BOT,SOFT,Practice 3,2,2,direct,6 19,9 9
+Australian Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,19,17
+Australian Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,24,22
+Australian Grand Prix,GAS,SOFT,Practice 2,1,1,direct,12,11
+Australian Grand Prix,GAS,SOFT,Practice 3,2,2,direct,8 20,9 10
+Australian Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,12,11
+Australian Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,18,16
+Australian Grand Prix,HAM,SOFT,Practice 1,1,1,direct,10,9
+Australian Grand Prix,HAM,SOFT,Practice 3,2,2,direct,14 18,9 11
+Australian Grand Prix,HUL,MEDIUM,Practice 2,2,1,short,8 21,18
+Australian Grand Prix,HUL,SOFT,Practice 3,2,2,direct,11 17,8 9
+Australian Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,11,20
+Australian Grand Prix,LEC,MEDIUM,Practice 3,1,1,direct,17,14
+Australian Grand Prix,LEC,SOFT,Practice 1,2,2,direct,14 17,7 14
+Australian Grand Prix,LEC,SOFT,Practice 2,1,1,direct,8,6
+Australian Grand Prix,LEC,SOFT,Practice 3,1,1,direct,8,8
+Australian Grand Prix,MAG,MEDIUM,Practice 2,2,1,short,9 24,24
+Australian Grand Prix,MAG,SOFT,Practice 3,2,2,direct,11 17,7 11
+Australian Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,12,10
+Australian Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,18,17
+Australian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,15,13
+Australian Grand Prix,NOR,SOFT,Practice 3,2,2,direct,12 18,9 11
+Australian Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,15,13
+Australian Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,24,23
+Australian Grand Prix,OCO,SOFT,Practice 1,1,1,direct,14,12
+Australian Grand Prix,OCO,SOFT,Practice 2,1,1,direct,10,9
+Australian Grand Prix,OCO,SOFT,Practice 3,1,2,ambiguous,19,10
+Australian Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,23,20
+Australian Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,23,20
+Australian Grand Prix,PER,SOFT,Practice 1,1,2,ambiguous,26,16
+Australian Grand Prix,PER,SOFT,Practice 2,1,1,direct,10,13
+Australian Grand Prix,PER,SOFT,Practice 3,1,1,direct,9,8
+Australian Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,12,18
+Australian Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,20,19
+Australian Grand Prix,PIA,SOFT,Practice 1,1,1,direct,8,7
+Australian Grand Prix,PIA,SOFT,Practice 2,1,1,direct,6,10
+Australian Grand Prix,PIA,SOFT,Practice 3,1,2,ambiguous,20,10
+Australian Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,13,12
+Australian Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,26,24
+Australian Grand Prix,RIC,SOFT,Practice 1,1,1,direct,15,13
+Australian Grand Prix,RIC,SOFT,Practice 2,1,1,direct,7,6
+Australian Grand Prix,RIC,SOFT,Practice 3,1,2,ambiguous,23,10
+Australian Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,13,11
+Australian Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,18,17
+Australian Grand Prix,RUS,SOFT,Practice 2,1,1,direct,8,7
+Australian Grand Prix,RUS,SOFT,Practice 3,2,2,direct,14 22,10 13
+Australian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,20,19
+Australian Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,15,13
+Australian Grand Prix,SAI,SOFT,Practice 1,2,2,direct,11 13,7 13
+Australian Grand Prix,SAI,SOFT,Practice 2,1,1,direct,10,6
+Australian Grand Prix,SAI,SOFT,Practice 3,1,1,direct,8,7
+Australian Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,18,17
+Australian Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,8,7
+Australian Grand Prix,SAR,SOFT,Practice 2,1,1,direct,17,16
+Australian Grand Prix,SAR,SOFT,Practice 3,1,0,short,7,
+Australian Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,13,19
+Australian Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,20,18
+Australian Grand Prix,STR,SOFT,Practice 2,1,1,direct,22,11
+Australian Grand Prix,STR,SOFT,Practice 3,2,2,direct,14 16,8 11
+Australian Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,22,21
+Australian Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,22,21
+Australian Grand Prix,TSU,SOFT,Practice 1,1,1,direct,6,5
+Australian Grand Prix,TSU,SOFT,Practice 2,1,1,direct,7,6
+Australian Grand Prix,TSU,SOFT,Practice 3,1,2,ambiguous,22,11
+Australian Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,16,15
+Australian Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,20,18
+Australian Grand Prix,VER,SOFT,Practice 1,1,2,ambiguous,18,12
+Australian Grand Prix,VER,SOFT,Practice 2,1,1,direct,8,6
+Australian Grand Prix,VER,SOFT,Practice 3,1,1,direct,10,10
+Australian Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,18,16
+Australian Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,25,24
+Australian Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,10,7
+Australian Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,11,8
+Australian Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,10 14,8 9
+Azerbaijan Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,11,8
+Azerbaijan Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,20,18
+Azerbaijan Grand Prix,ALB,SOFT,Practice 1,1,1,direct,10,9
+Azerbaijan Grand Prix,ALB,SOFT,Practice 3,2,2,direct,11 14,4 10
+Azerbaijan Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,14,11
+Azerbaijan Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,23,22
+Azerbaijan Grand Prix,ALO,SOFT,Practice 1,1,1,direct,8,8
+Azerbaijan Grand Prix,ALO,SOFT,Practice 3,2,2,direct,5 13,5 7
+Azerbaijan Grand Prix,BOT,MEDIUM,Practice 1,1,1,direct,11,9
+Azerbaijan Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,21,20
+Azerbaijan Grand Prix,BOT,SOFT,Practice 1,1,1,direct,10,9
+Azerbaijan Grand Prix,BOT,SOFT,Practice 3,2,2,direct,8 15,6 9
+Azerbaijan Grand Prix,GAS,HARD,Practice 1,1,1,direct,12,10
+Azerbaijan Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,12,11
+Azerbaijan Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,17,16
+Azerbaijan Grand Prix,GAS,SOFT,Practice 3,2,2,direct,7 18,7 8
+Azerbaijan Grand Prix,HAM,HARD,Practice 2,1,1,direct,16,14
+Azerbaijan Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,11,9
+Azerbaijan Grand Prix,HAM,SOFT,Practice 1,1,1,direct,11,10
+Azerbaijan Grand Prix,HAM,SOFT,Practice 2,1,1,direct,10,8
+Azerbaijan Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,15,8
+Azerbaijan Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,18,16
+Azerbaijan Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,19,18
+Azerbaijan Grand Prix,HUL,SOFT,Practice 1,1,1,direct,5,4
+Azerbaijan Grand Prix,HUL,SOFT,Practice 2,1,1,direct,7,6
+Azerbaijan Grand Prix,HUL,SOFT,Practice 3,1,2,ambiguous,15,7
+Azerbaijan Grand Prix,LEC,MEDIUM,Practice 1,1,1,direct,12,11
+Azerbaijan Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,17,15
+Azerbaijan Grand Prix,LEC,SOFT,Practice 3,2,2,direct,8 14,8 9
+Azerbaijan Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,21,19
+Azerbaijan Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,20,19
+Azerbaijan Grand Prix,MAG,SOFT,Practice 1,1,1,direct,5,4
+Azerbaijan Grand Prix,MAG,SOFT,Practice 2,1,1,direct,6,5
+Azerbaijan Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,18,15
+Azerbaijan Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,16,14
+Azerbaijan Grand Prix,NOR,SOFT,Practice 2,1,1,direct,11,11
+Azerbaijan Grand Prix,NOR,SOFT,Practice 3,2,2,direct,8 16,6 9
+Azerbaijan Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,17,16
+Azerbaijan Grand Prix,OCO,SOFT,Practice 2,1,1,direct,9,8
+Azerbaijan Grand Prix,OCO,SOFT,Practice 3,1,1,direct,1,1
+Azerbaijan Grand Prix,PER,MEDIUM,Practice 2,2,1,short,9 19,20
+Azerbaijan Grand Prix,PER,SOFT,Practice 1,1,1,direct,13,11
+Azerbaijan Grand Prix,PER,SOFT,Practice 3,2,2,direct,7 15,4 12
+Azerbaijan Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,19,19
+Azerbaijan Grand Prix,PIA,SOFT,Practice 1,1,1,direct,9,6
+Azerbaijan Grand Prix,PIA,SOFT,Practice 2,1,1,direct,8,6
+Azerbaijan Grand Prix,PIA,SOFT,Practice 3,2,2,direct,9 13,6 8
+Azerbaijan Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,21,19
+Azerbaijan Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,22,21
+Azerbaijan Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,2,1
+Azerbaijan Grand Prix,RIC,SOFT,Practice 1,1,1,direct,5,4
+Azerbaijan Grand Prix,RIC,SOFT,Practice 2,1,1,direct,7,5
+Azerbaijan Grand Prix,RIC,SOFT,Practice 3,1,2,ambiguous,17,8
+Azerbaijan Grand Prix,RUS,HARD,Practice 2,1,1,direct,13,12
+Azerbaijan Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,13,11
+Azerbaijan Grand Prix,RUS,SOFT,Practice 1,1,1,direct,7,7
+Azerbaijan Grand Prix,RUS,SOFT,Practice 3,2,2,direct,6 16,6 9
+Azerbaijan Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,17,14
+Azerbaijan Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,20,19
+Azerbaijan Grand Prix,SAI,SOFT,Practice 1,1,1,direct,7,7
+Azerbaijan Grand Prix,SAI,SOFT,Practice 3,1,2,ambiguous,20,9
+Azerbaijan Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,10,8
+Azerbaijan Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,20,19
+Azerbaijan Grand Prix,SAR,SOFT,Practice 3,2,2,direct,8 14,5 10
+Azerbaijan Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,12,10
+Azerbaijan Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,19,18
+Azerbaijan Grand Prix,STR,SOFT,Practice 1,1,1,direct,5,5
+Azerbaijan Grand Prix,STR,SOFT,Practice 2,1,1,direct,7,6
+Azerbaijan Grand Prix,STR,SOFT,Practice 3,1,2,ambiguous,18,8
+Azerbaijan Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,12,10
+Azerbaijan Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,20,19
+Azerbaijan Grand Prix,TSU,SOFT,Practice 1,1,1,direct,12,11
+Azerbaijan Grand Prix,TSU,SOFT,Practice 3,1,2,ambiguous,16,7
+Azerbaijan Grand Prix,VER,MEDIUM,Practice 1,1,1,direct,16,13
+Azerbaijan Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,19,18
+Azerbaijan Grand Prix,VER,SOFT,Practice 1,1,1,direct,7,8
+Azerbaijan Grand Prix,VER,SOFT,Practice 2,1,1,direct,8,6
+Azerbaijan Grand Prix,VER,SOFT,Practice 3,2,2,direct,7 9,7 9
+Azerbaijan Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,11,9
+Azerbaijan Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,17,16
+Azerbaijan Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,11,10
+Azerbaijan Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,11,9
+Azerbaijan Grand Prix,ZHO,SOFT,Practice 3,1,3,ambiguous,20,6
+Bahrain Grand Prix,ALB,MEDIUM,Practice 1,1,2,ambiguous,20,9
+Bahrain Grand Prix,ALB,SOFT,Practice 2,2,2,direct,11 21,6 17
+Bahrain Grand Prix,ALB,SOFT,Practice 3,2,2,direct,11 15,6 10
+Bahrain Grand Prix,ALO,MEDIUM,Practice 1,1,2,ambiguous,23,11
+Bahrain Grand Prix,ALO,SOFT,Practice 2,2,2,direct,13 15,7 15
+Bahrain Grand Prix,ALO,SOFT,Practice 3,2,2,direct,9 18,9 9
+Bahrain Grand Prix,BOT,MEDIUM,Practice 1,1,1,direct,12,9
+Bahrain Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,6,6
+Bahrain Grand Prix,BOT,SOFT,Practice 1,1,1,direct,13,12
+Bahrain Grand Prix,BOT,SOFT,Practice 2,1,1,direct,21,19
+Bahrain Grand Prix,BOT,SOFT,Practice 3,2,2,direct,10 14,7 9
+Bahrain Grand Prix,GAS,MEDIUM,Practice 1,2,2,direct,16 18,8 16
+Bahrain Grand Prix,GAS,SOFT,Practice 2,2,2,direct,14 20,6 19
+Bahrain Grand Prix,GAS,SOFT,Practice 3,1,2,ambiguous,16,8
+Bahrain Grand Prix,HAM,MEDIUM,Practice 1,2,2,direct,13 13,10 12
+Bahrain Grand Prix,HAM,MEDIUM,Practice 2,1,0,short,10,
+Bahrain Grand Prix,HAM,SOFT,Practice 2,1,2,ambiguous,28,19
+Bahrain Grand Prix,HAM,SOFT,Practice 3,2,2,direct,10 17,9 11
+Bahrain Grand Prix,HUL,MEDIUM,Practice 1,2,2,direct,17 27,10 17
+Bahrain Grand Prix,HUL,SOFT,Practice 2,2,2,direct,11 17,6 17
+Bahrain Grand Prix,HUL,SOFT,Practice 3,1,2,ambiguous,14,7
+Bahrain Grand Prix,LEC,MEDIUM,Practice 1,2,2,direct,15 18,9 15
+Bahrain Grand Prix,LEC,SOFT,Practice 2,1,2,ambiguous,29,20
+Bahrain Grand Prix,LEC,SOFT,Practice 3,1,2,ambiguous,20,11
+Bahrain Grand Prix,MAG,MEDIUM,Practice 1,1,2,ambiguous,27,17
+Bahrain Grand Prix,MAG,SOFT,Practice 2,2,2,direct,14 21,6 21
+Bahrain Grand Prix,MAG,SOFT,Practice 3,1,2,ambiguous,23,13
+Bahrain Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,11,9
+Bahrain Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,10,9
+Bahrain Grand Prix,NOR,SOFT,Practice 1,1,1,direct,17,16
+Bahrain Grand Prix,NOR,SOFT,Practice 2,1,1,direct,18,16
+Bahrain Grand Prix,NOR,SOFT,Practice 3,2,2,direct,6 12,6 6
+Bahrain Grand Prix,OCO,MEDIUM,Practice 1,2,2,direct,13 17,8 13
+Bahrain Grand Prix,OCO,SOFT,Practice 2,2,2,direct,14 19,6 19
+Bahrain Grand Prix,OCO,SOFT,Practice 3,1,2,ambiguous,13,6
+Bahrain Grand Prix,PER,HARD,Practice 3,1,1,direct,10,7
+Bahrain Grand Prix,PER,MEDIUM,Practice 1,2,2,direct,15 19,9 15
+Bahrain Grand Prix,PER,SOFT,Practice 2,2,2,direct,12 20,6 20
+Bahrain Grand Prix,PER,SOFT,Practice 3,1,1,direct,11,10
+Bahrain Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,21,20
+Bahrain Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,12,11
+Bahrain Grand Prix,PIA,SOFT,Practice 2,1,1,direct,18,16
+Bahrain Grand Prix,PIA,SOFT,Practice 3,2,2,direct,9 13,6 7
+Bahrain Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,11,10
+Bahrain Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,6,5
+Bahrain Grand Prix,RIC,SOFT,Practice 1,1,1,direct,15,13
+Bahrain Grand Prix,RIC,SOFT,Practice 2,1,1,direct,22,21
+Bahrain Grand Prix,RIC,SOFT,Practice 3,1,2,ambiguous,16,7
+Bahrain Grand Prix,RUS,MEDIUM,Practice 1,2,2,direct,16 17,9 16
+Bahrain Grand Prix,RUS,SOFT,Practice 2,2,2,direct,12 17,6 17
+Bahrain Grand Prix,RUS,SOFT,Practice 3,1,2,ambiguous,12,6
+Bahrain Grand Prix,SAI,MEDIUM,Practice 1,1,2,ambiguous,30,15
+Bahrain Grand Prix,SAI,SOFT,Practice 2,2,2,direct,12 20,6 19
+Bahrain Grand Prix,SAI,SOFT,Practice 3,1,2,ambiguous,21,11
+Bahrain Grand Prix,SAR,MEDIUM,Practice 1,1,2,ambiguous,21,11
+Bahrain Grand Prix,SAR,SOFT,Practice 2,2,2,direct,13 19,7 15
+Bahrain Grand Prix,SAR,SOFT,Practice 3,2,2,direct,9 18,7 9
+Bahrain Grand Prix,STR,MEDIUM,Practice 1,1,2,ambiguous,22,11
+Bahrain Grand Prix,STR,SOFT,Practice 2,2,2,direct,14 18,8 18
+Bahrain Grand Prix,STR,SOFT,Practice 3,2,2,direct,9 17,8 9
+Bahrain Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,10,9
+Bahrain Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,9,8
+Bahrain Grand Prix,TSU,SOFT,Practice 1,1,1,direct,16,15
+Bahrain Grand Prix,TSU,SOFT,Practice 2,1,1,direct,22,21
+Bahrain Grand Prix,TSU,SOFT,Practice 3,1,2,ambiguous,16,7
+Bahrain Grand Prix,VER,HARD,Practice 3,1,1,direct,7,6
+Bahrain Grand Prix,VER,MEDIUM,Practice 1,2,2,direct,15 15,6 15
+Bahrain Grand Prix,VER,SOFT,Practice 2,2,2,direct,11 19,6 19
+Bahrain Grand Prix,VER,SOFT,Practice 3,1,1,direct,11,10
+Bahrain Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,9,7
+Bahrain Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,9,7
+Bahrain Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,11,9
+Bahrain Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,23,21
+Bahrain Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,11 14,7 10
+Belgian Grand Prix,ALB,HARD,Practice 1,1,1,direct,9,8
+Belgian Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,18,17
+Belgian Grand Prix,ALB,SOFT,Practice 1,1,1,direct,14,13
+Belgian Grand Prix,ALB,SOFT,Practice 2,1,1,direct,8,6
+Belgian Grand Prix,ALO,HARD,Practice 1,1,1,direct,9,8
+Belgian Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,18,17
+Belgian Grand Prix,ALO,SOFT,Practice 1,1,1,direct,12,11
+Belgian Grand Prix,ALO,SOFT,Practice 2,1,1,direct,8,7
+Belgian Grand Prix,BOT,HARD,Practice 1,1,1,direct,16,15
+Belgian Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,19,18
+Belgian Grand Prix,BOT,SOFT,Practice 1,1,1,direct,7,6
+Belgian Grand Prix,BOT,SOFT,Practice 2,1,1,direct,7,6
+Belgian Grand Prix,GAS,MEDIUM,Practice 2,2,1,short,19 22,19
+Belgian Grand Prix,GAS,SOFT,Practice 1,1,1,direct,6,5
+Belgian Grand Prix,GAS,SOFT,Practice 3,1,0,short,7,
+Belgian Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,19,17
+Belgian Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,9,8
+Belgian Grand Prix,HAM,SOFT,Practice 2,1,1,direct,17,17
+Belgian Grand Prix,HAM,SOFT,Practice 3,1,0,short,6,
+Belgian Grand Prix,HUL,HARD,Practice 2,1,1,direct,17,16
+Belgian Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,16,15
+Belgian Grand Prix,HUL,SOFT,Practice 1,1,1,direct,5,4
+Belgian Grand Prix,HUL,SOFT,Practice 2,1,1,direct,6,5
+Belgian Grand Prix,LEC,MEDIUM,Practice 1,1,1,direct,22,21
+Belgian Grand Prix,LEC,SOFT,Practice 2,2,2,direct,12 15,11 12
+Belgian Grand Prix,LEC,SOFT,Practice 3,1,0,short,11,
+Belgian Grand Prix,MAG,HARD,Practice 1,1,1,direct,8,7
+Belgian Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,6,5
+Belgian Grand Prix,MAG,SOFT,Practice 1,1,1,direct,13,12
+Belgian Grand Prix,MAG,SOFT,Practice 2,1,1,direct,17,16
+Belgian Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,14,13
+Belgian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,13,11
+Belgian Grand Prix,NOR,SOFT,Practice 2,2,2,direct,12 14,5 14
+Belgian Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,1,1
+Belgian Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,20,19
+Belgian Grand Prix,OCO,SOFT,Practice 2,1,1,direct,5,4
+Belgian Grand Prix,PER,HARD,Practice 1,1,1,direct,8,7
+Belgian Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,23,21
+Belgian Grand Prix,PER,SOFT,Practice 1,1,1,direct,16,15
+Belgian Grand Prix,PER,SOFT,Practice 2,1,1,direct,4,3
+Belgian Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,20,19
+Belgian Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,15,13
+Belgian Grand Prix,PIA,SOFT,Practice 1,1,1,direct,6,5
+Belgian Grand Prix,PIA,SOFT,Practice 2,1,1,direct,7,10
+Belgian Grand Prix,PIA,SOFT,Practice 3,1,0,short,4,
+Belgian Grand Prix,RIC,HARD,Practice 1,1,2,ambiguous,9,8
+Belgian Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,12,10
+Belgian Grand Prix,RIC,SOFT,Practice 1,1,1,direct,8,14
+Belgian Grand Prix,RIC,SOFT,Practice 2,1,1,direct,13,11
+Belgian Grand Prix,RIC,SOFT,Practice 3,1,0,short,8,
+Belgian Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,19,17
+Belgian Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,20,19
+Belgian Grand Prix,RUS,SOFT,Practice 1,1,1,direct,8,6
+Belgian Grand Prix,RUS,SOFT,Practice 2,1,1,direct,6,5
+Belgian Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,10,9
+Belgian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,18,16
+Belgian Grand Prix,SAI,SOFT,Practice 1,1,1,direct,16,15
+Belgian Grand Prix,SAI,SOFT,Practice 2,1,1,direct,11,9
+Belgian Grand Prix,SAR,HARD,Practice 1,1,1,direct,7,6
+Belgian Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,15,14
+Belgian Grand Prix,SAR,SOFT,Practice 1,1,1,direct,15,14
+Belgian Grand Prix,SAR,SOFT,Practice 2,1,1,direct,12,10
+Belgian Grand Prix,STR,HARD,Practice 1,1,1,direct,16,15
+Belgian Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,18,17
+Belgian Grand Prix,STR,SOFT,Practice 1,1,1,direct,6,5
+Belgian Grand Prix,STR,SOFT,Practice 2,1,1,direct,5,4
+Belgian Grand Prix,TSU,HARD,Practice 1,1,2,ambiguous,20,17
+Belgian Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,22,20
+Belgian Grand Prix,TSU,SOFT,Practice 1,1,1,direct,6,5
+Belgian Grand Prix,TSU,SOFT,Practice 2,1,1,direct,5,4
+Belgian Grand Prix,VER,HARD,Practice 1,1,1,direct,13,12
+Belgian Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,19,16
+Belgian Grand Prix,VER,SOFT,Practice 1,1,1,direct,13,11
+Belgian Grand Prix,VER,SOFT,Practice 2,1,1,direct,11,10
+Belgian Grand Prix,ZHO,HARD,Practice 2,1,1,direct,8,7
+Belgian Grand Prix,ZHO,MEDIUM,Practice 1,1,2,ambiguous,18,9
+Belgian Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,7,6
+Belgian Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,17,16
+British Grand Prix,ALB,HARD,Practice 1,1,1,direct,11,9
+British Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,21,20
+British Grand Prix,ALB,SOFT,Practice 1,1,1,direct,17,16
+British Grand Prix,ALB,SOFT,Practice 2,1,1,direct,8,6
+British Grand Prix,ALO,HARD,Practice 1,1,1,direct,19,15
+British Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,13,20
+British Grand Prix,ALO,SOFT,Practice 1,1,1,direct,12,12
+British Grand Prix,ALO,SOFT,Practice 2,1,1,direct,6,5
+British Grand Prix,BOT,HARD,Practice 2,1,1,direct,12,11
+British Grand Prix,BOT,MEDIUM,Practice 1,1,1,direct,10,8
+British Grand Prix,BOT,SOFT,Practice 1,1,1,direct,19,18
+British Grand Prix,BOT,SOFT,Practice 2,1,1,direct,6,5
+British Grand Prix,GAS,HARD,Practice 1,1,1,direct,12,10
+British Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,13,12
+British Grand Prix,GAS,SOFT,Practice 1,1,1,direct,13,12
+British Grand Prix,GAS,SOFT,Practice 2,1,1,direct,13,12
+British Grand Prix,HAM,HARD,Practice 1,1,1,direct,14,11
+British Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,16,15
+British Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,11,9
+British Grand Prix,HAM,SOFT,Practice 2,1,1,direct,16,14
+British Grand Prix,HUL,HARD,Practice 2,1,1,direct,10,9
+British Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,18,16
+British Grand Prix,HUL,SOFT,Practice 1,1,1,direct,8,6
+British Grand Prix,HUL,SOFT,Practice 2,1,1,direct,16,14
+British Grand Prix,LEC,HARD,Practice 1,1,1,direct,22,20
+British Grand Prix,LEC,MEDIUM,Practice 2,2,1,short,9 12,19
+British Grand Prix,LEC,SOFT,Practice 3,1,0,short,6,
+British Grand Prix,MAG,HARD,Practice 1,1,1,direct,18,17
+British Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,13,11
+British Grand Prix,MAG,SOFT,Practice 1,1,1,direct,9,8
+British Grand Prix,MAG,SOFT,Practice 2,1,1,direct,7,6
+British Grand Prix,NOR,HARD,Practice 1,1,1,direct,12,11
+British Grand Prix,NOR,HARD,Practice 2,1,0,short,8,
+British Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,24,23
+British Grand Prix,NOR,SOFT,Practice 1,1,1,direct,15,15
+British Grand Prix,OCO,HARD,Practice 1,1,1,direct,12,10
+British Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,14,13
+British Grand Prix,OCO,SOFT,Practice 1,1,1,direct,16,14
+British Grand Prix,OCO,SOFT,Practice 2,1,1,direct,7,6
+British Grand Prix,PER,HARD,Practice 1,1,1,direct,13,10
+British Grand Prix,PER,MEDIUM,Practice 1,1,1,direct,5,5
+British Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,11,16
+British Grand Prix,PER,MEDIUM,Practice 3,1,0,short,8,
+British Grand Prix,PER,SOFT,Practice 2,1,2,ambiguous,8,3
+British Grand Prix,PIA,HARD,Practice 1,1,1,direct,16,12
+British Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,15,13
+British Grand Prix,PIA,SOFT,Practice 1,1,1,direct,7,6
+British Grand Prix,PIA,SOFT,Practice 2,1,1,direct,13,11
+British Grand Prix,RIC,HARD,Practice 1,1,1,direct,14,12
+British Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,12,10
+British Grand Prix,RIC,SOFT,Practice 1,1,1,direct,13,12
+British Grand Prix,RIC,SOFT,Practice 2,1,1,direct,14,12
+British Grand Prix,RUS,HARD,Practice 1,1,1,direct,14,10
+British Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,17,16
+British Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,13,10
+British Grand Prix,RUS,SOFT,Practice 2,1,1,direct,15,13
+British Grand Prix,SAI,HARD,Practice 1,1,1,direct,14,12
+British Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,21,15
+British Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,21,18
+British Grand Prix,SAI,SOFT,Practice 2,1,1,direct,13,10
+British Grand Prix,SAR,HARD,Practice 1,1,1,direct,11,9
+British Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,19,18
+British Grand Prix,SAR,SOFT,Practice 1,1,1,direct,17,15
+British Grand Prix,SAR,SOFT,Practice 2,1,1,direct,7,6
+British Grand Prix,STR,HARD,Practice 2,1,1,direct,8,7
+British Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,14,11
+British Grand Prix,STR,SOFT,Practice 1,1,1,direct,11,11
+British Grand Prix,STR,SOFT,Practice 2,1,1,direct,15,14
+British Grand Prix,TSU,HARD,Practice 1,1,1,direct,5,5
+British Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,19,17
+British Grand Prix,TSU,SOFT,Practice 2,1,1,direct,7,6
+British Grand Prix,VER,HARD,Practice 1,1,1,direct,22,20
+British Grand Prix,VER,MEDIUM,Practice 1,1,1,direct,6,5
+British Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,13,16
+British Grand Prix,VER,SOFT,Practice 2,1,2,ambiguous,7,3
+British Grand Prix,ZHO,HARD,Practice 1,1,1,direct,13,11
+British Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,15,14
+British Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,14,13
+British Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,6,5
+Canadian Grand Prix,ALB,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,ALB,SOFT,Practice 2,1,1,direct,12,11
+Canadian Grand Prix,ALB,SOFT,Practice 3,1,1,direct,10,6
+Canadian Grand Prix,ALO,MEDIUM,Practice 3,1,3,ambiguous,11,10
+Canadian Grand Prix,ALO,SOFT,Practice 2,1,1,direct,17,15
+Canadian Grand Prix,ALO,SOFT,Practice 3,1,1,direct,10,10
+Canadian Grand Prix,BOT,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,BOT,SOFT,Practice 2,1,1,direct,11,9
+Canadian Grand Prix,BOT,SOFT,Practice 3,1,2,ambiguous,16,11
+Canadian Grand Prix,GAS,MEDIUM,Practice 3,1,1,direct,23,20
+Canadian Grand Prix,GAS,SOFT,Practice 2,1,1,direct,15,13
+Canadian Grand Prix,GAS,SOFT,Practice 3,1,1,direct,9,9
+Canadian Grand Prix,HAM,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,HAM,SOFT,Practice 2,1,1,direct,19,17
+Canadian Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,19,11
+Canadian Grand Prix,HUL,MEDIUM,Practice 3,1,1,direct,21,18
+Canadian Grand Prix,HUL,SOFT,Practice 2,1,1,direct,11,9
+Canadian Grand Prix,HUL,SOFT,Practice 3,1,1,direct,9,9
+Canadian Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,14,13
+Canadian Grand Prix,LEC,MEDIUM,Practice 3,1,1,direct,15,12
+Canadian Grand Prix,LEC,SOFT,Practice 1,1,1,direct,6,5
+Canadian Grand Prix,LEC,SOFT,Practice 3,1,2,ambiguous,18,8
+Canadian Grand Prix,MAG,MEDIUM,Practice 3,1,1,direct,25,22
+Canadian Grand Prix,MAG,SOFT,Practice 2,1,1,direct,15,14
+Canadian Grand Prix,MAG,SOFT,Practice 3,1,1,direct,8,8
+Canadian Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,9,7
+Canadian Grand Prix,NOR,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,5,4
+Canadian Grand Prix,NOR,SOFT,Practice 3,1,2,ambiguous,18,10
+Canadian Grand Prix,OCO,MEDIUM,Practice 3,1,1,direct,24,21
+Canadian Grand Prix,OCO,SOFT,Practice 1,1,1,direct,2,1
+Canadian Grand Prix,OCO,SOFT,Practice 2,1,1,direct,18,16
+Canadian Grand Prix,OCO,SOFT,Practice 3,1,1,direct,10,10
+Canadian Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,22,20
+Canadian Grand Prix,PER,SOFT,Practice 2,1,1,direct,11,9
+Canadian Grand Prix,PER,SOFT,Practice 3,1,1,direct,9,9
+Canadian Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,11,9
+Canadian Grand Prix,PIA,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,PIA,SOFT,Practice 3,1,2,ambiguous,18,10
+Canadian Grand Prix,RIC,MEDIUM,Practice 3,1,2,ambiguous,16,14
+Canadian Grand Prix,RIC,SOFT,Practice 2,1,1,direct,12,11
+Canadian Grand Prix,RIC,SOFT,Practice 3,1,2,ambiguous,16,10
+Canadian Grand Prix,RUS,MEDIUM,Practice 3,1,1,direct,15,13
+Canadian Grand Prix,RUS,SOFT,Practice 2,1,1,direct,13,13
+Canadian Grand Prix,RUS,SOFT,Practice 3,1,2,ambiguous,21,13
+Canadian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,17,15
+Canadian Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,14,12
+Canadian Grand Prix,SAI,SOFT,Practice 1,1,1,direct,5,4
+Canadian Grand Prix,SAI,SOFT,Practice 3,1,2,ambiguous,23,13
+Canadian Grand Prix,SAR,MEDIUM,Practice 3,1,1,direct,17,15
+Canadian Grand Prix,SAR,SOFT,Practice 2,1,1,direct,13,12
+Canadian Grand Prix,SAR,SOFT,Practice 3,1,2,ambiguous,18,9
+Canadian Grand Prix,STR,HARD,Practice 3,1,2,ambiguous,11,8
+Canadian Grand Prix,STR,MEDIUM,Practice 3,1,3,ambiguous,9,8
+Canadian Grand Prix,STR,SOFT,Practice 2,1,1,direct,15,13
+Canadian Grand Prix,TSU,MEDIUM,Practice 3,1,2,ambiguous,18,14
+Canadian Grand Prix,TSU,SOFT,Practice 2,1,1,direct,12,10
+Canadian Grand Prix,TSU,SOFT,Practice 3,1,2,ambiguous,14,10
+Canadian Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,24,21
+Canadian Grand Prix,VER,SOFT,Practice 1,1,1,direct,5,4
+Canadian Grand Prix,VER,SOFT,Practice 2,1,1,direct,5,4
+Canadian Grand Prix,VER,SOFT,Practice 3,1,1,direct,11,11
+Canadian Grand Prix,ZHO,MEDIUM,Practice 3,1,1,direct,4,4
+Canadian Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,7,6
+Dutch Grand Prix,ALB,HARD,Practice 2,1,1,direct,26,25
+Dutch Grand Prix,ALB,SOFT,Practice 1,1,1,direct,9,9
+Dutch Grand Prix,ALB,SOFT,Practice 2,1,1,direct,11,8
+Dutch Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,14,13
+Dutch Grand Prix,ALO,SOFT,Practice 1,1,1,direct,10,10
+Dutch Grand Prix,ALO,SOFT,Practice 2,1,1,direct,19,17
+Dutch Grand Prix,BOT,MEDIUM,Practice 3,1,0,short,8,
+Dutch Grand Prix,BOT,SOFT,Practice 2,2,1,short,9 14,22
+Dutch Grand Prix,GAS,HARD,Practice 2,1,1,direct,17,26
+Dutch Grand Prix,GAS,SOFT,Practice 2,1,1,direct,8,7
+Dutch Grand Prix,HAM,MEDIUM,Practice 2,2,1,short,12 24,23
+Dutch Grand Prix,HAM,MEDIUM,Practice 3,1,0,short,9,
+Dutch Grand Prix,HAM,SOFT,Practice 1,1,1,direct,9,9
+Dutch Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,11,10
+Dutch Grand Prix,HUL,SOFT,Practice 1,1,1,direct,8,8
+Dutch Grand Prix,LEC,MEDIUM,Practice 2,2,1,short,11 17,26
+Dutch Grand Prix,LEC,SOFT,Practice 3,1,0,short,6,
+Dutch Grand Prix,MAG,HARD,Practice 2,1,1,direct,10,9
+Dutch Grand Prix,MAG,SOFT,Practice 1,1,1,direct,8,8
+Dutch Grand Prix,MAG,SOFT,Practice 2,1,1,direct,25,24
+Dutch Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,22,19
+Dutch Grand Prix,NOR,SOFT,Practice 1,1,1,direct,11,11
+Dutch Grand Prix,NOR,SOFT,Practice 2,1,1,direct,16,15
+Dutch Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,10,9
+Dutch Grand Prix,OCO,SOFT,Practice 2,1,1,direct,25,24
+Dutch Grand Prix,OCO,SOFT,Practice 3,1,0,short,7,
+Dutch Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,26,24
+Dutch Grand Prix,PER,SOFT,Practice 1,1,1,direct,8,8
+Dutch Grand Prix,PER,SOFT,Practice 2,1,1,direct,6,5
+Dutch Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,18,16
+Dutch Grand Prix,PIA,SOFT,Practice 1,1,1,direct,11,11
+Dutch Grand Prix,PIA,SOFT,Practice 2,1,1,direct,19,17
+Dutch Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,11,10
+Dutch Grand Prix,RIC,SOFT,Practice 1,1,1,direct,8,8
+Dutch Grand Prix,RIC,SOFT,Practice 2,1,1,direct,22,21
+Dutch Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,13,10
+Dutch Grand Prix,RUS,SOFT,Practice 1,1,1,direct,10,10
+Dutch Grand Prix,RUS,SOFT,Practice 2,1,1,direct,22,20
+Dutch Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,9,9
+Dutch Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,8,7
+Dutch Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,15,22
+Dutch Grand Prix,SAR,MEDIUM,Practice 3,1,0,short,8,
+Dutch Grand Prix,SAR,SOFT,Practice 2,1,1,direct,12,10
+Dutch Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,14,13
+Dutch Grand Prix,STR,SOFT,Practice 1,1,1,direct,9,9
+Dutch Grand Prix,STR,SOFT,Practice 2,1,1,direct,20,18
+Dutch Grand Prix,TSU,HARD,Practice 2,1,1,direct,26,25
+Dutch Grand Prix,TSU,SOFT,Practice 1,1,1,direct,7,7
+Dutch Grand Prix,TSU,SOFT,Practice 2,1,1,direct,7,6
+Dutch Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,12,17
+Dutch Grand Prix,VER,MEDIUM,Practice 3,1,0,short,8,
+Dutch Grand Prix,VER,SOFT,Practice 1,1,1,direct,9,9
+Dutch Grand Prix,VER,SOFT,Practice 2,1,1,direct,17,16
+Dutch Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,16,25
+Dutch Grand Prix,ZHO,MEDIUM,Practice 3,1,0,short,10,
+Dutch Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,10,8
+Emilia Romagna Grand Prix,ALB,HARD,Practice 1,1,2,ambiguous,2,8
+Emilia Romagna Grand Prix,ALB,MEDIUM,Practice 1,1,0,short,18,
+Emilia Romagna Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,21,20
+Emilia Romagna Grand Prix,ALB,SOFT,Practice 3,2,2,direct,10 12,6 8
+Emilia Romagna Grand Prix,ALO,HARD,Practice 3,1,2,ambiguous,10,8
+Emilia Romagna Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,21,10
+Emilia Romagna Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,22,21
+Emilia Romagna Grand Prix,ALO,SOFT,Practice 1,1,1,direct,7,6
+Emilia Romagna Grand Prix,ALO,SOFT,Practice 2,1,1,direct,9,8
+Emilia Romagna Grand Prix,BOT,MEDIUM,Practice 1,1,1,direct,17,15
+Emilia Romagna Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,21,20
+Emilia Romagna Grand Prix,BOT,SOFT,Practice 1,1,1,direct,10,8
+Emilia Romagna Grand Prix,BOT,SOFT,Practice 2,1,1,direct,10,8
+Emilia Romagna Grand Prix,BOT,SOFT,Practice 3,2,2,direct,10 12,6 9
+Emilia Romagna Grand Prix,GAS,HARD,Practice 2,1,1,direct,21,19
+Emilia Romagna Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,14,15
+Emilia Romagna Grand Prix,GAS,MEDIUM,Practice 3,1,1,direct,15,12
+Emilia Romagna Grand Prix,GAS,SOFT,Practice 1,1,1,direct,35,10
+Emilia Romagna Grand Prix,GAS,SOFT,Practice 2,1,1,direct,14,13
+Emilia Romagna Grand Prix,GAS,SOFT,Practice 3,1,1,direct,6,5
+Emilia Romagna Grand Prix,HAM,HARD,Practice 2,1,1,direct,20,19
+Emilia Romagna Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,23,20
+Emilia Romagna Grand Prix,HAM,SOFT,Practice 2,1,1,direct,11,10
+Emilia Romagna Grand Prix,HAM,SOFT,Practice 3,2,2,direct,10 16,5 11
+Emilia Romagna Grand Prix,HUL,HARD,Practice 1,1,1,direct,16,15
+Emilia Romagna Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,21,18
+Emilia Romagna Grand Prix,HUL,MEDIUM,Practice 3,1,1,direct,11,9
+Emilia Romagna Grand Prix,HUL,SOFT,Practice 2,1,1,direct,11,10
+Emilia Romagna Grand Prix,HUL,SOFT,Practice 3,1,1,direct,7,6
+Emilia Romagna Grand Prix,LEC,HARD,Practice 1,1,2,ambiguous,22,22
+Emilia Romagna Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,23,22
+Emilia Romagna Grand Prix,LEC,SOFT,Practice 1,1,1,direct,28,7
+Emilia Romagna Grand Prix,LEC,SOFT,Practice 2,1,1,direct,7,7
+Emilia Romagna Grand Prix,LEC,SOFT,Practice 3,2,2,direct,6 18,6 14
+Emilia Romagna Grand Prix,MAG,HARD,Practice 2,1,1,direct,28,26
+Emilia Romagna Grand Prix,MAG,MEDIUM,Practice 1,2,1,short,11 15,25
+Emilia Romagna Grand Prix,MAG,MEDIUM,Practice 3,1,1,direct,7,6
+Emilia Romagna Grand Prix,MAG,SOFT,Practice 2,2,1,short,6 7,6
+Emilia Romagna Grand Prix,MAG,SOFT,Practice 3,1,1,direct,7,6
+Emilia Romagna Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,18,24
+Emilia Romagna Grand Prix,NOR,MEDIUM,Practice 3,1,1,direct,10,8
+Emilia Romagna Grand Prix,NOR,SOFT,Practice 1,2,2,direct,13 19,10 17
+Emilia Romagna Grand Prix,NOR,SOFT,Practice 2,1,1,direct,7,6
+Emilia Romagna Grand Prix,OCO,HARD,Practice 2,1,1,direct,24,23
+Emilia Romagna Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,22,20
+Emilia Romagna Grand Prix,OCO,MEDIUM,Practice 3,1,1,direct,15,12
+Emilia Romagna Grand Prix,OCO,SOFT,Practice 1,1,1,direct,10,9
+Emilia Romagna Grand Prix,OCO,SOFT,Practice 2,1,1,direct,9,8
+Emilia Romagna Grand Prix,OCO,SOFT,Practice 3,1,1,direct,8,7
+Emilia Romagna Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,20,18
+Emilia Romagna Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,19,16
+Emilia Romagna Grand Prix,PER,SOFT,Practice 1,1,3,ambiguous,31,14
+Emilia Romagna Grand Prix,PER,SOFT,Practice 2,1,1,direct,9,7
+Emilia Romagna Grand Prix,PER,SOFT,Practice 3,1,1,direct,2,2
+Emilia Romagna Grand Prix,PIA,HARD,Practice 2,1,1,direct,24,21
+Emilia Romagna Grand Prix,PIA,MEDIUM,Practice 1,2,1,short,10 13,20
+Emilia Romagna Grand Prix,PIA,SOFT,Practice 2,1,1,direct,10,9
+Emilia Romagna Grand Prix,PIA,SOFT,Practice 3,2,2,direct,10 14,7 7
+Emilia Romagna Grand Prix,RIC,HARD,Practice 1,1,2,ambiguous,15,15
+Emilia Romagna Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,28,26
+Emilia Romagna Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,12,9
+Emilia Romagna Grand Prix,RIC,SOFT,Practice 1,1,1,direct,32,11
+Emilia Romagna Grand Prix,RIC,SOFT,Practice 2,1,1,direct,7,6
+Emilia Romagna Grand Prix,RIC,SOFT,Practice 3,1,1,direct,5,6
+Emilia Romagna Grand Prix,RUS,HARD,Practice 2,1,1,direct,23,22
+Emilia Romagna Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,22,21
+Emilia Romagna Grand Prix,RUS,SOFT,Practice 2,1,1,direct,10,10
+Emilia Romagna Grand Prix,RUS,SOFT,Practice 3,2,2,direct,10 18,6 10
+Emilia Romagna Grand Prix,SAI,HARD,Practice 1,1,1,direct,21,20
+Emilia Romagna Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,24,22
+Emilia Romagna Grand Prix,SAI,SOFT,Practice 1,1,1,direct,7,5
+Emilia Romagna Grand Prix,SAI,SOFT,Practice 3,2,2,direct,12 25,6 16
+Emilia Romagna Grand Prix,SAR,HARD,Practice 2,1,1,direct,20,19
+Emilia Romagna Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,17,17
+Emilia Romagna Grand Prix,SAR,MEDIUM,Practice 2,1,0,short,1,
+Emilia Romagna Grand Prix,SAR,SOFT,Practice 1,1,1,direct,22,5
+Emilia Romagna Grand Prix,SAR,SOFT,Practice 3,2,2,direct,7 17,7 9
+Emilia Romagna Grand Prix,STR,HARD,Practice 3,1,2,ambiguous,19,15
+Emilia Romagna Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,8,7
+Emilia Romagna Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,18,17
+Emilia Romagna Grand Prix,STR,SOFT,Practice 1,1,1,direct,17,15
+Emilia Romagna Grand Prix,STR,SOFT,Practice 2,1,1,direct,10,9
+Emilia Romagna Grand Prix,STR,SOFT,Practice 3,1,1,direct,8,7
+Emilia Romagna Grand Prix,TSU,HARD,Practice 1,1,2,ambiguous,22,22
+Emilia Romagna Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,17,26
+Emilia Romagna Grand Prix,TSU,MEDIUM,Practice 3,1,1,direct,12,9
+Emilia Romagna Grand Prix,TSU,SOFT,Practice 1,1,1,direct,29,7
+Emilia Romagna Grand Prix,TSU,SOFT,Practice 2,1,1,direct,7,6
+Emilia Romagna Grand Prix,TSU,SOFT,Practice 3,1,1,direct,4,5
+Emilia Romagna Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,18,17
+Emilia Romagna Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,20,16
+Emilia Romagna Grand Prix,VER,SOFT,Practice 1,2,3,ambiguous,10 22,9 17
+Emilia Romagna Grand Prix,VER,SOFT,Practice 2,1,1,direct,7,6
+Emilia Romagna Grand Prix,VER,SOFT,Practice 3,1,1,direct,6,5
+Emilia Romagna Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,2,12
+Emilia Romagna Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,21,20
+Emilia Romagna Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,28,13
+Emilia Romagna Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,10,8
+Emilia Romagna Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,8 15,7 8
+Hungarian Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,9,7
+Hungarian Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,21,19
+Hungarian Grand Prix,ALB,SOFT,Practice 1,1,1,direct,17,15
+Hungarian Grand Prix,ALB,SOFT,Practice 3,2,2,direct,11 14,6 10
+Hungarian Grand Prix,ALO,HARD,Practice 1,1,1,direct,13,10
+Hungarian Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,19,18
+Hungarian Grand Prix,ALO,MEDIUM,Practice 3,1,2,ambiguous,15,12
+Hungarian Grand Prix,ALO,SOFT,Practice 1,1,1,direct,16,14
+Hungarian Grand Prix,ALO,SOFT,Practice 2,1,1,direct,6,5
+Hungarian Grand Prix,ALO,SOFT,Practice 3,1,1,direct,7,7
+Hungarian Grand Prix,BOT,MEDIUM,Practice 2,2,1,short,11 20,18
+Hungarian Grand Prix,BOT,SOFT,Practice 1,1,1,direct,19,18
+Hungarian Grand Prix,BOT,SOFT,Practice 3,2,2,direct,10 16,9 10
+Hungarian Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,21,20
+Hungarian Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,20,18
+Hungarian Grand Prix,GAS,SOFT,Practice 1,1,1,direct,7,6
+Hungarian Grand Prix,GAS,SOFT,Practice 2,1,1,direct,8,6
+Hungarian Grand Prix,GAS,SOFT,Practice 3,2,2,direct,11 11,5 10
+Hungarian Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,29,26
+Hungarian Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,7,5
+Hungarian Grand Prix,HAM,SOFT,Practice 2,1,1,direct,16,15
+Hungarian Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,12,9
+Hungarian Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,21,18
+Hungarian Grand Prix,HUL,MEDIUM,Practice 2,2,1,short,10 11,19
+Hungarian Grand Prix,HUL,SOFT,Practice 1,1,1,direct,12,9
+Hungarian Grand Prix,HUL,SOFT,Practice 3,2,2,direct,11 14,5 10
+Hungarian Grand Prix,LEC,HARD,Practice 1,1,1,direct,27,24
+Hungarian Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,9,8
+Hungarian Grand Prix,LEC,SOFT,Practice 3,2,2,direct,9 15,7 10
+Hungarian Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,20,18
+Hungarian Grand Prix,MAG,MEDIUM,Practice 2,2,1,short,10 13,21
+Hungarian Grand Prix,MAG,SOFT,Practice 1,1,1,direct,11,9
+Hungarian Grand Prix,MAG,SOFT,Practice 3,2,2,direct,9 17,7 10
+Hungarian Grand Prix,NOR,HARD,Practice 2,1,1,direct,20,17
+Hungarian Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,23,20
+Hungarian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,8,6
+Hungarian Grand Prix,NOR,SOFT,Practice 2,1,1,direct,8,7
+Hungarian Grand Prix,NOR,SOFT,Practice 3,2,2,direct,10 12,6 9
+Hungarian Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,17,15
+Hungarian Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,21,19
+Hungarian Grand Prix,OCO,SOFT,Practice 1,1,1,direct,11,11
+Hungarian Grand Prix,OCO,SOFT,Practice 3,2,2,direct,8 19,7 9
+Hungarian Grand Prix,PER,HARD,Practice 3,1,1,direct,21,18
+Hungarian Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,21,18
+Hungarian Grand Prix,PER,SOFT,Practice 1,2,2,direct,13 17,9 13
+Hungarian Grand Prix,PER,SOFT,Practice 2,1,1,direct,7,5
+Hungarian Grand Prix,PER,SOFT,Practice 3,1,1,direct,8,6
+Hungarian Grand Prix,PIA,HARD,Practice 2,1,1,direct,21,18
+Hungarian Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,24,23
+Hungarian Grand Prix,PIA,SOFT,Practice 3,2,2,direct,9 12,6 9
+Hungarian Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,23,21
+Hungarian Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,19,17
+Hungarian Grand Prix,RIC,SOFT,Practice 3,2,2,direct,10 14,7 8
+Hungarian Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,27,25
+Hungarian Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,17,17
+Hungarian Grand Prix,RUS,SOFT,Practice 3,2,2,direct,11 12,6 9
+Hungarian Grand Prix,SAI,HARD,Practice 1,1,1,direct,14,11
+Hungarian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,22,20
+Hungarian Grand Prix,SAI,SOFT,Practice 1,1,1,direct,17,16
+Hungarian Grand Prix,SAI,SOFT,Practice 3,1,2,ambiguous,16,9
+Hungarian Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,11,8
+Hungarian Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,20,18
+Hungarian Grand Prix,SAR,SOFT,Practice 1,1,1,direct,20,18
+Hungarian Grand Prix,SAR,SOFT,Practice 3,2,2,direct,11 12,6 9
+Hungarian Grand Prix,STR,HARD,Practice 1,1,1,direct,16,13
+Hungarian Grand Prix,STR,MEDIUM,Practice 3,2,2,direct,12 14,1 13
+Hungarian Grand Prix,STR,SOFT,Practice 1,1,1,direct,13,12
+Hungarian Grand Prix,STR,SOFT,Practice 2,1,1,direct,17,16
+Hungarian Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,20,17
+Hungarian Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,7,5
+Hungarian Grand Prix,TSU,SOFT,Practice 3,2,2,direct,14 15,4 12
+Hungarian Grand Prix,VER,HARD,Practice 3,1,1,direct,23,20
+Hungarian Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,19,17
+Hungarian Grand Prix,VER,SOFT,Practice 1,2,2,direct,13 15,8 12
+Hungarian Grand Prix,VER,SOFT,Practice 3,1,1,direct,8,7
+Hungarian Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,12,9
+Hungarian Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,25,23
+Hungarian Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,17,15
+Hungarian Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,5 16,5 9
+Italian Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,19,17
+Italian Grand Prix,ALB,MEDIUM,Practice 2,1,1,direct,22,21
+Italian Grand Prix,ALB,SOFT,Practice 3,2,2,direct,12 12,6 9
+Italian Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,15,12
+Italian Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,18,16
+Italian Grand Prix,ALO,SOFT,Practice 2,1,1,direct,9,8
+Italian Grand Prix,ALO,SOFT,Practice 3,2,2,direct,12 15,6 12
+Italian Grand Prix,BOT,MEDIUM,Practice 2,2,1,short,8 19,19
+Italian Grand Prix,BOT,SOFT,Practice 1,1,1,direct,17,15
+Italian Grand Prix,BOT,SOFT,Practice 3,2,2,direct,10 14,7 10
+Italian Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,18,16
+Italian Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,17,16
+Italian Grand Prix,GAS,SOFT,Practice 2,1,1,direct,9,7
+Italian Grand Prix,GAS,SOFT,Practice 3,2,2,direct,11 19,8 12
+Italian Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,18,17
+Italian Grand Prix,HAM,MEDIUM,Practice 3,1,1,direct,17,14
+Italian Grand Prix,HAM,SOFT,Practice 1,2,2,direct,15 17,10 14
+Italian Grand Prix,HAM,SOFT,Practice 2,1,1,direct,10,7
+Italian Grand Prix,HAM,SOFT,Practice 3,1,1,direct,8,6
+Italian Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,14,11
+Italian Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,19,16
+Italian Grand Prix,HUL,SOFT,Practice 1,1,1,direct,13,12
+Italian Grand Prix,HUL,SOFT,Practice 2,1,1,direct,7,9
+Italian Grand Prix,HUL,SOFT,Practice 3,2,2,direct,8 17,7 11
+Italian Grand Prix,LEC,MEDIUM,Practice 1,1,1,direct,19,17
+Italian Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,24,22
+Italian Grand Prix,LEC,SOFT,Practice 3,2,2,direct,10 21,8 14
+Italian Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,18,16
+Italian Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,7,6
+Italian Grand Prix,MAG,SOFT,Practice 1,1,1,direct,7,6
+Italian Grand Prix,MAG,SOFT,Practice 3,2,2,direct,8 19,7 14
+Italian Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,17,14
+Italian Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,18,17
+Italian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,13,12
+Italian Grand Prix,NOR,SOFT,Practice 2,1,1,direct,8,6
+Italian Grand Prix,NOR,SOFT,Practice 3,2,2,direct,10 12,6 9
+Italian Grand Prix,OCO,MEDIUM,Practice 2,2,1,short,13 18,15
+Italian Grand Prix,OCO,SOFT,Practice 1,1,1,direct,11,10
+Italian Grand Prix,OCO,SOFT,Practice 3,2,2,direct,12 18,7 12
+Italian Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,12,11
+Italian Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,19,16
+Italian Grand Prix,PER,SOFT,Practice 1,1,2,ambiguous,23,11
+Italian Grand Prix,PER,SOFT,Practice 3,1,1,direct,7,7
+Italian Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,18,18
+Italian Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,17,15
+Italian Grand Prix,PIA,SOFT,Practice 2,1,1,direct,9,9
+Italian Grand Prix,PIA,SOFT,Practice 3,2,2,direct,10 13,6 9
+Italian Grand Prix,RIC,MEDIUM,Practice 1,2,2,direct,11 17,10 11
+Italian Grand Prix,RIC,SOFT,Practice 2,2,2,direct,12 14,9 14
+Italian Grand Prix,RIC,SOFT,Practice 3,2,2,direct,11 13,5 12
+Italian Grand Prix,RUS,MEDIUM,Practice 3,2,1,short,18 19,18
+Italian Grand Prix,RUS,SOFT,Practice 1,1,1,direct,6,5
+Italian Grand Prix,RUS,SOFT,Practice 2,1,1,direct,6,6
+Italian Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,19,17
+Italian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,22,19
+Italian Grand Prix,SAI,SOFT,Practice 2,1,1,direct,10,8
+Italian Grand Prix,SAI,SOFT,Practice 3,2,2,direct,12 16,8 12
+Italian Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,19,17
+Italian Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,7,6
+Italian Grand Prix,SAR,SOFT,Practice 2,1,1,direct,16,14
+Italian Grand Prix,SAR,SOFT,Practice 3,2,2,direct,11 16,6 11
+Italian Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,13,11
+Italian Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,17,15
+Italian Grand Prix,STR,SOFT,Practice 2,1,1,direct,15,12
+Italian Grand Prix,STR,SOFT,Practice 3,2,2,direct,11 16,9 10
+Italian Grand Prix,TSU,HARD,Practice 1,1,1,direct,19,17
+Italian Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,17,15
+Italian Grand Prix,TSU,MEDIUM,Practice 3,1,1,direct,7,6
+Italian Grand Prix,TSU,SOFT,Practice 1,1,1,direct,7,6
+Italian Grand Prix,TSU,SOFT,Practice 2,1,1,direct,7,5
+Italian Grand Prix,TSU,SOFT,Practice 3,1,1,direct,9,8
+Italian Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,21,20
+Italian Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,20,17
+Italian Grand Prix,VER,SOFT,Practice 1,2,2,direct,8 18,8 11
+Italian Grand Prix,VER,SOFT,Practice 2,1,1,direct,5,4
+Italian Grand Prix,VER,SOFT,Practice 3,1,1,direct,8,7
+Italian Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,18,16
+Italian Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,22,21
+Italian Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,9,6
+Italian Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,11 16,6 10
+Japanese Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,11,10
+Japanese Grand Prix,ALB,MEDIUM,Practice 2,1,0,short,10,
+Japanese Grand Prix,ALB,MEDIUM,Practice 3,1,1,direct,16,14
+Japanese Grand Prix,ALB,SOFT,Practice 1,1,1,direct,10,8
+Japanese Grand Prix,ALB,SOFT,Practice 3,1,1,direct,9,8
+Japanese Grand Prix,ALO,HARD,Practice 3,1,1,direct,20,18
+Japanese Grand Prix,ALO,MEDIUM,Practice 1,1,1,direct,10,9
+Japanese Grand Prix,ALO,SOFT,Practice 1,1,1,direct,12,11
+Japanese Grand Prix,ALO,SOFT,Practice 3,1,1,direct,6,6
+Japanese Grand Prix,BOT,MEDIUM,Practice 1,2,2,direct,10 16,6 11
+Japanese Grand Prix,BOT,SOFT,Practice 3,1,2,ambiguous,29,20
+Japanese Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,16,12
+Japanese Grand Prix,GAS,SOFT,Practice 1,1,1,direct,12,11
+Japanese Grand Prix,GAS,SOFT,Practice 3,2,2,direct,8 17,8 11
+Japanese Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,8,11
+Japanese Grand Prix,HAM,SOFT,Practice 1,1,1,direct,14,12
+Japanese Grand Prix,HAM,SOFT,Practice 3,2,2,direct,7 22,6 15
+Japanese Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,8,7
+Japanese Grand Prix,HUL,MEDIUM,Practice 3,1,1,direct,16,14
+Japanese Grand Prix,HUL,SOFT,Practice 1,1,1,direct,14,12
+Japanese Grand Prix,HUL,SOFT,Practice 2,1,1,direct,6,5
+Japanese Grand Prix,HUL,SOFT,Practice 3,1,1,direct,8,7
+Japanese Grand Prix,LEC,HARD,Practice 1,1,1,direct,15,14
+Japanese Grand Prix,LEC,MEDIUM,Practice 3,1,1,direct,21,19
+Japanese Grand Prix,LEC,SOFT,Practice 1,1,1,direct,5,4
+Japanese Grand Prix,LEC,SOFT,Practice 2,1,1,direct,4,4
+Japanese Grand Prix,LEC,SOFT,Practice 3,1,1,direct,6,6
+Japanese Grand Prix,MAG,HARD,Practice 1,1,1,direct,9,8
+Japanese Grand Prix,MAG,MEDIUM,Practice 3,1,1,direct,17,15
+Japanese Grand Prix,MAG,SOFT,Practice 1,1,1,direct,15,13
+Japanese Grand Prix,MAG,SOFT,Practice 2,1,1,direct,2,1
+Japanese Grand Prix,MAG,SOFT,Practice 3,1,1,direct,7,7
+Japanese Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,18,17
+Japanese Grand Prix,NOR,SOFT,Practice 1,1,1,direct,7,5
+Japanese Grand Prix,NOR,SOFT,Practice 3,1,2,ambiguous,16,8
+Japanese Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,10,9
+Japanese Grand Prix,OCO,SOFT,Practice 3,2,2,direct,11 19,7 11
+Japanese Grand Prix,PER,HARD,Practice 1,1,1,direct,14,12
+Japanese Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,19,17
+Japanese Grand Prix,PER,SOFT,Practice 1,1,1,direct,8,6
+Japanese Grand Prix,PER,SOFT,Practice 3,1,1,direct,8,8
+Japanese Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,20,18
+Japanese Grand Prix,PIA,SOFT,Practice 1,1,1,direct,7,5
+Japanese Grand Prix,PIA,SOFT,Practice 2,1,1,direct,6,6
+Japanese Grand Prix,PIA,SOFT,Practice 3,2,2,direct,16 19,3 16
+Japanese Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,2,1
+Japanese Grand Prix,RIC,SOFT,Practice 3,1,2,ambiguous,27,16
+Japanese Grand Prix,RUS,MEDIUM,Practice 1,1,1,direct,9,8
+Japanese Grand Prix,RUS,MEDIUM,Practice 3,1,1,direct,19,17
+Japanese Grand Prix,RUS,SOFT,Practice 1,1,1,direct,11,10
+Japanese Grand Prix,RUS,SOFT,Practice 3,1,1,direct,8,7
+Japanese Grand Prix,SAI,HARD,Practice 1,1,1,direct,10,9
+Japanese Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,22,20
+Japanese Grand Prix,SAI,SOFT,Practice 1,1,1,direct,12,11
+Japanese Grand Prix,SAI,SOFT,Practice 2,1,1,direct,3,3
+Japanese Grand Prix,SAI,SOFT,Practice 3,1,1,direct,7,7
+Japanese Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,9,8
+Japanese Grand Prix,SAR,MEDIUM,Practice 3,1,1,direct,14,12
+Japanese Grand Prix,SAR,SOFT,Practice 1,1,1,direct,2,2
+Japanese Grand Prix,SAR,SOFT,Practice 3,1,1,direct,9,8
+Japanese Grand Prix,STR,HARD,Practice 3,1,1,direct,18,16
+Japanese Grand Prix,STR,MEDIUM,Practice 1,1,1,direct,14,11
+Japanese Grand Prix,STR,SOFT,Practice 1,1,1,direct,6,6
+Japanese Grand Prix,STR,SOFT,Practice 3,1,1,direct,7,7
+Japanese Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,16,14
+Japanese Grand Prix,TSU,SOFT,Practice 3,2,2,direct,7 24,8 13
+Japanese Grand Prix,VER,HARD,Practice 1,1,1,direct,17,15
+Japanese Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,20,17
+Japanese Grand Prix,VER,SOFT,Practice 3,1,1,direct,7,6
+Japanese Grand Prix,ZHO,MEDIUM,Practice 1,2,2,direct,11 12,7 11
+Japanese Grand Prix,ZHO,SOFT,Practice 3,2,1,short,4 17,16
+Mexico City Grand Prix,ALB,HARD,Practice 1,1,1,direct,7,7
+Mexico City Grand Prix,ALB,MEDIUM,Practice 3,1,1,direct,13,13
+Mexico City Grand Prix,ALB,SOFT,Practice 3,1,1,direct,8,6
+Mexico City Grand Prix,ALO,MEDIUM,Practice 3,1,1,direct,6,1
+Mexico City Grand Prix,ALO,SOFT,Practice 3,1,2,ambiguous,24,15
+Mexico City Grand Prix,BOT,HARD,Practice 1,1,1,direct,21,18
+Mexico City Grand Prix,BOT,MEDIUM,Practice 3,1,2,ambiguous,15,12
+Mexico City Grand Prix,BOT,SOFT,Practice 3,1,1,direct,13,11
+Mexico City Grand Prix,GAS,HARD,Practice 1,1,1,direct,17,14
+Mexico City Grand Prix,GAS,MEDIUM,Practice 3,1,1,direct,15,13
+Mexico City Grand Prix,GAS,SOFT,Practice 1,1,1,direct,8,6
+Mexico City Grand Prix,HAM,HARD,Practice 1,1,1,direct,14,11
+Mexico City Grand Prix,HAM,SOFT,Practice 1,1,1,direct,9,8
+Mexico City Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,18,12
+Mexico City Grand Prix,HUL,HARD,Practice 1,1,1,direct,14,12
+Mexico City Grand Prix,HUL,MEDIUM,Practice 3,1,1,direct,14,12
+Mexico City Grand Prix,HUL,SOFT,Practice 1,1,1,direct,8,6
+Mexico City Grand Prix,HUL,SOFT,Practice 3,1,1,direct,8,8
+Mexico City Grand Prix,LEC,HARD,Practice 1,1,1,direct,8,7
+Mexico City Grand Prix,LEC,SOFT,Practice 3,1,2,ambiguous,22,14
+Mexico City Grand Prix,MAG,HARD,Practice 1,1,1,direct,20,17
+Mexico City Grand Prix,MAG,MEDIUM,Practice 3,1,1,direct,13,11
+Mexico City Grand Prix,MAG,SOFT,Practice 1,1,1,direct,7,6
+Mexico City Grand Prix,MAG,SOFT,Practice 3,1,1,direct,8,8
+Mexico City Grand Prix,NOR,MEDIUM,Practice 3,1,0,short,6,
+Mexico City Grand Prix,NOR,SOFT,Practice 3,1,2,ambiguous,21,9
+Mexico City Grand Prix,OCO,HARD,Practice 1,1,1,direct,18,16
+Mexico City Grand Prix,OCO,MEDIUM,Practice 3,1,1,direct,14,12
+Mexico City Grand Prix,OCO,SOFT,Practice 1,1,1,direct,7,6
+Mexico City Grand Prix,PER,HARD,Practice 1,1,1,direct,11,17
+Mexico City Grand Prix,PER,SOFT,Practice 3,2,2,direct,9 15,9 10
+Mexico City Grand Prix,PIA,HARD,Practice 1,1,1,direct,23,21
+Mexico City Grand Prix,PIA,SOFT,Practice 3,1,2,ambiguous,18,10
+Mexico City Grand Prix,RIC,HARD,Practice 1,1,1,direct,18,15
+Mexico City Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,17,14
+Mexico City Grand Prix,RIC,SOFT,Practice 1,1,1,direct,12,11
+Mexico City Grand Prix,RUS,HARD,Practice 1,1,1,direct,23,21
+Mexico City Grand Prix,RUS,SOFT,Practice 3,2,2,direct,4 32,12 15
+Mexico City Grand Prix,SAI,HARD,Practice 1,1,1,direct,22,19
+Mexico City Grand Prix,SAI,SOFT,Practice 3,2,2,direct,12 16,9 12
+Mexico City Grand Prix,SAR,HARD,Practice 1,1,1,direct,8,15
+Mexico City Grand Prix,SAR,MEDIUM,Practice 3,1,1,direct,14,12
+Mexico City Grand Prix,SAR,SOFT,Practice 1,1,1,direct,7,6
+Mexico City Grand Prix,STR,HARD,Practice 1,1,1,direct,14,11
+Mexico City Grand Prix,STR,SOFT,Practice 1,1,1,direct,7,7
+Mexico City Grand Prix,STR,SOFT,Practice 3,2,2,direct,10 20,10 14
+Mexico City Grand Prix,TSU,HARD,Practice 1,1,1,direct,20,18
+Mexico City Grand Prix,TSU,MEDIUM,Practice 3,1,1,direct,13,13
+Mexico City Grand Prix,TSU,SOFT,Practice 1,1,1,direct,8,6
+Mexico City Grand Prix,TSU,SOFT,Practice 3,1,1,direct,9,7
+Mexico City Grand Prix,VER,HARD,Practice 1,1,1,direct,13,11
+Mexico City Grand Prix,VER,SOFT,Practice 3,2,2,direct,10 20,10 16
+Mexico City Grand Prix,ZHO,MEDIUM,Practice 3,1,2,ambiguous,10,10
+Monaco Grand Prix,ALB,HARD,Practice 1,1,1,direct,25,24
+Monaco Grand Prix,ALB,MEDIUM,Practice 2,2,1,short,13 26,27
+Monaco Grand Prix,ALB,SOFT,Practice 3,2,2,direct,13 27,9 15
+Monaco Grand Prix,ALO,HARD,Practice 1,1,1,direct,14,13
+Monaco Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,26,25
+Monaco Grand Prix,ALO,MEDIUM,Practice 3,1,2,ambiguous,10,9
+Monaco Grand Prix,ALO,SOFT,Practice 1,1,1,direct,14,12
+Monaco Grand Prix,ALO,SOFT,Practice 2,1,1,direct,14,12
+Monaco Grand Prix,ALO,SOFT,Practice 3,1,1,direct,15,14
+Monaco Grand Prix,BOT,HARD,Practice 1,1,1,direct,14,13
+Monaco Grand Prix,BOT,MEDIUM,Practice 2,2,2,direct,17 25,14 17
+Monaco Grand Prix,BOT,SOFT,Practice 1,1,1,direct,16,14
+Monaco Grand Prix,BOT,SOFT,Practice 3,1,1,direct,2,2
+Monaco Grand Prix,GAS,HARD,Practice 1,1,1,direct,8,6
+Monaco Grand Prix,GAS,MEDIUM,Practice 1,1,1,direct,4,4
+Monaco Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,24,23
+Monaco Grand Prix,GAS,SOFT,Practice 2,1,1,direct,13,12
+Monaco Grand Prix,GAS,SOFT,Practice 3,1,2,ambiguous,27,13
+Monaco Grand Prix,HAM,HARD,Practice 1,1,1,direct,20,19
+Monaco Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,10,9
+Monaco Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,26,25
+Monaco Grand Prix,HAM,SOFT,Practice 2,1,1,direct,16,14
+Monaco Grand Prix,HAM,SOFT,Practice 3,2,2,direct,17 19,7 18
+Monaco Grand Prix,HUL,HARD,Practice 1,1,1,direct,15,13
+Monaco Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,22,20
+Monaco Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,21,19
+Monaco Grand Prix,HUL,SOFT,Practice 2,1,1,direct,12,15
+Monaco Grand Prix,HUL,SOFT,Practice 3,2,2,direct,4 26,12 12
+Monaco Grand Prix,LEC,HARD,Practice 1,1,1,direct,26,23
+Monaco Grand Prix,LEC,MEDIUM,Practice 2,2,1,short,13 20,24
+Monaco Grand Prix,LEC,SOFT,Practice 3,2,2,direct,19 21,8 18
+Monaco Grand Prix,MAG,HARD,Practice 1,1,1,direct,22,20
+Monaco Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,14,13
+Monaco Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,11,10
+Monaco Grand Prix,MAG,SOFT,Practice 2,1,1,direct,22,21
+Monaco Grand Prix,MAG,SOFT,Practice 3,1,2,ambiguous,33,17
+Monaco Grand Prix,NOR,HARD,Practice 1,1,1,direct,14,13
+Monaco Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,17,16
+Monaco Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,25,23
+Monaco Grand Prix,NOR,SOFT,Practice 2,1,1,direct,13,16
+Monaco Grand Prix,NOR,SOFT,Practice 3,2,3,ambiguous,8 22,11 11
+Monaco Grand Prix,OCO,HARD,Practice 1,1,1,direct,20,19
+Monaco Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,15,13
+Monaco Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,21,20
+Monaco Grand Prix,OCO,SOFT,Practice 3,2,2,direct,19 23,9 16
+Monaco Grand Prix,PER,HARD,Practice 1,1,1,direct,26,23
+Monaco Grand Prix,PER,MEDIUM,Practice 1,1,1,direct,8,5
+Monaco Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,22,21
+Monaco Grand Prix,PER,SOFT,Practice 3,2,2,direct,16 23,10 14
+Monaco Grand Prix,PIA,HARD,Practice 2,1,1,direct,15,14
+Monaco Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,24,23
+Monaco Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,24,21
+Monaco Grand Prix,PIA,SOFT,Practice 3,2,2,direct,16 19,10 13
+Monaco Grand Prix,RIC,HARD,Practice 2,1,1,direct,14,13
+Monaco Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,18,17
+Monaco Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,25,24
+Monaco Grand Prix,RIC,SOFT,Practice 1,1,1,direct,20,18
+Monaco Grand Prix,RIC,SOFT,Practice 3,2,2,direct,14 21,13 14
+Monaco Grand Prix,RUS,HARD,Practice 1,1,1,direct,11,10
+Monaco Grand Prix,RUS,MEDIUM,Practice 2,2,1,short,21 23,21
+Monaco Grand Prix,RUS,SOFT,Practice 3,2,2,direct,17 36,16 17
+Monaco Grand Prix,SAI,HARD,Practice 1,1,1,direct,22,21
+Monaco Grand Prix,SAI,MEDIUM,Practice 2,2,1,short,16 26,25
+Monaco Grand Prix,SAI,SOFT,Practice 3,2,2,direct,15 18,12 14
+Monaco Grand Prix,SAR,HARD,Practice 1,1,1,direct,24,23
+Monaco Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,15,13
+Monaco Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,26,23
+Monaco Grand Prix,SAR,SOFT,Practice 2,1,1,direct,15,13
+Monaco Grand Prix,SAR,SOFT,Practice 3,2,2,direct,14 19,7 14
+Monaco Grand Prix,STR,HARD,Practice 1,1,1,direct,15,14
+Monaco Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,13,12
+Monaco Grand Prix,STR,MEDIUM,Practice 3,1,2,ambiguous,11,10
+Monaco Grand Prix,STR,SOFT,Practice 1,1,1,direct,13,11
+Monaco Grand Prix,STR,SOFT,Practice 2,1,1,direct,10,10
+Monaco Grand Prix,STR,SOFT,Practice 3,1,1,direct,13,13
+Monaco Grand Prix,TSU,HARD,Practice 2,1,1,direct,14,13
+Monaco Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,18,17
+Monaco Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,24,23
+Monaco Grand Prix,TSU,SOFT,Practice 1,1,1,direct,18,16
+Monaco Grand Prix,TSU,SOFT,Practice 3,1,2,ambiguous,27,13
+Monaco Grand Prix,VER,HARD,Practice 2,1,1,direct,29,27
+Monaco Grand Prix,VER,MEDIUM,Practice 1,1,3,ambiguous,33,19
+Monaco Grand Prix,VER,SOFT,Practice 2,1,1,direct,13,10
+Monaco Grand Prix,VER,SOFT,Practice 3,1,2,ambiguous,28,14
+Monaco Grand Prix,ZHO,HARD,Practice 1,1,1,direct,18,16
+Monaco Grand Prix,ZHO,MEDIUM,Practice 2,2,2,direct,21 23,9 23
+Monaco Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,15,13
+Monaco Grand Prix,ZHO,SOFT,Practice 3,1,2,ambiguous,30,14
+Saudi Arabian Grand Prix,ALB,HARD,Practice 2,1,1,direct,15,22
+Saudi Arabian Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,19,18
+Saudi Arabian Grand Prix,ALB,SOFT,Practice 1,1,1,direct,9,8
+Saudi Arabian Grand Prix,ALB,SOFT,Practice 3,2,2,direct,7 11,6 7
+Saudi Arabian Grand Prix,ALO,HARD,Practice 1,1,1,direct,18,16
+Saudi Arabian Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,23,22
+Saudi Arabian Grand Prix,ALO,MEDIUM,Practice 3,1,2,ambiguous,10,7
+Saudi Arabian Grand Prix,ALO,SOFT,Practice 1,1,1,direct,8,8
+Saudi Arabian Grand Prix,ALO,SOFT,Practice 3,1,1,direct,5,5
+Saudi Arabian Grand Prix,BOT,HARD,Practice 2,1,1,direct,20,19
+Saudi Arabian Grand Prix,BOT,MEDIUM,Practice 3,2,1,short,8 16,14
+Saudi Arabian Grand Prix,BOT,SOFT,Practice 1,1,1,direct,21,19
+Saudi Arabian Grand Prix,BOT,SOFT,Practice 2,1,1,direct,10,8
+Saudi Arabian Grand Prix,GAS,MEDIUM,Practice 2,2,1,short,9 22,21
+Saudi Arabian Grand Prix,GAS,SOFT,Practice 1,1,1,direct,9,8
+Saudi Arabian Grand Prix,GAS,SOFT,Practice 3,2,2,direct,9 15,5 8
+Saudi Arabian Grand Prix,HAM,HARD,Practice 1,1,1,direct,11,16
+Saudi Arabian Grand Prix,HAM,HARD,Practice 2,1,0,short,6,
+Saudi Arabian Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,19,17
+Saudi Arabian Grand Prix,HAM,SOFT,Practice 1,1,1,direct,8,6
+Saudi Arabian Grand Prix,HAM,SOFT,Practice 3,1,2,ambiguous,22,14
+Saudi Arabian Grand Prix,HUL,HARD,Practice 2,1,1,direct,21,19
+Saudi Arabian Grand Prix,HUL,MEDIUM,Practice 1,2,2,direct,14 14,5 14
+Saudi Arabian Grand Prix,HUL,SOFT,Practice 2,1,2,ambiguous,4,4
+Saudi Arabian Grand Prix,HUL,SOFT,Practice 3,2,2,direct,4 13,5 6
+Saudi Arabian Grand Prix,LEC,HARD,Practice 1,1,1,direct,19,17
+Saudi Arabian Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,11,10
+Saudi Arabian Grand Prix,LEC,MEDIUM,Practice 3,1,1,direct,14,11
+Saudi Arabian Grand Prix,LEC,SOFT,Practice 1,1,1,direct,8,7
+Saudi Arabian Grand Prix,LEC,SOFT,Practice 2,1,1,direct,18,15
+Saudi Arabian Grand Prix,LEC,SOFT,Practice 3,1,1,direct,5,5
+Saudi Arabian Grand Prix,MAG,HARD,Practice 1,1,1,direct,7,6
+Saudi Arabian Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,13,12
+Saudi Arabian Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,6,5
+Saudi Arabian Grand Prix,MAG,SOFT,Practice 2,1,1,direct,20,19
+Saudi Arabian Grand Prix,MAG,SOFT,Practice 3,1,2,ambiguous,14,7
+Saudi Arabian Grand Prix,NOR,HARD,Practice 2,1,1,direct,14,13
+Saudi Arabian Grand Prix,NOR,HARD,Practice 3,1,1,direct,2,1
+Saudi Arabian Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,12,11
+Saudi Arabian Grand Prix,NOR,SOFT,Practice 1,1,1,direct,17,15
+Saudi Arabian Grand Prix,NOR,SOFT,Practice 2,1,1,direct,13,10
+Saudi Arabian Grand Prix,NOR,SOFT,Practice 3,1,1,direct,11,10
+Saudi Arabian Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,21,19
+Saudi Arabian Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,20,19
+Saudi Arabian Grand Prix,OCO,SOFT,Practice 1,1,1,direct,9,8
+Saudi Arabian Grand Prix,OCO,SOFT,Practice 2,1,1,direct,9,8
+Saudi Arabian Grand Prix,OCO,SOFT,Practice 3,1,2,ambiguous,15,8
+Saudi Arabian Grand Prix,PER,HARD,Practice 1,1,2,ambiguous,13,9
+Saudi Arabian Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,26,24
+Saudi Arabian Grand Prix,PER,SOFT,Practice 1,1,1,direct,16,12
+Saudi Arabian Grand Prix,PER,SOFT,Practice 2,1,1,direct,13,3
+Saudi Arabian Grand Prix,PER,SOFT,Practice 3,1,2,ambiguous,14,9
+Saudi Arabian Grand Prix,PIA,HARD,Practice 1,1,1,direct,8,10
+Saudi Arabian Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,20,17
+Saudi Arabian Grand Prix,PIA,MEDIUM,Practice 3,1,1,direct,7,6
+Saudi Arabian Grand Prix,PIA,SOFT,Practice 1,1,1,direct,14,12
+Saudi Arabian Grand Prix,PIA,SOFT,Practice 2,1,2,ambiguous,8,7
+Saudi Arabian Grand Prix,PIA,SOFT,Practice 3,1,1,direct,3,4
+Saudi Arabian Grand Prix,RIC,HARD,Practice 1,1,1,direct,13,12
+Saudi Arabian Grand Prix,RIC,MEDIUM,Practice 1,1,1,direct,15,13
+Saudi Arabian Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,13,10
+Saudi Arabian Grand Prix,RIC,SOFT,Practice 2,2,2,direct,18 19,10 19
+Saudi Arabian Grand Prix,RIC,SOFT,Practice 3,1,1,direct,5,5
+Saudi Arabian Grand Prix,RUS,HARD,Practice 1,1,1,direct,18,17
+Saudi Arabian Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,20,17
+Saudi Arabian Grand Prix,RUS,SOFT,Practice 1,1,1,direct,8,6
+Saudi Arabian Grand Prix,RUS,SOFT,Practice 2,1,1,direct,8,7
+Saudi Arabian Grand Prix,RUS,SOFT,Practice 3,1,2,ambiguous,19,12
+Saudi Arabian Grand Prix,SAI,HARD,Practice 1,1,1,direct,19,17
+Saudi Arabian Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,18,17
+Saudi Arabian Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,20,17
+Saudi Arabian Grand Prix,SAI,SOFT,Practice 1,1,1,direct,9,7
+Saudi Arabian Grand Prix,SAI,SOFT,Practice 2,1,1,direct,11,9
+Saudi Arabian Grand Prix,SAI,SOFT,Practice 3,1,1,direct,5,5
+Saudi Arabian Grand Prix,SAR,HARD,Practice 1,1,1,direct,20,19
+Saudi Arabian Grand Prix,SAR,MEDIUM,Practice 2,1,1,direct,21,20
+Saudi Arabian Grand Prix,SAR,SOFT,Practice 1,1,1,direct,9,8
+Saudi Arabian Grand Prix,SAR,SOFT,Practice 2,1,1,direct,9,7
+Saudi Arabian Grand Prix,SAR,SOFT,Practice 3,1,1,direct,2,2
+Saudi Arabian Grand Prix,STR,HARD,Practice 3,1,1,direct,6,1
+Saudi Arabian Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,20,18
+Saudi Arabian Grand Prix,STR,MEDIUM,Practice 3,1,2,ambiguous,10,7
+Saudi Arabian Grand Prix,STR,SOFT,Practice 1,2,1,short,13 13,13
+Saudi Arabian Grand Prix,STR,SOFT,Practice 2,1,1,direct,10,9
+Saudi Arabian Grand Prix,TSU,HARD,Practice 1,1,1,direct,13,12
+Saudi Arabian Grand Prix,TSU,MEDIUM,Practice 1,1,1,direct,13,13
+Saudi Arabian Grand Prix,TSU,MEDIUM,Practice 3,1,1,direct,16,13
+Saudi Arabian Grand Prix,TSU,SOFT,Practice 2,2,2,direct,15 20,8 20
+Saudi Arabian Grand Prix,TSU,SOFT,Practice 3,1,1,direct,5,5
+Saudi Arabian Grand Prix,VER,HARD,Practice 1,1,1,direct,10,18
+Saudi Arabian Grand Prix,VER,MEDIUM,Practice 2,2,1,short,10 13,21
+Saudi Arabian Grand Prix,VER,SOFT,Practice 1,1,1,direct,7,6
+Saudi Arabian Grand Prix,VER,SOFT,Practice 3,2,2,direct,7 14,4 9
+Saudi Arabian Grand Prix,ZHO,HARD,Practice 1,1,1,direct,11,10
+Saudi Arabian Grand Prix,ZHO,MEDIUM,Practice 2,1,1,direct,21,20
+Saudi Arabian Grand Prix,ZHO,MEDIUM,Practice 3,1,1,direct,12,10
+Saudi Arabian Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,16,14
+Saudi Arabian Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,8,7
+Saudi Arabian Grand Prix,ZHO,SOFT,Practice 3,1,1,direct,2,2
+Singapore Grand Prix,ALB,HARD,Practice 1,1,1,direct,10,19
+Singapore Grand Prix,ALB,MEDIUM,Practice 2,2,1,short,8 11,17
+Singapore Grand Prix,ALB,SOFT,Practice 3,2,1,short,8 10,9
+Singapore Grand Prix,ALO,HARD,Practice 3,1,1,direct,11,1
+Singapore Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,9,8
+Singapore Grand Prix,ALO,MEDIUM,Practice 3,1,2,ambiguous,14,11
+Singapore Grand Prix,ALO,SOFT,Practice 1,1,1,direct,8,7
+Singapore Grand Prix,ALO,SOFT,Practice 2,1,1,direct,19,17
+Singapore Grand Prix,BOT,HARD,Practice 2,1,1,direct,12,19
+Singapore Grand Prix,BOT,MEDIUM,Practice 1,2,1,short,9 11,19
+Singapore Grand Prix,BOT,SOFT,Practice 2,1,1,direct,9,7
+Singapore Grand Prix,BOT,SOFT,Practice 3,2,2,direct,7 21,7 10
+Singapore Grand Prix,GAS,HARD,Practice 1,1,1,direct,12,11
+Singapore Grand Prix,GAS,MEDIUM,Practice 2,1,1,direct,14,21
+Singapore Grand Prix,GAS,MEDIUM,Practice 3,1,1,direct,15,14
+Singapore Grand Prix,GAS,SOFT,Practice 1,1,1,direct,16,16
+Singapore Grand Prix,GAS,SOFT,Practice 2,1,1,direct,8,6
+Singapore Grand Prix,GAS,SOFT,Practice 3,1,1,direct,8,8
+Singapore Grand Prix,HAM,HARD,Practice 1,1,1,direct,12,19
+Singapore Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,13,21
+Singapore Grand Prix,HAM,MEDIUM,Practice 3,2,1,short,10 13,11
+Singapore Grand Prix,HAM,SOFT,Practice 1,1,1,direct,6,5
+Singapore Grand Prix,HUL,HARD,Practice 1,1,1,direct,20,18
+Singapore Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,22,21
+Singapore Grand Prix,HUL,MEDIUM,Practice 3,1,1,direct,7,6
+Singapore Grand Prix,HUL,SOFT,Practice 1,1,1,direct,8,6
+Singapore Grand Prix,HUL,SOFT,Practice 2,1,1,direct,7,5
+Singapore Grand Prix,HUL,SOFT,Practice 3,1,1,direct,9,8
+Singapore Grand Prix,LEC,HARD,Practice 1,1,1,direct,12,18
+Singapore Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,13,22
+Singapore Grand Prix,LEC,MEDIUM,Practice 3,1,1,direct,14,12
+Singapore Grand Prix,LEC,SOFT,Practice 1,1,1,direct,10,8
+Singapore Grand Prix,LEC,SOFT,Practice 2,1,1,direct,8,6
+Singapore Grand Prix,LEC,SOFT,Practice 3,1,1,direct,9,8
+Singapore Grand Prix,MAG,HARD,Practice 1,1,1,direct,16,15
+Singapore Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,8,7
+Singapore Grand Prix,MAG,MEDIUM,Practice 3,1,1,direct,8,6
+Singapore Grand Prix,MAG,SOFT,Practice 2,1,1,direct,20,19
+Singapore Grand Prix,MAG,SOFT,Practice 3,1,1,direct,9,8
+Singapore Grand Prix,NOR,HARD,Practice 2,1,1,direct,12,11
+Singapore Grand Prix,NOR,MEDIUM,Practice 1,1,1,direct,12,19
+Singapore Grand Prix,NOR,MEDIUM,Practice 3,1,1,direct,11,10
+Singapore Grand Prix,NOR,SOFT,Practice 1,1,1,direct,8,6
+Singapore Grand Prix,NOR,SOFT,Practice 2,1,1,direct,19,16
+Singapore Grand Prix,NOR,SOFT,Practice 3,1,1,direct,8,6
+Singapore Grand Prix,OCO,HARD,Practice 2,1,1,direct,14,21
+Singapore Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,13,12
+Singapore Grand Prix,OCO,MEDIUM,Practice 3,1,1,direct,13,12
+Singapore Grand Prix,OCO,SOFT,Practice 1,1,1,direct,15,15
+Singapore Grand Prix,OCO,SOFT,Practice 2,1,1,direct,7,6
+Singapore Grand Prix,OCO,SOFT,Practice 3,1,1,direct,9,8
+Singapore Grand Prix,PER,HARD,Practice 2,1,1,direct,11,19
+Singapore Grand Prix,PER,MEDIUM,Practice 1,1,1,direct,9,8
+Singapore Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,10,8
+Singapore Grand Prix,PER,SOFT,Practice 1,1,1,direct,15,14
+Singapore Grand Prix,PER,SOFT,Practice 2,1,1,direct,8,6
+Singapore Grand Prix,PER,SOFT,Practice 3,1,1,direct,7,7
+Singapore Grand Prix,PIA,HARD,Practice 1,1,1,direct,8,7
+Singapore Grand Prix,PIA,MEDIUM,Practice 2,1,1,direct,24,21
+Singapore Grand Prix,PIA,MEDIUM,Practice 3,1,1,direct,11,10
+Singapore Grand Prix,PIA,SOFT,Practice 1,1,1,direct,20,18
+Singapore Grand Prix,PIA,SOFT,Practice 2,1,1,direct,8,6
+Singapore Grand Prix,PIA,SOFT,Practice 3,1,1,direct,8,6
+Singapore Grand Prix,RIC,HARD,Practice 1,1,1,direct,11,9
+Singapore Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,22,21
+Singapore Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,11,9
+Singapore Grand Prix,RIC,SOFT,Practice 1,1,1,direct,13,12
+Singapore Grand Prix,RIC,SOFT,Practice 2,1,1,direct,6,5
+Singapore Grand Prix,RIC,SOFT,Practice 3,1,1,direct,8,8
+Singapore Grand Prix,RUS,HARD,Practice 1,1,1,direct,13,22
+Singapore Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,12,20
+Singapore Grand Prix,RUS,MEDIUM,Practice 3,1,1,direct,13,12
+Singapore Grand Prix,RUS,SOFT,Practice 2,1,1,direct,7,5
+Singapore Grand Prix,RUS,SOFT,Practice 3,1,1,direct,8,7
+Singapore Grand Prix,SAI,HARD,Practice 1,1,1,direct,13,19
+Singapore Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,11,21
+Singapore Grand Prix,SAI,MEDIUM,Practice 3,1,1,direct,15,13
+Singapore Grand Prix,SAI,SOFT,Practice 1,1,1,direct,10,8
+Singapore Grand Prix,SAI,SOFT,Practice 2,1,1,direct,8,6
+Singapore Grand Prix,SAI,SOFT,Practice 3,1,1,direct,8,7
+Singapore Grand Prix,SAR,HARD,Practice 2,1,1,direct,20,19
+Singapore Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,20,19
+Singapore Grand Prix,SAR,SOFT,Practice 2,1,1,direct,9,7
+Singapore Grand Prix,SAR,SOFT,Practice 3,2,2,direct,11 16,6 9
+Singapore Grand Prix,STR,HARD,Practice 1,1,1,direct,10,9
+Singapore Grand Prix,STR,MEDIUM,Practice 3,2,2,direct,10 16,1 12
+Singapore Grand Prix,STR,SOFT,Practice 1,1,1,direct,12,12
+Singapore Grand Prix,STR,SOFT,Practice 2,1,1,direct,8,7
+Singapore Grand Prix,TSU,HARD,Practice 2,2,1,short,9 14,22
+Singapore Grand Prix,TSU,MEDIUM,Practice 1,2,1,short,11 11,21
+Singapore Grand Prix,TSU,SOFT,Practice 3,2,1,short,7 8,7
+Singapore Grand Prix,VER,HARD,Practice 2,1,1,direct,18,17
+Singapore Grand Prix,VER,MEDIUM,Practice 1,1,1,direct,17,16
+Singapore Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,10,8
+Singapore Grand Prix,VER,SOFT,Practice 1,1,1,direct,7,6
+Singapore Grand Prix,VER,SOFT,Practice 2,1,1,direct,9,7
+Singapore Grand Prix,VER,SOFT,Practice 3,1,1,direct,9,8
+Singapore Grand Prix,ZHO,HARD,Practice 1,1,1,direct,19,18
+Singapore Grand Prix,ZHO,MEDIUM,Practice 2,2,1,short,9 11,19
+Singapore Grand Prix,ZHO,SOFT,Practice 3,2,2,direct,11 16,9 10
+Spanish Grand Prix,ALB,HARD,Practice 2,1,1,direct,14,12
+Spanish Grand Prix,ALB,MEDIUM,Practice 1,1,1,direct,19,17
+Spanish Grand Prix,ALB,SOFT,Practice 1,1,1,direct,9,8
+Spanish Grand Prix,ALB,SOFT,Practice 2,1,1,direct,24,22
+Spanish Grand Prix,ALB,SOFT,Practice 3,2,2,direct,10 11,6 8
+Spanish Grand Prix,ALO,HARD,Practice 1,1,1,direct,15,12
+Spanish Grand Prix,ALO,MEDIUM,Practice 2,1,1,direct,21,19
+Spanish Grand Prix,ALO,MEDIUM,Practice 3,1,2,ambiguous,14,10
+Spanish Grand Prix,ALO,SOFT,Practice 1,1,1,direct,14,14
+Spanish Grand Prix,ALO,SOFT,Practice 2,1,1,direct,10,9
+Spanish Grand Prix,ALO,SOFT,Practice 3,1,1,direct,11,9
+Spanish Grand Prix,BOT,HARD,Practice 1,1,1,direct,14,11
+Spanish Grand Prix,BOT,MEDIUM,Practice 2,1,1,direct,24,23
+Spanish Grand Prix,BOT,MEDIUM,Practice 3,1,1,direct,14,12
+Spanish Grand Prix,BOT,SOFT,Practice 1,1,1,direct,16,13
+Spanish Grand Prix,BOT,SOFT,Practice 2,1,1,direct,10,7
+Spanish Grand Prix,BOT,SOFT,Practice 3,1,1,direct,8,7
+Spanish Grand Prix,GAS,HARD,Practice 1,1,1,direct,14,11
+Spanish Grand Prix,GAS,MEDIUM,Practice 2,2,1,short,11 23,21
+Spanish Grand Prix,GAS,SOFT,Practice 3,2,2,direct,8 16,7 7
+Spanish Grand Prix,HAM,HARD,Practice 1,1,1,direct,12,10
+Spanish Grand Prix,HAM,MEDIUM,Practice 1,1,1,direct,20,18
+Spanish Grand Prix,HAM,MEDIUM,Practice 2,1,1,direct,11,8
+Spanish Grand Prix,HAM,SOFT,Practice 2,1,1,direct,22,20
+Spanish Grand Prix,HAM,SOFT,Practice 3,2,2,direct,10 25,9 17
+Spanish Grand Prix,HUL,HARD,Practice 3,1,1,direct,13,11
+Spanish Grand Prix,HUL,MEDIUM,Practice 1,1,1,direct,24,22
+Spanish Grand Prix,HUL,MEDIUM,Practice 2,1,1,direct,22,20
+Spanish Grand Prix,HUL,SOFT,Practice 1,1,1,direct,9,7
+Spanish Grand Prix,HUL,SOFT,Practice 2,1,1,direct,4,9
+Spanish Grand Prix,HUL,SOFT,Practice 3,1,1,direct,9,9
+Spanish Grand Prix,LEC,HARD,Practice 1,1,1,direct,18,15
+Spanish Grand Prix,LEC,MEDIUM,Practice 1,1,1,direct,14,11
+Spanish Grand Prix,LEC,MEDIUM,Practice 2,1,1,direct,9,7
+Spanish Grand Prix,LEC,SOFT,Practice 2,1,1,direct,17,15
+Spanish Grand Prix,LEC,SOFT,Practice 3,2,2,direct,5 20,5 13
+Spanish Grand Prix,MAG,HARD,Practice 3,1,1,direct,19,17
+Spanish Grand Prix,MAG,MEDIUM,Practice 1,1,1,direct,27,24
+Spanish Grand Prix,MAG,MEDIUM,Practice 2,1,1,direct,10,9
+Spanish Grand Prix,MAG,SOFT,Practice 1,1,1,direct,8,6
+Spanish Grand Prix,MAG,SOFT,Practice 2,1,1,direct,24,23
+Spanish Grand Prix,MAG,SOFT,Practice 3,1,1,direct,11,10
+Spanish Grand Prix,NOR,HARD,Practice 1,1,1,direct,23,20
+Spanish Grand Prix,NOR,MEDIUM,Practice 2,1,1,direct,14,13
+Spanish Grand Prix,NOR,MEDIUM,Practice 3,1,1,direct,7,6
+Spanish Grand Prix,NOR,SOFT,Practice 1,1,1,direct,8,7
+Spanish Grand Prix,NOR,SOFT,Practice 2,1,1,direct,20,18
+Spanish Grand Prix,NOR,SOFT,Practice 3,1,1,direct,10,8
+Spanish Grand Prix,OCO,HARD,Practice 1,1,1,direct,14,12
+Spanish Grand Prix,OCO,MEDIUM,Practice 1,1,1,direct,19,18
+Spanish Grand Prix,OCO,MEDIUM,Practice 2,1,1,direct,10,9
+Spanish Grand Prix,OCO,SOFT,Practice 2,1,1,direct,22,21
+Spanish Grand Prix,OCO,SOFT,Practice 3,2,2,direct,7 18,7 11
+Spanish Grand Prix,PER,HARD,Practice 1,1,1,direct,11,9
+Spanish Grand Prix,PER,MEDIUM,Practice 2,1,1,direct,23,20
+Spanish Grand Prix,PER,MEDIUM,Practice 3,1,1,direct,16,12
+Spanish Grand Prix,PER,SOFT,Practice 1,1,1,direct,20,19
+Spanish Grand Prix,PER,SOFT,Practice 3,1,1,direct,8,7
+Spanish Grand Prix,PIA,HARD,Practice 2,1,1,direct,14,12
+Spanish Grand Prix,PIA,MEDIUM,Practice 1,1,1,direct,24,20
+Spanish Grand Prix,PIA,MEDIUM,Practice 3,1,1,direct,10,7
+Spanish Grand Prix,PIA,SOFT,Practice 1,1,1,direct,11,9
+Spanish Grand Prix,PIA,SOFT,Practice 2,1,1,direct,18,16
+Spanish Grand Prix,PIA,SOFT,Practice 3,1,1,direct,8,7
+Spanish Grand Prix,RIC,HARD,Practice 1,1,1,direct,23,20
+Spanish Grand Prix,RIC,MEDIUM,Practice 2,1,1,direct,23,21
+Spanish Grand Prix,RIC,MEDIUM,Practice 3,1,1,direct,13,11
+Spanish Grand Prix,RIC,SOFT,Practice 1,1,1,direct,12,10
+Spanish Grand Prix,RIC,SOFT,Practice 2,1,1,direct,10,8
+Spanish Grand Prix,RIC,SOFT,Practice 3,1,1,direct,7,6
+Spanish Grand Prix,RUS,HARD,Practice 1,1,1,direct,28,25
+Spanish Grand Prix,RUS,MEDIUM,Practice 2,1,1,direct,11,9
+Spanish Grand Prix,RUS,MEDIUM,Practice 3,1,0,short,7,
+Spanish Grand Prix,RUS,SOFT,Practice 2,1,1,direct,21,19
+Spanish Grand Prix,RUS,SOFT,Practice 3,1,2,ambiguous,24,14
+Spanish Grand Prix,SAI,HARD,Practice 1,1,1,direct,14,12
+Spanish Grand Prix,SAI,MEDIUM,Practice 1,1,1,direct,14,19
+Spanish Grand Prix,SAI,MEDIUM,Practice 2,1,1,direct,14,13
+Spanish Grand Prix,SAI,SOFT,Practice 2,1,1,direct,19,17
+Spanish Grand Prix,SAI,SOFT,Practice 3,2,2,direct,7 19,7 12
+Spanish Grand Prix,SAR,HARD,Practice 2,1,1,direct,26,25
+Spanish Grand Prix,SAR,MEDIUM,Practice 1,1,1,direct,14,11
+Spanish Grand Prix,SAR,SOFT,Practice 1,1,1,direct,16,14
+Spanish Grand Prix,SAR,SOFT,Practice 2,1,1,direct,11,8
+Spanish Grand Prix,SAR,SOFT,Practice 3,2,2,direct,6 12,6 6
+Spanish Grand Prix,STR,HARD,Practice 1,1,1,direct,18,15
+Spanish Grand Prix,STR,MEDIUM,Practice 2,1,1,direct,11,9
+Spanish Grand Prix,STR,MEDIUM,Practice 3,1,2,ambiguous,13,9
+Spanish Grand Prix,STR,SOFT,Practice 1,1,1,direct,13,13
+Spanish Grand Prix,STR,SOFT,Practice 2,1,1,direct,21,19
+Spanish Grand Prix,STR,SOFT,Practice 3,1,1,direct,5,5
+Spanish Grand Prix,TSU,HARD,Practice 1,1,1,direct,10,8
+Spanish Grand Prix,TSU,MEDIUM,Practice 2,1,1,direct,10,9
+Spanish Grand Prix,TSU,MEDIUM,Practice 3,1,1,direct,17,14
+Spanish Grand Prix,TSU,SOFT,Practice 1,1,1,direct,15,13
+Spanish Grand Prix,TSU,SOFT,Practice 2,1,1,direct,23,22
+Spanish Grand Prix,TSU,SOFT,Practice 3,1,1,direct,9,8
+Spanish Grand Prix,VER,HARD,Practice 1,1,1,direct,17,14
+Spanish Grand Prix,VER,MEDIUM,Practice 2,1,1,direct,21,18
+Spanish Grand Prix,VER,MEDIUM,Practice 3,1,1,direct,19,17
+Spanish Grand Prix,VER,SOFT,Practice 1,1,1,direct,15,13
+Spanish Grand Prix,VER,SOFT,Practice 2,1,1,direct,12,11
+Spanish Grand Prix,VER,SOFT,Practice 3,1,1,direct,8,7
+Spanish Grand Prix,ZHO,HARD,Practice 2,1,1,direct,14,13
+Spanish Grand Prix,ZHO,MEDIUM,Practice 1,1,1,direct,13,11
+Spanish Grand Prix,ZHO,MEDIUM,Practice 3,1,1,direct,14,10
+Spanish Grand Prix,ZHO,SOFT,Practice 1,1,1,direct,16,13
+Spanish Grand Prix,ZHO,SOFT,Practice 2,1,1,direct,11,8
+Spanish Grand Prix,ZHO,SOFT,Practice 3,1,1,direct,8,7
