@@ -8,8 +8,13 @@ trained_models/rl_agents_onedriver_v9_20261021/.
 
     python scripts/make_tasks_v9_20261021.py  ->  reproduce/cluster/tasks_v9.tsv, tasks_v9_pilot.tsv, tasks_v9_rest.tsv,
                                                    tasks_onedriver_v9.tsv
+2026-10-21 (noche): inventario por reglamento (data/tyre_sets_2024_reg_20261021.csv) -> etiqueta v9r, para no mezclar
+con los modelos mono-piloto v9 ya lanzados con el inventario anterior (rl_agents_onedriver_v9_20261021, cancelados):
+    python scripts/make_tasks_v9_20261021.py v9r  ->  tasks_v9r.tsv, tasks_onedriver_v9r.tsv
+                                                     (salidas rl_agents_v9r_20261021, rl_agents_onedriver_v9r_20261021)
 """
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CL = os.path.join(ROOT, 'reproduce', 'cluster')
@@ -37,18 +42,19 @@ def write(fname, ls):
     print(f'{fname}: {len(ls)} tareas')
 
 
-def main():
-    multi = convert('tasks_v8.tsv', 'v8', 'v9', 'trained_models/rl_agents_v8_20261018',
-                    'trained_models/rl_agents_v9_20261021', 400)
-    pilot = [l for l in multi if tuple(l.split('\t')[0].split('__')[2:4]) in PILOT]
-    assert len(pilot) == 30, len(pilot)
-    one = convert('tasks_onedriver_v8.tsv', 'onedriver_v8', 'onedriver_v9',
-                  'trained_models/rl_agents_onedriver_v8_20261019', 'trained_models/rl_agents_onedriver_v9_20261021', 200)
-    write('tasks_v9.tsv', multi)
-    write('tasks_v9_pilot.tsv', pilot)
-    write('tasks_v9_rest.tsv', [l for l in multi if l not in pilot])
-    write('tasks_onedriver_v9.tsv', one)
+def main(tag='v9'):
+    multi = convert('tasks_v8.tsv', 'v8', tag, 'trained_models/rl_agents_v8_20261018',
+                    f'trained_models/rl_agents_{tag}_20261021', 400)
+    one = convert('tasks_onedriver_v8.tsv', 'onedriver_v8', f'onedriver_{tag}',
+                  'trained_models/rl_agents_onedriver_v8_20261019', f'trained_models/rl_agents_onedriver_{tag}_20261021', 200)
+    write(f'tasks_{tag}.tsv', multi)
+    write(f'tasks_onedriver_{tag}.tsv', one)
+    if tag == 'v9':
+        pilot = [l for l in multi if tuple(l.split('\t')[0].split('__')[2:4]) in PILOT]
+        assert len(pilot) == 30, len(pilot)
+        write('tasks_v9_pilot.tsv', pilot)
+        write('tasks_v9_rest.tsv', [l for l in multi if l not in pilot])
 
 
 if __name__ == '__main__':
-    main()
+    main(*sys.argv[1:2])

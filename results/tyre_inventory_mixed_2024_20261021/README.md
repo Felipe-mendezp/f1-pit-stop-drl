@@ -81,3 +81,40 @@ sesión en común, o titular ausente todo el fin de semana), en nuestros juegos,
 carrera. Resultado: los 20 pilotos del simulador en los 24 GP, con al menos 1 juego de cada compuesto. Entrada del
 simulador: `data/tyre_sets_2024_20261021.csv` y `data/tyre_race_stint_ages_2024_20261021.csv`
 (`scripts/build_tyre_sets_20261021.py`, desde las salidas `_keep1`).
+
+## Devoluciones por reglamento (`available_regulation_20261021.py`, `load_q3_20261021.py` -> `q3_2024.csv`)
+
+Reglamento deportivo 2024 (art. 30.2, Issue 6) [verificado en el texto]: fin de semana normal, 13 juegos secos, se
+devuelven 2 tras FP1, 2 tras FP2 y 2 tras FP3 (usados o no) y los que pasan a la Q3 devuelven uno de blando tras la
+Qualifying -> 7 juegos en carrera (6 en Q3); sprint, 12 juegos, 1 tras FP1, 1 tras la sprint (el de más vueltas en
+ella) y 3 tras la Qualifying -> 7. No se pueden devolver un duro y un medio (especificaciones de carrera) y, en fin de
+semana normal, un blando no se puede usar ni devolver antes de la Q3 (quien no pasa a la Q3 lo tiene nuevo). Lapchive
+solo marca devoluciones de juegos usados, por eso el inventario con Lapchive tiene 9,3 juegos por piloto (hasta 14).
+
+Qué juego se devuelve no se observa (hipótesis). En cada devolución, entre los juegos no usados en sesiones
+posteriores y no protegidos, se devuelve el de mayor puntaje = vueltas + w[compuesto]. Validación con las carreras
+(240 tandas con juego usado, 796 celdas piloto x GP x compuesto con juegos nuevos usados):
+
+| inventario | juegos por piloto | tandas con juego usado sin explicar | faltas de juego nuevo |
+|---|---|---|---|
+| Lapchive, K = 1 (actual) | 9,27 | 3 | 17 |
+| reglamento, más vueltas primero, nuevos del compuesto que sobra | 6,73 | 11 | 23 |
+| reglamento, menos vueltas primero | 6,73 | 43 | 23 |
+| **reglamento, puntaje w = (blando 5, medio 0)** | 6,73 | **4** | **23** |
+| reglamento, puntaje w = (blando 20 o más) | 6,73 | 3-4 | 39-61 |
+
+- Los equipos devuelven primero blandos usados y guardan medios y duros poco usados (en sprint, los medios de la
+  Sprint Qualifying se usan en carrera) y los blandos nuevos (castigos grandes al blando devuelven blandos nuevos que
+  luego faltan en carrera).
+- De las 23 faltas, 17 ya estaban con el inventario de Lapchive (problemas de datos: Qatar 5, Abu Dhabi 4, FP1 de
+  Imola 4); 6 son propias del reglamento (3 pilotos que usaron 2 duros o medios nuevos, 3 blandos nuevos).
+- 28 devoluciones no encuentran candidato (Canadá 12, México 14: todos los juegos se usan después); esos pilotos
+  quedan con más de 7 juegos.
+- Ejemplos: GAS Bélgica H [0,0] M [0] S [0,0,0,0] (antes 11 juegos, 6 blandos nuevos); juegos nuevos por piloto
+  H 1,32 M 1,13 S 1,00 (antes 1,35 / 1,22 / 1,49).
+- Especificaciones obligatorias de carrera [verificado, 21-oct]: en los 8 GP del paper la FIA declaró como obligatorias
+  de carrera las dos más duras (duro y medio) y como neumático de Q3 el blando (tabla "Compounds selection" de los
+  documentos FIA "Event Notes - Pirelli Preview" de cada GP, p. ej.
+  https://api.fia.com/sites/default/files/decision-document/2024%20Bahrain%20Grand%20Prix%20-%20Event%20Notes%20-%20Pirelli%20Preview.pdf).
+  Con tres compuestos, la regla de dos compuestos del simulador y del QMIP equivale entonces al art. 30.5 m), y la
+  protección de un duro y un medio del inventario corresponde al art. 30.2 h ii).

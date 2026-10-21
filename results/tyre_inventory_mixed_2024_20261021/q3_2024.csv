@@ -1,0 +1,480 @@
+Round,GP,Driver,Q3,QPos
+1,Bahrain Grand Prix,VER,True,1.0
+1,Bahrain Grand Prix,LEC,True,2.0
+1,Bahrain Grand Prix,RUS,True,3.0
+1,Bahrain Grand Prix,SAI,True,4.0
+1,Bahrain Grand Prix,PER,True,5.0
+1,Bahrain Grand Prix,ALO,True,6.0
+1,Bahrain Grand Prix,NOR,True,7.0
+1,Bahrain Grand Prix,PIA,True,8.0
+1,Bahrain Grand Prix,HAM,True,9.0
+1,Bahrain Grand Prix,HUL,True,10.0
+1,Bahrain Grand Prix,TSU,False,11.0
+1,Bahrain Grand Prix,STR,False,12.0
+1,Bahrain Grand Prix,ALB,False,13.0
+1,Bahrain Grand Prix,RIC,False,14.0
+1,Bahrain Grand Prix,MAG,False,15.0
+1,Bahrain Grand Prix,BOT,False,16.0
+1,Bahrain Grand Prix,ZHO,False,17.0
+1,Bahrain Grand Prix,SAR,False,18.0
+1,Bahrain Grand Prix,OCO,False,19.0
+1,Bahrain Grand Prix,GAS,False,20.0
+2,Saudi Arabian Grand Prix,VER,True,1.0
+2,Saudi Arabian Grand Prix,LEC,True,2.0
+2,Saudi Arabian Grand Prix,PER,True,3.0
+2,Saudi Arabian Grand Prix,ALO,True,4.0
+2,Saudi Arabian Grand Prix,PIA,True,5.0
+2,Saudi Arabian Grand Prix,NOR,True,6.0
+2,Saudi Arabian Grand Prix,RUS,True,7.0
+2,Saudi Arabian Grand Prix,HAM,True,8.0
+2,Saudi Arabian Grand Prix,TSU,True,9.0
+2,Saudi Arabian Grand Prix,STR,True,10.0
+2,Saudi Arabian Grand Prix,BEA,False,11.0
+2,Saudi Arabian Grand Prix,ALB,False,12.0
+2,Saudi Arabian Grand Prix,MAG,False,13.0
+2,Saudi Arabian Grand Prix,RIC,False,14.0
+2,Saudi Arabian Grand Prix,HUL,False,15.0
+2,Saudi Arabian Grand Prix,BOT,False,16.0
+2,Saudi Arabian Grand Prix,OCO,False,17.0
+2,Saudi Arabian Grand Prix,GAS,False,18.0
+2,Saudi Arabian Grand Prix,SAR,False,19.0
+2,Saudi Arabian Grand Prix,ZHO,False,20.0
+3,Australian Grand Prix,VER,True,1.0
+3,Australian Grand Prix,SAI,True,2.0
+3,Australian Grand Prix,PER,True,3.0
+3,Australian Grand Prix,NOR,True,4.0
+3,Australian Grand Prix,LEC,True,5.0
+3,Australian Grand Prix,PIA,True,6.0
+3,Australian Grand Prix,RUS,True,7.0
+3,Australian Grand Prix,TSU,True,8.0
+3,Australian Grand Prix,STR,True,9.0
+3,Australian Grand Prix,ALO,True,10.0
+3,Australian Grand Prix,HAM,False,11.0
+3,Australian Grand Prix,ALB,False,12.0
+3,Australian Grand Prix,BOT,False,13.0
+3,Australian Grand Prix,MAG,False,14.0
+3,Australian Grand Prix,OCO,False,15.0
+3,Australian Grand Prix,HUL,False,16.0
+3,Australian Grand Prix,GAS,False,17.0
+3,Australian Grand Prix,RIC,False,18.0
+3,Australian Grand Prix,ZHO,False,19.0
+4,Japanese Grand Prix,VER,True,1.0
+4,Japanese Grand Prix,PER,True,2.0
+4,Japanese Grand Prix,NOR,True,3.0
+4,Japanese Grand Prix,SAI,True,4.0
+4,Japanese Grand Prix,ALO,True,5.0
+4,Japanese Grand Prix,PIA,True,6.0
+4,Japanese Grand Prix,HAM,True,7.0
+4,Japanese Grand Prix,LEC,True,8.0
+4,Japanese Grand Prix,RUS,True,9.0
+4,Japanese Grand Prix,TSU,True,10.0
+4,Japanese Grand Prix,RIC,False,11.0
+4,Japanese Grand Prix,HUL,False,12.0
+4,Japanese Grand Prix,BOT,False,13.0
+4,Japanese Grand Prix,ALB,False,14.0
+4,Japanese Grand Prix,OCO,False,15.0
+4,Japanese Grand Prix,STR,False,16.0
+4,Japanese Grand Prix,GAS,False,17.0
+4,Japanese Grand Prix,MAG,False,18.0
+4,Japanese Grand Prix,SAR,False,19.0
+4,Japanese Grand Prix,ZHO,False,20.0
+5,Chinese Grand Prix,VER,True,1.0
+5,Chinese Grand Prix,PER,True,2.0
+5,Chinese Grand Prix,ALO,True,3.0
+5,Chinese Grand Prix,NOR,True,4.0
+5,Chinese Grand Prix,PIA,True,5.0
+5,Chinese Grand Prix,LEC,True,6.0
+5,Chinese Grand Prix,SAI,True,7.0
+5,Chinese Grand Prix,RUS,True,8.0
+5,Chinese Grand Prix,HUL,True,9.0
+5,Chinese Grand Prix,BOT,True,10.0
+5,Chinese Grand Prix,STR,False,11.0
+5,Chinese Grand Prix,RIC,False,12.0
+5,Chinese Grand Prix,OCO,False,13.0
+5,Chinese Grand Prix,ALB,False,14.0
+5,Chinese Grand Prix,GAS,False,15.0
+5,Chinese Grand Prix,ZHO,False,16.0
+5,Chinese Grand Prix,MAG,False,17.0
+5,Chinese Grand Prix,HAM,False,18.0
+5,Chinese Grand Prix,TSU,False,19.0
+5,Chinese Grand Prix,SAR,False,20.0
+6,Miami Grand Prix,VER,True,1.0
+6,Miami Grand Prix,LEC,True,2.0
+6,Miami Grand Prix,SAI,True,3.0
+6,Miami Grand Prix,PER,True,4.0
+6,Miami Grand Prix,NOR,True,5.0
+6,Miami Grand Prix,PIA,True,6.0
+6,Miami Grand Prix,RUS,True,7.0
+6,Miami Grand Prix,HAM,True,8.0
+6,Miami Grand Prix,HUL,True,9.0
+6,Miami Grand Prix,TSU,True,10.0
+6,Miami Grand Prix,STR,False,11.0
+6,Miami Grand Prix,GAS,False,12.0
+6,Miami Grand Prix,OCO,False,13.0
+6,Miami Grand Prix,ALB,False,14.0
+6,Miami Grand Prix,ALO,False,15.0
+6,Miami Grand Prix,BOT,False,16.0
+6,Miami Grand Prix,SAR,False,17.0
+6,Miami Grand Prix,RIC,False,18.0
+6,Miami Grand Prix,MAG,False,19.0
+6,Miami Grand Prix,ZHO,False,20.0
+7,Emilia Romagna Grand Prix,VER,True,1.0
+7,Emilia Romagna Grand Prix,PIA,True,2.0
+7,Emilia Romagna Grand Prix,NOR,True,3.0
+7,Emilia Romagna Grand Prix,LEC,True,4.0
+7,Emilia Romagna Grand Prix,SAI,True,5.0
+7,Emilia Romagna Grand Prix,RUS,True,6.0
+7,Emilia Romagna Grand Prix,TSU,True,7.0
+7,Emilia Romagna Grand Prix,HAM,True,8.0
+7,Emilia Romagna Grand Prix,RIC,True,9.0
+7,Emilia Romagna Grand Prix,HUL,True,10.0
+7,Emilia Romagna Grand Prix,PER,False,11.0
+7,Emilia Romagna Grand Prix,OCO,False,12.0
+7,Emilia Romagna Grand Prix,STR,False,13.0
+7,Emilia Romagna Grand Prix,ALB,False,14.0
+7,Emilia Romagna Grand Prix,GAS,False,15.0
+7,Emilia Romagna Grand Prix,BOT,False,16.0
+7,Emilia Romagna Grand Prix,ZHO,False,17.0
+7,Emilia Romagna Grand Prix,MAG,False,18.0
+7,Emilia Romagna Grand Prix,ALO,False,19.0
+7,Emilia Romagna Grand Prix,SAR,False,20.0
+8,Monaco Grand Prix,LEC,True,1.0
+8,Monaco Grand Prix,PIA,True,2.0
+8,Monaco Grand Prix,SAI,True,3.0
+8,Monaco Grand Prix,NOR,True,4.0
+8,Monaco Grand Prix,RUS,True,5.0
+8,Monaco Grand Prix,VER,True,6.0
+8,Monaco Grand Prix,HAM,True,7.0
+8,Monaco Grand Prix,TSU,True,8.0
+8,Monaco Grand Prix,ALB,True,9.0
+8,Monaco Grand Prix,GAS,True,10.0
+8,Monaco Grand Prix,OCO,False,11.0
+8,Monaco Grand Prix,RIC,False,12.0
+8,Monaco Grand Prix,STR,False,13.0
+8,Monaco Grand Prix,HUL,False,14.0
+8,Monaco Grand Prix,ALO,False,14.0
+8,Monaco Grand Prix,SAR,False,15.0
+8,Monaco Grand Prix,MAG,False,15.0
+8,Monaco Grand Prix,PER,False,16.0
+8,Monaco Grand Prix,BOT,False,17.0
+8,Monaco Grand Prix,ZHO,False,18.0
+9,Canadian Grand Prix,RUS,True,1.0
+9,Canadian Grand Prix,VER,True,2.0
+9,Canadian Grand Prix,NOR,True,3.0
+9,Canadian Grand Prix,PIA,True,4.0
+9,Canadian Grand Prix,RIC,True,5.0
+9,Canadian Grand Prix,ALO,True,6.0
+9,Canadian Grand Prix,HAM,True,7.0
+9,Canadian Grand Prix,TSU,True,8.0
+9,Canadian Grand Prix,STR,True,9.0
+9,Canadian Grand Prix,ALB,True,10.0
+9,Canadian Grand Prix,LEC,False,11.0
+9,Canadian Grand Prix,SAI,False,12.0
+9,Canadian Grand Prix,SAR,False,13.0
+9,Canadian Grand Prix,MAG,False,14.0
+9,Canadian Grand Prix,GAS,False,15.0
+9,Canadian Grand Prix,PER,False,16.0
+9,Canadian Grand Prix,BOT,False,17.0
+9,Canadian Grand Prix,OCO,False,18.0
+9,Canadian Grand Prix,HUL,False,19.0
+9,Canadian Grand Prix,ZHO,False,20.0
+10,Spanish Grand Prix,NOR,True,1.0
+10,Spanish Grand Prix,VER,True,2.0
+10,Spanish Grand Prix,HAM,True,3.0
+10,Spanish Grand Prix,RUS,True,4.0
+10,Spanish Grand Prix,LEC,True,5.0
+10,Spanish Grand Prix,SAI,True,6.0
+10,Spanish Grand Prix,GAS,True,7.0
+10,Spanish Grand Prix,PER,True,8.0
+10,Spanish Grand Prix,OCO,True,9.0
+10,Spanish Grand Prix,PIA,False,10.0
+10,Spanish Grand Prix,ALO,False,11.0
+10,Spanish Grand Prix,BOT,False,12.0
+10,Spanish Grand Prix,HUL,False,13.0
+10,Spanish Grand Prix,STR,False,14.0
+10,Spanish Grand Prix,ZHO,False,15.0
+10,Spanish Grand Prix,MAG,False,16.0
+10,Spanish Grand Prix,TSU,False,17.0
+10,Spanish Grand Prix,RIC,False,18.0
+10,Spanish Grand Prix,ALB,False,19.0
+10,Spanish Grand Prix,SAR,False,20.0
+11,Austrian Grand Prix,VER,True,1.0
+11,Austrian Grand Prix,NOR,True,2.0
+11,Austrian Grand Prix,RUS,True,3.0
+11,Austrian Grand Prix,SAI,True,4.0
+11,Austrian Grand Prix,HAM,True,5.0
+11,Austrian Grand Prix,LEC,True,6.0
+11,Austrian Grand Prix,PIA,True,7.0
+11,Austrian Grand Prix,PER,True,8.0
+11,Austrian Grand Prix,HUL,True,9.0
+11,Austrian Grand Prix,OCO,True,10.0
+11,Austrian Grand Prix,RIC,False,11.0
+11,Austrian Grand Prix,MAG,False,12.0
+11,Austrian Grand Prix,GAS,False,13.0
+11,Austrian Grand Prix,TSU,False,14.0
+11,Austrian Grand Prix,ALO,False,15.0
+11,Austrian Grand Prix,ALB,False,16.0
+11,Austrian Grand Prix,STR,False,17.0
+11,Austrian Grand Prix,BOT,False,18.0
+11,Austrian Grand Prix,SAR,False,19.0
+11,Austrian Grand Prix,ZHO,False,20.0
+12,British Grand Prix,RUS,True,1.0
+12,British Grand Prix,HAM,True,2.0
+12,British Grand Prix,NOR,True,3.0
+12,British Grand Prix,VER,True,4.0
+12,British Grand Prix,PIA,True,5.0
+12,British Grand Prix,HUL,True,6.0
+12,British Grand Prix,SAI,True,7.0
+12,British Grand Prix,STR,True,8.0
+12,British Grand Prix,ALB,True,9.0
+12,British Grand Prix,ALO,True,10.0
+12,British Grand Prix,LEC,False,11.0
+12,British Grand Prix,SAR,False,12.0
+12,British Grand Prix,TSU,False,13.0
+12,British Grand Prix,ZHO,False,14.0
+12,British Grand Prix,RIC,False,15.0
+12,British Grand Prix,BOT,False,16.0
+12,British Grand Prix,MAG,False,17.0
+12,British Grand Prix,OCO,False,18.0
+12,British Grand Prix,PER,False,19.0
+12,British Grand Prix,GAS,False,20.0
+13,Hungarian Grand Prix,NOR,True,1.0
+13,Hungarian Grand Prix,PIA,True,2.0
+13,Hungarian Grand Prix,VER,True,3.0
+13,Hungarian Grand Prix,SAI,True,4.0
+13,Hungarian Grand Prix,HAM,True,5.0
+13,Hungarian Grand Prix,LEC,True,6.0
+13,Hungarian Grand Prix,ALO,True,7.0
+13,Hungarian Grand Prix,STR,True,8.0
+13,Hungarian Grand Prix,RIC,True,9.0
+13,Hungarian Grand Prix,TSU,True,10.0
+13,Hungarian Grand Prix,HUL,False,11.0
+13,Hungarian Grand Prix,BOT,False,12.0
+13,Hungarian Grand Prix,ALB,False,13.0
+13,Hungarian Grand Prix,SAR,False,14.0
+13,Hungarian Grand Prix,MAG,False,15.0
+13,Hungarian Grand Prix,PER,False,16.0
+13,Hungarian Grand Prix,RUS,False,17.0
+13,Hungarian Grand Prix,ZHO,False,18.0
+13,Hungarian Grand Prix,OCO,False,19.0
+13,Hungarian Grand Prix,GAS,False,20.0
+14,Belgian Grand Prix,VER,True,1.0
+14,Belgian Grand Prix,LEC,True,2.0
+14,Belgian Grand Prix,PER,True,3.0
+14,Belgian Grand Prix,HAM,True,4.0
+14,Belgian Grand Prix,NOR,True,5.0
+14,Belgian Grand Prix,PIA,True,6.0
+14,Belgian Grand Prix,RUS,True,7.0
+14,Belgian Grand Prix,SAI,True,8.0
+14,Belgian Grand Prix,ALO,True,9.0
+14,Belgian Grand Prix,OCO,True,10.0
+14,Belgian Grand Prix,ALB,False,11.0
+14,Belgian Grand Prix,GAS,False,12.0
+14,Belgian Grand Prix,RIC,False,13.0
+14,Belgian Grand Prix,BOT,False,14.0
+14,Belgian Grand Prix,STR,False,15.0
+14,Belgian Grand Prix,HUL,False,16.0
+14,Belgian Grand Prix,MAG,False,17.0
+14,Belgian Grand Prix,TSU,False,18.0
+14,Belgian Grand Prix,SAR,False,19.0
+14,Belgian Grand Prix,ZHO,False,20.0
+15,Dutch Grand Prix,NOR,True,1.0
+15,Dutch Grand Prix,VER,True,2.0
+15,Dutch Grand Prix,PIA,True,3.0
+15,Dutch Grand Prix,RUS,True,4.0
+15,Dutch Grand Prix,PER,True,5.0
+15,Dutch Grand Prix,LEC,True,6.0
+15,Dutch Grand Prix,ALO,True,7.0
+15,Dutch Grand Prix,STR,True,8.0
+15,Dutch Grand Prix,GAS,True,9.0
+15,Dutch Grand Prix,SAI,False,10.0
+15,Dutch Grand Prix,ALB,True,10.0
+15,Dutch Grand Prix,HAM,False,11.0
+15,Dutch Grand Prix,TSU,False,12.0
+15,Dutch Grand Prix,HUL,False,13.0
+15,Dutch Grand Prix,MAG,False,14.0
+15,Dutch Grand Prix,RIC,False,15.0
+15,Dutch Grand Prix,OCO,False,16.0
+15,Dutch Grand Prix,BOT,False,17.0
+15,Dutch Grand Prix,ZHO,False,18.0
+15,Dutch Grand Prix,SAR,False,20.0
+16,Italian Grand Prix,NOR,True,1.0
+16,Italian Grand Prix,PIA,True,2.0
+16,Italian Grand Prix,RUS,True,3.0
+16,Italian Grand Prix,LEC,True,4.0
+16,Italian Grand Prix,SAI,True,5.0
+16,Italian Grand Prix,HAM,True,6.0
+16,Italian Grand Prix,VER,True,7.0
+16,Italian Grand Prix,PER,True,8.0
+16,Italian Grand Prix,ALB,True,9.0
+16,Italian Grand Prix,HUL,True,10.0
+16,Italian Grand Prix,ALO,False,11.0
+16,Italian Grand Prix,RIC,False,12.0
+16,Italian Grand Prix,MAG,False,13.0
+16,Italian Grand Prix,GAS,False,14.0
+16,Italian Grand Prix,OCO,False,15.0
+16,Italian Grand Prix,TSU,False,16.0
+16,Italian Grand Prix,STR,False,17.0
+16,Italian Grand Prix,COL,False,18.0
+16,Italian Grand Prix,BOT,False,19.0
+16,Italian Grand Prix,ZHO,False,20.0
+17,Azerbaijan Grand Prix,LEC,True,1.0
+17,Azerbaijan Grand Prix,PIA,True,2.0
+17,Azerbaijan Grand Prix,SAI,True,3.0
+17,Azerbaijan Grand Prix,PER,True,4.0
+17,Azerbaijan Grand Prix,RUS,True,5.0
+17,Azerbaijan Grand Prix,VER,True,6.0
+17,Azerbaijan Grand Prix,HAM,True,7.0
+17,Azerbaijan Grand Prix,ALO,True,8.0
+17,Azerbaijan Grand Prix,COL,True,9.0
+17,Azerbaijan Grand Prix,ALB,True,10.0
+17,Azerbaijan Grand Prix,BEA,False,11.0
+17,Azerbaijan Grand Prix,TSU,False,12.0
+17,Azerbaijan Grand Prix,HUL,False,13.0
+17,Azerbaijan Grand Prix,STR,False,14.0
+17,Azerbaijan Grand Prix,RIC,False,15.0
+17,Azerbaijan Grand Prix,GAS,False,15.0
+17,Azerbaijan Grand Prix,NOR,False,16.0
+17,Azerbaijan Grand Prix,BOT,False,17.0
+17,Azerbaijan Grand Prix,ZHO,False,18.0
+17,Azerbaijan Grand Prix,OCO,False,19.0
+18,Singapore Grand Prix,NOR,True,1.0
+18,Singapore Grand Prix,VER,True,2.0
+18,Singapore Grand Prix,HAM,True,3.0
+18,Singapore Grand Prix,RUS,True,4.0
+18,Singapore Grand Prix,PIA,True,5.0
+18,Singapore Grand Prix,HUL,True,6.0
+18,Singapore Grand Prix,ALO,True,7.0
+18,Singapore Grand Prix,TSU,True,8.0
+18,Singapore Grand Prix,LEC,False,9.0
+18,Singapore Grand Prix,SAI,False,10.0
+18,Singapore Grand Prix,ALB,False,11.0
+18,Singapore Grand Prix,COL,False,12.0
+18,Singapore Grand Prix,PER,False,13.0
+18,Singapore Grand Prix,MAG,False,14.0
+18,Singapore Grand Prix,OCO,False,15.0
+18,Singapore Grand Prix,RIC,False,16.0
+18,Singapore Grand Prix,STR,False,17.0
+18,Singapore Grand Prix,GAS,False,18.0
+18,Singapore Grand Prix,BOT,False,19.0
+18,Singapore Grand Prix,ZHO,False,20.0
+19,United States Grand Prix,NOR,True,1.0
+19,United States Grand Prix,VER,True,2.0
+19,United States Grand Prix,SAI,True,3.0
+19,United States Grand Prix,LEC,True,4.0
+19,United States Grand Prix,PIA,True,5.0
+19,United States Grand Prix,RUS,True,6.0
+19,United States Grand Prix,GAS,True,7.0
+19,United States Grand Prix,ALO,True,8.0
+19,United States Grand Prix,MAG,True,9.0
+19,United States Grand Prix,PER,False,10.0
+19,United States Grand Prix,TSU,False,11.0
+19,United States Grand Prix,HUL,False,12.0
+19,United States Grand Prix,OCO,False,13.0
+19,United States Grand Prix,STR,False,14.0
+19,United States Grand Prix,LAW,False,15.0
+19,United States Grand Prix,ALB,False,16.0
+19,United States Grand Prix,COL,False,17.0
+19,United States Grand Prix,BOT,False,18.0
+19,United States Grand Prix,HAM,False,19.0
+19,United States Grand Prix,ZHO,False,20.0
+20,Mexico City Grand Prix,SAI,True,1.0
+20,Mexico City Grand Prix,VER,True,2.0
+20,Mexico City Grand Prix,NOR,True,3.0
+20,Mexico City Grand Prix,LEC,True,4.0
+20,Mexico City Grand Prix,RUS,True,5.0
+20,Mexico City Grand Prix,HAM,True,6.0
+20,Mexico City Grand Prix,MAG,True,7.0
+20,Mexico City Grand Prix,GAS,True,8.0
+20,Mexico City Grand Prix,ALB,True,9.0
+20,Mexico City Grand Prix,HUL,True,10.0
+20,Mexico City Grand Prix,TSU,False,11.0
+20,Mexico City Grand Prix,LAW,False,12.0
+20,Mexico City Grand Prix,ALO,False,13.0
+20,Mexico City Grand Prix,STR,False,14.0
+20,Mexico City Grand Prix,BOT,False,15.0
+20,Mexico City Grand Prix,COL,False,16.0
+20,Mexico City Grand Prix,PIA,False,17.0
+20,Mexico City Grand Prix,PER,False,18.0
+20,Mexico City Grand Prix,OCO,False,19.0
+20,Mexico City Grand Prix,ZHO,False,20.0
+21,São Paulo Grand Prix,NOR,True,1.0
+21,São Paulo Grand Prix,RUS,True,2.0
+21,São Paulo Grand Prix,TSU,True,3.0
+21,São Paulo Grand Prix,OCO,True,4.0
+21,São Paulo Grand Prix,LAW,True,5.0
+21,São Paulo Grand Prix,LEC,True,6.0
+21,São Paulo Grand Prix,ALB,True,7.0
+21,São Paulo Grand Prix,PIA,True,8.0
+21,São Paulo Grand Prix,ALO,True,9.0
+21,São Paulo Grand Prix,STR,False,10.0
+21,São Paulo Grand Prix,BOT,False,11.0
+21,São Paulo Grand Prix,VER,False,12.0
+21,São Paulo Grand Prix,PER,False,13.0
+21,São Paulo Grand Prix,SAI,False,14.0
+21,São Paulo Grand Prix,GAS,False,15.0
+21,São Paulo Grand Prix,HAM,False,16.0
+21,São Paulo Grand Prix,BEA,False,17.0
+21,São Paulo Grand Prix,COL,False,18.0
+21,São Paulo Grand Prix,HUL,False,19.0
+21,São Paulo Grand Prix,ZHO,False,20.0
+22,Las Vegas Grand Prix,RUS,True,1.0
+22,Las Vegas Grand Prix,SAI,True,2.0
+22,Las Vegas Grand Prix,GAS,True,3.0
+22,Las Vegas Grand Prix,LEC,True,4.0
+22,Las Vegas Grand Prix,VER,True,5.0
+22,Las Vegas Grand Prix,NOR,True,6.0
+22,Las Vegas Grand Prix,TSU,True,7.0
+22,Las Vegas Grand Prix,PIA,True,8.0
+22,Las Vegas Grand Prix,HUL,True,9.0
+22,Las Vegas Grand Prix,HAM,True,10.0
+22,Las Vegas Grand Prix,OCO,False,11.0
+22,Las Vegas Grand Prix,MAG,False,12.0
+22,Las Vegas Grand Prix,ZHO,False,13.0
+22,Las Vegas Grand Prix,COL,False,14.0
+22,Las Vegas Grand Prix,LAW,False,15.0
+22,Las Vegas Grand Prix,PER,False,16.0
+22,Las Vegas Grand Prix,ALO,False,17.0
+22,Las Vegas Grand Prix,ALB,False,18.0
+22,Las Vegas Grand Prix,BOT,False,19.0
+22,Las Vegas Grand Prix,STR,False,20.0
+23,Qatar Grand Prix,VER,True,1.0
+23,Qatar Grand Prix,RUS,True,2.0
+23,Qatar Grand Prix,NOR,True,3.0
+23,Qatar Grand Prix,PIA,True,4.0
+23,Qatar Grand Prix,LEC,True,5.0
+23,Qatar Grand Prix,HAM,True,6.0
+23,Qatar Grand Prix,SAI,True,7.0
+23,Qatar Grand Prix,ALO,True,8.0
+23,Qatar Grand Prix,PER,True,9.0
+23,Qatar Grand Prix,MAG,True,10.0
+23,Qatar Grand Prix,GAS,False,11.0
+23,Qatar Grand Prix,ZHO,False,12.0
+23,Qatar Grand Prix,BOT,False,13.0
+23,Qatar Grand Prix,TSU,False,14.0
+23,Qatar Grand Prix,STR,False,15.0
+23,Qatar Grand Prix,ALB,False,16.0
+23,Qatar Grand Prix,LAW,False,17.0
+23,Qatar Grand Prix,HUL,False,18.0
+23,Qatar Grand Prix,COL,False,19.0
+23,Qatar Grand Prix,OCO,False,20.0
+24,Abu Dhabi Grand Prix,NOR,True,1.0
+24,Abu Dhabi Grand Prix,PIA,True,2.0
+24,Abu Dhabi Grand Prix,SAI,True,3.0
+24,Abu Dhabi Grand Prix,HUL,True,4.0
+24,Abu Dhabi Grand Prix,VER,True,5.0
+24,Abu Dhabi Grand Prix,GAS,True,6.0
+24,Abu Dhabi Grand Prix,RUS,True,7.0
+24,Abu Dhabi Grand Prix,ALO,True,8.0
+24,Abu Dhabi Grand Prix,BOT,True,9.0
+24,Abu Dhabi Grand Prix,PER,True,10.0
+24,Abu Dhabi Grand Prix,TSU,False,11.0
+24,Abu Dhabi Grand Prix,LAW,False,12.0
+24,Abu Dhabi Grand Prix,STR,False,13.0
+24,Abu Dhabi Grand Prix,LEC,False,14.0
+24,Abu Dhabi Grand Prix,MAG,False,15.0
+24,Abu Dhabi Grand Prix,ALB,False,16.0
+24,Abu Dhabi Grand Prix,ZHO,False,17.0
+24,Abu Dhabi Grand Prix,HAM,False,18.0
+24,Abu Dhabi Grand Prix,COL,False,19.0
+24,Abu Dhabi Grand Prix,DOO,False,20.0

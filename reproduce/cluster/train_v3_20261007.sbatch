@@ -25,6 +25,8 @@
 #  limita el numero de trabajos, usar %40. Memoria 8G (decision del autor; RSS medido ~6.1 GB en el Mac, OOM con 6G
 #  el 07-oct): si alguna tarea cae por memoria, relanzar esos indices con --mem=10G (las terminadas se saltan):
 #     sbatch -c 4 --mem=8G --job-name=f1v9 --array=1-400%80 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9.tsv
+# 2026-10-21 (noche) v9r = v9 con el inventario por reglamento (data/tyre_sets_2024_reg_20261021.csv); reemplaza a v9:
+#     sbatch -c 4 --mem=8G --job-name=f1v9r --array=1-400%80 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r.tsv
 # Prueba corta (partición debug, 30 min):
 #     sbatch -p debug -t 00:25:00 -c 4 --mem=16G --array=1-2 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v3_control_smoke.tsv
 # (debug admite como máximo 4 CPUs)

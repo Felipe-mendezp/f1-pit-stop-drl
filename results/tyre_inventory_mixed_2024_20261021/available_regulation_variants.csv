@@ -1,0 +1,25 @@
+variant,returns_without_candidate,sets_per_driver,used_stints,used_unexplained,new_short,new_short_cells,compound_without_set
+"actual (Lapchive, K=1)",,9.26875,240,3,17,17,0
+"reglamento: usados most, nuevos surplus",28.0,6.729166666666667,240,11,23,23,0
+"reglamento: usados most, nuevos soft",28.0,6.729166666666667,240,11,23,23,0
+"reglamento: usados most, nuevos medium",28.0,6.729166666666667,240,11,44,44,0
+"reglamento: usados most, nuevos hard",28.0,6.729166666666667,240,11,60,60,0
+"reglamento: usados least, nuevos surplus",28.0,6.729166666666667,240,43,23,23,0
+"reglamento: usados least, nuevos soft",28.0,6.729166666666667,240,43,23,23,0
+"reglamento: usados least, nuevos medium",28.0,6.729166666666667,240,43,44,44,0
+"reglamento: usados least, nuevos hard",28.0,6.729166666666667,240,43,60,60,0
+"reglamento: usados score, nuevos (5, 0)",28.0,6.729166666666667,240,4,23,23,0
+"reglamento: usados score, nuevos (5, 1.25)",28.0,6.729166666666667,240,4,23,23,0
+"reglamento: usados score, nuevos (5, 2.5)",28.0,6.729166666666667,240,6,23,23,0
+"reglamento: usados score, nuevos (10, 0)",28.0,6.729166666666667,240,4,34,34,0
+"reglamento: usados score, nuevos (10, 2.5)",28.0,6.729166666666667,240,4,29,29,0
+"reglamento: usados score, nuevos (10, 5.0)",28.0,6.729166666666667,240,3,27,27,0
+"reglamento: usados score, nuevos (20, 0)",28.0,6.729166666666667,240,4,39,38,0
+"reglamento: usados score, nuevos (20, 5.0)",28.0,6.729166666666667,240,3,39,38,0
+"reglamento: usados score, nuevos (20, 10.0)",28.0,6.729166666666667,240,3,43,42,0
+"reglamento: usados score, nuevos (40, 0)",28.0,6.729166666666667,240,4,41,40,0
+"reglamento: usados score, nuevos (40, 10.0)",28.0,6.729166666666667,240,3,45,44,0
+"reglamento: usados score, nuevos (40, 20.0)",28.0,6.729166666666667,240,4,54,53,0
+"reglamento: usados score, nuevos (1000, 0)",28.0,6.729166666666667,240,4,41,40,0
+"reglamento: usados score, nuevos (1000, 250.0)",28.0,6.729166666666667,240,4,61,60,0
+"reglamento: usados score, nuevos (1000, 500.0)",28.0,6.729166666666667,240,4,61,60,0

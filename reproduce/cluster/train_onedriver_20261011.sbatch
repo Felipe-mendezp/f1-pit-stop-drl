@@ -18,6 +18,8 @@
 #     sbatch --job-name=f1od8 --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v8.tsv
 # 2026-10-21 v9 (v8 + juegos de neumaticos reales 2024, F1_TYRE_SETS; scripts/make_tasks_v9_20261021.py):
 #     sbatch --job-name=f1od9 --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v9.tsv
+# 2026-10-21 (noche) v9r (inventario por reglamento; reemplaza a v9, cuyas tareas se cancelan):
+#     sbatch --job-name=f1od9r --array=1-200%40 reproduce/cluster/train_onedriver_20261011.sbatch reproduce/cluster/tasks_onedriver_v9r.tsv
 # (4 h hasta el 2026-10-12: 5 tareas de f1od se cortaron por tiempo, todas en mn021/mn023)
 #SBATCH --exclude=mn021,mn023
 # 2026-10-12: se excluyen mn021 y mn023 (lentos: ahi se cortaron por tiempo f1v5o 140/145 y f1od

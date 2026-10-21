@@ -21,7 +21,9 @@ import pandas as pd
 
 import config
 
-DEFAULT_SETS = os.path.join(config.DATA_DIR, 'tyre_sets_2024_20261021.csv')
+# 2026-10-21 (evening): returns of the 2024 Sporting Regulations (art. 30.2), adopted by the author; the previous
+# inventory (Lapchive's returns, 9.3 sets per driver) is data/tyre_sets_2024_20261021.csv (F1_TYRE_SETS=<path>)
+DEFAULT_SETS = os.path.join(config.DATA_DIR, 'tyre_sets_2024_reg_20261021.csv')
 DEFAULT_STINTS = os.path.join(config.DATA_DIR, 'tyre_race_stint_ages_2024_20261021.csv')
 # Single-driver benchmark (generic driver): the sets of the multi-driver agent of each GP (v8 drivers)
 ONE_DRIVER_SETS_OF = {
