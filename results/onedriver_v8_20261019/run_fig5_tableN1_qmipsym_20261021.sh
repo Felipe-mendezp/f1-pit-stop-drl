@@ -3,7 +3,7 @@
 # src/optimization/qmip.py). Copia de run_fig5_tableN1_20261019.sh con otra salida; tambien corre verify (QMIP == DP).
 cd "$(dirname "$0")/../.."
 source reproduce/env_paper_v3_20261007.sh
-export MPLBACKEND=Agg F1_QMIP_SYMMETRY=full F1_PAPER_FONTS=1
+export MPLBACKEND=Agg F1_QMIP_SYMMETRY=full F1_PAPER_FONTS=1 F1_FIG5_GRID=2x4
 SEL=results/onedriver_v8_20261019/selected
 OUT=results/onedriver_v8_qmipsym_20261021
 PY="$HOME/.venvs/f1-drl-v2/bin/python -u"

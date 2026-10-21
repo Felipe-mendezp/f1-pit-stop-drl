@@ -756,12 +756,13 @@ def load_cache(path: str = CACHE_FILE) -> List[dict]:
 def plot_grid_boxplot(
     all_gp_results: List[dict],
     save_path: Optional[str] = None,
+    nrows: int = 3, ncols: int = 3, figsize: tuple = (20, 11), legend_space: float = 0.04,
 ):
-    """Generate 3x3 grid boxplot comparing all algorithms (DRL + QMIP)."""
+    """Generate a grid boxplot (3x3 by default) comparing all algorithms (DRL + QMIP).
+    nrows/ncols/figsize added 2026-10-21 (2x4 layout); defaults reproduce the published figure."""
     n_gps = len(all_gp_results)
-    nrows, ncols = 3, 3
 
-    fig, axes = plt.subplots(nrows, ncols, figsize=(20, 11), sharex=True, sharey=True)
+    fig, axes = plt.subplots(nrows, ncols, figsize=figsize, sharex=True, sharey=True)
     axes_flat = axes.flatten()
 
     for idx, gp_data in enumerate(all_gp_results):
@@ -844,7 +845,7 @@ def plot_grid_boxplot(
                markeredgecolor='red', markersize=8, label='Mean'),
     ]
 
-    plt.tight_layout(rect=[0, 0.04, 1, 1])
+    plt.tight_layout(rect=[0, legend_space, 1, 1])
 
     fig.legend(
         handles=legend_elements,

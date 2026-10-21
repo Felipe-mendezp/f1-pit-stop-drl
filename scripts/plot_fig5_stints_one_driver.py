@@ -220,7 +220,10 @@ def main():
 
     # ---- plotting (notebook cell 24, verbatim style) ----
     gp_names = list(SELECTED_GP.keys())
-    fig, axs = plt.subplots(3, 3, figsize=(15, 7), sharex=True, constrained_layout=True)
+    # 2026-10-21: F1_FIG5_GRID=2x4 gives the 2x4 layout of the manuscript (default 3x3, as published)
+    nrows, ncols = (2, 4) if os.environ.get('F1_FIG5_GRID') == '2x4' else (3, 3)
+    fig, axs = plt.subplots(nrows, ncols, figsize=(20, 5) if ncols == 4 else (15, 7), sharex=True,
+                            constrained_layout=True)
 
     for ci, ax in enumerate(axs.flat):
         circuit_data = data_by_circuit[ci]
@@ -260,14 +263,14 @@ def main():
         ax.set_title(gp_name, color='black', fontweight='bold')
         ax.set_ylim(-1, 10 * (len(circuit_data) + 1))
         ax.set_xlim(0, 1)
-        if ci % 3 == 0:
+        if ci % ncols == 0:
             ax.set_ylabel('Model')
             ax.set_yticks([i * 10 + 4.5 for i in range(len(circuit_data))] + [qrow * 10 + 4.5])
             ax.set_yticklabels([d['model'] for d in circuit_data] + ['QMIP Optimal'], color='black')
         else:
             ax.set_yticks([i * 10 + 4.5 for i in range(len(circuit_data))] + [qrow * 10 + 4.5])
             ax.set_yticklabels([])
-        if ci >= 6:
+        if ci >= (nrows - 1) * ncols:
             ax.set_xlabel('Normalized Laps')
 
     qmip_line = Line2D([0], [0], color='blue', linestyle='--', label='QMIP Optimal')
@@ -275,7 +278,7 @@ def main():
     medium_patch = mpatches.Patch(facecolor='gold', label='Medium', edgecolor='black')
     soft_patch = mpatches.Patch(facecolor='red', label='Soft', edgecolor='black')
     fig.legend(handles=[qmip_line, hard_patch, medium_patch, soft_patch],
-               loc='lower center', ncol=4, bbox_to_anchor=(0.5, -0.06), frameon=True)
+               loc='lower center', ncol=4, bbox_to_anchor=(0.5, -0.13 if ncols == 4 else -0.06), frameon=True)
 
     # 2026-10-21: manuscript fonts (opt-in F1_PAPER_FONTS=1, see paper_fonts_20261021.py)
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

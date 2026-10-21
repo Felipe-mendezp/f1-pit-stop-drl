@@ -44,8 +44,11 @@ $PY results/world2024_v8_qmipsym_20261021/merge_20261021.py
 (export F1_WORLD2024_TYRES=v7 F1_SIMULATION_DIR=trained_models/simulation_v7_20261015
  $PY scripts/gp_drivers_v5hd_20261014.py results/world2024_v6_20261014/summarize_v6_20261014.py --dir $M > $M/summary.log 2>&1)
 $PY $M/ci_table_20261020.py
-cp $M/fig6_2024_realdnf/figure_6.pdf $OUT/main/qmip_vs_drl_stochastic_boxplot.pdf
-cp $M/fig7_2024/figure_7.pdf $OUT/main/all_gps_2024_qmip_boxplot.pdf
+# 2026-10-21: 2x4 layout in the manuscript
+(export F1_WORLD2024_TYRES=v7 F1_SIMULATION_DIR=trained_models/simulation_v7_20261015
+ $PY scripts/gp_drivers_v5hd_20261014.py results/world2024_v8_qmipsym_20261021/figs67_2x4_20261021.py > /dev/null 2>&1)
+cp $M/fig6_2024_realdnf/figure_6_2x4.pdf $OUT/main/qmip_vs_drl_stochastic_boxplot.pdf
+cp $M/fig7_2024/figure_7_2x4.pdf $OUT/main/all_gps_2024_qmip_boxplot.pdf
 cp $M/ci_table_20261020.tex $OUT/supplementary/tableO1_ci_2024.tex
 
 step "Figs. 8-10: decision support, Saudi Arabian GP 2024 (NOR), lap 7, PPO (from the cached rollouts)"
