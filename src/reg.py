@@ -10,6 +10,8 @@ Paper reference: Used throughout the environment for lap-time prediction (Eq. 1,
 import numpy as np
 from typing import Dict, Any
 
+_PLAN_CACHE = {}  # id(feature_names_) -> (feature_names_, plan); see FastLinearPredictor._design_plan
+
 
 class FastLinearPredictor:
     """
@@ -84,7 +86,65 @@ class FastLinearPredictor:
 
                 self.categorical_maps_[var_name][category] = feature_name
 
+    def _design_plan(self):
+        """Parsed form of feature_names_ (2026-10-21): one tuple per feature, built once per predictor and cached
+        at module level (the class uses __slots__ and is pickled, so no new attribute). The kinds are
+        'ic' (numeric x category indicator), 'ip' (product of two numerics), 'c' (category indicator) and
+        'n' (numeric). _build_design_vector uses it and gives bit-identical results to
+        _build_design_vector_legacy, which re-parsed every name on every call."""
+        key = id(self.feature_names_)
+        hit = _PLAN_CACHE.get(key)
+        if hit is not None and hit[0] is self.feature_names_:
+            return hit[1]
+        plan = []
+        for idx, feature_name in enumerate(self.feature_names_):
+            if ':' in feature_name:
+                parts = feature_name.split(':')
+                first_var = parts[0].strip()
+                second_part = parts[1].strip()
+                if 'C(' in second_part and '[' in second_part:
+                    after_paren = second_part.split('(')[1]
+                    if ',' in after_paren:
+                        var_name = after_paren.split(',')[0].strip()
+                    else:
+                        var_name = after_paren.split(')')[0].strip()
+                    bracket_content = second_part.split('[')[1].rstrip(']')
+                    category = bracket_content[2:] if bracket_content.startswith('T.') else bracket_content
+                    plan.append(('ic', idx, first_var, var_name, category))
+                else:
+                    plan.append(('ip', idx, first_var, second_part, None))
+            elif 'C(' in feature_name and '[T.' in feature_name:
+                after_paren = feature_name.split('(')[1]
+                if ',' in after_paren:
+                    var_name = after_paren.split(',')[0].strip()
+                else:
+                    var_name = after_paren.split(')')[0].strip()
+                category = feature_name.split('[T.')[1].rstrip(']')
+                plan.append(('c', idx, var_name, category, None))
+            else:
+                plan.append(('n', idx, feature_name, None, None))
+        plan = tuple(plan)
+        _PLAN_CACHE[key] = (self.feature_names_, plan)
+        return plan
+
     def _build_design_vector(self, data: Dict[str, Any]) -> np.ndarray:
+        """Design vector from the cached plan (see _design_plan); same values as _build_design_vector_legacy."""
+        dt = self.dtype_
+        design = np.zeros(len(self.feature_names_), dtype=dt)
+        get = data.get
+        for kind, idx, k1, k2, cat in self._design_plan():
+            if kind == 'n':
+                design[idx] = dt(get(k1, 0.0))
+            elif kind == 'c':
+                design[idx] = 1.0 if str(get(k1, '')) == k2 else 0.0
+            elif kind == 'ic':
+                first_val = dt(get(k1, 0.0))
+                design[idx] = first_val if str(get(k2, '')) == cat else 0.0
+            else:
+                design[idx] = dt(get(k1, 0.0)) * dt(get(k2, 0.0))
+        return design
+
+    def _build_design_vector_legacy(self, data: Dict[str, Any]) -> np.ndarray:
         """
         Build design vector from input data dictionary.
 

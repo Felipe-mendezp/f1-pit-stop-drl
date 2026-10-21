@@ -1223,6 +1223,32 @@ class F1EnvAllDrivers(Env):
         if self._choice_betas is not None:
             return self._predict_compound_choice_fast(driver, laps_left)
 
+        # 2026-10-21: NumPy path for the softmax conditional logit (CondLogitCompoundView, v7+). Same float64
+        # operations as its predict() on the DataFrame below and the same RNG call, so the draws are identical;
+        # it only avoids building a DataFrame and looking coefficients up by name on every stop.
+        model = self.rival_compound_logit
+        if getattr(model, 'choice_rule', None) == 'softmax':
+            cache = getattr(self, '_softmax_choice_cache', None)
+            if cache is None or cache[0] is not model:
+                p = model.params
+                base = np.array([p.get(f'C(alt)[{a}]', np.nan) for a in self.gp_compounds], dtype=float)
+                ll = np.array([p.get(f'C(alt)[{a}]:LapsLeft', 0.0) for a in self.gp_compounds], dtype=float)
+                cache = (model, base, ll, p.get('not_change_compound', 0.0))
+                self._softmax_choice_cache = cache
+            _, base, ll, nc_coef = cache
+            cur = f'C{driver.compound}'
+            nc = np.array([1.0 if (c == cur and not driver.has_changed_compound) else 0.0
+                           for c in self.gp_compounds], dtype=float)
+            try:
+                v = base + ll * np.full(len(nc), float(laps_left)) + nc_coef * nc
+                e = np.exp(v - np.nanmax(v))
+                probs = e / np.nansum(e)
+                probs = probs / probs.sum()
+                chosen = self.np_random.choice(self.gp_compounds, p=probs)
+                return int(chosen[1:])
+            except Exception:
+                return self.np_random.choice(self.available_compounds)
+
         # Build features for each alternative compound
         rows = []
         for compound in self.gp_compounds:
