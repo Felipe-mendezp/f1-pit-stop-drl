@@ -147,6 +147,12 @@ def main():
     parser.add_argument('--output', default='figs/figure_5.png')
     parser.add_argument('--models-dir', default=ONE_DRIVER_DIR)
     args = parser.parse_args()
+    # 2026-10-21: in the 2x4 manuscript layout, panels follow the GP order of Figs. 6-7
+    if os.environ.get('F1_FIG5_GRID') == '2x4':
+        order = ['Bahrain', 'Saudi Arabian', 'Miami', 'Hungarian', 'Belgian', 'Dutch', 'Singapore', 'United States']
+        rank = lambda gp: next((i for i, o in enumerate(order) if gp.startswith(o)), len(order))
+        items = sorted(SELECTED_GP.items(), key=lambda kv: rank(kv[0]))
+        SELECTED_GP.clear(); SELECTED_GP.update(items)
 
     loader = ModelLoader()
     data_by_circuit = []
