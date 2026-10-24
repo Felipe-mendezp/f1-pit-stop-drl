@@ -20,6 +20,10 @@ Salida: results/decision_support_v6w24belief_20261015/<algo>/ y figs/.
 --version v8 (2026-10-19): simulador y mundo 2024 de v7, agentes rl_agents_v8_20261018/selected (reglas 5/7/8 +
 --max-dsq 0.01), salida results/decision_support_v8w24belief_20261019/. Requiere las variables v8 del entorno
 (F1_RIVAL_START_ALPHA, F1_LAP0_ACTION0_MEDIUM, F1_LAP0_PENALTY), que lee create_f1_env_all_drivers.
+--version v9r2 (2026-10-23): como v8 con los agentes rl_agents_v9r2_20261022/selected (juegos de neumaticos 2024
+reutilizables), salida results/decision_support_v9r2w24belief_20261023/. Requiere ademas F1_TYRE_SETS (inventario
+data/tyre_sets_2024_reg_20261021.csv), F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000 en el entorno (los snapshots del
+prefijo copian los juegos de todos los pilotos). Lanzador: results/decision_support_v9r2w24belief_20261023/run_20261023.sh.
 """
 import argparse, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -43,7 +47,8 @@ CIRCUITS = [
 ALGOS = ['PPO', 'RecurrentPPO']
 VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_support_v6w24belief_20261015', 'opcion3h'),
             'v7': ('simulation_v7_20261015', 'rl_agents_v7_20261015', 'decision_support_v7w24belief_20261015', 'v7'),
-            'v8': ('simulation_v7_20261015', 'rl_agents_v8_20261018', 'decision_support_v8w24belief_20261019', 'v7')}
+            'v8': ('simulation_v7_20261015', 'rl_agents_v8_20261018', 'decision_support_v8w24belief_20261019', 'v7'),
+            'v9r2': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2w24belief_20261023', 'v7')}
 VARIANTS = ['--real-yf', '--real-2024']
 
 
@@ -129,9 +134,13 @@ def main():
     assert os.environ.get('F1_WORLD2024_TYRES') == tyres, f'F1_WORLD2024_TYRES={tyres}'
     assert os.environ.get('F1_SC_REVEAL') == '1' and os.environ.get('F1_YF_LAPS_2024'), \
         'source reproduce/env_paper_v3_20261007.sh'
-    if a.version == 'v8':   # 2026-10-19
+    if a.version in ('v8', 'v9r2'):   # 2026-10-19
         assert all(os.environ.get(k) for k in ('F1_RIVAL_START_ALPHA', 'F1_LAP0_ACTION0_MEDIUM', 'F1_LAP0_PENALTY')), \
             '--version v8: exportar F1_RIVAL_START_ALPHA, F1_LAP0_ACTION0_MEDIUM y F1_LAP0_PENALTY'
+    if a.version == 'v9r2':   # 2026-10-23
+        assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) == 'tyre_sets_2024_reg_20261021.csv'
+                and os.environ.get('F1_TYRE_REUSE') == '1' and os.environ.get('F1_NO_SET_PENALTY') == '-1000'), \
+            '--version v9r2: exportar F1_TYRE_SETS, F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000'
     assert 'F1_RIVAL_DNF' not in os.environ, 'sin F1_RIVAL_DNF (rivales --real-yf sin abandonos, como v5h)'
     for p in (SIM, AGENTS):
         assert os.path.isdir(p), p

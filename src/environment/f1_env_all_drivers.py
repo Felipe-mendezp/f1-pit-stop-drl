@@ -365,6 +365,10 @@ class F1EnvAllDrivers(Env):
         self._no_set_penalty = tyre_sets.no_set_penalty()
         self._no_set_pending = 0.0
         self._real_stint_ages = {}
+        # 2026-10-22 (v9r2), opt-in F1_TYRE_REUSE=1: reusable sets (see src/tyre_sets.py) for every driver; the
+        # agent's 'tyre_sets' = age / 20 of the set a stop would fit, per compound
+        self._reuse = tyre_sets.reuse_enabled()
+        self._n_sets_obs = self._n_compounds if self._reuse else 2 * self._n_compounds
 
         # Observation cache
         self._obs_cache = self._create_obs_cache()
@@ -386,7 +390,7 @@ class F1EnvAllDrivers(Env):
             self.observation_space.spaces["tyrelifes"] = Box(
                 low=0, high=n_laps + 1 + tyre_sets.MAX_AGE, shape=(20,), dtype=np.float32)
             self.observation_space.spaces["tyre_sets"] = Box(
-                low=0, high=float(tyre_sets.MAX_AGE), shape=(2 * self._n_compounds,), dtype=np.float32)
+                low=0, high=float(tyre_sets.MAX_AGE), shape=(self._n_sets_obs,), dtype=np.float32)
 
         # Action space: 0=no pit, 1-3=compounds (hardest to softest)
         self.action_space = Discrete(4)
@@ -407,7 +411,7 @@ class F1EnvAllDrivers(Env):
             "prev_action": 0,
             "vsc": 0,
             "sc": 0,
-            **({"tyre_sets": np.zeros(2 * self._n_compounds, dtype=np.float32)} if self.tyre_sets else {}),
+            **({"tyre_sets": np.zeros(self._n_sets_obs, dtype=np.float32)} if self.tyre_sets else {}),
         }
 
     def _get_obs(self) -> Dict[str, Any]:
@@ -493,7 +497,8 @@ class F1EnvAllDrivers(Env):
                 _opts = [a for a in range(1, self._n_compounds + 1)
                          if self.available_compounds[a - 1] != _cur]
                 if self.tyre_sets:  # forced stop to a compound with sets left (if any)
-                    _opts = [a for a in _opts if self.agent_driver.sets.get(self.available_compounds[a - 1])] or _opts
+                    _opts = [a for a in _opts if self._has_set(self.agent_driver, self.available_compounds[a - 1])] \
+                        or _opts
                 action = _opts[0]
 
         # Map action to compound (for laps > 0)
@@ -508,7 +513,7 @@ class F1EnvAllDrivers(Env):
 
         # Tyre sets (opt-in): a stop to a compound with no set left does not happen and is penalised
         self._no_set_pending = 0.0
-        if self.tyre_sets and agent_action != 0 and not self.agent_driver.sets.get(agent_action):
+        if self.tyre_sets and agent_action != 0 and not self._has_set(self.agent_driver, agent_action):
             agent_action = 0
             self._no_set_pending = self._no_set_penalty
 
@@ -1208,9 +1213,14 @@ class F1EnvAllDrivers(Env):
     def _mask_no_set(self, driver: Driver, probs: np.ndarray) -> np.ndarray:
         """Tyre sets (opt-in): compound-choice probabilities restricted to the compounds with sets left
         (renormalised; unchanged if no compound has sets)."""
-        ok = np.array([1.0 if driver.sets.get(c) else 0.0 for c in self.available_compounds])
+        ok = np.array([1.0 if self._has_set(driver, c) else 0.0 for c in self.available_compounds])
         q = probs * ok
         return q / q.sum() if q.sum() > 0 else probs
+
+    def _has_set(self, driver: Driver, compound: int) -> bool:
+        """Tyre sets (opt-in): a set of the compound can be fitted at a stop (with reuse, the mounted compound
+        always can: its own set comes back)."""
+        return tyre_sets.has_set(driver.sets, compound, (driver.compound,) if self._reuse else None)
 
     def _get_rival_pit_probs_batch(self, is_sc: bool, is_vsc: bool) -> np.ndarray:
         """
@@ -1369,7 +1379,7 @@ class F1EnvAllDrivers(Env):
                     available_options = [c for c in self.available_compounds if c != action]
                     if self.tyre_sets:
                         available_options = [c for c in available_options
-                                             if self.rival_drivers[i].sets.get(c)] or available_options
+                                             if self._has_set(self.rival_drivers[i], c)] or available_options
                     if available_options:
                         rival_actions[i] = self.np_random.choice(available_options)
         return rival_actions
@@ -1913,6 +1923,9 @@ class F1EnvAllDrivers(Env):
                 # S_Tire[d] stays the same
             else:
                 # Pit stop - reset tyre life and update compound
+                # Reuse (opt-in): the set taken off goes back with its age (this lap counted unless under SC/VSC)
+                if self.tyre_sets and self._reuse and old_compound != 0:
+                    tyre_sets.give_back(driver.sets, old_compound, driver.tyrelife + (0 if is_yf else 1))
                 driver.tyrelife = 0
                 driver.stint_laps = 0
                 driver.compound = action
@@ -2070,7 +2083,10 @@ class F1EnvAllDrivers(Env):
         self._obs_cache["vsc"] = min(self.laps_left_vsc, VSC_DURATION) if self.vsc > 0 else 0
         self._obs_cache["sc"] = min(self.laps_left_sc, SC_DURATION) if self.sc > 0 else 0
         if self.tyre_sets and self.agent_driver is not None and self.agent_driver.sets is not None:
-            self._obs_cache["tyre_sets"][:] = tyre_sets.observation(self.agent_driver.sets, self.available_compounds)
+            ag = self.agent_driver
+            self._obs_cache["tyre_sets"][:] = (
+                tyre_sets.observation_reuse(ag.sets, self.available_compounds, (ag.compound, ag.tyrelife + 1))
+                if self._reuse else tyre_sets.observation(ag.sets, self.available_compounds))
 
     @property
     def _ordered_drivers(self) -> List[Driver]:

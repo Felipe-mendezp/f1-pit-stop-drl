@@ -56,7 +56,7 @@ class F1EnvOneDriverV2Optimized(Env):
         'laps_left', 'prev_action', 'current_action', 'initial_compound',
         'total_time', 'lap_state', 'prev_compound', 'pit_in_flag', 'pit_out_flag',
         'pit_stop_count', 'compounds_used',
-        '_tyre_sets', '_sets', '_sets_start', '_no_set_penalty',
+        '_tyre_sets', '_sets', '_sets_start', '_no_set_penalty', '_sets_scale', '_reuse',
         '_obs_cache', 'observation_space', 'action_space'
     )
 
@@ -121,6 +121,13 @@ class F1EnvOneDriverV2Optimized(Env):
         self._sets_start = (tyre_sets.sets_for(gp, tyre_sets.ONE_DRIVER_SETS_OF[gp], self.available_compounds)
                             if self._tyre_sets else None)
         self._sets = None
+        # 2026-10-21 (v9r2), opt-in F1_ONE_DRIVER_SETS_SCALE=1: 'tyre_sets' observed scaled (sets left / 8, ages / 20)
+        # because the single-driver training does not normalise observations (VecNormalize(norm_obs=False)); in v9r
+        # the raw values (up to ~20 next to one-hot inputs) went with on-policy agents stopping on lap 6.
+        self._sets_scale = bool(os.environ.get('F1_ONE_DRIVER_SETS_SCALE'))
+        # 2026-10-22 (v9r2), opt-in F1_TYRE_REUSE=1: reusable sets (see src/tyre_sets.py); 'tyre_sets' = age / 20 of
+        # the set a stop would fit, per compound (replaces the observation above)
+        self._reuse = tyre_sets.reuse_enabled()
 
         # Set de early laps (inmutable, mas rapido que list)
         self._early_laps_set = frozenset([1, 2, 3, 4, 5])
@@ -162,9 +169,10 @@ class F1EnvOneDriverV2Optimized(Env):
         })
         if self._tyre_sets:
             self.observation_space.spaces["tyre_life"] = Discrete(n_laps + 1 + tyre_sets.MAX_AGE)
+            n_obs = self._n_compounds if self._reuse else 2 * self._n_compounds
             self.observation_space.spaces["tyre_sets"] = Box(
-                low=0, high=float(tyre_sets.MAX_AGE), shape=(2 * self._n_compounds,), dtype=np.float32)
-            self._obs_cache["tyre_sets"] = np.zeros(2 * self._n_compounds, dtype=np.float32)
+                low=0, high=float(tyre_sets.MAX_AGE), shape=(n_obs,), dtype=np.float32)
+            self._obs_cache["tyre_sets"] = np.zeros(n_obs, dtype=np.float32)
 
         # Action space: 0 (no pit) + 1-3 (softest to hardest available compound)
         # Fixed 4 actions that map dynamically to available compounds
@@ -207,8 +215,7 @@ class F1EnvOneDriverV2Optimized(Env):
         cache["prev_action"] = 0
         cache["change_compound"] = 0
         if self._tyre_sets:
-            cache["tyre_sets"] = np.asarray(tyre_sets.observation(self._sets, self.available_compounds),
-                                            dtype=np.float32)
+            cache["tyre_sets"] = self._sets_obs()
 
         # Retornar dict directamente (Gymnasium hace la copia internamente si es necesario)
         return dict(cache), {}
@@ -232,7 +239,8 @@ class F1EnvOneDriverV2Optimized(Env):
 
         # Tyre sets (opt-in): no stop (and a penalty) when the compound has no set left
         no_set = 0.0
-        if self._tyre_sets and pit_compound and not self._sets.get(pit_compound):
+        if self._tyre_sets and pit_compound and not tyre_sets.has_set(
+                self._sets, pit_compound, (self.compound,) if self._reuse else None):
             pit_compound = 0
             no_set = self._no_set_penalty
 
@@ -261,6 +269,9 @@ class F1EnvOneDriverV2Optimized(Env):
         else:
             # Pit stop - reset tire life and change compound
             old_compound = self.compound
+            if self._tyre_sets and self._reuse:
+                # reuse: the set taken off (driven this lap) goes back before fitting the next one
+                tyre_sets.give_back(self._sets, old_compound, self.tyre_life + 1)
             self.tyre_life = 0
             self.compound = pit_compound
             if self._tyre_sets:
@@ -387,8 +398,19 @@ class F1EnvOneDriverV2Optimized(Env):
         cache["prev_action"] = self.prev_action
         if self._tyre_sets:
             # new array each step: step() returns a shallow copy of the cache
-            cache["tyre_sets"] = np.asarray(tyre_sets.observation(self._sets, self.available_compounds),
-                                            dtype=np.float32)
+            cache["tyre_sets"] = self._sets_obs()
+
+    def _sets_obs(self):
+        if self._reuse:
+            # the mounted set will have tyre_life + 1 laps when taken off after this lap (compound 0 before lap 0)
+            return np.asarray(tyre_sets.observation_reuse(self._sets, self.available_compounds,
+                                                          (self.compound, self.tyre_life + 1)), dtype=np.float32)
+        obs = np.asarray(tyre_sets.observation(self._sets, self.available_compounds), dtype=np.float32)
+        if self._sets_scale:
+            n = self._n_compounds
+            obs[:n] /= 8.0
+            obs[n:] /= 20.0
+        return obs
 
     def _log_predictor_info(self) -> None:
         """Log information about the simplified calculator."""

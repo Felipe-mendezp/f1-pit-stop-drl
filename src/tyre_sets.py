@@ -13,7 +13,17 @@ With the flag:
     and does not stop when it asks for a compound with no set left;
   - the agent observes 'tyre_sets' = [sets left per compound, age of the least-worn set per compound] (compounds in
     action order, ages 0 when none is left).
+F1_TYRE_REUSE = 1 (with F1_TYRE_SETS; v9r2, author's idea of 2026-10-21, results/onedriver_v9r2_20261021/README.md):
+  - the set taken off at a stop goes back to the driver's sets with its age (age when fitted + laps driven on it, the
+    in-lap included unless under SC/VSC) and can be fitted again; a stop fits the least-worn set of the compound,
+    which can be the one just taken off. Every driver has >= 1 set of each compound in the regulation inventory, so
+    a stop never lacks a set;
+  - the agent observes 'tyre_sets' = [age / 20 of the set it would fit by stopping now, per compound] (no counts:
+    the number of sets left in the observation broke the learning of the single-driver agents in v9r).
+The QMIP is unchanged: it plans with the sets in the pool (returned ones included, not the mounted one); an exact DP
+over stints gives the same optimum with and without reuse in the 8 GPs (explore/dp_reuse_20261021.py).
 """
+import bisect
 import os
 from functools import lru_cache
 
@@ -36,6 +46,13 @@ MAX_AGE = 60  # upper bound of a set's age before the race (2024 max: 39)
 
 def enabled():
     return bool(os.environ.get('F1_TYRE_SETS'))
+
+
+def reuse_enabled():
+    return enabled() and os.environ.get('F1_TYRE_REUSE', '') not in ('', '0')
+
+
+REUSE_AGE_SCALE = 20.0
 
 
 def no_set_penalty():
@@ -94,3 +111,23 @@ def observation(sets, compounds):
     """[n sets left per compound] + [age of the least-worn set per compound (0 if none)], compounds in action order."""
     return [float(len(sets.get(c, []))) for c in compounds] + \
            [float(sets[c][0]) if sets.get(c) else 0.0 for c in compounds]
+
+
+def give_back(sets, compound, age):
+    """Reuse (F1_TYRE_REUSE): the set taken off goes back to the sets of its compound with its age."""
+    bisect.insort(sets.setdefault(compound, []), int(age))
+
+
+def has_set(sets, compound, mounted=None):
+    """A set of the compound can be fitted (with reuse, the mounted compound always can: its own set comes back)."""
+    return bool(sets.get(compound)) or (mounted is not None and compound == mounted[0])
+
+
+def observation_reuse(sets, compounds, mounted):
+    """Reuse: [age of the set that a stop now would fit, per compound] / REUSE_AGE_SCALE (0 if none); mounted =
+    (compound, age it will have after this lap) of the set on the car."""
+    out = []
+    for c in compounds:
+        cand = list(sets.get(c, [])[:1]) + ([mounted[1]] if c == mounted[0] else [])
+        out.append(min(cand) / REUSE_AGE_SCALE if cand else 0.0)
+    return out

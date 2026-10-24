@@ -223,6 +223,46 @@ zsh reproduce/figures_v8_20261020.sh                              # all paper fi
 `figures_regenerated_v8/`. Figs. 8–10 are the Saudi Arabian GP 2024 (NOR), decision lap 7, PPO, scenario with the
 actual race replayed up to the decision lap.
 
+### In progress: real 2024 tyre sets (v9r2)
+
+> **Status (2026-10-23).** Single-driver agents trained, selected, and used in the manuscript (Fig. 5, Table N.1).
+> Multi-driver agents (`rl_agents_v9r2_20261022`) training on the cluster; the QMIP part of Figs. 6–7 is already
+> computed. Without the variables below everything is bit-identical to v8.
+
+With `F1_TYRE_SETS` every driver starts each 2024 race with the dry tyre sets available to him at the start of the race,
+inferred from the sets used in each session and the returns of the 2024 Sporting Regulations (art. 30.2; 6.73 sets per
+driver on average, half of them new). With `F1_TYRE_REUSE=1` (v9r2) a stop fits the least-worn set of the chosen
+compound and the tyre life of the new stint starts at its age; the set taken off goes back to the driver's sets with its
+age (the in-lap included unless under SC/VSC) and can be fitted again, so a stop never lacks a set. Rivals fit their sets
+in the same way; rivals with their real 2024 strategy (Fig. 7) take the real age of each stint. The agent observes
+`tyre_sets` = age / 20 of the set it would fit by stopping now, per compound. The QMIP plans with the same sets
+(`qmip._solve_sets`: future stints indexed by set, sets of a compound fitted from the least worn); it does not refit a
+set it takes off, and an exact dynamic program gives the same optimum with and without refitting in the 8 GPs.
+
+The first version, v9r (`F1_TYRE_SETS` alone: sets are consumed, the number of sets left is observed and asking for a
+compound with no set left costs `F1_NO_SET_PENALTY` = −1000), is superseded: the set counts in the observation and the
+penalty broke the learning of the single-driver agents (gaps of 20–50 s; diagnosis in
+`results/onedriver_v9r2_20261021/README.md`). v9r agents do not work in v9r2 and vice versa (different observation).
+
+| File | Content |
+|---|---|
+| `data/f1_2024_tire_usage.xlsx` | source: per-set (Lapchive) and per-stint (OpenF1) tyre usage, all 2024 sessions |
+| `data/tyre_sets_2024_reg_20261021.csv` | sets available at the start of each 2024 race (art. 30.2 returns) |
+| `data/tyre_race_stint_ages_2024_20261021.csv` | age of the set fitted at each real 2024 race stint |
+| `results/tyre_usage_xlsx_check_20261021/`, `results/tyre_inventory_mixed_2024_20261021/` | checks against FastF1 and construction/validation of the inventory |
+| `src/tyre_sets.py` | flag logic (`F1_TYRE_SETS`, `F1_TYRE_REUSE`) |
+| `scripts/tyre_reuse_v9r2_20261022.py` + `scripts/tyre_sets_v9_20261021.py` | wrappers (v8 wrappers + the two variables); every v9r2 training, selection and evaluation runs through them |
+| `scripts/check_tyre_reuse_20261022.py`, `scripts/check_tyre_sets_equivalence_20261021.py` | checks (reuse logic; bit-identical with the flags off) |
+| `reproduce/cluster/tasks_v9r2.tsv`, `tasks_onedriver_v9r2.tsv` | 400 multi-driver and 200 single-driver training tasks (`trained_models/rl_agents_v9r2_20261022`, `rl_agents_onedriver_v9r2_20261022`) |
+| `results/onedriver_v9r2_20261022/` | single-driver screening, seed selection, Fig. 5 and Table N.1 (steps in its README) |
+| `reproduce/pipeline_v9r2_20261023.sh` | multi-driver: seed selection (`--calib v9r2`), Figs. 6–7, QMIP-only stage and control, Table O.1 |
+| `results/world2024_v9r2_20261023/` | Figs. 6–7 and Table O.1 v9r2 (`qmip_only/` = QMIP runs without agents) |
+
+```bash
+# multi-driver, after copying trained_models/rl_agents_v9r2_20261022 from the cluster
+zsh reproduce/pipeline_v9r2_20261023.sh all      # select, fig6, fig7, qmipcheck, summary, figs
+```
+
 ## Citation
 
 ```bibtex

@@ -22,6 +22,10 @@ columna a0_cero (fraccion de carreras con accion 0 en la vuelta 0) si el CSV la 
 2026-10-19 (noche): opcion --max-dsq D (usada en v8 con 0.01, decision del autor): una semilla pasa solo si ademas su
 fraccion de carreras de validacion descalificadas (sin cambio de compuesto) es <= D. Si ninguna pasa, el respaldo es el
 de siempre (mayor cumplimiento). El resumen va a seed_summary[...]_dsq<100*D>.csv. Sin la opcion, todo igual.
+2026-10-23: --calib v9r2 (simulador v7, agentes rl_agents_v9r2_20261022 = v8 + juegos reutilizables; correr via
+scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py scripts/rival_start_v8_20261018.py, igual que el
+entrenamiento; ver reproduce/pipeline_v9r2_20261023.sh). Para pruebas, F1_SELECT_TREE y F1_SELECT_OUT reemplazan el
+arbol de agentes y la carpeta de salida (sin ellas, todo igual).
 Texto original:
 
 2026-10-07 — [v4 = v3 con el modelo YF v4: simuladores simulation_yfv4_<calib>_20261007, ver scripts/fit_yf_model_v4_20261007.py] Validación y selección de semillas del reentrenamiento v3.
@@ -52,9 +56,10 @@ SIM = {'v5': 'trained_models/simulation_v5_20261010',
        'v5h': 'trained_models/simulation_v5h8_20261012',      # opcion 3 jerarquica en los 8 GP
        'v6': 'trained_models/simulation_v6_20261014',         # 2026-10-14: v6 (correr via scripts/rival_dnf_v6_20261014.py)
        'v7': 'trained_models/simulation_v7_20261015',         # 2026-10-15: v7 (igual que v6: via rival_dnf_v6)
-       'v8': 'trained_models/simulation_v7_20261015'}         # 2026-10-19: v8 (via rival_start_v8; mismo simulador que v7)
+       'v8': 'trained_models/simulation_v7_20261015',         # 2026-10-19: v8 (via rival_start_v8; mismo simulador que v7)
+       'v9r2': 'trained_models/simulation_v7_20261015'}       # 2026-10-23: v9r2 (via tyre_reuse_v9r2 + tyre_sets_v9 + rival_start_v8)
 AGENTS = {'v5': 'rl_agents_v5_20261010', 'v5h': 'rl_agents_v5h_20261011', 'v6': 'rl_agents_v6_20261014',
-          'v7': 'rl_agents_v7_20261015', 'v8': 'rl_agents_v8_20261018'}
+          'v7': 'rl_agents_v7_20261015', 'v8': 'rl_agents_v8_20261018', 'v9r2': 'rl_agents_v9r2_20261022'}
 ALGOS = ['PPO', 'RecurrentPPO']
 VAL_SEED = 2026          # Fig 6 del paper usa 42
 
@@ -93,11 +98,14 @@ import compat; compat.setup_all()  # noqa: E402
 # arriba; hay que pasarlo tambien por fuera. Control de que el simulador cargado es el de --calib:
 assert os.path.realpath(str(config.SIMULATION_DIR)) == os.path.realpath(os.path.join(ROOT, SIM[A.calib])), \
     f'config.SIMULATION_DIR={config.SIMULATION_DIR} no es {SIM[A.calib]}: exportar F1_SIMULATION_DIR={SIM[A.calib]}'
-if A.calib in ('v6', 'v7', 'v8'):
+if A.calib in ('v6', 'v7', 'v8', 'v9r2'):
     assert os.environ.get('F1_RIVAL_DNF'), '--calib v6/v7: correr via scripts/rival_dnf_v6_20261014.py (validacion con abandonos)'
-if A.calib == 'v8':
+if A.calib in ('v8', 'v9r2'):
     assert os.environ.get('F1_RIVAL_START_ALPHA') and os.environ.get('F1_LAP0_ACTION0_MEDIUM'), \
         '--calib v8: correr via scripts/rival_start_v8_20261018.py'
+if A.calib == 'v9r2':   # 2026-10-23
+    assert os.environ.get('F1_TYRE_SETS') and os.environ.get('F1_TYRE_REUSE') == '1', \
+        '--calib v9r2: correr via scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py'
 
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
@@ -110,6 +118,8 @@ from evaluate_reward_comparison_stochastic import pregenenerate_race_scenarios  
 
 TREE = os.path.join(ROOT, 'trained_models', AGENTS[A.calib] + A.tag)
 OUT = os.path.join(ROOT, 'results', 'seed_selection_v5_20261010', A.calib + A.tag)
+TREE = os.environ.get('F1_SELECT_TREE') or TREE   # 2026-10-23: pruebas fuera de trained_models/
+OUT = os.environ.get('F1_SELECT_OUT') or OUT
 
 
 def entries():
@@ -182,6 +192,10 @@ def eval_one(e, algo, loader):
         vec_env.close()
         print(f"  {e['model_dir']} {algo} seed{s:02d}: pos media "
               f"{np.mean([r['final_position'] for r in rows if r['seed'] == s]):.2f}", flush=True)
+    missing = sorted(set(A.seeds) - {r['seed'] for r in rows})
+    if missing:   # 2026-10-23: sin cache incompleto (antes un arbol vacio dejaba CSV vacios que se reusaban)
+        print(f"  {e['model_dir']} {algo}: faltan semillas {missing}, no se guarda {path}", flush=True)
+        return None
     pd.DataFrame(rows).to_csv(path, index=False)
     return path
 

@@ -33,3 +33,11 @@ results/decision_support_tyre_opcion3_20261004/
 results/ablation_pubagents_v4_20261010/
 results/yf_pits_diag_20261007/
 results/yf_pits_diag_20261007_reveal/
+
+# 2026-10-24 (v9r2): same policy as v8 (rollouts, per-GP figures, agent copies and exploratory runs not versioned)
+results/decision_support_v9r2w24belief_20261023/PPO/
+results/decision_support_v9r2w24belief_20261023/RecurrentPPO/
+results/decision_support_v9r2w24belief_20261023/figs/
+results/world2024_v9r2_20261023/dsq0/agents/
+results/onedriver_v9r2_20261021/explore/
+results/onedriver_v9r2_20261021/test_a2c_hungary*/

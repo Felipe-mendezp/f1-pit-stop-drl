@@ -27,6 +27,12 @@
 #     sbatch -c 4 --mem=8G --job-name=f1v9 --array=1-400%80 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9.tsv
 # 2026-10-21 (noche) v9r = v9 con el inventario por reglamento (data/tyre_sets_2024_reg_20261021.csv); reemplaza a v9:
 #     sbatch -c 4 --mem=8G --job-name=f1v9r --array=1-400%80 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r.tsv
+#  22-oct: con -c 4 NLHPC avisa sobreutilizacion (~6 CPU, >150 %): cada tarea corre 10 + 10 entornos en
+#  SubprocVecEnv (un proceso cada uno) + el principal, asi que la CPU usada no depende de -c. Se vuelve a 8 CPU
+#  (como v8); las tareas con .done se saltan:
+#     sbatch -c 8 --mem=8G --job-name=f1v9r --array=1-400%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r.tsv
+# 2026-10-22 v9r2 (v9r + juegos reutilizables F1_TYRE_REUSE; scripts/make_tasks_v9r2_20261022.py):
+#     sbatch -c 8 --mem=8G --job-name=f1v9r2 --array=1-400%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2.tsv
 # Prueba corta (partición debug, 30 min):
 #     sbatch -p debug -t 00:25:00 -c 4 --mem=16G --array=1-2 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v3_control_smoke.tsv
 # (debug admite como máximo 4 CPUs)
