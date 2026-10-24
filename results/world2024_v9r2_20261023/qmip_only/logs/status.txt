@@ -1,0 +1,16 @@
+08:04:19 fig6 Saudi_Arabian_NOR exit 0
+08:09:02 fig6 Singapore_HUL exit 0
+08:09:52 fig6 Belgian_GAS exit 0
+08:09:53 fig6 Miami_OCO exit 0
+08:10:06 fig6 Bahrain_ALO exit 0
+08:10:43 fig6 Dutch_STR exit 0
+08:10:47 fig6 United_States_MAG exit 0
+08:11:44 fig6 Hungarian_TSU exit 0
+08:13:48 fig7 Saudi_Arabian_NOR exit 0
+08:18:59 fig7 Singapore_HUL exit 0
+08:19:33 fig7 Miami_OCO exit 0
+08:19:52 fig7 Bahrain_ALO exit 0
+08:20:02 fig7 Belgian_GAS exit 0
+08:20:10 fig7 Dutch_STR exit 0
+08:20:35 fig7 United_States_MAG exit 0
+08:21:08 fig7 Hungarian_TSU exit 0

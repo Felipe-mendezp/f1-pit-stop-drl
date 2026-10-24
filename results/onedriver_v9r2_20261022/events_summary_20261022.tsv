@@ -1,0 +1,201 @@
+gp	algo	seed	lap0_action	start	no_set_lap0	no_set_race	flag	gap_s
+Bahrain Grand Prix	DQN	01	2	C2	0	0	sane	0.000
+Bahrain Grand Prix	A2C	01	2	C2	0	0	sane	0.000
+Bahrain Grand Prix	TRPO	01	2	C2	0	0	sane	27.598
+Bahrain Grand Prix	PPO	01	2	C2	0	0	sane	0.245
+Bahrain Grand Prix	RecurrentPPO	01	2	C2	0	0	sane	0.000
+Belgian Grand Prix	DQN	01	2	C3	0	0	sane	0.000
+Belgian Grand Prix	A2C	01	2	C3	0	0	sane	1.519
+Belgian Grand Prix	TRPO	01	2	C3	0	0	sane	14.921
+Belgian Grand Prix	PPO	01	2	C3	0	0	sane	0.361
+Belgian Grand Prix	RecurrentPPO	01	2	C3	0	0	sane	0.000
+Dutch Grand Prix	DQN	01	3	C3	0	0	sane	1.198
+Dutch Grand Prix	A2C	01	2	C2	0	0	sane	0.969
+Dutch Grand Prix	TRPO	01	1	C1	0	0	sane	14.879
+Dutch Grand Prix	PPO	01	2	C2	0	0	sane	3.225
+Dutch Grand Prix	RecurrentPPO	01	1	C1	0	0	sane	0.983
+Hungarian Grand Prix	DQN	01	2	C4	0	0	sane	0.000
+Hungarian Grand Prix	A2C	01	2	C4	0	0	sane	0.637
+Hungarian Grand Prix	TRPO	01	2	C4	0	0	sane	1.319
+Hungarian Grand Prix	PPO	01	2	C4	0	0	sane	5.912
+Hungarian Grand Prix	RecurrentPPO	01	2	C4	0	0	sane	0.053
+Miami Grand Prix	DQN	01	2	C3	0	0	sane	2.092
+Miami Grand Prix	A2C	01	2	C3	0	0	sane	0.767
+Miami Grand Prix	TRPO	01	3	C4	0	0	sane	5.056
+Miami Grand Prix	PPO	01	1	C2	0	0	sane	2.952
+Miami Grand Prix	RecurrentPPO	01	1	C2	0	0	sane	2.952
+Saudi Arabian Grand Prix	DQN	01	3	C4	0	0	sane	0.229
+Saudi Arabian Grand Prix	A2C	01	1	C2	0	0	sane	3.410
+Saudi Arabian Grand Prix	TRPO	01	1	C2	0	0	sane	26.821
+Saudi Arabian Grand Prix	PPO	01	1	C2	0	0	sane	3.241
+Saudi Arabian Grand Prix	RecurrentPPO	01	2	C3	0	0	sane	0.000
+Singapore Grand Prix	DQN	01	3	C5	0	0	sane	13.640
+Singapore Grand Prix	A2C	01	1	C3	0	0	sane	4.668
+Singapore Grand Prix	TRPO	01	1	C3	0	0	sane	5.267
+Singapore Grand Prix	PPO	01	2	C4	0	0	sane	1.883
+Singapore Grand Prix	RecurrentPPO	01	2	C4	0	0	sane	2.895
+United States Grand Prix	DQN	01	2	C3	0	0	sane	0.000
+United States Grand Prix	A2C	01	1	C2	0	0	sane	0.801
+United States Grand Prix	TRPO	01	1	C2	0	0	sane	1.688
+United States Grand Prix	PPO	01	2	C3	0	0	sane	0.000
+United States Grand Prix	RecurrentPPO	01	1	C2	0	0	sane	0.000
+Bahrain Grand Prix	DQN	02	2	C2	0	0	sane	1.180
+Bahrain Grand Prix	A2C	02	2	C2	0	0	sane	0.192
+Bahrain Grand Prix	TRPO	02	2	C2	0	0	sane	143.739
+Bahrain Grand Prix	PPO	02	2	C2	0	0	sane	2.000
+Bahrain Grand Prix	RecurrentPPO	02	2	C2	0	0	sane	0.000
+Belgian Grand Prix	DQN	02	2	C3	0	0	sane	0.000
+Belgian Grand Prix	A2C	02	2	C3	0	0	sane	0.000
+Belgian Grand Prix	TRPO	02	2	C3	0	0	sane	21.708
+Belgian Grand Prix	PPO	02	2	C3	0	0	sane	1.519
+Belgian Grand Prix	RecurrentPPO	02	2	C3	0	0	sane	0.000
+Dutch Grand Prix	DQN	02	2	C2	0	0	sane	0.004
+Dutch Grand Prix	A2C	02	2	C2	0	0	sane	1.666
+Dutch Grand Prix	TRPO	02	2	C2	0	0	sane	2.090
+Dutch Grand Prix	PPO	02	1	C1	0	0	sane	0.928
+Dutch Grand Prix	RecurrentPPO	02	2	C2	0	0	sane	0.004
+Hungarian Grand Prix	DQN	02	3	C5	0	0	sane	0.000
+Hungarian Grand Prix	A2C	02	2	C4	0	0	sane	0.506
+Hungarian Grand Prix	TRPO	02	2	C4	0	0	sane	3.344
+Hungarian Grand Prix	PPO	02	2	C4	0	0	sane	0.970
+Hungarian Grand Prix	RecurrentPPO	02	2	C4	0	0	sane	0.053
+Miami Grand Prix	DQN	02	2	C3	0	0	sane	5.300
+Miami Grand Prix	A2C	02	2	C3	0	0	sane	3.160
+Miami Grand Prix	TRPO	02	2	C3	0	0	sane	11.966
+Miami Grand Prix	PPO	02	3	C4	0	0	sane	6.390
+Miami Grand Prix	RecurrentPPO	02	2	C3	0	0	sane	0.026
+Saudi Arabian Grand Prix	DQN	02	2	C3	0	0	sane	1.114
+Saudi Arabian Grand Prix	A2C	02	1	C2	0	0	sane	3.241
+Saudi Arabian Grand Prix	TRPO	02	1	C2	0	0	sane	36.096
+Saudi Arabian Grand Prix	PPO	02	1	C2	0	0	sane	3.224
+Saudi Arabian Grand Prix	RecurrentPPO	02	2	C3	0	0	sane	2.788
+Singapore Grand Prix	DQN	02	2	C4	0	0	sane	0.000
+Singapore Grand Prix	A2C	02	1	C3	0	0	sane	2.998
+Singapore Grand Prix	TRPO	02	1	C3	0	0	sane	5.267
+Singapore Grand Prix	PPO	02	2	C4	0	0	sane	4.246
+Singapore Grand Prix	RecurrentPPO	02	2	C4	0	0	sane	0.000
+United States Grand Prix	DQN	02	2	C3	0	0	sane	0.201
+United States Grand Prix	A2C	02	3	C4	0	0	sane	0.277
+United States Grand Prix	TRPO	02	1	C2	0	0	sane	5.288
+United States Grand Prix	PPO	02	3	C4	0	0	sane	0.277
+United States Grand Prix	RecurrentPPO	02	1	C2	0	0	sane	0.000
+Bahrain Grand Prix	DQN	03	2	C2	0	0	sane	1.144
+Bahrain Grand Prix	A2C	03	2	C2	0	0	sane	1.388
+Bahrain Grand Prix	TRPO	03	2	C2	0	0	sane	13.595
+Bahrain Grand Prix	PPO	03	2	C2	0	0	sane	0.000
+Bahrain Grand Prix	RecurrentPPO	03	2	C2	0	0	sane	0.000
+Belgian Grand Prix	DQN	03	3	C4	0	0	sane	0.000
+Belgian Grand Prix	A2C	03	2	C3	0	0	sane	0.125
+Belgian Grand Prix	TRPO	03	2	C3	0	0	sane	10.342
+Belgian Grand Prix	PPO	03	2	C3	0	0	sane	0.765
+Belgian Grand Prix	RecurrentPPO	03	2	C3	0	0	sane	0.000
+Dutch Grand Prix	DQN	03	2	C2	0	0	sane	1.660
+Dutch Grand Prix	A2C	03	2	C2	0	0	sane	1.666
+Dutch Grand Prix	TRPO	03	1	C1	0	0	sane	26.229
+Dutch Grand Prix	PPO	03	2	C2	0	0	sane	2.090
+Dutch Grand Prix	RecurrentPPO	03	2	C2	0	0	sane	0.000
+Hungarian Grand Prix	DQN	03	2	C4	0	0	sane	1.247
+Hungarian Grand Prix	A2C	03	2	C4	0	0	sane	0.451
+Hungarian Grand Prix	TRPO	03	2	C4	0	0	sane	88.391
+Hungarian Grand Prix	PPO	03	2	C4	0	0	sane	0.741
+Hungarian Grand Prix	RecurrentPPO	03	2	C4	0	0	sane	0.053
+Miami Grand Prix	DQN	03	2	C3	0	0	sane	2.092
+Miami Grand Prix	A2C	03	1	C2	0	0	sane	7.432
+Miami Grand Prix	TRPO	03	2	C3	0	0	sane	13.638
+Miami Grand Prix	PPO	03	1	C2	0	0	sane	3.423
+Miami Grand Prix	RecurrentPPO	03	3	C4	0	0	sane	0.026
+Saudi Arabian Grand Prix	DQN	03	2	C3	0	0	sane	0.000
+Saudi Arabian Grand Prix	A2C	03	2	C3	0	0	sane	2.457
+Saudi Arabian Grand Prix	TRPO	03	1	C2	0	0	sane	3.504
+Saudi Arabian Grand Prix	PPO	03	1	C2	0	0	sane	3.223
+Saudi Arabian Grand Prix	RecurrentPPO	03	3	C4	0	0	sane	2.260
+Singapore Grand Prix	DQN	03	1	C3	0	0	sane	2.895
+Singapore Grand Prix	A2C	03	2	C4	0	0	sane	2.903
+Singapore Grand Prix	TRPO	03	1	C3	0	0	sane	17.889
+Singapore Grand Prix	PPO	03	1	C3	0	0	sane	3.391
+Singapore Grand Prix	RecurrentPPO	03	1	C3	0	0	sane	2.895
+United States Grand Prix	DQN	03	1	C2	0	0	sane	0.725
+United States Grand Prix	A2C	03	2	C3	0	0	sane	0.242
+United States Grand Prix	TRPO	03	1	C2	0	0	sane	0.579
+United States Grand Prix	PPO	03	3	C4	0	0	sane	3.083
+United States Grand Prix	RecurrentPPO	03	1	C2	0	0	sane	0.000
+Bahrain Grand Prix	DQN	04	2	C2	0	0	sane	0.000
+Bahrain Grand Prix	A2C	04	2	C2	0	0	sane	0.559
+Bahrain Grand Prix	TRPO	04	2	C2	0	0	sane	4.142
+Bahrain Grand Prix	PPO	04	2	C2	0	0	sane	0.000
+Bahrain Grand Prix	RecurrentPPO	04	2	C2	0	0	sane	0.000
+Belgian Grand Prix	DQN	04	2	C3	0	0	sane	0.000
+Belgian Grand Prix	A2C	04	2	C3	0	0	sane	0.044
+Belgian Grand Prix	TRPO	04	2	C3	0	0	sane	45.931
+Belgian Grand Prix	PPO	04	2	C3	0	0	sane	0.361
+Belgian Grand Prix	RecurrentPPO	04	2	C3	0	0	sane	0.000
+Dutch Grand Prix	DQN	04	3	C3	0	0	sane	0.000
+Dutch Grand Prix	A2C	04	2	C2	0	0	sane	0.928
+Dutch Grand Prix	TRPO	04	1	C1	0	0	sane	0.928
+Dutch Grand Prix	PPO	04	1	C1	0	0	sane	2.693
+Dutch Grand Prix	RecurrentPPO	04	2	C2	0	0	sane	0.004
+Hungarian Grand Prix	DQN	04	2	C4	0	0	sane	0.000
+Hungarian Grand Prix	A2C	04	2	C4	0	0	sane	0.429
+Hungarian Grand Prix	TRPO	04	3	C5	0	0	sane	70.195
+Hungarian Grand Prix	PPO	04	2	C4	0	0	sane	1.668
+Hungarian Grand Prix	RecurrentPPO	04	2	C4	0	0	sane	0.382
+Miami Grand Prix	DQN	04	2	C3	0	0	sane	0.538
+Miami Grand Prix	A2C	04	1	C2	0	0	sane	3.274
+Miami Grand Prix	TRPO	04	1	C2	0	0	sane	3.130
+Miami Grand Prix	PPO	04	2	C3	0	0	sane	0.349
+Miami Grand Prix	RecurrentPPO	04	2	C3	0	0	sane	0.349
+Saudi Arabian Grand Prix	DQN	04	2	C3	0	0	sane	0.295
+Saudi Arabian Grand Prix	A2C	04	1	C2	0	0	sane	3.618
+Saudi Arabian Grand Prix	TRPO	04	1	C2	0	0	sane	3.770
+Saudi Arabian Grand Prix	PPO	04	1	C2	0	0	sane	3.223
+Saudi Arabian Grand Prix	RecurrentPPO	04	2	C3	0	0	sane	2.457
+Singapore Grand Prix	DQN	04	2	C4	0	0	sane	0.000
+Singapore Grand Prix	A2C	04	2	C4	0	0	sane	4.246
+Singapore Grand Prix	TRPO	04	1	C3	0	0	sane	22.767
+Singapore Grand Prix	PPO	04	2	C4	0	0	sane	2.903
+Singapore Grand Prix	RecurrentPPO	04	1	C3	0	0	sane	2.895
+United States Grand Prix	DQN	04	3	C4	0	0	sane	3.533
+United States Grand Prix	A2C	04	1	C2	0	0	sane	0.721
+United States Grand Prix	TRPO	04	1	C2	0	0	sane	68.887
+United States Grand Prix	PPO	04	2	C3	0	0	sane	0.000
+United States Grand Prix	RecurrentPPO	04	1	C2	0	0	sane	0.000
+Bahrain Grand Prix	DQN	05	1	C1	0	0	sane	0.000
+Bahrain Grand Prix	A2C	05	2	C2	0	0	sane	0.410
+Bahrain Grand Prix	TRPO	05	2	C2	0	0	sane	28.707
+Bahrain Grand Prix	PPO	05	2	C2	0	0	sane	0.245
+Bahrain Grand Prix	RecurrentPPO	05	2	C2	0	0	sane	0.000
+Belgian Grand Prix	DQN	05	3	C4	0	0	sane	0.000
+Belgian Grand Prix	A2C	05	2	C3	0	0	sane	0.436
+Belgian Grand Prix	TRPO	05	2	C3	0	0	sane	11.070
+Belgian Grand Prix	PPO	05	2	C3	0	0	sane	3.288
+Belgian Grand Prix	RecurrentPPO	05	2	C3	0	0	sane	0.000
+Dutch Grand Prix	DQN	05	3	C3	0	0	sane	0.004
+Dutch Grand Prix	A2C	05	1	C1	0	0	sane	1.722
+Dutch Grand Prix	TRPO	05	2	C2	0	0	sane	14.642
+Dutch Grand Prix	PPO	05	2	C2	0	0	sane	1.666
+Dutch Grand Prix	RecurrentPPO	05	2	C2	0	0	sane	0.120
+Hungarian Grand Prix	DQN	05	3	C5	0	0	sane	0.000
+Hungarian Grand Prix	A2C	05	1	C3	0	0	sane	0.000
+Hungarian Grand Prix	TRPO	05	2	C4	0	0	sane	36.912
+Hungarian Grand Prix	PPO	05	2	C4	0	0	sane	2.985
+Hungarian Grand Prix	RecurrentPPO	05	2	C4	0	0	sane	0.000
+Miami Grand Prix	DQN	05	3	C4	0	0	sane	2.857
+Miami Grand Prix	A2C	05	1	C2	0	0	sane	7.432
+Miami Grand Prix	TRPO	05	2	C3	0	0	sane	10.438
+Miami Grand Prix	PPO	05	1	C2	0	0	sane	2.989
+Miami Grand Prix	RecurrentPPO	05	2	C3	0	0	sane	6.694
+Saudi Arabian Grand Prix	DQN	05	2	C3	0	0	sane	0.000
+Saudi Arabian Grand Prix	A2C	05	1	C2	0	0	sane	3.504
+Saudi Arabian Grand Prix	TRPO	05	2	C3	0	0	sane	2.788
+Saudi Arabian Grand Prix	PPO	05	1	C2	0	0	sane	3.223
+Saudi Arabian Grand Prix	RecurrentPPO	05	2	C3	0	0	sane	0.017
+Singapore Grand Prix	DQN	05	2	C4	0	0	sane	0.000
+Singapore Grand Prix	A2C	05	1	C3	0	0	sane	5.267
+Singapore Grand Prix	TRPO	05	2	C4	0	0	sane	9.770
+Singapore Grand Prix	PPO	05	2	C4	0	0	sane	0.867
+Singapore Grand Prix	RecurrentPPO	05	1	C3	0	0	sane	2.895
+United States Grand Prix	DQN	05	1	C2	0	0	sane	0.725
+United States Grand Prix	A2C	05	1	C2	0	0	sane	0.725
+United States Grand Prix	TRPO	05	1	C2	0	0	sane	68.887
+United States Grand Prix	PPO	05	1	C2	0	0	sane	0.336
+United States Grand Prix	RecurrentPPO	05	1	C2	0	0	sane	0.000

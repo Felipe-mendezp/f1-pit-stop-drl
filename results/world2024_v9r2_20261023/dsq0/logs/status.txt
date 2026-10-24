@@ -1,0 +1,11 @@
+22:38:46 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (v9r2: F1_TYRE_SETS=/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/data/tyre_sets_2024_reg_20261021.csv F1_TYRE_REUSE=1)
+22:38:55 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+22:39:02 fin 
+22:39:13 fig7 Saudi_Arabian_NOR Dutch_STR (agentes results/world2024_v9r2_20261023/dsq0/agents/selected -> results/world2024_v9r2_20261023/dsq0)
+22:39:13 fig6 Saudi_Arabian_NOR Dutch_STR (agentes results/world2024_v9r2_20261023/dsq0/agents/selected -> results/world2024_v9r2_20261023/dsq0)
+22:51:24 fig7 Saudi_Arabian_NOR exit 0
+22:57:11 fig6 Saudi_Arabian_NOR exit 0
+23:05:26 fig7 Dutch_STR exit 0
+23:05:26 fin Saudi_Arabian_NOR
+23:10:01 fig6 Dutch_STR exit 0
+23:10:01 fin Saudi_Arabian_NOR

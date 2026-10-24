@@ -1,0 +1,2 @@
+22:39:13 fig7 Saudi_Arabian_NOR Dutch_STR (agentes results/world2024_v9r2_20261023/dsq0/agents/selected -> results/world2024_v9r2_20261023/dsq0)
+23:05:26 fin Saudi_Arabian_NOR
