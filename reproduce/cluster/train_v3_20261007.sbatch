@@ -38,7 +38,7 @@
 #  Entornos en un solo proceso (--vec dummy: mismos resultados que SubprocVecEnv, ~1 CPU, ~0.6 GB en el Mac).
 #  Prueba (Saudi PPO y RPPO, semilla 1) y luego el resto:
 #     sbatch -c 4 --mem=3G --job-name=f1v9r2smt --array=7-8 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2sm.tsv
-#     sbatch -c 4 --mem=3G --job-name=f1v9r2sm --array=1-48%48 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2sm.tsv
+#     sbatch -c 4 --mem=1500M --job-name=f1v9r2sm --array=1-48%16 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2sm.tsv
 # Prueba corta (partición debug, 30 min):
 #     sbatch -p debug -t 00:25:00 -c 4 --mem=16G --array=1-2 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v3_control_smoke.tsv
 # (debug admite como máximo 4 CPUs)
