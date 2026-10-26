@@ -23,7 +23,7 @@ for e in [e for e in GP_CONFIGS if os.path.isdir(os.path.join(SEL, e["model_dir"
             name = f"v9r2sm__seed{seed:02d}__{e['model_dir']}__{algo}"
             cmd = (f"{WRAP} scripts/finetune_startmix_20261025.py --agents trained_models/rl_agents_v9r2_20261022/selected "
                    f"--gp '{e['gp_name']}' --algo {algo} --lr {LR[algo]} --start-mix 0.5 --seed {seed} "
-                   f"--timesteps 1500000 --eval-freq 5000 --fast-env --torch-threads 4 --following-gap-scale 1.0 "
+                   f"--timesteps 1500000 --eval-freq 5000 --vec dummy --fast-env --torch-threads 4 --following-gap-scale 1.0 "
                    f"--sc-bunching --sc-bunch-delta 1.5 --out-root {OUT}/seed{seed:02d}")
             rows.append('\t'.join([name, f'{OUT}/logs/{name}.log', 'trained_models/simulation_v7_20261015', cmd]))
 with open('reproduce/cluster/tasks_v9r2sm.tsv', 'w') as f:

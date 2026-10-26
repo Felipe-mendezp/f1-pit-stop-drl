@@ -27,7 +27,7 @@ import torch
 from stable_baselines3 import PPO
 from sb3_contrib import RecurrentPPO
 from stable_baselines3.common.env_util import make_vec_env
-from stable_baselines3.common.vec_env import SubprocVecEnv, VecNormalize
+from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv, VecNormalize
 
 from train_rl_agents import create_env_factory, create_eval_callback, get_initial_positions, seed_all, TRAINING_CONFIG
 from model_loader import ModelLoader
@@ -50,6 +50,8 @@ def main():
                     help='llamadas por evaluacion (x n_envs pasos); el original usa 15 000 = cada 150 000 pasos')
     ap.add_argument('--n-envs', type=int, default=None)
     ap.add_argument('--torch-threads', type=int, default=None)
+    ap.add_argument('--vec', choices=['subproc', 'dummy'], default='subproc',
+                    help='dummy = los 10 entornos en el proceso principal (mismo buffer y mismas semillas; menos CPU y RAM)')
     ap.add_argument('--fast-env', action='store_true')
     ap.add_argument('--following-gap-scale', type=float, default=0.0)
     ap.add_argument('--sc-bunching', action='store_true')
@@ -76,8 +78,9 @@ def main():
         args.gp, driver, ModelLoader(), get_initial_positions(args.gp), reward_type='mix',
         fast_rivals=args.fast_env, following_gap_scale=args.following_gap_scale,
         sc_bunching=args.sc_bunching, sc_bunch_delta=args.sc_bunch_delta)
-    vec_env = make_vec_env(env_factory, n_envs=n_envs, vec_env_cls=SubprocVecEnv, seed=args.seed)
-    eval_vec_env = make_vec_env(env_factory, n_envs=n_envs, vec_env_cls=SubprocVecEnv, seed=args.seed + 10_000)
+    vcls = DummyVecEnv if args.vec == 'dummy' else SubprocVecEnv
+    vec_env = make_vec_env(env_factory, n_envs=n_envs, vec_env_cls=vcls, seed=args.seed)
+    eval_vec_env = make_vec_env(env_factory, n_envs=n_envs, vec_env_cls=vcls, seed=args.seed + 10_000)
     # Estadisticas del agente original: siguen actualizandose en el de entrenamiento (como en el original, PPO y
     # RPPO con norm_reward); el de evaluacion queda fijo y se sincroniza antes de cada evaluacion.
     stats = os.path.join(src, 'vecnormalize_stats.pkl')
@@ -101,7 +104,7 @@ def main():
                 + f'start_mix {args.start_mix}  lr {lr}  seed {args.seed}  timesteps {args.timesteps}  '
                   f'eval_freq {args.eval_freq}x{n_envs}\n')
     print(f'FINETUNE {args.algo} | {args.gp} | seed {args.seed} | start_mix {args.start_mix} | lr {lr} '
-          f'| n_steps {model.n_steps} batch {model.batch_size} ent_coef {model.ent_coef} -> {algo_dir}', flush=True)
+          f'| vec {args.vec} | n_steps {model.n_steps} batch {model.batch_size} ent_coef {model.ent_coef} -> {algo_dir}', flush=True)
 
     eval_callback = create_eval_callback(
         eval_vec_env, save_path=algo_dir, log_path=algo_dir, eval_freq=args.eval_freq,
