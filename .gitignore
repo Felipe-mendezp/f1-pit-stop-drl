@@ -41,3 +41,9 @@ results/decision_support_v9r2w24belief_20261023/figs/
 results/world2024_v9r2_20261023/dsq0/agents/
 results/onedriver_v9r2_20261021/explore/
 results/onedriver_v9r2_20261021/test_a2c_hungary*/
+results/decision_support_v9r2realstart_20261024/PPO/
+results/decision_support_v9r2realstart_20261024/RecurrentPPO/
+results/decision_support_v9r2realstart_20261024/figs/
+results/decision_support_v9r2realhist_20261024/PPO/
+results/decision_support_v9r2realhist_20261024/RecurrentPPO/
+results/decision_support_v9r2realhist_20261024/figs/

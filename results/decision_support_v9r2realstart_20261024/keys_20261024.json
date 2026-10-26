@@ -1,0 +1,14 @@
+[
+ [
+  "Saudi: largando con medios, el agente nunca cambia de compuesto",
+  "PPO y RPPO paran a medios otra vez bajo el SC de la vuelta 7 y de nuevo a medios al final: descalificados en (i) y (ii). En las proyecciones la máscara corrige el 99 a 100 % de los rollouts de la acción recomendada, así que esos valores reflejan la máscara y no la política."
+ ],
+ [
+  "US RPPO y Bahrain, coincidencia baja",
+  "US RPPO larga con medios, también queda descalificado, coincide en 45 a 60 % y la máscara actúa en el 100 % de los rollouts recomendados. En Bahrain coinciden en 64 a 71 % (PPO en (i) y (ii), RPPO en (i)) sin correcciones de la máscara: el error es de elección, con pérdidas de hasta 0,4 puntos por vuelta."
+ ],
+ [
+  "Lectura: A muestra el límite de la política",
+  "En los otros GP la largada real es la misma del agente y A es idéntico al barrido v9r2. Donde difiere, el agente decide en estados que casi no vio al entrenar; este barrido no sirve para evaluar la decisión real del piloto (para eso, el barrido B)."
+ ]
+]

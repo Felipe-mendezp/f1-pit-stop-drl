@@ -1,0 +1,22 @@
+[
+ [
+  "Saudi v. 7: parar parece mejor, pero la comparación no es limpia",
+  "Norris, con medios y en P6, no paró bajo el SC. Las simulaciones dan blandos 3,2 a 3,6 puntos sobre quedarse y duros 1,5 a 2,1. Pero si no para, la política sigue con medios y casi nunca cambia sola de compuesto: la máscara corrige el 99 a 100 % de los rollouts de no parar y de medios (la acción que recomienda). Blandos y duros cumplen la regla de inmediato (0 %). La ventaja de parar probablemente está sobrestimada, en una magnitud que estos datos no permiten medir."
+ ],
+ [
+  "Singapore v. 29 y US v. 17: paradas reales costosas",
+  "Hülkenberg (duros, v. 29): quedarse daba 0,7 a 1,6 puntos más, sin correcciones de la máscara. Magnussen (duros, v. 17): no parar daba 1,5 a 2,2 más; limpio con PPO, mientras que con RPPO la máscara corrige el 100 % de los rollouts de no parar."
+ ],
+ [
+  "Bahrain: medios en vez de duros",
+  "En ambas paradas reales de Alonso (v. 15 y 41) y en las vueltas previas, parar a medios supera a los duros elegidos (hasta 3 puntos). Sin correcciones de la máscara; la política recomienda duros donde medios simulan mejor (pérdida de 0,1 a 0,4 puntos por vuelta)."
+ ],
+ [
+  "Dónde la política es fiable",
+  "En Belgian, Dutch, Hungarian, Miami y Singapore la máscara no actúa y la pérdida por seguir la política es de 0,01 puntos o menos, como en el barrido original. Actúa en Saudi (75 % de los rollouts de la acción recomendada) y en US con RPPO (31 %)."
+ ],
+ [
+  "Decisión real = recomendación en 79 a 100 % de las vueltas",
+  "Hungarian, Miami y Dutch casi idénticas a lo real; Belgian es la más distinta (el DRL prefería blandos antes de la v. 28)."
+ ]
+]

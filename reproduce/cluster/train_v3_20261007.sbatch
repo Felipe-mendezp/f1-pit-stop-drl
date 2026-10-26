@@ -33,6 +33,9 @@
 #     sbatch -c 8 --mem=8G --job-name=f1v9r --array=1-400%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r.tsv
 # 2026-10-22 v9r2 (v9r + juegos reutilizables F1_TYRE_REUSE; scripts/make_tasks_v9r2_20261022.py):
 #     sbatch -c 8 --mem=8G --job-name=f1v9r2 --array=1-400%40 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2.tsv
+# 2026-10-25 v9r2sm (post-entrenamiento de PPO/RPPO v9r2 seleccionados con largada sorteada F1_START_MIX=0.5;
+#  scripts/make_tasks_v9r2sm_20261025.py; requiere trained_models/rl_agents_v9r2_20261022/selected en el cluster):
+#     sbatch -c 8 --mem=8G --job-name=f1v9r2sm --array=1-48%48 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v9r2sm.tsv
 # Prueba corta (partición debug, 30 min):
 #     sbatch -p debug -t 00:25:00 -c 4 --mem=16G --array=1-2 reproduce/cluster/train_v3_20261007.sbatch reproduce/cluster/tasks_v3_control_smoke.tsv
 # (debug admite como máximo 4 CPUs)

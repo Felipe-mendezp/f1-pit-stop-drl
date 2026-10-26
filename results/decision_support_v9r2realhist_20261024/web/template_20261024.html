@@ -1,0 +1,365 @@
+<title>Muro de boxes: historia real</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de ingeniería de pista. Resumen de los 8 GP arriba (franjas de stints), detalle por GP abajo
+   con gráfico por vuelta, franja rec/mejor y panel de la vuelta elegida. */
+:root {
+  --bg: #f3f5f7; --panel: #ffffff; --ink: #14202e; --muted: #5d6b7a; --line: #d9dfe6; --faint: #edf0f3;
+  --accent: #1f5f8b; --accent-soft: #dce9f3;
+  --soft: #d7262e; --medium: #e0a800; --hard: #8d96a1; --nopit: #1f5f8b;
+  --sc: rgba(224,168,0,.16); --vsc: rgba(224,168,0,.08); --bad: #b4232b; --good: #23794a;
+  --f-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --f-body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151c; --panel: #17202a; --ink: #e6ebf0; --muted: #94a2b1; --line: #2a3644; --faint: #1d2834;
+  --accent: #6cb4e4; --accent-soft: #1d3346;
+  --soft: #f0525a; --medium: #f2c230; --hard: #d9dee4; --nopit: #6cb4e4;
+  --sc: rgba(242,194,48,.14); --vsc: rgba(242,194,48,.07); --bad: #f0727a; --good: #5cc28a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f151c; --panel: #17202a; --ink: #e6ebf0; --muted: #94a2b1; --line: #2a3644; --faint: #1d2834;
+  --accent: #6cb4e4; --accent-soft: #1d3346;
+  --soft: #f0525a; --medium: #f2c230; --hard: #d9dee4; --nopit: #6cb4e4;
+  --sc: rgba(242,194,48,.14); --vsc: rgba(242,194,48,.07); --bad: #f0727a; --good: #5cc28a; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: grid; gap: 28px }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 700; letter-spacing: .01em; margin: 0; text-wrap: balance; line-height: 1.1 }
+h1 { font-size: 40px } h2 { font-size: 26px } h3 { font-size: 19px; font-weight: 600 }
+p { margin: 0; max-width: 72ch }
+.eyebrow { font: 600 12px/1 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted) }
+.mono, td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+header { display: grid; gap: 10px }
+.lede { color: var(--muted) }
+.keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none }
+.keys li { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; min-width: 0 }
+.keys b { display: block; font-family: var(--f-display); font-size: 18px; font-weight: 600; margin-bottom: 4px }
+.keys span { color: var(--muted); font-size: 14px }
+section { display: grid; gap: 14px }
+.bar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--panel) }
+.seg button { font: 600 13px/1 var(--f-body); color: var(--muted); background: none; border: 0; padding: 9px 12px; cursor: pointer }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink) }
+.seg button:focus-visible, .gp-tab:focus-visible, tr.row:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.scroll { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 6px }
+table { border-collapse: collapse; width: 100%; font-size: 14px }
+th { font: 600 11px/1.2 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap }
+td { padding: 9px 12px; border-bottom: 1px solid var(--faint); vertical-align: middle }
+tr:last-child td { border-bottom: 0 }
+tr.row { cursor: pointer } tr.row:hover td { background: var(--faint) } tr.row.sel td { background: var(--accent-soft) }
+td.gp { font-family: var(--f-display); font-size: 17px; font-weight: 600; white-space: nowrap }
+td.gp small { font: 500 12px var(--f-mono); color: var(--muted); margin-left: 6px }
+.strip { display: grid; gap: 3px; min-width: 190px }
+.strip svg { display: block; width: 100%; height: 12px }
+.strip .t { font: 11px/1.2 var(--f-mono); color: var(--muted); white-space: nowrap }
+.pill { display: inline-block; font: 500 12px/1 var(--f-mono); padding: 4px 7px; border-radius: 4px; background: var(--faint) }
+.pill.warn { color: var(--bad) } .pill.ok { color: var(--good) }
+.gp-tabs { display: flex; flex-wrap: wrap; gap: 6px }
+.gp-tab { font: 600 15px/1 var(--f-display); letter-spacing: .02em; padding: 8px 11px; border: 1px solid var(--line); border-radius: 5px; background: var(--panel); color: var(--muted); cursor: pointer }
+.gp-tab[aria-pressed="true"] { border-color: var(--accent); color: var(--ink); background: var(--accent-soft) }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px; display: grid; gap: 12px; min-width: 0 }
+.card-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: baseline }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted) }
+.legend i { display: inline-block; width: 18px; height: 3px; vertical-align: middle; margin-right: 6px; border-radius: 2px }
+.legend i.box { height: 10px; width: 12px; border-radius: 2px }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible }
+.chart text { fill: var(--muted); font: 11px var(--f-mono) }
+.chart .ax { stroke: var(--line) } .chart .grid { stroke: var(--faint) }
+.cols { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 16px }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr) } h1 { font-size: 32px } }
+.lapctl { display: flex; align-items: center; gap: 12px; flex-wrap: wrap }
+.lapctl input[type=range] { flex: 1 1 220px; accent-color: var(--accent) }
+.lapnum { font: 700 30px/1 var(--f-display) }
+.state { font: 13px var(--f-mono); color: var(--muted) }
+td.act { white-space: nowrap; font-weight: 600 }
+td.act i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; vertical-align: -1px }
+.tag { font: 600 10px/1 var(--f-body); letter-spacing: .08em; text-transform: uppercase; padding: 3px 5px; border-radius: 3px; margin-left: 6px; vertical-align: 2px }
+.tag.rec { background: var(--accent); color: var(--panel) } .tag.best { border: 1px solid var(--good); color: var(--good) }
+.hists { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px }
+@media (max-width: 520px) { .hists { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
+.hists figure { margin: 0; display: grid; gap: 4px; min-width: 0 }
+.hists figcaption { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.notes { display: grid; gap: 8px; color: var(--muted); font-size: 14px }
+.notes p { max-width: 90ch } .notes b { color: var(--ink) }
+footer { color: var(--muted); font-size: 13px }
+@media (prefers-reduced-motion: no-preference) { .chart path.l { transition: opacity .15s } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">F1 DRL · apoyo a la decisión · versión v9r2 · barrido B (realhist) · 24 de octubre de 2026</div>
+  <h1>Muro de boxes v9r2, historia real: ¿qué habría recomendado el DRL al piloto?</h1>
+  <p class="lede">Hasta la vuelta n el piloto hace exactamente lo que hizo en 2024 (largada y paradas reales). En la vuelta n se simulan 500 carreras por acción desde ese estado, continuando con la política del agente, y se compara con la decisión real. La estrategia del agente en la tabla es, por construcción, la real.</p>
+</header>
+
+<ul class="keys" id="keys"></ul>
+
+<section>
+  <div class="bar">
+    <h2>Los 8 GP</h2>
+    <div class="seg" role="group" aria-label="Escenario" id="scenSeg"></div>
+  </div>
+  <p class="lede" id="scenDesc"></p>
+  <div class="scroll"><table id="sumTable"></table></div>
+</section>
+
+<section id="detalle">
+  <div class="bar">
+    <h2 id="detTitle">Detalle</h2>
+    <div class="seg" role="group" aria-label="Algoritmo" id="algoSeg"></div>
+    <div class="seg" role="group" aria-label="Escenario" id="scenSeg2"></div>
+  </div>
+  <div class="gp-tabs" id="gpTabs" role="group" aria-label="Gran Premio"></div>
+
+  <div class="card">
+    <div class="card-head">
+      <h3 id="chartTitle">Resultado esperado de cada acción, por vuelta</h3>
+      <div class="seg" role="group" aria-label="Métrica" id="metSeg"></div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="chart" id="chart"></div>
+  </div>
+
+  <div class="cols">
+    <div class="card">
+      <div class="card-head"><h3>Vuelta elegida</h3><span class="state" id="lapState"></span></div>
+      <div class="lapctl"><span class="lapnum mono" id="lapNum"></span><input type="range" id="lapRange" min="1" max="2" value="1" aria-label="Vuelta"></div>
+      <div class="scroll" style="border:0"><table id="lapTable"></table></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>Distribución de la posición final</h3><span class="state" id="histNote"></span></div>
+      <div class="hists" id="hists"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-head"><h3>Estrategia y posición en carrera</h3><span class="state">agente frente al piloto real 2024</span></div>
+    <div id="stints"></div>
+    <div class="chart" id="posChart"></div>
+  </div>
+</section>
+
+<section class="notes">
+  <h2 style="color:var(--ink)">Cómo leer esto</h2>
+  <p><b>Escenario (i):</b> SC/VSC en las vueltas reales de 2024, rivales simulados. <b>Escenario (ii):</b> SC/VSC, rivales y compuestos iniciales de los rivales reales de 2024. El agente parte en la posición real de salida del piloto.</p>
+  <p><b>Recomendación:</b> acción de mayor probabilidad de la política en la vuelta n, dado el estado real del piloto en la vuelta n (largada y paradas reales hasta n-1). <b>Mejor:</b> acción con menor posición final media en los 500 rollouts. <b>Pérdida:</b> posición media de la recomendada menos la de la mejor, promediada sobre las vueltas.</p>
+  <p><b>Máscara:</b> % de los 500 rollouts en que la política, al jugar el resto de la carrera, propuso una acción ilegal (volver a parar con el mismo compuesto sin cumplir la regla de dos compuestos, o no parar en la última vuelta posible) y la máscara de legalidad la reemplazó. En la tabla de los 8 GP es el promedio sobre las vueltas para la acción recomendada. Un valor alto indica estados que el agente no aprendió a manejar: ahí el valor simulado de la acción depende de la máscara y no de la política, y la comparación entre acciones no es limpia. En el barrido v9r2 original es 0 % en todos los GP.</p>
+  <p><b>Compuestos:</b> nomenclatura C1 a C5 de Pirelli; duro, medio y blando según la asignación de cada GP. La estrategia real sale de los cambios de compuesto o de reinicio de TyreLife en los datos de 2024.</p>
+  <p>Modelos: agentes v9r2 seleccionados (juegos de neumáticos 2024 reutilizables; reglas de semillas 5/7/8 y a lo más 1 % de carreras de validación descalificadas; PPO y RPPO iguales con la regla de 0 %; compuestos de partida de los rivales Dirichlet), mundo 2024 con creencia 2021 a 2023. Pilotos: Bahrain ALO, Belgian GAS, Dutch STR, Hungarian TSU, Miami OCO, Saudi Arabian NOR, Singapore HUL, United States MAG.</p>
+</section>
+<footer>Fuente: <span class="mono">results/decision_support_v9r2realhist_20261024/</span> (CSV por vuelta y summary_20261024.csv; lanzador ../decision_support_v9r2realhist_20261024/run_20261024.sh), barridos terminados el 24 de octubre a las 14:07.</footer>
+</div>
+
+<script>
+const DATA = /*DATA*/null;
+const GPK = Object.keys(DATA.gps);
+const ALGOS = [['PPO', 'PPO'], ['RecurrentPPO', 'RPPO']];
+const SCENS = [['realyf', '(i) rivales simulados'], ['real', '(ii) rivales reales']];
+const SCEN_DESC = {realyf: 'Escenario (i): SC/VSC reales de 2024 y rivales simulados.',
+                   real: 'Escenario (ii): SC/VSC, rivales y compuestos iniciales de los rivales reales de 2024.'};
+const METS = [['pos', 'Posición media'], ['gap', 'Diferencia con la mejor'], ['pts', 'Puntos medios']];
+let st = {gp: 'singapore_hul', algo: 'RecurrentPPO', scen: 'real', met: 'pos', lap: 29};
+try { const s = JSON.parse(localStorage.getItem('ds_v9r2realhist_state') || 'null'); if (s && DATA.gps[s.gp]) st = Object.assign(st, s); } catch (e) {}
+const h = location.hash.slice(1); if (DATA.gps[h]) st.gp = h;
+const save = () => { try { localStorage.setItem('ds_v9r2realhist_state', JSON.stringify(st)); } catch (e) {} };
+
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const NS = 'http://www.w3.org/2000/svg';
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+
+// Compuesto Cx -> tipo (hard/medium/soft) según la asignación del GP
+function tyreMap(gp) {
+  const m = {}; const L = DATA.gps[gp].labels;
+  for (const k of ['1', '2', '3']) { const mm = L[k].match(/^(\w+) \((C\d)\)/); m[mm[2]] = mm[1].toLowerCase(); }
+  return m;
+}
+const TY_ES = {hard: 'duro', medium: 'medio', soft: 'blando'};
+const actColor = a => ['var(--nopit)', 'var(--hard)', 'var(--medium)', 'var(--soft)'][a];
+const actName = (gp, a) => { if (+a === 0) return 'No parar'; const mm = DATA.gps[gp].labels[a].match(/^(\w+) \((C\d)\)/); return 'Parar a ' + TY_ES[mm[1].toLowerCase()] + ' ' + mm[2]; };
+const compColor = (gp, c) => ({hard: 'var(--hard)', medium: 'var(--medium)', soft: 'var(--soft)'}[tyreMap(gp)[c]] || 'var(--muted)');
+const run = (gp = st.gp, algo = st.algo, scen = st.scen) => DATA.runs[`${gp}|${algo}|${scen}`];
+
+// Stints: [{from, to, comp}]
+function agentStints(r, nl) {
+  const H = r.history, out = []; let cur = 'C' + H[0][1], from = 1;
+  const lastComp = r.laps[r.laps.length - 1].comp;
+  for (let i = 1; i < H.length; i++) if (H[i][2] && H[i][0] >= 1) { out.push({from, to: H[i][0], comp: cur}); from = H[i][0] + 1; cur = 'C' + (H[i + 1] ? H[i + 1][1] : lastComp); }
+  out.push({from, to: nl, comp: cur}); return out;
+}
+function realStints(gp) {
+  const R = DATA.gps[gp].real, out = []; let from = R.lap[0], cur = R.comp[0];
+  for (let i = 1; i < R.lap.length; i++) if (R.tl[i] < R.tl[i - 1] || R.comp[i] !== R.comp[i - 1]) { out.push({from, to: R.lap[i - 1], comp: cur}); from = R.lap[i]; cur = R.comp[i]; }
+  out.push({from, to: R.lap[R.lap.length - 1], comp: cur}); return out;
+}
+function stripSVG(gp, stints, nl) {
+  const s = el('svg', {viewBox: `0 0 ${nl} 12`, preserveAspectRatio: 'none', role: 'img'});
+  stints.forEach(x => el('rect', {x: x.from - 1, y: 1, width: Math.max(0.6, x.to - x.from + 1) - 0.35, height: 10, rx: 0.6, fill: compColor(gp, x.comp)}, s));
+  return s;
+}
+const stintText = (gp, stints) => stints.map((x, i) => (i ? x.from - 1 + '→' : '') + x.comp).join('  ');
+
+function seg(id, opts, key, cb) {
+  const box = document.getElementById(id); box.innerHTML = '';
+  opts.forEach(([v, t]) => { const b = document.createElement('button'); b.type = 'button'; b.textContent = t; b.setAttribute('aria-pressed', st[key] === v);
+    b.onclick = () => { st[key] = v; save(); cb(); }; box.appendChild(b); });
+}
+
+function keys() {
+  const sm = Object.values(DATA.runs).map(r => r.summary);
+  const rb = sm.map(s => s.rec_best), rg = sm.map(s => s.regret);
+  const nd = sm.filter(s => s.dsq).length;
+  const items = [
+    [nd ? `${nd} de ${sm.length} corridas descalificadas` : 'Sin descalificaciones', nd ? 'El agente termina usando un solo compuesto (no cumple la regla de dos compuestos).' : `En las ${sm.length} corridas el agente usa al menos dos compuestos.`],
+    [`Política y rollouts coinciden en ${Math.min(...rb)} a ${Math.max(...rb)} % de las vueltas`, `Pérdida media por seguir la política: ${Math.max(...rg).toFixed(2)} posiciones o menos.`],
+  ].concat(DATA.keys || []);
+  document.getElementById('keys').innerHTML = items.map(([b, s]) => `<li><b>${esc(b)}</b><span>${esc(s)}</span></li>`).join('');
+}
+
+function summary() {
+  seg('scenSeg', SCENS, 'scen', renderAll);
+  document.getElementById('scenDesc').textContent = SCEN_DESC[st.scen];
+  const t = document.getElementById('sumTable');
+  t.innerHTML = '<thead><tr><th>GP · piloto</th><th>Real 2024</th><th>PPO</th><th>RPPO</th><th>Coincide PPO / RPPO</th><th>Pérdida PPO / RPPO</th><th>Máscara PPO / RPPO</th></tr></thead>';
+  const tb = document.createElement('tbody'); t.appendChild(tb);
+  GPK.forEach(gp => {
+    const G = DATA.gps[gp], nl = G.n_laps, tr = document.createElement('tr');
+    tr.className = 'row' + (gp === st.gp ? ' sel' : ''); tr.tabIndex = 0;
+    const sel = () => { st.gp = gp; save(); renderAll(); document.getElementById('detalle').scrollIntoView({behavior: 'smooth', block: 'start'}); };
+    tr.onclick = sel; tr.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); sel(); } };
+    const cell = (stints) => { const td = document.createElement('td'); const d = document.createElement('div'); d.className = 'strip';
+      d.appendChild(stripSVG(gp, stints, nl)); const tx = document.createElement('div'); tx.className = 't'; tx.textContent = stintText(gp, stints); d.appendChild(tx); td.appendChild(d); return td; };
+    const td0 = document.createElement('td'); td0.className = 'gp'; td0.innerHTML = `${esc(G.name)}<small>${G.driver} · P${G.start_pos}</small>`; tr.appendChild(td0);
+    tr.appendChild(cell(realStints(gp)));
+    ALGOS.forEach(([a]) => tr.appendChild(cell(agentStints(run(gp, a), nl))));
+    const pill = (v, warn, txt) => `<span class="pill ${warn ? 'warn' : ''}">${txt}</span>`;
+    const p = run(gp, 'PPO').summary, q = run(gp, 'RecurrentPPO').summary;
+    const td4 = document.createElement('td'); td4.innerHTML = pill(0, p.rec_best < 80, p.rec_best + ' %') + ' ' + pill(0, q.rec_best < 80, q.rec_best + ' %'); tr.appendChild(td4);
+    const td5 = document.createElement('td'); td5.innerHTML = pill(0, p.regret >= .05, p.regret.toFixed(2)) + ' ' + pill(0, q.regret >= .05, q.regret.toFixed(2)); tr.appendChild(td5);
+    const mk = v => Math.round(100 * v) + ' %';
+    const td6 = document.createElement('td'); td6.innerHTML = pill(0, p.mask_rec >= .05, mk(p.mask_rec)) + ' ' + pill(0, q.mask_rec >= .05, mk(q.mask_rec)); tr.appendChild(td6);
+    tb.appendChild(tr);
+  });
+}
+
+function bestOf(acts, met) {
+  let b = null; for (const a in acts) { const v = acts[a][met === 'pts' ? 'pts' : 'pos']; if (b === null || (met === 'pts' ? v > acts[b].pts : v < acts[b].pos)) b = a; } return +b;
+}
+function bestPos(acts) { let b = null; for (const a in acts) if (b === null || acts[a].pos < acts[b].pos) b = a; return +b; }
+
+function chart() {
+  const r = run(), G = DATA.gps[st.gp], nl = G.n_laps, box = document.getElementById('chart'); box.innerHTML = '';
+  const W = 1100, H = 380, m = {l: 46, r: 14, t: 12, b: 70}, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const val = (L, a) => { const A = L.acts[a]; if (!A) return null; if (st.met === 'pos') return A.pos; if (st.met === 'pts') return A.pts; return A.pos - L.acts[bestPos(L.acts)].pos; };
+  let lo = Infinity, hi = -Infinity; r.laps.forEach(L => [0, 1, 2, 3].forEach(a => { const v = val(L, a); if (v !== null) { lo = Math.min(lo, v); hi = Math.max(hi, v); } }));
+  if (st.met === 'gap') lo = 0;
+  const pad = (hi - lo) * 0.06 || 0.5; lo -= st.met === 'gap' ? 0 : pad; hi += pad;
+  const inv = st.met !== 'pts';
+  const x = l => m.l + (l - 1) / (nl - 1) * iw, y = v => inv ? m.t + (v - lo) / (hi - lo) * ih : m.t + (hi - v) / (hi - lo) * ih;
+  const s = el('svg', {viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Resultado esperado por acción y vuelta'}, box);
+  const cl = el('clipPath', {id: 'clp'}, el('defs', {}, s)); el('rect', {x: m.l, y: m.t, width: iw, height: ih}, cl);
+  const band = (laps, fill) => laps.forEach(l => el('rect', {x: x(l) - iw / (nl - 1) / 2, y: m.t, width: iw / (nl - 1), height: ih, fill}, s));
+  band(G.vsc, css('--vsc')); band(G.sc, css('--sc'));
+  const step = niceStep(hi - lo, 6), t0 = Math.ceil(lo / step) * step;
+  for (let v = t0; v <= hi + 1e-9; v += step) { el('line', {x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), class: 'grid'}, s); el('text', {x: m.l - 8, y: y(v) + 4, 'text-anchor': 'end'}, s).textContent = +v.toFixed(2); }
+  for (let l = 5; l < nl; l += 5) { el('line', {x1: x(l), x2: x(l), y1: m.t + ih, y2: m.t + ih + 4, class: 'ax'}, s); el('text', {x: x(l), y: m.t + ih + 15, 'text-anchor': 'middle'}, s).textContent = l; }
+  el('line', {x1: m.l, x2: W - m.r, y1: m.t + ih, y2: m.t + ih, class: 'ax'}, s);
+  agentStints(r, nl).slice(1).forEach(z => el('line', {x1: x(z.from - 1), x2: x(z.from - 1), y1: m.t, y2: m.t + ih, stroke: css('--ink'), 'stroke-width': 1, 'stroke-dasharray': '2 3', opacity: .45}, s));
+  const g = el('g', {'clip-path': 'url(#clp)'}, s);
+  [1, 2, 3, 0].forEach(a => {
+    let d = '', pen = false; r.laps.forEach(L => { const v = val(L, a); if (v === null) { pen = false; return; } d += (pen ? 'L' : 'M') + x(L.lap).toFixed(1) + ' ' + y(v).toFixed(1); pen = true; });
+    el('path', {d, fill: 'none', stroke: css(actColor(a).slice(4, -1)), 'stroke-width': a === 0 ? 2.6 : 1.8, class: 'l', 'stroke-linejoin': 'round'}, g);
+  });
+  r.laps.forEach(L => { const v = val(L, L.rec); if (v !== null) el('circle', {cx: x(L.lap), cy: y(v), r: 2.2, fill: css(actColor(L.rec).slice(4, -1)), stroke: css('--panel'), 'stroke-width': .8}, g); });
+  // franjas rec / mejor
+  const rowY = [m.t + ih + 26, m.t + ih + 42], cw = iw / (nl - 1);
+  ['recomendada', 'mejor'].forEach((t, i) => el('text', {x: m.l - 8, y: rowY[i] + 9, 'text-anchor': 'end'}, s).textContent = t);
+  r.laps.forEach(L => { const b = bestPos(L.acts);
+    el('rect', {x: x(L.lap) - cw / 2 + .4, y: rowY[0], width: Math.max(cw - .8, .8), height: 11, fill: css(actColor(L.rec).slice(4, -1))}, s);
+    el('rect', {x: x(L.lap) - cw / 2 + .4, y: rowY[1], width: Math.max(cw - .8, .8), height: 11, fill: css(actColor(b).slice(4, -1)), opacity: b === L.rec ? .35 : 1}, s); });
+  el('text', {x: m.l + iw / 2, y: H - 2, 'text-anchor': 'middle'}, s).textContent = 'vuelta n de la decisión';
+  const cur = el('line', {x1: x(st.lap), x2: x(st.lap), y1: m.t, y2: rowY[1] + 11, stroke: css('--accent'), 'stroke-width': 1.5}, s);
+  const hit = el('rect', {x: m.l, y: m.t, width: iw, height: rowY[1] + 11 - m.t, fill: 'transparent', style: 'cursor:crosshair'}, s);
+  const pick = e => { const p = s.createSVGPoint(); p.x = e.clientX; p.y = e.clientY; const q = p.matrixTransform(s.getScreenCTM().inverse());
+    const l = Math.round(1 + (q.x - m.l) / iw * (nl - 1)); setLap(l); };
+  hit.addEventListener('click', pick); hit.addEventListener('pointermove', e => { if (e.buttons) pick(e); });
+  chart.cursor = l => { cur.setAttribute('x1', x(l)); cur.setAttribute('x2', x(l)); };
+  document.getElementById('chartTitle').textContent = `${G.name} · ${G.driver} · ${st.algo === 'PPO' ? 'PPO' : 'RPPO'} · ${st.scen === 'real' ? 'escenario (ii)' : 'escenario (i)'}`;
+  const leg = [0, 1, 2, 3].map(a => `<span><i style="background:${actColor(a)}"></i>${esc(actName(st.gp, a))}</span>`);
+  leg.push(`<span><i class="box" style="background:var(--sc);outline:1px solid var(--line)"></i>SC / VSC 2024</span>`, '<span>punto = acción recomendada · línea punteada = parada del agente</span>');
+  document.getElementById('legend').innerHTML = leg.join('');
+}
+function niceStep(span, n) { const raw = span / n, p = Math.pow(10, Math.floor(Math.log10(raw))); for (const k of [1, 2, 2.5, 5, 10]) if (raw <= k * p) return k * p; return 10 * p; }
+
+function setLap(l) {
+  const r = run(); const ls = r.laps.map(L => L.lap); l = Math.max(ls[0], Math.min(ls[ls.length - 1], l)); st.lap = l; save();
+  document.getElementById('lapRange').value = l; if (chart.cursor) chart.cursor(l); lapPanel();
+}
+
+function lapPanel() {
+  const r = run(), G = DATA.gps[st.gp], L = r.laps.find(z => z.lap === st.lap) || r.laps[0], tm = tyreMap(st.gp);
+  document.getElementById('lapNum').textContent = 'V' + L.lap;
+  const ri = G.real.lap.indexOf(L.lap);
+  document.getElementById('lapState').textContent = `agente: P${L.pos} · C${L.comp} (${TY_ES[tm['C' + L.comp]]}) · ${L.tl} vueltas de uso` + (ri >= 0 ? `  |  ${G.driver} real: P${G.real.pos[ri]} · ${G.real.comp[ri]}` : '');
+  const b = bestPos(L.acts), bp = L.acts[b].pos;
+  const t = document.getElementById('lapTable');
+  t.innerHTML = '<thead><tr><th>Acción</th><th>Pos. media</th><th>vs mejor</th><th>Puntos</th><th>Top 10</th><th>Paradas</th><th>Máscara</th></tr></thead><tbody>' +
+    Object.keys(L.acts).map(a => { const A = L.acts[a];
+      return `<tr><td class="act"><i style="background:${actColor(+a)}"></i>${esc(actName(st.gp, a))}${+a === L.rec ? '<span class="tag rec">rec</span>' : ''}${+a === b ? '<span class="tag best">mejor</span>' : ''}</td>` +
+        `<td class="num">${A.pos.toFixed(2)}</td><td class="num">${+a === b ? '' : '+' + (A.pos - bp).toFixed(2)}</td><td class="num">${A.pts.toFixed(1)}</td><td class="num">${Math.round(A.top10 * 100)} %</td><td class="num">${A.stops.toFixed(2)}</td><td class="num">${Math.round(A.mask * 100)} %</td></tr>`; }).join('') + '</tbody>';
+  const hb = document.getElementById('hists'); hb.innerHTML = '';
+  const mx = Math.max(...Object.values(L.acts).map(A => Math.max(...A.hist)));
+  document.getElementById('histNote').textContent = `${r.M} rollouts por acción`;
+  Object.keys(L.acts).forEach(a => { const A = L.acts[a]; const f = document.createElement('figure');
+    const W = 200, H = 96, s = el('svg', {viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Histograma de posición final'});
+    const bw = W / 20; A.hist.forEach((c, i) => { const hh = c / mx * (H - 16); el('rect', {x: i * bw + .5, y: H - 14 - hh, width: bw - 1, height: hh, fill: css(actColor(+a).slice(4, -1)), opacity: i + 1 <= 10 ? 1 : .55}, s); });
+    el('line', {x1: 0, x2: W, y1: H - 14, y2: H - 14, stroke: css('--line')}, s);
+    [1, 10, 20].forEach(p => { const tt = el('text', {x: (p - .5) * bw, y: H - 2, 'text-anchor': 'middle', style: `fill:${css('--muted')};font:10px var(--f-mono)`}, s); tt.textContent = 'P' + p; });
+    const md = el('line', {x1: (A.pos - .5) * bw, x2: (A.pos - .5) * bw, y1: 0, y2: H - 14, stroke: css('--ink'), 'stroke-width': 1, 'stroke-dasharray': '3 2'}, s);
+    const cap = document.createElement('figcaption'); cap.textContent = actName(st.gp, a) + (+a === L.rec ? ' · rec' : '');
+    f.appendChild(s); f.appendChild(cap); hb.appendChild(f); });
+}
+
+function stintsAndPos() {
+  const r = run(), G = DATA.gps[st.gp], nl = G.n_laps, box = document.getElementById('stints');
+  const rows = [[`Agente ${st.algo === 'PPO' ? 'PPO' : 'RPPO'}`, agentStints(r, nl)], [`${G.driver} real 2024`, realStints(st.gp)]];
+  box.innerHTML = '<div class="scroll" style="border:0"><table><tbody>' + rows.map(([n]) => `<tr><td style="white-space:nowrap;width:1%;font-weight:600">${esc(n)}</td><td></td></tr>`).join('') + '</tbody></table></div>';
+  box.querySelectorAll('tr').forEach((tr, i) => { const d = document.createElement('div'); d.className = 'strip'; d.appendChild(stripSVG(st.gp, rows[i][1], nl));
+    const tx = document.createElement('div'); tx.className = 't'; tx.textContent = stintText(st.gp, rows[i][1]); d.appendChild(tx); tr.children[1].appendChild(d); });
+  const pb = document.getElementById('posChart'); pb.innerHTML = '';
+  const W = 1100, H = 200, m = {l: 46, r: 14, t: 10, b: 26}, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const ap = r.laps.map(L => [L.lap, L.pos]), rp = G.real.lap.map((l, i) => [l, G.real.pos[i]]).filter(p => p[1] > 0);
+  const all = ap.concat(rp).map(p => p[1]); const lo = Math.max(1, Math.min(...all) - 1), hi = Math.min(20, Math.max(...all) + 1);
+  const x = l => m.l + (l - 1) / (nl - 1) * iw, y = v => m.t + (v - lo) / (hi - lo) * ih;
+  const s = el('svg', {viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Posición en carrera'}, pb);
+  G.vsc.forEach(l => el('rect', {x: x(l) - iw / (nl - 1) / 2, y: m.t, width: iw / (nl - 1), height: ih, fill: css('--vsc')}, s));
+  G.sc.forEach(l => el('rect', {x: x(l) - iw / (nl - 1) / 2, y: m.t, width: iw / (nl - 1), height: ih, fill: css('--sc')}, s));
+  const step = niceStep(hi - lo, 4);
+  for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) { el('line', {x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), class: 'grid'}, s); el('text', {x: m.l - 8, y: y(v) + 4, 'text-anchor': 'end'}, s).textContent = 'P' + v; }
+  for (let l = 5; l < nl; l += 5) el('text', {x: x(l), y: H - 6, 'text-anchor': 'middle'}, s).textContent = l;
+  const path = (pts, c, w, da) => el('path', {d: pts.map((p, i) => (i ? 'L' : 'M') + x(p[0]).toFixed(1) + ' ' + y(p[1]).toFixed(1)).join(''), fill: 'none', stroke: c, 'stroke-width': w, 'stroke-dasharray': da || '', 'stroke-linejoin': 'round'}, s);
+  path(rp, css('--muted'), 1.6, '4 3'); path(ap, css('--accent'), 2.2);
+  el('text', {x: W - m.r, y: m.t + 10, 'text-anchor': 'end', style: `fill:${css('--accent')}`}, s).textContent = 'agente (posición al inicio de la vuelta n)';
+  el('text', {x: W - m.r, y: m.t + 24, 'text-anchor': 'end'}, s).textContent = `${G.driver} real 2024 (punteado)`;
+}
+
+function renderAll() {
+  summary();
+  seg('algoSeg', ALGOS, 'algo', renderAll); seg('scenSeg2', SCENS, 'scen', renderAll); seg('metSeg', METS, 'met', renderAll);
+  const tabs = document.getElementById('gpTabs'); tabs.innerHTML = '';
+  GPK.forEach(gp => { const b = document.createElement('button'); b.type = 'button'; b.className = 'gp-tab'; b.textContent = DATA.gps[gp].name; b.setAttribute('aria-pressed', gp === st.gp);
+    b.onclick = () => { st.gp = gp; save(); renderAll(); }; tabs.appendChild(b); });
+  document.getElementById('detTitle').textContent = `Detalle: ${DATA.gps[st.gp].name}`;
+  const r = run(), rg = document.getElementById('lapRange'); rg.min = r.laps[0].lap; rg.max = r.laps[r.laps.length - 1].lap;
+  chart(); stintsAndPos(); setLap(st.lap);
+}
+document.getElementById('lapRange').addEventListener('input', e => setLap(+e.target.value));
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT') return; if (e.key === 'ArrowRight') setLap(st.lap + 1); if (e.key === 'ArrowLeft') setLap(st.lap - 1); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', renderAll);
+new MutationObserver(renderAll).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+keys(); renderAll();
+</script>

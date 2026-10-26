@@ -446,6 +446,18 @@ class F1EnvAllDrivers(Env):
                     f = fr[int(g.integers(len(fr)))]
                     self._rival_dnf_lap[d.name] = int(min(max(round(f * self.n_laps), 1), self.n_laps - 1))
         self._update_obs_cache()
+        # LARGADA SORTEADA (opt-in `start_mix`, 2026-10-25, post-entrenamiento,
+        # docs/PROPUESTA_POSTENTRENAMIENTO_LARGADA_20261025.md): con prob.
+        # start_mix la vuelta 0 se juega aqui con un compuesto uniforme (accion
+        # valida, misma toma de juego) y el episodio empieza en la vuelta 1. Asi
+        # la politica ve todas las largadas sin que PPO le atribuya una accion de
+        # vuelta 0 que no tomo. Generador propio derivado de np_random (una sola
+        # extraccion). Default 0 = sin cambio.
+        if getattr(self, 'start_mix', 0.0) > 0:
+            g = np.random.default_rng(int(self.np_random.integers(2**62)))
+            if g.random() < self.start_mix:
+                obs, _, _, _, _ = self._handle_lap_0(1 + int(g.integers(len(self.available_compounds))))
+                return obs, {'start_mix': True}
         return self._get_obs(), {}
 
     def step(self, action: int) -> Tuple[Dict, float, bool, bool, Dict]:
@@ -2283,6 +2295,11 @@ def create_f1_env_all_drivers(
     _l0p = os.environ.get('F1_LAP0_PENALTY')
     if _l0p:
         env.lap0_penalty = float(_l0p)
+    # Largada sorteada (2026-10-25, post-entrenamiento): F1_START_MIX = prob. de
+    # que el entorno juegue la vuelta 0 con un compuesto uniforme (ver reset).
+    _sm = os.environ.get('F1_START_MIX')
+    if _sm:
+        env.start_mix = float(_sm)
     return env
 
 

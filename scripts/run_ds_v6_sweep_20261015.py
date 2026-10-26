@@ -48,7 +48,12 @@ ALGOS = ['PPO', 'RecurrentPPO']
 VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_support_v6w24belief_20261015', 'opcion3h'),
             'v7': ('simulation_v7_20261015', 'rl_agents_v7_20261015', 'decision_support_v7w24belief_20261015', 'v7'),
             'v8': ('simulation_v7_20261015', 'rl_agents_v8_20261018', 'decision_support_v8w24belief_20261019', 'v7'),
-            'v9r2': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2w24belief_20261023', 'v7')}
+            'v9r2': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2w24belief_20261023', 'v7'),
+            # 2026-10-24: prefijo con la largada real (start) o la historia real (hist) del piloto, ver
+            # scripts/ds_rollouts_realhist_20261024.py; requieren F1_DS_FORCE=start|hist
+            'v9r2start': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2realstart_20261024', 'v7'),
+            'v9r2hist': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2realhist_20261024', 'v7')}
+REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
 
@@ -93,8 +98,9 @@ def post(script):
     """post_real[yf]_figures.py con plot_decision_stints a traves del envoltorio de pilotos v6."""
     path = os.path.join(ROOT, 'scripts', script)
     sys.argv = [path]
+    pre = f"{WRAP!r}, {REALHIST!r}, '--run', " if os.environ.get('F1_DS_FORCE') else f"{WRAP!r}, "   # 2026-10-24
     _exec_patched(path, [("[sys.executable, 'scripts/plot_decision_stints.py',",
-                          f"[sys.executable, {WRAP!r}, 'scripts/plot_decision_stints.py',")])
+                          f"[sys.executable, {pre}'scripts/plot_decision_stints.py',")])
 
 
 def figures(env, algos):
@@ -134,10 +140,16 @@ def main():
     assert os.environ.get('F1_WORLD2024_TYRES') == tyres, f'F1_WORLD2024_TYRES={tyres}'
     assert os.environ.get('F1_SC_REVEAL') == '1' and os.environ.get('F1_YF_LAPS_2024'), \
         'source reproduce/env_paper_v3_20261007.sh'
-    if a.version in ('v8', 'v9r2'):   # 2026-10-19
+    if a.version.startswith('v9r2') and a.version != 'v9r2':   # 2026-10-24
+        global ROLLOUTS
+        ROLLOUTS = REALHIST
+        assert os.environ.get('F1_DS_FORCE') == a.version[4:], f'--version {a.version}: exportar F1_DS_FORCE={a.version[4:]}'
+    else:
+        assert not os.environ.get('F1_DS_FORCE'), 'F1_DS_FORCE solo con --version v9r2start|v9r2hist'
+    if a.version in ('v8',) or a.version.startswith('v9r2'):   # 2026-10-19
         assert all(os.environ.get(k) for k in ('F1_RIVAL_START_ALPHA', 'F1_LAP0_ACTION0_MEDIUM', 'F1_LAP0_PENALTY')), \
             '--version v8: exportar F1_RIVAL_START_ALPHA, F1_LAP0_ACTION0_MEDIUM y F1_LAP0_PENALTY'
-    if a.version == 'v9r2':   # 2026-10-23
+    if a.version.startswith('v9r2'):   # 2026-10-23
         assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) == 'tyre_sets_2024_reg_20261021.csv'
                 and os.environ.get('F1_TYRE_REUSE') == '1' and os.environ.get('F1_NO_SET_PENALTY') == '-1000'), \
             '--version v9r2: exportar F1_TYRE_SETS, F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000'

@@ -216,8 +216,8 @@ function keys() {
   const items = [
     ['Sin descalificaciones', 'En las 32 corridas el agente usa al menos dos compuestos.'],
     [`Política y rollouts coinciden en ${Math.min(...rb)} a ${Math.max(...rb)} % de las vueltas`, `Pérdida media por seguir la política: ${Math.max(...rg).toFixed(2)} posiciones o menos.`],
-    ['Hungarian (ii) y US (ii) RPPO, los más débiles', 'Coincidencia de 72 a 76 %. Casi todas las diferencias son vueltas en que la política dice no parar y los rollouts prefieren parar.'],
-    ['Singapore vuelta 18 ya no es decisión', 'El agente parte con blando y no parar es claramente mejor en esa vuelta. Candidatos: Singapore v. 29 y US v. 35 y 38 (RPPO, ii).'],
+    ['US (ii), el más débil', 'Coincidencia de 85 % (RPPO) y 89 % (PPO). Casi todas las diferencias son vueltas en que la política dice no parar y los rollouts prefieren parar.'],
+    ['Saudi vuelta 7, caso del paper', 'PPO y RPPO paran a medios bajo el safety car; la recomendación coincide con la mejor acción en todas las vueltas.'],
   ];
   document.getElementById('keys').innerHTML = items.map(([b, s]) => `<li><b>${esc(b)}</b><span>${esc(s)}</span></li>`).join('');
 }
