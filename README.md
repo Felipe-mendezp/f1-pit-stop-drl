@@ -263,6 +263,19 @@ penalty broke the learning of the single-driver agents (gaps of 20–50 s; diagn
 zsh reproduce/pipeline_v9r2_20261023.sh all      # select, fig6, fig7, qmipcheck, summary, figs
 ```
 
+### In progress: start-mix fine-tuning of PPO and RPPO (v9r2sm)
+
+> **Status (2026-10-25).** Implemented; a 2-task test is running on the cluster. Not used in the manuscript.
+
+The selected v9r2 PPO/RPPO agents always start on the same compound, and 14 of the 16 are disqualified in 87–100 % of
+the races when forced to start on the compound they always pit to (`scripts/start_compound_probe_20261025.py`,
+`results/startmix_proposal_20261025/`). With `F1_START_MIX=p`, `reset()` plays lap 0 itself with probability `p`
+(uniform compound, valid action) and the episode starts at lap 1; without the variable everything is bit-identical.
+`scripts/finetune_startmix_20261025.py` continues training a selected agent from its weights and VecNormalize stats
+(p = 0.5, constant lr 1e-4 PPO / 1.5e-4 RPPO, 1.5 M steps, evaluation every 50 000 steps with the same mix,
+`--vec dummy` = the 10 envs in one process, same results). 48 tasks (8 GP × 2 algorithms × 3 seeds) in
+`reproduce/cluster/tasks_v9r2sm.tsv` → `trained_models/retrained_v9r2_startmix_20261025/seedXX/`.
+
 ## Citation
 
 ```bibtex
