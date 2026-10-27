@@ -19,7 +19,9 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from plot_decision_evolution import draw_yf_spans
+from plot_decision_evolution import _contiguous_runs
+import matplotlib as _mpl
+_mpl.rcParams['hatch.linewidth'] = 1.0
 import paper_fonts_20261021
 from plot_realhist_audit_20261026 import fmt_d
 
@@ -84,23 +86,27 @@ def real_stints(plan, n_laps):
 
 
 def draw_bar(ax, y, stints, color_of, h, alpha_until=None):
-    """Tandas como barras; si alpha_until = n, el prefijo comun (vueltas < n) va atenuado. Una tanda que cruza n sin
-    parada (el DRL no sugiere parar) se dibuja continua: sin borde en n y con un solo numero (largo total de la tanda)."""
-    cut = alpha_until or 1
+    """Tandas como barras. 27-oct (pedido del autor, legibilidad al imprimir): el prefijo comun (vueltas < n) ya no va
+    atenuado; la vuelta de la decision la marca solo el triangulo. Una tanda que cruza n sin parada (el DRL no sugiere
+    parar) se dibuja continua: sin borde en n y con un solo numero (largo total de la tanda)."""
     for s, e, c in stints:
-        faded_only = e <= cut
-        if s < cut < e:   # tanda cortada por la decision, sin parada en n
-            ax.barh(y, cut - s, left=s - 0.5, height=h, color=color_of[c], alpha=0.3, lw=0, zorder=3)
-            ax.barh(y, e - cut, left=cut - 0.5, height=h, color=color_of[c], lw=0, zorder=3)
-        else:
-            ax.barh(y, e - s, left=s - 0.5, height=h, color=color_of[c], alpha=0.3 if faded_only else 1.0, lw=0, zorder=3)
-        ax.barh(y, e - s, left=s - 0.5, height=h, fill=False, edgecolor='0.6' if faded_only else 'black',
-                linewidth=0.8, zorder=3.5)
-        a = s if s >= cut else cut   # numero en la parte a color pleno (o en la tanda atenuada si es solo prefijo)
-        if faded_only:
-            a = s
-        col = '0.55' if faded_only else ('white' if color_of[c] == 'red' else 'black')
-        ax.text((a + e - 1) / 2, y, str(e - s), ha='center', va='center', fontsize=FS_BAR, color=col, zorder=4)
+        ax.barh(y, e - s, left=s - 0.5, height=h, color=color_of[c], lw=0, zorder=3)
+        ax.barh(y, e - s, left=s - 0.5, height=h, fill=False, edgecolor='black', linewidth=0.8, zorder=3.5)
+        col = 'white' if color_of[c] == 'red' else 'black'
+        ax.text((s + e - 1) / 2, y, str(e - s), ha='center', va='center', fontsize=FS_BAR, color=col, zorder=5)
+
+
+# 27-oct (pedido del autor): SC sombreado como en las Figs. 9-10 (consistencia); VSC con achurado diagonal sin relleno
+SC_COLOR, SC_ALPHA = '#8e7cc3', 0.35
+YF_STYLE = {'VSC': dict(hatch='////', edgecolor='#5b3f9e')}
+
+
+def draw_yf_hatch(ax, sc_laps, vsc_laps):
+    for s, e in _contiguous_runs(sc_laps or []):
+        ax.axvspan(s - 0.5, e + 0.5, color=SC_COLOR, alpha=SC_ALPHA, lw=0, zorder=0)
+    for s, e in _contiguous_runs(vsc_laps or []):
+        ax.axvspan(s - 0.5, e + 0.5, facecolor='none', edgecolor=YF_STYLE['VSC']['edgecolor'],
+                   hatch=YF_STYLE['VSC']['hatch'], lw=0, zorder=0)
 
 
 TITLE = {'Saudi Arabian': 'Saudi Arabia', 'Hungarian': 'Hungary', 'Belgian': 'Belgium', 'Dutch': 'Netherlands'}
@@ -149,7 +155,7 @@ def draw_panel(ax, P, header=True, nrows=None, short=False, fs=9):
     m, rows = P['meta'], P['rows']
     n_laps, comps = m['n_laps'], m['available_compounds']
     color_of = {c: STINT_COLORS[i] for i, c in enumerate(comps)}
-    draw_yf_spans(ax, m['laps_sc_2024'], m['laps_vsc_2024'], label=False)
+    draw_yf_hatch(ax, m['laps_sc_2024'], m['laps_vsc_2024'])
     nr = nrows or len(rows)
     frac = (nr - 0.4 - (len(rows) - 0.5)) / (nr + 0.2)   # SC/VSC solo sobre las filas usadas (eje y invertido)
     for pa in ax.patches:   # SC/VSC por encima de las barras (semitransparente), visibles en todas las filas
@@ -183,9 +189,9 @@ def draw_panel(ax, P, header=True, nrows=None, short=False, fs=9):
 def legend_handles(panels):
     hs = [Patch(facecolor=STINT_COLORS[i], edgecolor='black', label=NAMES3[i]) for i in range(3)]
     if any(P['meta']['laps_sc_2024'] for P in panels):
-        hs.append(Patch(facecolor='#8e7cc3', alpha=0.5, label='Safety car'))
+        hs.append(Patch(facecolor=SC_COLOR, alpha=0.5, label='Safety car'))
     if any(P['meta']['laps_vsc_2024'] for P in panels):
-        hs.append(Patch(facecolor='#c9bde8', alpha=0.5, label='Virtual SC'))
+        hs.append(Patch(facecolor='white', edgecolor=YF_STYLE['VSC']['edgecolor'], hatch=YF_STYLE['VSC']['hatch'], label='Virtual SC'))
     return hs
 
 

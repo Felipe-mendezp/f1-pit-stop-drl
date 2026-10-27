@@ -46,3 +46,10 @@ rollouts, frente a 97–100 % con los agentes originales. Parar a blandos supera
   Bahrain v. 15: la parada real gana (−1,8 ± 0,6).
 - Texto del paper: `docs/PROPUESTA_ANALISIS_B_TEXTO_20261026.md` (raíz del proyecto).
 
+
+**27-oct.**
+- La Tabla Q.1 salió del paper. Su columna "Actual YF" (variante `_realyf`) estaba mal rotulada: con `--sim-future`, las
+  banderas después de n también se sortean, y la variante solo cambia los rivales del prefijo, que pasan a ser logit.
+- `plot_realhist_audit_20261026.py` escribe ahora la tabla solo PPO con abreviaturas S/M/H/N; `--rppo` vuelve a la de 4
+  columnas.
+- Fig. 11: SC sombreado como en las Figs. 9–10, VSC achurado y prefijo opaco.

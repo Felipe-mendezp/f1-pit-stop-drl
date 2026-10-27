@@ -1,0 +1,17 @@
+scen,gp,driver,agent,actual,finished,sim_dnf,mean,q05,q50,q95,inside90,pit
+fig7,Bahrain_ALO,ALO,True,9,True,0.0,7.266,3,7,13,True,0.7628492867819973
+fig7,Saudi_Arabian_NOR,NOR,True,8,True,0.0,7.384,4,7,14,True,0.749069862572224
+fig7,Miami_OCO,OCO,True,10,True,0.0,12.64,8,12,18,True,0.27758258601371455
+fig7,Hungarian_TSU,TSU,True,9,True,0.0,8.012,6,8,12,True,0.8294410015968269
+fig7,Belgian_GAS,GAS,True,14,True,0.0,11.91,9,11,17,True,0.8130049990499666
+fig7,Dutch_STR,STR,True,12,True,0.0,8.806,6,8,14,True,0.8890074590911581
+fig7,Singapore_HUL,HUL,True,9,True,0.0,7.362,5,7,12,True,0.852017191417472
+fig7,United_States_MAG,MAG,True,11,True,0.0,11.83,8,12,16,True,0.45330640386323223
+fig6,Bahrain_ALO,ALO,True,9,True,0.0,6.162,2,5,14,True,0.816331414324786
+fig6,Saudi_Arabian_NOR,NOR,True,8,True,0.0,6.676,3,6,14,True,0.760315641447712
+fig6,Miami_OCO,OCO,True,10,True,0.0,13.648,10,14,18,True,0.09603960338404656
+fig6,Hungarian_TSU,TSU,True,9,True,0.0,8.532,5,8,14,True,0.7129764102176281
+fig6,Belgian_GAS,GAS,True,14,True,0.0,12.998,9,13,18,True,0.6226388225684839
+fig6,Dutch_STR,STR,True,12,True,0.0,8.908,5,8,17,True,0.8265019469936989
+fig6,Singapore_HUL,HUL,True,9,True,0.0,9.242,4,9,16,True,0.5669631308704348
+fig6,United_States_MAG,MAG,True,11,True,0.0,9.882,6,9,16,True,0.7171681575311232

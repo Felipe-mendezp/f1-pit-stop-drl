@@ -29,6 +29,7 @@ GPS = [('bahrain_alo', 'Bahrain', 'Fernando Alonso'), ('saudi_arabian_nor', 'Sau
        ('singapore_hul', 'Singapore', 'Nico H\u00fclkenberg'), ('united_states_mag', 'United States', 'Kevin Magnussen')]
 NAME = {0: 'No pit', 1: 'Hard', 2: 'Medium', 3: 'Soft'}
 PIT_COLOR = '0.25'
+ABBR = {'No': 'N', 'Hard': 'H', 'Medium': 'M', 'Soft': 'S'}  # 27-oct: abreviaturas en la tabla
 MASK_FLAG = 5.0  # % de rollouts (accion real o recomendada) corregidos por la mascara de legalidad -> daga en la tabla
 
 
@@ -84,18 +85,18 @@ def figure(L, res, out):
     print('->', os.path.join(out, 'realhist_audit.pdf'))
 
 
-def table(L, res, out):
+def table(L, res, out, rppo=False):
     p2 = L[(L.algo == 'PPO') & (L.scen == '(ii)')]
     keys = sorted(set(map(tuple, p2[(p2.real != 'No pit') | (p2.real != p2.rec)][['gp', 'lap']].values)),
                   key=lambda k: ([g[0] for g in GPS].index(k[0]), k[1]))
     # (ii) = banderas amarillas reales hasta n y sorteadas despues (como las Figs. 8-10); (i) = reales toda la carrera
-    cols = [('PPO', '(ii)'), ('PPO', '(i)'), ('RecurrentPPO', '(ii)'), ('RecurrentPPO', '(i)')]
+    cols = [('PPO', '(ii)'), ('PPO', '(i)')] + ([('RecurrentPPO', '(ii)'), ('RecurrentPPO', '(i)')] if rppo else [])
     lines, mask_max = [], 0.0
     for key, n in keys:
         gp = dict((g[0], g[1]) for g in GPS)[key]
         m = meta(res, key, lap=n)
         st = m['agent_state_at_lap']
-        comp = NAME[m['available_compounds'].index(st['compound']) + 1]
+        comp = ABBR[NAME[m['available_compounds'].index(st['compound']) + 1]]
         r2 = p2[(p2.gp == key) & (p2.lap == n)].iloc[0]
         cells = []
         for algo, scen in cols:
@@ -106,14 +107,21 @@ def table(L, res, out):
             else:
                 star = ('*' if r.signif else '') + ('\\dagger' if max(r.mask_real, r.mask_rec) > MASK_FLAG else '')
                 star = f'$^{{{star}}}$' if star else ''
-                cells.append(f'{r.rec.split()[0].replace("No", "No pit")}, ${fmt_d(-r.dpts_real_vs_rec)} \\pm {r.dpts_2se:.1f}${star}')
-        lines.append(f'{gp} & {n} & {st["position"]} & {comp} ({st["tyrelife"]}) & {r2.real.split()[0].replace("No", "No pit")} & '
+                cells.append(f'{ABBR[r.rec.split()[0]]}, ${fmt_d(-r.dpts_real_vs_rec)} \\pm {r.dpts_2se:.1f}${star}')
+        lines.append(f'{gp} & {n} & {st["position"]} & {comp} ({st["tyrelife"]}) & {ABBR[r2.real.split()[0]]} & '
                      + ' & '.join(cells) + ' \\\\')
-    tex = ('\\resizebox{\\textwidth}{!}{%\n\\begin{tabular}{lcclccccc}\n\\toprule\n'
-           '& & & & & \\multicolumn{2}{c}{PPO} & \\multicolumn{2}{c}{Rec. PPO} \\\\\n'
-           '\\cmidrule(lr){6-7}\\cmidrule(lr){8-9}\n'
-           'GP & Lap & Position & Tire (age) & Actual & Sampled YF & Actual YF & Sampled YF & Actual YF \\\\\n\\midrule\n'
-           + '\n'.join(lines) + '\n\\bottomrule\n\\end{tabular}}\n')
+    if rppo:
+        tex = ('\\resizebox{\\textwidth}{!}{%\n\\begin{tabular}{lcccccccc}\n\\toprule\n'
+               '& & & & & \\multicolumn{2}{c}{PPO} & \\multicolumn{2}{c}{Rec. PPO} \\\\\n'
+               '\\cmidrule(lr){6-7}\\cmidrule(lr){8-9}\n'
+               'GP & Lap & Position & Tire (age) & Actual & Sampled YF & Actual YF & Sampled YF & Actual YF \\\\\n\\midrule\n'
+               + '\n'.join(lines) + '\n\\bottomrule\n\\end{tabular}}\n')
+    else:  # 27-oct: solo PPO, sin resizebox
+        tex = ('\\begin{tabular}{lccccll}\n\\toprule\n'
+               '& & & & & \\multicolumn{2}{c}{DRL recommendation} \\\\\n'
+               '\\cmidrule(lr){6-7}\n'
+               'GP & Lap & Position & Tire (age) & Actual & Sampled YF & Actual YF \\\\\n\\midrule\n'
+               + '\n'.join(lines) + '\n\\bottomrule\n\\end{tabular}\n')
     open(os.path.join(out, 'realhist_table.tex'), 'w').write(tex)
     print(tex)
     print(f'filas {len(keys)}; mascara max en las acciones de la tabla (real o rec): {mask_max:.1f} %')
@@ -123,12 +131,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--res', required=True)
     ap.add_argument('--out', default=None)
+    ap.add_argument('--rppo', action='store_true', help='incluir Recurrent PPO (tabla de 4 columnas, version del 26-oct)')
     a = ap.parse_args()
     out = a.out or os.path.join(a.res, 'figs')
     os.makedirs(out, exist_ok=True)
     L = pd.read_csv(os.path.join(a.res, 'compare_laps_20261026.csv'))
     figure(L, a.res, out)
-    table(L, a.res, out)
+    table(L, a.res, out, rppo=a.rppo)
 
 
 if __name__ == '__main__':
