@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Dutch_STR,PPO,propia,200,0.0,6.035,1.69,C2:100%
+Dutch_STR,PPO,C1,200,0.0,6.315,1.615,
+Dutch_STR,PPO,C2,200,0.0,6.035,1.69,
+Dutch_STR,PPO,C3,200,3.0,6.72,1.735,
+Dutch_STR,RecurrentPPO,propia,200,0.0,6.47,2.185,C2:100%
+Dutch_STR,RecurrentPPO,C1,200,0.0,6.855,2.15,
+Dutch_STR,RecurrentPPO,C2,200,0.0,6.47,2.185,
+Dutch_STR,RecurrentPPO,C3,200,1.5,7.035,2.24,

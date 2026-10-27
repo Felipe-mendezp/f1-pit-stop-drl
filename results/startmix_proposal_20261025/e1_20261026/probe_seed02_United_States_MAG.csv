@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+United_States_MAG,PPO,propia,200,0.0,7.35,1.495,C3:100%
+United_States_MAG,PPO,C2,200,0.0,7.31,1.355,
+United_States_MAG,PPO,C3,200,0.0,7.35,1.495,
+United_States_MAG,PPO,C4,200,0.0,7.825,1.615,
+United_States_MAG,RecurrentPPO,propia,200,0.0,7.28,1.335,C2:100%
+United_States_MAG,RecurrentPPO,C2,200,0.0,7.28,1.335,
+United_States_MAG,RecurrentPPO,C3,200,14.5,9.905,2.075,
+United_States_MAG,RecurrentPPO,C4,200,0.0,7.71,1.535,

@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Belgian_GAS,PPO,propia,200,0.0,8.415,2.295,C3:100%
+Belgian_GAS,PPO,C2,200,1.0,8.8,2.325,
+Belgian_GAS,PPO,C3,200,0.0,8.415,2.295,
+Belgian_GAS,PPO,C4,200,1.0,8.655,2.315,
+Belgian_GAS,RecurrentPPO,propia,200,0.0,8.77,2.335,C3:100%
+Belgian_GAS,RecurrentPPO,C2,200,0.0,8.77,2.435,
+Belgian_GAS,RecurrentPPO,C3,200,0.0,8.77,2.335,
+Belgian_GAS,RecurrentPPO,C4,200,21.0,11.175,2.3,

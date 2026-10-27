@@ -1,0 +1,17 @@
+model_dir,algo,largada_real,seed_regla,dsq_real_regla,seed_final,pos_val_final,n_ok
+Bahrain_ALO,PPO,C3,3,0.0,3.0,3.99,3
+Bahrain_ALO,RecurrentPPO,C3,3,0.0,3.0,4.07,3
+Saudi_Arabian_NOR,PPO,C3,2,0.0,2.0,3.595,2
+Saudi_Arabian_NOR,RecurrentPPO,C3,3,0.0,3.0,3.665,3
+Miami_OCO,PPO,C3,3,0.0,3.0,11.275,3
+Miami_OCO,RecurrentPPO,C3,2,0.0,2.0,11.21,2
+Hungarian_TSU,PPO,C4,3,0.0,3.0,6.675,3
+Hungarian_TSU,RecurrentPPO,C4,3,0.0,3.0,6.79,3
+Belgian_GAS,PPO,C3,1,0.0,1.0,8.43,3
+Belgian_GAS,RecurrentPPO,C3,2,0.0,2.0,8.33,3
+Dutch_STR,PPO,C2,2,0.0,2.0,6.17,3
+Dutch_STR,RecurrentPPO,C2,1,0.0,1.0,6.12,3
+Singapore_HUL,PPO,C4,3,0.0,3.0,5.77,3
+Singapore_HUL,RecurrentPPO,C4,3,0.0,3.0,5.815,3
+United_States_MAG,PPO,C3,3,0.0,3.0,7.225,2
+United_States_MAG,RecurrentPPO,C3,3,3.0,,,0

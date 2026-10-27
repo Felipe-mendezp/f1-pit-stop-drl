@@ -1,0 +1,13 @@
+MUNDO 2024 Saudi Arabian Grand Prix: 5 coeficientes de neumatico cambiados
+Env physics fixes: pit_det_pass=False following_gap_scale=1.0
+REAL-2024 mode: SC laps=[7, 8, 9] VSC laps=[] (19 rivals fixed to real strategies)
+Loaded model type: PPO from /Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/trained_models/retrained_v9r2_startmix_20261025/selected/Saudi_Arabian_NOR/PPO/best_model.zip (mtime 2026-10-25T23:35:41)
+Continuation: DETERMINISTIC (argmax)
+Action labels: {0: 'No pit', 1: 'Hard (C2)', 2: 'Medium (C3)', 3: 'Soft (C4)'}
+
+=== Lap 7 === Agent P6, compound C4, tyre life 9. DRL rec: action 2 = Medium (C3)
+  action 0 (No pit        ): median P4  mean P4.75  P(top10)=0.96  stops=1.05
+  action 1 (Hard (C2)     ): median P4  mean P4.40  P(top10)=0.97  stops=1.17
+  action 2 (Medium (C3)   ): median P3  mean P4.15  P(top10)=0.96  stops=1.28
+  action 3 (Soft (C4)     ): median P5  mean P5.05  P(top10)=0.96  stops=2.05
+  Wrote 2000 rows -> results/startmix_proposal_20261025/saudi_lap7_20261026/PPO/saudi_arabian_nor_real_lap7.csv

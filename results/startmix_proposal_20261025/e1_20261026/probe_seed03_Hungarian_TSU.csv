@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Hungarian_TSU,PPO,propia,200,0.0,7.045,1.38,C4:100%
+Hungarian_TSU,PPO,C3,200,16.5,9.61,1.415,
+Hungarian_TSU,PPO,C4,200,0.0,7.045,1.38,
+Hungarian_TSU,PPO,C5,200,0.5,7.335,1.48,
+Hungarian_TSU,RecurrentPPO,propia,200,0.0,6.99,1.305,C4:100%
+Hungarian_TSU,RecurrentPPO,C3,200,76.5,17.195,1.18,
+Hungarian_TSU,RecurrentPPO,C4,200,0.0,6.99,1.305,
+Hungarian_TSU,RecurrentPPO,C5,200,1.5,7.535,1.47,

@@ -52,7 +52,11 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
             # 2026-10-24: prefijo con la largada real (start) o la historia real (hist) del piloto, ver
             # scripts/ds_rollouts_realhist_20261024.py; requieren F1_DS_FORCE=start|hist
             'v9r2start': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2realstart_20261024', 'v7'),
-            'v9r2hist': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2realhist_20261024', 'v7')}
+            'v9r2hist': ('simulation_v7_20261015', 'rl_agents_v9r2_20261022', 'decision_support_v9r2realhist_20261024', 'v7'),
+            # 2026-10-26: E4 = barrido B con los PPO/RPPO post-entrenados con largada sorteada (F1_START_MIX apagado al
+            # evaluar; docs/PROPUESTA_POSTENTRENAMIENTO_LARGADA_20261025.md); requiere F1_DS_FORCE=hist
+            'v9r2smhist': ('simulation_v7_20261015', 'retrained_v9r2_startmix_20261025',
+                           'decision_support_v9r2smrealhist_20261026', 'v7')}
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
@@ -143,7 +147,9 @@ def main():
     if a.version.startswith('v9r2') and a.version != 'v9r2':   # 2026-10-24
         global ROLLOUTS
         ROLLOUTS = REALHIST
-        assert os.environ.get('F1_DS_FORCE') == a.version[4:], f'--version {a.version}: exportar F1_DS_FORCE={a.version[4:]}'
+        force = 'hist' if a.version.endswith('hist') else 'start'   # 2026-10-26: antes a.version[4:] (v9r2smhist)
+        assert os.environ.get('F1_DS_FORCE') == force, f'--version {a.version}: exportar F1_DS_FORCE={force}'
+        assert not os.environ.get('F1_START_MIX'), 'sin F1_START_MIX al evaluar'
     else:
         assert not os.environ.get('F1_DS_FORCE'), 'F1_DS_FORCE solo con --version v9r2start|v9r2hist'
     if a.version in ('v8',) or a.version.startswith('v9r2'):   # 2026-10-19

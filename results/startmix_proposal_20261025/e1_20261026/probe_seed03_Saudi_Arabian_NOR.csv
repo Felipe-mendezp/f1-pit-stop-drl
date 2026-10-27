@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Saudi_Arabian_NOR,PPO,propia,200,1.5,4.265,1.045,C4:100%
+Saudi_Arabian_NOR,PPO,C2,200,6.0,5.5,0.995,
+Saudi_Arabian_NOR,PPO,C3,200,0.0,4.17,1.05,
+Saudi_Arabian_NOR,PPO,C4,200,1.5,4.265,1.045,
+Saudi_Arabian_NOR,RecurrentPPO,propia,200,0.5,4.155,1.03,C4:100%
+Saudi_Arabian_NOR,RecurrentPPO,C2,200,1.0,4.815,1.05,
+Saudi_Arabian_NOR,RecurrentPPO,C3,200,0.0,4.32,1.065,
+Saudi_Arabian_NOR,RecurrentPPO,C4,200,0.5,4.155,1.03,

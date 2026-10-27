@@ -47,3 +47,10 @@ results/decision_support_v9r2realstart_20261024/figs/
 results/decision_support_v9r2realhist_20261024/PPO/
 results/decision_support_v9r2realhist_20261024/RecurrentPPO/
 results/decision_support_v9r2realhist_20261024/figs/
+# 2026-10-26 E4 (post-trained): rollouts and per-GP sweep figures not versioned; figs/realhist_* (paper Fig. 11,
+# table Q.1) and the stint cache are versioned
+results/decision_support_v9r2smrealhist_20261026/PPO/
+results/decision_support_v9r2smrealhist_20261026/RecurrentPPO/
+results/decision_support_v9r2smrealhist_20261026/figs/PPO/
+results/decision_support_v9r2smrealhist_20261026/figs/RecurrentPPO/
+results/decision_support_v9r2smrealhist_20261026/figs/stints_tmp/

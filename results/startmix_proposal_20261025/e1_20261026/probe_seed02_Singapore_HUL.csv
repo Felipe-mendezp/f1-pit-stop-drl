@@ -1,0 +1,9 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Singapore_HUL,PPO,propia,200,0.0,5.705,1.595,C4:100%
+Singapore_HUL,PPO,C3,200,1.0,6.235,1.47,
+Singapore_HUL,PPO,C4,200,0.0,5.705,1.595,
+Singapore_HUL,PPO,C5,200,0.0,6.035,1.68,
+Singapore_HUL,RecurrentPPO,propia,200,0.0,5.9,1.595,C4:100%
+Singapore_HUL,RecurrentPPO,C3,200,2.0,6.7,1.62,
+Singapore_HUL,RecurrentPPO,C4,200,0.0,5.9,1.595,
+Singapore_HUL,RecurrentPPO,C5,200,0.5,6.275,1.57,

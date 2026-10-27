@@ -265,7 +265,8 @@ zsh reproduce/pipeline_v9r2_20261023.sh all      # select, fig6, fig7, qmipcheck
 
 ### In progress: start-mix fine-tuning of PPO and RPPO (v9r2sm)
 
-> **Status (2026-10-25).** Implemented; a 2-task test is running on the cluster. Not used in the manuscript.
+> **Status (2026-10-25).** Implemented; 2-task test passed (Saudi PPO/RPPO: forced-start disqualifications drop from
+> 60–100 % to 0–1 %, own-start performance unchanged); the 48 tasks are running on the cluster. Not used in the manuscript.
 
 The selected v9r2 PPO/RPPO agents always start on the same compound, and 14 of the 16 are disqualified in 87–100 % of
 the races when forced to start on the compound they always pit to (`scripts/start_compound_probe_20261025.py`,
