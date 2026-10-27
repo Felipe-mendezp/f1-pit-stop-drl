@@ -27,3 +27,22 @@ RPPO (i) / (ii): blandos 15,3 / 13,8; duros 13,7 / 12,3; no parar 12,7 / 11,6; m
 La política recomienda blandos (= mejor) y la máscara corrige 0 % (PPO) y 7–30 % (RPPO, "no parar" y medios) de los
 rollouts, frente a 97–100 % con los agentes originales. Parar a blandos supera a quedarse por 3,0 / 2,7 pts (PPO) y
 2,6 / 2,2 (RPPO); con los originales la diferencia era 3,2 a 3,6 pero no era limpia. Sin pruebas de significancia aún.
+
+## Recomendación DRL frente a la decisión real; Fig. 11 y Tabla Q.1 del paper (26-oct) [V]
+
+- `compare_real_20261026.py` -> `compare_laps_20261026.csv` y `compare_summary_20261026.csv`. Es la copia de
+  `../decision_support_v9r2realhist_20261024/compare_real_20261024.py` con las columnas `mask_real`, `mask_rec` y `mask_best`
+  (% de rollouts corregidos por la máscara). La recomendación PPO (banderas sorteadas) coincide con la decisión real en
+  439 de 460 vueltas (95,4 %).
+- **Fig. 11** (`fig:realhist`, en el paper como `realhist_stints.pdf`): `scripts/plot_realhist_stints_20261026.py` ->
+  `figs/realhist_stints_grid4x2.{pdf,png}`. También genera la versión 2×4 (`realhist_stints_grid`), una columna
+  (`realhist_stints_all`) y una por GP (`realhist_stints_<gp>`).
+  - Corre con el entorno de `run_20261026.sh` más `F1_DS_FORCE=hist F1_DS_WORLD2024=1 F1_PAPER_FONTS=1`.
+  - Las continuaciones (`plot_decision_stints.py`, semilla 1000, como la Fig. 9) quedan en caché en
+    `figs/stints_cache_20261026.json`.
+- **Tabla Q.1** (`tab:realhist`): `scripts/plot_realhist_audit_20261026.py` -> `figs/realhist_table.tex`.
+  - Ese script también hace `figs/realhist_audit.*`, la figura de líneas reemplazada, que no está en el paper.
+- Saudi v. 7: blandos +2,7 ± 0,7 (PPO, banderas sorteadas), +2,2 a +3,0 en los 4 casos. US v. 17: no parar +2,0 ± 0,3.
+  Bahrain v. 15: la parada real gana (−1,8 ± 0,6).
+- Texto del paper: `docs/PROPUESTA_ANALISIS_B_TEXTO_20261026.md` (raíz del proyecto).
+

@@ -263,10 +263,14 @@ penalty broke the learning of the single-driver agents (gaps of 20–50 s; diagn
 zsh reproduce/pipeline_v9r2_20261023.sh all      # select, fig6, fig7, qmipcheck, summary, figs
 ```
 
-### In progress: start-mix fine-tuning of PPO and RPPO (v9r2sm)
+### Start-mix fine-tuning of PPO and RPPO (v9r2sm)
 
-> **Status (2026-10-25).** Implemented; 2-task test passed (Saudi PPO/RPPO: forced-start disqualifications drop from
-> 60–100 % to 0–1 %, own-start performance unchanged); the 48 tasks are running on the cluster. Not used in the manuscript.
+> **Status (2026-10-26).** All 48 tasks done and checked (E1–E4, `results/startmix_proposal_20261025/README.md`). In the
+> E4 sweep, mask corrections drop from 9.9 % to 2.2 %; US RPPO still needs the mask. The fine-tuned agents
+> (`trained_models/retrained_v9r2_startmix_20261025/selected`) are used **only** for the review of the actual 2024
+> decisions in §7. That review is Fig. 11 (`scripts/plot_realhist_stints_20261026.py`) and Table Q.1
+> (`scripts/plot_realhist_audit_20261026.py`), with data in `results/decision_support_v9r2smrealhist_20261026/`.
+> Figs. 5–10 keep the original v9r2 agents.
 
 The selected v9r2 PPO/RPPO agents always start on the same compound, and 14 of the 16 are disqualified in 87–100 % of
 the races when forced to start on the compound they always pit to (`scripts/start_compound_probe_20261025.py`,
