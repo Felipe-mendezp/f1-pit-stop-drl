@@ -48,3 +48,18 @@ y ControlMaster. Con la IP sin `-i` falla por publickey.
 de 700M quedaba justo), f1v10bd DQN `--mem=1950M` (1,2 × 1606 MB) y f1v10bo A2C/TRPO `--mem=530M` (1,2 × 436 MB).
 
 Con DummyVecEnv, el multi-piloto usa ~0,5 GB por tarea en lugar de ~8 GB con SubprocVecEnv, y 1 CPU efectiva.
+
+**28-oct, pruebas v10c** (f1v10ct, f1od10ct; mismo código y tamaño que v10d) [V]:
+
+| Tarea | MaxRSS | Pedido | Duración |
+|---|---|---|---|
+| multi Singapore HUL DQN, semilla 1 | 1582 MB | 1950M | 1 h 22 |
+| multi Saudi NOR RPPO, semilla 1 | 651 MB | 830M | 1 h 41 |
+| mono Bahrain PPO, semilla 1 (2 CPU) | 445 MB | 500M | 46 min |
+| mono Bahrain RPPO, semilla 1 (2 CPU) | 358 MB | 500M | 15 min |
+
+**Pedidos v10d** (aprobados el 28-oct):
+- multi-piloto: PPO/RPPO 830M, DQN 1950M, A2C/TRPO 530M, con 4 CPU;
+- mono-piloto: **540M** (1,2 × 445 MB), con 2 CPU.
+
+Las tareas son `tasks_v10d_20261028.tsv` y `tasks_onedriver_v10d_20261028.tsv`.

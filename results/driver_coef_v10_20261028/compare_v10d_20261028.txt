@@ -1,0 +1,21 @@
+GP
+Bahrain Grand Prix          0.0006
+Belgian Grand Prix          0.0007
+Dutch Grand Prix            0.0005
+Hungarian Grand Prix        0.0011
+Miami Grand Prix            0.0010
+Saudi Arabian Grand Prix    0.0026
+Singapore Grand Prix        0.0004
+United States Grand Prix    0.0006
+media |dif| 0.0003 max 0.0026
+                      GP driver    v10c    v10d     dif
+Saudi Arabian Grand Prix    OCO  1.2445  1.2438 -0.0007
+Saudi Arabian Grand Prix    TSU  1.5084  1.5092  0.0007
+    Hungarian Grand Prix    TSU  0.9804  0.9796 -0.0008
+    Hungarian Grand Prix    PIA -0.0056 -0.0065 -0.0009
+    Hungarian Grand Prix    SAI  0.1461  0.1451 -0.0010
+        Miami Grand Prix    LEC  1.3159  1.3149 -0.0010
+    Hungarian Grand Prix    LEC  0.2477  0.2467 -0.0011
+Saudi Arabian Grand Prix    ZHO  2.5232  2.5206 -0.0026
+                GP  with_corr_v10c  with_corr_v10d  without_corr_v10c  without_corr_v10d
+Belgian Grand Prix           0.067           0.067              0.341              0.327

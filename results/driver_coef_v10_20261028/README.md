@@ -41,3 +41,10 @@ El autor eligió corregirlo:
 - `belgian_table_20261028.py` reproduce la tabla de Belgian (control exacto; antes no tenía script).
 - `fallback_mse_20261028.py` reproduce los respaldos (control exacto). Las cifras del texto, 0.02 y 0.36, no cambian.
 - Mono-piloto: sus predicciones no cambian (usa VER, la referencia).
+
+## v10d (28-oct)
+
+`run_20261028.py v10d` (con `F1_TYRELIFE_2021=v10`) usa los datos de `results/sim_v10d_20261028/data_fix_v10d_20261028.py`
+(v10c más Bélgica y Mónaco 2022). Comparación en `compare_v10d_20261028.py` → `compare_v10d_20261028.txt` [V]:
+- pilotos del simulador frente a v10c: media 0.0003, máximo 0.0026 s/vuelta;
+- Fig. 4: solo cambia Bélgica "sin corrección", 0.341 → 0.327.

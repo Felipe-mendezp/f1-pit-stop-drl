@@ -1,0 +1,49 @@
+Bahrain Grand Prix         laptime_clear.pkl            max |dif| (sin pilotos) 0.000624 en C(Compound_Detail, Treatment(reference='C3'))[T.C2]
+Bahrain Grand Prix         laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.000624 en C(Compound_Detail, Treatment(reference='C3'))[T.C2]
+Bahrain Grand Prix         overtake_logit.pkl           max |dif| (sin pilotos) 5.707e-06 en delta_total
+Bahrain Grand Prix         overtake_threshold.pkl       max |dif| (sin pilotos) 1.947e-06 en valor
+Bahrain Grand Prix         rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Bahrain Grand Prix         rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Belgian Grand Prix         laptime_clear.pkl            max |dif| (sin pilotos) 0.03795 en C(Year, Treatment(reference='2022'))[T.2023]
+Belgian Grand Prix         laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.03795 en C(Year, Treatment(reference='2022'))[T.2023]
+Belgian Grand Prix         overtake_logit.pkl           max |dif| (sin pilotos) 0.002728 en delta_total
+Belgian Grand Prix         overtake_threshold.pkl       max |dif| (sin pilotos) 0.0002223 en valor
+Belgian Grand Prix         rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Belgian Grand Prix         rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Dutch Grand Prix           laptime_clear.pkl            max |dif| (sin pilotos) 0.0007866 en C(Compound_Detail, Treatment(reference='C2'))[T.C3]
+Dutch Grand Prix           laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.0007866 en C(Compound_Detail, Treatment(reference='C2'))[T.C3]
+Dutch Grand Prix           overtake_logit.pkl           max |dif| (sin pilotos) 2.507e-05 en delta_total
+Dutch Grand Prix           overtake_threshold.pkl       max |dif| (sin pilotos) 1.896e-05 en valor
+Dutch Grand Prix           rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Dutch Grand Prix           rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Hungarian Grand Prix       laptime_clear.pkl            max |dif| (sin pilotos) 0.001074 en C(Compound_Detail, Treatment(reference='C3'))[T.C5]
+Hungarian Grand Prix       laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.001074 en C(Compound_Detail, Treatment(reference='C3'))[T.C5]
+Hungarian Grand Prix       overtake_logit.pkl           max |dif| (sin pilotos) 4.627e-05 en const
+Hungarian Grand Prix       overtake_threshold.pkl       max |dif| (sin pilotos) 5.685e-06 en valor
+Hungarian Grand Prix       rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Hungarian Grand Prix       rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Miami Grand Prix           laptime_clear.pkl            max |dif| (sin pilotos) 0.000889 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+Miami Grand Prix           laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.000889 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+Miami Grand Prix           overtake_logit.pkl           max |dif| (sin pilotos) 1.183e-05 en delta_total
+Miami Grand Prix           overtake_threshold.pkl       max |dif| (sin pilotos) 4.612e-05 en valor
+Miami Grand Prix           rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Miami Grand Prix           rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Saudi Arabian Grand Prix   laptime_clear.pkl            max |dif| (sin pilotos) 0.00121 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+Saudi Arabian Grand Prix   laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.00121 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+Saudi Arabian Grand Prix   overtake_logit.pkl           max |dif| (sin pilotos) 1.182e-05 en const
+Saudi Arabian Grand Prix   overtake_threshold.pkl       max |dif| (sin pilotos) 7.094e-07 en valor
+Saudi Arabian Grand Prix   rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Saudi Arabian Grand Prix   rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+Singapore Grand Prix       laptime_clear.pkl            max |dif| (sin pilotos) 0.003338 en C(Compound_Detail, Treatment(reference='C3'))[T.C5]
+Singapore Grand Prix       laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.003338 en C(Compound_Detail, Treatment(reference='C3'))[T.C5]
+Singapore Grand Prix       overtake_logit.pkl           max |dif| (sin pilotos) 3.692e-05 en const
+Singapore Grand Prix       overtake_threshold.pkl       max |dif| (sin pilotos) 1.714e-05 en valor
+Singapore Grand Prix       rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+Singapore Grand Prix       rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+United States Grand Prix   laptime_clear.pkl            max |dif| (sin pilotos) 0.001075 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+United States Grand Prix   laptime_clear_hist.pkl       max |dif| (sin pilotos) 0.001075 en C(Compound_Detail, Treatment(reference='C2'))[T.C4]
+United States Grand Prix   overtake_logit.pkl           max |dif| (sin pilotos) 1.276e-05 en delta_total
+United States Grand Prix   overtake_threshold.pkl       max |dif| (sin pilotos) 7.061e-07 en valor
+United States Grand Prix   rival_compound_logit.pkl     max |dif| (sin pilotos) 0.0468 en C(alt)[C4]
+United States Grand Prix   rival_pitstop_logit.pkl      max |dif| (sin pilotos) 0.004395 en GP[T.Belgian Grand Prix]
+YF: max |dif| por columna: {'Lref': 0.0, 'Gin': 0.0, 'Gout': 0.0, 'n_green_in': 0.0, 'n_green_out': 0.0, 'n_sc_laps': 0.0, 'rho_VSC': 0.0, 'rho_SC_libre': 0.0, 'rho_SC_fila': 0.0, 'u_SC': 0.0, 'k_in': 0.0, 'k_out': 0.0, 'PitIn': 0.0, 'PitOut': 0.0, 'SC': 0.0, 'SC_firstlap': 0.0, 'VSC': 0.0, 'VSC_firstlap': 0.0}

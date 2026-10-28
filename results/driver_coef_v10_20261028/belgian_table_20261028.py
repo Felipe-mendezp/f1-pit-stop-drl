@@ -1,13 +1,13 @@
 """2026-10-28 — tab:regression_pitstops (supl.): Ec. 2 porcentual estimada con las carreras previas al GP de Belgica 2024,
 especificacion completa y sin X_Q (la usada, por la clasificacion con lluvia). Para control/ (debe reproducir la tabla
-del paper: 929/1022 obs., R2 0.581/0.519) y v10/. Correr desde la raiz del repo.
+del paper: 929/1022 obs., R2 0.581/0.519), v10/, v10c/ y v10d/ Correr desde la raiz del repo.
 Salida: belgian_table_20261028.csv
 """
 import os, importlib.util
 import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 rows = []
-for v in ('control', 'v10'):
+for v in ('control', 'v10', 'v10c', 'v10d'):   # 28-oct: + v10c y v10d
     s = importlib.util.spec_from_file_location('eq2_' + v, os.path.join(HERE, v, 'eq2_fallbacks_20261014.py'))
     M = importlib.util.module_from_spec(s); s.loader.exec_module(M)
     E = M.Eq2()

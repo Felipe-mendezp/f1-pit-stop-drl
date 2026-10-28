@@ -1,0 +1,24 @@
+kind,GP,Driver,desde,hasta,n,fastf1,live
+faltante,Austrian Grand Prix,ALB,43.0,70.0,28,nan,nan
+faltante,Austrian Grand Prix,BOT,41.0,70.0,30,nan,nan
+faltante,Austrian Grand Prix,GAS,41.0,70.0,30,nan,HARD/nan
+faltante,Austrian Grand Prix,LAT,36.0,48.0,13,nan,nan
+faltante,Austrian Grand Prix,MAG,42.0,70.0,29,nan,HARD/nan
+faltante,Austrian Grand Prix,MSC,44.0,70.0,27,nan,nan
+faltante,Austrian Grand Prix,NOR,44.0,70.0,27,nan,nan
+faltante,Austrian Grand Prix,OCO,45.0,71.0,27,nan,nan
+faltante,Austrian Grand Prix,RIC,45.0,70.0,26,nan,nan
+faltante,Austrian Grand Prix,RUS,41.0,71.0,31,nan,HARD/nan
+faltante,Austrian Grand Prix,SAI,52.0,57.0,6,nan,nan
+faltante,Austrian Grand Prix,VET,46.0,70.0,25,nan,MEDIUM/nan
+faltante,Monaco Grand Prix,STR,30.0,64.0,35,nan,HARD
+lluvia,Monaco Grand Prix,LAT,4.0,18.0,15,HARD,INTERMEDIATE
+seco,Austrian Grand Prix,ALO,29.0,40.0,12,HARD,MEDIUM
+seco,Austrian Grand Prix,HAM,30.0,48.0,19,HARD,MEDIUM
+seco,Austrian Grand Prix,LEC,36.0,48.0,13,HARD,MEDIUM
+seco,Austrian Grand Prix,STR,31.0,47.0,17,HARD,MEDIUM
+seco,Austrian Grand Prix,TSU,28.0,45.0,18,MEDIUM,HARD
+seco,Austrian Grand Prix,ZHO,26.0,45.0,20,HARD,MEDIUM
+seco,Belgian Grand Prix,GAS,24.0,44.0,21,SOFT,MEDIUM
+seco,Belgian Grand Prix,TSU,32.0,44.0,13,SOFT,MEDIUM
+seco,Monaco Grand Prix,LAT,23.0,28.0,6,MEDIUM,HARD

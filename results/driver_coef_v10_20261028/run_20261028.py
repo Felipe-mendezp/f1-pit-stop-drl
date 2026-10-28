@@ -11,14 +11,17 @@ import os, sys, runpy
 ROOT = os.getcwd(); sys.path.insert(0, ROOT); sys.path.insert(0, os.path.join(ROOT, 'src'))
 HERE = os.path.dirname(os.path.abspath(__file__))
 mode = sys.argv[1]
-assert mode in ('control', 'v10', 'v10c')   # v10c (28-oct): v10 + compuestos de Belgica 2024 corregidos
-assert os.environ.get('F1_TYRELIFE_2021', 'legacy') == {'control': 'legacy', 'v10': 'v10', 'v10c': os.environ.get('F1_TYRELIFE_2021')}[mode]
+assert mode in ('control', 'v10', 'v10c', 'v10d')   # v10c (28-oct): v10 + compuestos de Belgica 2024 y Canada 2023
+# corregidos; v10d (28-oct): v10c + Belgica 2022 y Monaco 2022 (results/sim_v10d_20261028/data_fix_v10d_20261028.py)
+assert os.environ.get('F1_TYRELIFE_2021', 'legacy') == {'control': 'legacy', 'v10': 'v10', 'v10c': os.environ.get('F1_TYRELIFE_2021'),
+                                                 'v10d': 'v10'}[mode]
 import config, compat; compat.setup_all()
 import models.regressions as R
-if mode in ('v10', 'v10c'):
+if mode in ('v10', 'v10c', 'v10d'):
     # v10c (28-oct): la copia de results/sim_v10_20261028 importa data_fix_20261028 (compuestos de Belgica 2024 y Canada
     # 2023 corregidos con OpenF1) antes de leer los CSV
-    sys.path.insert(0, os.path.join(ROOT, 'results', 'sim_v10_20261027' if mode == 'v10' else 'sim_v10_20261028'))
+    sys.path.insert(0, os.path.join(ROOT, 'results', {'v10': 'sim_v10_20261027', 'v10c': 'sim_v10_20261028',
+                                                     'v10d': 'sim_v10d_20261028'}[mode]))
     from common_v10_20261027 import patch_regressions
     patch_regressions(R)
 D = os.path.join(HERE, mode)

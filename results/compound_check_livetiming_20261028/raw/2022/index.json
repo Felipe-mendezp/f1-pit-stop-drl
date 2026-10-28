@@ -1,0 +1,1525 @@
+﻿{
+    "Year": 2022,
+    "Meetings": [
+        {
+            "Sessions": [
+                {
+                    "Key": 7174,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-03-10T10:00:00",
+                    "EndDate": "2022-03-10T19:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-12_Pre-Season_Test/2022-03-10_Practice_1/"
+                },
+                {
+                    "Key": 7175,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-03-11T10:00:00",
+                    "EndDate": "2022-03-11T19:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-12_Pre-Season_Test/2022-03-11_Practice_2/"
+                },
+                {
+                    "Key": 7176,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-03-12T10:00:00",
+                    "EndDate": "2022-03-12T19:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-12_Pre-Season_Test/2022-03-12_Practice_3/"
+                }
+            ],
+            "Key": 1132,
+            "Code": "BRN0104",
+            "Number": 2,
+            "Location": "Sakhir",
+            "OfficialName": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2022",
+            "Name": "Pre-Season Test",
+            "Country": {
+                "Key": 36,
+                "Code": "BRN",
+                "Name": "Bahrain"
+            },
+            "Circuit": {
+                "Key": 63,
+                "ShortName": "Sakhir"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 6979,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-03-18T15:00:00",
+                    "EndDate": "2022-03-18T16:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-20_Bahrain_Grand_Prix/2022-03-18_Practice_1/"
+                },
+                {
+                    "Key": 6973,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-03-18T18:00:00",
+                    "EndDate": "2022-03-18T19:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-20_Bahrain_Grand_Prix/2022-03-18_Practice_2/"
+                },
+                {
+                    "Key": 6978,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-03-19T15:00:00",
+                    "EndDate": "2022-03-19T16:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-20_Bahrain_Grand_Prix/2022-03-19_Practice_3/"
+                },
+                {
+                    "Key": 6974,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-03-19T18:00:00",
+                    "EndDate": "2022-03-19T19:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-20_Bahrain_Grand_Prix/2022-03-19_Qualifying/"
+                },
+                {
+                    "Key": 6993,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-03-20T18:00:00",
+                    "EndDate": "2022-03-20T20:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-20_Bahrain_Grand_Prix/2022-03-20_Race/"
+                }
+            ],
+            "Key": 1124,
+            "Code": "BRN0104",
+            "Number": 1,
+            "Location": "Sakhir",
+            "OfficialName": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2022",
+            "Name": "Bahrain Grand Prix",
+            "Country": {
+                "Key": 36,
+                "Code": "BRN",
+                "Name": "Bahrain"
+            },
+            "Circuit": {
+                "Key": 63,
+                "ShortName": "Sakhir"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7002,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-03-25T17:00:00",
+                    "EndDate": "2022-03-25T18:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-27_Saudi_Arabian_Grand_Prix/2022-03-25_Practice_1/"
+                },
+                {
+                    "Key": 7001,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-03-25T20:00:00",
+                    "EndDate": "2022-03-25T21:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-27_Saudi_Arabian_Grand_Prix/2022-03-25_Practice_2/"
+                },
+                {
+                    "Key": 6999,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-03-26T17:00:00",
+                    "EndDate": "2022-03-26T18:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-27_Saudi_Arabian_Grand_Prix/2022-03-26_Practice_3/"
+                },
+                {
+                    "Key": 6995,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-03-26T20:00:00",
+                    "EndDate": "2022-03-26T21:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-27_Saudi_Arabian_Grand_Prix/2022-03-26_Qualifying/"
+                },
+                {
+                    "Key": 6994,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-03-27T20:00:00",
+                    "EndDate": "2022-03-27T22:00:00",
+                    "GmtOffset": "03:00:00",
+                    "Path": "2022/2022-03-27_Saudi_Arabian_Grand_Prix/2022-03-27_Race/"
+                }
+            ],
+            "Key": 1125,
+            "Code": "KSA0101",
+            "Number": 2,
+            "Location": "Jeddah",
+            "OfficialName": "FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2022",
+            "Name": "Saudi Arabian Grand Prix",
+            "Country": {
+                "Key": 153,
+                "Code": "KSA",
+                "Name": "Saudi Arabia"
+            },
+            "Circuit": {
+                "Key": 149,
+                "ShortName": "Jeddah"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7006,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-04-08T13:00:00",
+                    "EndDate": "2022-04-08T14:00:00",
+                    "GmtOffset": "10:00:00",
+                    "Path": "2022/2022-04-10_Australian_Grand_Prix/2022-04-08_Practice_1/"
+                },
+                {
+                    "Key": 7007,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-04-08T16:00:00",
+                    "EndDate": "2022-04-08T17:00:00",
+                    "GmtOffset": "10:00:00",
+                    "Path": "2022/2022-04-10_Australian_Grand_Prix/2022-04-08_Practice_2/"
+                },
+                {
+                    "Key": 7012,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-04-09T13:00:00",
+                    "EndDate": "2022-04-09T14:00:00",
+                    "GmtOffset": "10:00:00",
+                    "Path": "2022/2022-04-10_Australian_Grand_Prix/2022-04-09_Practice_3/"
+                },
+                {
+                    "Key": 7013,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-04-09T16:00:00",
+                    "EndDate": "2022-04-09T17:00:00",
+                    "GmtOffset": "10:00:00",
+                    "Path": "2022/2022-04-10_Australian_Grand_Prix/2022-04-09_Qualifying/"
+                },
+                {
+                    "Key": 7018,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-04-10T15:00:00",
+                    "EndDate": "2022-04-10T17:00:00",
+                    "GmtOffset": "10:00:00",
+                    "Path": "2022/2022-04-10_Australian_Grand_Prix/2022-04-10_Race/"
+                }
+            ],
+            "Key": 1108,
+            "Code": "AUS0204",
+            "Number": 3,
+            "Location": "Melbourne",
+            "OfficialName": "FORMULA 1 HEINEKEN AUSTRALIAN GRAND PRIX 2022",
+            "Name": "Australian Grand Prix",
+            "Country": {
+                "Key": 5,
+                "Code": "AUS",
+                "Name": "Australia"
+            },
+            "Circuit": {
+                "Key": 10,
+                "ShortName": "Melbourne"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7026,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-04-22T13:30:00",
+                    "EndDate": "2022-04-22T14:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-04-24_Emilia_Romagna_Grand_Prix/2022-04-22_Practice_1/"
+                },
+                {
+                    "Key": 7020,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-04-22T17:00:00",
+                    "EndDate": "2022-04-22T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-04-24_Emilia_Romagna_Grand_Prix/2022-04-22_Qualifying/"
+                },
+                {
+                    "Key": 7025,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-04-23T12:30:00",
+                    "EndDate": "2022-04-23T13:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-04-24_Emilia_Romagna_Grand_Prix/2022-04-23_Practice_2/"
+                },
+                {
+                    "Key": 7024,
+                    "Type": "Race",
+                    "Name": "Sprint",
+                    "StartDate": "2022-04-23T16:30:00",
+                    "EndDate": "2022-04-23T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-04-24_Emilia_Romagna_Grand_Prix/2022-04-23_Sprint/"
+                },
+                {
+                    "Key": 7019,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-04-24T15:00:00",
+                    "EndDate": "2022-04-24T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-04-24_Emilia_Romagna_Grand_Prix/2022-04-24_Race/"
+                }
+            ],
+            "Key": 1109,
+            "Code": "ITA0110",
+            "Number": 4,
+            "Location": "Imola",
+            "OfficialName": "FORMULA 1 ROLEX GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA 2022",
+            "Name": "Emilia Romagna Grand Prix",
+            "Country": {
+                "Key": 13,
+                "Code": "ITA",
+                "Name": "Italy"
+            },
+            "Circuit": {
+                "Key": 6,
+                "ShortName": "Imola"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7034,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-05-06T14:30:00",
+                    "EndDate": "2022-05-06T15:30:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-05-08_Miami_Grand_Prix/2022-05-06_Practice_1/"
+                },
+                {
+                    "Key": 7033,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-05-06T17:30:00",
+                    "EndDate": "2022-05-06T18:30:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-05-08_Miami_Grand_Prix/2022-05-06_Practice_2/"
+                },
+                {
+                    "Key": 7032,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-05-07T13:00:00",
+                    "EndDate": "2022-05-07T14:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-05-08_Miami_Grand_Prix/2022-05-07_Practice_3/"
+                },
+                {
+                    "Key": 7028,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-05-07T16:00:00",
+                    "EndDate": "2022-05-07T17:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-05-08_Miami_Grand_Prix/2022-05-07_Qualifying/"
+                },
+                {
+                    "Key": 7027,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-05-08T15:30:00",
+                    "EndDate": "2022-05-08T17:30:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-05-08_Miami_Grand_Prix/2022-05-08_Race/"
+                }
+            ],
+            "Key": 1110,
+            "Code": "USA1401",
+            "Number": 5,
+            "Location": "Miami",
+            "OfficialName": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2022",
+            "Name": "Miami Grand Prix",
+            "Country": {
+                "Key": 19,
+                "Code": "USA",
+                "Name": "United States"
+            },
+            "Circuit": {
+                "Key": 151,
+                "ShortName": "Miami"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7050,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-05-20T14:00:00",
+                    "EndDate": "2022-05-20T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-22_Spanish_Grand_Prix/2022-05-20_Practice_1/"
+                },
+                {
+                    "Key": 7049,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-05-20T17:00:00",
+                    "EndDate": "2022-05-20T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-22_Spanish_Grand_Prix/2022-05-20_Practice_2/"
+                },
+                {
+                    "Key": 7047,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-05-21T13:00:00",
+                    "EndDate": "2022-05-21T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-22_Spanish_Grand_Prix/2022-05-21_Practice_3/"
+                },
+                {
+                    "Key": 7043,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-05-21T16:00:00",
+                    "EndDate": "2022-05-21T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-22_Spanish_Grand_Prix/2022-05-21_Qualifying/"
+                },
+                {
+                    "Key": 7042,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-05-22T15:00:00",
+                    "EndDate": "2022-05-22T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-22_Spanish_Grand_Prix/2022-05-22_Race/"
+                }
+            ],
+            "Key": 1111,
+            "Code": "ESP0111",
+            "Number": 6,
+            "Location": "Barcelona",
+            "OfficialName": "FORMULA 1 PIRELLI GRAN PREMIO DE ESPA\u00d1A 2022",
+            "Name": "Spanish Grand Prix",
+            "Country": {
+                "Key": 1,
+                "Code": "ESP",
+                "Name": "Spain"
+            },
+            "Circuit": {
+                "Key": 15,
+                "ShortName": "Catalunya"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7057,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-05-27T14:00:00",
+                    "EndDate": "2022-05-27T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-29_Monaco_Grand_Prix/2022-05-27_Practice_1/"
+                },
+                {
+                    "Key": 7058,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-05-27T17:00:00",
+                    "EndDate": "2022-05-27T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-29_Monaco_Grand_Prix/2022-05-27_Practice_2/"
+                },
+                {
+                    "Key": 7056,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-05-28T13:00:00",
+                    "EndDate": "2022-05-28T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-29_Monaco_Grand_Prix/2022-05-28_Practice_3/"
+                },
+                {
+                    "Key": 7052,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-05-28T16:00:00",
+                    "EndDate": "2022-05-28T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-29_Monaco_Grand_Prix/2022-05-28_Qualifying/"
+                },
+                {
+                    "Key": 7051,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-05-29T15:00:00",
+                    "EndDate": "2022-05-29T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-05-29_Monaco_Grand_Prix/2022-05-29_Race/"
+                }
+            ],
+            "Key": 1112,
+            "Code": "MON0112",
+            "Number": 7,
+            "Location": "Monaco",
+            "OfficialName": "FORMULA 1 GRAND PRIX DE MONACO 2022",
+            "Name": "Monaco Grand Prix",
+            "Country": {
+                "Key": 114,
+                "Code": "MON",
+                "Name": "Monaco"
+            },
+            "Circuit": {
+                "Key": 22,
+                "ShortName": "Monte Carlo"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7073,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-06-10T15:00:00",
+                    "EndDate": "2022-06-10T16:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-06-12_Azerbaijan_Grand_Prix/2022-06-10_Practice_1/"
+                },
+                {
+                    "Key": 7072,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-06-10T18:00:00",
+                    "EndDate": "2022-06-10T19:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-06-12_Azerbaijan_Grand_Prix/2022-06-10_Practice_2/"
+                },
+                {
+                    "Key": 7071,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-06-11T15:00:00",
+                    "EndDate": "2022-06-11T16:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-06-12_Azerbaijan_Grand_Prix/2022-06-11_Practice_3/"
+                },
+                {
+                    "Key": 7067,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-06-11T18:00:00",
+                    "EndDate": "2022-06-11T19:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-06-12_Azerbaijan_Grand_Prix/2022-06-11_Qualifying/"
+                },
+                {
+                    "Key": 7066,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-06-12T15:00:00",
+                    "EndDate": "2022-06-12T17:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-06-12_Azerbaijan_Grand_Prix/2022-06-12_Race/"
+                }
+            ],
+            "Key": 1126,
+            "Code": "AZE02",
+            "Number": 8,
+            "Location": "Baku",
+            "OfficialName": "FORMULA 1 AZERBAIJAN GRAND PRIX 2022",
+            "Name": "Azerbaijan Grand Prix",
+            "Country": {
+                "Key": 30,
+                "Code": "AZE",
+                "Name": "Azerbaijan"
+            },
+            "Circuit": {
+                "Key": 144,
+                "ShortName": "Baku"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7104,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-06-17T14:00:00",
+                    "EndDate": "2022-06-17T15:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-06-19_Canadian_Grand_Prix/2022-06-17_Practice_1/"
+                },
+                {
+                    "Key": 7103,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-06-17T17:00:00",
+                    "EndDate": "2022-06-17T18:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-06-19_Canadian_Grand_Prix/2022-06-17_Practice_2/"
+                },
+                {
+                    "Key": 7097,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-06-18T13:00:00",
+                    "EndDate": "2022-06-18T14:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-06-19_Canadian_Grand_Prix/2022-06-18_Practice_3/"
+                },
+                {
+                    "Key": 7091,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-06-18T16:00:00",
+                    "EndDate": "2022-06-18T17:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-06-19_Canadian_Grand_Prix/2022-06-18_Qualifying/"
+                },
+                {
+                    "Key": 7090,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-06-19T14:00:00",
+                    "EndDate": "2022-06-19T16:00:00",
+                    "GmtOffset": "-04:00:00",
+                    "Path": "2022/2022-06-19_Canadian_Grand_Prix/2022-06-19_Race/"
+                }
+            ],
+            "Key": 1113,
+            "Code": "CAN0108",
+            "Number": 9,
+            "Location": "Montr\u00e9al",
+            "OfficialName": "FORMULA 1 AWS GRAND PRIX DU CANADA 2022",
+            "Name": "Canadian Grand Prix",
+            "Country": {
+                "Key": 46,
+                "Code": "CAN",
+                "Name": "Canada"
+            },
+            "Circuit": {
+                "Key": 23,
+                "ShortName": "Montreal"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7113,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-07-01T13:00:00",
+                    "EndDate": "2022-07-01T14:00:00",
+                    "GmtOffset": "01:00:00",
+                    "Path": "2022/2022-07-03_British_Grand_Prix/2022-07-01_Practice_1/"
+                },
+                {
+                    "Key": 7112,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-07-01T16:00:00",
+                    "EndDate": "2022-07-01T17:00:00",
+                    "GmtOffset": "01:00:00",
+                    "Path": "2022/2022-07-03_British_Grand_Prix/2022-07-01_Practice_2/"
+                },
+                {
+                    "Key": 7111,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-07-02T12:00:00",
+                    "EndDate": "2022-07-02T13:00:00",
+                    "GmtOffset": "01:00:00",
+                    "Path": "2022/2022-07-03_British_Grand_Prix/2022-07-02_Practice_3/"
+                },
+                {
+                    "Key": 7107,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-07-02T15:00:00",
+                    "EndDate": "2022-07-02T16:00:00",
+                    "GmtOffset": "01:00:00",
+                    "Path": "2022/2022-07-03_British_Grand_Prix/2022-07-02_Qualifying/"
+                },
+                {
+                    "Key": 7105,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-07-03T15:00:00",
+                    "EndDate": "2022-07-03T17:00:00",
+                    "GmtOffset": "01:00:00",
+                    "Path": "2022/2022-07-03_British_Grand_Prix/2022-07-03_Race/"
+                }
+            ],
+            "Key": 1114,
+            "Code": "GBR0114",
+            "Number": 10,
+            "Location": "Silverstone",
+            "OfficialName": "FORMULA 1 LENOVO BRITISH GRAND PRIX 2022",
+            "Name": "British Grand Prix",
+            "Country": {
+                "Key": 2,
+                "Code": "GBR",
+                "Name": "Great Britain"
+            },
+            "Circuit": {
+                "Key": 2,
+                "ShortName": "Silverstone"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7129,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-07-08T13:30:00",
+                    "EndDate": "2022-07-08T14:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-10_Austrian_Grand_Prix/2022-07-08_Practice_1/"
+                },
+                {
+                    "Key": 7117,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-07-08T17:00:00",
+                    "EndDate": "2022-07-08T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-10_Austrian_Grand_Prix/2022-07-08_Qualifying/"
+                },
+                {
+                    "Key": 7123,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-07-09T12:30:00",
+                    "EndDate": "2022-07-09T13:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-10_Austrian_Grand_Prix/2022-07-09_Practice_2/"
+                },
+                {
+                    "Key": 7197,
+                    "Type": "Race",
+                    "Name": "Sprint",
+                    "StartDate": "2022-07-09T16:30:00",
+                    "EndDate": "2022-07-09T17:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-10_Austrian_Grand_Prix/2022-07-09_Sprint/"
+                },
+                {
+                    "Key": 7115,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-07-10T15:00:00",
+                    "EndDate": "2022-07-10T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-10_Austrian_Grand_Prix/2022-07-10_Race/"
+                }
+            ],
+            "Key": 1115,
+            "Code": "AUT0108",
+            "Number": 11,
+            "Location": "Spielberg",
+            "OfficialName": "FORMULA 1 ROLEX GROSSER PREIS VON \u00d6STERREICH 2022",
+            "Name": "Austrian Grand Prix",
+            "Country": {
+                "Key": 17,
+                "Code": "AUT",
+                "Name": "Austria"
+            },
+            "Circuit": {
+                "Key": 19,
+                "ShortName": "Spielberg"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7148,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-07-22T14:00:00",
+                    "EndDate": "2022-07-22T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-24_French_Grand_Prix/2022-07-22_Practice_1/"
+                },
+                {
+                    "Key": 7146,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-07-22T17:00:00",
+                    "EndDate": "2022-07-22T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-24_French_Grand_Prix/2022-07-22_Practice_2/"
+                },
+                {
+                    "Key": 7145,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-07-23T13:00:00",
+                    "EndDate": "2022-07-23T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-24_French_Grand_Prix/2022-07-23_Practice_3/"
+                },
+                {
+                    "Key": 7141,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-07-23T16:00:00",
+                    "EndDate": "2022-07-23T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-24_French_Grand_Prix/2022-07-23_Qualifying/"
+                },
+                {
+                    "Key": 7139,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-07-24T15:00:00",
+                    "EndDate": "2022-07-24T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-24_French_Grand_Prix/2022-07-24_Race/"
+                }
+            ],
+            "Key": 1116,
+            "Code": "FRA0603",
+            "Number": 12,
+            "Location": "Le Castellet",
+            "OfficialName": "FORMULA 1 LENOVO GRAND PRIX DE FRANCE 2022",
+            "Name": "French Grand Prix",
+            "Country": {
+                "Key": 7,
+                "Code": "FRA",
+                "Name": "France"
+            },
+            "Circuit": {
+                "Key": 28,
+                "ShortName": "Paul Ricard"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7161,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-07-29T14:00:00",
+                    "EndDate": "2022-07-29T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-31_Hungarian_Grand_Prix/2022-07-29_Practice_1/"
+                },
+                {
+                    "Key": 7160,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-07-29T17:00:00",
+                    "EndDate": "2022-07-29T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-31_Hungarian_Grand_Prix/2022-07-29_Practice_2/"
+                },
+                {
+                    "Key": 7158,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-07-30T13:00:00",
+                    "EndDate": "2022-07-30T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-31_Hungarian_Grand_Prix/2022-07-30_Practice_3/"
+                },
+                {
+                    "Key": 7154,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-07-30T16:00:00",
+                    "EndDate": "2022-07-30T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-31_Hungarian_Grand_Prix/2022-07-30_Qualifying/"
+                },
+                {
+                    "Key": 7149,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-07-31T15:00:00",
+                    "EndDate": "2022-07-31T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-07-31_Hungarian_Grand_Prix/2022-07-31_Race/"
+                }
+            ],
+            "Key": 1117,
+            "Code": "HUN0109",
+            "Number": 13,
+            "Location": "Budapest",
+            "OfficialName": "FORMULA 1 ARAMCO MAGYAR NAGYD\u00cdJ 2022",
+            "Name": "Hungarian Grand Prix",
+            "Country": {
+                "Key": 14,
+                "Code": "HUN",
+                "Name": "Hungary"
+            },
+            "Circuit": {
+                "Key": 4,
+                "ShortName": "Hungaroring"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7138,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-08-26T14:00:00",
+                    "EndDate": "2022-08-26T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-08-28_Belgian_Grand_Prix/2022-08-26_Practice_1/"
+                },
+                {
+                    "Key": 7140,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-08-26T17:00:00",
+                    "EndDate": "2022-08-26T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-08-28_Belgian_Grand_Prix/2022-08-26_Practice_2/"
+                },
+                {
+                    "Key": 7147,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-08-27T13:00:00",
+                    "EndDate": "2022-08-27T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-08-28_Belgian_Grand_Prix/2022-08-27_Practice_3/"
+                },
+                {
+                    "Key": 7150,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-08-27T16:00:00",
+                    "EndDate": "2022-08-27T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-08-28_Belgian_Grand_Prix/2022-08-27_Qualifying/"
+                },
+                {
+                    "Key": 7159,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-08-28T15:00:00",
+                    "EndDate": "2022-08-28T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-08-28_Belgian_Grand_Prix/2022-08-28_Race/"
+                }
+            ],
+            "Key": 1118,
+            "Code": "BEL02012",
+            "Number": 14,
+            "Location": "Spa-Francorchamps",
+            "OfficialName": "FORMULA 1 ROLEX BELGIAN GRAND PRIX 2022",
+            "Name": "Belgian Grand Prix",
+            "Country": {
+                "Key": 16,
+                "Code": "BEL",
+                "Name": "Belgium"
+            },
+            "Circuit": {
+                "Key": 7,
+                "ShortName": "Spa-Francorchamps"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7130,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-09-02T12:30:00",
+                    "EndDate": "2022-09-02T13:30:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-04_Dutch_Grand_Prix/2022-09-02_Practice_1/"
+                },
+                {
+                    "Key": 7131,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-09-02T16:00:00",
+                    "EndDate": "2022-09-02T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-04_Dutch_Grand_Prix/2022-09-02_Practice_2/"
+                },
+                {
+                    "Key": 7132,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-09-03T12:00:00",
+                    "EndDate": "2022-09-03T13:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-04_Dutch_Grand_Prix/2022-09-03_Practice_3/"
+                },
+                {
+                    "Key": 7133,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-09-03T15:00:00",
+                    "EndDate": "2022-09-03T16:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-04_Dutch_Grand_Prix/2022-09-03_Qualifying/"
+                },
+                {
+                    "Key": 7137,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-09-04T15:00:00",
+                    "EndDate": "2022-09-04T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-04_Dutch_Grand_Prix/2022-09-04_Race/"
+                }
+            ],
+            "Key": 1119,
+            "Code": "NED0105",
+            "Number": 15,
+            "Location": "Zandvoort",
+            "OfficialName": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2022",
+            "Name": "Dutch Grand Prix",
+            "Country": {
+                "Key": 133,
+                "Code": "NED",
+                "Name": "Netherlands"
+            },
+            "Circuit": {
+                "Key": 55,
+                "ShortName": "Zandvoort"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7114,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-09-09T14:00:00",
+                    "EndDate": "2022-09-09T15:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-11_Italian_Grand_Prix/2022-09-09_Practice_1/"
+                },
+                {
+                    "Key": 7116,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-09-09T17:00:00",
+                    "EndDate": "2022-09-09T18:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-11_Italian_Grand_Prix/2022-09-09_Practice_2/"
+                },
+                {
+                    "Key": 7122,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-09-10T13:00:00",
+                    "EndDate": "2022-09-10T14:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-11_Italian_Grand_Prix/2022-09-10_Practice_3/"
+                },
+                {
+                    "Key": 7124,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-09-10T16:00:00",
+                    "EndDate": "2022-09-10T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-11_Italian_Grand_Prix/2022-09-10_Qualifying/"
+                },
+                {
+                    "Key": 7128,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-09-11T15:00:00",
+                    "EndDate": "2022-09-11T17:00:00",
+                    "GmtOffset": "02:00:00",
+                    "Path": "2022/2022-09-11_Italian_Grand_Prix/2022-09-11_Race/"
+                }
+            ],
+            "Key": 1120,
+            "Code": "ITA0311",
+            "Number": 16,
+            "Location": "Monza",
+            "OfficialName": "FORMULA 1 PIRELLI GRAN PREMIO D\u2019ITALIA 2022",
+            "Name": "Italian Grand Prix",
+            "Country": {
+                "Key": 13,
+                "Code": "ITA",
+                "Name": "Italy"
+            },
+            "Circuit": {
+                "Key": 39,
+                "ShortName": "Monza"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7229,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-09-30T18:00:00",
+                    "EndDate": "2022-09-30T19:00:00",
+                    "GmtOffset": "08:00:00",
+                    "Path": "2022/2022-10-02_Singapore_Grand_Prix/2022-09-30_Practice_1/"
+                },
+                {
+                    "Key": 7230,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-09-30T21:00:00",
+                    "EndDate": "2022-09-30T22:00:00",
+                    "GmtOffset": "08:00:00",
+                    "Path": "2022/2022-10-02_Singapore_Grand_Prix/2022-09-30_Practice_2/"
+                },
+                {
+                    "Key": 7231,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-10-01T18:00:00",
+                    "EndDate": "2022-10-01T19:00:00",
+                    "GmtOffset": "08:00:00",
+                    "Path": "2022/2022-10-02_Singapore_Grand_Prix/2022-10-01_Practice_3/"
+                },
+                {
+                    "Key": 7232,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-10-01T21:00:00",
+                    "EndDate": "2022-10-01T22:00:00",
+                    "GmtOffset": "08:00:00",
+                    "Path": "2022/2022-10-02_Singapore_Grand_Prix/2022-10-01_Qualifying/"
+                },
+                {
+                    "Key": 7236,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-10-02T20:00:00",
+                    "EndDate": "2022-10-02T22:00:00",
+                    "GmtOffset": "08:00:00",
+                    "Path": "2022/2022-10-02_Singapore_Grand_Prix/2022-10-02_Race/"
+                }
+            ],
+            "Key": 1133,
+            "Code": "SIN0106",
+            "Number": 17,
+            "Location": "Marina Bay",
+            "OfficialName": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2022",
+            "Name": "Singapore Grand Prix",
+            "Country": {
+                "Key": 157,
+                "Code": "SGP",
+                "Name": "Singapore"
+            },
+            "Circuit": {
+                "Key": 61,
+                "ShortName": "Singapore"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7237,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-10-07T12:00:00",
+                    "EndDate": "2022-10-07T13:00:00",
+                    "GmtOffset": "09:00:00",
+                    "Path": "2022/2022-10-09_Japanese_Grand_Prix/2022-10-07_Practice_1/"
+                },
+                {
+                    "Key": 7238,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-10-07T15:00:00",
+                    "EndDate": "2022-10-07T16:30:00",
+                    "GmtOffset": "09:00:00",
+                    "Path": "2022/2022-10-09_Japanese_Grand_Prix/2022-10-07_Practice_2/"
+                },
+                {
+                    "Key": 7239,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-10-08T12:00:00",
+                    "EndDate": "2022-10-08T13:00:00",
+                    "GmtOffset": "09:00:00",
+                    "Path": "2022/2022-10-09_Japanese_Grand_Prix/2022-10-08_Practice_3/"
+                },
+                {
+                    "Key": 7240,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-10-08T15:00:00",
+                    "EndDate": "2022-10-08T16:00:00",
+                    "GmtOffset": "09:00:00",
+                    "Path": "2022/2022-10-09_Japanese_Grand_Prix/2022-10-08_Qualifying/"
+                },
+                {
+                    "Key": 7244,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-10-09T14:00:00",
+                    "EndDate": "2022-10-09T16:00:00",
+                    "GmtOffset": "09:00:00",
+                    "Path": "2022/2022-10-09_Japanese_Grand_Prix/2022-10-09_Race/"
+                }
+            ],
+            "Key": 1134,
+            "Code": "JPN0306",
+            "Number": 18,
+            "Location": "Suzuka",
+            "OfficialName": "FORMULA 1 HONDA JAPANESE GRAND PRIX 2022",
+            "Name": "Japanese Grand Prix",
+            "Country": {
+                "Key": 4,
+                "Code": "JPN",
+                "Name": "Japan"
+            },
+            "Circuit": {
+                "Key": 46,
+                "ShortName": "Suzuka"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7245,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-10-21T14:00:00",
+                    "EndDate": "2022-10-21T15:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-23_United_States_Grand_Prix/2022-10-21_Practice_1/"
+                },
+                {
+                    "Key": 7246,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-10-21T17:00:00",
+                    "EndDate": "2022-10-21T18:30:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-23_United_States_Grand_Prix/2022-10-21_Practice_2/"
+                },
+                {
+                    "Key": 7247,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-10-22T14:00:00",
+                    "EndDate": "2022-10-22T15:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-23_United_States_Grand_Prix/2022-10-22_Practice_3/"
+                },
+                {
+                    "Key": 7248,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-10-22T17:00:00",
+                    "EndDate": "2022-10-22T18:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-23_United_States_Grand_Prix/2022-10-22_Qualifying/"
+                },
+                {
+                    "Key": 7252,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-10-23T14:00:00",
+                    "EndDate": "2022-10-23T16:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-23_United_States_Grand_Prix/2022-10-23_Race/"
+                }
+            ],
+            "Key": 1135,
+            "Code": "USA0101",
+            "Number": 19,
+            "Location": "Austin",
+            "OfficialName": "FORMULA 1 ARAMCO UNITED STATES GRAND PRIX 2022",
+            "Name": "United States Grand Prix",
+            "Country": {
+                "Key": 19,
+                "Code": "USA",
+                "Name": "United States"
+            },
+            "Circuit": {
+                "Key": 9,
+                "ShortName": "Austin"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7253,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-10-28T13:00:00",
+                    "EndDate": "2022-10-28T14:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-30_Mexico_City_Grand_Prix/2022-10-28_Practice_1/"
+                },
+                {
+                    "Key": 7254,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-10-28T16:00:00",
+                    "EndDate": "2022-10-28T17:30:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-30_Mexico_City_Grand_Prix/2022-10-28_Practice_2/"
+                },
+                {
+                    "Key": 7255,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-10-29T12:00:00",
+                    "EndDate": "2022-10-29T13:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-30_Mexico_City_Grand_Prix/2022-10-29_Practice_3/"
+                },
+                {
+                    "Key": 7256,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-10-29T15:00:00",
+                    "EndDate": "2022-10-29T16:00:00",
+                    "GmtOffset": "-05:00:00",
+                    "Path": "2022/2022-10-30_Mexico_City_Grand_Prix/2022-10-29_Qualifying/"
+                },
+                {
+                    "Key": 7260,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-10-30T14:00:00",
+                    "EndDate": "2022-10-30T16:00:00",
+                    "GmtOffset": "-06:00:00",
+                    "Path": "2022/2022-10-30_Mexico_City_Grand_Prix/2022-10-30_Race/"
+                }
+            ],
+            "Key": 1136,
+            "Code": "MEX0103",
+            "Number": 20,
+            "Location": "Mexico City",
+            "OfficialName": "FORMULA 1 HEINEKEN GRAN PREMIO DE LA CIUDAD DE M\u00c9XICO 2022",
+            "Name": "Mexico City Grand Prix",
+            "Country": {
+                "Key": 8,
+                "Code": "MEX",
+                "Name": "Mexico"
+            },
+            "Circuit": {
+                "Key": 65,
+                "ShortName": "Mexico City"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7261,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-11-11T12:30:00",
+                    "EndDate": "2022-11-11T13:30:00",
+                    "GmtOffset": "-03:00:00",
+                    "Path": "2022/2022-11-13_S\u00e3o_Paulo_Grand_Prix/2022-11-11_Practice_1/"
+                },
+                {
+                    "Key": 7262,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-11-11T16:00:00",
+                    "EndDate": "2022-11-11T17:00:00",
+                    "GmtOffset": "-03:00:00",
+                    "Path": "2022/2022-11-13_S\u00e3o_Paulo_Grand_Prix/2022-11-11_Qualifying/"
+                },
+                {
+                    "Key": 7266,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-11-12T12:30:00",
+                    "EndDate": "2022-11-12T13:30:00",
+                    "GmtOffset": "-03:00:00",
+                    "Path": "2022/2022-11-13_S\u00e3o_Paulo_Grand_Prix/2022-11-12_Practice_2/"
+                },
+                {
+                    "Key": 7267,
+                    "Type": "Race",
+                    "Name": "Sprint",
+                    "StartDate": "2022-11-12T16:30:00",
+                    "EndDate": "2022-11-12T17:30:00",
+                    "GmtOffset": "-03:00:00",
+                    "Path": "2022/2022-11-13_S\u00e3o_Paulo_Grand_Prix/2022-11-12_Sprint/"
+                },
+                {
+                    "Key": 7268,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-11-13T15:00:00",
+                    "EndDate": "2022-11-13T17:00:00",
+                    "GmtOffset": "-03:00:00",
+                    "Path": "2022/2022-11-13_S\u00e3o_Paulo_Grand_Prix/2022-11-13_Race/"
+                }
+            ],
+            "Key": 1137,
+            "Code": "BRA0109",
+            "Number": 21,
+            "Location": "S\u00e3o Paulo",
+            "OfficialName": "FORMULA 1 HEINEKEN GRANDE PR\u00caMIO DE S\u00c3O PAULO 2022",
+            "Name": "S\u00e3o Paulo Grand Prix",
+            "Country": {
+                "Key": 10,
+                "Code": "BRA",
+                "Name": "Brazil"
+            },
+            "Circuit": {
+                "Key": 14,
+                "ShortName": "Interlagos"
+            }
+        },
+        {
+            "Sessions": [
+                {
+                    "Key": 7269,
+                    "Type": "Practice",
+                    "Number": 1,
+                    "Name": "Practice 1",
+                    "StartDate": "2022-11-18T14:00:00",
+                    "EndDate": "2022-11-18T15:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-11-20_Abu_Dhabi_Grand_Prix/2022-11-18_Practice_1/"
+                },
+                {
+                    "Key": 7270,
+                    "Type": "Practice",
+                    "Number": 2,
+                    "Name": "Practice 2",
+                    "StartDate": "2022-11-18T17:00:00",
+                    "EndDate": "2022-11-18T18:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-11-20_Abu_Dhabi_Grand_Prix/2022-11-18_Practice_2/"
+                },
+                {
+                    "Key": 7271,
+                    "Type": "Practice",
+                    "Number": 3,
+                    "Name": "Practice 3",
+                    "StartDate": "2022-11-19T14:30:00",
+                    "EndDate": "2022-11-19T15:30:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-11-20_Abu_Dhabi_Grand_Prix/2022-11-19_Practice_3/"
+                },
+                {
+                    "Key": 7272,
+                    "Type": "Qualifying",
+                    "Name": "Qualifying",
+                    "StartDate": "2022-11-19T18:00:00",
+                    "EndDate": "2022-11-19T19:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-11-20_Abu_Dhabi_Grand_Prix/2022-11-19_Qualifying/"
+                },
+                {
+                    "Key": 7276,
+                    "Type": "Race",
+                    "Name": "Race",
+                    "StartDate": "2022-11-20T17:00:00",
+                    "EndDate": "2022-11-20T19:00:00",
+                    "GmtOffset": "04:00:00",
+                    "Path": "2022/2022-11-20_Abu_Dhabi_Grand_Prix/2022-11-20_Race/"
+                }
+            ],
+            "Key": 1138,
+            "Code": "UAE0103",
+            "Number": 22,
+            "Location": "Yas Island",
+            "OfficialName": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2022",
+            "Name": "Abu Dhabi Grand Prix",
+            "Country": {
+                "Key": 21,
+                "Code": "UAE",
+                "Name": "United Arab Emirates"
+            },
+            "Circuit": {
+                "Key": 70,
+                "ShortName": "Yas Marina Circuit"
+            }
+        }
+    ]
+}

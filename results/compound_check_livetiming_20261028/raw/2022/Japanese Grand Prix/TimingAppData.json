@@ -1,0 +1,756 @@
+﻿{
+    "Lines": {
+        "1": {
+            "RacingNumber": "1",
+            "Line": 1,
+            "GridPos": "1",
+            "Stints": [
+                {
+                    "LapTime": "3:03.369",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:50.761",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:44.911",
+                    "LapNumber": 10,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 21,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "16": {
+            "RacingNumber": "16",
+            "Line": 3,
+            "GridPos": "2",
+            "Stints": [
+                {
+                    "LapTime": "3:03.735",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:51.393",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:44.489",
+                    "LapNumber": 10,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 21,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "55": {
+            "RacingNumber": "55",
+            "Line": 19,
+            "GridPos": "3",
+            "Stints": [
+                {
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 0,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "11": {
+            "RacingNumber": "11",
+            "Line": 2,
+            "GridPos": "4",
+            "Stints": [
+                {
+                    "LapTime": "3:03.119",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:53.662",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.120",
+                    "LapNumber": 11,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 21,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "31": {
+            "RacingNumber": "31",
+            "Line": 4,
+            "GridPos": "5",
+            "Stints": [
+                {
+                    "LapTime": "2:59.566",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:54.730",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.559",
+                    "LapNumber": 11,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 21,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "44": {
+            "RacingNumber": "44",
+            "Line": 5,
+            "GridPos": "6",
+            "Stints": [
+                {
+                    "LapTime": "3:00.131",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "false",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 3,
+                    "StartLaps": 1
+                },
+                {
+                    "LapTime": "1:55.173",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "false",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 6,
+                    "StartLaps": 1
+                },
+                {
+                    "LapTime": "1:45.530",
+                    "LapNumber": 11,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "false",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 24,
+                    "StartLaps": 3
+                }
+            ]
+        },
+        "14": {
+            "RacingNumber": "14",
+            "Line": 7,
+            "GridPos": "7",
+            "Stints": [
+                {
+                    "LapTime": "3:00.255",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:52.739",
+                    "LapNumber": 8,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 6,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.677",
+                    "LapNumber": 14,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 14,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:44.412",
+                    "LapNumber": 25,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 6,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "63": {
+            "RacingNumber": "63",
+            "Line": 8,
+            "GridPos": "8",
+            "Stints": [
+                {
+                    "LapTime": "2:59.723",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:56.796",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:47.004",
+                    "LapNumber": 21,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "false",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 23,
+                    "StartLaps": 2
+                }
+            ]
+        },
+        "5": {
+            "RacingNumber": "5",
+            "Line": 6,
+            "GridPos": "9",
+            "Stints": [
+                {
+                    "LapTime": "3:03.136",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "2:45.568",
+                    "LapNumber": 4,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 3,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.964",
+                    "LapNumber": 13,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 23,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "4": {
+            "RacingNumber": "4",
+            "Line": 10,
+            "GridPos": "10",
+            "Stints": [
+                {
+                    "LapTime": "3:03.799",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "2:02.340",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 4,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:48.175",
+                    "LapNumber": 8,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 22,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "3": {
+            "RacingNumber": "3",
+            "Line": 11,
+            "GridPos": "11",
+            "Stints": [
+                {
+                    "LapTime": "2:59.276",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:54.988",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 6,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:47.843",
+                    "LapNumber": 11,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 20,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "77": {
+            "RacingNumber": "77",
+            "Line": 15,
+            "GridPos": "12",
+            "Stints": [
+                {
+                    "LapTime": "3:02.908",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "2:02.174",
+                    "LapNumber": 6,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 4,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:47.820",
+                    "LapNumber": 11,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 22,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "22": {
+            "RacingNumber": "22",
+            "Line": 13,
+            "GridPos": "13",
+            "Stints": [
+                {
+                    "LapTime": "3:00.964",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:58.102",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:48.188",
+                    "LapNumber": 9,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 13,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:45.893",
+                    "LapNumber": 22,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 8,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "24": {
+            "RacingNumber": "24",
+            "Line": 16,
+            "GridPos": "14",
+            "Stints": [
+                {
+                    "LapTime": "3:00.250",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:53.826",
+                    "LapNumber": 8,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 7,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.008",
+                    "LapNumber": 11,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 9,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:44.411",
+                    "LapNumber": 20,
+                    "LapFlags": 3,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 10,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "47": {
+            "RacingNumber": "47",
+            "Line": 18,
+            "GridPos": "15",
+            "Stints": [
+                {
+                    "LapTime": "3:02.728",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:53.513",
+                    "LapNumber": 8,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 9,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:46.545",
+                    "LapNumber": 13,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 17,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "23": {
+            "RacingNumber": "23",
+            "Line": 20,
+            "GridPos": "16",
+            "Stints": [
+                {
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 0,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "10": {
+            "RacingNumber": "10",
+            "Line": 17,
+            "GridPos": "17",
+            "Stints": [
+                {
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 1,
+                    "StartLaps": 0
+                },
+                {
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 1,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:57.813",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:47.854",
+                    "LapNumber": 11,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 12,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:45.387",
+                    "LapNumber": 22,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 9,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "20": {
+            "RacingNumber": "20",
+            "Line": 14,
+            "GridPos": "18",
+            "Stints": [
+                {
+                    "LapTime": "3:04.196",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:58.331",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:48.072",
+                    "LapNumber": 10,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 21,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "18": {
+            "RacingNumber": "18",
+            "Line": 12,
+            "GridPos": "19",
+            "Stints": [
+                {
+                    "LapTime": "3:04.261",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:58.562",
+                    "LapNumber": 7,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 5,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:48.388",
+                    "LapNumber": 9,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 12,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:45.205",
+                    "LapNumber": 21,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 9,
+                    "StartLaps": 0
+                }
+            ]
+        },
+        "6": {
+            "RacingNumber": "6",
+            "Line": 9,
+            "GridPos": "20",
+            "Stints": [
+                {
+                    "LapTime": "3:03.734",
+                    "LapNumber": 2,
+                    "LapFlags": 0,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 2,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "2:47.472",
+                    "LapNumber": 4,
+                    "LapFlags": 0,
+                    "Compound": "WET",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 3,
+                    "StartLaps": 0
+                },
+                {
+                    "LapTime": "1:48.371",
+                    "LapNumber": 12,
+                    "LapFlags": 1,
+                    "Compound": "INTERMEDIATE",
+                    "New": "true",
+                    "TyresNotChanged": "0",
+                    "TotalLaps": 23,
+                    "StartLaps": 0
+                }
+            ]
+        }
+    }
+}
