@@ -5,5 +5,5 @@
  "C3": 0.77,
  "C4": 0.77,
  "C5": 0.77,
- "_nota": "2026-10-28 PRUEBA (no adoptado): factor 2021 con la edad efectiva TL_GQ (results/tyrelife_effective_20261028/), misma especificacion que v10: fisica 0.692 ee 0.069, conductual 0.872 ee 0.075, conjunto 0.774. results/sim_v10eGQ_20261028/factor2021_v10_20261027.py"
+ "_nota": "2026-10-28 ADOPTADO (v10eGQ, decision del autor): factor 2021 con la edad efectiva TL_GQ (results/tyrelife_effective_20261028/, con las sesiones sprint y la correccion de compuestos NaN), misma especificacion que v10: fisica 0.692 ee 0.069, conductual 0.871 ee 0.074, conjunto 0.774 (IC95 0.68-0.87). results/sim_v10eGQ_20261028/factor2021_v10_20261027.py"
 }

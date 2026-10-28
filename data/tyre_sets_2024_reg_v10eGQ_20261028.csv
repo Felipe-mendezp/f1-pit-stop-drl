@@ -1,0 +1,3231 @@
+GP,Driver,Compound,Age
+Abu Dhabi Grand Prix,Driver_ALB,HARD,0
+Abu Dhabi Grand Prix,Driver_ALB,HARD,0
+Abu Dhabi Grand Prix,Driver_ALB,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_ALB,SOFT,0
+Abu Dhabi Grand Prix,Driver_ALB,SOFT,1
+Abu Dhabi Grand Prix,Driver_ALB,SOFT,1
+Abu Dhabi Grand Prix,Driver_ALB,SOFT,3
+Abu Dhabi Grand Prix,Driver_ALO,HARD,0
+Abu Dhabi Grand Prix,Driver_ALO,HARD,0
+Abu Dhabi Grand Prix,Driver_ALO,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_ALO,MEDIUM,6
+Abu Dhabi Grand Prix,Driver_ALO,SOFT,1
+Abu Dhabi Grand Prix,Driver_ALO,SOFT,1
+Abu Dhabi Grand Prix,Driver_ALO,SOFT,1
+Abu Dhabi Grand Prix,Driver_ALO,SOFT,2
+Abu Dhabi Grand Prix,Driver_BOT,HARD,0
+Abu Dhabi Grand Prix,Driver_BOT,HARD,0
+Abu Dhabi Grand Prix,Driver_BOT,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_BOT,SOFT,1
+Abu Dhabi Grand Prix,Driver_BOT,SOFT,1
+Abu Dhabi Grand Prix,Driver_BOT,SOFT,1
+Abu Dhabi Grand Prix,Driver_GAS,HARD,0
+Abu Dhabi Grand Prix,Driver_GAS,HARD,0
+Abu Dhabi Grand Prix,Driver_GAS,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_GAS,SOFT,1
+Abu Dhabi Grand Prix,Driver_GAS,SOFT,1
+Abu Dhabi Grand Prix,Driver_GAS,SOFT,2
+Abu Dhabi Grand Prix,Driver_HAM,HARD,0
+Abu Dhabi Grand Prix,Driver_HAM,HARD,0
+Abu Dhabi Grand Prix,Driver_HAM,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_HAM,MEDIUM,1
+Abu Dhabi Grand Prix,Driver_HAM,SOFT,0
+Abu Dhabi Grand Prix,Driver_HAM,SOFT,1
+Abu Dhabi Grand Prix,Driver_HAM,SOFT,1
+Abu Dhabi Grand Prix,Driver_HAM,SOFT,1
+Abu Dhabi Grand Prix,Driver_HUL,HARD,0
+Abu Dhabi Grand Prix,Driver_HUL,HARD,0
+Abu Dhabi Grand Prix,Driver_HUL,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_HUL,SOFT,1
+Abu Dhabi Grand Prix,Driver_HUL,SOFT,1
+Abu Dhabi Grand Prix,Driver_HUL,SOFT,2
+Abu Dhabi Grand Prix,Driver_HUL,SOFT,2
+Abu Dhabi Grand Prix,Driver_HUL,SOFT,3
+Abu Dhabi Grand Prix,Driver_LEC,HARD,0
+Abu Dhabi Grand Prix,Driver_LEC,HARD,0
+Abu Dhabi Grand Prix,Driver_LEC,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_LEC,SOFT,0
+Abu Dhabi Grand Prix,Driver_LEC,SOFT,1
+Abu Dhabi Grand Prix,Driver_LEC,SOFT,1
+Abu Dhabi Grand Prix,Driver_LEC,SOFT,2
+Abu Dhabi Grand Prix,Driver_MAG,HARD,0
+Abu Dhabi Grand Prix,Driver_MAG,HARD,0
+Abu Dhabi Grand Prix,Driver_MAG,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_MAG,SOFT,0
+Abu Dhabi Grand Prix,Driver_MAG,SOFT,1
+Abu Dhabi Grand Prix,Driver_MAG,SOFT,1
+Abu Dhabi Grand Prix,Driver_MAG,SOFT,2
+Abu Dhabi Grand Prix,Driver_NOR,HARD,0
+Abu Dhabi Grand Prix,Driver_NOR,HARD,0
+Abu Dhabi Grand Prix,Driver_NOR,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_NOR,SOFT,1
+Abu Dhabi Grand Prix,Driver_NOR,SOFT,1
+Abu Dhabi Grand Prix,Driver_NOR,SOFT,1
+Abu Dhabi Grand Prix,Driver_NOR,SOFT,2
+Abu Dhabi Grand Prix,Driver_OCO,HARD,0
+Abu Dhabi Grand Prix,Driver_OCO,HARD,0
+Abu Dhabi Grand Prix,Driver_OCO,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_OCO,SOFT,0
+Abu Dhabi Grand Prix,Driver_OCO,SOFT,1
+Abu Dhabi Grand Prix,Driver_OCO,SOFT,1
+Abu Dhabi Grand Prix,Driver_OCO,SOFT,1
+Abu Dhabi Grand Prix,Driver_PER,HARD,0
+Abu Dhabi Grand Prix,Driver_PER,HARD,0
+Abu Dhabi Grand Prix,Driver_PER,MEDIUM,2
+Abu Dhabi Grand Prix,Driver_PER,SOFT,1
+Abu Dhabi Grand Prix,Driver_PER,SOFT,1
+Abu Dhabi Grand Prix,Driver_PER,SOFT,2
+Abu Dhabi Grand Prix,Driver_PIA,HARD,0
+Abu Dhabi Grand Prix,Driver_PIA,HARD,0
+Abu Dhabi Grand Prix,Driver_PIA,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_PIA,SOFT,1
+Abu Dhabi Grand Prix,Driver_PIA,SOFT,1
+Abu Dhabi Grand Prix,Driver_PIA,SOFT,1
+Abu Dhabi Grand Prix,Driver_PIA,SOFT,2
+Abu Dhabi Grand Prix,Driver_RIC,HARD,0
+Abu Dhabi Grand Prix,Driver_RIC,HARD,3
+Abu Dhabi Grand Prix,Driver_RIC,MEDIUM,7
+Abu Dhabi Grand Prix,Driver_RIC,MEDIUM,7
+Abu Dhabi Grand Prix,Driver_RIC,SOFT,1
+Abu Dhabi Grand Prix,Driver_RIC,SOFT,1
+Abu Dhabi Grand Prix,Driver_RIC,SOFT,1
+Abu Dhabi Grand Prix,Driver_RIC,SOFT,1
+Abu Dhabi Grand Prix,Driver_RUS,HARD,0
+Abu Dhabi Grand Prix,Driver_RUS,HARD,0
+Abu Dhabi Grand Prix,Driver_RUS,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_RUS,SOFT,1
+Abu Dhabi Grand Prix,Driver_RUS,SOFT,1
+Abu Dhabi Grand Prix,Driver_RUS,SOFT,1
+Abu Dhabi Grand Prix,Driver_RUS,SOFT,2
+Abu Dhabi Grand Prix,Driver_SAI,HARD,0
+Abu Dhabi Grand Prix,Driver_SAI,HARD,0
+Abu Dhabi Grand Prix,Driver_SAI,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_SAI,SOFT,2
+Abu Dhabi Grand Prix,Driver_SAI,SOFT,2
+Abu Dhabi Grand Prix,Driver_SAI,SOFT,2
+Abu Dhabi Grand Prix,Driver_SAR,HARD,0
+Abu Dhabi Grand Prix,Driver_SAR,HARD,0
+Abu Dhabi Grand Prix,Driver_SAR,MEDIUM,3
+Abu Dhabi Grand Prix,Driver_SAR,SOFT,0
+Abu Dhabi Grand Prix,Driver_SAR,SOFT,0
+Abu Dhabi Grand Prix,Driver_SAR,SOFT,1
+Abu Dhabi Grand Prix,Driver_SAR,SOFT,1
+Abu Dhabi Grand Prix,Driver_STR,HARD,0
+Abu Dhabi Grand Prix,Driver_STR,HARD,0
+Abu Dhabi Grand Prix,Driver_STR,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_STR,SOFT,0
+Abu Dhabi Grand Prix,Driver_STR,SOFT,1
+Abu Dhabi Grand Prix,Driver_STR,SOFT,3
+Abu Dhabi Grand Prix,Driver_STR,SOFT,3
+Abu Dhabi Grand Prix,Driver_TSU,HARD,0
+Abu Dhabi Grand Prix,Driver_TSU,HARD,3
+Abu Dhabi Grand Prix,Driver_TSU,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_TSU,SOFT,0
+Abu Dhabi Grand Prix,Driver_TSU,SOFT,1
+Abu Dhabi Grand Prix,Driver_TSU,SOFT,1
+Abu Dhabi Grand Prix,Driver_TSU,SOFT,1
+Abu Dhabi Grand Prix,Driver_TSU,SOFT,1
+Abu Dhabi Grand Prix,Driver_VER,HARD,0
+Abu Dhabi Grand Prix,Driver_VER,HARD,0
+Abu Dhabi Grand Prix,Driver_VER,MEDIUM,0
+Abu Dhabi Grand Prix,Driver_VER,SOFT,1
+Abu Dhabi Grand Prix,Driver_VER,SOFT,1
+Abu Dhabi Grand Prix,Driver_VER,SOFT,1
+Abu Dhabi Grand Prix,Driver_ZHO,HARD,0
+Abu Dhabi Grand Prix,Driver_ZHO,HARD,0
+Abu Dhabi Grand Prix,Driver_ZHO,MEDIUM,5
+Abu Dhabi Grand Prix,Driver_ZHO,SOFT,0
+Abu Dhabi Grand Prix,Driver_ZHO,SOFT,0
+Abu Dhabi Grand Prix,Driver_ZHO,SOFT,1
+Abu Dhabi Grand Prix,Driver_ZHO,SOFT,1
+Australian Grand Prix,Driver_ALB,HARD,0
+Australian Grand Prix,Driver_ALB,MEDIUM,0
+Australian Grand Prix,Driver_ALB,SOFT,0
+Australian Grand Prix,Driver_ALB,SOFT,1
+Australian Grand Prix,Driver_ALB,SOFT,1
+Australian Grand Prix,Driver_ALB,SOFT,2
+Australian Grand Prix,Driver_ALB,SOFT,3
+Australian Grand Prix,Driver_ALO,HARD,0
+Australian Grand Prix,Driver_ALO,HARD,0
+Australian Grand Prix,Driver_ALO,MEDIUM,0
+Australian Grand Prix,Driver_ALO,SOFT,2
+Australian Grand Prix,Driver_ALO,SOFT,4
+Australian Grand Prix,Driver_ALO,SOFT,4
+Australian Grand Prix,Driver_BOT,HARD,0
+Australian Grand Prix,Driver_BOT,HARD,0
+Australian Grand Prix,Driver_BOT,MEDIUM,0
+Australian Grand Prix,Driver_BOT,SOFT,0
+Australian Grand Prix,Driver_BOT,SOFT,1
+Australian Grand Prix,Driver_BOT,SOFT,1
+Australian Grand Prix,Driver_BOT,SOFT,2
+Australian Grand Prix,Driver_BOT,SOFT,3
+Australian Grand Prix,Driver_GAS,HARD,0
+Australian Grand Prix,Driver_GAS,HARD,0
+Australian Grand Prix,Driver_GAS,MEDIUM,0
+Australian Grand Prix,Driver_GAS,SOFT,0
+Australian Grand Prix,Driver_GAS,SOFT,0
+Australian Grand Prix,Driver_GAS,SOFT,1
+Australian Grand Prix,Driver_GAS,SOFT,2
+Australian Grand Prix,Driver_HAM,HARD,0
+Australian Grand Prix,Driver_HAM,HARD,0
+Australian Grand Prix,Driver_HAM,MEDIUM,0
+Australian Grand Prix,Driver_HAM,SOFT,0
+Australian Grand Prix,Driver_HAM,SOFT,1
+Australian Grand Prix,Driver_HAM,SOFT,1
+Australian Grand Prix,Driver_HAM,SOFT,3
+Australian Grand Prix,Driver_HUL,HARD,0
+Australian Grand Prix,Driver_HUL,HARD,0
+Australian Grand Prix,Driver_HUL,MEDIUM,0
+Australian Grand Prix,Driver_HUL,SOFT,0
+Australian Grand Prix,Driver_HUL,SOFT,0
+Australian Grand Prix,Driver_HUL,SOFT,1
+Australian Grand Prix,Driver_HUL,SOFT,2
+Australian Grand Prix,Driver_LEC,HARD,0
+Australian Grand Prix,Driver_LEC,HARD,0
+Australian Grand Prix,Driver_LEC,MEDIUM,0
+Australian Grand Prix,Driver_LEC,SOFT,1
+Australian Grand Prix,Driver_LEC,SOFT,1
+Australian Grand Prix,Driver_LEC,SOFT,2
+Australian Grand Prix,Driver_MAG,HARD,0
+Australian Grand Prix,Driver_MAG,HARD,0
+Australian Grand Prix,Driver_MAG,MEDIUM,0
+Australian Grand Prix,Driver_MAG,SOFT,0
+Australian Grand Prix,Driver_MAG,SOFT,1
+Australian Grand Prix,Driver_MAG,SOFT,1
+Australian Grand Prix,Driver_MAG,SOFT,2
+Australian Grand Prix,Driver_NOR,HARD,0
+Australian Grand Prix,Driver_NOR,HARD,0
+Australian Grand Prix,Driver_NOR,MEDIUM,0
+Australian Grand Prix,Driver_NOR,SOFT,1
+Australian Grand Prix,Driver_NOR,SOFT,1
+Australian Grand Prix,Driver_NOR,SOFT,3
+Australian Grand Prix,Driver_OCO,HARD,0
+Australian Grand Prix,Driver_OCO,HARD,0
+Australian Grand Prix,Driver_OCO,MEDIUM,0
+Australian Grand Prix,Driver_OCO,SOFT,0
+Australian Grand Prix,Driver_OCO,SOFT,2
+Australian Grand Prix,Driver_OCO,SOFT,2
+Australian Grand Prix,Driver_OCO,SOFT,2
+Australian Grand Prix,Driver_PER,HARD,0
+Australian Grand Prix,Driver_PER,HARD,0
+Australian Grand Prix,Driver_PER,MEDIUM,0
+Australian Grand Prix,Driver_PER,SOFT,1
+Australian Grand Prix,Driver_PER,SOFT,1
+Australian Grand Prix,Driver_PER,SOFT,2
+Australian Grand Prix,Driver_PIA,HARD,0
+Australian Grand Prix,Driver_PIA,HARD,0
+Australian Grand Prix,Driver_PIA,MEDIUM,0
+Australian Grand Prix,Driver_PIA,SOFT,1
+Australian Grand Prix,Driver_PIA,SOFT,1
+Australian Grand Prix,Driver_PIA,SOFT,2
+Australian Grand Prix,Driver_RIC,HARD,0
+Australian Grand Prix,Driver_RIC,HARD,0
+Australian Grand Prix,Driver_RIC,MEDIUM,0
+Australian Grand Prix,Driver_RIC,SOFT,0
+Australian Grand Prix,Driver_RIC,SOFT,0
+Australian Grand Prix,Driver_RIC,SOFT,1
+Australian Grand Prix,Driver_RIC,SOFT,1
+Australian Grand Prix,Driver_RUS,HARD,0
+Australian Grand Prix,Driver_RUS,HARD,0
+Australian Grand Prix,Driver_RUS,MEDIUM,0
+Australian Grand Prix,Driver_RUS,SOFT,2
+Australian Grand Prix,Driver_RUS,SOFT,2
+Australian Grand Prix,Driver_RUS,SOFT,3
+Australian Grand Prix,Driver_SAI,HARD,0
+Australian Grand Prix,Driver_SAI,HARD,0
+Australian Grand Prix,Driver_SAI,MEDIUM,0
+Australian Grand Prix,Driver_SAI,SOFT,1
+Australian Grand Prix,Driver_SAI,SOFT,1
+Australian Grand Prix,Driver_SAI,SOFT,1
+Australian Grand Prix,Driver_SAR,HARD,0
+Australian Grand Prix,Driver_SAR,HARD,0
+Australian Grand Prix,Driver_SAR,MEDIUM,0
+Australian Grand Prix,Driver_SAR,SOFT,0
+Australian Grand Prix,Driver_SAR,SOFT,0
+Australian Grand Prix,Driver_SAR,SOFT,0
+Australian Grand Prix,Driver_SAR,SOFT,0
+Australian Grand Prix,Driver_STR,HARD,0
+Australian Grand Prix,Driver_STR,HARD,0
+Australian Grand Prix,Driver_STR,MEDIUM,0
+Australian Grand Prix,Driver_STR,SOFT,3
+Australian Grand Prix,Driver_STR,SOFT,4
+Australian Grand Prix,Driver_STR,SOFT,5
+Australian Grand Prix,Driver_TSU,HARD,0
+Australian Grand Prix,Driver_TSU,HARD,0
+Australian Grand Prix,Driver_TSU,MEDIUM,0
+Australian Grand Prix,Driver_TSU,SOFT,1
+Australian Grand Prix,Driver_TSU,SOFT,1
+Australian Grand Prix,Driver_TSU,SOFT,2
+Australian Grand Prix,Driver_VER,HARD,0
+Australian Grand Prix,Driver_VER,HARD,0
+Australian Grand Prix,Driver_VER,MEDIUM,0
+Australian Grand Prix,Driver_VER,SOFT,1
+Australian Grand Prix,Driver_VER,SOFT,1
+Australian Grand Prix,Driver_VER,SOFT,2
+Australian Grand Prix,Driver_ZHO,HARD,0
+Australian Grand Prix,Driver_ZHO,HARD,0
+Australian Grand Prix,Driver_ZHO,MEDIUM,0
+Australian Grand Prix,Driver_ZHO,SOFT,0
+Australian Grand Prix,Driver_ZHO,SOFT,0
+Australian Grand Prix,Driver_ZHO,SOFT,1
+Australian Grand Prix,Driver_ZHO,SOFT,2
+Austrian Grand Prix,Driver_ALB,HARD,0
+Austrian Grand Prix,Driver_ALB,HARD,0
+Austrian Grand Prix,Driver_ALB,MEDIUM,0
+Austrian Grand Prix,Driver_ALB,MEDIUM,0
+Austrian Grand Prix,Driver_ALB,MEDIUM,2
+Austrian Grand Prix,Driver_ALB,SOFT,0
+Austrian Grand Prix,Driver_ALB,SOFT,0
+Austrian Grand Prix,Driver_ALO,HARD,0
+Austrian Grand Prix,Driver_ALO,MEDIUM,0
+Austrian Grand Prix,Driver_ALO,MEDIUM,0
+Austrian Grand Prix,Driver_ALO,MEDIUM,1
+Austrian Grand Prix,Driver_ALO,SOFT,0
+Austrian Grand Prix,Driver_ALO,SOFT,1
+Austrian Grand Prix,Driver_ALO,SOFT,1
+Austrian Grand Prix,Driver_BOT,HARD,0
+Austrian Grand Prix,Driver_BOT,HARD,0
+Austrian Grand Prix,Driver_BOT,MEDIUM,0
+Austrian Grand Prix,Driver_BOT,MEDIUM,2
+Austrian Grand Prix,Driver_BOT,SOFT,0
+Austrian Grand Prix,Driver_BOT,SOFT,0
+Austrian Grand Prix,Driver_BOT,SOFT,1
+Austrian Grand Prix,Driver_GAS,HARD,0
+Austrian Grand Prix,Driver_GAS,MEDIUM,0
+Austrian Grand Prix,Driver_GAS,MEDIUM,0
+Austrian Grand Prix,Driver_GAS,MEDIUM,2
+Austrian Grand Prix,Driver_GAS,SOFT,1
+Austrian Grand Prix,Driver_GAS,SOFT,1
+Austrian Grand Prix,Driver_GAS,SOFT,1
+Austrian Grand Prix,Driver_HAM,HARD,0
+Austrian Grand Prix,Driver_HAM,MEDIUM,0
+Austrian Grand Prix,Driver_HAM,MEDIUM,0
+Austrian Grand Prix,Driver_HAM,MEDIUM,2
+Austrian Grand Prix,Driver_HAM,SOFT,1
+Austrian Grand Prix,Driver_HAM,SOFT,1
+Austrian Grand Prix,Driver_HAM,SOFT,1
+Austrian Grand Prix,Driver_HUL,HARD,0
+Austrian Grand Prix,Driver_HUL,HARD,0
+Austrian Grand Prix,Driver_HUL,MEDIUM,0
+Austrian Grand Prix,Driver_HUL,MEDIUM,0
+Austrian Grand Prix,Driver_HUL,SOFT,1
+Austrian Grand Prix,Driver_HUL,SOFT,1
+Austrian Grand Prix,Driver_HUL,SOFT,1
+Austrian Grand Prix,Driver_HUL,SOFT,1
+Austrian Grand Prix,Driver_LEC,HARD,0
+Austrian Grand Prix,Driver_LEC,MEDIUM,0
+Austrian Grand Prix,Driver_LEC,MEDIUM,0
+Austrian Grand Prix,Driver_LEC,MEDIUM,2
+Austrian Grand Prix,Driver_LEC,SOFT,1
+Austrian Grand Prix,Driver_LEC,SOFT,3
+Austrian Grand Prix,Driver_LEC,SOFT,3
+Austrian Grand Prix,Driver_MAG,HARD,0
+Austrian Grand Prix,Driver_MAG,HARD,0
+Austrian Grand Prix,Driver_MAG,MEDIUM,0
+Austrian Grand Prix,Driver_MAG,MEDIUM,1
+Austrian Grand Prix,Driver_MAG,SOFT,0
+Austrian Grand Prix,Driver_MAG,SOFT,1
+Austrian Grand Prix,Driver_MAG,SOFT,1
+Austrian Grand Prix,Driver_NOR,HARD,0
+Austrian Grand Prix,Driver_NOR,MEDIUM,0
+Austrian Grand Prix,Driver_NOR,MEDIUM,0
+Austrian Grand Prix,Driver_NOR,MEDIUM,2
+Austrian Grand Prix,Driver_NOR,SOFT,1
+Austrian Grand Prix,Driver_NOR,SOFT,1
+Austrian Grand Prix,Driver_NOR,SOFT,2
+Austrian Grand Prix,Driver_OCO,HARD,0
+Austrian Grand Prix,Driver_OCO,MEDIUM,0
+Austrian Grand Prix,Driver_OCO,MEDIUM,0
+Austrian Grand Prix,Driver_OCO,MEDIUM,1
+Austrian Grand Prix,Driver_OCO,SOFT,1
+Austrian Grand Prix,Driver_OCO,SOFT,1
+Austrian Grand Prix,Driver_OCO,SOFT,1
+Austrian Grand Prix,Driver_PER,HARD,0
+Austrian Grand Prix,Driver_PER,HARD,0
+Austrian Grand Prix,Driver_PER,MEDIUM,0
+Austrian Grand Prix,Driver_PER,MEDIUM,2
+Austrian Grand Prix,Driver_PER,SOFT,1
+Austrian Grand Prix,Driver_PER,SOFT,1
+Austrian Grand Prix,Driver_PER,SOFT,1
+Austrian Grand Prix,Driver_PIA,HARD,0
+Austrian Grand Prix,Driver_PIA,MEDIUM,0
+Austrian Grand Prix,Driver_PIA,MEDIUM,0
+Austrian Grand Prix,Driver_PIA,MEDIUM,3
+Austrian Grand Prix,Driver_PIA,SOFT,1
+Austrian Grand Prix,Driver_PIA,SOFT,1
+Austrian Grand Prix,Driver_PIA,SOFT,1
+Austrian Grand Prix,Driver_RIC,HARD,0
+Austrian Grand Prix,Driver_RIC,HARD,0
+Austrian Grand Prix,Driver_RIC,MEDIUM,0
+Austrian Grand Prix,Driver_RIC,MEDIUM,0
+Austrian Grand Prix,Driver_RIC,SOFT,1
+Austrian Grand Prix,Driver_RIC,SOFT,1
+Austrian Grand Prix,Driver_RIC,SOFT,1
+Austrian Grand Prix,Driver_RUS,HARD,0
+Austrian Grand Prix,Driver_RUS,MEDIUM,0
+Austrian Grand Prix,Driver_RUS,MEDIUM,0
+Austrian Grand Prix,Driver_RUS,MEDIUM,1
+Austrian Grand Prix,Driver_RUS,SOFT,1
+Austrian Grand Prix,Driver_RUS,SOFT,1
+Austrian Grand Prix,Driver_RUS,SOFT,1
+Austrian Grand Prix,Driver_SAI,HARD,0
+Austrian Grand Prix,Driver_SAI,MEDIUM,0
+Austrian Grand Prix,Driver_SAI,MEDIUM,0
+Austrian Grand Prix,Driver_SAI,MEDIUM,2
+Austrian Grand Prix,Driver_SAI,SOFT,1
+Austrian Grand Prix,Driver_SAI,SOFT,1
+Austrian Grand Prix,Driver_SAI,SOFT,1
+Austrian Grand Prix,Driver_SAR,HARD,0
+Austrian Grand Prix,Driver_SAR,HARD,0
+Austrian Grand Prix,Driver_SAR,MEDIUM,0
+Austrian Grand Prix,Driver_SAR,MEDIUM,2
+Austrian Grand Prix,Driver_SAR,MEDIUM,2
+Austrian Grand Prix,Driver_SAR,SOFT,0
+Austrian Grand Prix,Driver_SAR,SOFT,0
+Austrian Grand Prix,Driver_STR,HARD,0
+Austrian Grand Prix,Driver_STR,MEDIUM,0
+Austrian Grand Prix,Driver_STR,MEDIUM,0
+Austrian Grand Prix,Driver_STR,MEDIUM,1
+Austrian Grand Prix,Driver_STR,SOFT,0
+Austrian Grand Prix,Driver_STR,SOFT,0
+Austrian Grand Prix,Driver_STR,SOFT,0
+Austrian Grand Prix,Driver_TSU,HARD,0
+Austrian Grand Prix,Driver_TSU,HARD,0
+Austrian Grand Prix,Driver_TSU,MEDIUM,0
+Austrian Grand Prix,Driver_TSU,MEDIUM,1
+Austrian Grand Prix,Driver_TSU,SOFT,1
+Austrian Grand Prix,Driver_TSU,SOFT,1
+Austrian Grand Prix,Driver_TSU,SOFT,1
+Austrian Grand Prix,Driver_VER,HARD,0
+Austrian Grand Prix,Driver_VER,HARD,0
+Austrian Grand Prix,Driver_VER,MEDIUM,0
+Austrian Grand Prix,Driver_VER,MEDIUM,1
+Austrian Grand Prix,Driver_VER,SOFT,1
+Austrian Grand Prix,Driver_VER,SOFT,1
+Austrian Grand Prix,Driver_VER,SOFT,1
+Austrian Grand Prix,Driver_ZHO,HARD,0
+Austrian Grand Prix,Driver_ZHO,HARD,0
+Austrian Grand Prix,Driver_ZHO,MEDIUM,0
+Austrian Grand Prix,Driver_ZHO,MEDIUM,2
+Austrian Grand Prix,Driver_ZHO,SOFT,0
+Austrian Grand Prix,Driver_ZHO,SOFT,0
+Austrian Grand Prix,Driver_ZHO,SOFT,1
+Azerbaijan Grand Prix,Driver_ALB,HARD,0
+Azerbaijan Grand Prix,Driver_ALB,HARD,0
+Azerbaijan Grand Prix,Driver_ALB,MEDIUM,0
+Azerbaijan Grand Prix,Driver_ALB,SOFT,1
+Azerbaijan Grand Prix,Driver_ALB,SOFT,3
+Azerbaijan Grand Prix,Driver_ALB,SOFT,3
+Azerbaijan Grand Prix,Driver_ALO,HARD,0
+Azerbaijan Grand Prix,Driver_ALO,HARD,0
+Azerbaijan Grand Prix,Driver_ALO,MEDIUM,0
+Azerbaijan Grand Prix,Driver_ALO,SOFT,2
+Azerbaijan Grand Prix,Driver_ALO,SOFT,2
+Azerbaijan Grand Prix,Driver_ALO,SOFT,3
+Azerbaijan Grand Prix,Driver_BOT,HARD,0
+Azerbaijan Grand Prix,Driver_BOT,HARD,0
+Azerbaijan Grand Prix,Driver_BOT,MEDIUM,0
+Azerbaijan Grand Prix,Driver_BOT,SOFT,0
+Azerbaijan Grand Prix,Driver_BOT,SOFT,0
+Azerbaijan Grand Prix,Driver_BOT,SOFT,1
+Azerbaijan Grand Prix,Driver_BOT,SOFT,1
+Azerbaijan Grand Prix,Driver_GAS,HARD,0
+Azerbaijan Grand Prix,Driver_GAS,MEDIUM,0
+Azerbaijan Grand Prix,Driver_GAS,SOFT,0
+Azerbaijan Grand Prix,Driver_GAS,SOFT,1
+Azerbaijan Grand Prix,Driver_GAS,SOFT,1
+Azerbaijan Grand Prix,Driver_GAS,SOFT,1
+Azerbaijan Grand Prix,Driver_GAS,SOFT,2
+Azerbaijan Grand Prix,Driver_HAM,HARD,0
+Azerbaijan Grand Prix,Driver_HAM,MEDIUM,0
+Azerbaijan Grand Prix,Driver_HAM,MEDIUM,1
+Azerbaijan Grand Prix,Driver_HAM,SOFT,1
+Azerbaijan Grand Prix,Driver_HAM,SOFT,1
+Azerbaijan Grand Prix,Driver_HAM,SOFT,1
+Azerbaijan Grand Prix,Driver_HUL,HARD,0
+Azerbaijan Grand Prix,Driver_HUL,HARD,0
+Azerbaijan Grand Prix,Driver_HUL,MEDIUM,0
+Azerbaijan Grand Prix,Driver_HUL,SOFT,0
+Azerbaijan Grand Prix,Driver_HUL,SOFT,1
+Azerbaijan Grand Prix,Driver_HUL,SOFT,3
+Azerbaijan Grand Prix,Driver_HUL,SOFT,3
+Azerbaijan Grand Prix,Driver_LEC,HARD,0
+Azerbaijan Grand Prix,Driver_LEC,HARD,0
+Azerbaijan Grand Prix,Driver_LEC,MEDIUM,0
+Azerbaijan Grand Prix,Driver_LEC,SOFT,1
+Azerbaijan Grand Prix,Driver_LEC,SOFT,1
+Azerbaijan Grand Prix,Driver_LEC,SOFT,2
+Azerbaijan Grand Prix,Driver_MAG,HARD,0
+Azerbaijan Grand Prix,Driver_MAG,HARD,0
+Azerbaijan Grand Prix,Driver_MAG,MEDIUM,0
+Azerbaijan Grand Prix,Driver_MAG,SOFT,0
+Azerbaijan Grand Prix,Driver_MAG,SOFT,1
+Azerbaijan Grand Prix,Driver_MAG,SOFT,3
+Azerbaijan Grand Prix,Driver_MAG,SOFT,3
+Azerbaijan Grand Prix,Driver_NOR,HARD,0
+Azerbaijan Grand Prix,Driver_NOR,HARD,0
+Azerbaijan Grand Prix,Driver_NOR,MEDIUM,0
+Azerbaijan Grand Prix,Driver_NOR,SOFT,0
+Azerbaijan Grand Prix,Driver_NOR,SOFT,0
+Azerbaijan Grand Prix,Driver_NOR,SOFT,0
+Azerbaijan Grand Prix,Driver_NOR,SOFT,2
+Azerbaijan Grand Prix,Driver_OCO,HARD,0
+Azerbaijan Grand Prix,Driver_OCO,MEDIUM,0
+Azerbaijan Grand Prix,Driver_OCO,MEDIUM,0
+Azerbaijan Grand Prix,Driver_OCO,SOFT,0
+Azerbaijan Grand Prix,Driver_OCO,SOFT,1
+Azerbaijan Grand Prix,Driver_OCO,SOFT,1
+Azerbaijan Grand Prix,Driver_OCO,SOFT,1
+Azerbaijan Grand Prix,Driver_PER,HARD,0
+Azerbaijan Grand Prix,Driver_PER,HARD,0
+Azerbaijan Grand Prix,Driver_PER,MEDIUM,0
+Azerbaijan Grand Prix,Driver_PER,SOFT,1
+Azerbaijan Grand Prix,Driver_PER,SOFT,1
+Azerbaijan Grand Prix,Driver_PER,SOFT,1
+Azerbaijan Grand Prix,Driver_PIA,HARD,0
+Azerbaijan Grand Prix,Driver_PIA,HARD,0
+Azerbaijan Grand Prix,Driver_PIA,MEDIUM,0
+Azerbaijan Grand Prix,Driver_PIA,SOFT,1
+Azerbaijan Grand Prix,Driver_PIA,SOFT,1
+Azerbaijan Grand Prix,Driver_PIA,SOFT,2
+Azerbaijan Grand Prix,Driver_RIC,HARD,0
+Azerbaijan Grand Prix,Driver_RIC,HARD,0
+Azerbaijan Grand Prix,Driver_RIC,MEDIUM,0
+Azerbaijan Grand Prix,Driver_RIC,SOFT,0
+Azerbaijan Grand Prix,Driver_RIC,SOFT,0
+Azerbaijan Grand Prix,Driver_RIC,SOFT,2
+Azerbaijan Grand Prix,Driver_RIC,SOFT,2
+Azerbaijan Grand Prix,Driver_RUS,HARD,0
+Azerbaijan Grand Prix,Driver_RUS,MEDIUM,0
+Azerbaijan Grand Prix,Driver_RUS,MEDIUM,1
+Azerbaijan Grand Prix,Driver_RUS,SOFT,1
+Azerbaijan Grand Prix,Driver_RUS,SOFT,1
+Azerbaijan Grand Prix,Driver_RUS,SOFT,1
+Azerbaijan Grand Prix,Driver_SAI,HARD,0
+Azerbaijan Grand Prix,Driver_SAI,HARD,0
+Azerbaijan Grand Prix,Driver_SAI,MEDIUM,0
+Azerbaijan Grand Prix,Driver_SAI,SOFT,2
+Azerbaijan Grand Prix,Driver_SAI,SOFT,2
+Azerbaijan Grand Prix,Driver_SAI,SOFT,2
+Azerbaijan Grand Prix,Driver_SAR,HARD,0
+Azerbaijan Grand Prix,Driver_SAR,HARD,0
+Azerbaijan Grand Prix,Driver_SAR,MEDIUM,0
+Azerbaijan Grand Prix,Driver_SAR,SOFT,1
+Azerbaijan Grand Prix,Driver_SAR,SOFT,3
+Azerbaijan Grand Prix,Driver_SAR,SOFT,3
+Azerbaijan Grand Prix,Driver_STR,HARD,0
+Azerbaijan Grand Prix,Driver_STR,HARD,0
+Azerbaijan Grand Prix,Driver_STR,MEDIUM,0
+Azerbaijan Grand Prix,Driver_STR,SOFT,0
+Azerbaijan Grand Prix,Driver_STR,SOFT,1
+Azerbaijan Grand Prix,Driver_STR,SOFT,3
+Azerbaijan Grand Prix,Driver_STR,SOFT,3
+Azerbaijan Grand Prix,Driver_TSU,HARD,0
+Azerbaijan Grand Prix,Driver_TSU,HARD,0
+Azerbaijan Grand Prix,Driver_TSU,MEDIUM,0
+Azerbaijan Grand Prix,Driver_TSU,SOFT,0
+Azerbaijan Grand Prix,Driver_TSU,SOFT,1
+Azerbaijan Grand Prix,Driver_TSU,SOFT,2
+Azerbaijan Grand Prix,Driver_TSU,SOFT,3
+Azerbaijan Grand Prix,Driver_VER,HARD,0
+Azerbaijan Grand Prix,Driver_VER,HARD,0
+Azerbaijan Grand Prix,Driver_VER,MEDIUM,0
+Azerbaijan Grand Prix,Driver_VER,SOFT,1
+Azerbaijan Grand Prix,Driver_VER,SOFT,1
+Azerbaijan Grand Prix,Driver_VER,SOFT,3
+Azerbaijan Grand Prix,Driver_ZHO,HARD,0
+Azerbaijan Grand Prix,Driver_ZHO,HARD,0
+Azerbaijan Grand Prix,Driver_ZHO,MEDIUM,0
+Azerbaijan Grand Prix,Driver_ZHO,SOFT,0
+Azerbaijan Grand Prix,Driver_ZHO,SOFT,2
+Azerbaijan Grand Prix,Driver_ZHO,SOFT,2
+Azerbaijan Grand Prix,Driver_ZHO,SOFT,2
+Bahrain Grand Prix,Driver_ALB,HARD,0
+Bahrain Grand Prix,Driver_ALB,HARD,0
+Bahrain Grand Prix,Driver_ALB,MEDIUM,1
+Bahrain Grand Prix,Driver_ALB,SOFT,0
+Bahrain Grand Prix,Driver_ALB,SOFT,1
+Bahrain Grand Prix,Driver_ALB,SOFT,1
+Bahrain Grand Prix,Driver_ALB,SOFT,2
+Bahrain Grand Prix,Driver_ALO,HARD,0
+Bahrain Grand Prix,Driver_ALO,HARD,0
+Bahrain Grand Prix,Driver_ALO,MEDIUM,0
+Bahrain Grand Prix,Driver_ALO,SOFT,1
+Bahrain Grand Prix,Driver_ALO,SOFT,1
+Bahrain Grand Prix,Driver_ALO,SOFT,1
+Bahrain Grand Prix,Driver_BOT,HARD,0
+Bahrain Grand Prix,Driver_BOT,HARD,0
+Bahrain Grand Prix,Driver_BOT,MEDIUM,0
+Bahrain Grand Prix,Driver_BOT,SOFT,0
+Bahrain Grand Prix,Driver_BOT,SOFT,0
+Bahrain Grand Prix,Driver_BOT,SOFT,1
+Bahrain Grand Prix,Driver_BOT,SOFT,1
+Bahrain Grand Prix,Driver_GAS,HARD,0
+Bahrain Grand Prix,Driver_GAS,HARD,0
+Bahrain Grand Prix,Driver_GAS,MEDIUM,1
+Bahrain Grand Prix,Driver_GAS,SOFT,0
+Bahrain Grand Prix,Driver_GAS,SOFT,0
+Bahrain Grand Prix,Driver_GAS,SOFT,1
+Bahrain Grand Prix,Driver_GAS,SOFT,1
+Bahrain Grand Prix,Driver_HAM,HARD,0
+Bahrain Grand Prix,Driver_HAM,HARD,0
+Bahrain Grand Prix,Driver_HAM,MEDIUM,0
+Bahrain Grand Prix,Driver_HAM,SOFT,1
+Bahrain Grand Prix,Driver_HAM,SOFT,1
+Bahrain Grand Prix,Driver_HAM,SOFT,2
+Bahrain Grand Prix,Driver_HUL,HARD,0
+Bahrain Grand Prix,Driver_HUL,HARD,0
+Bahrain Grand Prix,Driver_HUL,MEDIUM,0
+Bahrain Grand Prix,Driver_HUL,SOFT,0
+Bahrain Grand Prix,Driver_HUL,SOFT,2
+Bahrain Grand Prix,Driver_HUL,SOFT,2
+Bahrain Grand Prix,Driver_LEC,HARD,0
+Bahrain Grand Prix,Driver_LEC,HARD,0
+Bahrain Grand Prix,Driver_LEC,MEDIUM,1
+Bahrain Grand Prix,Driver_LEC,SOFT,2
+Bahrain Grand Prix,Driver_LEC,SOFT,2
+Bahrain Grand Prix,Driver_LEC,SOFT,2
+Bahrain Grand Prix,Driver_MAG,HARD,0
+Bahrain Grand Prix,Driver_MAG,HARD,0
+Bahrain Grand Prix,Driver_MAG,MEDIUM,0
+Bahrain Grand Prix,Driver_MAG,SOFT,0
+Bahrain Grand Prix,Driver_MAG,SOFT,1
+Bahrain Grand Prix,Driver_MAG,SOFT,1
+Bahrain Grand Prix,Driver_MAG,SOFT,2
+Bahrain Grand Prix,Driver_NOR,HARD,0
+Bahrain Grand Prix,Driver_NOR,HARD,0
+Bahrain Grand Prix,Driver_NOR,MEDIUM,0
+Bahrain Grand Prix,Driver_NOR,SOFT,2
+Bahrain Grand Prix,Driver_NOR,SOFT,2
+Bahrain Grand Prix,Driver_NOR,SOFT,3
+Bahrain Grand Prix,Driver_OCO,HARD,0
+Bahrain Grand Prix,Driver_OCO,HARD,0
+Bahrain Grand Prix,Driver_OCO,MEDIUM,1
+Bahrain Grand Prix,Driver_OCO,SOFT,0
+Bahrain Grand Prix,Driver_OCO,SOFT,0
+Bahrain Grand Prix,Driver_OCO,SOFT,1
+Bahrain Grand Prix,Driver_OCO,SOFT,1
+Bahrain Grand Prix,Driver_PER,HARD,0
+Bahrain Grand Prix,Driver_PER,MEDIUM,0
+Bahrain Grand Prix,Driver_PER,SOFT,0
+Bahrain Grand Prix,Driver_PER,SOFT,1
+Bahrain Grand Prix,Driver_PER,SOFT,1
+Bahrain Grand Prix,Driver_PER,SOFT,3
+Bahrain Grand Prix,Driver_PIA,HARD,0
+Bahrain Grand Prix,Driver_PIA,HARD,0
+Bahrain Grand Prix,Driver_PIA,MEDIUM,0
+Bahrain Grand Prix,Driver_PIA,SOFT,1
+Bahrain Grand Prix,Driver_PIA,SOFT,1
+Bahrain Grand Prix,Driver_PIA,SOFT,2
+Bahrain Grand Prix,Driver_RIC,HARD,0
+Bahrain Grand Prix,Driver_RIC,HARD,0
+Bahrain Grand Prix,Driver_RIC,MEDIUM,0
+Bahrain Grand Prix,Driver_RIC,SOFT,0
+Bahrain Grand Prix,Driver_RIC,SOFT,1
+Bahrain Grand Prix,Driver_RIC,SOFT,1
+Bahrain Grand Prix,Driver_RIC,SOFT,2
+Bahrain Grand Prix,Driver_RUS,HARD,0
+Bahrain Grand Prix,Driver_RUS,HARD,0
+Bahrain Grand Prix,Driver_RUS,MEDIUM,0
+Bahrain Grand Prix,Driver_RUS,SOFT,1
+Bahrain Grand Prix,Driver_RUS,SOFT,1
+Bahrain Grand Prix,Driver_RUS,SOFT,1
+Bahrain Grand Prix,Driver_SAI,HARD,0
+Bahrain Grand Prix,Driver_SAI,HARD,0
+Bahrain Grand Prix,Driver_SAI,MEDIUM,1
+Bahrain Grand Prix,Driver_SAI,SOFT,1
+Bahrain Grand Prix,Driver_SAI,SOFT,1
+Bahrain Grand Prix,Driver_SAI,SOFT,1
+Bahrain Grand Prix,Driver_SAR,HARD,0
+Bahrain Grand Prix,Driver_SAR,HARD,0
+Bahrain Grand Prix,Driver_SAR,MEDIUM,2
+Bahrain Grand Prix,Driver_SAR,SOFT,0
+Bahrain Grand Prix,Driver_SAR,SOFT,0
+Bahrain Grand Prix,Driver_SAR,SOFT,1
+Bahrain Grand Prix,Driver_SAR,SOFT,1
+Bahrain Grand Prix,Driver_STR,HARD,0
+Bahrain Grand Prix,Driver_STR,HARD,0
+Bahrain Grand Prix,Driver_STR,MEDIUM,0
+Bahrain Grand Prix,Driver_STR,SOFT,0
+Bahrain Grand Prix,Driver_STR,SOFT,1
+Bahrain Grand Prix,Driver_STR,SOFT,1
+Bahrain Grand Prix,Driver_STR,SOFT,2
+Bahrain Grand Prix,Driver_TSU,HARD,0
+Bahrain Grand Prix,Driver_TSU,HARD,0
+Bahrain Grand Prix,Driver_TSU,MEDIUM,0
+Bahrain Grand Prix,Driver_TSU,SOFT,0
+Bahrain Grand Prix,Driver_TSU,SOFT,1
+Bahrain Grand Prix,Driver_TSU,SOFT,1
+Bahrain Grand Prix,Driver_TSU,SOFT,2
+Bahrain Grand Prix,Driver_VER,HARD,0
+Bahrain Grand Prix,Driver_VER,MEDIUM,0
+Bahrain Grand Prix,Driver_VER,SOFT,0
+Bahrain Grand Prix,Driver_VER,SOFT,1
+Bahrain Grand Prix,Driver_VER,SOFT,1
+Bahrain Grand Prix,Driver_VER,SOFT,2
+Bahrain Grand Prix,Driver_ZHO,HARD,0
+Bahrain Grand Prix,Driver_ZHO,HARD,0
+Bahrain Grand Prix,Driver_ZHO,MEDIUM,0
+Bahrain Grand Prix,Driver_ZHO,SOFT,0
+Bahrain Grand Prix,Driver_ZHO,SOFT,0
+Bahrain Grand Prix,Driver_ZHO,SOFT,1
+Bahrain Grand Prix,Driver_ZHO,SOFT,1
+Belgian Grand Prix,Driver_ALB,HARD,0
+Belgian Grand Prix,Driver_ALB,MEDIUM,0
+Belgian Grand Prix,Driver_ALB,MEDIUM,0
+Belgian Grand Prix,Driver_ALB,SOFT,0
+Belgian Grand Prix,Driver_ALB,SOFT,0
+Belgian Grand Prix,Driver_ALB,SOFT,0
+Belgian Grand Prix,Driver_ALB,SOFT,0
+Belgian Grand Prix,Driver_ALO,HARD,0
+Belgian Grand Prix,Driver_ALO,MEDIUM,0
+Belgian Grand Prix,Driver_ALO,MEDIUM,0
+Belgian Grand Prix,Driver_ALO,SOFT,0
+Belgian Grand Prix,Driver_ALO,SOFT,0
+Belgian Grand Prix,Driver_ALO,SOFT,0
+Belgian Grand Prix,Driver_BOT,HARD,0
+Belgian Grand Prix,Driver_BOT,MEDIUM,0
+Belgian Grand Prix,Driver_BOT,MEDIUM,0
+Belgian Grand Prix,Driver_BOT,SOFT,0
+Belgian Grand Prix,Driver_BOT,SOFT,0
+Belgian Grand Prix,Driver_BOT,SOFT,0
+Belgian Grand Prix,Driver_BOT,SOFT,0
+Belgian Grand Prix,Driver_GAS,HARD,0
+Belgian Grand Prix,Driver_GAS,HARD,0
+Belgian Grand Prix,Driver_GAS,MEDIUM,0
+Belgian Grand Prix,Driver_GAS,SOFT,0
+Belgian Grand Prix,Driver_GAS,SOFT,0
+Belgian Grand Prix,Driver_GAS,SOFT,0
+Belgian Grand Prix,Driver_GAS,SOFT,0
+Belgian Grand Prix,Driver_HAM,HARD,0
+Belgian Grand Prix,Driver_HAM,HARD,0
+Belgian Grand Prix,Driver_HAM,MEDIUM,0
+Belgian Grand Prix,Driver_HAM,SOFT,0
+Belgian Grand Prix,Driver_HAM,SOFT,0
+Belgian Grand Prix,Driver_HAM,SOFT,0
+Belgian Grand Prix,Driver_HUL,HARD,0
+Belgian Grand Prix,Driver_HUL,MEDIUM,0
+Belgian Grand Prix,Driver_HUL,MEDIUM,0
+Belgian Grand Prix,Driver_HUL,SOFT,0
+Belgian Grand Prix,Driver_HUL,SOFT,0
+Belgian Grand Prix,Driver_HUL,SOFT,0
+Belgian Grand Prix,Driver_HUL,SOFT,0
+Belgian Grand Prix,Driver_LEC,HARD,0
+Belgian Grand Prix,Driver_LEC,HARD,0
+Belgian Grand Prix,Driver_LEC,MEDIUM,0
+Belgian Grand Prix,Driver_LEC,MEDIUM,0
+Belgian Grand Prix,Driver_LEC,SOFT,0
+Belgian Grand Prix,Driver_LEC,SOFT,0
+Belgian Grand Prix,Driver_MAG,HARD,0
+Belgian Grand Prix,Driver_MAG,MEDIUM,0
+Belgian Grand Prix,Driver_MAG,MEDIUM,0
+Belgian Grand Prix,Driver_MAG,MEDIUM,2
+Belgian Grand Prix,Driver_MAG,SOFT,0
+Belgian Grand Prix,Driver_MAG,SOFT,0
+Belgian Grand Prix,Driver_MAG,SOFT,0
+Belgian Grand Prix,Driver_NOR,HARD,0
+Belgian Grand Prix,Driver_NOR,HARD,0
+Belgian Grand Prix,Driver_NOR,MEDIUM,0
+Belgian Grand Prix,Driver_NOR,MEDIUM,0
+Belgian Grand Prix,Driver_NOR,SOFT,0
+Belgian Grand Prix,Driver_NOR,SOFT,0
+Belgian Grand Prix,Driver_OCO,HARD,0
+Belgian Grand Prix,Driver_OCO,HARD,0
+Belgian Grand Prix,Driver_OCO,MEDIUM,0
+Belgian Grand Prix,Driver_OCO,MEDIUM,0
+Belgian Grand Prix,Driver_OCO,SOFT,0
+Belgian Grand Prix,Driver_OCO,SOFT,0
+Belgian Grand Prix,Driver_PER,HARD,0
+Belgian Grand Prix,Driver_PER,MEDIUM,0
+Belgian Grand Prix,Driver_PER,MEDIUM,0
+Belgian Grand Prix,Driver_PER,SOFT,0
+Belgian Grand Prix,Driver_PER,SOFT,0
+Belgian Grand Prix,Driver_PER,SOFT,0
+Belgian Grand Prix,Driver_PIA,HARD,0
+Belgian Grand Prix,Driver_PIA,HARD,0
+Belgian Grand Prix,Driver_PIA,MEDIUM,0
+Belgian Grand Prix,Driver_PIA,SOFT,0
+Belgian Grand Prix,Driver_PIA,SOFT,0
+Belgian Grand Prix,Driver_PIA,SOFT,0
+Belgian Grand Prix,Driver_RIC,HARD,0
+Belgian Grand Prix,Driver_RIC,MEDIUM,0
+Belgian Grand Prix,Driver_RIC,MEDIUM,0
+Belgian Grand Prix,Driver_RIC,SOFT,0
+Belgian Grand Prix,Driver_RIC,SOFT,0
+Belgian Grand Prix,Driver_RIC,SOFT,0
+Belgian Grand Prix,Driver_RIC,SOFT,0
+Belgian Grand Prix,Driver_RUS,HARD,0
+Belgian Grand Prix,Driver_RUS,HARD,0
+Belgian Grand Prix,Driver_RUS,MEDIUM,0
+Belgian Grand Prix,Driver_RUS,SOFT,0
+Belgian Grand Prix,Driver_RUS,SOFT,0
+Belgian Grand Prix,Driver_RUS,SOFT,0
+Belgian Grand Prix,Driver_SAI,HARD,0
+Belgian Grand Prix,Driver_SAI,HARD,0
+Belgian Grand Prix,Driver_SAI,MEDIUM,0
+Belgian Grand Prix,Driver_SAI,SOFT,0
+Belgian Grand Prix,Driver_SAI,SOFT,0
+Belgian Grand Prix,Driver_SAI,SOFT,0
+Belgian Grand Prix,Driver_SAR,HARD,0
+Belgian Grand Prix,Driver_SAR,MEDIUM,0
+Belgian Grand Prix,Driver_SAR,MEDIUM,0
+Belgian Grand Prix,Driver_SAR,SOFT,0
+Belgian Grand Prix,Driver_SAR,SOFT,0
+Belgian Grand Prix,Driver_SAR,SOFT,0
+Belgian Grand Prix,Driver_SAR,SOFT,0
+Belgian Grand Prix,Driver_STR,HARD,0
+Belgian Grand Prix,Driver_STR,MEDIUM,0
+Belgian Grand Prix,Driver_STR,MEDIUM,0
+Belgian Grand Prix,Driver_STR,SOFT,0
+Belgian Grand Prix,Driver_STR,SOFT,0
+Belgian Grand Prix,Driver_STR,SOFT,0
+Belgian Grand Prix,Driver_STR,SOFT,0
+Belgian Grand Prix,Driver_TSU,HARD,0
+Belgian Grand Prix,Driver_TSU,MEDIUM,0
+Belgian Grand Prix,Driver_TSU,MEDIUM,0
+Belgian Grand Prix,Driver_TSU,SOFT,0
+Belgian Grand Prix,Driver_TSU,SOFT,0
+Belgian Grand Prix,Driver_TSU,SOFT,0
+Belgian Grand Prix,Driver_TSU,SOFT,0
+Belgian Grand Prix,Driver_VER,HARD,0
+Belgian Grand Prix,Driver_VER,MEDIUM,0
+Belgian Grand Prix,Driver_VER,MEDIUM,0
+Belgian Grand Prix,Driver_VER,SOFT,0
+Belgian Grand Prix,Driver_VER,SOFT,0
+Belgian Grand Prix,Driver_VER,SOFT,0
+Belgian Grand Prix,Driver_ZHO,HARD,0
+Belgian Grand Prix,Driver_ZHO,MEDIUM,0
+Belgian Grand Prix,Driver_ZHO,SOFT,0
+Belgian Grand Prix,Driver_ZHO,SOFT,0
+Belgian Grand Prix,Driver_ZHO,SOFT,0
+Belgian Grand Prix,Driver_ZHO,SOFT,0
+Belgian Grand Prix,Driver_ZHO,SOFT,0
+British Grand Prix,Driver_ALB,HARD,0
+British Grand Prix,Driver_ALB,MEDIUM,0
+British Grand Prix,Driver_ALB,MEDIUM,0
+British Grand Prix,Driver_ALB,SOFT,2
+British Grand Prix,Driver_ALB,SOFT,2
+British Grand Prix,Driver_ALB,SOFT,4
+British Grand Prix,Driver_ALO,HARD,0
+British Grand Prix,Driver_ALO,MEDIUM,0
+British Grand Prix,Driver_ALO,MEDIUM,0
+British Grand Prix,Driver_ALO,SOFT,1
+British Grand Prix,Driver_ALO,SOFT,3
+British Grand Prix,Driver_ALO,SOFT,3
+British Grand Prix,Driver_BOT,HARD,0
+British Grand Prix,Driver_BOT,MEDIUM,0
+British Grand Prix,Driver_BOT,MEDIUM,0
+British Grand Prix,Driver_BOT,SOFT,0
+British Grand Prix,Driver_BOT,SOFT,0
+British Grand Prix,Driver_BOT,SOFT,1
+British Grand Prix,Driver_BOT,SOFT,2
+British Grand Prix,Driver_GAS,HARD,0
+British Grand Prix,Driver_GAS,MEDIUM,0
+British Grand Prix,Driver_GAS,MEDIUM,0
+British Grand Prix,Driver_GAS,SOFT,0
+British Grand Prix,Driver_GAS,SOFT,0
+British Grand Prix,Driver_GAS,SOFT,0
+British Grand Prix,Driver_GAS,SOFT,0
+British Grand Prix,Driver_HAM,HARD,0
+British Grand Prix,Driver_HAM,MEDIUM,0
+British Grand Prix,Driver_HAM,SOFT,0
+British Grand Prix,Driver_HAM,SOFT,1
+British Grand Prix,Driver_HAM,SOFT,1
+British Grand Prix,Driver_HAM,SOFT,2
+British Grand Prix,Driver_HUL,HARD,0
+British Grand Prix,Driver_HUL,MEDIUM,0
+British Grand Prix,Driver_HUL,SOFT,1
+British Grand Prix,Driver_HUL,SOFT,1
+British Grand Prix,Driver_HUL,SOFT,1
+British Grand Prix,Driver_HUL,SOFT,1
+British Grand Prix,Driver_LEC,HARD,0
+British Grand Prix,Driver_LEC,MEDIUM,0
+British Grand Prix,Driver_LEC,SOFT,0
+British Grand Prix,Driver_LEC,SOFT,0
+British Grand Prix,Driver_LEC,SOFT,2
+British Grand Prix,Driver_LEC,SOFT,3
+British Grand Prix,Driver_LEC,SOFT,4
+British Grand Prix,Driver_MAG,HARD,0
+British Grand Prix,Driver_MAG,MEDIUM,0
+British Grand Prix,Driver_MAG,MEDIUM,0
+British Grand Prix,Driver_MAG,SOFT,0
+British Grand Prix,Driver_MAG,SOFT,0
+British Grand Prix,Driver_MAG,SOFT,0
+British Grand Prix,Driver_MAG,SOFT,1
+British Grand Prix,Driver_NOR,HARD,0
+British Grand Prix,Driver_NOR,MEDIUM,0
+British Grand Prix,Driver_NOR,MEDIUM,0
+British Grand Prix,Driver_NOR,SOFT,1
+British Grand Prix,Driver_NOR,SOFT,2
+British Grand Prix,Driver_NOR,SOFT,2
+British Grand Prix,Driver_OCO,HARD,0
+British Grand Prix,Driver_OCO,MEDIUM,0
+British Grand Prix,Driver_OCO,MEDIUM,0
+British Grand Prix,Driver_OCO,SOFT,0
+British Grand Prix,Driver_OCO,SOFT,0
+British Grand Prix,Driver_OCO,SOFT,0
+British Grand Prix,Driver_OCO,SOFT,3
+British Grand Prix,Driver_PER,HARD,0
+British Grand Prix,Driver_PER,MEDIUM,0
+British Grand Prix,Driver_PER,MEDIUM,2
+British Grand Prix,Driver_PER,SOFT,0
+British Grand Prix,Driver_PER,SOFT,0
+British Grand Prix,Driver_PER,SOFT,0
+British Grand Prix,Driver_PER,SOFT,0
+British Grand Prix,Driver_PIA,HARD,0
+British Grand Prix,Driver_PIA,MEDIUM,0
+British Grand Prix,Driver_PIA,MEDIUM,0
+British Grand Prix,Driver_PIA,SOFT,1
+British Grand Prix,Driver_PIA,SOFT,1
+British Grand Prix,Driver_PIA,SOFT,3
+British Grand Prix,Driver_RIC,HARD,0
+British Grand Prix,Driver_RIC,MEDIUM,0
+British Grand Prix,Driver_RIC,MEDIUM,0
+British Grand Prix,Driver_RIC,SOFT,0
+British Grand Prix,Driver_RIC,SOFT,3
+British Grand Prix,Driver_RIC,SOFT,3
+British Grand Prix,Driver_RIC,SOFT,3
+British Grand Prix,Driver_RUS,HARD,0
+British Grand Prix,Driver_RUS,MEDIUM,0
+British Grand Prix,Driver_RUS,SOFT,0
+British Grand Prix,Driver_RUS,SOFT,2
+British Grand Prix,Driver_RUS,SOFT,2
+British Grand Prix,Driver_RUS,SOFT,3
+British Grand Prix,Driver_SAI,HARD,0
+British Grand Prix,Driver_SAI,MEDIUM,0
+British Grand Prix,Driver_SAI,SOFT,2
+British Grand Prix,Driver_SAI,SOFT,2
+British Grand Prix,Driver_SAI,SOFT,2
+British Grand Prix,Driver_SAI,SOFT,4
+British Grand Prix,Driver_SAR,HARD,0
+British Grand Prix,Driver_SAR,MEDIUM,0
+British Grand Prix,Driver_SAR,MEDIUM,0
+British Grand Prix,Driver_SAR,SOFT,0
+British Grand Prix,Driver_SAR,SOFT,3
+British Grand Prix,Driver_SAR,SOFT,4
+British Grand Prix,Driver_SAR,SOFT,4
+British Grand Prix,Driver_STR,HARD,0
+British Grand Prix,Driver_STR,MEDIUM,0
+British Grand Prix,Driver_STR,MEDIUM,0
+British Grand Prix,Driver_STR,SOFT,2
+British Grand Prix,Driver_STR,SOFT,3
+British Grand Prix,Driver_STR,SOFT,3
+British Grand Prix,Driver_TSU,HARD,0
+British Grand Prix,Driver_TSU,MEDIUM,0
+British Grand Prix,Driver_TSU,SOFT,0
+British Grand Prix,Driver_TSU,SOFT,0
+British Grand Prix,Driver_TSU,SOFT,2
+British Grand Prix,Driver_TSU,SOFT,3
+British Grand Prix,Driver_TSU,SOFT,3
+British Grand Prix,Driver_VER,HARD,0
+British Grand Prix,Driver_VER,MEDIUM,0
+British Grand Prix,Driver_VER,SOFT,2
+British Grand Prix,Driver_VER,SOFT,2
+British Grand Prix,Driver_VER,SOFT,2
+British Grand Prix,Driver_VER,SOFT,3
+British Grand Prix,Driver_ZHO,HARD,0
+British Grand Prix,Driver_ZHO,MEDIUM,0
+British Grand Prix,Driver_ZHO,SOFT,0
+British Grand Prix,Driver_ZHO,SOFT,0
+British Grand Prix,Driver_ZHO,SOFT,3
+British Grand Prix,Driver_ZHO,SOFT,3
+British Grand Prix,Driver_ZHO,SOFT,3
+Canadian Grand Prix,Driver_ALB,HARD,0
+Canadian Grand Prix,Driver_ALB,MEDIUM,0
+Canadian Grand Prix,Driver_ALB,SOFT,3
+Canadian Grand Prix,Driver_ALB,SOFT,4
+Canadian Grand Prix,Driver_ALB,SOFT,4
+Canadian Grand Prix,Driver_ALB,SOFT,4
+Canadian Grand Prix,Driver_ALB,SOFT,5
+Canadian Grand Prix,Driver_ALO,HARD,0
+Canadian Grand Prix,Driver_ALO,HARD,4
+Canadian Grand Prix,Driver_ALO,MEDIUM,0
+Canadian Grand Prix,Driver_ALO,MEDIUM,0
+Canadian Grand Prix,Driver_ALO,SOFT,2
+Canadian Grand Prix,Driver_ALO,SOFT,2
+Canadian Grand Prix,Driver_ALO,SOFT,3
+Canadian Grand Prix,Driver_ALO,SOFT,3
+Canadian Grand Prix,Driver_BOT,HARD,0
+Canadian Grand Prix,Driver_BOT,HARD,0
+Canadian Grand Prix,Driver_BOT,MEDIUM,0
+Canadian Grand Prix,Driver_BOT,MEDIUM,8
+Canadian Grand Prix,Driver_BOT,SOFT,0
+Canadian Grand Prix,Driver_BOT,SOFT,2
+Canadian Grand Prix,Driver_BOT,SOFT,2
+Canadian Grand Prix,Driver_GAS,HARD,0
+Canadian Grand Prix,Driver_GAS,HARD,0
+Canadian Grand Prix,Driver_GAS,MEDIUM,0
+Canadian Grand Prix,Driver_GAS,SOFT,0
+Canadian Grand Prix,Driver_GAS,SOFT,2
+Canadian Grand Prix,Driver_GAS,SOFT,2
+Canadian Grand Prix,Driver_GAS,SOFT,3
+Canadian Grand Prix,Driver_HAM,HARD,0
+Canadian Grand Prix,Driver_HAM,MEDIUM,0
+Canadian Grand Prix,Driver_HAM,SOFT,1
+Canadian Grand Prix,Driver_HAM,SOFT,2
+Canadian Grand Prix,Driver_HAM,SOFT,3
+Canadian Grand Prix,Driver_HAM,SOFT,4
+Canadian Grand Prix,Driver_HUL,HARD,0
+Canadian Grand Prix,Driver_HUL,HARD,0
+Canadian Grand Prix,Driver_HUL,MEDIUM,0
+Canadian Grand Prix,Driver_HUL,MEDIUM,0
+Canadian Grand Prix,Driver_HUL,SOFT,0
+Canadian Grand Prix,Driver_HUL,SOFT,2
+Canadian Grand Prix,Driver_HUL,SOFT,2
+Canadian Grand Prix,Driver_LEC,HARD,0
+Canadian Grand Prix,Driver_LEC,MEDIUM,0
+Canadian Grand Prix,Driver_LEC,MEDIUM,5
+Canadian Grand Prix,Driver_LEC,SOFT,0
+Canadian Grand Prix,Driver_LEC,SOFT,5
+Canadian Grand Prix,Driver_LEC,SOFT,6
+Canadian Grand Prix,Driver_LEC,SOFT,6
+Canadian Grand Prix,Driver_MAG,HARD,0
+Canadian Grand Prix,Driver_MAG,HARD,0
+Canadian Grand Prix,Driver_MAG,MEDIUM,0
+Canadian Grand Prix,Driver_MAG,SOFT,0
+Canadian Grand Prix,Driver_MAG,SOFT,3
+Canadian Grand Prix,Driver_MAG,SOFT,3
+Canadian Grand Prix,Driver_MAG,SOFT,3
+Canadian Grand Prix,Driver_NOR,HARD,0
+Canadian Grand Prix,Driver_NOR,HARD,0
+Canadian Grand Prix,Driver_NOR,MEDIUM,0
+Canadian Grand Prix,Driver_NOR,SOFT,3
+Canadian Grand Prix,Driver_NOR,SOFT,3
+Canadian Grand Prix,Driver_NOR,SOFT,3
+Canadian Grand Prix,Driver_NOR,SOFT,4
+Canadian Grand Prix,Driver_OCO,HARD,0
+Canadian Grand Prix,Driver_OCO,HARD,0
+Canadian Grand Prix,Driver_OCO,MEDIUM,0
+Canadian Grand Prix,Driver_OCO,MEDIUM,0
+Canadian Grand Prix,Driver_OCO,SOFT,0
+Canadian Grand Prix,Driver_OCO,SOFT,4
+Canadian Grand Prix,Driver_OCO,SOFT,4
+Canadian Grand Prix,Driver_PER,HARD,0
+Canadian Grand Prix,Driver_PER,HARD,0
+Canadian Grand Prix,Driver_PER,MEDIUM,0
+Canadian Grand Prix,Driver_PER,MEDIUM,0
+Canadian Grand Prix,Driver_PER,SOFT,0
+Canadian Grand Prix,Driver_PER,SOFT,1
+Canadian Grand Prix,Driver_PER,SOFT,2
+Canadian Grand Prix,Driver_PIA,HARD,0
+Canadian Grand Prix,Driver_PIA,HARD,0
+Canadian Grand Prix,Driver_PIA,MEDIUM,0
+Canadian Grand Prix,Driver_PIA,SOFT,3
+Canadian Grand Prix,Driver_PIA,SOFT,4
+Canadian Grand Prix,Driver_PIA,SOFT,4
+Canadian Grand Prix,Driver_PIA,SOFT,5
+Canadian Grand Prix,Driver_RIC,HARD,0
+Canadian Grand Prix,Driver_RIC,HARD,0
+Canadian Grand Prix,Driver_RIC,MEDIUM,0
+Canadian Grand Prix,Driver_RIC,MEDIUM,0
+Canadian Grand Prix,Driver_RIC,SOFT,1
+Canadian Grand Prix,Driver_RIC,SOFT,2
+Canadian Grand Prix,Driver_RIC,SOFT,3
+Canadian Grand Prix,Driver_RIC,SOFT,3
+Canadian Grand Prix,Driver_RUS,HARD,0
+Canadian Grand Prix,Driver_RUS,MEDIUM,0
+Canadian Grand Prix,Driver_RUS,SOFT,1
+Canadian Grand Prix,Driver_RUS,SOFT,2
+Canadian Grand Prix,Driver_RUS,SOFT,3
+Canadian Grand Prix,Driver_RUS,SOFT,4
+Canadian Grand Prix,Driver_SAI,HARD,0
+Canadian Grand Prix,Driver_SAI,MEDIUM,0
+Canadian Grand Prix,Driver_SAI,MEDIUM,6
+Canadian Grand Prix,Driver_SAI,SOFT,0
+Canadian Grand Prix,Driver_SAI,SOFT,4
+Canadian Grand Prix,Driver_SAI,SOFT,4
+Canadian Grand Prix,Driver_SAI,SOFT,4
+Canadian Grand Prix,Driver_SAR,HARD,0
+Canadian Grand Prix,Driver_SAR,MEDIUM,0
+Canadian Grand Prix,Driver_SAR,SOFT,0
+Canadian Grand Prix,Driver_SAR,SOFT,3
+Canadian Grand Prix,Driver_SAR,SOFT,4
+Canadian Grand Prix,Driver_SAR,SOFT,4
+Canadian Grand Prix,Driver_SAR,SOFT,5
+Canadian Grand Prix,Driver_SAR,SOFT,5
+Canadian Grand Prix,Driver_STR,HARD,0
+Canadian Grand Prix,Driver_STR,HARD,4
+Canadian Grand Prix,Driver_STR,MEDIUM,0
+Canadian Grand Prix,Driver_STR,MEDIUM,0
+Canadian Grand Prix,Driver_STR,SOFT,2
+Canadian Grand Prix,Driver_STR,SOFT,4
+Canadian Grand Prix,Driver_STR,SOFT,5
+Canadian Grand Prix,Driver_STR,SOFT,6
+Canadian Grand Prix,Driver_TSU,HARD,0
+Canadian Grand Prix,Driver_TSU,HARD,0
+Canadian Grand Prix,Driver_TSU,MEDIUM,0
+Canadian Grand Prix,Driver_TSU,MEDIUM,0
+Canadian Grand Prix,Driver_TSU,SOFT,1
+Canadian Grand Prix,Driver_TSU,SOFT,1
+Canadian Grand Prix,Driver_TSU,SOFT,3
+Canadian Grand Prix,Driver_TSU,SOFT,3
+Canadian Grand Prix,Driver_VER,HARD,0
+Canadian Grand Prix,Driver_VER,MEDIUM,0
+Canadian Grand Prix,Driver_VER,SOFT,2
+Canadian Grand Prix,Driver_VER,SOFT,2
+Canadian Grand Prix,Driver_VER,SOFT,5
+Canadian Grand Prix,Driver_VER,SOFT,6
+Canadian Grand Prix,Driver_ZHO,HARD,0
+Canadian Grand Prix,Driver_ZHO,HARD,0
+Canadian Grand Prix,Driver_ZHO,MEDIUM,0
+Canadian Grand Prix,Driver_ZHO,MEDIUM,0
+Canadian Grand Prix,Driver_ZHO,SOFT,0
+Canadian Grand Prix,Driver_ZHO,SOFT,4
+Canadian Grand Prix,Driver_ZHO,SOFT,4
+Chinese Grand Prix,Driver_ALB,HARD,0
+Chinese Grand Prix,Driver_ALB,HARD,0
+Chinese Grand Prix,Driver_ALB,MEDIUM,0
+Chinese Grand Prix,Driver_ALB,MEDIUM,0
+Chinese Grand Prix,Driver_ALB,SOFT,1
+Chinese Grand Prix,Driver_ALB,SOFT,1
+Chinese Grand Prix,Driver_ALB,SOFT,1
+Chinese Grand Prix,Driver_ALO,HARD,0
+Chinese Grand Prix,Driver_ALO,MEDIUM,0
+Chinese Grand Prix,Driver_ALO,MEDIUM,0
+Chinese Grand Prix,Driver_ALO,MEDIUM,3
+Chinese Grand Prix,Driver_ALO,SOFT,0
+Chinese Grand Prix,Driver_ALO,SOFT,1
+Chinese Grand Prix,Driver_ALO,SOFT,1
+Chinese Grand Prix,Driver_BOT,HARD,0
+Chinese Grand Prix,Driver_BOT,HARD,0
+Chinese Grand Prix,Driver_BOT,MEDIUM,0
+Chinese Grand Prix,Driver_BOT,MEDIUM,3
+Chinese Grand Prix,Driver_BOT,SOFT,1
+Chinese Grand Prix,Driver_BOT,SOFT,1
+Chinese Grand Prix,Driver_BOT,SOFT,1
+Chinese Grand Prix,Driver_GAS,HARD,0
+Chinese Grand Prix,Driver_GAS,HARD,0
+Chinese Grand Prix,Driver_GAS,MEDIUM,0
+Chinese Grand Prix,Driver_GAS,MEDIUM,0
+Chinese Grand Prix,Driver_GAS,MEDIUM,2
+Chinese Grand Prix,Driver_GAS,SOFT,1
+Chinese Grand Prix,Driver_GAS,SOFT,1
+Chinese Grand Prix,Driver_HAM,HARD,0
+Chinese Grand Prix,Driver_HAM,MEDIUM,0
+Chinese Grand Prix,Driver_HAM,MEDIUM,1
+Chinese Grand Prix,Driver_HAM,SOFT,0
+Chinese Grand Prix,Driver_HAM,SOFT,0
+Chinese Grand Prix,Driver_HAM,SOFT,0
+Chinese Grand Prix,Driver_HAM,SOFT,0
+Chinese Grand Prix,Driver_HUL,HARD,0
+Chinese Grand Prix,Driver_HUL,HARD,0
+Chinese Grand Prix,Driver_HUL,MEDIUM,0
+Chinese Grand Prix,Driver_HUL,MEDIUM,2
+Chinese Grand Prix,Driver_HUL,SOFT,1
+Chinese Grand Prix,Driver_HUL,SOFT,1
+Chinese Grand Prix,Driver_HUL,SOFT,1
+Chinese Grand Prix,Driver_LEC,HARD,0
+Chinese Grand Prix,Driver_LEC,HARD,0
+Chinese Grand Prix,Driver_LEC,MEDIUM,0
+Chinese Grand Prix,Driver_LEC,MEDIUM,0
+Chinese Grand Prix,Driver_LEC,MEDIUM,2
+Chinese Grand Prix,Driver_LEC,SOFT,1
+Chinese Grand Prix,Driver_LEC,SOFT,1
+Chinese Grand Prix,Driver_MAG,HARD,0
+Chinese Grand Prix,Driver_MAG,HARD,0
+Chinese Grand Prix,Driver_MAG,MEDIUM,0
+Chinese Grand Prix,Driver_MAG,MEDIUM,2
+Chinese Grand Prix,Driver_MAG,SOFT,0
+Chinese Grand Prix,Driver_MAG,SOFT,0
+Chinese Grand Prix,Driver_MAG,SOFT,0
+Chinese Grand Prix,Driver_NOR,HARD,0
+Chinese Grand Prix,Driver_NOR,MEDIUM,0
+Chinese Grand Prix,Driver_NOR,MEDIUM,1
+Chinese Grand Prix,Driver_NOR,MEDIUM,2
+Chinese Grand Prix,Driver_NOR,SOFT,0
+Chinese Grand Prix,Driver_NOR,SOFT,1
+Chinese Grand Prix,Driver_NOR,SOFT,1
+Chinese Grand Prix,Driver_OCO,HARD,0
+Chinese Grand Prix,Driver_OCO,HARD,0
+Chinese Grand Prix,Driver_OCO,MEDIUM,0
+Chinese Grand Prix,Driver_OCO,MEDIUM,0
+Chinese Grand Prix,Driver_OCO,MEDIUM,2
+Chinese Grand Prix,Driver_OCO,SOFT,1
+Chinese Grand Prix,Driver_OCO,SOFT,1
+Chinese Grand Prix,Driver_PER,HARD,0
+Chinese Grand Prix,Driver_PER,HARD,0
+Chinese Grand Prix,Driver_PER,MEDIUM,0
+Chinese Grand Prix,Driver_PER,MEDIUM,1
+Chinese Grand Prix,Driver_PER,SOFT,1
+Chinese Grand Prix,Driver_PER,SOFT,1
+Chinese Grand Prix,Driver_PER,SOFT,1
+Chinese Grand Prix,Driver_PIA,HARD,0
+Chinese Grand Prix,Driver_PIA,MEDIUM,0
+Chinese Grand Prix,Driver_PIA,MEDIUM,0
+Chinese Grand Prix,Driver_PIA,MEDIUM,2
+Chinese Grand Prix,Driver_PIA,SOFT,1
+Chinese Grand Prix,Driver_PIA,SOFT,1
+Chinese Grand Prix,Driver_PIA,SOFT,1
+Chinese Grand Prix,Driver_RIC,HARD,0
+Chinese Grand Prix,Driver_RIC,MEDIUM,0
+Chinese Grand Prix,Driver_RIC,MEDIUM,0
+Chinese Grand Prix,Driver_RIC,MEDIUM,2
+Chinese Grand Prix,Driver_RIC,SOFT,0
+Chinese Grand Prix,Driver_RIC,SOFT,1
+Chinese Grand Prix,Driver_RIC,SOFT,1
+Chinese Grand Prix,Driver_RUS,HARD,0
+Chinese Grand Prix,Driver_RUS,MEDIUM,0
+Chinese Grand Prix,Driver_RUS,MEDIUM,0
+Chinese Grand Prix,Driver_RUS,MEDIUM,1
+Chinese Grand Prix,Driver_RUS,MEDIUM,2
+Chinese Grand Prix,Driver_RUS,SOFT,1
+Chinese Grand Prix,Driver_RUS,SOFT,1
+Chinese Grand Prix,Driver_SAI,HARD,0
+Chinese Grand Prix,Driver_SAI,HARD,0
+Chinese Grand Prix,Driver_SAI,MEDIUM,0
+Chinese Grand Prix,Driver_SAI,MEDIUM,2
+Chinese Grand Prix,Driver_SAI,SOFT,1
+Chinese Grand Prix,Driver_SAI,SOFT,1
+Chinese Grand Prix,Driver_SAI,SOFT,1
+Chinese Grand Prix,Driver_SAR,HARD,0
+Chinese Grand Prix,Driver_SAR,HARD,0
+Chinese Grand Prix,Driver_SAR,MEDIUM,0
+Chinese Grand Prix,Driver_SAR,MEDIUM,0
+Chinese Grand Prix,Driver_SAR,SOFT,0
+Chinese Grand Prix,Driver_SAR,SOFT,0
+Chinese Grand Prix,Driver_SAR,SOFT,1
+Chinese Grand Prix,Driver_STR,HARD,0
+Chinese Grand Prix,Driver_STR,MEDIUM,0
+Chinese Grand Prix,Driver_STR,MEDIUM,0
+Chinese Grand Prix,Driver_STR,MEDIUM,2
+Chinese Grand Prix,Driver_STR,SOFT,0
+Chinese Grand Prix,Driver_STR,SOFT,1
+Chinese Grand Prix,Driver_STR,SOFT,1
+Chinese Grand Prix,Driver_TSU,HARD,0
+Chinese Grand Prix,Driver_TSU,MEDIUM,0
+Chinese Grand Prix,Driver_TSU,MEDIUM,0
+Chinese Grand Prix,Driver_TSU,MEDIUM,2
+Chinese Grand Prix,Driver_TSU,SOFT,0
+Chinese Grand Prix,Driver_TSU,SOFT,0
+Chinese Grand Prix,Driver_TSU,SOFT,1
+Chinese Grand Prix,Driver_VER,HARD,0
+Chinese Grand Prix,Driver_VER,HARD,0
+Chinese Grand Prix,Driver_VER,MEDIUM,0
+Chinese Grand Prix,Driver_VER,MEDIUM,1
+Chinese Grand Prix,Driver_VER,SOFT,1
+Chinese Grand Prix,Driver_VER,SOFT,1
+Chinese Grand Prix,Driver_VER,SOFT,1
+Chinese Grand Prix,Driver_ZHO,HARD,0
+Chinese Grand Prix,Driver_ZHO,HARD,0
+Chinese Grand Prix,Driver_ZHO,MEDIUM,0
+Chinese Grand Prix,Driver_ZHO,MEDIUM,3
+Chinese Grand Prix,Driver_ZHO,SOFT,0
+Chinese Grand Prix,Driver_ZHO,SOFT,0
+Chinese Grand Prix,Driver_ZHO,SOFT,1
+Dutch Grand Prix,Driver_ALB,HARD,0
+Dutch Grand Prix,Driver_ALB,MEDIUM,0
+Dutch Grand Prix,Driver_ALB,MEDIUM,0
+Dutch Grand Prix,Driver_ALB,SOFT,1
+Dutch Grand Prix,Driver_ALB,SOFT,1
+Dutch Grand Prix,Driver_ALB,SOFT,2
+Dutch Grand Prix,Driver_ALO,HARD,0
+Dutch Grand Prix,Driver_ALO,MEDIUM,0
+Dutch Grand Prix,Driver_ALO,SOFT,1
+Dutch Grand Prix,Driver_ALO,SOFT,1
+Dutch Grand Prix,Driver_ALO,SOFT,1
+Dutch Grand Prix,Driver_ALO,SOFT,1
+Dutch Grand Prix,Driver_BOT,HARD,0
+Dutch Grand Prix,Driver_BOT,HARD,0
+Dutch Grand Prix,Driver_BOT,MEDIUM,0
+Dutch Grand Prix,Driver_BOT,MEDIUM,0
+Dutch Grand Prix,Driver_BOT,SOFT,0
+Dutch Grand Prix,Driver_BOT,SOFT,1
+Dutch Grand Prix,Driver_BOT,SOFT,2
+Dutch Grand Prix,Driver_GAS,HARD,0
+Dutch Grand Prix,Driver_GAS,MEDIUM,0
+Dutch Grand Prix,Driver_GAS,SOFT,1
+Dutch Grand Prix,Driver_GAS,SOFT,1
+Dutch Grand Prix,Driver_GAS,SOFT,1
+Dutch Grand Prix,Driver_GAS,SOFT,3
+Dutch Grand Prix,Driver_HAM,HARD,0
+Dutch Grand Prix,Driver_HAM,HARD,0
+Dutch Grand Prix,Driver_HAM,MEDIUM,0
+Dutch Grand Prix,Driver_HAM,SOFT,0
+Dutch Grand Prix,Driver_HAM,SOFT,1
+Dutch Grand Prix,Driver_HAM,SOFT,1
+Dutch Grand Prix,Driver_HAM,SOFT,2
+Dutch Grand Prix,Driver_HUL,HARD,0
+Dutch Grand Prix,Driver_HUL,MEDIUM,0
+Dutch Grand Prix,Driver_HUL,SOFT,0
+Dutch Grand Prix,Driver_HUL,SOFT,1
+Dutch Grand Prix,Driver_HUL,SOFT,1
+Dutch Grand Prix,Driver_HUL,SOFT,3
+Dutch Grand Prix,Driver_HUL,SOFT,3
+Dutch Grand Prix,Driver_LEC,HARD,0
+Dutch Grand Prix,Driver_LEC,MEDIUM,0
+Dutch Grand Prix,Driver_LEC,SOFT,1
+Dutch Grand Prix,Driver_LEC,SOFT,1
+Dutch Grand Prix,Driver_LEC,SOFT,2
+Dutch Grand Prix,Driver_LEC,SOFT,2
+Dutch Grand Prix,Driver_MAG,HARD,0
+Dutch Grand Prix,Driver_MAG,MEDIUM,0
+Dutch Grand Prix,Driver_MAG,SOFT,0
+Dutch Grand Prix,Driver_MAG,SOFT,1
+Dutch Grand Prix,Driver_MAG,SOFT,1
+Dutch Grand Prix,Driver_MAG,SOFT,1
+Dutch Grand Prix,Driver_MAG,SOFT,2
+Dutch Grand Prix,Driver_NOR,HARD,0
+Dutch Grand Prix,Driver_NOR,HARD,0
+Dutch Grand Prix,Driver_NOR,MEDIUM,0
+Dutch Grand Prix,Driver_NOR,SOFT,1
+Dutch Grand Prix,Driver_NOR,SOFT,1
+Dutch Grand Prix,Driver_NOR,SOFT,1
+Dutch Grand Prix,Driver_OCO,HARD,0
+Dutch Grand Prix,Driver_OCO,HARD,0
+Dutch Grand Prix,Driver_OCO,MEDIUM,0
+Dutch Grand Prix,Driver_OCO,SOFT,0
+Dutch Grand Prix,Driver_OCO,SOFT,1
+Dutch Grand Prix,Driver_OCO,SOFT,1
+Dutch Grand Prix,Driver_OCO,SOFT,1
+Dutch Grand Prix,Driver_PER,HARD,0
+Dutch Grand Prix,Driver_PER,MEDIUM,0
+Dutch Grand Prix,Driver_PER,SOFT,1
+Dutch Grand Prix,Driver_PER,SOFT,1
+Dutch Grand Prix,Driver_PER,SOFT,1
+Dutch Grand Prix,Driver_PER,SOFT,1
+Dutch Grand Prix,Driver_PIA,HARD,0
+Dutch Grand Prix,Driver_PIA,HARD,0
+Dutch Grand Prix,Driver_PIA,MEDIUM,0
+Dutch Grand Prix,Driver_PIA,SOFT,1
+Dutch Grand Prix,Driver_PIA,SOFT,1
+Dutch Grand Prix,Driver_PIA,SOFT,1
+Dutch Grand Prix,Driver_RIC,HARD,0
+Dutch Grand Prix,Driver_RIC,HARD,0
+Dutch Grand Prix,Driver_RIC,MEDIUM,0
+Dutch Grand Prix,Driver_RIC,MEDIUM,0
+Dutch Grand Prix,Driver_RIC,SOFT,0
+Dutch Grand Prix,Driver_RIC,SOFT,1
+Dutch Grand Prix,Driver_RIC,SOFT,2
+Dutch Grand Prix,Driver_RUS,HARD,0
+Dutch Grand Prix,Driver_RUS,MEDIUM,0
+Dutch Grand Prix,Driver_RUS,SOFT,1
+Dutch Grand Prix,Driver_RUS,SOFT,1
+Dutch Grand Prix,Driver_RUS,SOFT,1
+Dutch Grand Prix,Driver_RUS,SOFT,1
+Dutch Grand Prix,Driver_SAI,HARD,0
+Dutch Grand Prix,Driver_SAI,HARD,0
+Dutch Grand Prix,Driver_SAI,MEDIUM,0
+Dutch Grand Prix,Driver_SAI,SOFT,1
+Dutch Grand Prix,Driver_SAI,SOFT,1
+Dutch Grand Prix,Driver_SAI,SOFT,2
+Dutch Grand Prix,Driver_SAR,HARD,0
+Dutch Grand Prix,Driver_SAR,HARD,0
+Dutch Grand Prix,Driver_SAR,MEDIUM,0
+Dutch Grand Prix,Driver_SAR,MEDIUM,0
+Dutch Grand Prix,Driver_SAR,SOFT,0
+Dutch Grand Prix,Driver_SAR,SOFT,0
+Dutch Grand Prix,Driver_SAR,SOFT,0
+Dutch Grand Prix,Driver_STR,HARD,0
+Dutch Grand Prix,Driver_STR,MEDIUM,0
+Dutch Grand Prix,Driver_STR,SOFT,1
+Dutch Grand Prix,Driver_STR,SOFT,1
+Dutch Grand Prix,Driver_STR,SOFT,1
+Dutch Grand Prix,Driver_STR,SOFT,2
+Dutch Grand Prix,Driver_TSU,HARD,0
+Dutch Grand Prix,Driver_TSU,MEDIUM,0
+Dutch Grand Prix,Driver_TSU,MEDIUM,0
+Dutch Grand Prix,Driver_TSU,SOFT,0
+Dutch Grand Prix,Driver_TSU,SOFT,1
+Dutch Grand Prix,Driver_TSU,SOFT,2
+Dutch Grand Prix,Driver_TSU,SOFT,2
+Dutch Grand Prix,Driver_VER,HARD,0
+Dutch Grand Prix,Driver_VER,HARD,0
+Dutch Grand Prix,Driver_VER,MEDIUM,0
+Dutch Grand Prix,Driver_VER,SOFT,1
+Dutch Grand Prix,Driver_VER,SOFT,1
+Dutch Grand Prix,Driver_VER,SOFT,1
+Dutch Grand Prix,Driver_ZHO,HARD,0
+Dutch Grand Prix,Driver_ZHO,HARD,0
+Dutch Grand Prix,Driver_ZHO,MEDIUM,0
+Dutch Grand Prix,Driver_ZHO,SOFT,0
+Dutch Grand Prix,Driver_ZHO,SOFT,1
+Dutch Grand Prix,Driver_ZHO,SOFT,1
+Dutch Grand Prix,Driver_ZHO,SOFT,1
+Emilia Romagna Grand Prix,Driver_ALB,HARD,2
+Emilia Romagna Grand Prix,Driver_ALB,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_ALB,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_ALB,SOFT,0
+Emilia Romagna Grand Prix,Driver_ALB,SOFT,1
+Emilia Romagna Grand Prix,Driver_ALB,SOFT,1
+Emilia Romagna Grand Prix,Driver_ALB,SOFT,2
+Emilia Romagna Grand Prix,Driver_ALO,HARD,0
+Emilia Romagna Grand Prix,Driver_ALO,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_ALO,SOFT,0
+Emilia Romagna Grand Prix,Driver_ALO,SOFT,0
+Emilia Romagna Grand Prix,Driver_ALO,SOFT,1
+Emilia Romagna Grand Prix,Driver_ALO,SOFT,1
+Emilia Romagna Grand Prix,Driver_ALO,SOFT,1
+Emilia Romagna Grand Prix,Driver_BOT,HARD,0
+Emilia Romagna Grand Prix,Driver_BOT,HARD,0
+Emilia Romagna Grand Prix,Driver_BOT,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_BOT,SOFT,0
+Emilia Romagna Grand Prix,Driver_BOT,SOFT,0
+Emilia Romagna Grand Prix,Driver_BOT,SOFT,1
+Emilia Romagna Grand Prix,Driver_BOT,SOFT,1
+Emilia Romagna Grand Prix,Driver_GAS,HARD,0
+Emilia Romagna Grand Prix,Driver_GAS,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_GAS,SOFT,0
+Emilia Romagna Grand Prix,Driver_GAS,SOFT,1
+Emilia Romagna Grand Prix,Driver_GAS,SOFT,1
+Emilia Romagna Grand Prix,Driver_GAS,SOFT,1
+Emilia Romagna Grand Prix,Driver_GAS,SOFT,2
+Emilia Romagna Grand Prix,Driver_HAM,HARD,0
+Emilia Romagna Grand Prix,Driver_HAM,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_HAM,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_HAM,SOFT,1
+Emilia Romagna Grand Prix,Driver_HAM,SOFT,1
+Emilia Romagna Grand Prix,Driver_HAM,SOFT,3
+Emilia Romagna Grand Prix,Driver_HUL,HARD,0
+Emilia Romagna Grand Prix,Driver_HUL,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_HUL,SOFT,0
+Emilia Romagna Grand Prix,Driver_HUL,SOFT,1
+Emilia Romagna Grand Prix,Driver_HUL,SOFT,1
+Emilia Romagna Grand Prix,Driver_HUL,SOFT,1
+Emilia Romagna Grand Prix,Driver_HUL,SOFT,2
+Emilia Romagna Grand Prix,Driver_LEC,HARD,9
+Emilia Romagna Grand Prix,Driver_LEC,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_LEC,MEDIUM,3
+Emilia Romagna Grand Prix,Driver_LEC,SOFT,1
+Emilia Romagna Grand Prix,Driver_LEC,SOFT,1
+Emilia Romagna Grand Prix,Driver_LEC,SOFT,1
+Emilia Romagna Grand Prix,Driver_MAG,HARD,0
+Emilia Romagna Grand Prix,Driver_MAG,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_MAG,SOFT,0
+Emilia Romagna Grand Prix,Driver_MAG,SOFT,0
+Emilia Romagna Grand Prix,Driver_MAG,SOFT,0
+Emilia Romagna Grand Prix,Driver_MAG,SOFT,1
+Emilia Romagna Grand Prix,Driver_MAG,SOFT,2
+Emilia Romagna Grand Prix,Driver_NOR,HARD,0
+Emilia Romagna Grand Prix,Driver_NOR,HARD,0
+Emilia Romagna Grand Prix,Driver_NOR,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_NOR,SOFT,1
+Emilia Romagna Grand Prix,Driver_NOR,SOFT,1
+Emilia Romagna Grand Prix,Driver_NOR,SOFT,2
+Emilia Romagna Grand Prix,Driver_OCO,HARD,0
+Emilia Romagna Grand Prix,Driver_OCO,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_OCO,SOFT,0
+Emilia Romagna Grand Prix,Driver_OCO,SOFT,1
+Emilia Romagna Grand Prix,Driver_OCO,SOFT,1
+Emilia Romagna Grand Prix,Driver_OCO,SOFT,1
+Emilia Romagna Grand Prix,Driver_OCO,SOFT,2
+Emilia Romagna Grand Prix,Driver_PER,HARD,0
+Emilia Romagna Grand Prix,Driver_PER,HARD,0
+Emilia Romagna Grand Prix,Driver_PER,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_PER,SOFT,0
+Emilia Romagna Grand Prix,Driver_PER,SOFT,2
+Emilia Romagna Grand Prix,Driver_PER,SOFT,2
+Emilia Romagna Grand Prix,Driver_PER,SOFT,2
+Emilia Romagna Grand Prix,Driver_PIA,HARD,0
+Emilia Romagna Grand Prix,Driver_PIA,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_PIA,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_PIA,SOFT,1
+Emilia Romagna Grand Prix,Driver_PIA,SOFT,1
+Emilia Romagna Grand Prix,Driver_PIA,SOFT,1
+Emilia Romagna Grand Prix,Driver_RIC,HARD,3
+Emilia Romagna Grand Prix,Driver_RIC,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_RIC,SOFT,1
+Emilia Romagna Grand Prix,Driver_RIC,SOFT,1
+Emilia Romagna Grand Prix,Driver_RIC,SOFT,1
+Emilia Romagna Grand Prix,Driver_RIC,SOFT,1
+Emilia Romagna Grand Prix,Driver_RUS,HARD,0
+Emilia Romagna Grand Prix,Driver_RUS,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_RUS,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_RUS,SOFT,2
+Emilia Romagna Grand Prix,Driver_RUS,SOFT,2
+Emilia Romagna Grand Prix,Driver_RUS,SOFT,2
+Emilia Romagna Grand Prix,Driver_SAI,HARD,0
+Emilia Romagna Grand Prix,Driver_SAI,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_SAI,MEDIUM,2
+Emilia Romagna Grand Prix,Driver_SAI,SOFT,1
+Emilia Romagna Grand Prix,Driver_SAI,SOFT,1
+Emilia Romagna Grand Prix,Driver_SAI,SOFT,1
+Emilia Romagna Grand Prix,Driver_SAR,HARD,0
+Emilia Romagna Grand Prix,Driver_SAR,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_SAR,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_SAR,SOFT,0
+Emilia Romagna Grand Prix,Driver_SAR,SOFT,1
+Emilia Romagna Grand Prix,Driver_SAR,SOFT,1
+Emilia Romagna Grand Prix,Driver_SAR,SOFT,1
+Emilia Romagna Grand Prix,Driver_STR,HARD,0
+Emilia Romagna Grand Prix,Driver_STR,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_STR,SOFT,0
+Emilia Romagna Grand Prix,Driver_STR,SOFT,1
+Emilia Romagna Grand Prix,Driver_STR,SOFT,1
+Emilia Romagna Grand Prix,Driver_STR,SOFT,1
+Emilia Romagna Grand Prix,Driver_STR,SOFT,2
+Emilia Romagna Grand Prix,Driver_TSU,HARD,9
+Emilia Romagna Grand Prix,Driver_TSU,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_TSU,SOFT,1
+Emilia Romagna Grand Prix,Driver_TSU,SOFT,1
+Emilia Romagna Grand Prix,Driver_TSU,SOFT,1
+Emilia Romagna Grand Prix,Driver_TSU,SOFT,1
+Emilia Romagna Grand Prix,Driver_VER,HARD,0
+Emilia Romagna Grand Prix,Driver_VER,HARD,0
+Emilia Romagna Grand Prix,Driver_VER,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_VER,SOFT,0
+Emilia Romagna Grand Prix,Driver_VER,SOFT,1
+Emilia Romagna Grand Prix,Driver_VER,SOFT,1
+Emilia Romagna Grand Prix,Driver_VER,SOFT,2
+Emilia Romagna Grand Prix,Driver_ZHO,HARD,0
+Emilia Romagna Grand Prix,Driver_ZHO,HARD,0
+Emilia Romagna Grand Prix,Driver_ZHO,MEDIUM,0
+Emilia Romagna Grand Prix,Driver_ZHO,SOFT,0
+Emilia Romagna Grand Prix,Driver_ZHO,SOFT,0
+Emilia Romagna Grand Prix,Driver_ZHO,SOFT,1
+Emilia Romagna Grand Prix,Driver_ZHO,SOFT,2
+Hungarian Grand Prix,Driver_ALB,HARD,0
+Hungarian Grand Prix,Driver_ALB,HARD,0
+Hungarian Grand Prix,Driver_ALB,MEDIUM,0
+Hungarian Grand Prix,Driver_ALB,SOFT,0
+Hungarian Grand Prix,Driver_ALB,SOFT,1
+Hungarian Grand Prix,Driver_ALB,SOFT,2
+Hungarian Grand Prix,Driver_ALB,SOFT,3
+Hungarian Grand Prix,Driver_ALO,HARD,0
+Hungarian Grand Prix,Driver_ALO,MEDIUM,0
+Hungarian Grand Prix,Driver_ALO,SOFT,1
+Hungarian Grand Prix,Driver_ALO,SOFT,2
+Hungarian Grand Prix,Driver_ALO,SOFT,2
+Hungarian Grand Prix,Driver_ALO,SOFT,3
+Hungarian Grand Prix,Driver_BOT,HARD,0
+Hungarian Grand Prix,Driver_BOT,HARD,0
+Hungarian Grand Prix,Driver_BOT,MEDIUM,0
+Hungarian Grand Prix,Driver_BOT,SOFT,0
+Hungarian Grand Prix,Driver_BOT,SOFT,1
+Hungarian Grand Prix,Driver_BOT,SOFT,4
+Hungarian Grand Prix,Driver_BOT,SOFT,4
+Hungarian Grand Prix,Driver_GAS,HARD,0
+Hungarian Grand Prix,Driver_GAS,HARD,0
+Hungarian Grand Prix,Driver_GAS,MEDIUM,0
+Hungarian Grand Prix,Driver_GAS,SOFT,0
+Hungarian Grand Prix,Driver_GAS,SOFT,0
+Hungarian Grand Prix,Driver_GAS,SOFT,1
+Hungarian Grand Prix,Driver_GAS,SOFT,1
+Hungarian Grand Prix,Driver_HAM,HARD,0
+Hungarian Grand Prix,Driver_HAM,HARD,0
+Hungarian Grand Prix,Driver_HAM,MEDIUM,0
+Hungarian Grand Prix,Driver_HAM,SOFT,1
+Hungarian Grand Prix,Driver_HAM,SOFT,1
+Hungarian Grand Prix,Driver_HAM,SOFT,3
+Hungarian Grand Prix,Driver_HUL,HARD,0
+Hungarian Grand Prix,Driver_HUL,HARD,0
+Hungarian Grand Prix,Driver_HUL,MEDIUM,0
+Hungarian Grand Prix,Driver_HUL,SOFT,0
+Hungarian Grand Prix,Driver_HUL,SOFT,2
+Hungarian Grand Prix,Driver_HUL,SOFT,3
+Hungarian Grand Prix,Driver_HUL,SOFT,4
+Hungarian Grand Prix,Driver_LEC,HARD,0
+Hungarian Grand Prix,Driver_LEC,MEDIUM,0
+Hungarian Grand Prix,Driver_LEC,MEDIUM,0
+Hungarian Grand Prix,Driver_LEC,SOFT,1
+Hungarian Grand Prix,Driver_LEC,SOFT,1
+Hungarian Grand Prix,Driver_LEC,SOFT,3
+Hungarian Grand Prix,Driver_MAG,HARD,0
+Hungarian Grand Prix,Driver_MAG,HARD,0
+Hungarian Grand Prix,Driver_MAG,MEDIUM,0
+Hungarian Grand Prix,Driver_MAG,SOFT,0
+Hungarian Grand Prix,Driver_MAG,SOFT,2
+Hungarian Grand Prix,Driver_MAG,SOFT,3
+Hungarian Grand Prix,Driver_MAG,SOFT,3
+Hungarian Grand Prix,Driver_NOR,HARD,0
+Hungarian Grand Prix,Driver_NOR,MEDIUM,0
+Hungarian Grand Prix,Driver_NOR,MEDIUM,0
+Hungarian Grand Prix,Driver_NOR,SOFT,1
+Hungarian Grand Prix,Driver_NOR,SOFT,2
+Hungarian Grand Prix,Driver_NOR,SOFT,3
+Hungarian Grand Prix,Driver_OCO,HARD,0
+Hungarian Grand Prix,Driver_OCO,HARD,0
+Hungarian Grand Prix,Driver_OCO,MEDIUM,0
+Hungarian Grand Prix,Driver_OCO,SOFT,0
+Hungarian Grand Prix,Driver_OCO,SOFT,0
+Hungarian Grand Prix,Driver_OCO,SOFT,1
+Hungarian Grand Prix,Driver_OCO,SOFT,1
+Hungarian Grand Prix,Driver_PER,HARD,0
+Hungarian Grand Prix,Driver_PER,MEDIUM,0
+Hungarian Grand Prix,Driver_PER,MEDIUM,0
+Hungarian Grand Prix,Driver_PER,SOFT,0
+Hungarian Grand Prix,Driver_PER,SOFT,0
+Hungarian Grand Prix,Driver_PER,SOFT,0
+Hungarian Grand Prix,Driver_PER,SOFT,2
+Hungarian Grand Prix,Driver_PIA,HARD,0
+Hungarian Grand Prix,Driver_PIA,MEDIUM,0
+Hungarian Grand Prix,Driver_PIA,MEDIUM,0
+Hungarian Grand Prix,Driver_PIA,SOFT,2
+Hungarian Grand Prix,Driver_PIA,SOFT,3
+Hungarian Grand Prix,Driver_PIA,SOFT,4
+Hungarian Grand Prix,Driver_RIC,HARD,0
+Hungarian Grand Prix,Driver_RIC,HARD,0
+Hungarian Grand Prix,Driver_RIC,MEDIUM,0
+Hungarian Grand Prix,Driver_RIC,SOFT,1
+Hungarian Grand Prix,Driver_RIC,SOFT,3
+Hungarian Grand Prix,Driver_RIC,SOFT,3
+Hungarian Grand Prix,Driver_RUS,HARD,0
+Hungarian Grand Prix,Driver_RUS,HARD,0
+Hungarian Grand Prix,Driver_RUS,MEDIUM,0
+Hungarian Grand Prix,Driver_RUS,SOFT,0
+Hungarian Grand Prix,Driver_RUS,SOFT,0
+Hungarian Grand Prix,Driver_RUS,SOFT,2
+Hungarian Grand Prix,Driver_RUS,SOFT,2
+Hungarian Grand Prix,Driver_SAI,HARD,0
+Hungarian Grand Prix,Driver_SAI,MEDIUM,0
+Hungarian Grand Prix,Driver_SAI,MEDIUM,0
+Hungarian Grand Prix,Driver_SAI,SOFT,1
+Hungarian Grand Prix,Driver_SAI,SOFT,1
+Hungarian Grand Prix,Driver_SAI,SOFT,2
+Hungarian Grand Prix,Driver_SAR,HARD,0
+Hungarian Grand Prix,Driver_SAR,HARD,0
+Hungarian Grand Prix,Driver_SAR,MEDIUM,0
+Hungarian Grand Prix,Driver_SAR,SOFT,0
+Hungarian Grand Prix,Driver_SAR,SOFT,1
+Hungarian Grand Prix,Driver_SAR,SOFT,1
+Hungarian Grand Prix,Driver_SAR,SOFT,2
+Hungarian Grand Prix,Driver_STR,HARD,0
+Hungarian Grand Prix,Driver_STR,MEDIUM,0
+Hungarian Grand Prix,Driver_STR,SOFT,1
+Hungarian Grand Prix,Driver_STR,SOFT,2
+Hungarian Grand Prix,Driver_STR,SOFT,2
+Hungarian Grand Prix,Driver_STR,SOFT,2
+Hungarian Grand Prix,Driver_TSU,HARD,0
+Hungarian Grand Prix,Driver_TSU,HARD,0
+Hungarian Grand Prix,Driver_TSU,MEDIUM,0
+Hungarian Grand Prix,Driver_TSU,SOFT,1
+Hungarian Grand Prix,Driver_TSU,SOFT,1
+Hungarian Grand Prix,Driver_TSU,SOFT,2
+Hungarian Grand Prix,Driver_VER,HARD,0
+Hungarian Grand Prix,Driver_VER,MEDIUM,0
+Hungarian Grand Prix,Driver_VER,MEDIUM,0
+Hungarian Grand Prix,Driver_VER,SOFT,1
+Hungarian Grand Prix,Driver_VER,SOFT,1
+Hungarian Grand Prix,Driver_VER,SOFT,3
+Hungarian Grand Prix,Driver_ZHO,HARD,0
+Hungarian Grand Prix,Driver_ZHO,HARD,0
+Hungarian Grand Prix,Driver_ZHO,MEDIUM,0
+Hungarian Grand Prix,Driver_ZHO,SOFT,0
+Hungarian Grand Prix,Driver_ZHO,SOFT,0
+Hungarian Grand Prix,Driver_ZHO,SOFT,3
+Hungarian Grand Prix,Driver_ZHO,SOFT,3
+Italian Grand Prix,Driver_ALB,HARD,0
+Italian Grand Prix,Driver_ALB,HARD,0
+Italian Grand Prix,Driver_ALB,MEDIUM,0
+Italian Grand Prix,Driver_ALB,SOFT,1
+Italian Grand Prix,Driver_ALB,SOFT,1
+Italian Grand Prix,Driver_ALB,SOFT,2
+Italian Grand Prix,Driver_ALO,HARD,0
+Italian Grand Prix,Driver_ALO,HARD,0
+Italian Grand Prix,Driver_ALO,MEDIUM,0
+Italian Grand Prix,Driver_ALO,SOFT,0
+Italian Grand Prix,Driver_ALO,SOFT,1
+Italian Grand Prix,Driver_ALO,SOFT,1
+Italian Grand Prix,Driver_ALO,SOFT,2
+Italian Grand Prix,Driver_BOT,HARD,0
+Italian Grand Prix,Driver_BOT,HARD,0
+Italian Grand Prix,Driver_BOT,MEDIUM,0
+Italian Grand Prix,Driver_BOT,SOFT,0
+Italian Grand Prix,Driver_BOT,SOFT,0
+Italian Grand Prix,Driver_BOT,SOFT,1
+Italian Grand Prix,Driver_BOT,SOFT,1
+Italian Grand Prix,Driver_GAS,HARD,0
+Italian Grand Prix,Driver_GAS,HARD,0
+Italian Grand Prix,Driver_GAS,MEDIUM,0
+Italian Grand Prix,Driver_GAS,SOFT,0
+Italian Grand Prix,Driver_GAS,SOFT,2
+Italian Grand Prix,Driver_GAS,SOFT,3
+Italian Grand Prix,Driver_GAS,SOFT,3
+Italian Grand Prix,Driver_HAM,HARD,0
+Italian Grand Prix,Driver_HAM,HARD,0
+Italian Grand Prix,Driver_HAM,MEDIUM,0
+Italian Grand Prix,Driver_HAM,SOFT,1
+Italian Grand Prix,Driver_HAM,SOFT,1
+Italian Grand Prix,Driver_HAM,SOFT,2
+Italian Grand Prix,Driver_HUL,HARD,0
+Italian Grand Prix,Driver_HUL,HARD,0
+Italian Grand Prix,Driver_HUL,MEDIUM,0
+Italian Grand Prix,Driver_HUL,SOFT,1
+Italian Grand Prix,Driver_HUL,SOFT,1
+Italian Grand Prix,Driver_HUL,SOFT,2
+Italian Grand Prix,Driver_LEC,HARD,0
+Italian Grand Prix,Driver_LEC,HARD,0
+Italian Grand Prix,Driver_LEC,MEDIUM,0
+Italian Grand Prix,Driver_LEC,SOFT,1
+Italian Grand Prix,Driver_LEC,SOFT,1
+Italian Grand Prix,Driver_LEC,SOFT,2
+Italian Grand Prix,Driver_MAG,HARD,0
+Italian Grand Prix,Driver_MAG,HARD,0
+Italian Grand Prix,Driver_MAG,MEDIUM,0
+Italian Grand Prix,Driver_MAG,SOFT,0
+Italian Grand Prix,Driver_MAG,SOFT,1
+Italian Grand Prix,Driver_MAG,SOFT,1
+Italian Grand Prix,Driver_MAG,SOFT,2
+Italian Grand Prix,Driver_NOR,HARD,0
+Italian Grand Prix,Driver_NOR,HARD,0
+Italian Grand Prix,Driver_NOR,MEDIUM,0
+Italian Grand Prix,Driver_NOR,SOFT,1
+Italian Grand Prix,Driver_NOR,SOFT,1
+Italian Grand Prix,Driver_NOR,SOFT,1
+Italian Grand Prix,Driver_OCO,HARD,0
+Italian Grand Prix,Driver_OCO,HARD,0
+Italian Grand Prix,Driver_OCO,MEDIUM,0
+Italian Grand Prix,Driver_OCO,SOFT,0
+Italian Grand Prix,Driver_OCO,SOFT,2
+Italian Grand Prix,Driver_OCO,SOFT,3
+Italian Grand Prix,Driver_OCO,SOFT,3
+Italian Grand Prix,Driver_PER,HARD,0
+Italian Grand Prix,Driver_PER,HARD,0
+Italian Grand Prix,Driver_PER,MEDIUM,0
+Italian Grand Prix,Driver_PER,SOFT,1
+Italian Grand Prix,Driver_PER,SOFT,1
+Italian Grand Prix,Driver_PER,SOFT,2
+Italian Grand Prix,Driver_PIA,HARD,0
+Italian Grand Prix,Driver_PIA,HARD,0
+Italian Grand Prix,Driver_PIA,MEDIUM,0
+Italian Grand Prix,Driver_PIA,SOFT,2
+Italian Grand Prix,Driver_PIA,SOFT,2
+Italian Grand Prix,Driver_PIA,SOFT,4
+Italian Grand Prix,Driver_RIC,HARD,0
+Italian Grand Prix,Driver_RIC,HARD,0
+Italian Grand Prix,Driver_RIC,MEDIUM,0
+Italian Grand Prix,Driver_RIC,SOFT,0
+Italian Grand Prix,Driver_RIC,SOFT,1
+Italian Grand Prix,Driver_RIC,SOFT,1
+Italian Grand Prix,Driver_RIC,SOFT,2
+Italian Grand Prix,Driver_RUS,HARD,0
+Italian Grand Prix,Driver_RUS,HARD,0
+Italian Grand Prix,Driver_RUS,MEDIUM,0
+Italian Grand Prix,Driver_RUS,SOFT,1
+Italian Grand Prix,Driver_RUS,SOFT,1
+Italian Grand Prix,Driver_RUS,SOFT,2
+Italian Grand Prix,Driver_SAI,HARD,0
+Italian Grand Prix,Driver_SAI,HARD,0
+Italian Grand Prix,Driver_SAI,MEDIUM,0
+Italian Grand Prix,Driver_SAI,SOFT,1
+Italian Grand Prix,Driver_SAI,SOFT,1
+Italian Grand Prix,Driver_SAI,SOFT,1
+Italian Grand Prix,Driver_SAR,HARD,0
+Italian Grand Prix,Driver_SAR,HARD,0
+Italian Grand Prix,Driver_SAR,MEDIUM,0
+Italian Grand Prix,Driver_SAR,SOFT,0
+Italian Grand Prix,Driver_SAR,SOFT,0
+Italian Grand Prix,Driver_SAR,SOFT,1
+Italian Grand Prix,Driver_SAR,SOFT,1
+Italian Grand Prix,Driver_STR,HARD,0
+Italian Grand Prix,Driver_STR,HARD,0
+Italian Grand Prix,Driver_STR,MEDIUM,0
+Italian Grand Prix,Driver_STR,SOFT,0
+Italian Grand Prix,Driver_STR,SOFT,0
+Italian Grand Prix,Driver_STR,SOFT,1
+Italian Grand Prix,Driver_STR,SOFT,1
+Italian Grand Prix,Driver_TSU,HARD,0
+Italian Grand Prix,Driver_TSU,MEDIUM,0
+Italian Grand Prix,Driver_TSU,SOFT,0
+Italian Grand Prix,Driver_TSU,SOFT,0
+Italian Grand Prix,Driver_TSU,SOFT,0
+Italian Grand Prix,Driver_TSU,SOFT,1
+Italian Grand Prix,Driver_TSU,SOFT,1
+Italian Grand Prix,Driver_VER,HARD,0
+Italian Grand Prix,Driver_VER,HARD,0
+Italian Grand Prix,Driver_VER,MEDIUM,0
+Italian Grand Prix,Driver_VER,SOFT,1
+Italian Grand Prix,Driver_VER,SOFT,1
+Italian Grand Prix,Driver_VER,SOFT,2
+Italian Grand Prix,Driver_ZHO,HARD,0
+Italian Grand Prix,Driver_ZHO,HARD,0
+Italian Grand Prix,Driver_ZHO,MEDIUM,0
+Italian Grand Prix,Driver_ZHO,SOFT,0
+Italian Grand Prix,Driver_ZHO,SOFT,1
+Italian Grand Prix,Driver_ZHO,SOFT,1
+Italian Grand Prix,Driver_ZHO,SOFT,1
+Japanese Grand Prix,Driver_ALB,HARD,0
+Japanese Grand Prix,Driver_ALB,HARD,0
+Japanese Grand Prix,Driver_ALB,MEDIUM,0
+Japanese Grand Prix,Driver_ALB,SOFT,0
+Japanese Grand Prix,Driver_ALB,SOFT,1
+Japanese Grand Prix,Driver_ALB,SOFT,1
+Japanese Grand Prix,Driver_ALB,SOFT,1
+Japanese Grand Prix,Driver_ALO,HARD,0
+Japanese Grand Prix,Driver_ALO,MEDIUM,0
+Japanese Grand Prix,Driver_ALO,MEDIUM,0
+Japanese Grand Prix,Driver_ALO,SOFT,1
+Japanese Grand Prix,Driver_ALO,SOFT,1
+Japanese Grand Prix,Driver_ALO,SOFT,1
+Japanese Grand Prix,Driver_BOT,HARD,0
+Japanese Grand Prix,Driver_BOT,HARD,0
+Japanese Grand Prix,Driver_BOT,MEDIUM,0
+Japanese Grand Prix,Driver_BOT,SOFT,0
+Japanese Grand Prix,Driver_BOT,SOFT,1
+Japanese Grand Prix,Driver_BOT,SOFT,1
+Japanese Grand Prix,Driver_BOT,SOFT,2
+Japanese Grand Prix,Driver_GAS,HARD,0
+Japanese Grand Prix,Driver_GAS,HARD,0
+Japanese Grand Prix,Driver_GAS,MEDIUM,0
+Japanese Grand Prix,Driver_GAS,MEDIUM,0
+Japanese Grand Prix,Driver_GAS,SOFT,0
+Japanese Grand Prix,Driver_GAS,SOFT,1
+Japanese Grand Prix,Driver_GAS,SOFT,1
+Japanese Grand Prix,Driver_HAM,HARD,0
+Japanese Grand Prix,Driver_HAM,HARD,0
+Japanese Grand Prix,Driver_HAM,MEDIUM,0
+Japanese Grand Prix,Driver_HAM,SOFT,1
+Japanese Grand Prix,Driver_HAM,SOFT,1
+Japanese Grand Prix,Driver_HAM,SOFT,1
+Japanese Grand Prix,Driver_HUL,HARD,0
+Japanese Grand Prix,Driver_HUL,HARD,0
+Japanese Grand Prix,Driver_HUL,MEDIUM,0
+Japanese Grand Prix,Driver_HUL,SOFT,0
+Japanese Grand Prix,Driver_HUL,SOFT,1
+Japanese Grand Prix,Driver_HUL,SOFT,1
+Japanese Grand Prix,Driver_HUL,SOFT,2
+Japanese Grand Prix,Driver_LEC,HARD,0
+Japanese Grand Prix,Driver_LEC,MEDIUM,0
+Japanese Grand Prix,Driver_LEC,MEDIUM,0
+Japanese Grand Prix,Driver_LEC,SOFT,1
+Japanese Grand Prix,Driver_LEC,SOFT,1
+Japanese Grand Prix,Driver_LEC,SOFT,1
+Japanese Grand Prix,Driver_MAG,HARD,0
+Japanese Grand Prix,Driver_MAG,MEDIUM,0
+Japanese Grand Prix,Driver_MAG,MEDIUM,0
+Japanese Grand Prix,Driver_MAG,SOFT,0
+Japanese Grand Prix,Driver_MAG,SOFT,1
+Japanese Grand Prix,Driver_MAG,SOFT,1
+Japanese Grand Prix,Driver_MAG,SOFT,1
+Japanese Grand Prix,Driver_NOR,HARD,0
+Japanese Grand Prix,Driver_NOR,HARD,0
+Japanese Grand Prix,Driver_NOR,MEDIUM,0
+Japanese Grand Prix,Driver_NOR,SOFT,1
+Japanese Grand Prix,Driver_NOR,SOFT,1
+Japanese Grand Prix,Driver_NOR,SOFT,1
+Japanese Grand Prix,Driver_OCO,HARD,0
+Japanese Grand Prix,Driver_OCO,HARD,0
+Japanese Grand Prix,Driver_OCO,MEDIUM,0
+Japanese Grand Prix,Driver_OCO,SOFT,0
+Japanese Grand Prix,Driver_OCO,SOFT,1
+Japanese Grand Prix,Driver_OCO,SOFT,1
+Japanese Grand Prix,Driver_OCO,SOFT,2
+Japanese Grand Prix,Driver_PER,HARD,0
+Japanese Grand Prix,Driver_PER,MEDIUM,0
+Japanese Grand Prix,Driver_PER,MEDIUM,0
+Japanese Grand Prix,Driver_PER,SOFT,1
+Japanese Grand Prix,Driver_PER,SOFT,1
+Japanese Grand Prix,Driver_PER,SOFT,1
+Japanese Grand Prix,Driver_PIA,HARD,0
+Japanese Grand Prix,Driver_PIA,HARD,0
+Japanese Grand Prix,Driver_PIA,MEDIUM,0
+Japanese Grand Prix,Driver_PIA,SOFT,1
+Japanese Grand Prix,Driver_PIA,SOFT,1
+Japanese Grand Prix,Driver_PIA,SOFT,1
+Japanese Grand Prix,Driver_RIC,HARD,0
+Japanese Grand Prix,Driver_RIC,HARD,0
+Japanese Grand Prix,Driver_RIC,MEDIUM,0
+Japanese Grand Prix,Driver_RIC,SOFT,0
+Japanese Grand Prix,Driver_RIC,SOFT,1
+Japanese Grand Prix,Driver_RIC,SOFT,1
+Japanese Grand Prix,Driver_RIC,SOFT,2
+Japanese Grand Prix,Driver_RUS,HARD,0
+Japanese Grand Prix,Driver_RUS,HARD,0
+Japanese Grand Prix,Driver_RUS,MEDIUM,0
+Japanese Grand Prix,Driver_RUS,SOFT,1
+Japanese Grand Prix,Driver_RUS,SOFT,1
+Japanese Grand Prix,Driver_RUS,SOFT,1
+Japanese Grand Prix,Driver_SAI,HARD,0
+Japanese Grand Prix,Driver_SAI,MEDIUM,0
+Japanese Grand Prix,Driver_SAI,MEDIUM,0
+Japanese Grand Prix,Driver_SAI,SOFT,1
+Japanese Grand Prix,Driver_SAI,SOFT,1
+Japanese Grand Prix,Driver_SAI,SOFT,1
+Japanese Grand Prix,Driver_SAR,HARD,0
+Japanese Grand Prix,Driver_SAR,HARD,0
+Japanese Grand Prix,Driver_SAR,MEDIUM,0
+Japanese Grand Prix,Driver_SAR,SOFT,0
+Japanese Grand Prix,Driver_SAR,SOFT,0
+Japanese Grand Prix,Driver_SAR,SOFT,1
+Japanese Grand Prix,Driver_SAR,SOFT,1
+Japanese Grand Prix,Driver_STR,HARD,0
+Japanese Grand Prix,Driver_STR,MEDIUM,0
+Japanese Grand Prix,Driver_STR,MEDIUM,0
+Japanese Grand Prix,Driver_STR,SOFT,0
+Japanese Grand Prix,Driver_STR,SOFT,0
+Japanese Grand Prix,Driver_STR,SOFT,1
+Japanese Grand Prix,Driver_STR,SOFT,1
+Japanese Grand Prix,Driver_TSU,HARD,0
+Japanese Grand Prix,Driver_TSU,HARD,0
+Japanese Grand Prix,Driver_TSU,MEDIUM,0
+Japanese Grand Prix,Driver_TSU,SOFT,1
+Japanese Grand Prix,Driver_TSU,SOFT,1
+Japanese Grand Prix,Driver_TSU,SOFT,2
+Japanese Grand Prix,Driver_VER,HARD,0
+Japanese Grand Prix,Driver_VER,MEDIUM,0
+Japanese Grand Prix,Driver_VER,MEDIUM,0
+Japanese Grand Prix,Driver_VER,SOFT,1
+Japanese Grand Prix,Driver_VER,SOFT,1
+Japanese Grand Prix,Driver_VER,SOFT,1
+Japanese Grand Prix,Driver_ZHO,HARD,0
+Japanese Grand Prix,Driver_ZHO,HARD,0
+Japanese Grand Prix,Driver_ZHO,MEDIUM,0
+Japanese Grand Prix,Driver_ZHO,SOFT,0
+Japanese Grand Prix,Driver_ZHO,SOFT,0
+Japanese Grand Prix,Driver_ZHO,SOFT,1
+Japanese Grand Prix,Driver_ZHO,SOFT,1
+Las Vegas Grand Prix,Driver_ALB,HARD,0
+Las Vegas Grand Prix,Driver_ALB,HARD,0
+Las Vegas Grand Prix,Driver_ALB,MEDIUM,0
+Las Vegas Grand Prix,Driver_ALB,MEDIUM,1
+Las Vegas Grand Prix,Driver_ALB,SOFT,0
+Las Vegas Grand Prix,Driver_ALB,SOFT,1
+Las Vegas Grand Prix,Driver_ALB,SOFT,2
+Las Vegas Grand Prix,Driver_ALO,HARD,0
+Las Vegas Grand Prix,Driver_ALO,HARD,0
+Las Vegas Grand Prix,Driver_ALO,MEDIUM,0
+Las Vegas Grand Prix,Driver_ALO,SOFT,0
+Las Vegas Grand Prix,Driver_ALO,SOFT,0
+Las Vegas Grand Prix,Driver_ALO,SOFT,1
+Las Vegas Grand Prix,Driver_ALO,SOFT,2
+Las Vegas Grand Prix,Driver_BOT,HARD,0
+Las Vegas Grand Prix,Driver_BOT,HARD,0
+Las Vegas Grand Prix,Driver_BOT,MEDIUM,0
+Las Vegas Grand Prix,Driver_BOT,SOFT,0
+Las Vegas Grand Prix,Driver_BOT,SOFT,0
+Las Vegas Grand Prix,Driver_BOT,SOFT,2
+Las Vegas Grand Prix,Driver_BOT,SOFT,2
+Las Vegas Grand Prix,Driver_GAS,HARD,0
+Las Vegas Grand Prix,Driver_GAS,HARD,0
+Las Vegas Grand Prix,Driver_GAS,MEDIUM,0
+Las Vegas Grand Prix,Driver_GAS,SOFT,1
+Las Vegas Grand Prix,Driver_GAS,SOFT,3
+Las Vegas Grand Prix,Driver_GAS,SOFT,4
+Las Vegas Grand Prix,Driver_HAM,HARD,0
+Las Vegas Grand Prix,Driver_HAM,HARD,0
+Las Vegas Grand Prix,Driver_HAM,MEDIUM,0
+Las Vegas Grand Prix,Driver_HAM,SOFT,1
+Las Vegas Grand Prix,Driver_HAM,SOFT,1
+Las Vegas Grand Prix,Driver_HAM,SOFT,2
+Las Vegas Grand Prix,Driver_HUL,HARD,0
+Las Vegas Grand Prix,Driver_HUL,HARD,0
+Las Vegas Grand Prix,Driver_HUL,MEDIUM,0
+Las Vegas Grand Prix,Driver_HUL,SOFT,2
+Las Vegas Grand Prix,Driver_HUL,SOFT,2
+Las Vegas Grand Prix,Driver_HUL,SOFT,3
+Las Vegas Grand Prix,Driver_LEC,HARD,0
+Las Vegas Grand Prix,Driver_LEC,HARD,0
+Las Vegas Grand Prix,Driver_LEC,MEDIUM,0
+Las Vegas Grand Prix,Driver_LEC,SOFT,2
+Las Vegas Grand Prix,Driver_LEC,SOFT,2
+Las Vegas Grand Prix,Driver_LEC,SOFT,3
+Las Vegas Grand Prix,Driver_MAG,HARD,0
+Las Vegas Grand Prix,Driver_MAG,HARD,0
+Las Vegas Grand Prix,Driver_MAG,MEDIUM,0
+Las Vegas Grand Prix,Driver_MAG,SOFT,0
+Las Vegas Grand Prix,Driver_MAG,SOFT,2
+Las Vegas Grand Prix,Driver_MAG,SOFT,2
+Las Vegas Grand Prix,Driver_MAG,SOFT,2
+Las Vegas Grand Prix,Driver_NOR,HARD,0
+Las Vegas Grand Prix,Driver_NOR,MEDIUM,0
+Las Vegas Grand Prix,Driver_NOR,SOFT,3
+Las Vegas Grand Prix,Driver_NOR,SOFT,4
+Las Vegas Grand Prix,Driver_NOR,SOFT,4
+Las Vegas Grand Prix,Driver_NOR,SOFT,4
+Las Vegas Grand Prix,Driver_OCO,HARD,0
+Las Vegas Grand Prix,Driver_OCO,HARD,0
+Las Vegas Grand Prix,Driver_OCO,MEDIUM,0
+Las Vegas Grand Prix,Driver_OCO,SOFT,0
+Las Vegas Grand Prix,Driver_OCO,SOFT,1
+Las Vegas Grand Prix,Driver_OCO,SOFT,2
+Las Vegas Grand Prix,Driver_OCO,SOFT,3
+Las Vegas Grand Prix,Driver_PER,HARD,0
+Las Vegas Grand Prix,Driver_PER,HARD,0
+Las Vegas Grand Prix,Driver_PER,MEDIUM,0
+Las Vegas Grand Prix,Driver_PER,SOFT,0
+Las Vegas Grand Prix,Driver_PER,SOFT,0
+Las Vegas Grand Prix,Driver_PER,SOFT,0
+Las Vegas Grand Prix,Driver_PER,SOFT,4
+Las Vegas Grand Prix,Driver_PIA,HARD,0
+Las Vegas Grand Prix,Driver_PIA,HARD,0
+Las Vegas Grand Prix,Driver_PIA,MEDIUM,0
+Las Vegas Grand Prix,Driver_PIA,SOFT,3
+Las Vegas Grand Prix,Driver_PIA,SOFT,4
+Las Vegas Grand Prix,Driver_PIA,SOFT,4
+Las Vegas Grand Prix,Driver_RIC,HARD,0
+Las Vegas Grand Prix,Driver_RIC,HARD,0
+Las Vegas Grand Prix,Driver_RIC,MEDIUM,0
+Las Vegas Grand Prix,Driver_RIC,SOFT,0
+Las Vegas Grand Prix,Driver_RIC,SOFT,1
+Las Vegas Grand Prix,Driver_RIC,SOFT,2
+Las Vegas Grand Prix,Driver_RIC,SOFT,3
+Las Vegas Grand Prix,Driver_RUS,HARD,0
+Las Vegas Grand Prix,Driver_RUS,HARD,0
+Las Vegas Grand Prix,Driver_RUS,MEDIUM,0
+Las Vegas Grand Prix,Driver_RUS,SOFT,1
+Las Vegas Grand Prix,Driver_RUS,SOFT,1
+Las Vegas Grand Prix,Driver_RUS,SOFT,2
+Las Vegas Grand Prix,Driver_SAI,HARD,0
+Las Vegas Grand Prix,Driver_SAI,HARD,0
+Las Vegas Grand Prix,Driver_SAI,MEDIUM,0
+Las Vegas Grand Prix,Driver_SAI,SOFT,2
+Las Vegas Grand Prix,Driver_SAI,SOFT,3
+Las Vegas Grand Prix,Driver_SAI,SOFT,5
+Las Vegas Grand Prix,Driver_SAR,HARD,0
+Las Vegas Grand Prix,Driver_SAR,HARD,0
+Las Vegas Grand Prix,Driver_SAR,MEDIUM,0
+Las Vegas Grand Prix,Driver_SAR,SOFT,0
+Las Vegas Grand Prix,Driver_SAR,SOFT,1
+Las Vegas Grand Prix,Driver_SAR,SOFT,3
+Las Vegas Grand Prix,Driver_SAR,SOFT,3
+Las Vegas Grand Prix,Driver_STR,HARD,0
+Las Vegas Grand Prix,Driver_STR,HARD,0
+Las Vegas Grand Prix,Driver_STR,MEDIUM,0
+Las Vegas Grand Prix,Driver_STR,SOFT,0
+Las Vegas Grand Prix,Driver_STR,SOFT,0
+Las Vegas Grand Prix,Driver_STR,SOFT,0
+Las Vegas Grand Prix,Driver_STR,SOFT,1
+Las Vegas Grand Prix,Driver_TSU,HARD,0
+Las Vegas Grand Prix,Driver_TSU,HARD,0
+Las Vegas Grand Prix,Driver_TSU,MEDIUM,4
+Las Vegas Grand Prix,Driver_TSU,SOFT,1
+Las Vegas Grand Prix,Driver_TSU,SOFT,1
+Las Vegas Grand Prix,Driver_TSU,SOFT,1
+Las Vegas Grand Prix,Driver_TSU,SOFT,4
+Las Vegas Grand Prix,Driver_VER,HARD,0
+Las Vegas Grand Prix,Driver_VER,HARD,0
+Las Vegas Grand Prix,Driver_VER,MEDIUM,0
+Las Vegas Grand Prix,Driver_VER,SOFT,2
+Las Vegas Grand Prix,Driver_VER,SOFT,2
+Las Vegas Grand Prix,Driver_VER,SOFT,3
+Las Vegas Grand Prix,Driver_ZHO,HARD,0
+Las Vegas Grand Prix,Driver_ZHO,HARD,0
+Las Vegas Grand Prix,Driver_ZHO,MEDIUM,0
+Las Vegas Grand Prix,Driver_ZHO,SOFT,0
+Las Vegas Grand Prix,Driver_ZHO,SOFT,3
+Las Vegas Grand Prix,Driver_ZHO,SOFT,3
+Las Vegas Grand Prix,Driver_ZHO,SOFT,4
+Mexico City Grand Prix,Driver_ALB,HARD,0
+Mexico City Grand Prix,Driver_ALB,MEDIUM,0
+Mexico City Grand Prix,Driver_ALB,SOFT,1
+Mexico City Grand Prix,Driver_ALB,SOFT,1
+Mexico City Grand Prix,Driver_ALB,SOFT,1
+Mexico City Grand Prix,Driver_ALB,SOFT,1
+Mexico City Grand Prix,Driver_ALB,SOFT,1
+Mexico City Grand Prix,Driver_ALO,HARD,0
+Mexico City Grand Prix,Driver_ALO,MEDIUM,0
+Mexico City Grand Prix,Driver_ALO,MEDIUM,0
+Mexico City Grand Prix,Driver_ALO,SOFT,1
+Mexico City Grand Prix,Driver_ALO,SOFT,1
+Mexico City Grand Prix,Driver_ALO,SOFT,1
+Mexico City Grand Prix,Driver_ALO,SOFT,1
+Mexico City Grand Prix,Driver_ALO,SOFT,1
+Mexico City Grand Prix,Driver_BOT,HARD,0
+Mexico City Grand Prix,Driver_BOT,MEDIUM,0
+Mexico City Grand Prix,Driver_BOT,MEDIUM,0
+Mexico City Grand Prix,Driver_BOT,SOFT,0
+Mexico City Grand Prix,Driver_BOT,SOFT,1
+Mexico City Grand Prix,Driver_BOT,SOFT,1
+Mexico City Grand Prix,Driver_BOT,SOFT,1
+Mexico City Grand Prix,Driver_BOT,SOFT,1
+Mexico City Grand Prix,Driver_BOT,SOFT,1
+Mexico City Grand Prix,Driver_GAS,HARD,0
+Mexico City Grand Prix,Driver_GAS,MEDIUM,0
+Mexico City Grand Prix,Driver_GAS,SOFT,0
+Mexico City Grand Prix,Driver_GAS,SOFT,1
+Mexico City Grand Prix,Driver_GAS,SOFT,1
+Mexico City Grand Prix,Driver_GAS,SOFT,1
+Mexico City Grand Prix,Driver_GAS,SOFT,1
+Mexico City Grand Prix,Driver_GAS,SOFT,1
+Mexico City Grand Prix,Driver_HAM,HARD,0
+Mexico City Grand Prix,Driver_HAM,MEDIUM,0
+Mexico City Grand Prix,Driver_HAM,MEDIUM,1
+Mexico City Grand Prix,Driver_HAM,MEDIUM,2
+Mexico City Grand Prix,Driver_HAM,SOFT,1
+Mexico City Grand Prix,Driver_HAM,SOFT,1
+Mexico City Grand Prix,Driver_HAM,SOFT,1
+Mexico City Grand Prix,Driver_HAM,SOFT,1
+Mexico City Grand Prix,Driver_HUL,HARD,0
+Mexico City Grand Prix,Driver_HUL,MEDIUM,0
+Mexico City Grand Prix,Driver_HUL,SOFT,1
+Mexico City Grand Prix,Driver_HUL,SOFT,1
+Mexico City Grand Prix,Driver_HUL,SOFT,1
+Mexico City Grand Prix,Driver_HUL,SOFT,1
+Mexico City Grand Prix,Driver_HUL,SOFT,1
+Mexico City Grand Prix,Driver_LEC,HARD,0
+Mexico City Grand Prix,Driver_LEC,MEDIUM,0
+Mexico City Grand Prix,Driver_LEC,MEDIUM,2
+Mexico City Grand Prix,Driver_LEC,SOFT,1
+Mexico City Grand Prix,Driver_LEC,SOFT,1
+Mexico City Grand Prix,Driver_LEC,SOFT,1
+Mexico City Grand Prix,Driver_LEC,SOFT,1
+Mexico City Grand Prix,Driver_MAG,HARD,0
+Mexico City Grand Prix,Driver_MAG,MEDIUM,0
+Mexico City Grand Prix,Driver_MAG,SOFT,1
+Mexico City Grand Prix,Driver_MAG,SOFT,1
+Mexico City Grand Prix,Driver_MAG,SOFT,1
+Mexico City Grand Prix,Driver_MAG,SOFT,1
+Mexico City Grand Prix,Driver_MAG,SOFT,1
+Mexico City Grand Prix,Driver_NOR,HARD,0
+Mexico City Grand Prix,Driver_NOR,MEDIUM,0
+Mexico City Grand Prix,Driver_NOR,MEDIUM,1
+Mexico City Grand Prix,Driver_NOR,SOFT,1
+Mexico City Grand Prix,Driver_NOR,SOFT,1
+Mexico City Grand Prix,Driver_NOR,SOFT,1
+Mexico City Grand Prix,Driver_OCO,HARD,0
+Mexico City Grand Prix,Driver_OCO,MEDIUM,0
+Mexico City Grand Prix,Driver_OCO,MEDIUM,0
+Mexico City Grand Prix,Driver_OCO,SOFT,0
+Mexico City Grand Prix,Driver_OCO,SOFT,1
+Mexico City Grand Prix,Driver_OCO,SOFT,1
+Mexico City Grand Prix,Driver_OCO,SOFT,1
+Mexico City Grand Prix,Driver_PER,HARD,0
+Mexico City Grand Prix,Driver_PER,MEDIUM,0
+Mexico City Grand Prix,Driver_PER,MEDIUM,0
+Mexico City Grand Prix,Driver_PER,MEDIUM,0
+Mexico City Grand Prix,Driver_PER,SOFT,0
+Mexico City Grand Prix,Driver_PER,SOFT,1
+Mexico City Grand Prix,Driver_PER,SOFT,2
+Mexico City Grand Prix,Driver_PIA,HARD,0
+Mexico City Grand Prix,Driver_PIA,MEDIUM,0
+Mexico City Grand Prix,Driver_PIA,MEDIUM,0
+Mexico City Grand Prix,Driver_PIA,MEDIUM,1
+Mexico City Grand Prix,Driver_PIA,SOFT,0
+Mexico City Grand Prix,Driver_PIA,SOFT,0
+Mexico City Grand Prix,Driver_PIA,SOFT,2
+Mexico City Grand Prix,Driver_RIC,HARD,0
+Mexico City Grand Prix,Driver_RIC,MEDIUM,0
+Mexico City Grand Prix,Driver_RIC,SOFT,0
+Mexico City Grand Prix,Driver_RIC,SOFT,1
+Mexico City Grand Prix,Driver_RIC,SOFT,1
+Mexico City Grand Prix,Driver_RIC,SOFT,1
+Mexico City Grand Prix,Driver_RIC,SOFT,1
+Mexico City Grand Prix,Driver_RUS,HARD,0
+Mexico City Grand Prix,Driver_RUS,MEDIUM,0
+Mexico City Grand Prix,Driver_RUS,MEDIUM,2
+Mexico City Grand Prix,Driver_RUS,MEDIUM,2
+Mexico City Grand Prix,Driver_RUS,SOFT,1
+Mexico City Grand Prix,Driver_RUS,SOFT,1
+Mexico City Grand Prix,Driver_RUS,SOFT,1
+Mexico City Grand Prix,Driver_RUS,SOFT,1
+Mexico City Grand Prix,Driver_SAI,HARD,0
+Mexico City Grand Prix,Driver_SAI,MEDIUM,0
+Mexico City Grand Prix,Driver_SAI,MEDIUM,2
+Mexico City Grand Prix,Driver_SAI,SOFT,1
+Mexico City Grand Prix,Driver_SAI,SOFT,1
+Mexico City Grand Prix,Driver_SAI,SOFT,1
+Mexico City Grand Prix,Driver_SAI,SOFT,1
+Mexico City Grand Prix,Driver_SAR,HARD,0
+Mexico City Grand Prix,Driver_SAR,MEDIUM,0
+Mexico City Grand Prix,Driver_SAR,MEDIUM,0
+Mexico City Grand Prix,Driver_SAR,SOFT,0
+Mexico City Grand Prix,Driver_SAR,SOFT,0
+Mexico City Grand Prix,Driver_SAR,SOFT,1
+Mexico City Grand Prix,Driver_SAR,SOFT,1
+Mexico City Grand Prix,Driver_STR,HARD,0
+Mexico City Grand Prix,Driver_STR,MEDIUM,0
+Mexico City Grand Prix,Driver_STR,MEDIUM,0
+Mexico City Grand Prix,Driver_STR,SOFT,1
+Mexico City Grand Prix,Driver_STR,SOFT,1
+Mexico City Grand Prix,Driver_STR,SOFT,1
+Mexico City Grand Prix,Driver_STR,SOFT,1
+Mexico City Grand Prix,Driver_STR,SOFT,1
+Mexico City Grand Prix,Driver_TSU,HARD,0
+Mexico City Grand Prix,Driver_TSU,MEDIUM,0
+Mexico City Grand Prix,Driver_TSU,SOFT,0
+Mexico City Grand Prix,Driver_TSU,SOFT,1
+Mexico City Grand Prix,Driver_TSU,SOFT,1
+Mexico City Grand Prix,Driver_TSU,SOFT,1
+Mexico City Grand Prix,Driver_TSU,SOFT,1
+Mexico City Grand Prix,Driver_VER,HARD,0
+Mexico City Grand Prix,Driver_VER,MEDIUM,0
+Mexico City Grand Prix,Driver_VER,SOFT,1
+Mexico City Grand Prix,Driver_VER,SOFT,1
+Mexico City Grand Prix,Driver_VER,SOFT,1
+Mexico City Grand Prix,Driver_VER,SOFT,1
+Mexico City Grand Prix,Driver_VER,SOFT,1
+Mexico City Grand Prix,Driver_ZHO,HARD,0
+Mexico City Grand Prix,Driver_ZHO,MEDIUM,0
+Mexico City Grand Prix,Driver_ZHO,SOFT,0
+Mexico City Grand Prix,Driver_ZHO,SOFT,0
+Mexico City Grand Prix,Driver_ZHO,SOFT,1
+Mexico City Grand Prix,Driver_ZHO,SOFT,1
+Mexico City Grand Prix,Driver_ZHO,SOFT,1
+Miami Grand Prix,Driver_ALB,HARD,0
+Miami Grand Prix,Driver_ALB,MEDIUM,0
+Miami Grand Prix,Driver_ALB,MEDIUM,0
+Miami Grand Prix,Driver_ALB,MEDIUM,2
+Miami Grand Prix,Driver_ALB,SOFT,0
+Miami Grand Prix,Driver_ALB,SOFT,1
+Miami Grand Prix,Driver_ALB,SOFT,1
+Miami Grand Prix,Driver_ALO,HARD,0
+Miami Grand Prix,Driver_ALO,MEDIUM,0
+Miami Grand Prix,Driver_ALO,MEDIUM,0
+Miami Grand Prix,Driver_ALO,MEDIUM,2
+Miami Grand Prix,Driver_ALO,SOFT,0
+Miami Grand Prix,Driver_ALO,SOFT,1
+Miami Grand Prix,Driver_ALO,SOFT,1
+Miami Grand Prix,Driver_BOT,HARD,0
+Miami Grand Prix,Driver_BOT,MEDIUM,0
+Miami Grand Prix,Driver_BOT,MEDIUM,0
+Miami Grand Prix,Driver_BOT,MEDIUM,3
+Miami Grand Prix,Driver_BOT,SOFT,0
+Miami Grand Prix,Driver_BOT,SOFT,0
+Miami Grand Prix,Driver_BOT,SOFT,0
+Miami Grand Prix,Driver_GAS,HARD,0
+Miami Grand Prix,Driver_GAS,MEDIUM,0
+Miami Grand Prix,Driver_GAS,MEDIUM,0
+Miami Grand Prix,Driver_GAS,MEDIUM,2
+Miami Grand Prix,Driver_GAS,SOFT,1
+Miami Grand Prix,Driver_GAS,SOFT,1
+Miami Grand Prix,Driver_GAS,SOFT,1
+Miami Grand Prix,Driver_HAM,HARD,0
+Miami Grand Prix,Driver_HAM,HARD,0
+Miami Grand Prix,Driver_HAM,MEDIUM,1
+Miami Grand Prix,Driver_HAM,MEDIUM,2
+Miami Grand Prix,Driver_HAM,SOFT,1
+Miami Grand Prix,Driver_HAM,SOFT,1
+Miami Grand Prix,Driver_HAM,SOFT,1
+Miami Grand Prix,Driver_HUL,HARD,0
+Miami Grand Prix,Driver_HUL,MEDIUM,0
+Miami Grand Prix,Driver_HUL,MEDIUM,0
+Miami Grand Prix,Driver_HUL,MEDIUM,2
+Miami Grand Prix,Driver_HUL,SOFT,1
+Miami Grand Prix,Driver_HUL,SOFT,1
+Miami Grand Prix,Driver_HUL,SOFT,1
+Miami Grand Prix,Driver_LEC,HARD,0
+Miami Grand Prix,Driver_LEC,MEDIUM,0
+Miami Grand Prix,Driver_LEC,MEDIUM,3
+Miami Grand Prix,Driver_LEC,MEDIUM,4
+Miami Grand Prix,Driver_LEC,SOFT,1
+Miami Grand Prix,Driver_LEC,SOFT,1
+Miami Grand Prix,Driver_LEC,SOFT,1
+Miami Grand Prix,Driver_MAG,HARD,0
+Miami Grand Prix,Driver_MAG,MEDIUM,0
+Miami Grand Prix,Driver_MAG,MEDIUM,0
+Miami Grand Prix,Driver_MAG,MEDIUM,2
+Miami Grand Prix,Driver_MAG,SOFT,0
+Miami Grand Prix,Driver_MAG,SOFT,0
+Miami Grand Prix,Driver_MAG,SOFT,0
+Miami Grand Prix,Driver_NOR,HARD,0
+Miami Grand Prix,Driver_NOR,MEDIUM,0
+Miami Grand Prix,Driver_NOR,MEDIUM,1
+Miami Grand Prix,Driver_NOR,MEDIUM,2
+Miami Grand Prix,Driver_NOR,MEDIUM,2
+Miami Grand Prix,Driver_NOR,SOFT,0
+Miami Grand Prix,Driver_NOR,SOFT,1
+Miami Grand Prix,Driver_OCO,HARD,0
+Miami Grand Prix,Driver_OCO,MEDIUM,0
+Miami Grand Prix,Driver_OCO,MEDIUM,2
+Miami Grand Prix,Driver_OCO,MEDIUM,2
+Miami Grand Prix,Driver_OCO,SOFT,1
+Miami Grand Prix,Driver_OCO,SOFT,1
+Miami Grand Prix,Driver_OCO,SOFT,1
+Miami Grand Prix,Driver_PER,HARD,0
+Miami Grand Prix,Driver_PER,HARD,0
+Miami Grand Prix,Driver_PER,MEDIUM,0
+Miami Grand Prix,Driver_PER,MEDIUM,1
+Miami Grand Prix,Driver_PER,SOFT,1
+Miami Grand Prix,Driver_PER,SOFT,1
+Miami Grand Prix,Driver_PER,SOFT,1
+Miami Grand Prix,Driver_PIA,HARD,0
+Miami Grand Prix,Driver_PIA,MEDIUM,0
+Miami Grand Prix,Driver_PIA,MEDIUM,3
+Miami Grand Prix,Driver_PIA,MEDIUM,3
+Miami Grand Prix,Driver_PIA,SOFT,1
+Miami Grand Prix,Driver_PIA,SOFT,1
+Miami Grand Prix,Driver_PIA,SOFT,1
+Miami Grand Prix,Driver_RIC,HARD,0
+Miami Grand Prix,Driver_RIC,MEDIUM,2
+Miami Grand Prix,Driver_RIC,MEDIUM,2
+Miami Grand Prix,Driver_RIC,MEDIUM,2
+Miami Grand Prix,Driver_RIC,SOFT,0
+Miami Grand Prix,Driver_RIC,SOFT,0
+Miami Grand Prix,Driver_RIC,SOFT,0
+Miami Grand Prix,Driver_RUS,HARD,0
+Miami Grand Prix,Driver_RUS,HARD,0
+Miami Grand Prix,Driver_RUS,MEDIUM,1
+Miami Grand Prix,Driver_RUS,MEDIUM,2
+Miami Grand Prix,Driver_RUS,SOFT,1
+Miami Grand Prix,Driver_RUS,SOFT,1
+Miami Grand Prix,Driver_RUS,SOFT,1
+Miami Grand Prix,Driver_SAI,HARD,0
+Miami Grand Prix,Driver_SAI,MEDIUM,0
+Miami Grand Prix,Driver_SAI,MEDIUM,4
+Miami Grand Prix,Driver_SAI,MEDIUM,4
+Miami Grand Prix,Driver_SAI,SOFT,1
+Miami Grand Prix,Driver_SAI,SOFT,1
+Miami Grand Prix,Driver_SAI,SOFT,1
+Miami Grand Prix,Driver_SAR,HARD,0
+Miami Grand Prix,Driver_SAR,MEDIUM,0
+Miami Grand Prix,Driver_SAR,MEDIUM,0
+Miami Grand Prix,Driver_SAR,MEDIUM,2
+Miami Grand Prix,Driver_SAR,SOFT,0
+Miami Grand Prix,Driver_SAR,SOFT,0
+Miami Grand Prix,Driver_SAR,SOFT,1
+Miami Grand Prix,Driver_STR,HARD,0
+Miami Grand Prix,Driver_STR,MEDIUM,0
+Miami Grand Prix,Driver_STR,MEDIUM,0
+Miami Grand Prix,Driver_STR,MEDIUM,2
+Miami Grand Prix,Driver_STR,SOFT,0
+Miami Grand Prix,Driver_STR,SOFT,1
+Miami Grand Prix,Driver_STR,SOFT,1
+Miami Grand Prix,Driver_TSU,HARD,0
+Miami Grand Prix,Driver_TSU,MEDIUM,0
+Miami Grand Prix,Driver_TSU,MEDIUM,1
+Miami Grand Prix,Driver_TSU,MEDIUM,2
+Miami Grand Prix,Driver_TSU,MEDIUM,2
+Miami Grand Prix,Driver_TSU,SOFT,1
+Miami Grand Prix,Driver_TSU,SOFT,1
+Miami Grand Prix,Driver_VER,HARD,0
+Miami Grand Prix,Driver_VER,HARD,0
+Miami Grand Prix,Driver_VER,MEDIUM,0
+Miami Grand Prix,Driver_VER,MEDIUM,2
+Miami Grand Prix,Driver_VER,SOFT,1
+Miami Grand Prix,Driver_VER,SOFT,1
+Miami Grand Prix,Driver_VER,SOFT,1
+Miami Grand Prix,Driver_ZHO,HARD,0
+Miami Grand Prix,Driver_ZHO,HARD,0
+Miami Grand Prix,Driver_ZHO,MEDIUM,0
+Miami Grand Prix,Driver_ZHO,MEDIUM,2
+Miami Grand Prix,Driver_ZHO,SOFT,0
+Miami Grand Prix,Driver_ZHO,SOFT,0
+Miami Grand Prix,Driver_ZHO,SOFT,1
+Monaco Grand Prix,Driver_ALB,HARD,0
+Monaco Grand Prix,Driver_ALB,MEDIUM,0
+Monaco Grand Prix,Driver_ALB,SOFT,2
+Monaco Grand Prix,Driver_ALB,SOFT,4
+Monaco Grand Prix,Driver_ALB,SOFT,5
+Monaco Grand Prix,Driver_ALB,SOFT,6
+Monaco Grand Prix,Driver_ALO,HARD,0
+Monaco Grand Prix,Driver_ALO,MEDIUM,0
+Monaco Grand Prix,Driver_ALO,SOFT,0
+Monaco Grand Prix,Driver_ALO,SOFT,0
+Monaco Grand Prix,Driver_ALO,SOFT,0
+Monaco Grand Prix,Driver_ALO,SOFT,4
+Monaco Grand Prix,Driver_ALO,SOFT,4
+Monaco Grand Prix,Driver_BOT,HARD,0
+Monaco Grand Prix,Driver_BOT,MEDIUM,0
+Monaco Grand Prix,Driver_BOT,SOFT,0
+Monaco Grand Prix,Driver_BOT,SOFT,0
+Monaco Grand Prix,Driver_BOT,SOFT,0
+Monaco Grand Prix,Driver_BOT,SOFT,2
+Monaco Grand Prix,Driver_BOT,SOFT,2
+Monaco Grand Prix,Driver_GAS,HARD,0
+Monaco Grand Prix,Driver_GAS,MEDIUM,0
+Monaco Grand Prix,Driver_GAS,SOFT,3
+Monaco Grand Prix,Driver_GAS,SOFT,4
+Monaco Grand Prix,Driver_GAS,SOFT,5
+Monaco Grand Prix,Driver_GAS,SOFT,6
+Monaco Grand Prix,Driver_HAM,HARD,0
+Monaco Grand Prix,Driver_HAM,MEDIUM,0
+Monaco Grand Prix,Driver_HAM,SOFT,2
+Monaco Grand Prix,Driver_HAM,SOFT,2
+Monaco Grand Prix,Driver_HAM,SOFT,3
+Monaco Grand Prix,Driver_HAM,SOFT,4
+Monaco Grand Prix,Driver_HUL,HARD,0
+Monaco Grand Prix,Driver_HUL,MEDIUM,0
+Monaco Grand Prix,Driver_HUL,SOFT,0
+Monaco Grand Prix,Driver_HUL,SOFT,3
+Monaco Grand Prix,Driver_HUL,SOFT,4
+Monaco Grand Prix,Driver_HUL,SOFT,4
+Monaco Grand Prix,Driver_HUL,SOFT,4
+Monaco Grand Prix,Driver_LEC,HARD,0
+Monaco Grand Prix,Driver_LEC,MEDIUM,0
+Monaco Grand Prix,Driver_LEC,SOFT,1
+Monaco Grand Prix,Driver_LEC,SOFT,1
+Monaco Grand Prix,Driver_LEC,SOFT,2
+Monaco Grand Prix,Driver_LEC,SOFT,2
+Monaco Grand Prix,Driver_MAG,HARD,0
+Monaco Grand Prix,Driver_MAG,MEDIUM,0
+Monaco Grand Prix,Driver_MAG,SOFT,0
+Monaco Grand Prix,Driver_MAG,SOFT,2
+Monaco Grand Prix,Driver_MAG,SOFT,3
+Monaco Grand Prix,Driver_MAG,SOFT,4
+Monaco Grand Prix,Driver_MAG,SOFT,4
+Monaco Grand Prix,Driver_NOR,HARD,0
+Monaco Grand Prix,Driver_NOR,MEDIUM,0
+Monaco Grand Prix,Driver_NOR,SOFT,0
+Monaco Grand Prix,Driver_NOR,SOFT,1
+Monaco Grand Prix,Driver_NOR,SOFT,3
+Monaco Grand Prix,Driver_NOR,SOFT,3
+Monaco Grand Prix,Driver_NOR,SOFT,4
+Monaco Grand Prix,Driver_OCO,HARD,0
+Monaco Grand Prix,Driver_OCO,MEDIUM,0
+Monaco Grand Prix,Driver_OCO,SOFT,0
+Monaco Grand Prix,Driver_OCO,SOFT,2
+Monaco Grand Prix,Driver_OCO,SOFT,3
+Monaco Grand Prix,Driver_OCO,SOFT,3
+Monaco Grand Prix,Driver_OCO,SOFT,4
+Monaco Grand Prix,Driver_PER,HARD,0
+Monaco Grand Prix,Driver_PER,MEDIUM,0
+Monaco Grand Prix,Driver_PER,MEDIUM,2
+Monaco Grand Prix,Driver_PER,SOFT,0
+Monaco Grand Prix,Driver_PER,SOFT,0
+Monaco Grand Prix,Driver_PER,SOFT,2
+Monaco Grand Prix,Driver_PER,SOFT,3
+Monaco Grand Prix,Driver_PIA,HARD,0
+Monaco Grand Prix,Driver_PIA,MEDIUM,0
+Monaco Grand Prix,Driver_PIA,SOFT,2
+Monaco Grand Prix,Driver_PIA,SOFT,2
+Monaco Grand Prix,Driver_PIA,SOFT,2
+Monaco Grand Prix,Driver_PIA,SOFT,2
+Monaco Grand Prix,Driver_PIA,SOFT,4
+Monaco Grand Prix,Driver_RIC,HARD,0
+Monaco Grand Prix,Driver_RIC,MEDIUM,0
+Monaco Grand Prix,Driver_RIC,SOFT,0
+Monaco Grand Prix,Driver_RIC,SOFT,1
+Monaco Grand Prix,Driver_RIC,SOFT,2
+Monaco Grand Prix,Driver_RIC,SOFT,2
+Monaco Grand Prix,Driver_RIC,SOFT,2
+Monaco Grand Prix,Driver_RUS,HARD,0
+Monaco Grand Prix,Driver_RUS,MEDIUM,0
+Monaco Grand Prix,Driver_RUS,SOFT,2
+Monaco Grand Prix,Driver_RUS,SOFT,2
+Monaco Grand Prix,Driver_RUS,SOFT,3
+Monaco Grand Prix,Driver_RUS,SOFT,5
+Monaco Grand Prix,Driver_SAI,HARD,0
+Monaco Grand Prix,Driver_SAI,MEDIUM,0
+Monaco Grand Prix,Driver_SAI,SOFT,3
+Monaco Grand Prix,Driver_SAI,SOFT,3
+Monaco Grand Prix,Driver_SAI,SOFT,3
+Monaco Grand Prix,Driver_SAI,SOFT,3
+Monaco Grand Prix,Driver_SAI,SOFT,5
+Monaco Grand Prix,Driver_SAR,HARD,0
+Monaco Grand Prix,Driver_SAR,MEDIUM,0
+Monaco Grand Prix,Driver_SAR,SOFT,0
+Monaco Grand Prix,Driver_SAR,SOFT,0
+Monaco Grand Prix,Driver_SAR,SOFT,0
+Monaco Grand Prix,Driver_SAR,SOFT,2
+Monaco Grand Prix,Driver_SAR,SOFT,2
+Monaco Grand Prix,Driver_STR,HARD,0
+Monaco Grand Prix,Driver_STR,MEDIUM,0
+Monaco Grand Prix,Driver_STR,SOFT,0
+Monaco Grand Prix,Driver_STR,SOFT,2
+Monaco Grand Prix,Driver_STR,SOFT,2
+Monaco Grand Prix,Driver_STR,SOFT,4
+Monaco Grand Prix,Driver_STR,SOFT,4
+Monaco Grand Prix,Driver_TSU,HARD,0
+Monaco Grand Prix,Driver_TSU,MEDIUM,0
+Monaco Grand Prix,Driver_TSU,SOFT,1
+Monaco Grand Prix,Driver_TSU,SOFT,1
+Monaco Grand Prix,Driver_TSU,SOFT,3
+Monaco Grand Prix,Driver_TSU,SOFT,3
+Monaco Grand Prix,Driver_VER,HARD,0
+Monaco Grand Prix,Driver_VER,MEDIUM,0
+Monaco Grand Prix,Driver_VER,SOFT,2
+Monaco Grand Prix,Driver_VER,SOFT,3
+Monaco Grand Prix,Driver_VER,SOFT,3
+Monaco Grand Prix,Driver_VER,SOFT,3
+Monaco Grand Prix,Driver_ZHO,HARD,0
+Monaco Grand Prix,Driver_ZHO,MEDIUM,0
+Monaco Grand Prix,Driver_ZHO,SOFT,0
+Monaco Grand Prix,Driver_ZHO,SOFT,0
+Monaco Grand Prix,Driver_ZHO,SOFT,0
+Monaco Grand Prix,Driver_ZHO,SOFT,2
+Monaco Grand Prix,Driver_ZHO,SOFT,2
+Qatar Grand Prix,Driver_ALB,HARD,0
+Qatar Grand Prix,Driver_ALB,MEDIUM,0
+Qatar Grand Prix,Driver_ALB,MEDIUM,0
+Qatar Grand Prix,Driver_ALB,MEDIUM,4
+Qatar Grand Prix,Driver_ALB,SOFT,0
+Qatar Grand Prix,Driver_ALB,SOFT,0
+Qatar Grand Prix,Driver_ALB,SOFT,0
+Qatar Grand Prix,Driver_ALO,HARD,0
+Qatar Grand Prix,Driver_ALO,HARD,0
+Qatar Grand Prix,Driver_ALO,MEDIUM,0
+Qatar Grand Prix,Driver_ALO,MEDIUM,2
+Qatar Grand Prix,Driver_ALO,SOFT,1
+Qatar Grand Prix,Driver_ALO,SOFT,1
+Qatar Grand Prix,Driver_ALO,SOFT,1
+Qatar Grand Prix,Driver_BOT,HARD,0
+Qatar Grand Prix,Driver_BOT,HARD,0
+Qatar Grand Prix,Driver_BOT,MEDIUM,1
+Qatar Grand Prix,Driver_BOT,MEDIUM,2
+Qatar Grand Prix,Driver_BOT,SOFT,0
+Qatar Grand Prix,Driver_BOT,SOFT,3
+Qatar Grand Prix,Driver_BOT,SOFT,3
+Qatar Grand Prix,Driver_GAS,HARD,0
+Qatar Grand Prix,Driver_GAS,HARD,0
+Qatar Grand Prix,Driver_GAS,MEDIUM,1
+Qatar Grand Prix,Driver_GAS,MEDIUM,1
+Qatar Grand Prix,Driver_GAS,SOFT,1
+Qatar Grand Prix,Driver_GAS,SOFT,1
+Qatar Grand Prix,Driver_GAS,SOFT,1
+Qatar Grand Prix,Driver_HAM,HARD,0
+Qatar Grand Prix,Driver_HAM,HARD,0
+Qatar Grand Prix,Driver_HAM,MEDIUM,5
+Qatar Grand Prix,Driver_HAM,SOFT,2
+Qatar Grand Prix,Driver_HAM,SOFT,2
+Qatar Grand Prix,Driver_HAM,SOFT,3
+Qatar Grand Prix,Driver_HAM,SOFT,3
+Qatar Grand Prix,Driver_HUL,HARD,0
+Qatar Grand Prix,Driver_HUL,HARD,0
+Qatar Grand Prix,Driver_HUL,MEDIUM,1
+Qatar Grand Prix,Driver_HUL,MEDIUM,1
+Qatar Grand Prix,Driver_HUL,MEDIUM,1
+Qatar Grand Prix,Driver_HUL,SOFT,0
+Qatar Grand Prix,Driver_HUL,SOFT,0
+Qatar Grand Prix,Driver_HUL,SOFT,0
+Qatar Grand Prix,Driver_LEC,HARD,0
+Qatar Grand Prix,Driver_LEC,MEDIUM,0
+Qatar Grand Prix,Driver_LEC,MEDIUM,2
+Qatar Grand Prix,Driver_LEC,MEDIUM,2
+Qatar Grand Prix,Driver_LEC,SOFT,1
+Qatar Grand Prix,Driver_LEC,SOFT,1
+Qatar Grand Prix,Driver_LEC,SOFT,2
+Qatar Grand Prix,Driver_MAG,HARD,0
+Qatar Grand Prix,Driver_MAG,HARD,0
+Qatar Grand Prix,Driver_MAG,MEDIUM,1
+Qatar Grand Prix,Driver_MAG,MEDIUM,1
+Qatar Grand Prix,Driver_MAG,MEDIUM,1
+Qatar Grand Prix,Driver_MAG,SOFT,3
+Qatar Grand Prix,Driver_MAG,SOFT,3
+Qatar Grand Prix,Driver_MAG,SOFT,4
+Qatar Grand Prix,Driver_NOR,HARD,0
+Qatar Grand Prix,Driver_NOR,HARD,0
+Qatar Grand Prix,Driver_NOR,MEDIUM,0
+Qatar Grand Prix,Driver_NOR,MEDIUM,3
+Qatar Grand Prix,Driver_NOR,SOFT,1
+Qatar Grand Prix,Driver_NOR,SOFT,1
+Qatar Grand Prix,Driver_NOR,SOFT,2
+Qatar Grand Prix,Driver_OCO,HARD,0
+Qatar Grand Prix,Driver_OCO,HARD,0
+Qatar Grand Prix,Driver_OCO,MEDIUM,0
+Qatar Grand Prix,Driver_OCO,MEDIUM,0
+Qatar Grand Prix,Driver_OCO,SOFT,0
+Qatar Grand Prix,Driver_OCO,SOFT,0
+Qatar Grand Prix,Driver_OCO,SOFT,0
+Qatar Grand Prix,Driver_PER,HARD,0
+Qatar Grand Prix,Driver_PER,HARD,0
+Qatar Grand Prix,Driver_PER,MEDIUM,0
+Qatar Grand Prix,Driver_PER,MEDIUM,0
+Qatar Grand Prix,Driver_PER,SOFT,1
+Qatar Grand Prix,Driver_PER,SOFT,1
+Qatar Grand Prix,Driver_PER,SOFT,2
+Qatar Grand Prix,Driver_PIA,HARD,0
+Qatar Grand Prix,Driver_PIA,HARD,0
+Qatar Grand Prix,Driver_PIA,MEDIUM,0
+Qatar Grand Prix,Driver_PIA,MEDIUM,2
+Qatar Grand Prix,Driver_PIA,SOFT,2
+Qatar Grand Prix,Driver_PIA,SOFT,2
+Qatar Grand Prix,Driver_PIA,SOFT,3
+Qatar Grand Prix,Driver_RIC,HARD,0
+Qatar Grand Prix,Driver_RIC,HARD,0
+Qatar Grand Prix,Driver_RIC,MEDIUM,0
+Qatar Grand Prix,Driver_RIC,MEDIUM,3
+Qatar Grand Prix,Driver_RIC,SOFT,0
+Qatar Grand Prix,Driver_RIC,SOFT,1
+Qatar Grand Prix,Driver_RIC,SOFT,1
+Qatar Grand Prix,Driver_RUS,HARD,0
+Qatar Grand Prix,Driver_RUS,HARD,0
+Qatar Grand Prix,Driver_RUS,MEDIUM,0
+Qatar Grand Prix,Driver_RUS,MEDIUM,3
+Qatar Grand Prix,Driver_RUS,SOFT,2
+Qatar Grand Prix,Driver_RUS,SOFT,2
+Qatar Grand Prix,Driver_RUS,SOFT,3
+Qatar Grand Prix,Driver_SAI,HARD,0
+Qatar Grand Prix,Driver_SAI,MEDIUM,0
+Qatar Grand Prix,Driver_SAI,MEDIUM,2
+Qatar Grand Prix,Driver_SAI,MEDIUM,3
+Qatar Grand Prix,Driver_SAI,SOFT,1
+Qatar Grand Prix,Driver_SAI,SOFT,1
+Qatar Grand Prix,Driver_SAI,SOFT,2
+Qatar Grand Prix,Driver_SAR,HARD,0
+Qatar Grand Prix,Driver_SAR,MEDIUM,0
+Qatar Grand Prix,Driver_SAR,MEDIUM,0
+Qatar Grand Prix,Driver_SAR,MEDIUM,3
+Qatar Grand Prix,Driver_SAR,SOFT,0
+Qatar Grand Prix,Driver_SAR,SOFT,0
+Qatar Grand Prix,Driver_SAR,SOFT,0
+Qatar Grand Prix,Driver_STR,HARD,0
+Qatar Grand Prix,Driver_STR,HARD,0
+Qatar Grand Prix,Driver_STR,MEDIUM,0
+Qatar Grand Prix,Driver_STR,MEDIUM,4
+Qatar Grand Prix,Driver_STR,SOFT,0
+Qatar Grand Prix,Driver_STR,SOFT,1
+Qatar Grand Prix,Driver_STR,SOFT,1
+Qatar Grand Prix,Driver_TSU,HARD,0
+Qatar Grand Prix,Driver_TSU,HARD,0
+Qatar Grand Prix,Driver_TSU,MEDIUM,0
+Qatar Grand Prix,Driver_TSU,MEDIUM,0
+Qatar Grand Prix,Driver_TSU,SOFT,0
+Qatar Grand Prix,Driver_TSU,SOFT,2
+Qatar Grand Prix,Driver_TSU,SOFT,2
+Qatar Grand Prix,Driver_VER,HARD,0
+Qatar Grand Prix,Driver_VER,HARD,0
+Qatar Grand Prix,Driver_VER,MEDIUM,0
+Qatar Grand Prix,Driver_VER,MEDIUM,4
+Qatar Grand Prix,Driver_VER,SOFT,0
+Qatar Grand Prix,Driver_VER,SOFT,4
+Qatar Grand Prix,Driver_VER,SOFT,4
+Qatar Grand Prix,Driver_ZHO,HARD,0
+Qatar Grand Prix,Driver_ZHO,HARD,0
+Qatar Grand Prix,Driver_ZHO,MEDIUM,0
+Qatar Grand Prix,Driver_ZHO,MEDIUM,1
+Qatar Grand Prix,Driver_ZHO,SOFT,3
+Qatar Grand Prix,Driver_ZHO,SOFT,3
+Qatar Grand Prix,Driver_ZHO,SOFT,4
+Saudi Arabian Grand Prix,Driver_ALB,HARD,0
+Saudi Arabian Grand Prix,Driver_ALB,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_ALB,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_ALB,SOFT,0
+Saudi Arabian Grand Prix,Driver_ALB,SOFT,1
+Saudi Arabian Grand Prix,Driver_ALB,SOFT,2
+Saudi Arabian Grand Prix,Driver_ALB,SOFT,3
+Saudi Arabian Grand Prix,Driver_ALO,HARD,0
+Saudi Arabian Grand Prix,Driver_ALO,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_ALO,SOFT,0
+Saudi Arabian Grand Prix,Driver_ALO,SOFT,1
+Saudi Arabian Grand Prix,Driver_ALO,SOFT,1
+Saudi Arabian Grand Prix,Driver_ALO,SOFT,1
+Saudi Arabian Grand Prix,Driver_BOT,HARD,0
+Saudi Arabian Grand Prix,Driver_BOT,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_BOT,SOFT,0
+Saudi Arabian Grand Prix,Driver_BOT,SOFT,0
+Saudi Arabian Grand Prix,Driver_BOT,SOFT,0
+Saudi Arabian Grand Prix,Driver_BOT,SOFT,2
+Saudi Arabian Grand Prix,Driver_BOT,SOFT,2
+Saudi Arabian Grand Prix,Driver_GAS,HARD,0
+Saudi Arabian Grand Prix,Driver_GAS,HARD,0
+Saudi Arabian Grand Prix,Driver_GAS,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_GAS,SOFT,0
+Saudi Arabian Grand Prix,Driver_GAS,SOFT,0
+Saudi Arabian Grand Prix,Driver_GAS,SOFT,1
+Saudi Arabian Grand Prix,Driver_GAS,SOFT,2
+Saudi Arabian Grand Prix,Driver_HAM,HARD,0
+Saudi Arabian Grand Prix,Driver_HAM,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_HAM,MEDIUM,1
+Saudi Arabian Grand Prix,Driver_HAM,SOFT,1
+Saudi Arabian Grand Prix,Driver_HAM,SOFT,1
+Saudi Arabian Grand Prix,Driver_HAM,SOFT,2
+Saudi Arabian Grand Prix,Driver_HUL,HARD,0
+Saudi Arabian Grand Prix,Driver_HUL,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_HUL,SOFT,0
+Saudi Arabian Grand Prix,Driver_HUL,SOFT,1
+Saudi Arabian Grand Prix,Driver_HUL,SOFT,1
+Saudi Arabian Grand Prix,Driver_HUL,SOFT,1
+Saudi Arabian Grand Prix,Driver_HUL,SOFT,2
+Saudi Arabian Grand Prix,Driver_LEC,HARD,0
+Saudi Arabian Grand Prix,Driver_LEC,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_LEC,SOFT,2
+Saudi Arabian Grand Prix,Driver_LEC,SOFT,2
+Saudi Arabian Grand Prix,Driver_LEC,SOFT,3
+Saudi Arabian Grand Prix,Driver_LEC,SOFT,3
+Saudi Arabian Grand Prix,Driver_MAG,HARD,0
+Saudi Arabian Grand Prix,Driver_MAG,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_MAG,SOFT,0
+Saudi Arabian Grand Prix,Driver_MAG,SOFT,1
+Saudi Arabian Grand Prix,Driver_MAG,SOFT,1
+Saudi Arabian Grand Prix,Driver_MAG,SOFT,3
+Saudi Arabian Grand Prix,Driver_MAG,SOFT,3
+Saudi Arabian Grand Prix,Driver_NOR,HARD,0
+Saudi Arabian Grand Prix,Driver_NOR,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_NOR,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_NOR,SOFT,1
+Saudi Arabian Grand Prix,Driver_NOR,SOFT,3
+Saudi Arabian Grand Prix,Driver_NOR,SOFT,3
+Saudi Arabian Grand Prix,Driver_OCO,HARD,0
+Saudi Arabian Grand Prix,Driver_OCO,HARD,0
+Saudi Arabian Grand Prix,Driver_OCO,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_OCO,SOFT,0
+Saudi Arabian Grand Prix,Driver_OCO,SOFT,0
+Saudi Arabian Grand Prix,Driver_OCO,SOFT,1
+Saudi Arabian Grand Prix,Driver_OCO,SOFT,2
+Saudi Arabian Grand Prix,Driver_PER,HARD,4
+Saudi Arabian Grand Prix,Driver_PER,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_PER,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_PER,SOFT,2
+Saudi Arabian Grand Prix,Driver_PER,SOFT,2
+Saudi Arabian Grand Prix,Driver_PER,SOFT,4
+Saudi Arabian Grand Prix,Driver_PIA,HARD,0
+Saudi Arabian Grand Prix,Driver_PIA,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_PIA,MEDIUM,2
+Saudi Arabian Grand Prix,Driver_PIA,SOFT,1
+Saudi Arabian Grand Prix,Driver_PIA,SOFT,1
+Saudi Arabian Grand Prix,Driver_PIA,SOFT,1
+Saudi Arabian Grand Prix,Driver_PIA,SOFT,2
+Saudi Arabian Grand Prix,Driver_RIC,HARD,0
+Saudi Arabian Grand Prix,Driver_RIC,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_RIC,SOFT,0
+Saudi Arabian Grand Prix,Driver_RIC,SOFT,1
+Saudi Arabian Grand Prix,Driver_RIC,SOFT,1
+Saudi Arabian Grand Prix,Driver_RIC,SOFT,1
+Saudi Arabian Grand Prix,Driver_RIC,SOFT,1
+Saudi Arabian Grand Prix,Driver_RUS,HARD,0
+Saudi Arabian Grand Prix,Driver_RUS,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_RUS,MEDIUM,1
+Saudi Arabian Grand Prix,Driver_RUS,SOFT,1
+Saudi Arabian Grand Prix,Driver_RUS,SOFT,2
+Saudi Arabian Grand Prix,Driver_RUS,SOFT,2
+Saudi Arabian Grand Prix,Driver_SAI,HARD,0
+Saudi Arabian Grand Prix,Driver_SAI,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_SAI,SOFT,0
+Saudi Arabian Grand Prix,Driver_SAI,SOFT,1
+Saudi Arabian Grand Prix,Driver_SAI,SOFT,2
+Saudi Arabian Grand Prix,Driver_SAI,SOFT,2
+Saudi Arabian Grand Prix,Driver_SAI,SOFT,3
+Saudi Arabian Grand Prix,Driver_SAR,HARD,0
+Saudi Arabian Grand Prix,Driver_SAR,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_SAR,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_SAR,SOFT,0
+Saudi Arabian Grand Prix,Driver_SAR,SOFT,0
+Saudi Arabian Grand Prix,Driver_SAR,SOFT,1
+Saudi Arabian Grand Prix,Driver_SAR,SOFT,2
+Saudi Arabian Grand Prix,Driver_STR,HARD,0
+Saudi Arabian Grand Prix,Driver_STR,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_STR,SOFT,1
+Saudi Arabian Grand Prix,Driver_STR,SOFT,1
+Saudi Arabian Grand Prix,Driver_STR,SOFT,1
+Saudi Arabian Grand Prix,Driver_STR,SOFT,2
+Saudi Arabian Grand Prix,Driver_TSU,HARD,0
+Saudi Arabian Grand Prix,Driver_TSU,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_TSU,SOFT,1
+Saudi Arabian Grand Prix,Driver_TSU,SOFT,1
+Saudi Arabian Grand Prix,Driver_TSU,SOFT,1
+Saudi Arabian Grand Prix,Driver_TSU,SOFT,1
+Saudi Arabian Grand Prix,Driver_VER,HARD,0
+Saudi Arabian Grand Prix,Driver_VER,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_VER,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_VER,SOFT,1
+Saudi Arabian Grand Prix,Driver_VER,SOFT,1
+Saudi Arabian Grand Prix,Driver_VER,SOFT,2
+Saudi Arabian Grand Prix,Driver_ZHO,HARD,0
+Saudi Arabian Grand Prix,Driver_ZHO,MEDIUM,0
+Saudi Arabian Grand Prix,Driver_ZHO,SOFT,0
+Saudi Arabian Grand Prix,Driver_ZHO,SOFT,0
+Saudi Arabian Grand Prix,Driver_ZHO,SOFT,0
+Saudi Arabian Grand Prix,Driver_ZHO,SOFT,0
+Saudi Arabian Grand Prix,Driver_ZHO,SOFT,0
+Singapore Grand Prix,Driver_ALB,HARD,0
+Singapore Grand Prix,Driver_ALB,MEDIUM,0
+Singapore Grand Prix,Driver_ALB,SOFT,0
+Singapore Grand Prix,Driver_ALB,SOFT,1
+Singapore Grand Prix,Driver_ALB,SOFT,1
+Singapore Grand Prix,Driver_ALB,SOFT,1
+Singapore Grand Prix,Driver_ALB,SOFT,1
+Singapore Grand Prix,Driver_ALO,HARD,0
+Singapore Grand Prix,Driver_ALO,MEDIUM,0
+Singapore Grand Prix,Driver_ALO,SOFT,1
+Singapore Grand Prix,Driver_ALO,SOFT,1
+Singapore Grand Prix,Driver_ALO,SOFT,1
+Singapore Grand Prix,Driver_ALO,SOFT,1
+Singapore Grand Prix,Driver_BOT,HARD,0
+Singapore Grand Prix,Driver_BOT,MEDIUM,0
+Singapore Grand Prix,Driver_BOT,MEDIUM,0
+Singapore Grand Prix,Driver_BOT,SOFT,0
+Singapore Grand Prix,Driver_BOT,SOFT,1
+Singapore Grand Prix,Driver_BOT,SOFT,1
+Singapore Grand Prix,Driver_BOT,SOFT,1
+Singapore Grand Prix,Driver_GAS,HARD,0
+Singapore Grand Prix,Driver_GAS,MEDIUM,0
+Singapore Grand Prix,Driver_GAS,SOFT,0
+Singapore Grand Prix,Driver_GAS,SOFT,0
+Singapore Grand Prix,Driver_GAS,SOFT,1
+Singapore Grand Prix,Driver_GAS,SOFT,1
+Singapore Grand Prix,Driver_GAS,SOFT,1
+Singapore Grand Prix,Driver_HAM,HARD,0
+Singapore Grand Prix,Driver_HAM,MEDIUM,0
+Singapore Grand Prix,Driver_HAM,SOFT,1
+Singapore Grand Prix,Driver_HAM,SOFT,1
+Singapore Grand Prix,Driver_HAM,SOFT,1
+Singapore Grand Prix,Driver_HAM,SOFT,1
+Singapore Grand Prix,Driver_HUL,HARD,0
+Singapore Grand Prix,Driver_HUL,MEDIUM,0
+Singapore Grand Prix,Driver_HUL,SOFT,1
+Singapore Grand Prix,Driver_HUL,SOFT,1
+Singapore Grand Prix,Driver_HUL,SOFT,1
+Singapore Grand Prix,Driver_HUL,SOFT,1
+Singapore Grand Prix,Driver_LEC,HARD,0
+Singapore Grand Prix,Driver_LEC,MEDIUM,0
+Singapore Grand Prix,Driver_LEC,SOFT,1
+Singapore Grand Prix,Driver_LEC,SOFT,1
+Singapore Grand Prix,Driver_LEC,SOFT,1
+Singapore Grand Prix,Driver_LEC,SOFT,3
+Singapore Grand Prix,Driver_MAG,HARD,0
+Singapore Grand Prix,Driver_MAG,MEDIUM,0
+Singapore Grand Prix,Driver_MAG,SOFT,0
+Singapore Grand Prix,Driver_MAG,SOFT,1
+Singapore Grand Prix,Driver_MAG,SOFT,1
+Singapore Grand Prix,Driver_MAG,SOFT,1
+Singapore Grand Prix,Driver_MAG,SOFT,1
+Singapore Grand Prix,Driver_NOR,HARD,0
+Singapore Grand Prix,Driver_NOR,MEDIUM,0
+Singapore Grand Prix,Driver_NOR,SOFT,1
+Singapore Grand Prix,Driver_NOR,SOFT,1
+Singapore Grand Prix,Driver_NOR,SOFT,1
+Singapore Grand Prix,Driver_NOR,SOFT,1
+Singapore Grand Prix,Driver_OCO,HARD,0
+Singapore Grand Prix,Driver_OCO,MEDIUM,0
+Singapore Grand Prix,Driver_OCO,SOFT,0
+Singapore Grand Prix,Driver_OCO,SOFT,1
+Singapore Grand Prix,Driver_OCO,SOFT,1
+Singapore Grand Prix,Driver_OCO,SOFT,1
+Singapore Grand Prix,Driver_OCO,SOFT,2
+Singapore Grand Prix,Driver_PER,HARD,0
+Singapore Grand Prix,Driver_PER,MEDIUM,0
+Singapore Grand Prix,Driver_PER,SOFT,0
+Singapore Grand Prix,Driver_PER,SOFT,1
+Singapore Grand Prix,Driver_PER,SOFT,1
+Singapore Grand Prix,Driver_PER,SOFT,1
+Singapore Grand Prix,Driver_PER,SOFT,2
+Singapore Grand Prix,Driver_PIA,HARD,0
+Singapore Grand Prix,Driver_PIA,MEDIUM,0
+Singapore Grand Prix,Driver_PIA,SOFT,1
+Singapore Grand Prix,Driver_PIA,SOFT,1
+Singapore Grand Prix,Driver_PIA,SOFT,1
+Singapore Grand Prix,Driver_PIA,SOFT,1
+Singapore Grand Prix,Driver_RIC,HARD,0
+Singapore Grand Prix,Driver_RIC,MEDIUM,0
+Singapore Grand Prix,Driver_RIC,SOFT,0
+Singapore Grand Prix,Driver_RIC,SOFT,0
+Singapore Grand Prix,Driver_RIC,SOFT,0
+Singapore Grand Prix,Driver_RIC,SOFT,1
+Singapore Grand Prix,Driver_RIC,SOFT,1
+Singapore Grand Prix,Driver_RUS,HARD,0
+Singapore Grand Prix,Driver_RUS,MEDIUM,0
+Singapore Grand Prix,Driver_RUS,SOFT,1
+Singapore Grand Prix,Driver_RUS,SOFT,1
+Singapore Grand Prix,Driver_RUS,SOFT,1
+Singapore Grand Prix,Driver_RUS,SOFT,1
+Singapore Grand Prix,Driver_SAI,HARD,0
+Singapore Grand Prix,Driver_SAI,MEDIUM,0
+Singapore Grand Prix,Driver_SAI,SOFT,0
+Singapore Grand Prix,Driver_SAI,SOFT,0
+Singapore Grand Prix,Driver_SAI,SOFT,2
+Singapore Grand Prix,Driver_SAI,SOFT,5
+Singapore Grand Prix,Driver_SAR,HARD,0
+Singapore Grand Prix,Driver_SAR,MEDIUM,0
+Singapore Grand Prix,Driver_SAR,MEDIUM,0
+Singapore Grand Prix,Driver_SAR,SOFT,0
+Singapore Grand Prix,Driver_SAR,SOFT,1
+Singapore Grand Prix,Driver_SAR,SOFT,1
+Singapore Grand Prix,Driver_SAR,SOFT,2
+Singapore Grand Prix,Driver_STR,HARD,0
+Singapore Grand Prix,Driver_STR,MEDIUM,0
+Singapore Grand Prix,Driver_STR,SOFT,0
+Singapore Grand Prix,Driver_STR,SOFT,0
+Singapore Grand Prix,Driver_STR,SOFT,0
+Singapore Grand Prix,Driver_STR,SOFT,1
+Singapore Grand Prix,Driver_STR,SOFT,1
+Singapore Grand Prix,Driver_TSU,HARD,0
+Singapore Grand Prix,Driver_TSU,MEDIUM,0
+Singapore Grand Prix,Driver_TSU,SOFT,1
+Singapore Grand Prix,Driver_TSU,SOFT,1
+Singapore Grand Prix,Driver_TSU,SOFT,1
+Singapore Grand Prix,Driver_TSU,SOFT,1
+Singapore Grand Prix,Driver_VER,HARD,0
+Singapore Grand Prix,Driver_VER,MEDIUM,0
+Singapore Grand Prix,Driver_VER,SOFT,1
+Singapore Grand Prix,Driver_VER,SOFT,1
+Singapore Grand Prix,Driver_VER,SOFT,1
+Singapore Grand Prix,Driver_VER,SOFT,1
+Singapore Grand Prix,Driver_ZHO,HARD,0
+Singapore Grand Prix,Driver_ZHO,MEDIUM,0
+Singapore Grand Prix,Driver_ZHO,MEDIUM,0
+Singapore Grand Prix,Driver_ZHO,SOFT,0
+Singapore Grand Prix,Driver_ZHO,SOFT,1
+Singapore Grand Prix,Driver_ZHO,SOFT,1
+Singapore Grand Prix,Driver_ZHO,SOFT,1
+Spanish Grand Prix,Driver_ALB,HARD,0
+Spanish Grand Prix,Driver_ALB,MEDIUM,0
+Spanish Grand Prix,Driver_ALB,MEDIUM,0
+Spanish Grand Prix,Driver_ALB,SOFT,0
+Spanish Grand Prix,Driver_ALB,SOFT,0
+Spanish Grand Prix,Driver_ALB,SOFT,1
+Spanish Grand Prix,Driver_ALB,SOFT,1
+Spanish Grand Prix,Driver_ALO,HARD,0
+Spanish Grand Prix,Driver_ALO,MEDIUM,0
+Spanish Grand Prix,Driver_ALO,SOFT,0
+Spanish Grand Prix,Driver_ALO,SOFT,1
+Spanish Grand Prix,Driver_ALO,SOFT,1
+Spanish Grand Prix,Driver_ALO,SOFT,1
+Spanish Grand Prix,Driver_ALO,SOFT,1
+Spanish Grand Prix,Driver_BOT,HARD,0
+Spanish Grand Prix,Driver_BOT,MEDIUM,0
+Spanish Grand Prix,Driver_BOT,SOFT,0
+Spanish Grand Prix,Driver_BOT,SOFT,1
+Spanish Grand Prix,Driver_BOT,SOFT,1
+Spanish Grand Prix,Driver_BOT,SOFT,1
+Spanish Grand Prix,Driver_BOT,SOFT,1
+Spanish Grand Prix,Driver_GAS,HARD,0
+Spanish Grand Prix,Driver_GAS,MEDIUM,0
+Spanish Grand Prix,Driver_GAS,SOFT,1
+Spanish Grand Prix,Driver_GAS,SOFT,1
+Spanish Grand Prix,Driver_GAS,SOFT,1
+Spanish Grand Prix,Driver_GAS,SOFT,1
+Spanish Grand Prix,Driver_HAM,HARD,0
+Spanish Grand Prix,Driver_HAM,MEDIUM,0
+Spanish Grand Prix,Driver_HAM,SOFT,1
+Spanish Grand Prix,Driver_HAM,SOFT,1
+Spanish Grand Prix,Driver_HAM,SOFT,1
+Spanish Grand Prix,Driver_HAM,SOFT,1
+Spanish Grand Prix,Driver_HUL,HARD,0
+Spanish Grand Prix,Driver_HUL,MEDIUM,0
+Spanish Grand Prix,Driver_HUL,SOFT,0
+Spanish Grand Prix,Driver_HUL,SOFT,1
+Spanish Grand Prix,Driver_HUL,SOFT,1
+Spanish Grand Prix,Driver_HUL,SOFT,1
+Spanish Grand Prix,Driver_HUL,SOFT,1
+Spanish Grand Prix,Driver_LEC,HARD,0
+Spanish Grand Prix,Driver_LEC,MEDIUM,0
+Spanish Grand Prix,Driver_LEC,SOFT,0
+Spanish Grand Prix,Driver_LEC,SOFT,1
+Spanish Grand Prix,Driver_LEC,SOFT,1
+Spanish Grand Prix,Driver_LEC,SOFT,1
+Spanish Grand Prix,Driver_MAG,HARD,0
+Spanish Grand Prix,Driver_MAG,MEDIUM,0
+Spanish Grand Prix,Driver_MAG,SOFT,0
+Spanish Grand Prix,Driver_MAG,SOFT,0
+Spanish Grand Prix,Driver_MAG,SOFT,0
+Spanish Grand Prix,Driver_MAG,SOFT,1
+Spanish Grand Prix,Driver_MAG,SOFT,1
+Spanish Grand Prix,Driver_NOR,HARD,0
+Spanish Grand Prix,Driver_NOR,MEDIUM,0
+Spanish Grand Prix,Driver_NOR,SOFT,0
+Spanish Grand Prix,Driver_NOR,SOFT,1
+Spanish Grand Prix,Driver_NOR,SOFT,1
+Spanish Grand Prix,Driver_NOR,SOFT,1
+Spanish Grand Prix,Driver_OCO,HARD,0
+Spanish Grand Prix,Driver_OCO,MEDIUM,0
+Spanish Grand Prix,Driver_OCO,SOFT,1
+Spanish Grand Prix,Driver_OCO,SOFT,1
+Spanish Grand Prix,Driver_OCO,SOFT,1
+Spanish Grand Prix,Driver_OCO,SOFT,1
+Spanish Grand Prix,Driver_PER,HARD,0
+Spanish Grand Prix,Driver_PER,MEDIUM,0
+Spanish Grand Prix,Driver_PER,SOFT,1
+Spanish Grand Prix,Driver_PER,SOFT,1
+Spanish Grand Prix,Driver_PER,SOFT,1
+Spanish Grand Prix,Driver_PER,SOFT,1
+Spanish Grand Prix,Driver_PIA,HARD,0
+Spanish Grand Prix,Driver_PIA,MEDIUM,0
+Spanish Grand Prix,Driver_PIA,SOFT,1
+Spanish Grand Prix,Driver_PIA,SOFT,1
+Spanish Grand Prix,Driver_PIA,SOFT,1
+Spanish Grand Prix,Driver_PIA,SOFT,1
+Spanish Grand Prix,Driver_RIC,HARD,0
+Spanish Grand Prix,Driver_RIC,MEDIUM,0
+Spanish Grand Prix,Driver_RIC,SOFT,0
+Spanish Grand Prix,Driver_RIC,SOFT,0
+Spanish Grand Prix,Driver_RIC,SOFT,1
+Spanish Grand Prix,Driver_RIC,SOFT,1
+Spanish Grand Prix,Driver_RIC,SOFT,1
+Spanish Grand Prix,Driver_RUS,HARD,0
+Spanish Grand Prix,Driver_RUS,MEDIUM,0
+Spanish Grand Prix,Driver_RUS,SOFT,1
+Spanish Grand Prix,Driver_RUS,SOFT,1
+Spanish Grand Prix,Driver_RUS,SOFT,1
+Spanish Grand Prix,Driver_RUS,SOFT,1
+Spanish Grand Prix,Driver_SAI,HARD,0
+Spanish Grand Prix,Driver_SAI,MEDIUM,0
+Spanish Grand Prix,Driver_SAI,SOFT,0
+Spanish Grand Prix,Driver_SAI,SOFT,1
+Spanish Grand Prix,Driver_SAI,SOFT,1
+Spanish Grand Prix,Driver_SAI,SOFT,1
+Spanish Grand Prix,Driver_SAR,HARD,0
+Spanish Grand Prix,Driver_SAR,MEDIUM,0
+Spanish Grand Prix,Driver_SAR,MEDIUM,0
+Spanish Grand Prix,Driver_SAR,SOFT,0
+Spanish Grand Prix,Driver_SAR,SOFT,1
+Spanish Grand Prix,Driver_SAR,SOFT,1
+Spanish Grand Prix,Driver_SAR,SOFT,1
+Spanish Grand Prix,Driver_STR,HARD,0
+Spanish Grand Prix,Driver_STR,MEDIUM,0
+Spanish Grand Prix,Driver_STR,SOFT,0
+Spanish Grand Prix,Driver_STR,SOFT,1
+Spanish Grand Prix,Driver_STR,SOFT,1
+Spanish Grand Prix,Driver_STR,SOFT,1
+Spanish Grand Prix,Driver_STR,SOFT,2
+Spanish Grand Prix,Driver_TSU,HARD,0
+Spanish Grand Prix,Driver_TSU,MEDIUM,0
+Spanish Grand Prix,Driver_TSU,SOFT,0
+Spanish Grand Prix,Driver_TSU,SOFT,0
+Spanish Grand Prix,Driver_TSU,SOFT,1
+Spanish Grand Prix,Driver_TSU,SOFT,1
+Spanish Grand Prix,Driver_TSU,SOFT,1
+Spanish Grand Prix,Driver_VER,HARD,0
+Spanish Grand Prix,Driver_VER,MEDIUM,0
+Spanish Grand Prix,Driver_VER,SOFT,0
+Spanish Grand Prix,Driver_VER,SOFT,1
+Spanish Grand Prix,Driver_VER,SOFT,1
+Spanish Grand Prix,Driver_VER,SOFT,1
+Spanish Grand Prix,Driver_ZHO,HARD,0
+Spanish Grand Prix,Driver_ZHO,MEDIUM,0
+Spanish Grand Prix,Driver_ZHO,SOFT,0
+Spanish Grand Prix,Driver_ZHO,SOFT,1
+Spanish Grand Prix,Driver_ZHO,SOFT,1
+Spanish Grand Prix,Driver_ZHO,SOFT,1
+Spanish Grand Prix,Driver_ZHO,SOFT,2
+São Paulo Grand Prix,Driver_ALB,HARD,0
+São Paulo Grand Prix,Driver_ALB,HARD,0
+São Paulo Grand Prix,Driver_ALB,MEDIUM,0
+São Paulo Grand Prix,Driver_ALB,SOFT,0
+São Paulo Grand Prix,Driver_ALB,SOFT,0
+São Paulo Grand Prix,Driver_ALB,SOFT,0
+São Paulo Grand Prix,Driver_ALB,SOFT,0
+São Paulo Grand Prix,Driver_ALO,HARD,0
+São Paulo Grand Prix,Driver_ALO,HARD,0
+São Paulo Grand Prix,Driver_ALO,MEDIUM,0
+São Paulo Grand Prix,Driver_ALO,MEDIUM,0
+São Paulo Grand Prix,Driver_ALO,SOFT,0
+São Paulo Grand Prix,Driver_ALO,SOFT,0
+São Paulo Grand Prix,Driver_ALO,SOFT,0
+São Paulo Grand Prix,Driver_BOT,HARD,0
+São Paulo Grand Prix,Driver_BOT,HARD,0
+São Paulo Grand Prix,Driver_BOT,MEDIUM,0
+São Paulo Grand Prix,Driver_BOT,SOFT,0
+São Paulo Grand Prix,Driver_BOT,SOFT,0
+São Paulo Grand Prix,Driver_BOT,SOFT,0
+São Paulo Grand Prix,Driver_BOT,SOFT,0
+São Paulo Grand Prix,Driver_GAS,HARD,0
+São Paulo Grand Prix,Driver_GAS,HARD,0
+São Paulo Grand Prix,Driver_GAS,MEDIUM,1
+São Paulo Grand Prix,Driver_GAS,MEDIUM,1
+São Paulo Grand Prix,Driver_GAS,SOFT,0
+São Paulo Grand Prix,Driver_GAS,SOFT,0
+São Paulo Grand Prix,Driver_GAS,SOFT,0
+São Paulo Grand Prix,Driver_GAS,SOFT,0
+São Paulo Grand Prix,Driver_HAM,HARD,0
+São Paulo Grand Prix,Driver_HAM,HARD,0
+São Paulo Grand Prix,Driver_HAM,MEDIUM,2
+São Paulo Grand Prix,Driver_HAM,MEDIUM,2
+São Paulo Grand Prix,Driver_HAM,SOFT,0
+São Paulo Grand Prix,Driver_HAM,SOFT,0
+São Paulo Grand Prix,Driver_HAM,SOFT,0
+São Paulo Grand Prix,Driver_HUL,HARD,0
+São Paulo Grand Prix,Driver_HUL,HARD,0
+São Paulo Grand Prix,Driver_HUL,MEDIUM,1
+São Paulo Grand Prix,Driver_HUL,MEDIUM,1
+São Paulo Grand Prix,Driver_HUL,SOFT,0
+São Paulo Grand Prix,Driver_HUL,SOFT,0
+São Paulo Grand Prix,Driver_HUL,SOFT,0
+São Paulo Grand Prix,Driver_LEC,HARD,0
+São Paulo Grand Prix,Driver_LEC,HARD,0
+São Paulo Grand Prix,Driver_LEC,MEDIUM,0
+São Paulo Grand Prix,Driver_LEC,SOFT,0
+São Paulo Grand Prix,Driver_LEC,SOFT,0
+São Paulo Grand Prix,Driver_LEC,SOFT,0
+São Paulo Grand Prix,Driver_LEC,SOFT,0
+São Paulo Grand Prix,Driver_MAG,HARD,0
+São Paulo Grand Prix,Driver_MAG,HARD,0
+São Paulo Grand Prix,Driver_MAG,MEDIUM,1
+São Paulo Grand Prix,Driver_MAG,MEDIUM,1
+São Paulo Grand Prix,Driver_MAG,SOFT,0
+São Paulo Grand Prix,Driver_MAG,SOFT,0
+São Paulo Grand Prix,Driver_MAG,SOFT,0
+São Paulo Grand Prix,Driver_NOR,HARD,0
+São Paulo Grand Prix,Driver_NOR,HARD,0
+São Paulo Grand Prix,Driver_NOR,MEDIUM,1
+São Paulo Grand Prix,Driver_NOR,MEDIUM,1
+São Paulo Grand Prix,Driver_NOR,SOFT,0
+São Paulo Grand Prix,Driver_NOR,SOFT,0
+São Paulo Grand Prix,Driver_NOR,SOFT,0
+São Paulo Grand Prix,Driver_OCO,HARD,0
+São Paulo Grand Prix,Driver_OCO,HARD,0
+São Paulo Grand Prix,Driver_OCO,MEDIUM,0
+São Paulo Grand Prix,Driver_OCO,MEDIUM,0
+São Paulo Grand Prix,Driver_OCO,SOFT,0
+São Paulo Grand Prix,Driver_OCO,SOFT,0
+São Paulo Grand Prix,Driver_OCO,SOFT,0
+São Paulo Grand Prix,Driver_PER,HARD,0
+São Paulo Grand Prix,Driver_PER,HARD,0
+São Paulo Grand Prix,Driver_PER,MEDIUM,0
+São Paulo Grand Prix,Driver_PER,MEDIUM,1
+São Paulo Grand Prix,Driver_PER,MEDIUM,1
+São Paulo Grand Prix,Driver_PER,SOFT,0
+São Paulo Grand Prix,Driver_PER,SOFT,0
+São Paulo Grand Prix,Driver_PER,SOFT,0
+São Paulo Grand Prix,Driver_PIA,HARD,0
+São Paulo Grand Prix,Driver_PIA,HARD,0
+São Paulo Grand Prix,Driver_PIA,MEDIUM,0
+São Paulo Grand Prix,Driver_PIA,MEDIUM,2
+São Paulo Grand Prix,Driver_PIA,SOFT,0
+São Paulo Grand Prix,Driver_PIA,SOFT,0
+São Paulo Grand Prix,Driver_PIA,SOFT,0
+São Paulo Grand Prix,Driver_RIC,HARD,0
+São Paulo Grand Prix,Driver_RIC,HARD,0
+São Paulo Grand Prix,Driver_RIC,MEDIUM,1
+São Paulo Grand Prix,Driver_RIC,MEDIUM,1
+São Paulo Grand Prix,Driver_RIC,MEDIUM,1
+São Paulo Grand Prix,Driver_RIC,SOFT,0
+São Paulo Grand Prix,Driver_RIC,SOFT,0
+São Paulo Grand Prix,Driver_RUS,HARD,0
+São Paulo Grand Prix,Driver_RUS,HARD,0
+São Paulo Grand Prix,Driver_RUS,MEDIUM,1
+São Paulo Grand Prix,Driver_RUS,MEDIUM,1
+São Paulo Grand Prix,Driver_RUS,SOFT,0
+São Paulo Grand Prix,Driver_RUS,SOFT,0
+São Paulo Grand Prix,Driver_RUS,SOFT,0
+São Paulo Grand Prix,Driver_SAI,HARD,0
+São Paulo Grand Prix,Driver_SAI,HARD,0
+São Paulo Grand Prix,Driver_SAI,MEDIUM,0
+São Paulo Grand Prix,Driver_SAI,SOFT,0
+São Paulo Grand Prix,Driver_SAI,SOFT,0
+São Paulo Grand Prix,Driver_SAI,SOFT,0
+São Paulo Grand Prix,Driver_SAI,SOFT,0
+São Paulo Grand Prix,Driver_SAR,HARD,0
+São Paulo Grand Prix,Driver_SAR,HARD,0
+São Paulo Grand Prix,Driver_SAR,MEDIUM,0
+São Paulo Grand Prix,Driver_SAR,SOFT,0
+São Paulo Grand Prix,Driver_SAR,SOFT,0
+São Paulo Grand Prix,Driver_SAR,SOFT,0
+São Paulo Grand Prix,Driver_SAR,SOFT,0
+São Paulo Grand Prix,Driver_STR,HARD,0
+São Paulo Grand Prix,Driver_STR,HARD,0
+São Paulo Grand Prix,Driver_STR,MEDIUM,0
+São Paulo Grand Prix,Driver_STR,MEDIUM,0
+São Paulo Grand Prix,Driver_STR,SOFT,0
+São Paulo Grand Prix,Driver_STR,SOFT,0
+São Paulo Grand Prix,Driver_STR,SOFT,0
+São Paulo Grand Prix,Driver_TSU,HARD,0
+São Paulo Grand Prix,Driver_TSU,HARD,0
+São Paulo Grand Prix,Driver_TSU,MEDIUM,0
+São Paulo Grand Prix,Driver_TSU,MEDIUM,0
+São Paulo Grand Prix,Driver_TSU,SOFT,0
+São Paulo Grand Prix,Driver_TSU,SOFT,0
+São Paulo Grand Prix,Driver_TSU,SOFT,0
+São Paulo Grand Prix,Driver_VER,HARD,0
+São Paulo Grand Prix,Driver_VER,HARD,0
+São Paulo Grand Prix,Driver_VER,MEDIUM,0
+São Paulo Grand Prix,Driver_VER,SOFT,0
+São Paulo Grand Prix,Driver_VER,SOFT,0
+São Paulo Grand Prix,Driver_VER,SOFT,0
+São Paulo Grand Prix,Driver_VER,SOFT,0
+São Paulo Grand Prix,Driver_ZHO,HARD,0
+São Paulo Grand Prix,Driver_ZHO,HARD,0
+São Paulo Grand Prix,Driver_ZHO,MEDIUM,0
+São Paulo Grand Prix,Driver_ZHO,MEDIUM,0
+São Paulo Grand Prix,Driver_ZHO,SOFT,0
+São Paulo Grand Prix,Driver_ZHO,SOFT,0
+São Paulo Grand Prix,Driver_ZHO,SOFT,0
+United States Grand Prix,Driver_ALB,HARD,0
+United States Grand Prix,Driver_ALB,MEDIUM,0
+United States Grand Prix,Driver_ALB,MEDIUM,0
+United States Grand Prix,Driver_ALB,MEDIUM,2
+United States Grand Prix,Driver_ALB,SOFT,0
+United States Grand Prix,Driver_ALB,SOFT,0
+United States Grand Prix,Driver_ALB,SOFT,0
+United States Grand Prix,Driver_ALO,HARD,0
+United States Grand Prix,Driver_ALO,MEDIUM,0
+United States Grand Prix,Driver_ALO,MEDIUM,0
+United States Grand Prix,Driver_ALO,MEDIUM,2
+United States Grand Prix,Driver_ALO,SOFT,1
+United States Grand Prix,Driver_ALO,SOFT,1
+United States Grand Prix,Driver_ALO,SOFT,1
+United States Grand Prix,Driver_BOT,HARD,0
+United States Grand Prix,Driver_BOT,HARD,0
+United States Grand Prix,Driver_BOT,MEDIUM,0
+United States Grand Prix,Driver_BOT,MEDIUM,0
+United States Grand Prix,Driver_BOT,SOFT,0
+United States Grand Prix,Driver_BOT,SOFT,0
+United States Grand Prix,Driver_BOT,SOFT,1
+United States Grand Prix,Driver_GAS,HARD,0
+United States Grand Prix,Driver_GAS,MEDIUM,0
+United States Grand Prix,Driver_GAS,MEDIUM,0
+United States Grand Prix,Driver_GAS,MEDIUM,2
+United States Grand Prix,Driver_GAS,SOFT,1
+United States Grand Prix,Driver_GAS,SOFT,1
+United States Grand Prix,Driver_GAS,SOFT,1
+United States Grand Prix,Driver_HAM,HARD,0
+United States Grand Prix,Driver_HAM,MEDIUM,0
+United States Grand Prix,Driver_HAM,MEDIUM,0
+United States Grand Prix,Driver_HAM,MEDIUM,2
+United States Grand Prix,Driver_HAM,SOFT,0
+United States Grand Prix,Driver_HAM,SOFT,0
+United States Grand Prix,Driver_HAM,SOFT,0
+United States Grand Prix,Driver_HUL,HARD,0
+United States Grand Prix,Driver_HUL,MEDIUM,0
+United States Grand Prix,Driver_HUL,MEDIUM,0
+United States Grand Prix,Driver_HUL,MEDIUM,2
+United States Grand Prix,Driver_HUL,SOFT,0
+United States Grand Prix,Driver_HUL,SOFT,1
+United States Grand Prix,Driver_HUL,SOFT,1
+United States Grand Prix,Driver_LEC,HARD,0
+United States Grand Prix,Driver_LEC,MEDIUM,0
+United States Grand Prix,Driver_LEC,MEDIUM,0
+United States Grand Prix,Driver_LEC,MEDIUM,2
+United States Grand Prix,Driver_LEC,SOFT,1
+United States Grand Prix,Driver_LEC,SOFT,1
+United States Grand Prix,Driver_LEC,SOFT,1
+United States Grand Prix,Driver_MAG,HARD,0
+United States Grand Prix,Driver_MAG,MEDIUM,0
+United States Grand Prix,Driver_MAG,MEDIUM,0
+United States Grand Prix,Driver_MAG,MEDIUM,2
+United States Grand Prix,Driver_MAG,SOFT,1
+United States Grand Prix,Driver_MAG,SOFT,1
+United States Grand Prix,Driver_MAG,SOFT,1
+United States Grand Prix,Driver_NOR,HARD,0
+United States Grand Prix,Driver_NOR,MEDIUM,0
+United States Grand Prix,Driver_NOR,MEDIUM,0
+United States Grand Prix,Driver_NOR,MEDIUM,2
+United States Grand Prix,Driver_NOR,SOFT,1
+United States Grand Prix,Driver_NOR,SOFT,1
+United States Grand Prix,Driver_NOR,SOFT,1
+United States Grand Prix,Driver_OCO,HARD,0
+United States Grand Prix,Driver_OCO,MEDIUM,0
+United States Grand Prix,Driver_OCO,MEDIUM,0
+United States Grand Prix,Driver_OCO,MEDIUM,2
+United States Grand Prix,Driver_OCO,SOFT,1
+United States Grand Prix,Driver_OCO,SOFT,1
+United States Grand Prix,Driver_OCO,SOFT,1
+United States Grand Prix,Driver_PER,HARD,0
+United States Grand Prix,Driver_PER,MEDIUM,0
+United States Grand Prix,Driver_PER,MEDIUM,0
+United States Grand Prix,Driver_PER,MEDIUM,2
+United States Grand Prix,Driver_PER,SOFT,1
+United States Grand Prix,Driver_PER,SOFT,1
+United States Grand Prix,Driver_PER,SOFT,1
+United States Grand Prix,Driver_PIA,HARD,0
+United States Grand Prix,Driver_PIA,MEDIUM,0
+United States Grand Prix,Driver_PIA,MEDIUM,0
+United States Grand Prix,Driver_PIA,MEDIUM,2
+United States Grand Prix,Driver_PIA,SOFT,1
+United States Grand Prix,Driver_PIA,SOFT,1
+United States Grand Prix,Driver_PIA,SOFT,1
+United States Grand Prix,Driver_RIC,HARD,0
+United States Grand Prix,Driver_RIC,MEDIUM,0
+United States Grand Prix,Driver_RIC,MEDIUM,0
+United States Grand Prix,Driver_RIC,MEDIUM,2
+United States Grand Prix,Driver_RIC,SOFT,0
+United States Grand Prix,Driver_RIC,SOFT,0
+United States Grand Prix,Driver_RIC,SOFT,1
+United States Grand Prix,Driver_RUS,HARD,0
+United States Grand Prix,Driver_RUS,MEDIUM,0
+United States Grand Prix,Driver_RUS,MEDIUM,0
+United States Grand Prix,Driver_RUS,MEDIUM,2
+United States Grand Prix,Driver_RUS,SOFT,0
+United States Grand Prix,Driver_RUS,SOFT,2
+United States Grand Prix,Driver_RUS,SOFT,2
+United States Grand Prix,Driver_SAI,HARD,0
+United States Grand Prix,Driver_SAI,MEDIUM,0
+United States Grand Prix,Driver_SAI,MEDIUM,0
+United States Grand Prix,Driver_SAI,MEDIUM,2
+United States Grand Prix,Driver_SAI,SOFT,1
+United States Grand Prix,Driver_SAI,SOFT,1
+United States Grand Prix,Driver_SAI,SOFT,1
+United States Grand Prix,Driver_SAR,HARD,0
+United States Grand Prix,Driver_SAR,MEDIUM,0
+United States Grand Prix,Driver_SAR,MEDIUM,0
+United States Grand Prix,Driver_SAR,MEDIUM,2
+United States Grand Prix,Driver_SAR,SOFT,0
+United States Grand Prix,Driver_SAR,SOFT,1
+United States Grand Prix,Driver_SAR,SOFT,1
+United States Grand Prix,Driver_STR,HARD,0
+United States Grand Prix,Driver_STR,MEDIUM,0
+United States Grand Prix,Driver_STR,MEDIUM,0
+United States Grand Prix,Driver_STR,MEDIUM,2
+United States Grand Prix,Driver_STR,SOFT,0
+United States Grand Prix,Driver_STR,SOFT,1
+United States Grand Prix,Driver_STR,SOFT,1
+United States Grand Prix,Driver_TSU,HARD,0
+United States Grand Prix,Driver_TSU,MEDIUM,0
+United States Grand Prix,Driver_TSU,MEDIUM,1
+United States Grand Prix,Driver_TSU,MEDIUM,2
+United States Grand Prix,Driver_TSU,SOFT,1
+United States Grand Prix,Driver_TSU,SOFT,1
+United States Grand Prix,Driver_TSU,SOFT,1
+United States Grand Prix,Driver_VER,HARD,0
+United States Grand Prix,Driver_VER,HARD,3
+United States Grand Prix,Driver_VER,MEDIUM,0
+United States Grand Prix,Driver_VER,MEDIUM,0
+United States Grand Prix,Driver_VER,MEDIUM,2
+United States Grand Prix,Driver_VER,SOFT,1
+United States Grand Prix,Driver_VER,SOFT,1
+United States Grand Prix,Driver_ZHO,HARD,0
+United States Grand Prix,Driver_ZHO,HARD,0
+United States Grand Prix,Driver_ZHO,MEDIUM,0
+United States Grand Prix,Driver_ZHO,MEDIUM,0
+United States Grand Prix,Driver_ZHO,MEDIUM,2
+United States Grand Prix,Driver_ZHO,SOFT,0
+United States Grand Prix,Driver_ZHO,SOFT,0

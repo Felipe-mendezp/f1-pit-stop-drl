@@ -8,7 +8,9 @@ With the flag:
   - every driver starts the race with his real 2024 sets; each stint (start or pit stop) takes the least-worn set of
     the chosen compound, and its tyre life starts at the age of that set;
   - rivals with their real 2024 strategy (evaluation, Fig. 7) take the real age of each stint
-    (data/tyre_race_stint_ages_2024_20261021.csv);
+    (data/tyre_race_stint_ages_2024_20261021.csv, or the CSV given by F1_TYRE_STINT_AGES, same columns; 2026-10-28:
+    v10eGQ uses data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv, ages in push laps, with
+    F1_TYRE_SETS=data/tyre_sets_2024_reg_v10eGQ_20261028.csv; scripts/tyre_ages_v10eGQ_20261028.py sets both);
   - simulated rivals only choose compounds with sets left; the agent is penalised (F1_NO_SET_PENALTY, default -1000)
     and does not stop when it asks for a compound with no set left;
   - the agent observes 'tyre_sets' = [sets left per compound, age of the least-worn set per compound] (compounds in
@@ -88,10 +90,18 @@ def sets_for(gp, driver, available_compounds):
     return out
 
 
-@lru_cache(maxsize=16)
+def _stints_path():
+    return os.environ.get('F1_TYRE_STINT_AGES') or DEFAULT_STINTS
+
+
 def race_stint_ages(gp):
+    return _race_stint_ages(gp, _stints_path())
+
+
+@lru_cache(maxsize=16)
+def _race_stint_ages(gp, path):
     """{driver: {pit lap (0 = start): age of the set fitted}} of the real 2024 race."""
-    t = _table(DEFAULT_STINTS)
+    t = _table(path)
     t = t[t.GP == gp]
     out = {}
     for d, lap, age in zip(t.Driver, t.PitLap, t.Age):

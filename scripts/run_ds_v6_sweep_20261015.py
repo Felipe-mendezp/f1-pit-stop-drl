@@ -59,9 +59,11 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
                            'decision_support_v9r2smrealhist_20261026', 'v7'),
             # 2026-10-27: simulador v10 (paradas reales, TyreLife 2021 x 0.740, VSC solo en la 1a vuelta; requiere
             # F1_VSC_FIRST_LAP_ONLY=1 y F1_WORLD2024_TYRES=v10). v10smhist = Fig. 11 con los post-entrenados v10.
-            'v10': ('simulation_v10d_20261028', 'retrained_v10d_20261028', 'decision_support_v10dw24belief_20261028', 'v10d'),
-            'v10smhist': ('simulation_v10d_20261028', 'retrained_v10d_startmix_20261028',
-                          'decision_support_v10dsmrealhist_20261028', 'v10d')}   # 2026-10-28: v10d (compuestos corregidos)
+            # 2026-10-28: v10eGQ (edad efectiva GQ, adoptada; antes v10d), con F1_TYRE_SETS y F1_TYRE_STINT_AGES de v10eGQ
+            'v10': ('simulation_v10eGQ_20261028', 'retrained_v10eGQ_20261028', 'decision_support_v10eGQw24belief_20261028',
+                    'v10eGQ'),
+            'v10smhist': ('simulation_v10eGQ_20261028', 'retrained_v10eGQ_startmix_20261028',
+                          'decision_support_v10eGQsmrealhist_20261028', 'v10eGQ')}
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
@@ -160,8 +162,14 @@ def main():
     if a.version in ('v8',) or a.version.startswith(('v9r2', 'v10')):   # 2026-10-19
         assert all(os.environ.get(k) for k in ('F1_RIVAL_START_ALPHA', 'F1_LAP0_ACTION0_MEDIUM', 'F1_LAP0_PENALTY')), \
             '--version v8: exportar F1_RIVAL_START_ALPHA, F1_LAP0_ACTION0_MEDIUM y F1_LAP0_PENALTY'
+    if a.version.startswith('v10'):   # 2026-10-28: v10eGQ, edades de los juegos en vueltas de empuje
+        assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) == 'tyre_sets_2024_reg_v10eGQ_20261028.csv'
+                and os.path.basename(os.environ.get('F1_TYRE_STINT_AGES', ''))
+                == 'tyre_race_stint_ages_2024_v10eGQ_20261028.csv'), \
+            '--version v10 (v10eGQ): exportar F1_TYRE_SETS y F1_TYRE_STINT_AGES de v10eGQ (scripts/tyre_ages_v10eGQ_20261028.py)'
     if a.version.startswith(('v9r2', 'v10')):   # 2026-10-23
-        assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) == 'tyre_sets_2024_reg_20261021.csv'
+        assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) in ('tyre_sets_2024_reg_20261021.csv',
+                                                                          'tyre_sets_2024_reg_v10eGQ_20261028.csv')
                 and os.environ.get('F1_TYRE_REUSE') == '1' and os.environ.get('F1_NO_SET_PENALTY') == '-1000'), \
             '--version v9r2: exportar F1_TYRE_SETS, F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000'
     if a.version.startswith('v10'):   # 2026-10-27

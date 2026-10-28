@@ -121,3 +121,30 @@ FastF1 con θ = 0 [V]:
 - [H] La diferencia entre períodos podría venir de la regla 2021 de largar con los neumáticos de Q2, de la selección (los
   equipos que llegan con juegos usados de clasificación) o de que la edad solo cambia el nivel de cada tanda, por lo que el
   peso se identifica débilmente.
+
+## Adopción de v10eGQ (28-oct, decisión del autor)
+
+1. **Cadena re-estimada** con las edades corregidas (sprint y compuestos NaN): factor 2021 0,774 (0,77, sin cambio;
+   `data/tyrelife_2021_factors_v10eGQ.json`); neumáticos y adelantamiento cambian ≤ 0,002 frente a la corrida de la
+   mañana; modelo SC/VSC sin cambio. Pilotos (Ec. 2): ≤ 0,017 s; Fig. 4: 0,190 / 0,625 (igual). La corrida anterior de
+   la cadena y los árboles de prueba quedaron fuera del repo (carpeta temporal de la sesión).
+2. **Edades del simulador en vueltas de empuje** (`sim_ages_gq_20261028.py` → `sim_ages_gq_summary.txt`):
+   - `data/tyre_sets_2024_reg_v10eGQ_20261028.csv`: mismo inventario por reglamento que
+     `data/tyre_sets_2024_reg_20261021.csv` (misma regla de devoluciones, que decide con las vueltas reales; se verifica
+     que se reproduce exactamente), con la edad de cada juego usado = vueltas de empuje en las sesiones donde se usó
+     (+ 0,268 por vuelta no encontrada; se encontraron todas). Edad media de los juegos usados 3,7 → 1,5.
+   - `data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv`: edad de cada tanda real de 2024 = la misma edad de llegada que
+     usa la estimación; 48 filas que son continuaciones de una tanda (vueltas faltantes) toman `TL_GQ` de la vuelta
+     anterior. Edad media de las tandas con juego usado 2,1 → 0,55.
+   - Las edades se redondean al entero (el simulador las guarda como enteros).
+3. **Simulador:** `src/tyre_sets.py` lee la tabla de tandas reales de `F1_TYRE_STINT_AGES` (opcional; sin la variable,
+   igual que antes). `scripts/tyre_ages_v10eGQ_20261028.py` fija `F1_TYRE_SETS` y `F1_TYRE_STINT_AGES` de v10eGQ y va
+   primero en cada tarea. El congelamiento bajo SC/VSC ya era consistente con la edad G.
+4. **Árboles:** `trained_models/simulation{,_onedriver}_v10eGQ_20261028` (reconstruidos). QMIP mono-piloto = DP en los 8
+   GP (`chain_compare/qmip_v10eGQ.txt`).
+5. **Tareas:** `reproduce/cluster/tasks_v10eGQ_20261028.tsv` (400) y `tasks_onedriver_v10eGQ_20261028.tsv` (200),
+   `scripts/make_tasks_v10eGQ_20261028.py`; mono-piloto con `scripts/one_driver_v10eGQ_20261028.py`.
+6. **Evaluación apuntando a v10eGQ:** `select_seeds_v5_20261010.py` (calib v10), `run_ds_v6_sweep_20261015.py` (v10,
+   v10smhist), `make_tasks_v10sm_20261027.py` (→ `tasks_v10eGQsm_20261028.tsv`), `evaluate_world2024_20261010.py`
+   (`F1_WORLD2024_TYRES=v10eGQ`), `reproduce/pipeline_v10_20261027.sh` (salida `results/world2024_v10eGQ_20261028`),
+   `results/decision_support_v10eGQw24belief_20261028/run_20261028.sh`.

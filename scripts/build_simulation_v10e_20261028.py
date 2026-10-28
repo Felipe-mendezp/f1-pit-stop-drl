@@ -3,7 +3,7 @@ import config
 import compat; compat.setup_all()
 
 """
-2026-10-28 — PRUEBA v10e (edad efectiva de los neumaticos, results/tyrelife_effective_20261028/): arboles de v10d con la
+2026-10-28 — v10e (GQ adoptado por el autor el 28-oct; G quedo como prueba) (edad efectiva de los neumaticos, results/tyrelife_effective_20261028/): arboles de v10d con la
 cadena re-estimada con TL_G (sin vueltas SC/VSC) o TL_GQ (ademas, solo vueltas de empuje en practicas y clasificacion).
 Cadena: results/sim_v10e<V>_20261028/; pilotos: results/driver_coef_v10_20261028/v10e<V>/. Arboles:
 simulation_v10e<V>_20261028 y simulation_onedriver_v10e<V>_20261028. Copia de build_simulation_v10d_20261028.py.
@@ -114,7 +114,7 @@ def main():
     pd.DataFrame(rows).to_csv(dst / 'sources.csv', index=False)
     pd.DataFrame(audit).to_csv(dst / 'driver_coef_audit.csv', index=False)
     with open(dst / 'README.md', 'w') as fh:
-        fh.write(f'Arbol 2026-10-28 (scripts/build_simulation_v10e_20261028.py {V}, PRUEBA de edad efectiva TL_{V}): v10 con compuestos corregidos (OpenF1, live timing) y pilotos de la Ec. 2 re-estimados; v7 con paradas reales en lugar de PitIn de '
+        fh.write(f'Arbol 2026-10-28 (scripts/build_simulation_v10e_20261028.py {V}, {'edad efectiva TL_GQ, ADOPTADO el 28-oct; usar con scripts/tyre_ages_v10eGQ_20261028.py (F1_TYRE_SETS y F1_TYRE_STINT_AGES con las edades de los juegos 2024 en vueltas de empuje)' if V == 'GQ' else 'PRUEBA de edad efectiva TL_G'}): v10 con compuestos corregidos (OpenF1, live timing) y pilotos de la Ec. 2 re-estimados; v7 con paradas reales en lugar de PitIn de '
                  'FastF1 (Ec. 1 y modelo SC/VSC sin pasos por el pit lane, LogitStop por evento, K1 con paradas reales), '
                  'TyreLife 2021 x 0.740 y adelantamiento re-estimado. Origen de cada archivo en sources.csv.\n')
     with open(dst1 / 'README.md', 'w') as fh:

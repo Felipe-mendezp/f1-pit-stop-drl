@@ -2,7 +2,9 @@
 # Pipeline v10 (2026-10-27): copia de reproduce/pipeline_v9r2_20261023.sh para el simulador v10
 # 2026-10-28: scripts/gp_configs_fix_20261028.py (v5hd + estrategias reales de los rivales corregidas) en lugar de
 # gp_drivers_v5hd_20261014.py y al inicio de WRAP.
-# 2026-10-28: arbol y agentes v10d: simulation_v10d_20261028 / retrained_v10d_20261028 (compuestos de FastF1 corregidos con OpenF1 y el live timing, pilotos re-estimados; mundo 2024 = F1_WORLD2024_TYRES=v10d). Los arreglos del 27 y del 28-oct (v10) se cancelaron.
+# 2026-10-28 (tarde): arbol y agentes v10eGQ: simulation_v10eGQ_20261028 / retrained_v10eGQ_20261028 (edad efectiva GQ,
+# results/tyrelife_effective_20261028/README.md; edades de los juegos 2024 en vueltas de empuje via F1_TYRE_SETS y
+# F1_TYRE_STINT_AGES; mundo 2024 = F1_WORLD2024_TYRES=v10eGQ). Antes, 28-oct: arbol y agentes v10d: simulation_v10d_20261028 / retrained_v10d_20261028 (compuestos de FastF1 corregidos con OpenF1 y el live timing, pilotos re-estimados; mundo 2024 = F1_WORLD2024_TYRES=v10d). Los arreglos del 27 y del 28-oct (v10) se cancelaron.
 # (trained_models/simulation_v10d_20261028: paradas reales en vez de PitIn de FastF1, TyreLife 2021 x 0.740, VSC solo en
 # la 1a vuelta para agente y QMIP; results/sim_v10_20261027/README.md) y los agentes trained_models/retrained_v10d_20261028.
 # Diferencias con v9r2: mundo 2024 = tyre_v10 (F1_WORLD2024_TYRES=v10), F1_VSC_FIRST_LAP_ONLY=1 en todas las etapas (y el
@@ -18,15 +20,16 @@
 set -e -o pipefail
 cd "$(dirname $0)/.."
 source reproduce/env_paper_v3_20261007.sh
-export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10d F1_SIMULATION_DIR=trained_models/simulation_v10d_20261028 F1_VSC_FIRST_LAP_ONLY=1
+export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10eGQ F1_SIMULATION_DIR=trained_models/simulation_v10eGQ_20261028 F1_VSC_FIRST_LAP_ONLY=1
 export F1_RIVAL_START_ALPHA=$(~/.venvs/f1-drl-v2/bin/python -c "import json; print(json.load(open('data/rival_start_alpha_2021_2023_20261018.json'))['alpha'])")
 export F1_LAP0_ACTION0_MEDIUM=1 F1_LAP0_PENALTY=-1000 F1_QMIP_SYMMETRY=full
-export F1_TYRE_SETS=$PWD/data/tyre_sets_2024_reg_20261021.csv F1_TYRE_REUSE=1 F1_NO_SET_PENALTY=-1000
+export F1_TYRE_SETS=$PWD/data/tyre_sets_2024_reg_v10eGQ_20261028.csv F1_TYRE_REUSE=1 F1_NO_SET_PENALTY=-1000
+export F1_TYRE_STINT_AGES=$PWD/data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv
 unset F1_RIVAL_DNF
 PY=~/.venvs/f1-drl-v2/bin/python
 JOBS=${JOBS:-8}; NVAL=${NVAL:-200}; NSIMS=${NSIMS:-500}
-OUT=${OUT:-results/world2024_v10d_20261028}
-AGENTS=${AGENTS:-trained_models/retrained_v10d_20261028}
+OUT=${OUT:-results/world2024_v10eGQ_20261028}
+AGENTS=${AGENTS:-trained_models/retrained_v10eGQ_20261028}
 SELOUT=${SELOUT:-results/seed_selection_v5_20261010/v10}
 FIGS=results/world2024_v9r2_20261023   # scripts de figuras y tabla (leen $OUT via F1_V9R2_DIR)
 ALGOS=(DQN A2C TRPO PPO RecurrentPPO)
@@ -38,7 +41,7 @@ log() { echo "$(date +%T) $*" | tee -a $OUT/logs/status.txt; }
 stage_select() {   # $@ = GP
   export F1_SELECT_TREE=${AGENTS:a} F1_SELECT_OUT=${SELOUT:a}
   test -d $AGENTS/seed01 || { echo "falta $AGENTS/seed01 (traer los modelos del cluster)"; exit 1; }
-  log "select eval $* (v10: F1_TYRE_SETS=$F1_TYRE_SETS F1_TYRE_REUSE=$F1_TYRE_REUSE)"
+  log "select eval $* (v10: F1_TYRE_SETS=$F1_TYRE_SETS F1_TYRE_STINT_AGES=$F1_TYRE_STINT_AGES F1_TYRE_REUSE=$F1_TYRE_REUSE)"
   $PY $WRAP scripts/select_seeds_v5_20261010.py eval --calib v10 \
       --gps $@ --algos $ALGOS --n $NVAL --jobs $JOBS > $OUT/logs/select_eval.log 2>&1
   log "select pick $*"

@@ -57,6 +57,10 @@ WORLD, BELIEF = {
     # (simulation_v10d_20261028), mundo = opcion3h 2021-24 de results/sim_v10d_20261028/tyre_v10
     'v10d': (os.path.join(ROOT, 'results', 'sim_v10d_20261028', 'tyre_v10', 'coefs_opcion3h_2021_24.csv'),
              os.path.join(ROOT, 'results', 'sim_v10d_20261028', 'tyre_v10', 'coefs_opcion3h.csv')),
+    # 2026-10-28: v10eGQ = v10d con la edad efectiva GQ (adoptada): creencia = F1_SIMULATION_DIR
+    # (simulation_v10eGQ_20261028), mundo = opcion3h 2021-24 de results/sim_v10eGQ_20261028/tyre_v10
+    'v10eGQ': (os.path.join(ROOT, 'results', 'sim_v10eGQ_20261028', 'tyre_v10', 'coefs_opcion3h_2021_24.csv'),
+               os.path.join(ROOT, 'results', 'sim_v10eGQ_20261028', 'tyre_v10', 'coefs_opcion3h.csv')),
 }[TYRES]
 
 _SPEC = {}  # gp -> dict(pred, base, world)

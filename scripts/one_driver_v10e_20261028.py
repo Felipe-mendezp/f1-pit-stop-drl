@@ -1,4 +1,4 @@
-"""PRUEBA v10e (edad efectiva; F1_V10E=G|GQ) — 2026-10-28, copia de one_driver_v10d_20261028.py. Mono-piloto v10d (Fig. 5 / Tabla N.1): como scripts/one_driver_v10_20261027.py con el arbol v10d (compuestos corregidos con OpenF1 y el live timing; copia de one_driver_v10c_20261028.py).
+"""v10e (edad efectiva; F1_V10E=G|GQ; GQ adoptado el 28-oct, usar scripts/one_driver_v10eGQ_20261028.py) — 2026-10-28, copia de one_driver_v10d_20261028.py. Mono-piloto v10d (Fig. 5 / Tabla N.1): como scripts/one_driver_v10_20261027.py con el arbol v10d (compuestos corregidos con OpenF1 y el live timing; copia de one_driver_v10c_20261028.py).
 
 Igual que scripts/one_driver_v8_20261019.py (penalizaciones del multi-piloto, accion 0 en la vuelta 0 = medio, sin filtro,
 hiperparametros publicados), pero con el arbol trained_models/simulation_onedriver_v10_20261027 (docs/PROPUESTA_V10_20261027.md).
