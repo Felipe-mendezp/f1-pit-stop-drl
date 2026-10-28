@@ -29,3 +29,22 @@ bajo VSC y **63 % bajo SC**. En 2021–23, bajo SC, la tasa de PitIn es 11,7 % p
      la realidad.
 3. **Regresión de tiempos en verde** (Eq. 1): usa vueltas verdes, donde PitIn coincide con las paradas en el 95 %. Sin
    problema relevante [H, no reestimada].
+
+## LogitStop a nivel de evento (diseño recordado por el autor, 27-oct) [V]
+
+El autor recuerda haber calibrado LogitStop asignando todas las paradas de un evento SC/VSC a su primera vuelta. **El código
+vigente no lo hace:** `src/models/rival_models.py`, que usa `results/sim_v7_20261015/rivals_v7_20261015.py` para el
+simulador v7, estima un logit por vuelta con PitIn de FastF1. Tampoco aparece en los respaldos `Codigos/respaldo/
+{11-12-2025,14-12-2025,30-09-2026 MAC Charles}/rivals_logit.py`.
+
+`04_logitstop_event_level_20261027.py` lo implementa así: las vueltas verdes quedan igual; cada evento SC/VSC aporta una
+fila por piloto, en su primera vuelta, con y = 1 si hubo cambio de juego en cualquier vuelta del evento.
+
+| Modelo | Coef. SC | Prob. predicha, 1.ª v. SC | Coef. VSC | Prob. predicha, 1.ª v. VSC |
+|---|---|---|---|---|
+| Actual (por vuelta, PitIn) | 2,75 | 0,20 | 1,74 | 0,10 |
+| Por evento (cambio de juego) | 3,44 | 0,30 | 2,35 | 0,16 |
+| Real: proporción que para en el evento (2021–23) | | 0,35 | | 0,18 |
+
+El simulador actual subestima las paradas de los rivales bajo SC/VSC. La versión por evento se acerca bastante a los datos
+y además resuelve el problema del pit lane.
