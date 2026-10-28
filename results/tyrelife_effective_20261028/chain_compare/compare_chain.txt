@@ -1,0 +1,90 @@
+
+== coefs_opcion3h.csv (8 GP): desplazamiento frente al compuesto de referencia (s) y pendiente (s/vuelta)
+                      GP compound  off_v10d  sl_v10d  off_v10eG  sl_v10eG  off_v10eGQ  sl_v10eGQ
+      Bahrain Grand Prix       C1     0.466    0.122      0.474     0.115       0.422      0.117
+      Bahrain Grand Prix       C2     0.211    0.147      0.183     0.141       0.208      0.140
+      Bahrain Grand Prix       C3     0.000    0.161      0.000     0.157       0.000      0.168
+Saudi Arabian Grand Prix       C2     0.000    0.008      0.000     0.009       0.000      0.011
+Saudi Arabian Grand Prix       C3    -0.190    0.010     -0.161     0.011      -0.165      0.016
+Saudi Arabian Grand Prix       C4    -0.320    0.011     -0.284     0.013      -0.293      0.020
+        Miami Grand Prix       C2     0.000    0.017      0.000     0.016       0.000      0.016
+        Miami Grand Prix       C3    -0.144    0.019     -0.123     0.019      -0.122      0.020
+        Miami Grand Prix       C4    -0.243    0.022     -0.217     0.022      -0.216      0.022
+    Hungarian Grand Prix       C3     0.000    0.055      0.000     0.057       0.000      0.058
+    Hungarian Grand Prix       C4    -0.149    0.061     -0.173     0.065      -0.175      0.066
+    Hungarian Grand Prix       C5    -0.298    0.068     -0.346     0.073      -0.349      0.076
+      Belgian Grand Prix       C2     0.194    0.153      0.150     0.160       0.144      0.158
+      Belgian Grand Prix       C3     0.000    0.169      0.000     0.178       0.000      0.178
+      Belgian Grand Prix       C4    -0.133    0.181     -0.115     0.190      -0.111      0.192
+        Dutch Grand Prix       C1     0.238    0.042      0.282     0.038       0.195      0.041
+        Dutch Grand Prix       C2     0.000    0.052      0.000     0.048       0.000      0.049
+        Dutch Grand Prix       C3    -0.196    0.057     -0.178     0.055      -0.188      0.059
+    Singapore Grand Prix       C3     0.000    0.041      0.000     0.041       0.000      0.040
+    Singapore Grand Prix       C4    -0.206    0.046     -0.215     0.046      -0.203      0.046
+    Singapore Grand Prix       C5    -0.411    0.052     -0.430     0.052      -0.407      0.053
+United States Grand Prix       C2     0.000    0.069      0.000     0.078       0.000      0.078
+United States Grand Prix       C3    -0.183    0.076     -0.167     0.086      -0.154      0.088
+United States Grand Prix       C4    -0.309    0.082     -0.294     0.093      -0.273      0.095
+  v10eG: pendiente media 0.0735 vs v10d 0.0716 (cambio relativo medio +3.7%); max |d desplazamiento| 0.048
+  v10eGQ: pendiente media 0.0754 vs v10d 0.0716 (cambio relativo medio +11.3%); max |d desplazamiento| 0.051
+
+== coefs_opcion3h_2021_24.csv (8 GP): desplazamiento frente al compuesto de referencia (s) y pendiente (s/vuelta)
+                      GP compound  off_v10d  sl_v10d  off_v10eG  sl_v10eG  off_v10eGQ  sl_v10eGQ
+      Bahrain Grand Prix       C1     0.388    0.116      0.430     0.111       0.431      0.112
+      Bahrain Grand Prix       C2     0.160    0.139      0.162     0.136       0.175      0.138
+      Bahrain Grand Prix       C3     0.000    0.154      0.000     0.153       0.000      0.165
+Saudi Arabian Grand Prix       C2     0.000    0.019      0.000     0.020       0.000      0.022
+Saudi Arabian Grand Prix       C3    -0.184    0.026     -0.175     0.028      -0.202      0.033
+Saudi Arabian Grand Prix       C4    -0.292    0.029     -0.279     0.031      -0.317      0.037
+        Miami Grand Prix       C2     0.000    0.019      0.000     0.019       0.000      0.019
+        Miami Grand Prix       C3    -0.132    0.023     -0.114     0.022      -0.115      0.023
+        Miami Grand Prix       C4    -0.210    0.025     -0.181     0.024      -0.180      0.024
+    Hungarian Grand Prix       C3     0.000    0.061      0.000     0.062       0.000      0.063
+    Hungarian Grand Prix       C4    -0.154    0.066     -0.167     0.069      -0.160      0.070
+    Hungarian Grand Prix       C5    -0.307    0.072     -0.334     0.076      -0.320      0.077
+      Belgian Grand Prix       C2     0.426    0.082      0.418     0.085       0.419      0.087
+      Belgian Grand Prix       C3     0.000    0.143      0.000     0.153       0.000      0.156
+      Belgian Grand Prix       C4    -0.252    0.175     -0.248     0.185      -0.238      0.189
+        Dutch Grand Prix       C1     0.182    0.039      0.197     0.037       0.196      0.038
+        Dutch Grand Prix       C2     0.000    0.049      0.000     0.047       0.000      0.048
+        Dutch Grand Prix       C3    -0.127    0.055     -0.120     0.054      -0.134      0.059
+    Singapore Grand Prix       C3     0.000    0.059      0.000     0.060       0.000      0.060
+    Singapore Grand Prix       C4    -0.144    0.063     -0.144     0.064      -0.127      0.065
+    Singapore Grand Prix       C5    -0.287    0.068     -0.288     0.069      -0.253      0.070
+United States Grand Prix       C2     0.000    0.052      0.000     0.058       0.000      0.058
+United States Grand Prix       C3    -0.328    0.066     -0.313     0.073      -0.301      0.075
+United States Grand Prix       C4    -0.522    0.072     -0.500     0.079      -0.471      0.081
+  v10eG: pendiente media 0.0714 vs v10d 0.0696 (cambio relativo medio +2.3%); max |d desplazamiento| 0.042
+  v10eGQ: pendiente media 0.0736 vs v10d 0.0696 (cambio relativo medio +6.5%); max |d desplazamiento| 0.051
+tau v10d: tau_2021_23 0.727418 tau_2021_24 3.646364 
+tau v10eG: tau_2021_23 0.783925 tau_2021_24 1.910448 
+tau v10eGQ: tau_2021_23 0.768641 tau_2021_24 4.999993 
+
+== resto de modelos: max |dif| por archivo (sin pilotos)
+v                          v10eG  v10eGQ
+file                                    
+laptime_clear.pkl         0.3686  0.3889
+laptime_clear_hist.pkl    0.3686  0.3889
+overtake_logit.pkl        0.0174  0.0174
+overtake_threshold.pkl    0.0026  0.0038
+rival_compound_logit.pkl  0.0000  0.0000
+rival_pitstop_logit.pkl   0.5369  0.5549
+
+LogitStop (coeficientes de edad y SC/VSC):
+                                    new            v10d        
+v                                 v10eG  v10eGQ   v10eG  v10eGQ
+coef                                                           
+Intercept                       -5.5667 -5.6002 -5.4141 -5.4141
+SC                               3.5045  3.5301  3.4843  3.4843
+TyreLife:C(Compound_Detail)[C0]  0.1285  0.1277  0.1314  0.1314
+TyreLife:C(Compound_Detail)[C1]  0.1263  0.1377  0.1199  0.1199
+TyreLife:C(Compound_Detail)[C2]  0.1170  0.1181  0.1093  0.1093
+TyreLife:C(Compound_Detail)[C3]  0.1420  0.1460  0.1321  0.1321
+TyreLife:C(Compound_Detail)[C4]  0.1801  0.1889  0.1717  0.1717
+TyreLife:C(Compound_Detail)[C5]  0.2749  0.3025  0.2710  0.2710
+VSC                              3.1259  3.1349  3.0052  3.0052
+pilotos v10eG vs v10d: media |dif| 0.0104, p95 0.0471, max 0.1184 s/vuelta
+pilotos v10eGQ vs v10d: media |dif| 0.0170, p95 0.0600, max 0.0737 s/vuelta
+Fig. 4 v10d: media con correccion 0.193, sin 0.636
+Fig. 4 v10eG: media con correccion 0.192, sin 0.632
+Fig. 4 v10eGQ: media con correccion 0.190, sin 0.625

@@ -1,0 +1,1405 @@
+v,GP,file,coef,v10d,new,dif
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1465328931808472,1.0511499643325806,-0.0953829288482666
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.4660150706768036,0.47388792037963867,0.007872849702835083
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.21051570773124695,0.18348608911037445,-0.027029618620872498
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.4081525504589081,0.596179187297821,0.18802663683891296
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",2.33258056640625,2.4296164512634277,0.09703588485717773
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.8092072010040283,1.7661926746368408,-0.0430145263671875
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,LapNumber,-0.06625628471374512,-0.07710602134466171,-0.010849736630916595
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,LapNumber_2,-0.00012968017836101353,0.0001426785165676847,0.00027235869492869824
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5401315689086914,0.5265035629272461,-0.013628005981445312
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,Interval_front,1.4466865062713623,1.409333348274231,-0.03735315799713135
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,Interval_behind,0.3296187222003937,0.4119899272918701,0.08237120509147644
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,PitIn,2.6306703090667725,2.654388904571533,0.023718595504760742
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,PitOut,21.625486373901367,21.579402923583984,-0.04608345031738281
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,DRS,-0.20553621649742126,-0.15560047328472137,0.04993574321269989
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C0],0.09771673381328583,0.09323101490736008,-0.004485718905925751
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C1],0.1222340390086174,0.11494842171669006,-0.007285617291927338
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.1469472199678421,0.1408880203962326,-0.006059199571609497
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.16133658587932587,0.15689213573932648,-0.00444445013999939
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.06121494993567467,0.061774127185344696,0.0005591772496700287
+v10eG,Bahrain Grand Prix,laptime_clear.pkl,Intercept,95.8413314819336,95.94075012207031,0.09941864013671875
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1465328931808472,1.0039896965026855,-0.14254319667816162
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.4660150706768036,0.42217329144477844,-0.043841779232025146
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.21051570773124695,0.20758815109729767,-0.00292755663394928
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.4081525504589081,0.47848761081695557,0.07033506035804749
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",2.33258056640625,2.465398073196411,0.13281750679016113
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.8092072010040283,1.8109025955200195,0.001695394515991211
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,LapNumber,-0.06625628471374512,-0.08540254831314087,-0.019146263599395752
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,LapNumber_2,-0.00012968017836101353,0.0002846088318619877,0.00041428901022300124
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5401315689086914,0.5250649452209473,-0.01506662368774414
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,Interval_front,1.4466865062713623,1.396248698234558,-0.0504378080368042
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,Interval_behind,0.3296187222003937,0.40234845876693726,0.07272973656654358
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,PitIn,2.6306703090667725,2.61321759223938,-0.017452716827392578
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,PitOut,21.625486373901367,21.631820678710938,0.0063343048095703125
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,DRS,-0.20553621649742126,-0.1413678079843521,0.06416840851306915
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C0],0.09771673381328583,0.10217294842004776,0.004456214606761932
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C1],0.1222340390086174,0.1171235591173172,-0.005110479891300201
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.1469472199678421,0.13971850275993347,-0.00722871720790863
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.16133658587932587,0.16819289326667786,0.00685630738735199
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.06121494993567467,0.11128630489110947,0.0500713549554348
+v10eGQ,Bahrain Grand Prix,laptime_clear.pkl,Intercept,95.8413314819336,96.00452423095703,0.1631927490234375
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1465328931808472,1.0511499643325806,-0.0953829288482666
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.4660150706768036,0.47388792037963867,0.007872849702835083
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.21051570773124695,0.18348608911037445,-0.027029618620872498
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.4081525504589081,0.596179187297821,0.18802663683891296
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",2.33258056640625,2.4296164512634277,0.09703588485717773
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.8092072010040283,1.7661926746368408,-0.0430145263671875
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.06625628471374512,-0.07710602134466171,-0.010849736630916595
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-0.00012968017836101353,0.0001426785165676847,0.00027235869492869824
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5401315689086914,0.5265035629272461,-0.013628005981445312
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,Interval_front,1.4466865062713623,1.409333348274231,-0.03735315799713135
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.3296187222003937,0.4119899272918701,0.08237120509147644
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,PitIn,2.6306703090667725,2.654388904571533,0.023718595504760742
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,PitOut,21.625486373901367,21.579402923583984,-0.04608345031738281
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,DRS,-0.20553621649742126,-0.15560047328472137,0.04993574321269989
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C0],0.09771673381328583,0.09323101490736008,-0.004485718905925751
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C1],0.1222340390086174,0.11494842171669006,-0.007285617291927338
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.1469472199678421,0.1408880203962326,-0.006059199571609497
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.16133658587932587,0.15689213573932648,-0.00444445013999939
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.06121494993567467,0.061774127185344696,0.0005591772496700287
+v10eG,Bahrain Grand Prix,laptime_clear_hist.pkl,Intercept,95.8413314819336,95.94075012207031,0.09941864013671875
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1465328931808472,1.0039896965026855,-0.14254319667816162
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.4660150706768036,0.42217329144477844,-0.043841779232025146
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.21051570773124695,0.20758815109729767,-0.00292755663394928
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.4081525504589081,0.47848761081695557,0.07033506035804749
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",2.33258056640625,2.465398073196411,0.13281750679016113
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.8092072010040283,1.8109025955200195,0.001695394515991211
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.06625628471374512,-0.08540254831314087,-0.019146263599395752
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-0.00012968017836101353,0.0002846088318619877,0.00041428901022300124
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5401315689086914,0.5250649452209473,-0.01506662368774414
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,Interval_front,1.4466865062713623,1.396248698234558,-0.0504378080368042
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.3296187222003937,0.40234845876693726,0.07272973656654358
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,PitIn,2.6306703090667725,2.61321759223938,-0.017452716827392578
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,PitOut,21.625486373901367,21.631820678710938,0.0063343048095703125
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,DRS,-0.20553621649742126,-0.1413678079843521,0.06416840851306915
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C0],0.09771673381328583,0.10217294842004776,0.004456214606761932
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C1],0.1222340390086174,0.1171235591173172,-0.005110479891300201
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.1469472199678421,0.13971850275993347,-0.00722871720790863
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.16133658587932587,0.16819289326667786,0.00685630738735199
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.06121494993567467,0.11128630489110947,0.0500713549554348
+v10eGQ,Bahrain Grand Prix,laptime_clear_hist.pkl,Intercept,95.8413314819336,96.00452423095703,0.1631927490234375
+v10eG,Bahrain Grand Prix,overtake_logit.pkl,const,-1.9179108344921345,-1.916591435934794,0.0013193985573405342
+v10eG,Bahrain Grand Prix,overtake_logit.pkl,delta_total,-0.3649324382168501,-0.36625513924618525,-0.0013227010293351271
+v10eGQ,Bahrain Grand Prix,overtake_logit.pkl,const,-1.9179108344921345,-1.9147888155920938,0.003122018900040713
+v10eGQ,Bahrain Grand Prix,overtake_logit.pkl,delta_total,-0.3649324382168501,-0.3680006224375098,-0.0030681842206596865
+v10eG,Bahrain Grand Prix,overtake_threshold.pkl,valor,0.15349872072363432,0.15487879774077606,0.0013800770171417398
+v10eGQ,Bahrain Grand Prix,overtake_threshold.pkl,valor,0.15349872072363432,0.1560488628416013,0.0025501421179669748
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Bahrain Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Bahrain Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Bahrain Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Belgian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.19438038766384125,0.15042786300182343,-0.04395252466201782
+v10eG,Belgian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.1334753930568695,-0.11469068378210068,0.01878470927476883
+v10eG,Belgian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.186360239982605,-1.3914679288864136,-0.2051076889038086
+v10eG,Belgian Grand Prix,laptime_clear.pkl,LapNumber,-0.05979439616203308,-0.08041100949048996,-0.02061661332845688
+v10eG,Belgian Grand Prix,laptime_clear.pkl,LapNumber_2,-0.0004274169623386115,-0.00016827616491355002,0.00025914079742506146
+v10eG,Belgian Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5651621222496033,0.5414227247238159,-0.023739397525787354
+v10eG,Belgian Grand Prix,laptime_clear.pkl,Interval_front,1.1218582391738892,1.2170097827911377,0.09515154361724854
+v10eG,Belgian Grand Prix,laptime_clear.pkl,Interval_behind,0.5635228753089905,0.6095854043960571,0.04606252908706665
+v10eG,Belgian Grand Prix,laptime_clear.pkl,PitIn,4.101981163024902,4.154634475708008,0.05265331268310547
+v10eG,Belgian Grand Prix,laptime_clear.pkl,PitOut,14.44666862487793,14.443575859069824,-0.0030927658081054688
+v10eG,Belgian Grand Prix,laptime_clear.pkl,DRS,0.10234018415212631,0.05023184046149254,-0.052108343690633774
+v10eG,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.1525050699710846,0.1595824509859085,0.007077381014823914
+v10eG,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.16871654987335205,0.17750553786754608,0.00878898799419403
+v10eG,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.18088221549987793,0.19032131135463715,0.009439095854759216
+v10eG,Belgian Grand Prix,laptime_clear.pkl,Intercept,112.4278793334961,112.79652404785156,0.36864471435546875
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.19438038766384125,0.14364491403102875,-0.0507354736328125
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.1334753930568695,-0.11105337738990784,0.02242201566696167
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.186360239982605,-1.4174160957336426,-0.2310558557510376
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,LapNumber,-0.05979439616203308,-0.08130637556314468,-0.021511979401111603
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,LapNumber_2,-0.0004274169623386115,-0.00016024732030928135,0.00026716964202933013
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5651621222496033,0.5404865741729736,-0.02467554807662964
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,Interval_front,1.1218582391738892,1.2241688966751099,0.1023106575012207
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,Interval_behind,0.5635228753089905,0.6081281900405884,0.0446053147315979
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,PitIn,4.101981163024902,4.158376693725586,0.056395530700683594
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,PitOut,14.44666862487793,14.448351860046387,0.0016832351684570312
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,DRS,0.10234018415212631,0.05414022505283356,-0.048199959099292755
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.1525050699710846,0.15761007368564606,0.005105003714561462
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.16871654987335205,0.17797540128231049,0.009258851408958435
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.18088221549987793,0.19184039533138275,0.010958179831504822
+v10eGQ,Belgian Grand Prix,laptime_clear.pkl,Intercept,112.4278793334961,112.81680297851562,0.38892364501953125
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.19438038766384125,0.15042786300182343,-0.04395252466201782
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.1334753930568695,-0.11469068378210068,0.01878470927476883
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.186360239982605,-1.3914679288864136,-0.2051076889038086
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.05979439616203308,-0.08041100949048996,-0.02061661332845688
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-0.0004274169623386115,-0.00016827616491355002,0.00025914079742506146
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5651621222496033,0.5414227247238159,-0.023739397525787354
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.1218582391738892,1.2170097827911377,0.09515154361724854
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.5635228753089905,0.6095854043960571,0.04606252908706665
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,PitIn,4.101981163024902,4.154634475708008,0.05265331268310547
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,PitOut,14.44666862487793,14.443575859069824,-0.0030927658081054688
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,DRS,0.10234018415212631,0.05023184046149254,-0.052108343690633774
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.1525050699710846,0.1595824509859085,0.007077381014823914
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.16871654987335205,0.17750553786754608,0.00878898799419403
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.18088221549987793,0.19032131135463715,0.009439095854759216
+v10eG,Belgian Grand Prix,laptime_clear_hist.pkl,Intercept,112.4278793334961,112.79652404785156,0.36864471435546875
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.19438038766384125,0.14364491403102875,-0.0507354736328125
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.1334753930568695,-0.11105337738990784,0.02242201566696167
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.186360239982605,-1.4174160957336426,-0.2310558557510376
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.05979439616203308,-0.08130637556314468,-0.021511979401111603
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-0.0004274169623386115,-0.00016024732030928135,0.00026716964202933013
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5651621222496033,0.5404865741729736,-0.02467554807662964
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.1218582391738892,1.2241688966751099,0.1023106575012207
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.5635228753089905,0.6081281900405884,0.0446053147315979
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,PitIn,4.101981163024902,4.158376693725586,0.056395530700683594
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,PitOut,14.44666862487793,14.448351860046387,0.0016832351684570312
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,DRS,0.10234018415212631,0.05414022505283356,-0.048199959099292755
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.1525050699710846,0.15761007368564606,0.005105003714561462
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.16871654987335205,0.17797540128231049,0.009258851408958435
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.18088221549987793,0.19184039533138275,0.010958179831504822
+v10eGQ,Belgian Grand Prix,laptime_clear_hist.pkl,Intercept,112.4278793334961,112.81680297851562,0.38892364501953125
+v10eG,Belgian Grand Prix,overtake_logit.pkl,const,-1.3698462552177164,-1.3872055859445587,-0.01735933072684226
+v10eG,Belgian Grand Prix,overtake_logit.pkl,delta_total,-0.8290982595048575,-0.8340455106631727,-0.00494725115831518
+v10eGQ,Belgian Grand Prix,overtake_logit.pkl,const,-1.3698462552177164,-1.387291074975088,-0.017444819757371555
+v10eGQ,Belgian Grand Prix,overtake_logit.pkl,delta_total,-0.8290982595048575,-0.8363423729484808,-0.007244113443623301
+v10eG,Belgian Grand Prix,overtake_threshold.pkl,valor,0.22676024486023627,0.2289773849636462,0.002217140103409926
+v10eGQ,Belgian Grand Prix,overtake_threshold.pkl,valor,0.22676024486023627,0.23057225221188052,0.0038120073516442476
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Belgian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Belgian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Belgian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40195152163505554,0.363776832818985,-0.03817468881607056
+v10eG,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.19600532948970795,-0.17822562158107758,0.01777970790863037
+v10eG,Dutch Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.5074526071548462,0.5770493745803833,0.06959676742553711
+v10eG,Dutch Grand Prix,laptime_clear.pkl,LapNumber,-0.06497545540332794,-0.06564494222402573,-0.0006694868206977844
+v10eG,Dutch Grand Prix,laptime_clear.pkl,LapNumber_2,0.0002725186350289732,0.000317087717121467,4.456908209249377e-05
+v10eG,Dutch Grand Prix,laptime_clear.pkl,FirstLap_pos,0.658452033996582,0.6563260555267334,-0.002125978469848633
+v10eG,Dutch Grand Prix,laptime_clear.pkl,Interval_front,1.3303033113479614,1.341516375541687,0.011213064193725586
+v10eG,Dutch Grand Prix,laptime_clear.pkl,Interval_behind,0.708419144153595,0.7413466572761536,0.032927513122558594
+v10eG,Dutch Grand Prix,laptime_clear.pkl,PitIn,3.3675684928894043,3.3594956398010254,-0.008072853088378906
+v10eG,Dutch Grand Prix,laptime_clear.pkl,PitOut,18.92656898498535,18.90435028076172,-0.022218704223632812
+v10eG,Dutch Grand Prix,laptime_clear.pkl,DRS,-0.32697248458862305,-0.33461084961891174,-0.007638365030288696
+v10eG,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C0],0.04695907607674599,0.043083932250738144,-0.003875143826007843
+v10eG,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.05169036239385605,0.04843038320541382,-0.0032599791884422302
+v10eG,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.05723286047577858,0.0547218918800354,-0.0025109685957431793
+v10eG,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.2378883808851242,0.2820761203765869,0.04418773949146271
+v10eG,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C1],0.042288050055503845,0.03844163194298744,-0.003846418112516403
+v10eG,Dutch Grand Prix,laptime_clear.pkl,Intercept,75.9691162109375,75.9455337524414,-0.02358245849609375
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40195152163505554,0.372769832611084,-0.029181689023971558
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.19600532948970795,-0.18838518857955933,0.007620140910148621
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.5074526071548462,0.5878530740737915,0.08040046691894531
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,LapNumber,-0.06497545540332794,-0.0672052800655365,-0.002229824662208557
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,LapNumber_2,0.0002725186350289732,0.0003384914016351104,6.597276660613716e-05
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,FirstLap_pos,0.658452033996582,0.6568509936332703,-0.0016010403633117676
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,Interval_front,1.3303033113479614,1.3475637435913086,0.017260432243347168
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,Interval_behind,0.708419144153595,0.7673707604408264,0.058951616287231445
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,PitIn,3.3675684928894043,3.330181121826172,-0.03738737106323242
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,PitOut,18.92656898498535,18.91608428955078,-0.010484695434570312
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,DRS,-0.32697248458862305,-0.340840607881546,-0.013868123292922974
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C0],0.04695907607674599,0.04259241744875908,-0.004366658627986908
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.05169036239385605,0.04908759519457817,-0.002602767199277878
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.05723286047577858,0.05935395509004593,0.0021210946142673492
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.2378883808851242,0.19473491609096527,-0.043153464794158936
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C1],0.042288050055503845,0.040976233780384064,-0.0013118162751197815
+v10eGQ,Dutch Grand Prix,laptime_clear.pkl,Intercept,75.9691162109375,75.9584732055664,-0.01064300537109375
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40195152163505554,0.363776832818985,-0.03817468881607056
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.19600532948970795,-0.17822562158107758,0.01777970790863037
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.5074526071548462,0.5770493745803833,0.06959676742553711
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.06497545540332794,-0.06564494222402573,-0.0006694868206977844
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.0002725186350289732,0.000317087717121467,4.456908209249377e-05
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.658452033996582,0.6563260555267334,-0.002125978469848633
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,Interval_front,1.3303033113479614,1.341516375541687,0.011213064193725586
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.708419144153595,0.7413466572761536,0.032927513122558594
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,PitIn,3.3675684928894043,3.3594956398010254,-0.008072853088378906
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,PitOut,18.92656898498535,18.90435028076172,-0.022218704223632812
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,DRS,-0.32697248458862305,-0.33461084961891174,-0.007638365030288696
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C0],0.04695907607674599,0.043083932250738144,-0.003875143826007843
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.05169036239385605,0.04843038320541382,-0.0032599791884422302
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.05723286047577858,0.0547218918800354,-0.0025109685957431793
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.2378883808851242,0.2820761203765869,0.04418773949146271
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C1],0.042288050055503845,0.03844163194298744,-0.003846418112516403
+v10eG,Dutch Grand Prix,laptime_clear_hist.pkl,Intercept,75.9691162109375,75.9455337524414,-0.02358245849609375
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40195152163505554,0.372769832611084,-0.029181689023971558
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.19600532948970795,-0.18838518857955933,0.007620140910148621
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.5074526071548462,0.5878530740737915,0.08040046691894531
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.06497545540332794,-0.0672052800655365,-0.002229824662208557
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.0002725186350289732,0.0003384914016351104,6.597276660613716e-05
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.658452033996582,0.6568509936332703,-0.0016010403633117676
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,Interval_front,1.3303033113479614,1.3475637435913086,0.017260432243347168
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.708419144153595,0.7673707604408264,0.058951616287231445
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,PitIn,3.3675684928894043,3.330181121826172,-0.03738737106323242
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,PitOut,18.92656898498535,18.91608428955078,-0.010484695434570312
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,DRS,-0.32697248458862305,-0.340840607881546,-0.013868123292922974
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C0],0.04695907607674599,0.04259241744875908,-0.004366658627986908
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.05169036239385605,0.04908759519457817,-0.002602767199277878
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.05723286047577858,0.05935395509004593,0.0021210946142673492
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.2378883808851242,0.19473491609096527,-0.043153464794158936
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C1],0.042288050055503845,0.040976233780384064,-0.0013118162751197815
+v10eGQ,Dutch Grand Prix,laptime_clear_hist.pkl,Intercept,75.9691162109375,75.9584732055664,-0.01064300537109375
+v10eG,Dutch Grand Prix,overtake_logit.pkl,const,-2.1378023757654367,-2.1346989028710954,0.0031034728943413192
+v10eG,Dutch Grand Prix,overtake_logit.pkl,delta_total,-0.9489741249493663,-0.9420171554263963,0.00695696952296998
+v10eGQ,Dutch Grand Prix,overtake_logit.pkl,const,-2.1378023757654367,-2.141568708543933,-0.003766332778496473
+v10eGQ,Dutch Grand Prix,overtake_logit.pkl,delta_total,-0.9489741249493663,-0.9425242082593642,0.0064499166900020555
+v10eG,Dutch Grand Prix,overtake_threshold.pkl,valor,0.17791104459938778,0.17579440738516705,-0.002116637214220729
+v10eGQ,Dutch Grand Prix,overtake_threshold.pkl,valor,0.17791104459938778,0.17483251006425918,-0.003078534535128602
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Dutch Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Dutch Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Dutch Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.0822710245847702,0.1583368331193924,0.07606580853462219
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14924313127994537,-0.1731279045343399,-0.02388477325439453
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.29848626255989075,-0.3462558090686798,-0.04776954650878906
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.3562651872634888,1.4251823425292969,0.0689171552658081
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.3181873559951782,1.334330677986145,0.016143321990966797
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,LapNumber,-0.05375616252422333,-0.058102481067180634,-0.004346318542957306
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,LapNumber_2,0.00014652415120508522,0.00018617046589497477,3.964631468988955e-05
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,FirstLap_pos,5.320558048839082e-16,2.052584447895245e-15,1.5205286430113366e-15
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,Interval_front,1.2546143531799316,1.2668598890304565,0.012245535850524902
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,Interval_behind,0.7811569571495056,0.7824363112449646,0.0012793540954589844
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,PitIn,2.5527284145355225,2.544126510620117,-0.008601903915405273
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,PitOut,19.725828170776367,19.74128532409668,0.0154571533203125
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,DRS,-0.0770624428987503,-0.07413732260465622,0.0029251202940940857
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.050628550350666046,0.049316972494125366,-0.00131157785654068
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.054944876581430435,0.05734287574887276,0.0023979991674423218
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.061145681887865067,0.0647658258676529,0.0036201439797878265
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C5],0.06804627180099487,0.0731496587395668,0.00510338693857193
+v10eG,Hungarian Grand Prix,laptime_clear.pkl,Intercept,83.39265441894531,83.4006576538086,0.00800323486328125
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.0822710245847702,0.1300145387649536,0.04774351418018341
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14924313127994537,-0.17453278601169586,-0.02528965473175049
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.29848626255989075,-0.3490655720233917,-0.05057930946350098
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.3562651872634888,1.4069750308990479,0.05070984363555908
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.3181873559951782,1.3803337812423706,0.06214642524719238
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,LapNumber,-0.05375616252422333,-0.058619577437639236,-0.004863414913415909
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,LapNumber_2,0.00014652415120508522,0.00019369195797480643,4.716780676972121e-05
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,FirstLap_pos,5.320558048839082e-16,-7.064471302898007e-16,-1.238502935173709e-15
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,Interval_front,1.2546143531799316,1.2540725469589233,-0.0005418062210083008
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,Interval_behind,0.7811569571495056,0.7769458889961243,-0.004211068153381348
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,PitIn,2.5527284145355225,2.542524814605713,-0.01020359992980957
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,PitOut,19.725828170776367,19.75416374206543,0.0283355712890625
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,DRS,-0.0770624428987503,-0.07629221677780151,0.0007702261209487915
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.050628550350666046,0.04922480508685112,-0.0014037452638149261
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.054944876581430435,0.057677894830703735,0.0027330182492733
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.061145681887865067,0.06616181880235672,0.0050161369144916534
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C5],0.06804627180099487,0.07589365541934967,0.007847383618354797
+v10eGQ,Hungarian Grand Prix,laptime_clear.pkl,Intercept,83.39265441894531,83.45428466796875,0.0616302490234375
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.0822710245847702,0.1583368331193924,0.07606580853462219
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14924313127994537,-0.1731279045343399,-0.02388477325439453
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.29848626255989075,-0.3462558090686798,-0.04776954650878906
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.3562651872634888,1.4251823425292969,0.0689171552658081
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.3181873559951782,1.334330677986145,0.016143321990966797
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.05375616252422333,-0.058102481067180634,-0.004346318542957306
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00014652415120508522,0.00018617046589497477,3.964631468988955e-05
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,5.320558048839082e-16,2.052584447895245e-15,1.5205286430113366e-15
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.2546143531799316,1.2668598890304565,0.012245535850524902
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.7811569571495056,0.7824363112449646,0.0012793540954589844
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,PitIn,2.5527284145355225,2.544126510620117,-0.008601903915405273
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,PitOut,19.725828170776367,19.74128532409668,0.0154571533203125
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,DRS,-0.0770624428987503,-0.07413732260465622,0.0029251202940940857
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.050628550350666046,0.049316972494125366,-0.00131157785654068
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.054944876581430435,0.05734287574887276,0.0023979991674423218
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.061145681887865067,0.0647658258676529,0.0036201439797878265
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C5],0.06804627180099487,0.0731496587395668,0.00510338693857193
+v10eG,Hungarian Grand Prix,laptime_clear_hist.pkl,Intercept,83.39265441894531,83.4006576538086,0.00800323486328125
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.0822710245847702,0.1300145387649536,0.04774351418018341
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14924313127994537,-0.17453278601169586,-0.02528965473175049
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.29848626255989075,-0.3490655720233917,-0.05057930946350098
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.3562651872634888,1.4069750308990479,0.05070984363555908
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.3181873559951782,1.3803337812423706,0.06214642524719238
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.05375616252422333,-0.058619577437639236,-0.004863414913415909
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00014652415120508522,0.00019369195797480643,4.716780676972121e-05
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,5.320558048839082e-16,-7.064471302898007e-16,-1.238502935173709e-15
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.2546143531799316,1.2540725469589233,-0.0005418062210083008
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.7811569571495056,0.7769458889961243,-0.004211068153381348
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,PitIn,2.5527284145355225,2.542524814605713,-0.01020359992980957
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,PitOut,19.725828170776367,19.75416374206543,0.0283355712890625
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,DRS,-0.0770624428987503,-0.07629221677780151,0.0007702261209487915
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.050628550350666046,0.04922480508685112,-0.0014037452638149261
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.054944876581430435,0.057677894830703735,0.0027330182492733
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.061145681887865067,0.06616181880235672,0.0050161369144916534
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C5],0.06804627180099487,0.07589365541934967,0.007847383618354797
+v10eGQ,Hungarian Grand Prix,laptime_clear_hist.pkl,Intercept,83.39265441894531,83.45428466796875,0.0616302490234375
+v10eG,Hungarian Grand Prix,overtake_logit.pkl,const,-1.6946321075112816,-1.7064713700400038,-0.01183926252872225
+v10eG,Hungarian Grand Prix,overtake_logit.pkl,delta_total,-1.3453848545028038,-1.3505181231739747,-0.005133268671170921
+v10eGQ,Hungarian Grand Prix,overtake_logit.pkl,const,-1.6946321075112816,-1.6956189042681198,-0.0009867967568382152
+v10eGQ,Hungarian Grand Prix,overtake_logit.pkl,delta_total,-1.3453848545028038,-1.3520199694354347,-0.0066351149326309145
+v10eG,Hungarian Grand Prix,overtake_threshold.pkl,valor,0.25637274277038846,0.2566792835442112,0.0003065407738227499
+v10eGQ,Hungarian Grand Prix,overtake_threshold.pkl,valor,0.25637274277038846,0.2572048632458352,0.0008321204754467293
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Hungarian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Hungarian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Hungarian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Miami Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.14388392865657806,-0.12333732098340988,0.020546607673168182
+v10eG,Miami Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.24268487095832825,-0.21737337112426758,0.02531149983406067
+v10eG,Miami Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.9534372091293335,-1.9738636016845703,-0.020426392555236816
+v10eG,Miami Grand Prix,laptime_clear.pkl,LapNumber,-0.07629650831222534,-0.07673845440149307,-0.0004419460892677307
+v10eG,Miami Grand Prix,laptime_clear.pkl,LapNumber_2,0.0004199006943963468,0.00043779436964541674,1.789367524906993e-05
+v10eG,Miami Grand Prix,laptime_clear.pkl,FirstLap_pos,0.6534357070922852,0.6518617272377014,-0.0015739798545837402
+v10eG,Miami Grand Prix,laptime_clear.pkl,Interval_front,1.001004934310913,1.00257408618927,0.0015691518783569336
+v10eG,Miami Grand Prix,laptime_clear.pkl,Interval_behind,0.37938013672828674,0.3884753882884979,0.009095251560211182
+v10eG,Miami Grand Prix,laptime_clear.pkl,PitIn,5.039955139160156,5.0469651222229,0.007009983062744141
+v10eG,Miami Grand Prix,laptime_clear.pkl,PitOut,15.376443862915039,15.380880355834961,0.004436492919921875
+v10eG,Miami Grand Prix,laptime_clear.pkl,DRS,-0.31857505440711975,-0.3149586617946625,0.0036163926124572754
+v10eG,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.01653703860938549,0.016489684581756592,-4.735402762889862e-05
+v10eG,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.01934625767171383,0.019403357058763504,5.709938704967499e-05
+v10eG,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.021555569022893906,0.021585268899798393,2.969987690448761e-05
+v10eG,Miami Grand Prix,laptime_clear.pkl,Intercept,94.80982208251953,94.81129455566406,0.00147247314453125
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.14388392865657806,-0.1218012198805809,0.022082708775997162
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.24268487095832825,-0.21596699953079224,0.02671787142753601
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.9534372091293335,-1.975193977355957,-0.021756768226623535
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,LapNumber,-0.07629650831222534,-0.0768706202507019,-0.0005741119384765625
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,LapNumber_2,0.0004199006943963468,0.00044047224218957126,2.0571547793224454e-05
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,FirstLap_pos,0.6534357070922852,0.6515485644340515,-0.0018871426582336426
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,Interval_front,1.001004934310913,1.0023798942565918,0.001374959945678711
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,Interval_behind,0.37938013672828674,0.3894323706626892,0.010052233934402466
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,PitIn,5.039955139160156,5.045811653137207,0.005856513977050781
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,PitOut,15.376443862915039,15.380184173583984,0.0037403106689453125
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,DRS,-0.31857505440711975,-0.3157069683074951,0.002868086099624634
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.01653703860938549,0.016285492107272148,-0.0002515465021133423
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.01934625767171383,0.01979992538690567,0.0004536677151918411
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.021555569022893906,0.0223383791744709,0.0007828101515769958
+v10eGQ,Miami Grand Prix,laptime_clear.pkl,Intercept,94.80982208251953,94.8150405883789,0.005218505859375
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.14388392865657806,-0.12333732098340988,0.020546607673168182
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.24268487095832825,-0.21737337112426758,0.02531149983406067
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.9534372091293335,-1.9738636016845703,-0.020426392555236816
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.07629650831222534,-0.07673845440149307,-0.0004419460892677307
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.0004199006943963468,0.00043779436964541674,1.789367524906993e-05
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.6534357070922852,0.6518617272377014,-0.0015739798545837402
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,Interval_front,1.001004934310913,1.00257408618927,0.0015691518783569336
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.37938013672828674,0.3884753882884979,0.009095251560211182
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,PitIn,5.039955139160156,5.0469651222229,0.007009983062744141
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,PitOut,15.376443862915039,15.380880355834961,0.004436492919921875
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,DRS,-0.31857505440711975,-0.3149586617946625,0.0036163926124572754
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.01653703860938549,0.016489684581756592,-4.735402762889862e-05
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.01934625767171383,0.019403357058763504,5.709938704967499e-05
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.021555569022893906,0.021585268899798393,2.969987690448761e-05
+v10eG,Miami Grand Prix,laptime_clear_hist.pkl,Intercept,94.80982208251953,94.81129455566406,0.00147247314453125
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.14388392865657806,-0.1218012198805809,0.022082708775997162
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.24268487095832825,-0.21596699953079224,0.02671787142753601
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2022'))[T.2023]",-1.9534372091293335,-1.975193977355957,-0.021756768226623535
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.07629650831222534,-0.0768706202507019,-0.0005741119384765625
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.0004199006943963468,0.00044047224218957126,2.0571547793224454e-05
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.6534357070922852,0.6515485644340515,-0.0018871426582336426
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,Interval_front,1.001004934310913,1.0023798942565918,0.001374959945678711
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.37938013672828674,0.3894323706626892,0.010052233934402466
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,PitIn,5.039955139160156,5.045811653137207,0.005856513977050781
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,PitOut,15.376443862915039,15.380184173583984,0.0037403106689453125
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,DRS,-0.31857505440711975,-0.3157069683074951,0.002868086099624634
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.01653703860938549,0.016285492107272148,-0.0002515465021133423
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.01934625767171383,0.01979992538690567,0.0004536677151918411
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.021555569022893906,0.0223383791744709,0.0007828101515769958
+v10eGQ,Miami Grand Prix,laptime_clear_hist.pkl,Intercept,94.80982208251953,94.8150405883789,0.005218505859375
+v10eG,Miami Grand Prix,overtake_logit.pkl,const,-1.7512514031880875,-1.751559172903635,-0.0003077697155475789
+v10eG,Miami Grand Prix,overtake_logit.pkl,delta_total,-0.7973148113750614,-0.7964676860316081,0.0008471253434533255
+v10eGQ,Miami Grand Prix,overtake_logit.pkl,const,-1.7512514031880875,-1.7512680846125972,-1.668142450972354e-05
+v10eGQ,Miami Grand Prix,overtake_logit.pkl,delta_total,-0.7973148113750614,-0.7951243023753185,0.002190508999742935
+v10eG,Miami Grand Prix,overtake_threshold.pkl,valor,0.15868375718881106,0.1588940502184298,0.00021029302961875218
+v10eGQ,Miami Grand Prix,overtake_threshold.pkl,valor,0.15868375718881106,0.1589940509083247,0.0003102937195136324
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Miami Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Miami Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Miami Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18950733542442322,-0.16132764518260956,0.02817969024181366
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3196365535259247,-0.2843286395072937,0.03530791401863098
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.226791501045227,1.2036831378936768,-0.023108363151550293
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.0783052444458008,1.062187671661377,-0.016117572784423828
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,LapNumber,-0.07547185570001602,-0.0732899084687233,0.0021819472312927246
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,LapNumber_2,0.00022881569748278707,0.00018992385594174266,-3.8891841541044414e-05
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5232119560241699,0.5245069265365601,0.0012949705123901367
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,Interval_front,1.2994040250778198,1.299094796180725,-0.00030922889709472656
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,Interval_behind,1.044472098350525,1.046999454498291,0.0025273561477661133
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,PitIn,3.4669415950775146,3.4451301097869873,-0.021811485290527344
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,PitOut,18.808767318725586,18.82734489440918,0.01857757568359375
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,DRS,-0.1692294478416443,-0.1676054447889328,0.0016240030527114868
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.007766019087284803,0.008898506872355938,0.0011324877850711346
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.00965888611972332,0.011242900975048542,0.001584014855325222
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.011225748807191849,0.013103712350130081,0.0018779635429382324
+v10eG,Saudi Arabian Grand Prix,laptime_clear.pkl,Intercept,94.16639709472656,94.1205062866211,-0.04589080810546875
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18950733542442322,-0.1652887910604477,0.024218544363975525
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3196365535259247,-0.2930752635002136,0.02656129002571106
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.226791501045227,1.1799181699752808,-0.04687333106994629
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.0783052444458008,1.0330618619918823,-0.04524338245391846
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,LapNumber,-0.07547185570001602,-0.07421228289604187,0.0012595728039741516
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,LapNumber_2,0.00022881569748278707,0.00018970418022945523,-3.911151725333184e-05
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,FirstLap_pos,0.5232119560241699,0.5250111222267151,0.001799166202545166
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,Interval_front,1.2994040250778198,1.3118926286697388,0.012488603591918945
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,Interval_behind,1.044472098350525,1.0540401935577393,0.009568095207214355
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,PitIn,3.4669415950775146,3.4261057376861572,-0.04083585739135742
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,PitOut,18.808767318725586,18.862165451049805,0.05339813232421875
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,DRS,-0.1692294478416443,-0.17213313281536102,-0.002903684973716736
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.007766019087284803,0.011126887984573841,0.0033608688972890377
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.00965888611972332,0.01593836583197117,0.0062794797122478485
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.011225748807191849,0.01989712193608284,0.008671373128890991
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear.pkl,Intercept,94.16639709472656,94.14924621582031,-0.01715087890625
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18950733542442322,-0.16132764518260956,0.02817969024181366
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3196365535259247,-0.2843286395072937,0.03530791401863098
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.226791501045227,1.2036831378936768,-0.023108363151550293
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.0783052444458008,1.062187671661377,-0.016117572784423828
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.07547185570001602,-0.0732899084687233,0.0021819472312927246
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00022881569748278707,0.00018992385594174266,-3.8891841541044414e-05
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5232119560241699,0.5245069265365601,0.0012949705123901367
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.2994040250778198,1.299094796180725,-0.00030922889709472656
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Interval_behind,1.044472098350525,1.046999454498291,0.0025273561477661133
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,PitIn,3.4669415950775146,3.4451301097869873,-0.021811485290527344
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,PitOut,18.808767318725586,18.82734489440918,0.01857757568359375
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,DRS,-0.1692294478416443,-0.1676054447889328,0.0016240030527114868
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.007766019087284803,0.008898506872355938,0.0011324877850711346
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.00965888611972332,0.011242900975048542,0.001584014855325222
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.011225748807191849,0.013103712350130081,0.0018779635429382324
+v10eG,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Intercept,94.16639709472656,94.1205062866211,-0.04589080810546875
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18950733542442322,-0.1652887910604477,0.024218544363975525
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3196365535259247,-0.2930752635002136,0.02656129002571106
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",1.226791501045227,1.1799181699752808,-0.04687333106994629
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",1.0783052444458008,1.0330618619918823,-0.04524338245391846
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.07547185570001602,-0.07421228289604187,0.0012595728039741516
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00022881569748278707,0.00018970418022945523,-3.911151725333184e-05
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.5232119560241699,0.5250111222267151,0.001799166202545166
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Interval_front,1.2994040250778198,1.3118926286697388,0.012488603591918945
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Interval_behind,1.044472098350525,1.0540401935577393,0.009568095207214355
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,PitIn,3.4669415950775146,3.4261057376861572,-0.04083585739135742
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,PitOut,18.808767318725586,18.862165451049805,0.05339813232421875
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,DRS,-0.1692294478416443,-0.17213313281536102,-0.002903684973716736
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.007766019087284803,0.011126887984573841,0.0033608688972890377
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.00965888611972332,0.01593836583197117,0.0062794797122478485
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.011225748807191849,0.01989712193608284,0.008671373128890991
+v10eGQ,Saudi Arabian Grand Prix,laptime_clear_hist.pkl,Intercept,94.16639709472656,94.14924621582031,-0.01715087890625
+v10eG,Saudi Arabian Grand Prix,overtake_logit.pkl,const,-2.4927814598795854,-2.4926243710256033,0.00015708885398213468
+v10eG,Saudi Arabian Grand Prix,overtake_logit.pkl,delta_total,-0.23036507435506107,-0.23038290746850162,-1.783311344055738e-05
+v10eGQ,Saudi Arabian Grand Prix,overtake_logit.pkl,const,-2.4927814598795854,-2.491182718730735,0.00159874114885028
+v10eGQ,Saudi Arabian Grand Prix,overtake_logit.pkl,delta_total,-0.23036507435506107,-0.2301683186396882,0.00019675571537286496
+v10eG,Saudi Arabian Grand Prix,overtake_threshold.pkl,valor,0.08485385590814114,0.0847711057705273,-8.275013761384342e-05
+v10eGQ,Saudi Arabian Grand Prix,overtake_threshold.pkl,valor,0.08485385590814114,0.08516359445942925,0.0003097385512881162
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Saudi Arabian Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Saudi Arabian Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,Singapore Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.20559993386268616,-0.21508237719535828,-0.00948244333267212
+v10eG,Singapore Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.4111998677253723,-0.43016475439071655,-0.01896488666534424
+v10eG,Singapore Grand Prix,laptime_clear.pkl,LapNumber,-0.0424676313996315,-0.04034501686692238,0.0021226145327091217
+v10eG,Singapore Grand Prix,laptime_clear.pkl,LapNumber_2,-5.451518882182427e-05,-4.575971615849994e-05,8.755472663324326e-06
+v10eG,Singapore Grand Prix,laptime_clear.pkl,FirstLap_pos,1.6669788396465922e-15,7.047356049286668e-15,5.380377209640076e-15
+v10eG,Singapore Grand Prix,laptime_clear.pkl,Interval_front,2.2867977619171143,2.24748158454895,-0.03931617736816406
+v10eG,Singapore Grand Prix,laptime_clear.pkl,Interval_behind,1.8792521953582764,1.9099006652832031,0.030648469924926758
+v10eG,Singapore Grand Prix,laptime_clear.pkl,PitIn,9.244342803955078,9.23562240600586,-0.00872039794921875
+v10eG,Singapore Grand Prix,laptime_clear.pkl,PitOut,21.68869972229004,21.6225643157959,-0.06613540649414062
+v10eG,Singapore Grand Prix,laptime_clear.pkl,DRS,-0.3631995916366577,-0.3521398603916168,0.011059731245040894
+v10eG,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.040901780128479004,0.04077163338661194,-0.00013014674186706543
+v10eG,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.045899003744125366,0.045946139842271805,4.71360981464386e-05
+v10eG,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C5],0.05150676518678665,0.05177736282348633,0.0002705976366996765
+v10eG,Singapore Grand Prix,laptime_clear.pkl,Intercept,99.84181213378906,99.85983276367188,0.0180206298828125
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.20559993386268616,-0.20329904556274414,0.0023008882999420166
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.4111998677253723,-0.4065980911254883,0.004601776599884033
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,LapNumber,-0.0424676313996315,-0.04034501686692238,0.0021226145327091217
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,LapNumber_2,-5.451518882182427e-05,-4.575971615849994e-05,8.755472663324326e-06
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,FirstLap_pos,1.6669788396465922e-15,5.613169180358106e-15,3.946190340711514e-15
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,Interval_front,2.2867977619171143,2.24748158454895,-0.03931617736816406
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,Interval_behind,1.8792521953582764,1.9099006652832031,0.030648469924926758
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,PitIn,9.244342803955078,9.23562240600586,-0.00872039794921875
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,PitOut,21.68869972229004,21.6225643157959,-0.06613540649414062
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,DRS,-0.3631995916366577,-0.3521398603916168,0.011059731245040894
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.040901780128479004,0.04047015681862831,-0.00043162330985069275
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.045899003744125366,0.04648532345890999,0.0005863197147846222
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C5],0.05150676518678665,0.053394537419080734,0.0018877722322940826
+v10eGQ,Singapore Grand Prix,laptime_clear.pkl,Intercept,99.84181213378906,99.85983276367188,0.0180206298828125
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.20559993386268616,-0.21508237719535828,-0.00948244333267212
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.4111998677253723,-0.43016475439071655,-0.01896488666534424
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.0424676313996315,-0.04034501686692238,0.0021226145327091217
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-5.451518882182427e-05,-4.575971615849994e-05,8.755472663324326e-06
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,1.6669788396465922e-15,7.047356049286668e-15,5.380377209640076e-15
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,Interval_front,2.2867977619171143,2.24748158454895,-0.03931617736816406
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,Interval_behind,1.8792521953582764,1.9099006652832031,0.030648469924926758
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,PitIn,9.244342803955078,9.23562240600586,-0.00872039794921875
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,PitOut,21.68869972229004,21.6225643157959,-0.06613540649414062
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,DRS,-0.3631995916366577,-0.3521398603916168,0.011059731245040894
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.040901780128479004,0.04077163338661194,-0.00013014674186706543
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.045899003744125366,0.045946139842271805,4.71360981464386e-05
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C5],0.05150676518678665,0.05177736282348633,0.0002705976366996765
+v10eG,Singapore Grand Prix,laptime_clear_hist.pkl,Intercept,99.84181213378906,99.85983276367188,0.0180206298828125
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.20559993386268616,-0.20329904556274414,0.0023008882999420166
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.4111998677253723,-0.4065980911254883,0.004601776599884033
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.0424676313996315,-0.04034501686692238,0.0021226145327091217
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,LapNumber_2,-5.451518882182427e-05,-4.575971615849994e-05,8.755472663324326e-06
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,1.6669788396465922e-15,5.613169180358106e-15,3.946190340711514e-15
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,Interval_front,2.2867977619171143,2.24748158454895,-0.03931617736816406
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,Interval_behind,1.8792521953582764,1.9099006652832031,0.030648469924926758
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,PitIn,9.244342803955078,9.23562240600586,-0.00872039794921875
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,PitOut,21.68869972229004,21.6225643157959,-0.06613540649414062
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,DRS,-0.3631995916366577,-0.3521398603916168,0.011059731245040894
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.040901780128479004,0.04047015681862831,-0.00043162330985069275
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.045899003744125366,0.04648532345890999,0.0005863197147846222
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C5],0.05150676518678665,0.053394537419080734,0.0018877722322940826
+v10eGQ,Singapore Grand Prix,laptime_clear_hist.pkl,Intercept,99.84181213378906,99.85983276367188,0.0180206298828125
+v10eG,Singapore Grand Prix,overtake_logit.pkl,const,-3.246959561330882,-3.246570211311159,0.00038935001972317806
+v10eG,Singapore Grand Prix,overtake_logit.pkl,delta_total,-0.2427928592881281,-0.24381413804343963,-0.0010212787553115221
+v10eGQ,Singapore Grand Prix,overtake_logit.pkl,const,-3.246959561330882,-3.24591145404651,0.0010481072843719907
+v10eGQ,Singapore Grand Prix,overtake_logit.pkl,delta_total,-0.2427928592881281,-0.2432939297709472,-0.0005010704828190826
+v10eG,Singapore Grand Prix,overtake_threshold.pkl,valor,0.0478793602385476,0.048159174310811,0.0002798140722633999
+v10eGQ,Singapore Grand Prix,overtake_threshold.pkl,valor,0.0478793602385476,0.04811572484627439,0.00023636460772678836
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,Singapore Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,Singapore Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,Singapore Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798
+v10eG,United States Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18341249227523804,-0.1670718789100647,0.01634061336517334
+v10eG,United States Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30935657024383545,-0.2944524586200714,0.014904111623764038
+v10eG,United States Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.3028999865055084,0.43726298213005066,0.13436299562454224
+v10eG,United States Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",-0.03626396134495735,-0.05079280212521553,-0.014528840780258179
+v10eG,United States Grand Prix,laptime_clear.pkl,LapNumber,-0.08289245516061783,-0.06622231751680374,0.016670137643814087
+v10eG,United States Grand Prix,laptime_clear.pkl,LapNumber_2,0.00036939416895620525,7.097949855960906e-05,-0.0002984146703965962
+v10eG,United States Grand Prix,laptime_clear.pkl,FirstLap_pos,0.3527401089668274,0.37129831314086914,0.018558204174041748
+v10eG,United States Grand Prix,laptime_clear.pkl,Interval_front,1.7752816677093506,1.9344077110290527,0.15912604331970215
+v10eG,United States Grand Prix,laptime_clear.pkl,Interval_behind,0.5208466649055481,0.6852683424949646,0.1644216775894165
+v10eG,United States Grand Prix,laptime_clear.pkl,PitIn,0.43045762181282043,0.4104344844818115,-0.02002313733100891
+v10eG,United States Grand Prix,laptime_clear.pkl,PitOut,20.239173889160156,20.24258041381836,0.003406524658203125
+v10eG,United States Grand Prix,laptime_clear.pkl,DRS,-0.3401930034160614,-0.3779103457927704,-0.037717342376708984
+v10eG,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.06852330267429352,0.07774696499109268,0.009223662316799164
+v10eG,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.07615315914154053,0.08644156903028488,0.010288409888744354
+v10eG,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.08190079778432846,0.09265637397766113,0.010755576193332672
+v10eG,United States Grand Prix,laptime_clear.pkl,Intercept,102.1327133178711,101.84689331054688,-0.28582000732421875
+v10eGQ,United States Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18341249227523804,-0.15390217304229736,0.029510319232940674
+v10eGQ,United States Grand Prix,laptime_clear.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30935657024383545,-0.2728855311870575,0.036471039056777954
+v10eGQ,United States Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.3028999865055084,0.4148944914340973,0.11199450492858887
+v10eGQ,United States Grand Prix,laptime_clear.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",-0.03626396134495735,-0.07711172848939896,-0.040847767144441605
+v10eGQ,United States Grand Prix,laptime_clear.pkl,LapNumber,-0.08289245516061783,-0.06631834805011749,0.016574107110500336
+v10eGQ,United States Grand Prix,laptime_clear.pkl,LapNumber_2,0.00036939416895620525,7.372907566605136e-05,-0.0002956650932901539
+v10eGQ,United States Grand Prix,laptime_clear.pkl,FirstLap_pos,0.3527401089668274,0.3718149960041046,0.01907488703727722
+v10eGQ,United States Grand Prix,laptime_clear.pkl,Interval_front,1.7752816677093506,1.9245455265045166,0.14926385879516602
+v10eGQ,United States Grand Prix,laptime_clear.pkl,Interval_behind,0.5208466649055481,0.6740705966949463,0.1532239317893982
+v10eGQ,United States Grand Prix,laptime_clear.pkl,PitIn,0.43045762181282043,0.4012375771999359,-0.02922004461288452
+v10eGQ,United States Grand Prix,laptime_clear.pkl,PitOut,20.239173889160156,20.2830753326416,0.04390144348144531
+v10eGQ,United States Grand Prix,laptime_clear.pkl,DRS,-0.3401930034160614,-0.3762880563735962,-0.03609505295753479
+v10eGQ,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C2],0.06852330267429352,0.07828065007925034,0.009757347404956818
+v10eGQ,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C3],0.07615315914154053,0.08848441392183304,0.012331254780292511
+v10eGQ,United States Grand Prix,laptime_clear.pkl,TyreLife:C(Compound_Detail)[C4],0.08190079778432846,0.09543688595294952,0.013536088168621063
+v10eGQ,United States Grand Prix,laptime_clear.pkl,Intercept,102.1327133178711,101.85016632080078,-0.2825469970703125
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18341249227523804,-0.1670718789100647,0.01634061336517334
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30935657024383545,-0.2944524586200714,0.014904111623764038
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.3028999865055084,0.43726298213005066,0.13436299562454224
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",-0.03626396134495735,-0.05079280212521553,-0.014528840780258179
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.08289245516061783,-0.06622231751680374,0.016670137643814087
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00036939416895620525,7.097949855960906e-05,-0.0002984146703965962
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.3527401089668274,0.37129831314086914,0.018558204174041748
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,Interval_front,1.7752816677093506,1.9344077110290527,0.15912604331970215
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.5208466649055481,0.6852683424949646,0.1644216775894165
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,PitIn,0.43045762181282043,0.4104344844818115,-0.02002313733100891
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,PitOut,20.239173889160156,20.24258041381836,0.003406524658203125
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,DRS,-0.3401930034160614,-0.3779103457927704,-0.037717342376708984
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.06852330267429352,0.07774696499109268,0.009223662316799164
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.07615315914154053,0.08644156903028488,0.010288409888744354
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.08190079778432846,0.09265637397766113,0.010755576193332672
+v10eG,United States Grand Prix,laptime_clear_hist.pkl,Intercept,102.1327133178711,101.84689331054688,-0.28582000732421875
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18341249227523804,-0.15390217304229736,0.029510319232940674
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30935657024383545,-0.2728855311870575,0.036471039056777954
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2022]",0.3028999865055084,0.4148944914340973,0.11199450492858887
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,"C(Year, Treatment(reference='2021'))[T.2023]",-0.03626396134495735,-0.07711172848939896,-0.040847767144441605
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,LapNumber,-0.08289245516061783,-0.06631834805011749,0.016574107110500336
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,LapNumber_2,0.00036939416895620525,7.372907566605136e-05,-0.0002956650932901539
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,FirstLap_pos,0.3527401089668274,0.3718149960041046,0.01907488703727722
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,Interval_front,1.7752816677093506,1.9245455265045166,0.14926385879516602
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,Interval_behind,0.5208466649055481,0.6740705966949463,0.1532239317893982
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,PitIn,0.43045762181282043,0.4012375771999359,-0.02922004461288452
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,PitOut,20.239173889160156,20.2830753326416,0.04390144348144531
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,DRS,-0.3401930034160614,-0.3762880563735962,-0.03609505295753479
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C2],0.06852330267429352,0.07828065007925034,0.009757347404956818
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C3],0.07615315914154053,0.08848441392183304,0.012331254780292511
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,TyreLife:C(Compound_Detail)[C4],0.08190079778432846,0.09543688595294952,0.013536088168621063
+v10eGQ,United States Grand Prix,laptime_clear_hist.pkl,Intercept,102.1327133178711,101.85016632080078,-0.2825469970703125
+v10eG,United States Grand Prix,overtake_logit.pkl,const,-2.0115525923745854,-2.0143622947311286,-0.002809702356543209
+v10eG,United States Grand Prix,overtake_logit.pkl,delta_total,-0.4129809529582797,-0.42108020067812046,-0.008099247719840774
+v10eGQ,United States Grand Prix,overtake_logit.pkl,const,-2.0115525923745854,-2.018667714570341,-0.007115122195755497
+v10eGQ,United States Grand Prix,overtake_logit.pkl,delta_total,-0.4129809529582797,-0.4186058827582646,-0.005624929799984912
+v10eG,United States Grand Prix,overtake_threshold.pkl,valor,0.12357966716569609,0.12616114984232604,0.0025814826766299565
+v10eGQ,United States Grand Prix,overtake_threshold.pkl,valor,0.12357966716569609,0.12485374679334915,0.0012740796276530658
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eG,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C0],-1.3493278241261826,-1.3493278241261826,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C1],-0.02781217928197958,-0.02781217928197958,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C2],-1.0243305860945924,-1.0243305860945924,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C4],1.2418130728328796,1.2418130728328796,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C5],3.432721124803067,3.432721124803067,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C0]:LapsLeft,0.026489301026571304,0.026489301026571304,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C1]:LapsLeft,0.0053610576312419335,0.0053610576312419335,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C2]:LapsLeft,0.0278066323667404,0.0278066323667404,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C4]:LapsLeft,-0.07928559640527738,-0.07928559640527738,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C5]:LapsLeft,-0.2823079336479803,-0.2823079336479803,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,not_change_compound,-1.511091726043339,-1.511091726043339,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C3],0.0,0.0,0.0
+v10eGQ,United States Grand Prix,rival_compound_logit.pkl,C(alt)[C3]:LapsLeft,0.0,0.0,0.0
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.566671104119433,-0.15256708397712782
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7783398709184056,0.45330155733540367
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.2902631268029705,0.15942048599060094
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.26818107538212926,0.25449448455773754
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.4485996581052234,0.12852602808495495
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.601000835781403,0.14647795898733662
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.24044871556376368,0.05481278525088856
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.1989028694051944,0.49265227294833447
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.3743009491806517,0.2660067671108308
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.4193313828584286,-0.13696891124411525
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.05080006383203679,0.060915706333196075
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,-0.06535571951638094,0.03156248544037206
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.08487987791965702,0.0756615463851154
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.544763027405771,0.28742639011649684
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7423571284580354,0.5368639177965585
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6001235536759586,0.03940206837006999
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7983331076863642,-0.04976187034684054
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.7072058586099224,-0.20370197589571992
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.2989052819029055,0.2582800421276064
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.0955445879338062,0.08851962087849574
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1507773118421847,-0.07978605176919247
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.03321022336877755,0.3016638027242894
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.3961210091748546,0.32202973527963397
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.7942767563376871,0.07505509297323354
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.7315071431743705,-0.11319646742005784
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.27010755485075166,0.28914454219751323
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.2515148669685108,0.18162487387636705
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.504533459613743,0.020243455567793944
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1259054570689364,0.12075540165065934
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0475147291193063,-0.04800341588381429
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.4902418032493381,0.025541298124686196
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0274821262255713,0.018677500873395037
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12850422870078815,-0.0028534883839110015
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.1263220487077415,0.006397100853890225
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11700908940935094,0.007719669554352604
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14198619838426008,0.00986014285418177
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.1800530130700686,0.00833373986741745
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.2749452032199828,0.003981682753155025
+v10eG,United States Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.05139016621735779,-0.0003762238319262659
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,Intercept,-5.414104020142305,-5.600176417323553,-0.18607239718124813
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Australian Grand Prix],-1.2316414282538093,-0.7537250751161266,0.47791635313768266
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Austrian Grand Prix],-0.44968361279357144,-0.3001121721556387,0.14957144063793276
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Azerbaijan Grand Prix],-0.5226755599398668,-0.2796564893796308,0.24301907056023603
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Bahrain Grand Prix],1.3200736300202685,1.5103270136070144,0.19025338358674593
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Belgian Grand Prix],1.4545228767940663,1.6025691360824914,0.14804625928842507
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.British Grand Prix],0.18563593031287512,0.29175005818514166,0.10611412787226654
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Canadian Grand Prix],-1.6915551423535289,-1.2733156928401663,0.41823944951336256
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Dutch Grand Prix],0.1082941820698209,0.4309768098592855,0.3226826277894646
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Emilia Romagna Grand Prix],-3.2823624716143134,-3.3804653891241165,-0.09810291750980316
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.French Grand Prix],-0.01011564250115928,0.11627715365187972,0.126392796153039
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Hungarian Grand Prix],-0.096918204956753,0.029094180206623334,0.12601238516337634
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Italian Grand Prix],-0.16054142430477242,-0.04864507112795585,0.11189635317681657
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Japanese Grand Prix],1.2573366372892743,1.5313887900920633,0.27405215280278905
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Las Vegas Grand Prix],0.20549321066147688,0.7604145583396497,0.5549213476781728
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Mexico City Grand Prix],-1.6395256220460286,-1.6164686710366805,0.023056951009348126
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Miami Grand Prix],-0.7485712373395237,-0.7445945955332639,0.003976641806259784
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Monaco Grand Prix],-3.5035038827142024,-3.869672643049916,-0.36616876033571355
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Portuguese Grand Prix],-0.5571853240305119,-0.16660354818951648,0.3905817758409954
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Qatar Grand Prix],1.0070249670553104,1.2529915718342555,0.24596660477894505
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Russian Grand Prix],-0.07099126007299224,-0.1857139566071027,-0.11472269653411045
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Saudi Arabian Grand Prix],-0.26845357935551184,0.0950640529227751,0.36351763227828693
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Singapore Grand Prix],-1.7181507444544886,-1.4626678317080115,0.25548291274647705
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Spanish Grand Prix],0.7192216633644536,0.9222667155070431,0.2030450521425895
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.Styrian Grand Prix],-0.6183106757543126,-0.6715371670080487,-0.05322649125373602
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.São Paulo Grand Prix],-0.01903698734676156,0.35761523784175014,0.3766522251885117
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,GP[T.United States Grand Prix],1.0698899930921437,1.3038984911509002,0.23400849805875645
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,SC,3.484290004045949,3.5300513831454396,0.04576137909949063
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,VSC,3.005150055418277,3.1348610252732443,0.12971096985496722
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,used_two_compounds,-0.999511313235492,-1.0453450250449778,-0.04583371180948581
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,EarlyLaps,-0.5157831013740243,-0.420209572368665,0.09557352900535926
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,LateLaps,-2.0461596270989664,-2.0592414451570553,-0.013081818058088945
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C0],0.13135771708469915,0.12770472824226037,-0.0036529888424387813
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C1],0.11992494785385127,0.13768114658104155,0.01775619872719028
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C2],0.10928941985499833,0.11811680076949434,0.008827380914496002
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C3],0.1321260555300783,0.14597500773717953,0.013848952207101223
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C4],0.17171927320265115,0.18885191636092227,0.01713264315827112
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,TyreLife:C(Compound_Detail)[C5],0.27096352046682776,0.30252449249945407,0.03156097203262631
+v10eGQ,United States Grand Prix,rival_pitstop_logit.pkl,Position,0.05176639004928406,0.04899967230215828,-0.0027667177471257798

@@ -40,3 +40,44 @@ y clasificación. Hoy los datos (FastF1) cuentan todas las vueltas; el simulador
 - Re-estimar la cadena completa con la edad efectiva: neumáticos conjuntos, Ec. 1, LogitStop, K1 y adelantamiento.
 - En el simulador: el congelamiento bajo SC/VSC ya es consistente. Habría que llevar a vueltas de empuje la edad de los
   juegos usados, tanto en el inventario 2024 como en las edades de tandas reales de los rivales.
+
+## Cadena completa en las dos variantes (28-oct, prueba; nada adoptado)
+
+- Cadenas: `results/sim_v10eG_20261028/` y `results/sim_v10eGQ_20261028/`, copias de la de v10d.
+  - `age_fix_v10e_20261028.py` reemplaza `TyreLife` al leer los CSV.
+  - Los pasos por el pit lane se detectan con la edad de FastF1.
+- Factor 2021: `data/tyrelife_2021_factors_v10e{G,GQ}.json`.
+- Pilotos: `results/driver_coef_v10_20261028/v10e{G,GQ}/`.
+- Árboles: `trained_models/simulation{,_onedriver}_v10e{G,GQ}_20261028`, construidos con
+  `scripts/build_simulation_v10e_20261028.py`.
+- QMIP: `scripts/one_driver_v10e_20261028.py` con `F1_V10E=G|GQ`.
+- Comparación: `chain_compare/` (`compare_chain_20261028.py`, `qmip_*.txt`).
+
+Resultados frente a v10d [V]:
+
+| | v10eG (sin SC/VSC) | v10eGQ (+ vueltas lentas previas) |
+|---|---|---|
+| Factor 2021 | 0.768 → 0.77 (física 0.680, conductual 0.860) | 0.774 → 0.77 (0.692, 0.872) |
+| Pendientes de neumáticos, simulador, 8 GP | +3.7 % en promedio; US +13 %, Belgian +5 % | +11 % en promedio; Saudi +60 % (desde 0.010) |
+| Desplazamientos entre compuestos | ≤ 0.05 s | ≤ 0.05 s |
+| Ec. 1, otros coeficientes | intercepto y dummies de año ≤ 0.37 s (compensan el cambio de edad); combustible y pit ≤ 0.07 | ídem |
+| LogitStop | pendientes de edad +3 a +7 %; intercepto −5.41 → −5.57 | pendientes +4 a +12 %; −5.60 |
+| K1, SC/VSC | sin cambio | sin cambio |
+| Adelantamiento | ≤ 0.017 | ≤ 0.017 |
+| Pilotos (Ec. 2, 2024) | media 0.010, máximo 0.12 s/vuelta | media 0.017, máximo 0.07 s/vuelta |
+| Fig. 4 (media con / sin corrección) | 0.193 → 0.192 / 0.636 → 0.632 | 0.190 / 0.625 |
+
+Estrategias óptimas de la QMIP mono-piloto que cambian:
+
+| GP | v10d | v10eG | v10eGQ |
+|---|---|---|---|
+| Bahrain | C3–C3–C2 | igual | C2–C2–C1 (dos tandas en C2 y una en C1) |
+| Belgian | C4–C4–C3 | igual | C4–C4–C2 |
+| Dutch | C3–C3–C2, paradas 25 y 49 | paradas 24 y 48 | ídem v10eG |
+| Saudi | C3 → C4, parada 21 | C3 → C4, parada 26 (DP: 22) | C4 → C3, parada 26 |
+| Otros 4 GP | — | igual | igual (US: segunda parada 37) |
+
+- Saudi v10eG: la QMIP queda 0.21 s sobre el DP. [H] Está dentro de la tolerancia de Gurobi (MIPGap 1e-4 ≈ 0.47 s), no
+  es un error de formulación.
+- En v10eGQ falta, en el simulador, llevar a vueltas de empuje las edades de los juegos usados (inventario 2024 y tandas
+  reales de los rivales).

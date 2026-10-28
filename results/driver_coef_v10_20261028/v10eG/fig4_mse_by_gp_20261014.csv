@@ -1,0 +1,19 @@
+GP,n,with_corr,without_corr,spec_mode,Round
+Bahrain Grand Prix,19,0.2579516680245689,0.325558828424586,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,1
+Saudi Arabian Grand Prix,16,0.07575173734285967,0.3358241284026351,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,2
+Japanese Grand Prix,16,0.24496409836117156,2.840633612199562,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,4
+Miami Grand Prix,19,0.3772304632638976,0.621607333141687,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,6
+Monaco Grand Prix,10,0.5317415966755263,0.8923540364029895,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,8
+Spanish Grand Prix,19,0.15895056414860084,0.3543834403791223,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,10
+Austrian Grand Prix,19,0.06820435307804391,0.16604579926265872,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,11
+Hungarian Grand Prix,19,0.10076275812812274,0.11399515592406942,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,13
+Belgian Grand Prix,17,0.0667534738971636,0.34702220341706896,P1_pct+P2_pct+P3_pct+FP_pct,14
+Dutch Grand Prix,16,0.16867909718072716,0.6626246811494875,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,15
+Italian Grand Prix,17,0.13362377163552724,0.5243249382384546,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,16
+Azerbaijan Grand Prix,16,0.17297143727170816,0.9949482977884223,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,17
+Singapore Grand Prix,14,0.1448266570038533,0.4821414962120824,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,18
+United States Grand Prix,16,0.10246013085605829,0.5294323153467799,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,19
+Mexico City Grand Prix,14,0.10518288655490272,0.7597906339971271,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,20
+Las Vegas Grand Prix,15,0.15826409172882586,0.5792998182971203,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,22
+Qatar Grand Prix,16,0.4540352190750383,0.3888664145853403,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,23
+Abu Dhabi Grand Prix,15,0.13574622553376733,0.4532822609680977,P1_pct+P2_pct+P3_pct+FP_pct+Q_pct,24
