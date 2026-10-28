@@ -6,9 +6,13 @@ cd "$(dirname $0)/../.."
 export MPLBACKEND=Agg F1_TYRELIFE_2021=v10eGQ
 PY=~/.venvs/f1-drl-v2/bin/python
 D=results/sim_v10eGQ_20261028
-for s in tyre laptime yf rivals overtake; do
+for s in tyre laptime yf rivals; do
   echo "== $s $(date +%T)"
   $PY $D/${s}_v10_20261027.py > $D/${s}_v10.log 2>&1 || { echo "FALLA $s"; tail -20 $D/${s}_v10.log; exit 1; }
   grep -v Warn $D/${s}_v10.log | tail -4
 done
+# 2026-10-29: adelantamiento con etiqueta por par y vuelta L+1 sin SC/VSC/roja (antes overtake_v10_20261027.py)
+echo "== overtake $(date +%T)"
+$PY $D/overtake_v10f_20261029.py > $D/overtake_v10f.log 2>&1 || { echo "FALLA overtake"; tail -20 $D/overtake_v10f.log; exit 1; }
+grep -v Warn $D/overtake_v10f.log | tail -4
 echo FIN

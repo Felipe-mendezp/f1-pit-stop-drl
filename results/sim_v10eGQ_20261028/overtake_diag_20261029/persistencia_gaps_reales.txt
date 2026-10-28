@@ -1,0 +1,13 @@
+real: pares que mantienen posicion, sin parada, verde L y L+1: n 11686
+  gap inicial (0,0.5]: n   345 | gap siguiente <=1s 88% | mediana 0.52 | p10 0.26
+  gap inicial (0.5,1]: n  1525 | gap siguiente <=1s 79% | mediana 0.75 | p10 0.43
+  gap inicial (1,1.5]: n  1234 | gap siguiente <=1s 28% | mediana 1.25 | p10 0.64
+  gap inicial (1.5,2]: n  1141 | gap siguiente <=1s 8% | mediana 1.74 | p10 1.08
+  gap inicial (2,3]: n  1692 | gap siguiente <=1s 4% | mediana 2.51 | p10 1.53
+simulador E0: un par que no adelanta termina en max(gap natural, 0.4+Exp(1)); P(0.4+Exp(1) <= 1) = 0.45
+
+real bloqueados (gap inicial (0,1], delta medio < 0.4, no adelanta): n 683; gap siguiente percentiles {0.05: 0.24, 0.1: 0.34, 0.25: 0.48, 0.5: 0.62, 0.75: 0.78, 0.9: 0.96} media 0.66
+   ajuste 0.4+Exp(s): s = media-0.4 = 0.26 | fraccion < 0.4: 15%
+
+real bloqueados (gap inicial (0,1.5], delta medio < 0.4, no adelanta): n 781; gap siguiente percentiles {0.05: 0.24, 0.1: 0.34, 0.25: 0.48, 0.5: 0.64, 0.75: 0.81, 0.9: 1.06} media 0.69
+   ajuste 0.4+Exp(s): s = media-0.4 = 0.29 | fraccion < 0.4: 15%

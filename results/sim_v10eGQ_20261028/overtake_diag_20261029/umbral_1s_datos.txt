@@ -1,0 +1,38 @@
+sigma OLS por GP (s): {'Bahrain': np.float64(0.69), 'Saudi Arabian': np.float64(0.75), 'Miami': np.float64(0.55), 'Hungarian': np.float64(0.69), 'Belgian': np.float64(0.79), 'Dutch': np.float64(0.69), 'Singapore': np.float64(0.75), 'United States': np.float64(0.7)}
+sd empirica de e por GP (s): {'Bahrain': 1.58, 'Belgian': 0.99, 'Dutch': 0.96, 'Hungarian': 1.23, 'Miami': 1.11, 'Saudi Arabian': 1.05, 'Singapore': 1.99, 'United States': 2.27} | sim: sqrt2*sigma {'Bahrain': np.float64(0.97), 'Saudi Arabian': np.float64(1.05), 'Miami': np.float64(0.78), 'Hungarian': np.float64(0.98), 'Belgian': np.float64(1.12), 'Dutch': np.float64(0.98), 'Singapore': np.float64(1.06), 'United States': np.float64(0.99)}
+
+== gap inicial <= 1 s: n=3312, adelantamientos=758  (promedios por tramo del delta medio predicho)
+bin               (-30.0, -5.0]  (-5.0, -2.0]  (-2.0, -1.0]  (-1.0, -0.5]  (-0.5, 0.0]  (0.0, 0.5]  (0.5, 1.0]  (1.0, 2.0]  (2.0, 5.0]
+n                         110.0       106.000       145.000       204.000      441.000     708.000     774.000     694.000     130.000
+real                        1.0         0.991         0.786         0.529        0.347       0.130       0.076       0.024       0.000
+llega_antes_real            1.0         0.991         0.786         0.529        0.347       0.130       0.076       0.024       0.000
+logit_C                     1.0         0.972         0.779         0.523        0.317       0.148       0.059       0.018       0.002
+logit_C_ruido               1.0         0.928         0.692         0.511        0.380       0.249       0.148       0.068       0.012
+logit_E_ruido               1.0         0.932         0.702         0.520        0.387       0.258       0.155       0.073       0.013
+determ_ruido                1.0         0.992         0.904         0.760        0.593       0.396       0.227       0.090       0.009
+Brier: {'tau_C': np.float64(0.0927), 'sim_C': np.float64(0.0991), 'sim_E': np.float64(0.0996), 'det': np.float64(0.1315)} | esperado total vs real: {'tau_C': np.float64(735.5), 'sim_C': np.float64(920.4), 'sim_E': np.float64(941.8), 'det': np.float64(1282.4)} 758
+etiqueta vs llega-antes-real: coinciden 100.0% | llega antes pero no adelanta: 0 | adelanta sin llegar antes: 0
+
+== gap inicial 1-2 s: n=3170, adelantamientos=178  (promedios por tramo del delta medio predicho)
+bin               (-30.0, -5.0]  (-5.0, -2.0]  (-2.0, -1.0]  (-1.0, -0.5]  (-0.5, 0.0]  (0.0, 0.5]  (0.5, 1.0]  (1.0, 2.0]  (2.0, 5.0]
+n                        77.000        31.000        28.000        19.000       60.000     142.000     423.000    1579.000     811.000
+real                      0.987         1.000         0.929         0.421        0.200       0.035       0.026       0.003       0.005
+llega_antes_real          0.987         1.000         0.929         0.421        0.200       0.035       0.026       0.003       0.005
+logit_C                   1.000         0.981         0.826         0.517        0.282       0.127       0.054       0.014       0.002
+logit_C_ruido             1.000         0.941         0.726         0.502        0.353       0.233       0.140       0.056       0.013
+logit_E_ruido             1.000         0.937         0.739         0.510        0.368       0.240       0.148       0.060       0.014
+determ_ruido              1.000         0.995         0.918         0.755        0.582       0.373       0.213       0.072       0.009
+Brier: {'tau_C': np.float64(0.0136), 'sim_C': np.float64(0.0192), 'sim_E': np.float64(0.0201), 'det': np.float64(0.03)} | esperado total vs real: {'tau_C': np.float64(222.4), 'sim_C': np.float64(348.4), 'sim_E': np.float64(360.9), 'det': np.float64(447.2)} 178
+etiqueta vs llega-antes-real: coinciden 100.0% | llega antes pero no adelanta: 0 | adelanta sin llegar antes: 0
+
+== gap inicial > 2 s: n=4604, adelantamientos=298  (promedios por tramo del delta medio predicho)
+bin               (-30.0, -5.0]  (-5.0, -2.0]  (-2.0, -1.0]  (-1.0, -0.5]  (-0.5, 0.0]  (0.0, 0.5]  (0.5, 1.0]  (1.0, 2.0]  (2.0, 5.0]
+n                         202.0        32.000        20.000        12.000       17.000      29.000      52.000     495.000    3745.000
+real                        1.0         1.000         0.950         1.000        0.412       0.276       0.038       0.014       0.002
+llega_antes_real            1.0         1.000         0.950         1.000        0.412       0.276       0.038       0.014       0.002
+logit_C                     1.0         0.986         0.807         0.634        0.276       0.139       0.052       0.011       0.001
+logit_C_ruido               1.0         0.952         0.736         0.578        0.356       0.239       0.140       0.047       0.005
+logit_E_ruido               1.0         0.954         0.748         0.598        0.363       0.250       0.149       0.050       0.005
+determ_ruido                1.0         0.994         0.934         0.767        0.594       0.383       0.222       0.053       0.003
+Brier: {'tau_C': np.float64(0.0069), 'sim_C': np.float64(0.0073), 'sim_E': np.float64(0.0073), 'det': np.float64(0.0071)} | esperado total vs real: {'tau_C': np.float64(277.2), 'sim_C': np.float64(315.6), 'sim_E': np.float64(320.0), 'det': np.float64(330.5)} 298
+etiqueta vs llega-antes-real: coinciden 100.0% | llega antes pero no adelanta: 0 | adelanta sin llegar antes: 0

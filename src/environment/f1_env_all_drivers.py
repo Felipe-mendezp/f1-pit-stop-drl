@@ -96,6 +96,19 @@ OVERTAKE_MAX_GAP = 1.0
 # (overtake <=> pred_gap < 0), exactly like the out-of-support branch. Default
 # False keeps the exact legacy behaviour.
 PIT_PASS_DETERMINISTIC_DEFAULT = False
+# --- Overtake logit v10f (opt-in, 2026-10-29) ----------------------------------
+# The v10eGQ overtake logit (results/sim_v10eGQ_20261028/overtake_v10f_20261029.py) is estimated on ALL adjacent
+# pairs whose lap L+1 has no SC/VSC/red flag, with the predicted gap delta_total = start-of-lap gap + MEAN predicted
+# lap-time difference (Eq. 1 without its residual), and a pairwise label (finishes the lap ahead of the car that was
+# ahead). Two env options make the simulator use it the same way:
+#   overtake_max_gap  (F1_OVERTAKE_MAX_GAP, default OVERTAKE_MAX_GAP = 1.0): start-of-lap gap above which the pass is
+#                     deterministic; inf = the logit decides every clear-track battle.
+#   overtake_mean_gap (F1_OVERTAKE_MEAN_GAP=1, default off): tau is evaluated at the start-of-lap gap plus the
+#                     difference of the two drivers' MEAN lap times (before the lap-time noise and before the clamps
+#                     of earlier passes in the same lap), i.e. exactly the delta_total of the estimation. The logit
+#                     already contains the lap-time uncertainty; evaluating it at the noisy gap counted that randomness
+#                     twice (24% more passes than observed for pairs within 1 s, diagnosis 2026-10-28/29).
+# The deterministic branches (SC/VSC, gap above overtake_max_gap, pit_pass_deterministic) keep the noisy pred_gap.
 VSC_DURATION = 2  # VSC lasts 2 laps
 SC_DURATION = 4   # SC lasts 4 laps
 MIN_STINT_LENGTH = 8  # Minimum stint length for rivals (unless SC/VSC)
@@ -127,6 +140,9 @@ class Driver:
     lap_state: Dict[str, Any] = field(default_factory=dict)
     prev_action: int = 0
     predicted_laptime: float = 0.0
+    # Expected lap time of the current lap before the lap-time noise (used by the overtake logit with
+    # overtake_mean_gap, 2026-10-29)
+    mean_laptime: float = 0.0
     # Tyre sets (opt-in F1_TYRE_SETS, 2026-10-21, see src/tyre_sets.py): sets left {compound: ascending ages},
     # laps of the current stint (= tyrelife without the flag) and age of the set fitted at the last stop
     sets: Optional[Dict[int, List[int]]] = None
@@ -264,6 +280,10 @@ class F1EnvAllDrivers(Env):
 
         # Thresholds and options
         self.overtake_threshold = overtake_threshold
+        # Overtake logit v10f options (see OVERTAKE_MAX_GAP / F1_OVERTAKE_MEAN_GAP above); read here so that every
+        # construction path (factories, direct construction) honours them. Default = legacy behaviour.
+        self.overtake_max_gap = float(os.environ.get('F1_OVERTAKE_MAX_GAP', OVERTAKE_MAX_GAP))
+        self.overtake_mean_gap = bool(os.environ.get('F1_OVERTAKE_MEAN_GAP'))
         self.deterministic = deterministic
         self.yf_enabled = yf_enabled
         self.initial_positions = initial_positions
@@ -1586,9 +1606,13 @@ class F1EnvAllDrivers(Env):
                 # y ~ N(y_hat, sigma^2 * [1 + X0^T (X^T X)^{-1} X0])
                 if not self.deterministic and hasattr(self.fast_predictor_clear, 'predict_single_with_std'):
                     laptime, pred_std = self.fast_predictor_clear.predict_single_with_std(driver.lap_state)
+                    driver.mean_laptime = laptime
                     laptime = self.np_random.normal(laptime, pred_std)
                 else:
                     laptime = self.fast_predictor_clear.predict_single(driver.lap_state)
+                    driver.mean_laptime = laptime
+            if is_yf and self.fast_predictor_yf is not None:
+                driver.mean_laptime = laptime
 
             laptimes[i] = laptime
             driver.predicted_laptime = laptime
@@ -1666,6 +1690,10 @@ class F1EnvAllDrivers(Env):
         # overtake logit's support, so their battles resolve deterministically.
         pit_pass_det = getattr(self, 'pit_pass_deterministic',
                                PIT_PASS_DETERMINISTIC_DEFAULT)
+        # Overtake logit v10f options (see OVERTAKE_MAX_GAP above): mean[d] = expected lap time of d this lap.
+        max_gap = getattr(self, 'overtake_max_gap', OVERTAKE_MAX_GAP)
+        mean = ({d.name: d.mean_laptime for d in sorted_drivers}
+                if getattr(self, 'overtake_mean_gap', False) else None)
         pit_affected = ({d.name for d in sorted_drivers
                          if d.lap_state.get('PitIn', 0.0)
                          or d.lap_state.get('PitOut', 0.0)}
@@ -1688,7 +1716,7 @@ class F1EnvAllDrivers(Env):
                 if is_yf:
                     # SC/VSC: Deterministic overtake based on predicted gap
                     overtake = pred_gap < 0
-                elif gap_k_to_k1 > OVERTAKE_MAX_GAP:
+                elif gap_k_to_k1 > max_gap:
                     # Outside the logit's training support (pairs > 1.0s
                     # apart at the start of the lap): no on-track battle.
                     # The attacker simply ends up ahead if it is faster by
@@ -1707,7 +1735,12 @@ class F1EnvAllDrivers(Env):
                     # Clear track battle (gap <= 1.0s): stochastic overtake
                     # using the fitted logit τ from the batch lookup.
                     pair_key = (driver_k.name, driver_k_1.name)
-                    if pair_key in tau_lookup:
+                    if mean is not None and self.logit_overtake is not None:
+                        # overtake_mean_gap: tau at start-of-lap gap + mean lap-time difference (also for pairs
+                        # formed by a swap earlier in this lap)
+                        tau = self._quick_tau_estimate(
+                            gap_k_to_k1 + mean[driver_k.name] - mean[driver_k_1.name])
+                    elif pair_key in tau_lookup:
                         tau = tau_lookup[pair_key]
                     elif self.logit_overtake is not None:
                         # Pair created by a swap earlier in this lap: use the

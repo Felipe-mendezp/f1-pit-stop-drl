@@ -1,0 +1,26 @@
+import os, numpy as np, pandas as pd
+T = os.path.expanduser('~/.claude/jobs/4608e3ae/tmp/')
+s = pd.read_pickle(T + 'ot_gap.pkl'); R = pd.read_pickle(T + 'otsim/ot_sim.pkl')
+band = lambda g: pd.cut(g, [-np.inf, 1, 2, np.inf], labels=['<=1s', '1-2s', '>2s'])
+s['band'] = band(s.interval_front_real); R['band'] = band(R.gap)
+real = s.groupby(['g', 'Year', 'band'], observed=False).ot_pair.sum().groupby(['g', 'band'], observed=False).mean().unstack()
+real['total'] = real.sum(1); real.insert(0, 'var', 'real')
+sim = R.groupby(['GP', 'var', 'seed', 'band'], observed=False).ot.sum().groupby(['GP', 'var', 'band'], observed=False).mean().unstack()
+sim['total'] = sim.sum(1)
+out = pd.concat([real.reset_index().rename(columns={'g': 'GP'}), sim.reset_index()])
+order = {'real': 0, 'actual': 1, 'a': 2, 'b': 3, 'ab': 4}
+out = out.sort_values(['GP', 'var'], key=lambda c: c.map(order) if c.name == 'var' else c)
+pd.set_option('display.width', 200)
+print('adelantamientos por carrera (pares adyacentes, vueltas 5+ sin SC/VSC, sin el agente en sim):')
+print(out.round(1).to_string(index=False))
+tot = out.groupby('var', sort=False)[['<=1s', '1-2s', '>2s', 'total']].sum()
+print('\nsuma de los 8 GP:'); print(tot.loc[[v for v in order if v in tot.index]].round(1).to_string())
+n_real = s.groupby('g').Year.nunique(); print('\ncarreras reales por GP:', n_real.to_dict())
+print('\npares por carrera por tramo de gap inicial (real: muestra filtrada, delta<=5) y tasa de adelantamiento:')
+rp = s.groupby(['g','Year','band'],observed=False).size().groupby('band',observed=False).sum()/s.groupby(['g','Year']).ngroups
+rr = s.groupby('band',observed=False).ot_pair.mean()
+x = pd.DataFrame({'real_pares':rp,'real_tasa':rr})
+for v in ['actual','a','b','ab']:
+    q=R[R['var']==v]; x[v+'_pares']=q.groupby('band',observed=False).size()/q.groupby(['GP','seed']).ngroups; x[v+'_tasa']=q.groupby('band',observed=False).ot.mean()
+print(x.round(3).T.to_string())
+q=R[R['var']=='actual']; print('sim actual: gap inicial pares adyacentes percentiles', q.gap.quantile([.1,.25,.5,.75]).round(2).to_dict(), '| real', s.interval_front_real.quantile([.1,.25,.5,.75]).round(2).to_dict())
