@@ -1,0 +1,29 @@
+fig,case,action,label,pts,pos,pts_paper_rule,ref,d_vs_ref,se2
+fig8,saudi_arabian_nor_sc2_lap7,0,No pit,11.494,4.784,11.494,2,-1.456,0.698857148943372
+fig8,saudi_arabian_nor_sc2_lap7,1,Hard (C2),11.97,4.534,11.97,2,-0.98,0.5612439661850792
+fig8,saudi_arabian_nor_sc2_lap7,2,Medium (C3),12.95,4.178,12.95,2,0.0,0.0
+fig8,saudi_arabian_nor_sc2_lap7,3,Soft (C4),10.732,5.094,10.732,2,-2.218,0.5675420830494107
+fig8,saudi_arabian_nor_sc2_lap7,11,"Stay, pit n+1 Hard (C2)",12.526,4.362,,2,-0.424,0.6553875629850102
+fig8,saudi_arabian_nor_sc2_lap7,12,"Stay, pit n+1 Medium (C3)",13.704,3.854,,2,0.754,0.6716323786895688
+fig8,saudi_arabian_nor_sc2_lap7,13,"Stay, pit n+1 Soft (C4)",11.532,4.858,,2,-1.418,0.6965087629842338
+fig11,saudi_arabian_nor_sc2_lap7,0,No pit,11.092,4.946,11.092,3,-2.702,0.694975935628137
+fig11,saudi_arabian_nor_sc2_lap7,1,Hard (C2),12.356,4.356,12.356,3,-1.438,0.5959257529306918
+fig11,saudi_arabian_nor_sc2_lap7,2,Medium (C3),9.926,5.428,9.926,3,-3.868,0.563375000138951
+fig11,saudi_arabian_nor_sc2_lap7,3,Soft (C4),13.794,3.83,13.794,3,0.0,0.0
+fig11,saudi_arabian_nor_sc2_lap7,11,"Stay, pit n+1 Hard (C2)",13.172,4.04,,3,-0.622,0.6619768536054859
+fig11,saudi_arabian_nor_sc2_lap7,12,"Stay, pit n+1 Medium (C3)",10.418,5.36,,3,-3.376,0.709323107293906
+fig11,saudi_arabian_nor_sc2_lap7,13,"Stay, pit n+1 Soft (C4)",13.914,3.808,,3,0.12,0.6965681692618876
+fig11,miami_oco_sc2_lap28,0,No pit,1.282,10.66,1.282,3,-0.434,0.20031326168182478
+fig11,miami_oco_sc2_lap28,1,Hard (C2),1.286,10.862,1.286,3,-0.43,0.1662771667800025
+fig11,miami_oco_sc2_lap28,2,Medium (C3),1.396,10.838,1.396,3,-0.32,0.1503929389038737
+fig11,miami_oco_sc2_lap28,3,Soft (C4),1.716,10.426,1.716,3,0.0,0.0
+fig11,miami_oco_sc2_lap28,11,"Stay, pit n+1 Hard (C2)",1.3,10.644,,3,-0.416,0.2008188447751696
+fig11,miami_oco_sc2_lap28,12,"Stay, pit n+1 Medium (C3)",1.418,10.576,,3,-0.298,0.2068408428442919
+fig11,miami_oco_sc2_lap28,13,"Stay, pit n+1 Soft (C4)",1.672,10.296,,3,-0.044,0.20654741748892114
+fig11,united_states_mag_sc2_lap3,0,No pit,5.136,8.066,5.136,0,0.0,0.0
+fig11,united_states_mag_sc2_lap3,1,Hard (C2),4.688,8.246,4.688,0,-0.448,0.474363161320138
+fig11,united_states_mag_sc2_lap3,2,Medium (C3),5.092,8.124,5.092,0,-0.044,0.4279799594506532
+fig11,united_states_mag_sc2_lap3,3,Soft (C4),4.664,8.354,4.664,0,-0.472,0.44566238108666034
+fig11,united_states_mag_sc2_lap3,11,"Stay, pit n+1 Hard (C2)",4.522,8.336,,0,-0.614,0.35254589661267777
+fig11,united_states_mag_sc2_lap3,12,"Stay, pit n+1 Medium (C3)",5.326,7.926,,0,0.19,0.3235809160294174
+fig11,united_states_mag_sc2_lap3,13,"Stay, pit n+1 Soft (C4)",4.596,8.41,,0,-0.54,0.3370555040726249

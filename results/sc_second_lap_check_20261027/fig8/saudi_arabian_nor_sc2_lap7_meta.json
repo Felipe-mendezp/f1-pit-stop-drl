@@ -1,0 +1,98 @@
+{
+  "gp": "Saudi Arabian Grand Prix",
+  "driver": "Driver_NOR",
+  "lap": 7,
+  "M": 500,
+  "n_laps": 50,
+  "history": [
+    [
+      0,
+      4,
+      true
+    ],
+    [
+      1,
+      4,
+      false
+    ],
+    [
+      2,
+      4,
+      false
+    ],
+    [
+      3,
+      4,
+      false
+    ],
+    [
+      4,
+      4,
+      false
+    ],
+    [
+      5,
+      4,
+      false
+    ],
+    [
+      6,
+      4,
+      false
+    ]
+  ],
+  "prefix_yf_laps": [
+    [
+      7,
+      "SC"
+    ]
+  ],
+  "available_compounds": [
+    2,
+    3,
+    4
+  ],
+  "action_labels": {
+    "0": "No pit",
+    "1": "Hard (C2)",
+    "2": "Medium (C3)",
+    "3": "Soft (C4)",
+    "11": "Stay, pit n+1 Hard (C2)",
+    "12": "Stay, pit n+1 Medium (C3)",
+    "13": "Stay, pit n+1 Soft (C4)"
+  },
+  "recommended_action": 2,
+  "recommended_label": "Medium (C3)",
+  "agent_start_position": 6,
+  "agent_state_at_lap": {
+    "position": 6,
+    "compound": 4,
+    "tyrelife": 9
+  },
+  "prefix_seed": 0,
+  "base_seed": 1000,
+  "variant": "real_2024_masked",
+  "legal_mask": true,
+  "det_cont": true,
+  "sim_future": true,
+  "pit_pass_deterministic": false,
+  "following_gap_scale": 1.0,
+  "sc_bunching": true,
+  "sc_bunch_delta": 1.5,
+  "dsq_penalty": -1000.0,
+  "last_lap_pit_full_cost": true,
+  "reward_relative": false,
+  "simulation_dir": "/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/trained_models/simulation_v7_20261015",
+  "rl_agents_dir": "/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/trained_models/rl_agents_v9r2_20261022/selected",
+  "algo": "PPO",
+  "model_path": "/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/trained_models/rl_agents_v9r2_20261022/selected/Saudi_Arabian_NOR/PPO/best_model.zip",
+  "model_mtime": "2026-10-23T03:30:06",
+  "real_2024": true,
+  "real_yf": false,
+  "laps_sc_2024": [
+    7,
+    8,
+    9
+  ],
+  "laps_vsc_2024": []
+}

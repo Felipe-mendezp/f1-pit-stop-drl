@@ -570,8 +570,11 @@ class F1EnvAllDrivers(Env):
                 self._sc_lap_idx = getattr(self, '_sc_lap_idx', 0) + 1
             else:
                 self._sc_lap_idx = 0
+        # sc_pit_max_idx (opt-in, 2026-10-27, solo chequeo de sensibilidad
+        # scripts/ds_sc_second_lap_check_20261027.py): ultima vuelta del
+        # periodo SC en que el agente puede parar; default 1 = regla del paper.
         if (getattr(self, 'sc_bunching', False) and self.sc > 0
-                and self._sc_lap_idx >= 2 and agent_action != 0):
+                and self._sc_lap_idx > getattr(self, 'sc_pit_max_idx', 1) and agent_action != 0):
             agent_action = 0
 
         # Abandonos sorteados en reset (opt-in `rival_dnf`): mismo momento que
