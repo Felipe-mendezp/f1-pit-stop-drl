@@ -1,0 +1,747 @@
+tree,gp,race,kind,frac
+simulation_v10_20261027,Bahrain Grand Prix,0,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Bahrain Grand Prix,1,SC,0.3157894736842105
+simulation_v10_20261027,Bahrain Grand Prix,1,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,2,SC,0.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,2,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Bahrain Grand Prix,3,stops_per_rival,2.0
+simulation_v10_20261027,Bahrain Grand Prix,4,SC,0.631578947368421
+simulation_v10_20261027,Bahrain Grand Prix,4,VSC,0.21052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,4,stops_per_rival,2.6315789473684212
+simulation_v10_20261027,Bahrain Grand Prix,5,VSC,0.5263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,5,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Bahrain Grand Prix,6,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,7,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,8,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,9,VSC,0.21052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,9,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Bahrain Grand Prix,10,SC,0.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,10,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Bahrain Grand Prix,11,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Bahrain Grand Prix,12,SC,0.3684210526315789
+simulation_v10_20261027,Bahrain Grand Prix,12,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,13,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,14,VSC,0.3157894736842105
+simulation_v10_20261027,Bahrain Grand Prix,14,SC,0.42105263157894735
+simulation_v10_20261027,Bahrain Grand Prix,14,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,15,SC,0.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,15,SC,0.5263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,15,SC,0.5263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,15,SC,0.21052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,15,stops_per_rival,2.8947368421052633
+simulation_v10_20261027,Bahrain Grand Prix,16,SC,0.631578947368421
+simulation_v10_20261027,Bahrain Grand Prix,16,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,17,SC,0.6842105263157895
+simulation_v10_20261027,Bahrain Grand Prix,17,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Bahrain Grand Prix,18,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Bahrain Grand Prix,19,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Bahrain Grand Prix,20,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Bahrain Grand Prix,21,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Bahrain Grand Prix,22,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Bahrain Grand Prix,23,SC,0.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,23,SC,0.2631578947368421
+simulation_v10_20261027,Bahrain Grand Prix,23,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Bahrain Grand Prix,24,VSC,0.47368421052631576
+simulation_v10_20261027,Bahrain Grand Prix,24,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,25,stops_per_rival,2.0
+simulation_v10_20261027,Bahrain Grand Prix,26,VSC,0.10526315789473684
+simulation_v10_20261027,Bahrain Grand Prix,26,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Bahrain Grand Prix,27,SC,0.42105263157894735
+simulation_v10_20261027,Bahrain Grand Prix,27,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Bahrain Grand Prix,28,SC,0.47368421052631576
+simulation_v10_20261027,Bahrain Grand Prix,28,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Bahrain Grand Prix,29,SC,0.5263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,29,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Bahrain Grand Prix,30,SC,0.15789473684210525
+simulation_v10_20261027,Bahrain Grand Prix,30,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,31,VSC,0.3684210526315789
+simulation_v10_20261027,Bahrain Grand Prix,31,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Bahrain Grand Prix,32,VSC,0.42105263157894735
+simulation_v10_20261027,Bahrain Grand Prix,32,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Bahrain Grand Prix,33,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Bahrain Grand Prix,34,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Bahrain Grand Prix,35,SC,0.5263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,35,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Bahrain Grand Prix,36,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,37,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Bahrain Grand Prix,38,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Bahrain Grand Prix,39,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Saudi Arabian Grand Prix,0,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,1,VSC,0.15789473684210525
+simulation_v10_20261027,Saudi Arabian Grand Prix,1,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Saudi Arabian Grand Prix,2,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,2,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,2,SC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,2,SC,0.15789473684210525
+simulation_v10_20261027,Saudi Arabian Grand Prix,2,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Saudi Arabian Grand Prix,3,VSC,0.42105263157894735
+simulation_v10_20261027,Saudi Arabian Grand Prix,3,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,3,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Saudi Arabian Grand Prix,4,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,5,VSC,0.5263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,5,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,5,VSC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,5,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Saudi Arabian Grand Prix,6,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,6,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,7,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,7,SC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,7,VSC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,7,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Saudi Arabian Grand Prix,8,SC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,8,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,8,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,9,SC,0.631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,9,SC,0.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,9,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,9,stops_per_rival,1.736842105263158
+simulation_v10_20261027,Saudi Arabian Grand Prix,10,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,10,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,10,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,11,VSC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,11,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,12,SC,0.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,12,VSC,0.15789473684210525
+simulation_v10_20261027,Saudi Arabian Grand Prix,12,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,SC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,SC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,SC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,13,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,VSC,0.42105263157894735
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,VSC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,SC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,VSC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,14,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,15,SC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,15,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,15,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,15,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Saudi Arabian Grand Prix,16,SC,0.15789473684210525
+simulation_v10_20261027,Saudi Arabian Grand Prix,16,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,16,SC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,16,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,SC,0.42105263157894735
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,SC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,17,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Saudi Arabian Grand Prix,18,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,18,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,18,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Saudi Arabian Grand Prix,19,VSC,0.42105263157894735
+simulation_v10_20261027,Saudi Arabian Grand Prix,19,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,19,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,20,SC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,20,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Saudi Arabian Grand Prix,21,VSC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,21,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Saudi Arabian Grand Prix,22,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,22,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,23,SC,0.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,23,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,24,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,25,VSC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,25,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,25,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,25,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Saudi Arabian Grand Prix,26,SC,0.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,26,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,26,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,26,VSC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,26,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Saudi Arabian Grand Prix,27,VSC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,27,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,27,SC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,27,VSC,0.0
+simulation_v10_20261027,Saudi Arabian Grand Prix,27,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,28,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,28,VSC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,28,VSC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,28,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Saudi Arabian Grand Prix,29,SC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,29,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,30,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,30,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,30,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,30,VSC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,30,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,31,VSC,0.10526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,31,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,31,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Saudi Arabian Grand Prix,32,SC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,32,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,32,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Saudi Arabian Grand Prix,33,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,33,SC,0.3684210526315789
+simulation_v10_20261027,Saudi Arabian Grand Prix,33,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,33,VSC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,33,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,34,VSC,0.05263157894736842
+simulation_v10_20261027,Saudi Arabian Grand Prix,34,VSC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,34,VSC,0.3157894736842105
+simulation_v10_20261027,Saudi Arabian Grand Prix,34,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Saudi Arabian Grand Prix,35,SC,0.5789473684210527
+simulation_v10_20261027,Saudi Arabian Grand Prix,35,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,35,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Saudi Arabian Grand Prix,36,SC,0.2631578947368421
+simulation_v10_20261027,Saudi Arabian Grand Prix,36,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Saudi Arabian Grand Prix,37,SC,0.47368421052631576
+simulation_v10_20261027,Saudi Arabian Grand Prix,37,SC,0.15789473684210525
+simulation_v10_20261027,Saudi Arabian Grand Prix,37,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Saudi Arabian Grand Prix,38,SC,0.21052631578947367
+simulation_v10_20261027,Saudi Arabian Grand Prix,38,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Saudi Arabian Grand Prix,39,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,0,VSC,0.05263157894736842
+simulation_v10_20261027,Miami Grand Prix,0,VSC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,0,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Miami Grand Prix,1,VSC,0.05263157894736842
+simulation_v10_20261027,Miami Grand Prix,1,VSC,0.42105263157894735
+simulation_v10_20261027,Miami Grand Prix,1,SC,0.3684210526315789
+simulation_v10_20261027,Miami Grand Prix,1,SC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,1,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Miami Grand Prix,2,VSC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,2,SC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,2,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Miami Grand Prix,3,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,3,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Miami Grand Prix,4,VSC,0.0
+simulation_v10_20261027,Miami Grand Prix,4,SC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,4,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Miami Grand Prix,5,VSC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,5,VSC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,5,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,5,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Miami Grand Prix,6,SC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,6,SC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,6,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Miami Grand Prix,7,SC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,7,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Miami Grand Prix,8,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,8,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Miami Grand Prix,9,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,10,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,11,SC,0.47368421052631576
+simulation_v10_20261027,Miami Grand Prix,11,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Miami Grand Prix,12,SC,0.42105263157894735
+simulation_v10_20261027,Miami Grand Prix,12,VSC,0.0
+simulation_v10_20261027,Miami Grand Prix,12,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Miami Grand Prix,13,SC,0.5263157894736842
+simulation_v10_20261027,Miami Grand Prix,13,SC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,13,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,13,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Miami Grand Prix,14,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Miami Grand Prix,15,SC,0.47368421052631576
+simulation_v10_20261027,Miami Grand Prix,15,SC,0.3684210526315789
+simulation_v10_20261027,Miami Grand Prix,15,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Miami Grand Prix,16,VSC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,16,SC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,16,stops_per_rival,1.6842105263157894
+simulation_v10_20261027,Miami Grand Prix,17,SC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,17,SC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,17,VSC,0.05263157894736842
+simulation_v10_20261027,Miami Grand Prix,17,SC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,17,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Miami Grand Prix,18,SC,0.5263157894736842
+simulation_v10_20261027,Miami Grand Prix,18,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Miami Grand Prix,19,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Miami Grand Prix,20,stops_per_rival,1.0
+simulation_v10_20261027,Miami Grand Prix,21,SC,0.42105263157894735
+simulation_v10_20261027,Miami Grand Prix,21,SC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,21,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Miami Grand Prix,22,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Miami Grand Prix,23,SC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,23,SC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,23,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Miami Grand Prix,24,SC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,24,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Miami Grand Prix,25,SC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,25,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Miami Grand Prix,26,VSC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,26,SC,0.05263157894736842
+simulation_v10_20261027,Miami Grand Prix,26,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,27,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Miami Grand Prix,28,SC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,28,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,29,VSC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,29,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,30,SC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,30,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Miami Grand Prix,31,VSC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,31,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Miami Grand Prix,32,VSC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,32,VSC,0.10526315789473684
+simulation_v10_20261027,Miami Grand Prix,32,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Miami Grand Prix,33,VSC,0.0
+simulation_v10_20261027,Miami Grand Prix,33,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Miami Grand Prix,34,SC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,34,VSC,0.2631578947368421
+simulation_v10_20261027,Miami Grand Prix,34,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Miami Grand Prix,35,SC,0.3157894736842105
+simulation_v10_20261027,Miami Grand Prix,35,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Miami Grand Prix,36,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Miami Grand Prix,37,stops_per_rival,0.9473684210526315
+simulation_v10_20261027,Miami Grand Prix,38,VSC,0.21052631578947367
+simulation_v10_20261027,Miami Grand Prix,38,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,38,VSC,0.15789473684210525
+simulation_v10_20261027,Miami Grand Prix,38,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Miami Grand Prix,39,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Hungarian Grand Prix,0,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Hungarian Grand Prix,1,VSC,0.2631578947368421
+simulation_v10_20261027,Hungarian Grand Prix,1,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Hungarian Grand Prix,2,stops_per_rival,2.526315789473684
+simulation_v10_20261027,Hungarian Grand Prix,3,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Hungarian Grand Prix,4,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Hungarian Grand Prix,5,VSC,0.7368421052631579
+simulation_v10_20261027,Hungarian Grand Prix,5,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Hungarian Grand Prix,6,VSC,0.3684210526315789
+simulation_v10_20261027,Hungarian Grand Prix,6,stops_per_rival,2.8421052631578947
+simulation_v10_20261027,Hungarian Grand Prix,7,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Hungarian Grand Prix,8,SC,0.42105263157894735
+simulation_v10_20261027,Hungarian Grand Prix,8,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Hungarian Grand Prix,9,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,10,VSC,0.3684210526315789
+simulation_v10_20261027,Hungarian Grand Prix,10,VSC,0.3157894736842105
+simulation_v10_20261027,Hungarian Grand Prix,10,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Hungarian Grand Prix,11,VSC,0.21052631578947367
+simulation_v10_20261027,Hungarian Grand Prix,11,stops_per_rival,2.6315789473684212
+simulation_v10_20261027,Hungarian Grand Prix,12,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Hungarian Grand Prix,13,SC,0.2631578947368421
+simulation_v10_20261027,Hungarian Grand Prix,13,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Hungarian Grand Prix,14,SC,0.631578947368421
+simulation_v10_20261027,Hungarian Grand Prix,14,SC,0.5789473684210527
+simulation_v10_20261027,Hungarian Grand Prix,14,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Hungarian Grand Prix,15,VSC,0.42105263157894735
+simulation_v10_20261027,Hungarian Grand Prix,15,stops_per_rival,2.526315789473684
+simulation_v10_20261027,Hungarian Grand Prix,16,VSC,0.42105263157894735
+simulation_v10_20261027,Hungarian Grand Prix,16,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Hungarian Grand Prix,17,SC,0.47368421052631576
+simulation_v10_20261027,Hungarian Grand Prix,17,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,18,SC,0.7368421052631579
+simulation_v10_20261027,Hungarian Grand Prix,18,stops_per_rival,2.6315789473684212
+simulation_v10_20261027,Hungarian Grand Prix,19,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Hungarian Grand Prix,20,SC,0.47368421052631576
+simulation_v10_20261027,Hungarian Grand Prix,20,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Hungarian Grand Prix,21,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Hungarian Grand Prix,22,stops_per_rival,2.6315789473684212
+simulation_v10_20261027,Hungarian Grand Prix,23,VSC,0.6842105263157895
+simulation_v10_20261027,Hungarian Grand Prix,23,stops_per_rival,2.8421052631578947
+simulation_v10_20261027,Hungarian Grand Prix,24,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Hungarian Grand Prix,25,stops_per_rival,2.6842105263157894
+simulation_v10_20261027,Hungarian Grand Prix,26,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Hungarian Grand Prix,27,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Hungarian Grand Prix,28,SC,0.3684210526315789
+simulation_v10_20261027,Hungarian Grand Prix,28,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Hungarian Grand Prix,29,stops_per_rival,2.736842105263158
+simulation_v10_20261027,Hungarian Grand Prix,30,SC,0.5263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,30,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Hungarian Grand Prix,31,VSC,0.21052631578947367
+simulation_v10_20261027,Hungarian Grand Prix,31,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,32,SC,0.3157894736842105
+simulation_v10_20261027,Hungarian Grand Prix,32,stops_per_rival,2.789473684210526
+simulation_v10_20261027,Hungarian Grand Prix,33,VSC,0.5263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,33,stops_per_rival,2.6842105263157894
+simulation_v10_20261027,Hungarian Grand Prix,34,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Hungarian Grand Prix,35,SC,0.2631578947368421
+simulation_v10_20261027,Hungarian Grand Prix,35,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Hungarian Grand Prix,36,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Hungarian Grand Prix,37,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,38,VSC,0.3684210526315789
+simulation_v10_20261027,Hungarian Grand Prix,38,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Hungarian Grand Prix,39,VSC,0.0
+simulation_v10_20261027,Hungarian Grand Prix,39,stops_per_rival,2.4210526315789473
+simulation_v10_20261027,Belgian Grand Prix,0,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Belgian Grand Prix,1,SC,0.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,1,stops_per_rival,1.736842105263158
+simulation_v10_20261027,Belgian Grand Prix,2,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,3,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Belgian Grand Prix,4,stops_per_rival,1.6842105263157894
+simulation_v10_20261027,Belgian Grand Prix,5,SC,0.47368421052631576
+simulation_v10_20261027,Belgian Grand Prix,5,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Belgian Grand Prix,6,SC,0.47368421052631576
+simulation_v10_20261027,Belgian Grand Prix,6,SC,0.3157894736842105
+simulation_v10_20261027,Belgian Grand Prix,6,stops_per_rival,1.894736842105263
+simulation_v10_20261027,Belgian Grand Prix,7,SC,0.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,7,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Belgian Grand Prix,8,SC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,8,VSC,0.0
+simulation_v10_20261027,Belgian Grand Prix,8,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,9,VSC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,9,SC,0.42105263157894735
+simulation_v10_20261027,Belgian Grand Prix,9,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Belgian Grand Prix,10,SC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,10,stops_per_rival,1.736842105263158
+simulation_v10_20261027,Belgian Grand Prix,11,SC,0.2631578947368421
+simulation_v10_20261027,Belgian Grand Prix,11,stops_per_rival,1.736842105263158
+simulation_v10_20261027,Belgian Grand Prix,12,SC,0.3157894736842105
+simulation_v10_20261027,Belgian Grand Prix,12,stops_per_rival,2.0
+simulation_v10_20261027,Belgian Grand Prix,13,SC,0.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,13,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Belgian Grand Prix,14,SC,0.8947368421052632
+simulation_v10_20261027,Belgian Grand Prix,14,SC,0.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,14,SC,0.21052631578947367
+simulation_v10_20261027,Belgian Grand Prix,14,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Belgian Grand Prix,15,VSC,0.47368421052631576
+simulation_v10_20261027,Belgian Grand Prix,15,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,16,SC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,16,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Belgian Grand Prix,17,SC,0.47368421052631576
+simulation_v10_20261027,Belgian Grand Prix,17,SC,0.3684210526315789
+simulation_v10_20261027,Belgian Grand Prix,17,stops_per_rival,1.894736842105263
+simulation_v10_20261027,Belgian Grand Prix,18,SC,0.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,18,SC,0.47368421052631576
+simulation_v10_20261027,Belgian Grand Prix,18,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,19,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,20,SC,0.2631578947368421
+simulation_v10_20261027,Belgian Grand Prix,20,stops_per_rival,1.7894736842105263
+simulation_v10_20261027,Belgian Grand Prix,21,SC,0.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,21,VSC,0.10526315789473684
+simulation_v10_20261027,Belgian Grand Prix,21,SC,0.10526315789473684
+simulation_v10_20261027,Belgian Grand Prix,21,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Belgian Grand Prix,22,SC,0.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,22,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Belgian Grand Prix,23,SC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,23,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Belgian Grand Prix,24,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Belgian Grand Prix,25,SC,0.8421052631578947
+simulation_v10_20261027,Belgian Grand Prix,25,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,26,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Belgian Grand Prix,27,SC,0.5263157894736842
+simulation_v10_20261027,Belgian Grand Prix,27,stops_per_rival,1.8421052631578947
+simulation_v10_20261027,Belgian Grand Prix,28,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Belgian Grand Prix,29,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Belgian Grand Prix,30,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Belgian Grand Prix,31,SC,0.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,31,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Belgian Grand Prix,32,SC,0.9473684210526315
+simulation_v10_20261027,Belgian Grand Prix,32,stops_per_rival,1.736842105263158
+simulation_v10_20261027,Belgian Grand Prix,33,SC,0.6842105263157895
+simulation_v10_20261027,Belgian Grand Prix,33,SC,0.15789473684210525
+simulation_v10_20261027,Belgian Grand Prix,33,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Belgian Grand Prix,34,SC,0.2631578947368421
+simulation_v10_20261027,Belgian Grand Prix,34,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Belgian Grand Prix,35,SC,0.6842105263157895
+simulation_v10_20261027,Belgian Grand Prix,35,stops_per_rival,1.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,36,SC,0.6842105263157895
+simulation_v10_20261027,Belgian Grand Prix,36,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Belgian Grand Prix,37,stops_per_rival,1.4210526315789473
+simulation_v10_20261027,Belgian Grand Prix,38,stops_per_rival,1.5263157894736843
+simulation_v10_20261027,Belgian Grand Prix,39,SC,0.5789473684210527
+simulation_v10_20261027,Belgian Grand Prix,39,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,0,SC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,0,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,1,SC,0.5263157894736842
+simulation_v10_20261027,Dutch Grand Prix,1,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,2,SC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,2,VSC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,2,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Dutch Grand Prix,3,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,3,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,4,VSC,0.15789473684210525
+simulation_v10_20261027,Dutch Grand Prix,4,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,5,VSC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,5,VSC,0.05263157894736842
+simulation_v10_20261027,Dutch Grand Prix,5,VSC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,5,SC,0.5263157894736842
+simulation_v10_20261027,Dutch Grand Prix,5,stops_per_rival,2.5789473684210527
+simulation_v10_20261027,Dutch Grand Prix,6,SC,0.15789473684210525
+simulation_v10_20261027,Dutch Grand Prix,6,VSC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,6,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,6,stops_per_rival,2.0
+simulation_v10_20261027,Dutch Grand Prix,7,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,8,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,9,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Dutch Grand Prix,10,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Dutch Grand Prix,11,VSC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,11,SC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,11,VSC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,11,stops_per_rival,2.473684210526316
+simulation_v10_20261027,Dutch Grand Prix,12,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Dutch Grand Prix,13,VSC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,13,VSC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,13,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,14,SC,0.5263157894736842
+simulation_v10_20261027,Dutch Grand Prix,14,stops_per_rival,2.0
+simulation_v10_20261027,Dutch Grand Prix,15,VSC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,15,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,16,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,16,VSC,0.0
+simulation_v10_20261027,Dutch Grand Prix,16,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,17,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Dutch Grand Prix,18,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,18,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,Dutch Grand Prix,19,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,19,SC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,19,VSC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,19,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Dutch Grand Prix,20,SC,0.631578947368421
+simulation_v10_20261027,Dutch Grand Prix,20,SC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,20,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,21,SC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,21,VSC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,21,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,21,SC,0.5263157894736842
+simulation_v10_20261027,Dutch Grand Prix,21,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Dutch Grand Prix,22,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,22,VSC,0.15789473684210525
+simulation_v10_20261027,Dutch Grand Prix,22,VSC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,22,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Dutch Grand Prix,23,VSC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,23,SC,0.5789473684210527
+simulation_v10_20261027,Dutch Grand Prix,23,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,24,SC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,24,SC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,24,VSC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,24,VSC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,24,SC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,24,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Dutch Grand Prix,25,SC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,25,VSC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,25,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,25,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,26,SC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,26,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,Dutch Grand Prix,27,VSC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,27,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,28,SC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,28,VSC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,28,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,29,SC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,29,SC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,29,SC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,29,VSC,0.3157894736842105
+simulation_v10_20261027,Dutch Grand Prix,29,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,Dutch Grand Prix,30,VSC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,30,SC,0.631578947368421
+simulation_v10_20261027,Dutch Grand Prix,30,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,30,SC,0.5789473684210527
+simulation_v10_20261027,Dutch Grand Prix,30,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,Dutch Grand Prix,31,VSC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,31,SC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,31,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Dutch Grand Prix,32,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,32,VSC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,32,VSC,0.15789473684210525
+simulation_v10_20261027,Dutch Grand Prix,32,stops_per_rival,2.526315789473684
+simulation_v10_20261027,Dutch Grand Prix,33,SC,0.2631578947368421
+simulation_v10_20261027,Dutch Grand Prix,33,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,Dutch Grand Prix,34,VSC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,34,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,35,SC,0.21052631578947367
+simulation_v10_20261027,Dutch Grand Prix,35,VSC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,35,SC,0.15789473684210525
+simulation_v10_20261027,Dutch Grand Prix,35,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,Dutch Grand Prix,36,stops_per_rival,1.894736842105263
+simulation_v10_20261027,Dutch Grand Prix,37,stops_per_rival,2.263157894736842
+simulation_v10_20261027,Dutch Grand Prix,38,VSC,0.42105263157894735
+simulation_v10_20261027,Dutch Grand Prix,38,SC,0.3684210526315789
+simulation_v10_20261027,Dutch Grand Prix,38,stops_per_rival,2.526315789473684
+simulation_v10_20261027,Dutch Grand Prix,39,SC,0.47368421052631576
+simulation_v10_20261027,Dutch Grand Prix,39,stops_per_rival,2.210526315789474
+simulation_v10_20261027,Singapore Grand Prix,0,VSC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,0,SC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,0,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Singapore Grand Prix,1,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,1,SC,0.0
+simulation_v10_20261027,Singapore Grand Prix,1,VSC,0.0
+simulation_v10_20261027,Singapore Grand Prix,1,SC,0.0
+simulation_v10_20261027,Singapore Grand Prix,1,stops_per_rival,1.0526315789473684
+simulation_v10_20261027,Singapore Grand Prix,2,VSC,0.0
+simulation_v10_20261027,Singapore Grand Prix,2,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,2,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,3,VSC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,3,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,3,VSC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,3,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Singapore Grand Prix,4,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,4,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Singapore Grand Prix,5,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,5,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,5,VSC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,5,SC,0.0
+simulation_v10_20261027,Singapore Grand Prix,5,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,6,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,6,SC,0.5263157894736842
+simulation_v10_20261027,Singapore Grand Prix,6,stops_per_rival,1.6842105263157894
+simulation_v10_20261027,Singapore Grand Prix,7,SC,0.47368421052631576
+simulation_v10_20261027,Singapore Grand Prix,7,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,7,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,7,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,8,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,8,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,8,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Singapore Grand Prix,9,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,9,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,9,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,9,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,9,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,10,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,10,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,10,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,10,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,11,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,11,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,11,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,11,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,11,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,11,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Singapore Grand Prix,12,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,12,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,13,VSC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,13,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,13,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,13,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,14,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,14,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,14,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Singapore Grand Prix,15,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,15,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,15,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,15,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,15,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,15,stops_per_rival,1.631578947368421
+simulation_v10_20261027,Singapore Grand Prix,16,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,16,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,16,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,17,SC,0.631578947368421
+simulation_v10_20261027,Singapore Grand Prix,17,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Singapore Grand Prix,18,VSC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,18,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Singapore Grand Prix,19,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,19,stops_per_rival,1.1578947368421053
+simulation_v10_20261027,Singapore Grand Prix,20,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,20,SC,0.0
+simulation_v10_20261027,Singapore Grand Prix,20,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,21,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,21,stops_per_rival,1.105263157894737
+simulation_v10_20261027,Singapore Grand Prix,22,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,22,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,22,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,23,SC,0.47368421052631576
+simulation_v10_20261027,Singapore Grand Prix,23,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Singapore Grand Prix,24,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,25,SC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,25,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,25,SC,0.5789473684210527
+simulation_v10_20261027,Singapore Grand Prix,25,stops_per_rival,1.6842105263157894
+simulation_v10_20261027,Singapore Grand Prix,26,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,26,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,27,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,27,SC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,27,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,27,VSC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,27,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,28,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,28,SC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,28,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,28,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Singapore Grand Prix,29,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,29,SC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,29,VSC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,29,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,29,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Singapore Grand Prix,30,stops_per_rival,1.3157894736842106
+simulation_v10_20261027,Singapore Grand Prix,31,SC,0.47368421052631576
+simulation_v10_20261027,Singapore Grand Prix,31,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,31,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,32,VSC,0.0
+simulation_v10_20261027,Singapore Grand Prix,32,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,32,SC,0.21052631578947367
+simulation_v10_20261027,Singapore Grand Prix,32,stops_per_rival,0.8421052631578947
+simulation_v10_20261027,Singapore Grand Prix,33,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,33,SC,0.3684210526315789
+simulation_v10_20261027,Singapore Grand Prix,33,stops_per_rival,1.368421052631579
+simulation_v10_20261027,Singapore Grand Prix,34,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,34,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,34,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,34,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,34,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,34,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,35,SC,0.42105263157894735
+simulation_v10_20261027,Singapore Grand Prix,35,VSC,0.15789473684210525
+simulation_v10_20261027,Singapore Grand Prix,35,VSC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,35,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,35,stops_per_rival,1.4736842105263157
+simulation_v10_20261027,Singapore Grand Prix,36,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,36,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,36,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,36,stops_per_rival,1.0
+simulation_v10_20261027,Singapore Grand Prix,37,SC,0.10526315789473684
+simulation_v10_20261027,Singapore Grand Prix,37,SC,0.0
+simulation_v10_20261027,Singapore Grand Prix,37,stops_per_rival,1.263157894736842
+simulation_v10_20261027,Singapore Grand Prix,38,stops_per_rival,1.2105263157894737
+simulation_v10_20261027,Singapore Grand Prix,39,VSC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,39,VSC,0.0
+simulation_v10_20261027,Singapore Grand Prix,39,SC,0.3157894736842105
+simulation_v10_20261027,Singapore Grand Prix,39,SC,0.2631578947368421
+simulation_v10_20261027,Singapore Grand Prix,39,SC,0.05263157894736842
+simulation_v10_20261027,Singapore Grand Prix,39,stops_per_rival,1.263157894736842
+simulation_v10_20261027,United States Grand Prix,0,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,1,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,2,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,United States Grand Prix,3,VSC,0.3157894736842105
+simulation_v10_20261027,United States Grand Prix,3,SC,0.5263157894736842
+simulation_v10_20261027,United States Grand Prix,3,SC,0.3684210526315789
+simulation_v10_20261027,United States Grand Prix,3,VSC,0.10526315789473684
+simulation_v10_20261027,United States Grand Prix,3,stops_per_rival,2.526315789473684
+simulation_v10_20261027,United States Grand Prix,4,VSC,0.6842105263157895
+simulation_v10_20261027,United States Grand Prix,4,VSC,0.3157894736842105
+simulation_v10_20261027,United States Grand Prix,4,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,United States Grand Prix,5,VSC,0.2631578947368421
+simulation_v10_20261027,United States Grand Prix,5,stops_per_rival,2.210526315789474
+simulation_v10_20261027,United States Grand Prix,6,VSC,0.3684210526315789
+simulation_v10_20261027,United States Grand Prix,6,stops_per_rival,2.210526315789474
+simulation_v10_20261027,United States Grand Prix,7,VSC,0.5789473684210527
+simulation_v10_20261027,United States Grand Prix,7,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,United States Grand Prix,8,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,9,stops_per_rival,2.3684210526315788
+simulation_v10_20261027,United States Grand Prix,10,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,United States Grand Prix,11,VSC,0.3157894736842105
+simulation_v10_20261027,United States Grand Prix,11,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,United States Grand Prix,12,SC,0.631578947368421
+simulation_v10_20261027,United States Grand Prix,12,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,13,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,14,VSC,0.3157894736842105
+simulation_v10_20261027,United States Grand Prix,14,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,15,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,16,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,17,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,18,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,19,VSC,0.42105263157894735
+simulation_v10_20261027,United States Grand Prix,19,stops_per_rival,1.8421052631578947
+simulation_v10_20261027,United States Grand Prix,20,SC,0.5789473684210527
+simulation_v10_20261027,United States Grand Prix,20,SC,0.05263157894736842
+simulation_v10_20261027,United States Grand Prix,20,stops_per_rival,2.526315789473684
+simulation_v10_20261027,United States Grand Prix,21,stops_per_rival,2.263157894736842
+simulation_v10_20261027,United States Grand Prix,22,stops_per_rival,2.210526315789474
+simulation_v10_20261027,United States Grand Prix,23,SC,0.3684210526315789
+simulation_v10_20261027,United States Grand Prix,23,stops_per_rival,2.3157894736842106
+simulation_v10_20261027,United States Grand Prix,24,VSC,0.21052631578947367
+simulation_v10_20261027,United States Grand Prix,24,VSC,0.10526315789473684
+simulation_v10_20261027,United States Grand Prix,24,stops_per_rival,2.263157894736842
+simulation_v10_20261027,United States Grand Prix,25,VSC,0.15789473684210525
+simulation_v10_20261027,United States Grand Prix,25,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,United States Grand Prix,26,stops_per_rival,1.894736842105263
+simulation_v10_20261027,United States Grand Prix,27,VSC,0.42105263157894735
+simulation_v10_20261027,United States Grand Prix,27,stops_per_rival,1.9473684210526316
+simulation_v10_20261027,United States Grand Prix,28,stops_per_rival,2.1578947368421053
+simulation_v10_20261027,United States Grand Prix,29,stops_per_rival,1.736842105263158
+simulation_v10_20261027,United States Grand Prix,30,VSC,0.42105263157894735
+simulation_v10_20261027,United States Grand Prix,30,stops_per_rival,2.0
+simulation_v10_20261027,United States Grand Prix,31,VSC,0.21052631578947367
+simulation_v10_20261027,United States Grand Prix,31,stops_per_rival,2.210526315789474
+simulation_v10_20261027,United States Grand Prix,32,stops_per_rival,2.0526315789473686
+simulation_v10_20261027,United States Grand Prix,33,VSC,0.5789473684210527
+simulation_v10_20261027,United States Grand Prix,33,stops_per_rival,1.8421052631578947
+simulation_v10_20261027,United States Grand Prix,34,VSC,0.3157894736842105
+simulation_v10_20261027,United States Grand Prix,34,stops_per_rival,1.8421052631578947
+simulation_v10_20261027,United States Grand Prix,35,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,36,VSC,0.631578947368421
+simulation_v10_20261027,United States Grand Prix,36,stops_per_rival,2.263157894736842
+simulation_v10_20261027,United States Grand Prix,37,stops_per_rival,2.1052631578947367
+simulation_v10_20261027,United States Grand Prix,38,stops_per_rival,1.894736842105263
+simulation_v10_20261027,United States Grand Prix,39,VSC,0.42105263157894735
+simulation_v10_20261027,United States Grand Prix,39,stops_per_rival,2.1052631578947367

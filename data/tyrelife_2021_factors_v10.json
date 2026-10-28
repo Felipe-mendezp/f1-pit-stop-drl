@@ -1,0 +1,9 @@
+{
+ "C0": 0.74,
+ "C1": 0.74,
+ "C2": 0.74,
+ "C3": 0.74,
+ "C4": 0.74,
+ "C5": 0.74,
+ "_nota": "2026-10-27: factor unico de TyreLife 2021 del simulador v10, misma especificacion que v7 con la definicion v10 (sin pasos por el pit lane; paradas reales por evento bajo SC/VSC): fisica 0.659 ee 0.071, conductual 0.854 ee 0.084; IC95 0.63-0.85. results/sim_v10_20261027/factor2021_v10_20261027.py"
+}

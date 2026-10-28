@@ -244,7 +244,9 @@ def qmip_gamma(raw_env) -> Tuple[int, Optional[int]]:
     yf = 1 if (raw_env.vsc > 0 or raw_env.sc > 0) else 0
     if not getattr(raw_env, 'sc_reveal', False):
         return yf, None
-    admissible = raw_env.vsc > 0 or (raw_env.sc > 0 and getattr(raw_env, '_sc_lap_idx', 0) <= 1)
+    # v10 (vsc_first_lap_only, 2026-10-27): bajo VSC tambien solo la 1a vuelta del periodo
+    vsc_ok = raw_env.vsc > 0 and (not getattr(raw_env, 'vsc_first_lap_only', False) or bool(raw_env._is_first_yf_lap))
+    admissible = vsc_ok or (raw_env.sc > 0 and getattr(raw_env, '_sc_lap_idx', 0) <= 1)
     return int(admissible), yf
 
 

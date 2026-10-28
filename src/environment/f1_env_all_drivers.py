@@ -576,6 +576,11 @@ class F1EnvAllDrivers(Env):
         if (getattr(self, 'sc_bunching', False) and self.sc > 0
                 and self._sc_lap_idx > getattr(self, 'sc_pit_max_idx', 1) and agent_action != 0):
             agent_action = 0
+        # v10 (opt-in `vsc_first_lap_only`, F1_VSC_FIRST_LAP_ONLY, 2026-10-27): bajo VSC el agente, como los
+        # rivales, solo puede parar en la primera vuelta del periodo (no-op sin castigo en las siguientes).
+        if (getattr(self, 'vsc_first_lap_only', False) and self.vsc > 0
+                and not self._is_first_yf_lap and agent_action != 0):
+            agent_action = 0
 
         # Abandonos sorteados en reset (opt-in `rival_dnf`): mismo momento que
         # el -1 de las estrategias reales (_get_real_rival_actions, paso 2).
@@ -2279,6 +2284,9 @@ def create_f1_env_all_drivers(
     # el agente decida la vuelta L (ver _reveal_next_lap_yf).
     if os.environ.get('F1_SC_REVEAL'):
         env.sc_reveal = True
+    # v10 (2026-10-27): bajo VSC el agente solo para en la 1a vuelta del periodo (como los rivales).
+    if os.environ.get('F1_VSC_FIRST_LAP_ONLY'):
+        env.vsc_first_lap_only = True
     # Abandonos de rivales (2026-10-14): F1_RIVAL_DNF = ruta del JSON de
     # scripts/rival_dnf_calibration_20261014.py (ver reset).
     _dnf = os.environ.get('F1_RIVAL_DNF')
