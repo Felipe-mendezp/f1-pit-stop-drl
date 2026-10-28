@@ -24,6 +24,11 @@ Salida: results/decision_support_v6w24belief_20261015/<algo>/ y figs/.
 reutilizables), salida results/decision_support_v9r2w24belief_20261023/. Requiere ademas F1_TYRE_SETS (inventario
 data/tyre_sets_2024_reg_20261021.csv), F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000 en el entorno (los snapshots del
 prefijo copian los juegos de todos los pilotos). Lanzador: results/decision_support_v9r2w24belief_20261023/run_20261023.sh.
+--version v10f / v10fsmhist (2026-10-29): como v10 / v10smhist con el adelantamiento v10f (agentes retrained_v10eGQf_20261029
+y retrained_v10eGQf_startmix_20261029). Requieren F1_OVERTAKE_MAX_GAP=inf, F1_OVERTAKE_MEAN_GAP=1 y
+F1_FOLLOWING_GAP_SCALE=0.26 en el entorno (los lee el simulador) y pasan --following-gap-scale 0.26 a los rollouts y a
+las figuras; v10 / v10smhist exigen que esas variables no esten. Lanzador:
+results/decision_support_v10eGQfw24belief_20261029/run_20261029.sh.
 """
 import argparse, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -63,7 +68,13 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
             'v10': ('simulation_v10eGQ_20261028', 'retrained_v10eGQ_20261028', 'decision_support_v10eGQw24belief_20261028',
                     'v10eGQ'),
             'v10smhist': ('simulation_v10eGQ_20261028', 'retrained_v10eGQ_startmix_20261028',
-                          'decision_support_v10eGQsmrealhist_20261028', 'v10eGQ')}
+                          'decision_support_v10eGQsmrealhist_20261028', 'v10eGQ'),
+            # 2026-10-29: adelantamiento v10f (results/sim_v10eGQ_20261028/README_adelantamiento_20261029.md)
+            'v10f': ('simulation_v10eGQ_20261028', 'retrained_v10eGQf_20261029',
+                     'decision_support_v10eGQfw24belief_20261029', 'v10eGQ'),
+            'v10fsmhist': ('simulation_v10eGQ_20261028', 'retrained_v10eGQf_startmix_20261029',
+                           'decision_support_v10eGQfsmrealhist_20261029', 'v10eGQ')}
+FGS = '1.0'   # gap de seguimiento 0.4 + Exp(FGS); 2026-10-29: 0.26 con --version v10f*
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
@@ -79,7 +90,7 @@ def run_job(job, M, env):
     cmd = ['nice', '-n', '10', sys.executable, WRAP, ROLLOUTS,
            '--gp', gp, '--driver', drv, '--model-dir', md, '--algo', algo,
            '--M', str(M), '--fast-env', '--legal-mask', variant, '--sim-future',
-           '--following-gap-scale', '1.0', '--out-dir', rd, '--laps'] + [str(x) for x in range(1, N)]
+           '--following-gap-scale', FGS, '--out-dir', rd, '--laps'] + [str(x) for x in range(1, N)]
     t0 = time.time()
     with open(log, 'w') as f:
         rc = subprocess.call(cmd, cwd=ROOT, stdout=f, stderr=subprocess.STDOUT, env=env)
@@ -118,7 +129,7 @@ def figures(env, algos):
     for algo in algos:
         rd = os.path.join(OUT, algo)
         e = dict(env, F1_DS_WORLD2024='1', F1_DS_RESULTS_DIR=rd, F1_DS_FIG_DIR=os.path.join(OUT, 'figs', algo),
-                 F1_DS_ALGO=algo, F1_DS_SIM_FUTURE='1', F1_DS_FOLLOWING_GAP_SCALE='1.0')
+                 F1_DS_ALGO=algo, F1_DS_SIM_FUTURE='1', F1_DS_FOLLOWING_GAP_SCALE=FGS)
         for suffix, script in [('_real', 'post_real_figures.py'), ('_realyf', 'post_realyf_figures.py')]:
             subprocess.call([sys.executable, __file__, '--derive', suffix], cwd=ROOT, env=e)
             with open(os.path.join(rd, 'logs', f'figures{suffix}.log'), 'w') as f:
@@ -151,7 +162,7 @@ def main():
     assert os.environ.get('F1_WORLD2024_TYRES') == tyres, f'F1_WORLD2024_TYRES={tyres}'
     assert os.environ.get('F1_SC_REVEAL') == '1' and os.environ.get('F1_YF_LAPS_2024'), \
         'source reproduce/env_paper_v3_20261007.sh'
-    if (a.version.startswith('v9r2') and a.version != 'v9r2') or a.version == 'v10smhist':   # 2026-10-24
+    if (a.version.startswith('v9r2') and a.version != 'v9r2') or a.version in ('v10smhist', 'v10fsmhist'):   # 2026-10-24
         global ROLLOUTS
         ROLLOUTS = REALHIST
         force = 'hist' if a.version.endswith('hist') else 'start'   # 2026-10-26: antes a.version[4:] (v9r2smhist)
@@ -176,6 +187,15 @@ def main():
         assert os.environ.get('F1_VSC_FIRST_LAP_ONLY') == '1', '--version v10: exportar F1_VSC_FIRST_LAP_ONLY=1'
         global WRAP   # 2026-10-28: v5hd + estrategias reales de los rivales corregidas (docs/AUDITORIA_V10_20261028.md)
         WRAP = os.path.join(ROOT, 'scripts', 'gp_configs_fix_20261028.py')
+    ov = {k: os.environ.get(k) for k in ('F1_OVERTAKE_MAX_GAP', 'F1_OVERTAKE_MEAN_GAP', 'F1_FOLLOWING_GAP_SCALE')}
+    if a.version.startswith('v10f'):   # 2026-10-29: adelantamiento v10f (scripts/overtake_v10f_20261029.py)
+        assert ov == {'F1_OVERTAKE_MAX_GAP': 'inf', 'F1_OVERTAKE_MEAN_GAP': '1', 'F1_FOLLOWING_GAP_SCALE': '0.26'}, \
+            f'--version {a.version}: exportar F1_OVERTAKE_MAX_GAP=inf F1_OVERTAKE_MEAN_GAP=1 F1_FOLLOWING_GAP_SCALE=0.26 ({ov})'
+        global FGS
+        FGS = '0.26'
+    else:
+        assert not ov['F1_OVERTAKE_MAX_GAP'] and not ov['F1_OVERTAKE_MEAN_GAP'], \
+            f'--version {a.version}: sin F1_OVERTAKE_* (son de v10f)'
     assert 'F1_RIVAL_DNF' not in os.environ, 'sin F1_RIVAL_DNF (rivales --real-yf sin abandonos, como v5h)'
     for p in (SIM, AGENTS):
         assert os.path.isdir(p), p

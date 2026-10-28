@@ -1,0 +1,41 @@
+gp	algo	gap_s	stops	changed	flag	plan
+Bahrain Grand Prix	DQN	0.185	2	True	sane	start C2 L19->C1 L37->C1
+Bahrain Grand Prix	A2C	2.915	2	True	sane	start C2 L13->C1 L33->C1
+Bahrain Grand Prix	TRPO	12.860	2	True	sane	start C2 L26->C1 L34->C1
+Bahrain Grand Prix	PPO	3.792	2	True	sane	start C2 L15->C1 L31->C1
+Bahrain Grand Prix	RecurrentPPO	0.000	2	True	sane	start C2 L18->C1 L38->C1
+Belgian Grand Prix	DQN	0.281	2	True	sane	start C2 L15->C3 L30->C4
+Belgian Grand Prix	A2C	0.057	2	True	sane	start C3 L15->C4 L30->C4
+Belgian Grand Prix	TRPO	1.217	2	True	sane	start C3 L14->C2 L31->C2
+Belgian Grand Prix	PPO	0.332	2	True	sane	start C3 L14->C4 L28->C4
+Belgian Grand Prix	RecurrentPPO	0.000	2	True	sane	start C2 L16->C4 L30->C4
+Dutch Grand Prix	DQN	0.009	2	True	sane	start C2 L25->C3 L48->C3
+Dutch Grand Prix	A2C	1.948	1	True	sane	start C2 L31->C1
+Dutch Grand Prix	TRPO	6.630	1	True	sane	start C1 L26->C2
+Dutch Grand Prix	PPO	1.275	1	True	sane	start C2 L36->C1
+Dutch Grand Prix	RecurrentPPO	1.231	1	True	sane	start C2 L35->C1
+Hungarian Grand Prix	DQN	0.399	2	True	sane	start C5 L20->C4 L46->C5
+Hungarian Grand Prix	A2C	0.128	2	True	sane	start C4 L23->C5 L46->C5
+Hungarian Grand Prix	TRPO	6.598	1	True	sane	start C4 L38->C5
+Hungarian Grand Prix	PPO	6.312	1	True	sane	start C4 L30->C3
+Hungarian Grand Prix	RecurrentPPO	0.000	2	True	sane	start C4 L24->C5 L47->C5
+Miami Grand Prix	DQN	1.897	1	True	sane	start C3 L19->C4
+Miami Grand Prix	A2C	8.267	1	True	sane	start C2 L11->C3
+Miami Grand Prix	TRPO	3.752	1	True	sane	start C2 L22->C3
+Miami Grand Prix	PPO	0.885	1	True	sane	start C3 L22->C4
+Miami Grand Prix	RecurrentPPO	4.324	1	True	sane	start C3 L21->C2
+Saudi Arabian Grand Prix	DQN	0.000	1	True	sane	start C3 L25->C4
+Saudi Arabian Grand Prix	A2C	3.962	1	True	sane	start C3 L10->C4
+Saudi Arabian Grand Prix	TRPO	5.068	1	True	sane	start C2 L15->C3
+Saudi Arabian Grand Prix	PPO	0.010	1	True	sane	start C3 L24->C4
+Saudi Arabian Grand Prix	RecurrentPPO	2.680	1	True	sane	start C2 L25->C4
+Singapore Grand Prix	DQN	0.000	1	True	sane	start C4 L32->C5
+Singapore Grand Prix	A2C	4.971	1	True	sane	start C4 L31->C3
+Singapore Grand Prix	TRPO	5.184	1	True	sane	start C3 L33->C4
+Singapore Grand Prix	PPO	5.304	1	True	sane	start C4 L34->C3
+Singapore Grand Prix	RecurrentPPO	3.531	1	True	sane	start C3 L31->C5
+United States Grand Prix	DQN	0.260	2	True	sane	start C3 L20->C4 L36->C3
+United States Grand Prix	A2C	0.082	2	True	sane	start C4 L17->C3 L36->C3
+United States Grand Prix	TRPO	38.147	1	True	sane	start C2 L8->C3
+United States Grand Prix	PPO	0.279	2	True	sane	start C3 L20->C4 L39->C3
+United States Grand Prix	RecurrentPPO	0.102	2	True	sane	start C4 L19->C3 L38->C3

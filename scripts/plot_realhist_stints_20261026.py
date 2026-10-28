@@ -35,7 +35,13 @@ GPS = {'bahrain_alo': ('Bahrain Grand Prix', 'Driver_ALO', 'Bahrain_ALO', 'Ferna
        'singapore_hul': ('Singapore Grand Prix', 'Driver_HUL', 'Singapore_HUL', 'Nico Hülkenberg'),
        'united_states_mag': ('United States Grand Prix', 'Driver_MAG', 'United_States_MAG', 'Kevin Magnussen')}
 STINT_COLORS = ['white', 'gold', 'red']   # Fig. 5/9: hardest, middle, softest
-WRAP = ['scripts/gp_drivers_v5hd_20261014.py', 'scripts/ds_rollouts_realhist_20261024.py', '--run',
+# 2026-10-29: con el entorno v10 (F1_VSC_FIRST_LAP_ONLY=1) los pilotos van por gp_configs_fix_20261028 (como en
+# run_ds_v6_sweep_20261015.py), y el gap de seguimiento sale del entorno (env_paper.sh: 1.0; v10f: 0.26, con
+# F1_OVERTAKE_MAX_GAP / F1_OVERTAKE_MEAN_GAP, que el simulador lee directamente). Sin v10, igual que antes.
+GPWRAP = ('scripts/gp_configs_fix_20261028.py' if os.environ.get('F1_VSC_FIRST_LAP_ONLY') == '1'
+          else 'scripts/gp_drivers_v5hd_20261014.py')
+FGS = os.environ.get('F1_FOLLOWING_GAP_SCALE', '1.0')
+WRAP = [GPWRAP, 'scripts/ds_rollouts_realhist_20261024.py', '--run',
         'scripts/plot_decision_stints.py']
 SEED = 1000
 GROUP = True   # agrupar vueltas consecutivas con la misma recomendacion
@@ -56,7 +62,7 @@ def continuation(key, n, label, algo, rd, tmp):
     gp, drv, md, _ = GPS[key]
     cmd = [sys.executable] + WRAP + ['--gp', gp, '--driver', drv, '--model-dir', md, '--lap', str(n), '--real-2024',
                                      '--seed', str(SEED), '--algo', algo, '--results-dir', os.path.join(rd, algo),
-                                     '--following-gap-scale', '1.0', '--sim-future',
+                                     '--following-gap-scale', FGS, '--sim-future',
                                      '--out-pdf', os.path.join(tmp, f'{md}_{n}.pdf'),
                                      '--out-png', os.path.join(tmp, f'{md}_{n}.png')]
     txt = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True).stdout

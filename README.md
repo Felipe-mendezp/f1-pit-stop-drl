@@ -116,6 +116,15 @@ Training entry points receive the same physics through `--following-gap-scale 1.
 --sc-bunch-delta 1.5`. The reward-comparison agents (Section P) keep the disqualification penalty of
 their own reward (−500 time, −200 position, −50 points), i.e. `F1_DSQ_PENALTY` is unset for them.
 
+**Revision v10eGQ (in progress, 2026-10-29).** The revised simulator also changes the overtake model of the
+multi-driver environment (`results/sim_v10eGQ_20261028/README_adelantamiento_20261029.md`). The wrapper
+`scripts/overtake_v10f_20261029.py` sets three options:
+- `F1_OVERTAKE_MAX_GAP=inf`: the logit decides every clear-track battle (default 1.0 s);
+- `F1_OVERTAKE_MEAN_GAP=1`: tau is evaluated at the start-of-lap gap plus the mean predicted lap-time difference;
+- `F1_FOLLOWING_GAP_SCALE=0.26`, also forced as `--following-gap-scale 0.26`.
+
+Without these options the environment is bit-identical to the published one.
+
 **Single-driver benchmark (Fig. 5).** Compounds used in less than 5 % of a circuit's 2021–2023 race laps
 are excluded for both the agents and the QMIP, because their coefficients rest on very few stints
 (Dutch C1, Emilia-Romagna C5, Hungarian C5, Miami C4, Saudi Arabian C4, United States C4;

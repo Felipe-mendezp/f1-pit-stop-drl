@@ -11,6 +11,10 @@
 # envoltorio scripts/v10_wrapper_20261027.py), --calib v10, salida results/world2024_v10d_20261028, y --max-dsq 0 por
 # defecto (la variante dsq0 es la version del paper desde el 24-oct). Las etapas figs usan los scripts de
 # results/world2024_v9r2_20261023 (leen $OUT via F1_V9R2_DIR).
+# 2026-10-29: adelantamiento v10f (results/sim_v10eGQ_20261028/README_adelantamiento_20261029.md): agentes
+# retrained_v10eGQf_20261029, salida results/world2024_v10eGQf_20261029 y seleccion en .../v10f. Las variables de
+# scripts/overtake_v10f_20261029.py (F1_OVERTAKE_MAX_GAP=inf, F1_OVERTAKE_MEAN_GAP=1, F1_FOLLOWING_GAP_SCALE=0.26) se
+# exportan aqui (pisan el 1.0 de env_paper.sh) y el envoltorio va ademas primero en WRAP y en las etapas fig6/fig7.
 #   zsh reproduce/pipeline_v10_20261027.sh qmip              # sin agentes
 #   zsh reproduce/pipeline_v10_20261027.sh all               # tras traer los modelos
 #   zsh reproduce/pipeline_v10_20261027.sh <etapa> [GP...]   # select | fig6 | fig7 | qmip | qmipcheck | summary | figs
@@ -25,23 +29,24 @@ export F1_RIVAL_START_ALPHA=$(~/.venvs/f1-drl-v2/bin/python -c "import json; pri
 export F1_LAP0_ACTION0_MEDIUM=1 F1_LAP0_PENALTY=-1000 F1_QMIP_SYMMETRY=full
 export F1_TYRE_SETS=$PWD/data/tyre_sets_2024_reg_v10eGQ_20261028.csv F1_TYRE_REUSE=1 F1_NO_SET_PENALTY=-1000
 export F1_TYRE_STINT_AGES=$PWD/data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv
+export F1_OVERTAKE_MAX_GAP=inf F1_OVERTAKE_MEAN_GAP=1 F1_FOLLOWING_GAP_SCALE=0.26   # 2026-10-29: v10f
 unset F1_RIVAL_DNF
 PY=~/.venvs/f1-drl-v2/bin/python
 JOBS=${JOBS:-8}; NVAL=${NVAL:-200}; NSIMS=${NSIMS:-500}
-OUT=${OUT:-results/world2024_v10eGQ_20261028}
-AGENTS=${AGENTS:-trained_models/retrained_v10eGQ_20261028}
-SELOUT=${SELOUT:-results/seed_selection_v5_20261010/v10}
+OUT=${OUT:-results/world2024_v10eGQf_20261029}
+AGENTS=${AGENTS:-trained_models/retrained_v10eGQf_20261029}
+SELOUT=${SELOUT:-results/seed_selection_v5_20261010/v10f}
 FIGS=results/world2024_v9r2_20261023   # scripts de figuras y tabla (leen $OUT via F1_V9R2_DIR)
 ALGOS=(DQN A2C TRPO PPO RecurrentPPO)
 ALL=(Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG)
-WRAP=(scripts/gp_configs_fix_20261028.py scripts/v10_wrapper_20261027.py scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py scripts/rival_start_v8_20261018.py)
+WRAP=(scripts/overtake_v10f_20261029.py scripts/gp_configs_fix_20261028.py scripts/v10_wrapper_20261027.py scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py scripts/rival_start_v8_20261018.py)
 mkdir -p $OUT/logs
 log() { echo "$(date +%T) $*" | tee -a $OUT/logs/status.txt; }
 
 stage_select() {   # $@ = GP
   export F1_SELECT_TREE=${AGENTS:a} F1_SELECT_OUT=${SELOUT:a}
   test -d $AGENTS/seed01 || { echo "falta $AGENTS/seed01 (traer los modelos del cluster)"; exit 1; }
-  log "select eval $* (v10: F1_TYRE_SETS=$F1_TYRE_SETS F1_TYRE_STINT_AGES=$F1_TYRE_STINT_AGES F1_TYRE_REUSE=$F1_TYRE_REUSE)"
+  log "select eval $* (v10f: F1_OVERTAKE_MAX_GAP=$F1_OVERTAKE_MAX_GAP F1_FOLLOWING_GAP_SCALE=$F1_FOLLOWING_GAP_SCALE F1_TYRE_SETS=$F1_TYRE_SETS F1_TYRE_STINT_AGES=$F1_TYRE_STINT_AGES F1_TYRE_REUSE=$F1_TYRE_REUSE)"
   $PY $WRAP scripts/select_seeds_v5_20261010.py eval --calib v10 \
       --gps $@ --algos $ALGOS --n $NVAL --jobs $JOBS > $OUT/logs/select_eval.log 2>&1
   log "select pick $*"
@@ -58,9 +63,9 @@ stage_eval() {     # $1 = fig6 | fig7 ; $2 = carpeta de agentes ; $3 = salida ; 
   for g in $@; do echo $g; done | xargs -P $JOBS -L 1 zsh -c '
     g=$0; k='$kind'; o='$out'; py='$PY'; n='$NSIMS'
     case $k in
-      fig6) $py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 6 --real-dnf \
+      fig6) $py scripts/overtake_v10f_20261029.py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 6 --real-dnf \
               --world 2024 --gps $g --n-sims $n --algos '"$ALGOS"' --out $o ;;
-      fig7) $py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 7 \
+      fig7) $py scripts/overtake_v10f_20261029.py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 7 \
               --world 2024 --gps $g --n-sims $n --algos '"$ALGOS"' --out $o ;;
     esac > $o/logs/${k}_$g.log 2>&1
     echo "$(date +%T) $k $g exit $?" >> $o/logs/status.txt'

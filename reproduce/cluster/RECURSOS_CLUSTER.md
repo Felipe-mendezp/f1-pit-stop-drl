@@ -70,3 +70,19 @@ pedidos (PPO/RPPO 830M, DQN 1950M, A2C/TRPO 530M; mono 540M con 2 CPU). Prueba e
 `--mem=2G`) y `18033849` (mono 6, 7). La prueba 18033607/08 falló porque un `rsync -R --delete` borró
 `~/F1DLR/trained_models/` en el cluster; se repusieron solo los árboles v10eGQ y los 16 destinos de sus enlaces
 (`simulation/`, `simulation_v6_20261014/`). **No usar `--delete` hacia el cluster.**
+
+**29-oct, v10eGQ con adelantamiento v10f.**
+- **Prueba 18033848/49** (árboles anteriores al rastreo; sirve para fijar la memoria):
+  - multi: PPO 0,44 GB, DQN 1,6 GB;
+  - mono: 0,40 GB (RPPO y PPO);
+  - el código y el tamaño son los mismos de v10d.
+- **Mono-piloto lanzado:** `18037137` (`f1od10e`, 200 tareas, `tasks_onedriver_v10eGQ_20261028.tsv`).
+  - Las tareas 1–8 partieron con 500M. Fue un error mío: el pico de v10d es 445 MB, así que correspondía 540M.
+  - Las tareas 9–200 se pasaron a 540M con `scontrol update JobId=18037137 MinMemoryNode=540`.
+  - Si alguna de las 1–8 termina en OUT_OF_MEMORY, relanzarla con 540M: no deja `.done`, así que no se salta.
+- **Multi pendiente:** espera el OK del autor. Usar `tasks_v10eGQf_20261029.tsv` con la memoria por algoritmo de v10d.
+  Los índices de cada grupo están en `groups_v10eGQf_20261029.txt`.
+
+**29-oct, mono-piloto DQN:** 500–540M no alcanza (tarea 8 OOM a 498 MB; la 13 iba en 516 MB a los 5 min). El pico de
+DQN mono en el arreglo anterior fue ≈ 826 MB → **1000M** (1,2 ×). Relanzadas: 18037186 (3, 8, 13, 18, 23, 28, 33) y
+18037284 (`--array=38-198:5%20`). El resto del mono (PPO/RPPO/A2C/TRPO) sigue en 540M (≈ 320–400 MB).
