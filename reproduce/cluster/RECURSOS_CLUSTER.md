@@ -27,5 +27,16 @@ y ControlMaster. Con la IP sin `-i` falla por publickey.
 | Trabajo | `--mem` | `-c` | sbatch |
 |---|---|---|---|
 | mono-piloto v10 | 1G (1,2 × 805 MB) | 2 | `train_onedriver_v10_20261027.sbatch` |
-| multi-piloto v10 | 10G (1,2 × 8,1 GB) | 4 | por crear |
-| post-entrenamiento v10 | 1G (1,2 × 822 MB) | 4 | por crear |
+| multi-piloto v10, PPO/RPPO | 700M (1,2 × 557 MB) | 4 | `train_v10_20261027.sbatch` + `--mem=700M` (job f1v10, 28-oct) |
+| multi-piloto v10, DQN/A2C/TRPO | por medir (prueba f1v10t2, tareas 21-23, 2G) | 4 | ídem |
+| post-entrenamiento v10 | 1G (1,2 × 822 MB) | 4 | `train_v10_20261027.sbatch` + `--mem=1G` (tareas `tasks_v10sm.tsv`) |
+
+## Mediciones v10 [V]
+
+| Trabajo | Tarea | MaxRSS | Duración |
+|---|---|---|---|
+| f1od10t (mono-piloto, 2 CPU) | Bahrain PPO, RPPO semilla 1 | 352 MB (sstat, en curso) | ≈ 25 min |
+| f1v10t (multi-piloto, DummyVecEnv, 4 CPU) | Saudi PPO semilla 1 | 403 MB | 1 h 26 min |
+| f1v10t (ídem) | Saudi RPPO semilla 1 | 557 MB | 2 h 15 min |
+
+Con DummyVecEnv, el multi-piloto usa ~0,5 GB por tarea en lugar de ~8 GB con SubprocVecEnv, y 1 CPU efectiva.
