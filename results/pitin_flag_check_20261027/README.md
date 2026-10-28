@@ -4,9 +4,12 @@ Diagnóstico, **sin cambios en el simulador ni en el paper**. Una parada "real" 
 TyreLife o cambia Compound_Detail entre la vuelta L y L+1), como `real_plan`.
 
 ## El problema [V]
-`PitIn = PitInTime no nulo` de FastF1 (`scripts/build_dataframes.py`). Bajo SC, FastF1 deja `PitInTime`/`PitOutTime` en
-varias vueltas seguidas. En Portugal 2021, vueltas 2–3, todo el pelotón tiene PitIn = 1 sin parar. En Qatar 2024,
-PitIn = 1 en las vueltas 35–37 con una sola parada real.
+`PitIn = PitInTime no nulo` de FastF1 (`scripts/build_dataframes.py`). **No es un error del posprocesamiento ni de FastF1.**
+En FastF1 3.8.3 crudo, Portugal 2021 (HAM, VER, NOR) trae `PitInTime` en las vueltas 2–3, `PitOutTime` en las 3–4 y
+`Stint` 1 → 2 → 3, igual que el CSV. Los mensajes de dirección de carrera lo explican: "SAFETY CAR THROUGH THE PIT LANE"
+(Portugal 2021, v. 2; São Paulo 2021, v. 7). El pelotón entero pasó por el pit lane detrás del SC, sin parar. Las banderas
+registran pasos reales por el pit lane, pero **no son paradas**. Qatar 2024 no se pudo bajar de FastF1 (falla la carga de
+la sesión), así que ese caso queda sin verificar [H].
 
 `01_pitin_vs_stints_20261027.py`: entre las vueltas con PitIn = 1, la proporción con parada real es 95 % en verde, 97 %
 bajo VSC y **63 % bajo SC**. En 2021–23, bajo SC, la tasa de PitIn es 11,7 % por vuelta y la de paradas reales 7,4 %.
