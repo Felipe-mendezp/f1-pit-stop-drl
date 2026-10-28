@@ -116,7 +116,7 @@ def main():
     with open(dst / 'README.md', 'w') as fh:
         fh.write(f'Arbol 2026-10-28 (scripts/build_simulation_v10e_20261028.py {V}, {'edad efectiva TL_GQ, ADOPTADO el 28-oct; usar con scripts/tyre_ages_v10eGQ_20261028.py (F1_TYRE_SETS y F1_TYRE_STINT_AGES con las edades de los juegos 2024 en vueltas de empuje)' if V == 'GQ' else 'PRUEBA de edad efectiva TL_G'}): v10 con compuestos corregidos (OpenF1, live timing) y pilotos de la Ec. 2 re-estimados; v7 con paradas reales en lugar de PitIn de '
                  'FastF1 (Ec. 1 y modelo SC/VSC sin pasos por el pit lane, LogitStop por evento, K1 con paradas reales), '
-                 'TyreLife 2021 x 0.740 y adelantamiento re-estimado. Origen de cada archivo en sources.csv.\n')
+                 f'TyreLife 2021 x factor de data/tyrelife_2021_factors_v10e{V}.json y adelantamiento re-estimado. Origen de cada archivo en sources.csv.\n')
     with open(dst1 / 'README.md', 'w') as fh:
         fh.write(f'Arbol 2026-10-28 (scripts/build_simulation_v10e_20261028.py {V}), mono-piloto: los 8 GP -> '
                  f'simulation_v10e{V}_20261028.\n')

@@ -1,93 +1,93 @@
 GP,coef,v7,v10
-Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1589314937591553,1.0039992332458496
-Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.47619178891181946,0.4222044050693512
-Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.20731014013290405,0.20758789777755737
-Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.3713442385196686,0.4785023033618927
+Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C0]",1.1589314937591553,0.9984453320503235
+Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C1]",0.47619178891181946,0.41465499997138977
+Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.20731014013290405,0.20879536867141724
+Bahrain Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",0.3713442385196686,0.4901691973209381
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",0.9844600558280945,0.9844600558280945
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",0.5026821494102478,0.5026821494102478
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.7433862686157227,1.7433862686157227
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.DEV]",1.8967770338058472,1.8864660263061523
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.DEV]",1.8967770338058472,1.885918378829956
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GAS]",1.1308865547180176,1.1308865547180176
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.433163046836853,1.4561396837234497
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.433163046836853,1.4553532600402832
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HAM]",0.47879910469055176,0.47879910469055176
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HUL]",1.0950144529342651,1.0950144529342651
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",3.1317832469940186,3.0025720596313477
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",3.1317832469940186,3.0022454261779785
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LEC]",0.33981773257255554,0.33981773257255554
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAG]",1.3065954446792603,1.3065954446792603
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.417739152908325,2.458117961883545
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.417739152908325,2.4591689109802246
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.NOR]",0.4315635859966278,0.4315635859966278
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.OCO]",1.0907474756240845,1.0907474756240845
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PER]",0.3577917814254761,0.3577917814254761
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PIA]",0.5196754336357117,0.5196754336357117
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.3778997659683228,1.300965666770935
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.3778997659683228,1.2998228073120117
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RIC]",1.0041331052780151,1.0041331052780151
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RUS]",0.44379061460494995,0.44379061460494995
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAI]",0.6053808927536011,0.6053808927536011
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAR]",1.3312965631484985,1.3312965631484985
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.STR]",0.6019267439842224,0.6019267439842224
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.TSU]",1.2146620750427246,1.2146620750427246
-Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.7293027639389038,1.8960914611816406
+Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.7293027639389038,1.8943688869476318
 Bahrain Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ZHO]",1.3924003839492798,1.3924003839492798
-Bahrain Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",2.2884786128997803,2.4654030799865723
-Bahrain Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.76442551612854,1.8109253644943237
-Bahrain Grand Prix,DRS,-0.2049662470817566,-0.14137002825737
-Bahrain Grand Prix,FirstLap_pos,0.5406963229179382,0.525065541267395
-Bahrain Grand Prix,Interval_behind,0.33009395003318787,0.402342826128006
-Bahrain Grand Prix,Interval_front,1.4416407346725464,1.3962395191192627
-Bahrain Grand Prix,LapNumber,-0.06686761975288391,-0.0854020044207573
-Bahrain Grand Prix,LapNumber_2,-0.00011767763498937711,0.0002845907583832741
-Bahrain Grand Prix,PitIn,2.632904052734375,2.6132161617279053
-Bahrain Grand Prix,PitOut,21.622201919555664,21.63182258605957
-Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C0],0.09752499312162399,0.10217355936765671
-Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C1],0.12233046442270279,0.11712218075990677
-Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C2],0.1484430581331253,0.13972336053848267
-Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C3],0.16272197663784027,0.1681918501853943
-Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C4],0.06351245194673538,0.11128589510917664
-Bahrain Grand Prix,Intercept,95.88233947753906,96.00450897216797
-Saudi Arabian Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.1823578029870987,-0.16531117260456085
-Saudi Arabian Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3093598484992981,-0.2929963767528534
+Bahrain Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",2.2884786128997803,2.4816465377807617
+Bahrain Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.76442551612854,1.8279422521591187
+Bahrain Grand Prix,DRS,-0.2049662470817566,-0.1415065973997116
+Bahrain Grand Prix,FirstLap_pos,0.5406963229179382,0.5247271060943604
+Bahrain Grand Prix,Interval_behind,0.33009395003318787,0.4016675651073456
+Bahrain Grand Prix,Interval_front,1.4416407346725464,1.396693229675293
+Bahrain Grand Prix,LapNumber,-0.06686761975288391,-0.0852552130818367
+Bahrain Grand Prix,LapNumber_2,-0.00011767763498937711,0.00028111832216382027
+Bahrain Grand Prix,PitIn,2.632904052734375,2.6140756607055664
+Bahrain Grand Prix,PitOut,21.622201919555664,21.6318416595459
+Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C0],0.09752499312162399,0.10220704227685928
+Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C1],0.12233046442270279,0.11711698770523071
+Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C2],0.1484430581331253,0.13881605863571167
+Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C3],0.16272197663784027,0.16741934418678284
+Bahrain Grand Prix,TyreLife:C(Compound_Detail)[C4],0.06351245194673538,0.10966415703296661
+Bahrain Grand Prix,Intercept,95.88233947753906,95.99304962158203
+Saudi Arabian Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.1823578029870987,-0.16690073907375336
+Saudi Arabian Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.3093598484992981,-0.2951763868331909
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",1.3613402843475342,1.3613402843475342
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",0.7939605116844177,0.7939605116844177
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",2.0068726539611816,2.0068726539611816
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.DEV]",1.756292700767517,1.746777892112732
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.DEV]",1.756292700767517,1.747119426727295
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GAS]",1.3004201650619507,1.3004201650619507
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.754060983657837,1.7318170070648193
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.754060983657837,1.7331589460372925
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HAM]",0.8140465617179871,0.8140465617179871
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HUL]",1.356702208518982,1.356702208518982
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.8404412269592285,2.810457229614258
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.8404412269592285,2.8117289543151855
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LEC]",0.38732287287712097,0.38732287287712097
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAG]",1.3856137990951538,1.3856137990951538
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",4.168745994567871,4.126955032348633
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.894632577896118,2.8465843200683594
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",4.168745994567871,4.127535820007324
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.894632577896118,2.8472347259521484
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.NOR]",0.5720609426498413,0.5720609426498413
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.OCO]",1.242465615272522,1.242465615272522
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PER]",0.38909369707107544,0.38909369707107544
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PIA]",0.7285462617874146,0.7285462617874146
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",2.2235939502716064,2.264075994491577
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",2.2235939502716064,2.264155626296997
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RIC]",1.3908838033676147,1.3908838033676147
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RUS]",0.5836672782897949,0.5836672782897949
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAI]",1.1582133769989014,1.1582133769989014
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAR]",1.5181764364242554,1.5181764364242554
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.STR]",0.9244070649147034,0.9244070649147034
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.TSU]",1.5053741931915283,1.5053741931915283
-Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",2.3293190002441406,2.3309476375579834
+Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",2.3293190002441406,2.3306963443756104
 Saudi Arabian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ZHO]",2.517841339111328,2.517841339111328
-Saudi Arabian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",1.2242172956466675,1.1799201965332031
-Saudi Arabian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.0753060579299927,1.0330641269683838
-Saudi Arabian Grand Prix,DRS,-0.17262212932109833,-0.17213329672813416
-Saudi Arabian Grand Prix,FirstLap_pos,0.523173987865448,0.5250110626220703
-Saudi Arabian Grand Prix,Interval_behind,1.04242742061615,1.0540391206741333
-Saudi Arabian Grand Prix,Interval_front,1.3035391569137573,1.3118915557861328
-Saudi Arabian Grand Prix,LapNumber,-0.07552310824394226,-0.0742124393582344
-Saudi Arabian Grand Prix,LapNumber_2,0.00022667914163321257,0.00018971097597386688
-Saudi Arabian Grand Prix,PitIn,3.410775661468506,3.426107168197632
-Saudi Arabian Grand Prix,PitOut,18.670921325683594,18.86216163635254
-Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.007924260571599007,0.01112639345228672
-Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.009727629832923412,0.015934547409415245
-Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.011235866695642471,0.0198871660977602
-Saudi Arabian Grand Prix,Intercept,94.16586303710938,94.14925384521484
-Miami Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.1408369243144989,-0.1217954084277153
-Miami Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.23892197012901306,-0.21586935222148895
+Saudi Arabian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",1.2242172956466675,1.1814582347869873
+Saudi Arabian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.0753060579299927,1.0347408056259155
+Saudi Arabian Grand Prix,DRS,-0.17262212932109833,-0.1721658706665039
+Saudi Arabian Grand Prix,FirstLap_pos,0.523173987865448,0.5249950885772705
+Saudi Arabian Grand Prix,Interval_behind,1.04242742061615,1.0538746118545532
+Saudi Arabian Grand Prix,Interval_front,1.3035391569137573,1.3119076490402222
+Saudi Arabian Grand Prix,LapNumber,-0.07552310824394226,-0.07423803210258484
+Saudi Arabian Grand Prix,LapNumber_2,0.00022667914163321257,0.00019032055570278317
+Saudi Arabian Grand Prix,PitIn,3.410775661468506,3.426987886428833
+Saudi Arabian Grand Prix,PitOut,18.670921325683594,18.861371994018555
+Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.007924260571599007,0.011125239543616772
+Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.009727629832923412,0.01610071212053299
+Saudi Arabian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.011235866695642471,0.020186159759759903
+Saudi Arabian Grand Prix,Intercept,94.16586303710938,94.14851379394531
+Miami Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.1408369243144989,-0.12256903201341629
+Miami Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.23892197012901306,-0.21677245199680328
 Miami Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",1.5168182849884033,1.5168182849884033
 Miami Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",1.1022439002990723,1.1022439002990723
 Miami Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.5293511152267456,1.5293511152267456
@@ -120,54 +120,54 @@ Miami Grand Prix,LapNumber,-0.07629650831222534,-0.0768706202507019
 Miami Grand Prix,LapNumber_2,0.0004199006943963468,0.00044047224218957126
 Miami Grand Prix,PitIn,5.039955139160156,5.045811653137207
 Miami Grand Prix,PitOut,15.376443862915039,15.380184173583984
-Miami Grand Prix,TyreLife:C(Compound_Detail)[C2],0.01657196320593357,0.016285758465528488
-Miami Grand Prix,TyreLife:C(Compound_Detail)[C3],0.019259599968791008,0.019799241796135902
-Miami Grand Prix,TyreLife:C(Compound_Detail)[C4],0.021405894309282303,0.022335201501846313
+Miami Grand Prix,TyreLife:C(Compound_Detail)[C2],0.01657196320593357,0.016271574422717094
+Miami Grand Prix,TyreLife:C(Compound_Detail)[C3],0.019259599968791008,0.019834918901324272
+Miami Grand Prix,TyreLife:C(Compound_Detail)[C4],0.021405894309282303,0.022389372810721397
 Miami Grand Prix,Intercept,94.80982208251953,94.8150405883789
-Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.058678824454545975,0.1300148218870163
-Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14143359661102295,-0.17438958585262299
-Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.2828671932220459,-0.34877917170524597
+Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.058678824454545975,0.13855351507663727
+Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.14143359661102295,-0.17779500782489777
+Hungarian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.2828671932220459,-0.35559001564979553
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",1.0656211376190186,1.0656211376190186
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",1.1244319677352905,1.1244319677352905
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.2808196544647217,1.2808196544647217
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GAS]",1.231720209121704,1.231720209121704
-Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.2152403593063354,1.1848886013031006
+Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.2152403593063354,1.1845976114273071
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HAM]",0.3850385844707489,0.3850385844707489
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HUL]",0.9290061593055725,0.9290061593055725
-Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",1.3915773630142212,1.3746178150177002
+Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",1.3915773630142212,1.3747597932815552
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LEC]",0.24776232242584229,0.24776232242584229
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAG]",1.2839150428771973,1.2839150428771973
-Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",1.3742656707763672,1.3610836267471313
+Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",1.3742656707763672,1.3602951765060425
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.NOR]",-0.10654523968696594,-0.10654523968696594
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.OCO]",1.340927004814148,1.340927004814148
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PER]",0.8117029070854187,0.8117029070854187
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PIA]",-0.005154221784323454,-0.005154221784323454
-Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.1361254453659058,1.1218955516815186
+Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.1361254453659058,1.1233789920806885
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RIC]",0.9625830054283142,0.9625830054283142
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RUS]",0.3350915312767029,0.3350915312767029
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAI]",0.1464514583349228,0.1464514583349228
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAR]",1.454819679260254,1.454819679260254
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.STR]",1.158582091331482,1.158582091331482
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.TSU]",0.9811564683914185,0.9811564683914185
-Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",0.31164953112602234,0.3008298873901367
+Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",0.31164953112602234,0.3005756735801697
 Hungarian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ZHO]",1.4316353797912598,1.4316353797912598
-Hungarian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",1.3323545455932617,1.406974196434021
-Hungarian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.2949429750442505,1.3803355693817139
-Hungarian Grand Prix,DRS,-0.0770079493522644,-0.07629309594631195
-Hungarian Grand Prix,FirstLap_pos,-7.710955965000051e-16,7.272138502925242e-17
-Hungarian Grand Prix,Interval_behind,0.7806862592697144,0.776947021484375
-Hungarian Grand Prix,Interval_front,1.251009225845337,1.2540764808654785
-Hungarian Grand Prix,LapNumber,-0.05357704684138298,-0.05861939117312431
-Hungarian Grand Prix,LapNumber_2,0.0001434452278772369,0.00019369047367945313
-Hungarian Grand Prix,PitIn,2.5668179988861084,2.5425240993499756
-Hungarian Grand Prix,PitOut,19.7278995513916,19.75416374206543
-Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.052394114434719086,0.04922475293278694
-Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.05538496747612953,0.0576787032186985
-Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.061185073107481,0.06615645438432693
-Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C5],0.06759258359670639,0.07588028162717819
-Hungarian Grand Prix,Intercept,83.41268920898438,83.45427703857422
-Belgian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.17612102627754211,0.14367960393428802
-Belgian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.12265846133232117,-0.11097714304924011
+Hungarian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",1.3323545455932617,1.4163939952850342
+Hungarian Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",1.2949429750442505,1.3897236585617065
+Hungarian Grand Prix,DRS,-0.0770079493522644,-0.07587695121765137
+Hungarian Grand Prix,FirstLap_pos,-7.710955965000051e-16,2.1052472390831233e-15
+Hungarian Grand Prix,Interval_behind,0.7806862592697144,0.7765076160430908
+Hungarian Grand Prix,Interval_front,1.251009225845337,1.2528811693191528
+Hungarian Grand Prix,LapNumber,-0.05357704684138298,-0.058763954788446426
+Hungarian Grand Prix,LapNumber_2,0.0001434452278772369,0.00019599433289840817
+Hungarian Grand Prix,PitIn,2.5668179988861084,2.543297052383423
+Hungarian Grand Prix,PitOut,19.7278995513916,19.752742767333984
+Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.052394114434719086,0.04851440712809563
+Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.05538496747612953,0.05744720995426178
+Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.061185073107481,0.06611588597297668
+Hungarian Grand Prix,TyreLife:C(Compound_Detail)[C5],0.06759258359670639,0.0760926604270935
+Hungarian Grand Prix,Intercept,83.41268920898438,83.44869995117188
+Belgian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C2]",0.17612102627754211,0.1449875682592392
+Belgian Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.12265846133232117,-0.1114337295293808
 Belgian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",1.7219009399414062,1.7219009399414062
 Belgian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",1.357267141342163,1.357267141342163
 Belgian Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.7134990692138672,1.7134990692138672
@@ -199,26 +199,26 @@ Belgian Grand Prix,LapNumber,-0.06081373244524002,-0.08130637556314468
 Belgian Grand Prix,LapNumber_2,-0.00040288688614964485,-0.00016024732030928135
 Belgian Grand Prix,PitIn,4.088315963745117,4.158376693725586
 Belgian Grand Prix,PitOut,14.449986457824707,14.448351860046387
-Belgian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.15299932658672333,0.15761004388332367
-Belgian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.16855701804161072,0.17797894775867462
-Belgian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.1804315447807312,0.19183750450611115
+Belgian Grand Prix,TyreLife:C(Compound_Detail)[C2],0.15299932658672333,0.15740011632442474
+Belgian Grand Prix,TyreLife:C(Compound_Detail)[C3],0.16855701804161072,0.17799532413482666
+Belgian Grand Prix,TyreLife:C(Compound_Detail)[C4],0.1804315447807312,0.1919015496969223
 Belgian Grand Prix,Intercept,112.41313934326172,112.81680297851562
-Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40768495202064514,0.372769832611084
-Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.24636685848236084,0.194743812084198
-Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18995103240013123,-0.18836604058742523
+Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C0]",0.40768495202064514,0.3708372414112091
+Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C1]",0.24636685848236084,0.1878891885280609
+Dutch Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.18995103240013123,-0.19056865572929382
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",0.9235764741897583,0.9235764741897583
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",0.7796237468719482,0.7796237468719482
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.2680283784866333,1.2680283784866333
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GAS]",0.9629684090614319,0.9629684090614319
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.765313744544983,1.7772520780563354
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.765313744544983,1.776885747909546
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HAM]",0.24334383010864258,0.24334383010864258
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HUL]",1.4372081756591797,1.4372081756591797
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.KUB]",2.2029263973236084,2.211282730102539
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.3204216957092285,2.3306493759155273
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.KUB]",2.2029263973236084,2.210970640182495
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.3204216957092285,2.329481363296509
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LEC]",0.48156413435935974,0.48156413435935974
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAG]",0.9241448640823364,0.9241448640823364
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",2.4840872287750244,2.51460862159729
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.2456183433532715,2.2047290802001953
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",2.4840872287750244,2.5144660472869873
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.2456183433532715,2.204270362854004
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.NOR]",0.11378905922174454,0.11378905922174454
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.OCO]",1.1016405820846558,1.1016405820846558
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PER]",0.6228162050247192,0.6228162050247192
@@ -229,24 +229,24 @@ Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAI]",0.96637481451034
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAR]",1.1400071382522583,1.1400071382522583
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.STR]",0.8637923002243042,0.8637923002243042
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.TSU]",0.9248236417770386,0.9248236417770386
-Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.5160330533981323,1.5561463832855225
+Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.5160330533981323,1.556007742881775
 Dutch Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ZHO]",1.3679739236831665,1.3679739236831665
-Dutch Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",0.4865095913410187,0.5878530740737915
-Dutch Grand Prix,DRS,-0.3255517780780792,-0.340840607881546
-Dutch Grand Prix,FirstLap_pos,0.6586158275604248,0.6568509936332703
-Dutch Grand Prix,Interval_behind,0.708274245262146,0.7673707604408264
-Dutch Grand Prix,Interval_front,1.3277695178985596,1.3475637435913086
-Dutch Grand Prix,LapNumber,-0.06513279676437378,-0.0672052800655365
-Dutch Grand Prix,LapNumber_2,0.0002751495048869401,0.0003384914016351104
-Dutch Grand Prix,PitIn,3.366677761077881,3.330181121826172
-Dutch Grand Prix,PitOut,18.927019119262695,18.91608428955078
-Dutch Grand Prix,TyreLife:C(Compound_Detail)[C0],0.04756036400794983,0.04259241744875908
-Dutch Grand Prix,TyreLife:C(Compound_Detail)[C1],0.042946480214595795,0.040975723415613174
-Dutch Grand Prix,TyreLife:C(Compound_Detail)[C2],0.052778854966163635,0.04908886179327965
-Dutch Grand Prix,TyreLife:C(Compound_Detail)[C3],0.058205027133226395,0.059352412819862366
-Dutch Grand Prix,Intercept,75.97652435302734,75.9584732055664
-Singapore Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.19971001148223877,-0.20306344330310822
-Singapore Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.39942002296447754,-0.40612688660621643
+Dutch Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",0.4865095913410187,0.5952764749526978
+Dutch Grand Prix,DRS,-0.3255517780780792,-0.34125444293022156
+Dutch Grand Prix,FirstLap_pos,0.6586158275604248,0.6567656397819519
+Dutch Grand Prix,Interval_behind,0.708274245262146,0.7670588493347168
+Dutch Grand Prix,Interval_front,1.3277695178985596,1.3479764461517334
+Dutch Grand Prix,LapNumber,-0.06513279676437378,-0.0671401247382164
+Dutch Grand Prix,LapNumber_2,0.0002751495048869401,0.000337322213454172
+Dutch Grand Prix,PitIn,3.366677761077881,3.3312716484069824
+Dutch Grand Prix,PitOut,18.927019119262695,18.915512084960938
+Dutch Grand Prix,TyreLife:C(Compound_Detail)[C0],0.04756036400794983,0.042346928268671036
+Dutch Grand Prix,TyreLife:C(Compound_Detail)[C1],0.042946480214595795,0.04077406972646713
+Dutch Grand Prix,TyreLife:C(Compound_Detail)[C2],0.052778854966163635,0.048567116260528564
+Dutch Grand Prix,TyreLife:C(Compound_Detail)[C3],0.058205027133226395,0.05889321491122246
+Dutch Grand Prix,Intercept,75.97652435302734,75.95616149902344
+Singapore Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C4]",-0.19971001148223877,-0.20445142686367035
+Singapore Grand Prix,"C(Compound_Detail, Treatment(reference='C3'))[T.C5]",-0.39942002296447754,-0.4089028537273407
 Singapore Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",0.735186755657196,0.735186755657196
 Singapore Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",0.6901911497116089,0.6901911497116089
 Singapore Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.6868810653686523,1.6868810653686523
@@ -275,48 +275,48 @@ Singapore Grand Prix,LapNumber,-0.0424676313996315,-0.04034501686692238
 Singapore Grand Prix,LapNumber_2,-5.451518882182427e-05,-4.575971615849994e-05
 Singapore Grand Prix,PitIn,9.244342803955078,9.23562240600586
 Singapore Grand Prix,PitOut,21.68869972229004,21.6225643157959
-Singapore Grand Prix,TyreLife:C(Compound_Detail)[C3],0.040957458317279816,0.04047215357422829
-Singapore Grand Prix,TyreLife:C(Compound_Detail)[C4],0.04581386595964432,0.0464821457862854
-Singapore Grand Prix,TyreLife:C(Compound_Detail)[C5],0.05124611034989357,0.05338459834456444
+Singapore Grand Prix,TyreLife:C(Compound_Detail)[C3],0.040957458317279816,0.04045094922184944
+Singapore Grand Prix,TyreLife:C(Compound_Detail)[C4],0.04581386595964432,0.04651135206222534
+Singapore Grand Prix,TyreLife:C(Compound_Detail)[C5],0.05124611034989357,0.05347972363233566
 Singapore Grand Prix,Intercept,99.84181213378906,99.85983276367188
-United States Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.17826619744300842,-0.15393446385860443
-United States Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30241864919662476,-0.27283239364624023
+United States Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C3]",-0.17826619744300842,-0.15570871531963348
+United States Grand Prix,"C(Compound_Detail, Treatment(reference='C2'))[T.C4]",-0.30241864919662476,-0.27538245916366577
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALB]",0.8957445025444031,0.8957445025444031
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ALO]",0.6339100003242493,0.6339100003242493
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.BOT]",1.559535026550293,1.559535026550293
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GAS]",1.1402573585510254,1.1402573585510254
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.9504790306091309,1.9438151121139526
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.GIO]",1.9504790306091309,1.9432761669158936
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HAM]",0.4201458990573883,0.4201458990573883
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.HUL]",0.8292207717895508,0.8292207717895508
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.6542110443115234,2.758922576904297
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LAT]",2.6542110443115234,2.75911021232605
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.LEC]",-0.01947213150560856,-0.01947213150560856
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAG]",0.9759143590927124,0.9759143590927124
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",4.287179946899414,4.3047661781311035
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.657418727874756,2.6247920989990234
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MAZ]",4.287179946899414,4.305609226226807
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.MSC]",2.657418727874756,2.6255507469177246
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.NOR]",-0.11352095752954483,-0.11352095752954483
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.OCO]",1.394531488418579,1.394531488418579
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PER]",0.5352954864501953,0.5352954864501953
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.PIA]",-0.00043564080260694027,-0.00043564080260694027
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.8629950284957886,1.8201868534088135
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RAI]",1.8629950284957886,1.8210676908493042
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RIC]",1.4185492992401123,1.4185492992401123
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.RUS]",0.29470035433769226,0.29470035433769226
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAI]",0.15628735721111298,0.15628735721111298
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.SAR]",1.0941561460494995,1.0941561460494995
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.STR]",1.2125908136367798,1.2125908136367798
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.TSU]",1.1976711750030518,1.1976711750030518
-United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.6821463108062744,1.7458479404449463
+United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.VET]",1.6821463108062744,1.7462928295135498
 United States Grand Prix,"C(Driver, Treatment(reference='VER'))[T.ZHO]",2.20981764793396,2.20981764793396
-United States Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",0.28381890058517456,0.4149720072746277
-United States Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",-0.05470694229006767,-0.07703198492527008
-United States Grand Prix,DRS,-0.3392927050590515,-0.3762286305427551
-United States Grand Prix,FirstLap_pos,0.35277652740478516,0.3718147277832031
-United States Grand Prix,Interval_behind,0.5204303860664368,0.6737194657325745
-United States Grand Prix,Interval_front,1.7713741064071655,1.9245463609695435
-United States Grand Prix,LapNumber,-0.08287841826677322,-0.06632468104362488
-United States Grand Prix,LapNumber_2,0.00037144674570299685,7.358127186307684e-05
-United States Grand Prix,PitIn,0.4351825714111328,0.4013381600379944
-United States Grand Prix,PitOut,20.2330379486084,20.283044815063477
-United States Grand Prix,TyreLife:C(Compound_Detail)[C2],0.06856841593980789,0.07829319685697556
-United States Grand Prix,TyreLife:C(Compound_Detail)[C3],0.07591160386800766,0.08848942816257477
-United States Grand Prix,TyreLife:C(Compound_Detail)[C4],0.08153965324163437,0.09543163329362869
-United States Grand Prix,Intercept,102.14868927001953,101.8504638671875
+United States Grand Prix,"C(Year, Treatment(reference='2021'))[T.2022]",0.28381890058517456,0.4237407445907593
+United States Grand Prix,"C(Year, Treatment(reference='2021'))[T.2023]",-0.05470694229006767,-0.06851054728031158
+United States Grand Prix,DRS,-0.3392927050590515,-0.37652742862701416
+United States Grand Prix,FirstLap_pos,0.35277652740478516,0.3717164993286133
+United States Grand Prix,Interval_behind,0.5204303860664368,0.6740219593048096
+United States Grand Prix,Interval_front,1.7713741064071655,1.9258074760437012
+United States Grand Prix,LapNumber,-0.08287841826677322,-0.06635940819978714
+United States Grand Prix,LapNumber_2,0.00037144674570299685,7.345432095462456e-05
+United States Grand Prix,PitIn,0.4351825714111328,0.399677038192749
+United States Grand Prix,PitOut,20.2330379486084,20.28512954711914
+United States Grand Prix,TyreLife:C(Compound_Detail)[C2],0.06856841593980789,0.07817938178777695
+United States Grand Prix,TyreLife:C(Compound_Detail)[C3],0.07591160386800766,0.08851616084575653
+United States Grand Prix,TyreLife:C(Compound_Detail)[C4],0.08153965324163437,0.09550251066684723
+United States Grand Prix,Intercept,102.14868927001953,101.84417724609375

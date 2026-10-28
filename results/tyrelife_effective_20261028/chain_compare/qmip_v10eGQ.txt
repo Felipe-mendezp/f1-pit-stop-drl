@@ -1,8 +1,8 @@
-Bahrain Grand Prix           comps=[1, 2, 3] A=4  QMIP   5604.40 [start C2 L18->C1 L38->C2]  DP   5604.40 C1(20) C2(18) C2(19)  OK
+Bahrain Grand Prix           comps=[1, 2, 3] A=4  QMIP   5603.34 [start C2 L19->C1 L39->C2]  DP   5603.34 C1(20) C2(18) C2(19)  OK
 Belgian Grand Prix           comps=[2, 3, 4] A=4  QMIP   5054.17 [start C4 L14->C4 L28->C2]  DP   5054.17 C2(16) C4(14) C4(14)  OK
-Dutch Grand Prix             comps=[1, 2, 3] A=4  QMIP   5550.77 [start C3 L24->C3 L48->C2]  DP   5550.77 C2(24) C3(24) C3(24)  OK
-Hungarian Grand Prix         comps=[3, 4, 5] A=4  QMIP   5922.82 [start C5 L23->C5 L46->C4]  DP   5922.82 C4(24) C5(23) C5(23)  OK
-Miami Grand Prix             comps=[2, 3, 4] A=4  QMIP   5431.77 [start C4 L29->C3]  DP   5431.77 C3(28) C4(29)  OK
-Saudi Arabian Grand Prix     comps=[2, 3, 4] A=4  QMIP   4729.03 [start C4 L26->C3]  DP   4729.03 C3(24) C4(26)  OK
-Singapore Grand Prix         comps=[3, 4, 5] A=4  QMIP   6249.72 [start C5 L31->C4]  DP   6249.72 C4(31) C5(31)  OK
-United States Grand Prix     comps=[2, 3, 4] A=4  QMIP   5778.03 [start C4 L19->C4 L37->C3]  DP   5778.03 C3(19) C4(18) C4(19)  OK
+Dutch Grand Prix             comps=[1, 2, 3] A=4  QMIP   5550.10 [start C3 L24->C3 L48->C2]  DP   5550.10 C2(24) C3(24) C3(24)  OK
+Hungarian Grand Prix         comps=[3, 4, 5] A=4  QMIP   5922.13 [start C5 L23->C5 L46->C4]  DP   5922.13 C4(24) C5(23) C5(23)  OK
+Miami Grand Prix             comps=[2, 3, 4] A=4  QMIP   5431.75 [start C4 L29->C3]  DP   5431.75 C3(28) C4(29)  OK
+Saudi Arabian Grand Prix     comps=[2, 3, 4] A=4  QMIP   4729.04 [start C4 L26->C3]  DP   4729.04 C3(24) C4(26)  OK
+Singapore Grand Prix         comps=[3, 4, 5] A=4  QMIP   6249.65 [start C5 L31->C4]  DP   6249.65 C4(31) C5(31)  OK
+United States Grand Prix     comps=[2, 3, 4] A=4  QMIP   5777.57 [start C4 L19->C4 L37->C3]  DP   5777.57 C3(19) C4(18) C4(19)  OK

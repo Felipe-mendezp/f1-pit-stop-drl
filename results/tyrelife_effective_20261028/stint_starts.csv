@@ -99,8 +99,8 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Azerbaijan Grand Prix,ALO,35.0,SOFT,2.0,0,0,0,0.0
 2021,Azerbaijan Grand Prix,BOT,1.0,SOFT,4.0,0,0,0,0.0
 2021,Azerbaijan Grand Prix,BOT,12.0,HARD,0.0,0,0,0,0.0
-2021,Azerbaijan Grand Prix,BOT,48.0,SOFT,4.0,0,0,0,0.0
-2021,Azerbaijan Grand Prix,BOT,49.0,SOFT,4.0,0,0,0,0.0
+2021,Azerbaijan Grand Prix,BOT,48.0,SOFT,4.0,1,1,0,1.0
+2021,Azerbaijan Grand Prix,BOT,49.0,SOFT,4.0,1,1,0,1.0
 2021,Azerbaijan Grand Prix,GAS,1.0,SOFT,5.0,2,2,0,2.0
 2021,Azerbaijan Grand Prix,GAS,12.0,HARD,0.0,0,0,0,0.0
 2021,Azerbaijan Grand Prix,GAS,49.0,SOFT,2.0,0,0,0,0.0
@@ -191,7 +191,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Bahrain Grand Prix,PER,1.0,MEDIUM,3.0,1,1,0,1.0
 2021,Bahrain Grand Prix,PER,3.0,MEDIUM,3.0,1,1,0,1.0
 2021,Bahrain Grand Prix,PER,20.0,HARD,0.0,0,0,0,0.0
-2021,Bahrain Grand Prix,PER,39.0,MEDIUM,5.0,0,0,5,1.3392496974586527
+2021,Bahrain Grand Prix,PER,39.0,MEDIUM,5.0,0,0,5,1.3475462590506837
 2021,Bahrain Grand Prix,RAI,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,Bahrain Grand Prix,RAI,14.0,HARD,0.0,0,0,0,0.0
 2021,Bahrain Grand Prix,RAI,30.0,MEDIUM,0.0,0,0,0,0.0
@@ -236,9 +236,9 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Belgian Grand Prix,VER,1.0,UNKNOWN,0.0,0,0,0,0.0
 2021,Belgian Grand Prix,VET,1.0,UNKNOWN,0.0,0,0,0,0.0
 2021,British Grand Prix,ALO,1.0,MEDIUM,0.0,0,0,0,0.0
-2021,British Grand Prix,ALO,3.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2021,British Grand Prix,ALO,3.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2021,British Grand Prix,ALO,25.0,HARD,0.0,0,0,0,0.0
-2021,British Grand Prix,BOT,1.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2021,British Grand Prix,BOT,1.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2021,British Grand Prix,BOT,3.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,BOT,23.0,HARD,0.0,0,0,0,0.0
 2021,British Grand Prix,GAS,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -247,7 +247,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,British Grand Prix,GIO,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,GIO,3.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,GIO,24.0,HARD,0.0,0,0,0,0.0
-2021,British Grand Prix,HAM,1.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2021,British Grand Prix,HAM,1.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2021,British Grand Prix,HAM,3.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,HAM,28.0,HARD,0.0,0,0,0,0.0
 2021,British Grand Prix,LAT,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -260,7 +260,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,British Grand Prix,MAZ,3.0,MEDIUM,3.0,1,0,0,1.0
 2021,British Grand Prix,MAZ,26.0,HARD,0.0,0,0,0,0.0
 2021,British Grand Prix,MSC,1.0,MEDIUM,3.0,1,0,0,1.0
-2021,British Grand Prix,MSC,3.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2021,British Grand Prix,MSC,3.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2021,British Grand Prix,MSC,25.0,HARD,0.0,0,0,0,0.0
 2021,British Grand Prix,NOR,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,NOR,22.0,HARD,0.0,0,0,0,0.0
@@ -283,7 +283,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,British Grand Prix,SAI,3.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,SAI,29.0,HARD,0.0,0,0,0,0.0
 2021,British Grand Prix,STR,1.0,MEDIUM,3.0,1,0,0,1.0
-2021,British Grand Prix,STR,3.0,MEDIUM,2.0,0,0,2,0.535699878983461
+2021,British Grand Prix,STR,3.0,MEDIUM,2.0,0,0,2,0.5390185036202735
 2021,British Grand Prix,STR,24.0,HARD,2.0,0,0,0,0.0
 2021,British Grand Prix,TSU,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,British Grand Prix,TSU,31.0,HARD,0.0,0,0,0,0.0
@@ -341,17 +341,17 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Dutch Grand Prix,VET,45.0,MEDIUM,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,ALO,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,ALO,29.0,MEDIUM,0.0,0,0,0,0.0
-2021,Emilia Romagna Grand Prix,ALO,33.0,MEDIUM,3.0,0,0,3,0.8035498184751916
+2021,Emilia Romagna Grand Prix,ALO,33.0,MEDIUM,3.0,0,0,3,0.8085277554304102
 2021,Emilia Romagna Grand Prix,BOT,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,BOT,29.0,MEDIUM,3.0,1,1,0,1.0
 2021,Emilia Romagna Grand Prix,GAS,1.0,WET,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,GAS,15.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,GAS,27.0,MEDIUM,0.0,0,0,0,0.0
-2021,Emilia Romagna Grand Prix,GAS,33.0,MEDIUM,5.0,0,0,5,1.3392496974586527
+2021,Emilia Romagna Grand Prix,GAS,33.0,MEDIUM,5.0,0,0,5,1.3475462590506837
 2021,Emilia Romagna Grand Prix,GIO,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,GIO,28.0,MEDIUM,0.0,0,0,0,0.0
-2021,Emilia Romagna Grand Prix,GIO,33.0,MEDIUM,4.0,0,0,4,1.071399757966922
-2021,Emilia Romagna Grand Prix,GIO,34.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2021,Emilia Romagna Grand Prix,GIO,33.0,MEDIUM,4.0,0,0,4,1.078037007240547
+2021,Emilia Romagna Grand Prix,GIO,34.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2021,Emilia Romagna Grand Prix,HAM,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,HAM,29.0,MEDIUM,4.0,1,1,0,1.0
 2021,Emilia Romagna Grand Prix,HAM,32.0,MEDIUM,0.0,0,0,0,0.0
@@ -374,11 +374,11 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Emilia Romagna Grand Prix,OCO,2.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,OCO,28.0,MEDIUM,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,OCO,32.0,SOFT,2.0,0,0,0,0.0
-2021,Emilia Romagna Grand Prix,OCO,33.0,MEDIUM,4.0,0,0,4,1.071399757966922
-2021,Emilia Romagna Grand Prix,OCO,34.0,MEDIUM,4.0,0,0,4,1.071399757966922
+2021,Emilia Romagna Grand Prix,OCO,33.0,MEDIUM,4.0,0,0,4,1.078037007240547
+2021,Emilia Romagna Grand Prix,OCO,34.0,MEDIUM,4.0,0,0,4,1.078037007240547
 2021,Emilia Romagna Grand Prix,PER,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,PER,29.0,MEDIUM,0.0,0,0,0,0.0
-2021,Emilia Romagna Grand Prix,PER,34.0,SOFT,2.0,0,0,2,0.535699878983461
+2021,Emilia Romagna Grand Prix,PER,34.0,SOFT,2.0,0,0,2,0.5390185036202735
 2021,Emilia Romagna Grand Prix,RAI,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,RAI,27.0,MEDIUM,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,RAI,33.0,MEDIUM,5.0,2,0,0,2.0
@@ -393,7 +393,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Emilia Romagna Grand Prix,STR,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,STR,28.0,MEDIUM,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,STR,33.0,MEDIUM,4.0,1,0,0,1.0
-2021,Emilia Romagna Grand Prix,STR,34.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2021,Emilia Romagna Grand Prix,STR,34.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2021,Emilia Romagna Grand Prix,TSU,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,TSU,26.0,MEDIUM,0.0,0,0,0,0.0
 2021,Emilia Romagna Grand Prix,TSU,33.0,SOFT,0.0,0,0,0,0.0
@@ -460,7 +460,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Hungarian Grand Prix,GIO,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,Hungarian Grand Prix,GIO,2.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Hungarian Grand Prix,GIO,3.0,INTERMEDIATE,0.0,0,0,0,0.0
-2021,Hungarian Grand Prix,GIO,4.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2021,Hungarian Grand Prix,GIO,4.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2021,Hungarian Grand Prix,GIO,34.0,HARD,0.0,0,0,0,0.0
 2021,Hungarian Grand Prix,HAM,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2021,Hungarian Grand Prix,HAM,3.0,INTERMEDIATE,0.0,0,0,0,0.0
@@ -613,7 +613,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Monaco Grand Prix,GIO,34.0,HARD,0.0,0,0,0,0.0
 2021,Monaco Grand Prix,HAM,1.0,SOFT,4.0,1,1,0,1.0
 2021,Monaco Grand Prix,HAM,30.0,HARD,0.0,0,0,0,0.0
-2021,Monaco Grand Prix,HAM,68.0,SOFT,4.0,1,1,0,1.0
+2021,Monaco Grand Prix,HAM,68.0,SOFT,4.0,2,2,0,2.0
 2021,Monaco Grand Prix,LAT,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,Monaco Grand Prix,LAT,44.0,HARD,0.0,0,0,0,0.0
 2021,Monaco Grand Prix,LEC,1.0,SOFT,4.0,1,1,0,1.0
@@ -809,7 +809,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Saudi Arabian Grand Prix,LAT,1.0,MEDIUM,0.0,0,0,0,0.0
 2021,Saudi Arabian Grand Prix,LAT,11.0,HARD,0.0,0,0,0,0.0
 2021,Saudi Arabian Grand Prix,LAT,14.0,MEDIUM,0.0,0,0,0,0.0
-2021,Saudi Arabian Grand Prix,LAT,16.0,HARD,3.0,0,0,3,0.8035498184751916
+2021,Saudi Arabian Grand Prix,LAT,16.0,HARD,3.0,0,0,3,0.8085277554304102
 2021,Saudi Arabian Grand Prix,LEC,1.0,MEDIUM,5.0,2,2,0,2.0
 2021,Saudi Arabian Grand Prix,LEC,11.0,HARD,0.0,0,0,0,0.0
 2021,Saudi Arabian Grand Prix,MAZ,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -837,7 +837,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Saudi Arabian Grand Prix,TSU,1.0,MEDIUM,7.0,3,3,0,3.0
 2021,Saudi Arabian Grand Prix,TSU,14.0,HARD,0.0,0,0,0,0.0
 2021,Saudi Arabian Grand Prix,TSU,16.0,MEDIUM,2.0,0,0,0,0.0
-2021,Saudi Arabian Grand Prix,TSU,24.0,HARD,2.0,0,0,2,0.535699878983461
+2021,Saudi Arabian Grand Prix,TSU,24.0,HARD,2.0,0,0,2,0.5390185036202735
 2021,Saudi Arabian Grand Prix,VER,1.0,MEDIUM,4.0,1,1,0,1.0
 2021,Saudi Arabian Grand Prix,VER,14.0,HARD,0.0,0,0,0,0.0
 2021,Saudi Arabian Grand Prix,VER,16.0,MEDIUM,0.0,0,0,0,0.0
@@ -884,7 +884,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2021,Spanish Grand Prix,RAI,38.0,SOFT,0.0,0,0,0,0.0
 2021,Spanish Grand Prix,RIC,1.0,SOFT,3.0,1,1,0,1.0
 2021,Spanish Grand Prix,RIC,26.0,MEDIUM,0.0,0,0,0,0.0
-2021,Spanish Grand Prix,RIC,47.0,SOFT,1.0,0,0,1,0.2678499394917305
+2021,Spanish Grand Prix,RIC,47.0,SOFT,1.0,0,0,1,0.26950925181013674
 2021,Spanish Grand Prix,RUS,1.0,SOFT,0.0,0,0,0,0.0
 2021,Spanish Grand Prix,RUS,10.0,MEDIUM,0.0,0,0,0,0.0
 2021,Spanish Grand Prix,RUS,29.0,MEDIUM,0.0,0,0,0,0.0
@@ -1186,7 +1186,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Australian Grand Prix,STR,1.0,HARD,1.0,0,0,0,0.0
 2022,Australian Grand Prix,STR,4.0,MEDIUM,2.0,0,0,0,0.0
 2022,Australian Grand Prix,STR,5.0,HARD,0.0,0,0,0,0.0
-2022,Australian Grand Prix,STR,24.0,HARD,4.0,0,0,4,1.071399757966922
+2022,Australian Grand Prix,STR,24.0,HARD,4.0,0,0,4,1.078037007240547
 2022,Australian Grand Prix,TSU,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,Australian Grand Prix,TSU,19.0,HARD,0.0,0,0,0,0.0
 2022,Australian Grand Prix,VER,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -1224,7 +1224,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Austrian Grand Prix,RIC,13.0,HARD,0.0,0,0,0,0.0
 2022,Austrian Grand Prix,RUS,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,Austrian Grand Prix,RUS,12.0,HARD,0.0,0,0,0,0.0
-2022,Austrian Grand Prix,RUS,41.0,NA,3.0,0,0,3,0.8035498184751916
+2022,Austrian Grand Prix,RUS,41.0,NA,3.0,0,0,3,0.8085277554304102
 2022,Austrian Grand Prix,SAI,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,Austrian Grand Prix,SAI,28.0,HARD,0.0,0,0,0,0.0
 2022,Austrian Grand Prix,STR,1.0,MEDIUM,2.0,0,0,0,0.0
@@ -1296,11 +1296,11 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Bahrain Grand Prix,BOT,1.0,SOFT,3.0,1,1,0,1.0
 2022,Bahrain Grand Prix,BOT,15.0,MEDIUM,0.0,0,0,0,0.0
 2022,Bahrain Grand Prix,BOT,37.0,MEDIUM,0.0,0,0,0,0.0
-2022,Bahrain Grand Prix,BOT,46.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Bahrain Grand Prix,BOT,46.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Bahrain Grand Prix,GAS,1.0,SOFT,3.0,1,1,0,1.0
 2022,Bahrain Grand Prix,GAS,15.0,MEDIUM,0.0,0,0,0,0.0
 2022,Bahrain Grand Prix,GAS,33.0,HARD,0.0,0,0,0,0.0
-2022,Bahrain Grand Prix,HAM,1.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Bahrain Grand Prix,HAM,1.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Bahrain Grand Prix,HAM,12.0,HARD,1.0,0,0,0,0.0
 2022,Bahrain Grand Prix,HAM,28.0,MEDIUM,0.0,0,0,0,0.0
 2022,Bahrain Grand Prix,HAM,45.0,SOFT,3.0,1,1,0,1.0
@@ -1342,7 +1342,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Bahrain Grand Prix,RUS,1.0,SOFT,3.0,1,1,0,1.0
 2022,Bahrain Grand Prix,RUS,16.0,HARD,1.0,0,0,0,0.0
 2022,Bahrain Grand Prix,RUS,34.0,MEDIUM,0.0,0,0,0,0.0
-2022,Bahrain Grand Prix,RUS,46.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Bahrain Grand Prix,RUS,46.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Bahrain Grand Prix,SAI,1.0,SOFT,3.0,1,1,0,1.0
 2022,Bahrain Grand Prix,SAI,15.0,SOFT,0.0,0,0,0,0.0
 2022,Bahrain Grand Prix,SAI,34.0,MEDIUM,0.0,0,0,0,0.0
@@ -1438,7 +1438,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,British Grand Prix,LAT,1.0,SOFT,0.0,0,0,0,0.0
 2022,British Grand Prix,LAT,2.0,SOFT,0.0,0,0,0,0.0
 2022,British Grand Prix,LAT,20.0,MEDIUM,0.0,0,0,0,0.0
-2022,British Grand Prix,LAT,40.0,SOFT,1.0,0,0,1,0.2678499394917305
+2022,British Grand Prix,LAT,40.0,SOFT,1.0,0,0,1,0.26950925181013674
 2022,British Grand Prix,LEC,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,British Grand Prix,LEC,2.0,MEDIUM,0.0,0,0,0,0.0
 2022,British Grand Prix,LEC,26.0,HARD,0.0,0,0,0,0.0
@@ -1457,7 +1457,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,British Grand Prix,OCO,23.0,HARD,0.0,0,0,0,0.0
 2022,British Grand Prix,PER,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,British Grand Prix,PER,2.0,MEDIUM,0.0,0,0,0,0.0
-2022,British Grand Prix,PER,6.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2022,British Grand Prix,PER,6.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2022,British Grand Prix,PER,40.0,SOFT,0.0,0,0,0,0.0
 2022,British Grand Prix,RIC,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,British Grand Prix,RIC,21.0,HARD,0.0,0,0,0,0.0
@@ -1471,7 +1471,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,British Grand Prix,STR,1.0,MEDIUM,2.0,0,0,0,0.0
 2022,British Grand Prix,STR,2.0,MEDIUM,2.0,0,0,0,0.0
 2022,British Grand Prix,STR,16.0,HARD,1.0,0,0,0,0.0
-2022,British Grand Prix,STR,41.0,MEDIUM,3.0,0,0,3,0.8035498184751916
+2022,British Grand Prix,STR,41.0,MEDIUM,3.0,0,0,3,0.8085277554304102
 2022,British Grand Prix,TSU,1.0,MEDIUM,0.0,0,0,0,0.0
 2022,British Grand Prix,TSU,2.0,SOFT,0.0,0,0,0,0.0
 2022,British Grand Prix,TSU,19.0,HARD,1.0,0,0,0,0.0
@@ -1739,7 +1739,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Hungarian Grand Prix,PER,1.0,SOFT,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,PER,19.0,MEDIUM,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,PER,43.0,MEDIUM,0.0,0,0,0,0.0
-2022,Hungarian Grand Prix,RIC,1.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Hungarian Grand Prix,RIC,1.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Hungarian Grand Prix,RIC,16.0,MEDIUM,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,RIC,47.0,HARD,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,RUS,1.0,SOFT,3.0,1,1,0,1.0
@@ -1755,7 +1755,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Hungarian Grand Prix,TSU,14.0,MEDIUM,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,TSU,34.0,SOFT,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,TSU,52.0,SOFT,3.0,1,1,0,1.0
-2022,Hungarian Grand Prix,VER,1.0,SOFT,1.0,0,0,1,0.2678499394917305
+2022,Hungarian Grand Prix,VER,1.0,SOFT,1.0,0,0,1,0.26950925181013674
 2022,Hungarian Grand Prix,VER,17.0,MEDIUM,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,VER,39.0,MEDIUM,0.0,0,0,0,0.0
 2022,Hungarian Grand Prix,VET,1.0,SOFT,0.0,0,0,0,0.0
@@ -1854,7 +1854,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Japanese Grand Prix,RIC,9.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Japanese Grand Prix,RUS,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Japanese Grand Prix,RUS,3.0,WET,0.0,0,0,0,0.0
-2022,Japanese Grand Prix,RUS,8.0,INTERMEDIATE,2.0,0,0,2,0.535699878983461
+2022,Japanese Grand Prix,RUS,8.0,INTERMEDIATE,2.0,0,0,2,0.5390185036202735
 2022,Japanese Grand Prix,SAI,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Japanese Grand Prix,STR,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Japanese Grand Prix,STR,3.0,WET,0.0,0,0,0,0.0
@@ -1967,10 +1967,10 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Monaco Grand Prix,ALO,1.0,WET,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,ALO,31.0,MEDIUM,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,BOT,1.0,WET,0.0,0,0,0,0.0
-2022,Monaco Grand Prix,BOT,31.0,HARD,10.0,0,0,10,2.6784993949173055
+2022,Monaco Grand Prix,BOT,31.0,HARD,10.0,0,0,10,2.6950925181013674
 2022,Monaco Grand Prix,GAS,1.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,GAS,2.0,INTERMEDIATE,0.0,0,0,0,0.0
-2022,Monaco Grand Prix,GAS,31.0,HARD,8.0,0,0,8,2.142799515933844
+2022,Monaco Grand Prix,GAS,31.0,HARD,8.0,0,0,8,2.156074014481094
 2022,Monaco Grand Prix,HAM,1.0,WET,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,HAM,23.0,HARD,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,HAM,31.0,MEDIUM,0.0,0,0,0,0.0
@@ -1992,15 +1992,15 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Monaco Grand Prix,PER,23.0,HARD,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,PER,31.0,MEDIUM,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,RIC,1.0,WET,0.0,0,0,0,0.0
-2022,Monaco Grand Prix,RIC,31.0,HARD,11.0,0,0,11,2.9463493344090357
+2022,Monaco Grand Prix,RIC,31.0,HARD,11.0,0,0,11,2.9646017699115044
 2022,Monaco Grand Prix,RUS,1.0,WET,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,RUS,31.0,MEDIUM,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,SAI,1.0,WET,0.0,0,0,0,0.0
-2022,Monaco Grand Prix,SAI,31.0,HARD,9.0,0,0,9,2.410649455425575
+2022,Monaco Grand Prix,SAI,31.0,HARD,9.0,0,0,9,2.4255832662912304
 2022,Monaco Grand Prix,STR,1.0,WET,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,STR,3.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,STR,25.0,HARD,1.0,0,0,0,0.0
-2022,Monaco Grand Prix,STR,30.0,NA,6.0,0,0,6,1.6070996369503832
+2022,Monaco Grand Prix,STR,30.0,NA,6.0,0,0,6,1.6170555108608204
 2022,Monaco Grand Prix,TSU,1.0,WET,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,TSU,7.0,INTERMEDIATE,0.0,0,0,0,0.0
 2022,Monaco Grand Prix,TSU,30.0,MEDIUM,0.0,0,0,0,0.0
@@ -2107,7 +2107,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Spanish Grand Prix,GAS,30.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,GAS,47.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,HAM,1.0,MEDIUM,0.0,0,0,0,0.0
-2022,Spanish Grand Prix,HAM,2.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Spanish Grand Prix,HAM,2.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Spanish Grand Prix,HAM,23.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,HAM,49.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,LAT,1.0,SOFT,0.0,0,0,0,0.0
@@ -2116,10 +2116,10 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Spanish Grand Prix,LAT,51.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,LEC,1.0,SOFT,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,LEC,22.0,MEDIUM,0.0,0,0,0,0.0
-2022,Spanish Grand Prix,MAG,1.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Spanish Grand Prix,MAG,1.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Spanish Grand Prix,MAG,2.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,MAG,30.0,HARD,0.0,0,0,0,0.0
-2022,Spanish Grand Prix,MSC,1.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Spanish Grand Prix,MSC,1.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Spanish Grand Prix,MSC,13.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,MSC,31.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,NOR,1.0,SOFT,0.0,0,0,0,0.0
@@ -2141,7 +2141,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Spanish Grand Prix,RUS,1.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,RUS,14.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,RUS,37.0,MEDIUM,0.0,0,0,0,0.0
-2022,Spanish Grand Prix,RUS,52.0,SOFT,2.0,0,0,2,0.535699878983461
+2022,Spanish Grand Prix,RUS,52.0,SOFT,2.0,0,0,2,0.5390185036202735
 2022,Spanish Grand Prix,SAI,1.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,SAI,11.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,SAI,32.0,MEDIUM,0.0,0,0,0,0.0
@@ -2156,7 +2156,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,Spanish Grand Prix,TSU,53.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,VER,1.0,SOFT,3.0,0,0,0,0.0
 2022,Spanish Grand Prix,VER,14.0,MEDIUM,0.0,0,0,0,0.0
-2022,Spanish Grand Prix,VER,29.0,SOFT,3.0,0,0,0,0.0
+2022,Spanish Grand Prix,VER,29.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,VER,45.0,MEDIUM,0.0,0,0,0,0.0
 2022,Spanish Grand Prix,VET,1.0,SOFT,3.0,1,1,0,1.0
 2022,Spanish Grand Prix,VET,22.0,SOFT,3.0,1,1,0,1.0
@@ -2219,7 +2219,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2022,São Paulo Grand Prix,TSU,55.0,MEDIUM,0.0,0,0,0,0.0
 2022,São Paulo Grand Prix,VER,1.0,SOFT,0.0,0,0,0,0.0
 2022,São Paulo Grand Prix,VER,8.0,MEDIUM,0.0,0,0,0,0.0
-2022,São Paulo Grand Prix,VER,24.0,SOFT,7.0,0,0,7,1.8749495764421136
+2022,São Paulo Grand Prix,VER,24.0,SOFT,7.0,0,0,7,1.8865647626709572
 2022,São Paulo Grand Prix,VER,49.0,SOFT,0.0,0,0,0,0.0
 2022,São Paulo Grand Prix,VET,1.0,SOFT,0.0,0,0,0,0.0
 2022,São Paulo Grand Prix,VET,27.0,MEDIUM,1.0,0,0,0,0.0
@@ -2358,7 +2358,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Australian Grand Prix,HAM,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,Australian Grand Prix,HAM,9.0,HARD,0.0,0,0,0,0.0
 2023,Australian Grand Prix,HAM,56.0,SOFT,4.0,2,2,0,2.0
-2023,Australian Grand Prix,HAM,58.0,SOFT,4.0,2,2,0,2.0
+2023,Australian Grand Prix,HAM,58.0,SOFT,4.0,1,1,0,1.0
 2023,Australian Grand Prix,HUL,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,Australian Grand Prix,HUL,9.0,HARD,0.0,0,0,0,0.0
 2023,Australian Grand Prix,HUL,56.0,SOFT,4.0,1,1,0,1.0
@@ -2376,7 +2376,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Australian Grand Prix,PER,1.0,HARD,0.0,0,0,0,0.0
 2023,Australian Grand Prix,PER,2.0,MEDIUM,0.0,0,0,0,0.0
 2023,Australian Grand Prix,PER,3.0,HARD,0.0,0,0,0,0.0
-2023,Australian Grand Prix,PER,9.0,HARD,1.0,0,0,1,0.2678499394917305
+2023,Australian Grand Prix,PER,9.0,HARD,1.0,0,0,1,0.26950925181013674
 2023,Australian Grand Prix,PER,56.0,SOFT,0.0,0,0,0,0.0
 2023,Australian Grand Prix,PER,58.0,SOFT,0.0,0,0,0,0.0
 2023,Australian Grand Prix,PIA,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -2392,9 +2392,9 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Australian Grand Prix,SAI,58.0,SOFT,4.0,1,1,0,1.0
 2023,Australian Grand Prix,SAR,1.0,HARD,0.0,0,0,0,0.0
 2023,Australian Grand Prix,SAR,2.0,MEDIUM,0.0,0,0,0,0.0
-2023,Australian Grand Prix,SAR,3.0,HARD,1.0,0,0,1,0.2678499394917305
+2023,Australian Grand Prix,SAR,3.0,HARD,1.0,0,0,1,0.26950925181013674
 2023,Australian Grand Prix,SAR,9.0,MEDIUM,0.0,0,0,0,0.0
-2023,Australian Grand Prix,SAR,37.0,HARD,7.0,0,0,7,1.8749495764421136
+2023,Australian Grand Prix,SAR,37.0,HARD,7.0,0,0,7,1.8865647626709572
 2023,Australian Grand Prix,SAR,55.0,SOFT,0.0,0,0,0,0.0
 2023,Australian Grand Prix,STR,1.0,MEDIUM,1.0,0,0,0,0.0
 2023,Australian Grand Prix,STR,9.0,HARD,0.0,0,0,0,0.0
@@ -2438,7 +2438,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Austrian Grand Prix,MAG,1.0,HARD,0.0,0,0,0,0.0
 2023,Austrian Grand Prix,MAG,2.0,MEDIUM,0.0,0,0,0,0.0
 2023,Austrian Grand Prix,MAG,3.0,HARD,0.0,0,0,0,0.0
-2023,Austrian Grand Prix,MAG,35.0,HARD,1.0,0,0,1,0.2678499394917305
+2023,Austrian Grand Prix,MAG,35.0,HARD,1.0,0,0,1,0.26950925181013674
 2023,Austrian Grand Prix,NOR,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,Austrian Grand Prix,NOR,15.0,HARD,0.0,0,0,0,0.0
 2023,Austrian Grand Prix,NOR,42.0,HARD,0.0,0,0,0,0.0
@@ -2818,8 +2818,8 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Dutch Grand Prix,SAI,1.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,SAI,3.0,INTERMEDIATE,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,SAI,11.0,SOFT,0.0,0,0,0,0.0
-2023,Dutch Grand Prix,SAI,42.0,SOFT,2.0,0,0,2,0.535699878983461
-2023,Dutch Grand Prix,SAI,61.0,INTERMEDIATE,15.0,0,0,15,4.017749092375958
+2023,Dutch Grand Prix,SAI,42.0,SOFT,2.0,0,0,2,0.5390185036202735
+2023,Dutch Grand Prix,SAI,61.0,INTERMEDIATE,15.0,0,0,15,4.042638777152051
 2023,Dutch Grand Prix,SAI,65.0,INTERMEDIATE,4.0,0,0,0,0.0
 2023,Dutch Grand Prix,SAR,1.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,STR,1.0,SOFT,0.0,0,0,0,0.0
@@ -2828,12 +2828,12 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Dutch Grand Prix,STR,17.0,MEDIUM,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,STR,35.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,STR,61.0,INTERMEDIATE,5.0,2,2,0,2.0
-2023,Dutch Grand Prix,STR,64.0,INTERMEDIATE,5.0,2,2,0,2.0
+2023,Dutch Grand Prix,STR,64.0,INTERMEDIATE,5.0,3,3,0,3.0
 2023,Dutch Grand Prix,TSU,1.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,TSU,2.0,INTERMEDIATE,5.0,2,2,0,2.0
 2023,Dutch Grand Prix,TSU,11.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,TSU,61.0,INTERMEDIATE,5.0,2,2,0,2.0
-2023,Dutch Grand Prix,TSU,64.0,INTERMEDIATE,5.0,2,2,0,2.0
+2023,Dutch Grand Prix,TSU,64.0,INTERMEDIATE,5.0,3,3,0,3.0
 2023,Dutch Grand Prix,VER,1.0,SOFT,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,VER,3.0,INTERMEDIATE,0.0,0,0,0,0.0
 2023,Dutch Grand Prix,VER,12.0,SOFT,0.0,0,0,0,0.0
@@ -3180,7 +3180,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Monaco Grand Prix,OCO,55.0,INTERMEDIATE,0.0,0,0,0,0.0
 2023,Monaco Grand Prix,PER,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,Monaco Grand Prix,PER,2.0,HARD,0.0,0,0,0,0.0
-2023,Monaco Grand Prix,PER,35.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2023,Monaco Grand Prix,PER,35.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2023,Monaco Grand Prix,PER,54.0,INTERMEDIATE,0.0,0,0,0,0.0
 2023,Monaco Grand Prix,PER,58.0,WET,0.0,0,0,0,0.0
 2023,Monaco Grand Prix,PER,71.0,INTERMEDIATE,0.0,0,0,0,0.0
@@ -3208,60 +3208,60 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Qatar Grand Prix,ALB,19.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,ALB,32.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,ALB,45.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,ALO,1.0,MEDIUM,5.0,0,0,5,1.3392496974586527
-2023,Qatar Grand Prix,ALO,12.0,MEDIUM,5.0,0,0,5,1.3392496974586527
+2023,Qatar Grand Prix,ALO,1.0,MEDIUM,5.0,0,0,5,1.3475462590506837
+2023,Qatar Grand Prix,ALO,12.0,MEDIUM,5.0,0,0,5,1.3475462590506837
 2023,Qatar Grand Prix,ALO,27.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,ALO,45.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,BOT,1.0,SOFT,3.0,1,1,0,1.0
 2023,Qatar Grand Prix,BOT,4.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,BOT,22.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,BOT,40.0,HARD,1.0,0,0,1,0.2678499394917305
-2023,Qatar Grand Prix,GAS,1.0,MEDIUM,7.0,0,0,7,1.8749495764421136
+2023,Qatar Grand Prix,BOT,40.0,HARD,1.0,0,0,1,0.26950925181013674
+2023,Qatar Grand Prix,GAS,1.0,MEDIUM,7.0,0,0,7,1.8865647626709572
 2023,Qatar Grand Prix,GAS,12.0,MEDIUM,5.0,2,2,0,2.0
 2023,Qatar Grand Prix,GAS,27.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,GAS,45.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,HAM,1.0,SOFT,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,HUL,1.0,MEDIUM,7.0,1,1,3,1.8035498184751915
+2023,Qatar Grand Prix,HUL,1.0,MEDIUM,7.0,2,0,0,2.0
 2023,Qatar Grand Prix,HUL,14.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,HUL,28.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2023,Qatar Grand Prix,HUL,28.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2023,Qatar Grand Prix,HUL,40.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LAW,1.0,SOFT,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LAW,4.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LAW,22.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LAW,40.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LEC,1.0,MEDIUM,8.0,3,3,0,3.0
-2023,Qatar Grand Prix,LEC,13.0,MEDIUM,7.0,0,0,7,1.8749495764421136
+2023,Qatar Grand Prix,LEC,13.0,MEDIUM,7.0,0,0,7,1.8865647626709572
 2023,Qatar Grand Prix,LEC,26.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,LEC,44.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,MAG,1.0,SOFT,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,MAG,4.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,MAG,22.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,MAG,40.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,NOR,1.0,MEDIUM,7.0,1,1,1,1.2678499394917306
-2023,Qatar Grand Prix,NOR,14.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2023,Qatar Grand Prix,NOR,1.0,MEDIUM,7.0,0,0,0,0.0
+2023,Qatar Grand Prix,NOR,14.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2023,Qatar Grand Prix,NOR,28.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,NOR,45.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,OCO,1.0,MEDIUM,7.0,0,0,7,1.8749495764421136
-2023,Qatar Grand Prix,OCO,11.0,MEDIUM,5.0,0,0,5,1.3392496974586527
+2023,Qatar Grand Prix,OCO,1.0,MEDIUM,7.0,0,0,7,1.8865647626709572
+2023,Qatar Grand Prix,OCO,11.0,MEDIUM,5.0,0,0,5,1.3475462590506837
 2023,Qatar Grand Prix,OCO,26.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,OCO,44.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,PER,1.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,PER,18.0,MEDIUM,6.0,0,0,6,1.6070996369503832
-2023,Qatar Grand Prix,PER,32.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2023,Qatar Grand Prix,PER,18.0,MEDIUM,6.0,0,0,6,1.6170555108608204
+2023,Qatar Grand Prix,PER,32.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2023,Qatar Grand Prix,PER,44.0,MEDIUM,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,PIA,1.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2023,Qatar Grand Prix,PIA,1.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2023,Qatar Grand Prix,PIA,13.0,MEDIUM,7.0,2,2,0,2.0
 2023,Qatar Grand Prix,PIA,26.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,PIA,44.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,RUS,1.0,MEDIUM,7.0,0,0,7,1.8749495764421136
-2023,Qatar Grand Prix,RUS,2.0,MEDIUM,7.0,0,0,7,1.8749495764421136
+2023,Qatar Grand Prix,RUS,1.0,MEDIUM,7.0,0,0,7,1.8865647626709572
+2023,Qatar Grand Prix,RUS,2.0,MEDIUM,7.0,0,0,7,1.8865647626709572
 2023,Qatar Grand Prix,RUS,15.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,RUS,33.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,RUS,51.0,SOFT,3.0,1,1,0,1.0
 2023,Qatar Grand Prix,SAR,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,SAR,14.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,SAR,27.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,STR,1.0,MEDIUM,8.0,2,2,1,2.2678499394917306
+2023,Qatar Grand Prix,STR,1.0,MEDIUM,8.0,2,2,1,2.2695092518101365
 2023,Qatar Grand Prix,STR,4.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,STR,22.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,STR,40.0,MEDIUM,0.0,0,0,0,0.0
@@ -3269,8 +3269,8 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Qatar Grand Prix,TSU,10.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,TSU,23.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,TSU,41.0,HARD,0.0,0,0,0,0.0
-2023,Qatar Grand Prix,VER,1.0,MEDIUM,3.0,0,0,3,0.8035498184751916
-2023,Qatar Grand Prix,VER,18.0,MEDIUM,3.0,0,0,3,0.8035498184751916
+2023,Qatar Grand Prix,VER,1.0,MEDIUM,3.0,0,0,3,0.8085277554304102
+2023,Qatar Grand Prix,VER,18.0,MEDIUM,3.0,0,0,3,0.8085277554304102
 2023,Qatar Grand Prix,VER,35.0,HARD,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,VER,52.0,MEDIUM,0.0,0,0,0,0.0
 2023,Qatar Grand Prix,ZHO,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -3389,7 +3389,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,Spanish Grand Prix,HUL,44.0,MEDIUM,0.0,0,0,0,0.0
 2023,Spanish Grand Prix,LEC,1.0,HARD,0.0,0,0,0,0.0
 2023,Spanish Grand Prix,LEC,17.0,SOFT,0.0,0,0,0,0.0
-2023,Spanish Grand Prix,LEC,42.0,HARD,25.0,0,0,25,6.696248487293263
+2023,Spanish Grand Prix,LEC,42.0,HARD,25.0,0,0,25,6.737731295253418
 2023,Spanish Grand Prix,MAG,1.0,SOFT,0.0,0,0,0,0.0
 2023,Spanish Grand Prix,MAG,11.0,MEDIUM,0.0,0,0,0,0.0
 2023,Spanish Grand Prix,MAG,25.0,HARD,0.0,0,0,0,0.0
@@ -3486,7 +3486,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,São Paulo Grand Prix,STR,1.0,SOFT,0.0,0,0,0,0.0
 2023,São Paulo Grand Prix,STR,3.0,SOFT,3.0,1,1,0,1.0
 2023,São Paulo Grand Prix,STR,23.0,MEDIUM,0.0,0,0,0,0.0
-2023,São Paulo Grand Prix,STR,53.0,SOFT,2.0,0,0,2,0.535699878983461
+2023,São Paulo Grand Prix,STR,53.0,SOFT,2.0,0,0,2,0.5390185036202735
 2023,São Paulo Grand Prix,TSU,1.0,SOFT,3.0,1,1,0,1.0
 2023,São Paulo Grand Prix,TSU,3.0,SOFT,0.0,0,0,0,0.0
 2023,São Paulo Grand Prix,TSU,27.0,MEDIUM,0.0,0,0,0,0.0
@@ -3498,9 +3498,9 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,São Paulo Grand Prix,ZHO,1.0,SOFT,0.0,0,0,0,0.0
 2023,São Paulo Grand Prix,ZHO,3.0,SOFT,0.0,0,0,0,0.0
 2023,São Paulo Grand Prix,ZHO,16.0,MEDIUM,0.0,0,0,0,0.0
-2023,United States Grand Prix,ALB,1.0,MEDIUM,3.0,0,0,3,0.8035498184751916
+2023,United States Grand Prix,ALB,1.0,MEDIUM,3.0,0,0,3,0.8085277554304102
 2023,United States Grand Prix,ALB,11.0,HARD,0.0,0,0,0,0.0
-2023,United States Grand Prix,ALB,30.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2023,United States Grand Prix,ALB,30.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2023,United States Grand Prix,ALO,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,United States Grand Prix,ALO,20.0,MEDIUM,0.0,0,0,0,0.0
 2023,United States Grand Prix,ALO,43.0,HARD,0.0,0,0,0,0.0
@@ -3515,7 +3515,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2023,United States Grand Prix,HAM,39.0,MEDIUM,0.0,0,0,0,0.0
 2023,United States Grand Prix,HUL,1.0,HARD,0.0,0,0,0,0.0
 2023,United States Grand Prix,HUL,20.0,MEDIUM,0.0,0,0,0,0.0
-2023,United States Grand Prix,HUL,35.0,MEDIUM,6.0,1,1,3,1.8035498184751915
+2023,United States Grand Prix,HUL,35.0,MEDIUM,6.0,1,1,3,1.8085277554304102
 2023,United States Grand Prix,LEC,1.0,MEDIUM,0.0,0,0,0,0.0
 2023,United States Grand Prix,LEC,24.0,HARD,0.0,0,0,0,0.0
 2023,United States Grand Prix,MAG,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -3629,7 +3629,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Australian Grand Prix,OCO,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Australian Grand Prix,OCO,10.0,HARD,0.0,0,0,0,0.0
 2024,Australian Grand Prix,OCO,17.0,HARD,0.0,0,0,0,0.0
-2024,Australian Grand Prix,OCO,43.0,HARD,7.0,0,0,7,1.8749495764421136
+2024,Australian Grand Prix,OCO,43.0,HARD,7.0,0,0,7,1.8865647626709572
 2024,Australian Grand Prix,PER,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Australian Grand Prix,PER,15.0,HARD,0.0,0,0,0,0.0
 2024,Australian Grand Prix,PER,36.0,HARD,0.0,0,0,0,0.0
@@ -3677,8 +3677,8 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Austrian Grand Prix,LEC,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,LEC,2.0,HARD,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,LEC,17.0,MEDIUM,0.0,0,0,0,0.0
-2024,Austrian Grand Prix,LEC,34.0,MEDIUM,1.0,0,0,1,0.2678499394917305
-2024,Austrian Grand Prix,LEC,52.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2024,Austrian Grand Prix,LEC,34.0,MEDIUM,1.0,0,0,1,0.26950925181013674
+2024,Austrian Grand Prix,LEC,52.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2024,Austrian Grand Prix,MAG,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,MAG,11.0,HARD,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,MAG,39.0,HARD,0.0,0,0,0,0.0
@@ -3704,9 +3704,9 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Austrian Grand Prix,SAI,23.0,HARD,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,SAI,48.0,MEDIUM,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,SAR,1.0,MEDIUM,0.0,0,0,0,0.0
-2024,Austrian Grand Prix,SAR,2.0,MEDIUM,6.0,0,0,6,1.6070996369503832
+2024,Austrian Grand Prix,SAR,2.0,MEDIUM,6.0,0,0,6,1.6170555108608204
 2024,Austrian Grand Prix,SAR,21.0,HARD,0.0,0,0,0,0.0
-2024,Austrian Grand Prix,SAR,50.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Austrian Grand Prix,SAR,50.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Austrian Grand Prix,STR,1.0,MEDIUM,1.0,0,0,0,0.0
 2024,Austrian Grand Prix,STR,21.0,MEDIUM,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,STR,44.0,HARD,1.0,0,0,0,0.0
@@ -3715,7 +3715,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Austrian Grand Prix,TSU,45.0,HARD,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,VER,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,VER,24.0,HARD,0.0,0,0,0,0.0
-2024,Austrian Grand Prix,VER,52.0,MEDIUM,3.0,0,0,3,0.8035498184751916
+2024,Austrian Grand Prix,VER,52.0,MEDIUM,3.0,0,0,3,0.8085277554304102
 2024,Austrian Grand Prix,VER,65.0,SOFT,3.0,1,1,0,1.0
 2024,Austrian Grand Prix,ZHO,1.0,HARD,0.0,0,0,0,0.0
 2024,Austrian Grand Prix,ZHO,29.0,MEDIUM,0.0,0,0,0,0.0
@@ -3781,7 +3781,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Bahrain Grand Prix,HUL,1.0,SOFT,0.0,0,0,0,0.0
 2024,Bahrain Grand Prix,HUL,2.0,HARD,0.0,0,0,0,0.0
 2024,Bahrain Grand Prix,HUL,21.0,HARD,0.0,0,0,0,0.0
-2024,Bahrain Grand Prix,HUL,42.0,SOFT,1.0,0,0,1,0.2678499394917305
+2024,Bahrain Grand Prix,HUL,42.0,SOFT,1.0,0,0,1,0.26950925181013674
 2024,Bahrain Grand Prix,LEC,1.0,SOFT,3.0,1,1,0,1.0
 2024,Bahrain Grand Prix,LEC,12.0,HARD,0.0,0,0,0,0.0
 2024,Bahrain Grand Prix,LEC,35.0,HARD,0.0,0,0,0,0.0
@@ -4055,7 +4055,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Chinese Grand Prix,STR,10.0,MEDIUM,0.0,0,0,0,0.0
 2024,Chinese Grand Prix,STR,22.0,HARD,0.0,0,0,0,0.0
 2024,Chinese Grand Prix,STR,27.0,MEDIUM,0.0,0,0,0,0.0
-2024,Chinese Grand Prix,STR,36.0,HARD,5.0,0,0,5,1.3392496974586527
+2024,Chinese Grand Prix,STR,36.0,HARD,5.0,0,0,5,1.3475462590506837
 2024,Chinese Grand Prix,TSU,1.0,SOFT,0.0,0,0,0,0.0
 2024,Chinese Grand Prix,TSU,9.0,MEDIUM,0.0,0,0,0,0.0
 2024,Chinese Grand Prix,TSU,24.0,HARD,0.0,0,0,0,0.0
@@ -4282,7 +4282,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Japanese Grand Prix,HAM,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,HAM,2.0,HARD,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,HAM,24.0,HARD,0.0,0,0,0,0.0
-2024,Japanese Grand Prix,HAM,40.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Japanese Grand Prix,HAM,40.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Japanese Grand Prix,HUL,1.0,SOFT,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,HUL,6.0,HARD,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,HUL,34.0,HARD,0.0,0,0,0,0.0
@@ -4309,10 +4309,10 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Japanese Grand Prix,RUS,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,RUS,2.0,HARD,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,RUS,23.0,HARD,0.0,0,0,0,0.0
-2024,Japanese Grand Prix,RUS,38.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Japanese Grand Prix,RUS,38.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Japanese Grand Prix,SAI,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,SAI,2.0,MEDIUM,0.0,0,0,0,0.0
-2024,Japanese Grand Prix,SAI,16.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Japanese Grand Prix,SAI,16.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Japanese Grand Prix,SAI,37.0,HARD,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,SAR,1.0,SOFT,0.0,0,0,0,0.0
 2024,Japanese Grand Prix,SAR,2.0,HARD,0.0,0,0,0,0.0
@@ -4459,12 +4459,12 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Miami Grand Prix,OCO,23.0,HARD,0.0,0,0,0,0.0
 2024,Miami Grand Prix,PER,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Miami Grand Prix,PER,18.0,HARD,0.0,0,0,0,0.0
-2024,Miami Grand Prix,PER,29.0,MEDIUM,5.0,0,0,3,0.8035498184751916
+2024,Miami Grand Prix,PER,29.0,MEDIUM,5.0,1,1,0,1.0
 2024,Miami Grand Prix,PIA,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Miami Grand Prix,PIA,28.0,HARD,0.0,0,0,0,0.0
 2024,Miami Grand Prix,PIA,41.0,MEDIUM,6.0,2,2,0,2.0
 2024,Miami Grand Prix,RIC,1.0,HARD,0.0,0,0,0,0.0
-2024,Miami Grand Prix,RIC,29.0,MEDIUM,5.0,0,0,5,1.3392496974586527
+2024,Miami Grand Prix,RIC,29.0,MEDIUM,5.0,0,0,5,1.3475462590506837
 2024,Miami Grand Prix,RUS,1.0,MEDIUM,3.0,1,1,0,1.0
 2024,Miami Grand Prix,RUS,25.0,HARD,0.0,0,0,0,0.0
 2024,Miami Grand Prix,SAI,1.0,MEDIUM,0.0,0,0,0,0.0
@@ -4486,17 +4486,17 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Monaco Grand Prix,ALO,2.0,MEDIUM,1.0,0,0,0,0.0
 2024,Monaco Grand Prix,BOT,1.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,BOT,2.0,MEDIUM,0.0,0,0,0,0.0
-2024,Monaco Grand Prix,BOT,16.0,HARD,1.0,0,0,1,0.2678499394917305
+2024,Monaco Grand Prix,BOT,16.0,HARD,1.0,0,0,1,0.26950925181013674
 2024,Monaco Grand Prix,GAS,1.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,GAS,2.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,HAM,1.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,HAM,2.0,MEDIUM,0.0,0,0,0,0.0
-2024,Monaco Grand Prix,HAM,52.0,HARD,1.0,0,0,1,0.2678499394917305
+2024,Monaco Grand Prix,HAM,52.0,HARD,1.0,0,0,1,0.26950925181013674
 2024,Monaco Grand Prix,HUL,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,LEC,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,LEC,2.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,MAG,1.0,HARD,0.0,0,0,0,0.0
-2024,Monaco Grand Prix,NOR,1.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Monaco Grand Prix,NOR,1.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Monaco Grand Prix,NOR,2.0,HARD,1.0,0,0,0,0.0
 2024,Monaco Grand Prix,OCO,1.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,PER,1.0,HARD,0.0,0,0,0,0.0
@@ -4512,13 +4512,13 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Monaco Grand Prix,SAR,58.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,STR,1.0,HARD,1.0,0,0,0,0.0
 2024,Monaco Grand Prix,STR,2.0,MEDIUM,1.0,0,0,0,0.0
-2024,Monaco Grand Prix,STR,43.0,HARD,2.0,0,0,2,0.535699878983461
+2024,Monaco Grand Prix,STR,43.0,HARD,2.0,0,0,2,0.5390185036202735
 2024,Monaco Grand Prix,STR,49.0,SOFT,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,TSU,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,TSU,2.0,HARD,1.0,0,0,0,0.0
 2024,Monaco Grand Prix,VER,1.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,VER,2.0,MEDIUM,0.0,0,0,0,0.0
-2024,Monaco Grand Prix,VER,53.0,HARD,1.0,0,0,1,0.2678499394917305
+2024,Monaco Grand Prix,VER,53.0,HARD,1.0,0,0,1,0.26950925181013674
 2024,Monaco Grand Prix,ZHO,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,ZHO,2.0,HARD,0.0,0,0,0,0.0
 2024,Monaco Grand Prix,ZHO,71.0,SOFT,0.0,0,0,0,0.0
@@ -4530,7 +4530,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Qatar Grand Prix,ALO,37.0,MEDIUM,6.0,2,2,0,2.0
 2024,Qatar Grand Prix,BOT,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,BOT,25.0,HARD,0.0,0,0,0,0.0
-2024,Qatar Grand Prix,BOT,36.0,MEDIUM,8.0,0,0,8,2.142799515933844
+2024,Qatar Grand Prix,BOT,36.0,MEDIUM,8.0,0,0,8,2.156074014481094
 2024,Qatar Grand Prix,COL,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,GAS,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,GAS,36.0,HARD,0.0,0,0,0,0.0
@@ -4553,7 +4553,7 @@ Year,GP,Driver,LapNumber,Compound,a0,push,push_q,unmatched,a0_ef
 2024,Qatar Grand Prix,PER,36.0,HARD,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,PIA,1.0,MEDIUM,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,PIA,35.0,HARD,0.0,0,0,0,0.0
-2024,Qatar Grand Prix,RUS,1.0,MEDIUM,1.0,0,0,1,0.2678499394917305
+2024,Qatar Grand Prix,RUS,1.0,MEDIUM,1.0,0,0,1,0.26950925181013674
 2024,Qatar Grand Prix,RUS,24.0,HARD,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,RUS,36.0,HARD,0.0,0,0,0,0.0
 2024,Qatar Grand Prix,SAI,1.0,MEDIUM,1.0,0,0,0,0.0

@@ -1,4 +1,4 @@
-RHO = 0.268; vueltas previas de los juegos 2024 encontradas en los datos de sesiones: 100.0%
+RHO = 0.270; vueltas previas de los juegos 2024 encontradas en los datos de sesiones: 100.0%
 devoluciones sin candidato: 28 (igual que la regla original, available_regulation_variants.csv: 28)
 inventario: 3230 juegos (igual al de v10d: 3230), 1615 usados; edad media de los usados 3.69 -> 1.50 (redondeada 1.50); usados con edad 0 tras redondear 171
   Bahrain Grand Prix: usados 60, edad media 3.60 -> 1.33
@@ -10,4 +10,4 @@ inventario: 3230 juegos (igual al de v10d: 3230), 1615 usados; edad media de los
   Singapore Grand Prix: usados 75, edad media 2.96 -> 1.07
   United States Grand Prix: usados 66, edad media 3.65 -> 1.30
 tandas reales: 48 filas son continuaciones de una tanda (edad = TL_GQ de la vuelta anterior)
-tandas reales: 1187, 240 con juego usado; edad media 2.11 -> 0.55 (redondeada 0.55)
+tandas reales: 1187, 240 con juego usado; edad media 2.11 -> 0.56 (redondeada 0.55)

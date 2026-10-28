@@ -16,6 +16,8 @@ Edad con que un juego usado llega a la carrera (A0 = TyreLife de su 1.a vuelta -
 la tanda del mismo piloto y compuesto que termino con TyreLife = A0, y hacia atras la cadena de tandas del mismo juego
 (TyreLife inicial - 1 = final de la anterior). A0_ef = vueltas de empuje de la cadena + RHO x vueltas no encontradas,
 con RHO = proporcion global de vueltas de empuje en las tandas encontradas.
+Rastreo corregido el 28-oct (noche): cadenas cronologicas, preferencia por cadenas completas y asignacion conjunta
+por piloto (ver chains/assign).
 
 Las vueltas de empuje se separan en clasificacion (Qualifying, Sprint Qualifying/Shootout: push_q) y el resto
 (practicas y sprint: push_o), para probar en grid_20261028.py un peso distinto para las de clasificacion.
@@ -27,7 +29,7 @@ Variantes de TyreLife (por vuelta de carrera; el factor 2021 se aplica despues, 
 Salida: ages_2021_2024.csv.gz, fpq_stints.csv, ages_summary.txt
     ~/.venvs/f1-drl-v2/bin/python results/tyrelife_effective_20261028/ages_20261028.py
 """
-import os, sys
+import os, sys, itertools
 import numpy as np, pandas as pd
 ROOT = os.getcwd(); HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, 'results', 'sim_v10d_20261028'))
@@ -75,19 +77,51 @@ def fpq_stints():
     return S
 
 
-def chain(S, y, gp, d, comp, a0):
-    """vueltas de empuje (todas y de clasificacion) y vueltas sin encontrar de un juego que llega con edad a0."""
-    cand = S[(S.Year == y) & (S.GP == gp) & (S.Driver == d) & (S.Compound == comp)]
-    push, push_q, left, used = 0, 0, a0, set()
-    while left > 0:
-        c = cand[(cand.tl_end == left) & ~cand.index.isin(used)]
-        if c.empty:
-            break
-        r = c.sort_values('order').iloc[-1]
-        used.add(r.name)
-        push += r.push; push_q += r.push_q
-        left = int(r.prior)
-    return push, push_q, left
+# 2026-10-28 (noche), pedido del autor: rastreo corregido. Antes (chain): en cada paso se tomaba la tanda de la sesion
+# mas tardia que terminaba con la edad buscada, aunque su cadena quedara incompleta, sin exigir orden cronologico hacia
+# atras y pudiendo usar la misma tanda para dos juegos. Ahora (chains + assign):
+#   - cada eslabon hacia atras debe ser anterior al siguiente (sesion y, dentro de la sesion, n.o de tanda);
+#   - entre las cadenas posibles se prefiere la de menos vueltas sin encontrar y, a igualdad, la mas reciente;
+#   - las tandas de carrera con juego usado de un mismo piloto se asignan en conjunto: una tanda de practicas o
+#     clasificacion no puede ser dos juegos distintos.
+# Efecto: cambia el rastreo de 10 de 982 juegos usados (+ RHO 0.2678 -> 0.2695); ver README.
+MAXCH = 6     # cadenas candidatas por juego en la asignacion conjunta (las mejores segun _key)
+
+
+def chains(cand, left, before=np.inf, used=()):
+    """cadenas cronologicas de un juego que llega con edad 'left': lista de (eslabones, push, push_q, sin encontrar)."""
+    if left <= 0:
+        return [((), 0, 0, 0)]
+    c = cand[(cand.tl_end == left) & (cand.pos < before) & ~cand.index.isin(used)]
+    if c.empty:
+        return [((), 0, 0, left)]
+    out = []
+    for i, r in c.iterrows():
+        for links, p, pq, u in chains(cand, int(r.prior), r.pos, used + (i,)):
+            out.append(((i,) + links, p + r.push, pq + r.push_q, u))
+    return out
+
+
+def _key(S, ch):
+    return ch[3], tuple(-S.pos[i] for i in ch[0])
+
+
+def assign(S, y, gp, d, starts):
+    """starts: [(compuesto, a0)] de las tandas de carrera de un piloto con juego usado -> [(push, push_q, sin encontrar)]."""
+    opts = []
+    for comp, a0 in starts:
+        cand = S[(S.Year == y) & (S.GP == gp) & (S.Driver == d) & (S.Compound == comp)]
+        opts.append(sorted(chains(cand, int(a0)), key=lambda ch: _key(S, ch))[:MAXCH])
+    best = None
+    for combo in itertools.product(*opts):
+        links = [i for ch in combo for i in ch[0]]
+        if len(links) != len(set(links)):
+            continue
+        sc = (sum(ch[3] for ch in combo), [_key(S, ch)[1] for ch in combo])
+        if best is None or sc < best[0]:
+            best = (sc, combo)
+    combo = best[1] if best is not None else tuple(o[0] for o in opts)
+    return [(ch[1], ch[2], ch[3]) for ch in combo]
 
 
 def main():
@@ -106,9 +140,7 @@ def main():
                 new = i == 0 or comp[i] != comp[i - 1] or tl[i] - tl[i - 1] != lap[i] - lap[i - 1]
                 if new:
                     a0 = tl[i] - 1
-                    p, pq, left = chain(S, y, gp, d, comp[i], int(a0)) if a0 > 0 else (0, 0, 0)
-                    starts.append(dict(Year=y, GP=gp, Driver=d, LapNumber=lap[i], Compound=comp[i], a0=a0,
-                                       push=p, push_q=pq, unmatched=left))
+                    starts.append(dict(Year=y, GP=gp, Driver=d, LapNumber=lap[i], Compound=comp[i], a0=a0))
                     k = len(starts) - 1
                     g = a0 + cnt[i]; base = 1
                 else:
@@ -117,6 +149,10 @@ def main():
                 rows.append((y, gp, d, lap[i], tl[i], g, k, base))
     A = pd.DataFrame(rows, columns=['Year', 'GP', 'Driver', 'LapNumber', 'TL_raw', 'TL_G', 'start', 'laps_in_stint'])
     T = pd.DataFrame(starts)
+    S['pos'] = S.order * 100 + S.Stint          # cronologia: sesion y, dentro de ella, n.o de tanda
+    T[['push', 'push_q', 'unmatched']] = 0
+    for (y, gp, d), x in T[T.a0 > 0].groupby(['Year', 'GP', 'Driver'], sort=False):
+        T.loc[x.index, ['push', 'push_q', 'unmatched']] = assign(S, y, gp, d, list(zip(x.Compound, x.a0)))
     used = T[T.a0 > 0]
     rho = used.push.sum() / max((used.a0 - used.unmatched).sum(), 1)
     T['a0_ef'] = np.where(T.a0 > 0, T.push + rho * T.unmatched, 0.0)

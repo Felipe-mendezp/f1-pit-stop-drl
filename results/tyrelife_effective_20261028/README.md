@@ -160,3 +160,37 @@ FastF1 con θ = 0 [V]:
   carpeta). Corregido en `results/sim_v10eGQ_20261028/overtake_v10_20261027.py` (importa `common_v10_20261027`); los
   coeficientes cambian ≤ 0,03 en intercepto y pendiente. Árboles reconstruidos: solo cambia `overtake_logit.pkl` (y el
   umbral). El mismo problema estaba en las cadenas v10c y v10d (reemplazadas, no se corrigieron).
+
+### Verificación independiente y rastreo corregido de la edad de llegada (28-oct, noche) [V]
+
+**Verificación.** Se reconstruyó `TL_G` desde los CSV de carrera (idéntico en las 97 843 vueltas). Bajo SC/VSC/roja la
+edad no sube y en verde sube 1. Las 18 sesiones sprint 2021–24 están. Los datos que entran a la Ec. 1, la regresión
+conjunta, la Ec. 2, LogitStop (leído del pickle guardado) y el adelantamiento tienen `TyreLife` = `TL_GQ` (× factor 2021
+en 2021) en el 100 % de las vueltas. K1 y el modelo SC/VSC no usan la edad.
+
+**Rastreo corregido** (pedido del autor; `chains` y `assign` en `ages_20261028.py`). Antes, en cada paso hacia atrás se
+tomaba la tanda de la sesión más tardía que terminaba con la edad buscada, aunque su cadena quedara incompleta; no se
+exigía orden cronológico y una misma tanda podía servir para dos juegos. Por ejemplo, Qatar 2023 HUL (MEDIUM de
+largada, 7 vueltas) tomaba la tanda 4–7 del shootout (3 vueltas sin encontrar) en vez de la 3–7 de FP1 (cadena
+completa). Ahora:
+- cada eslabón debe ser anterior al siguiente (sesión y número de tanda);
+- se prefiere la cadena con menos vueltas sin encontrar y, a igualdad, la más reciente;
+- las tandas de carrera de un piloto se asignan en conjunto, sin repetir tandas.
+
+Efecto:
+- Cambia el rastreo de 10 de 982 juegos usados (máximo 1,27 vueltas); vueltas previas encontradas 87,7 % → 87,9 %;
+  RHO 0,2678 → 0,2695. En total cambia `TL_GQ` en 1 790 vueltas.
+- Factor 2021: conjunto 0,774 → **0,776** (física 0,694, conductual 0,871; IC95 0,68–0,88). Con la regla de redondeo
+  usada hasta ahora (0,774 → 0,77) pasa a **0,78** (`data/tyrelife_2021_factors_v10eGQ.json`).
+- Cadena re-estimada (`results/sim_v10eGQ_20261028/`, `results/driver_coef_v10_20261028/v10eGQ/`). Frente a la versión
+  anterior, mayormente por el factor 0,78:
+  - neumáticos: ≤ 0,009 s en los desplazamientos y ≤ 0,0015 s/vuelta en las pendientes;
+  - Ec. 1 ≤ 0,017; LogitStop ≤ 0,027; adelantamiento ≤ 0,0008; Ec. 2 ≤ 0,057;
+  - K1 y SC/VSC idénticos; Fig. 4: 0,190 / 0,625 (igual).
+- Tablas 2024 del simulador (`data/tyre_sets_2024_reg_v10eGQ_20261028.csv`,
+  `data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv`): idénticas byte a byte (las edades redondeadas no cambian).
+- Árboles `trained_models/simulation{,_onedriver}_v10eGQ_20261028` reconstruidos con el mismo nombre. Los anteriores
+  quedaron en `*_old_prerastreo` (el mono-piloto antiguo son enlaces que ahora apuntan al árbol nuevo).
+- QMIP mono-piloto = DP en los 8 GP (`chain_compare/qmip_v10eGQ.txt`). Las estrategias no cambian, salvo Bahrain, donde
+  las paradas se atrasan una vuelta (18 → 19, 38 → 39).
+- Las cifras de las secciones anteriores (SSE, grillas, `chain_compare/compare_chain.txt`) son de antes de este cambio.
