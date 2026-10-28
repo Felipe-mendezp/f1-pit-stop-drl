@@ -7,7 +7,7 @@ import os, importlib.util
 import pandas as pd
 import statsmodels.api as sm
 HERE = os.path.dirname(os.path.abspath(__file__))
-for v in ('control', 'v10'):
+for v in ('control', 'v10', 'v10eGQ'):   # 28-oct noche: + v10eGQ
     s = importlib.util.spec_from_file_location('eq2_' + v, os.path.join(HERE, v, 'eq2_fallbacks_20261014.py'))
     M = importlib.util.module_from_spec(s); s.loader.exec_module(M)
     E = M.Eq2(); spec = M.spec
