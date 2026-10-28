@@ -11,20 +11,20 @@ theta
 2021-23 todos: cambio de SSE (%) frente a FastF1 (filas theta = peso de vuelta SC/VSC, columnas phi = peso de vuelta lenta previa); minimo en theta 0.25, phi 0.0
 phi    0.00  0.25  0.50  0.75  1.00
 theta                              
-0.00  -1.19 -1.09 -0.94 -0.74 -0.50
-0.25  -1.27 -1.16 -1.00 -0.79 -0.55
-0.50  -1.21 -1.10 -0.93 -0.72 -0.47
+0.00  -1.19 -1.09 -0.93 -0.74 -0.50
+0.25  -1.26 -1.15 -0.99 -0.79 -0.55
+0.50  -1.21 -1.09 -0.93 -0.72 -0.47
 0.75  -1.03 -0.91 -0.74 -0.53 -0.28
-1.00  -0.75 -0.63 -0.46 -0.24  0.00
+1.00  -0.74 -0.62 -0.45 -0.24  0.00
 
 2024 8 GP paper: cambio de SSE (%) frente a FastF1 (filas theta = peso de vuelta SC/VSC, columnas phi = peso de vuelta lenta previa); minimo en theta 0.0, phi 0.25
 phi    0.00  0.25  0.50  0.75  1.00
 theta                              
-0.00  -0.51 -0.51 -0.49 -0.43 -0.35
-0.25  -0.43 -0.43 -0.41 -0.35 -0.27
-0.50  -0.34 -0.34 -0.32 -0.26 -0.18
-0.75  -0.24 -0.25 -0.23 -0.17 -0.09
-1.00  -0.14 -0.15 -0.13 -0.08  0.00
+0.00  -0.52 -0.52 -0.49 -0.43 -0.35
+0.25  -0.43 -0.44 -0.41 -0.35 -0.27
+0.50  -0.34 -0.35 -0.32 -0.27 -0.18
+0.75  -0.25 -0.25 -0.23 -0.17 -0.09
+1.00  -0.15 -0.16 -0.13 -0.08  0.00
 
 2024 todos: cambio de SSE (%) frente a FastF1 (filas theta = peso de vuelta SC/VSC, columnas phi = peso de vuelta lenta previa); minimo en theta 0.25, phi 0.25
 phi    0.00  0.25  0.50  0.75  1.00

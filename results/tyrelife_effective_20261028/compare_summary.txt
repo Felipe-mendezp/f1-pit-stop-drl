@@ -3,7 +3,7 @@
 
 2021-23 (todos, 25 GP, 54472 vueltas): RMSE raw 0.6447 s
   TL_G   SSE total -0.50% | GP que mejoran 12/25 | cambio mediano por GP +0.00%
-  TL_Q   SSE total -0.75% | GP que mejoran 15/25 | cambio mediano por GP -0.03%
+  TL_Q   SSE total -0.74% | GP que mejoran 15/25 | cambio mediano por GP -0.03%
   TL_GQ  SSE total -1.19% | GP que mejoran 16/25 | cambio mediano por GP -0.46%
 
 2021-23 (8 GP paper, 8 GP, 17498 vueltas): RMSE raw 0.6987 s
@@ -23,13 +23,13 @@ United States Grand Prix  2764  0.9653   0.9659   0.9653    0.9659
 
 2024 (todos, 21 GP, 21252 vueltas): RMSE raw 0.5137 s
   TL_G   SSE total -0.31% | GP que mejoran 10/21 | cambio mediano por GP +0.00%
-  TL_Q   SSE total -0.14% | GP que mejoran 12/21 | cambio mediano por GP -0.03%
+  TL_Q   SSE total -0.14% | GP que mejoran 12/21 | cambio mediano por GP -0.04%
   TL_GQ  SSE total -0.56% | GP que mejoran 15/21 | cambio mediano por GP -0.18%
 
 2024 (8 GP paper, 8 GP, 8394 vueltas): RMSE raw 0.4880 s
   TL_G   SSE total -0.35% | GP que mejoran 3/8 | cambio mediano por GP +0.00%
-  TL_Q   SSE total -0.14% | GP que mejoran 6/8 | cambio mediano por GP -0.08%
-  TL_GQ  SSE total -0.51% | GP que mejoran 6/8 | cambio mediano por GP -0.28%
+  TL_Q   SSE total -0.15% | GP que mejoran 6/8 | cambio mediano por GP -0.12%
+  TL_GQ  SSE total -0.52% | GP que mejoran 6/8 | cambio mediano por GP -0.28%
                              n  r2_raw  r2_TL_G  r2_TL_Q  r2_TL_GQ
 GP                                                                
 Bahrain Grand Prix        1055  0.9908   0.9908   0.9908    0.9908

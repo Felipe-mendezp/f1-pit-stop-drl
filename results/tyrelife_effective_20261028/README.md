@@ -4,21 +4,41 @@ Pedido del autor: que no cuenten como vuelta de uso (i) las vueltas bajo SC o VS
 y clasificación. Hoy los datos (FastF1) cuentan todas las vueltas; el simulador multi-piloto congela la edad bajo SC/VSC.
 
 1. `extract_fpq_20261028.py` (entorno `~/.venvs/f1-fastf1`, caché local offline) → `fpq_laps_2021_2024.csv.gz`:
-   vueltas de prácticas, clasificación y sprint 2021–2024.
+   vueltas de prácticas y clasificación 2021–2024. Las sesiones sprint no están en la caché (y la API de F1 responde
+   401), así que no quedaron; se agregan en el paso 1b.
+1b. `extract_sprint_20261028.py` → `fpq_sprint_laps_2021_2024.csv.gz` (log `extract_sprint.log`), agregado el 28-oct:
+   - 2021 y 2022, sprint: FastF1 contra el mirror de live timing (en 2021 la carpeta del feed es `*_Sprint_Qualifying/`);
+   - 2023, shootout y sprint, y 2024, sprint qualifying: OpenF1 (sin TrackStatus por vuelta; la vuelta de entrada se
+     toma como la última de cada tanda; se omiten 11 tandas sin vueltas o edad, 10 de ellas en la sprint de Bélgica 2023);
+   - 2024, sprint: `data/practice_laps_2024_20260930.csv`.
 2. `ages_20261028.py` → `ages_2021_2024.csv.gz`, `stint_starts.csv`, `fpq_stints.csv`. Variantes de edad:
    - `G`: sin vueltas de carrera con SC, VSC o bandera roja;
    - `Q`: la edad con que llega un juego usado cuenta solo vueltas de empuje (≤ 1,10 × la mejor del piloto en la
      sesión, sin entrada, salida ni bandera), siguiendo la cadena de tandas del juego en prácticas y clasificación;
    - `GQ`: ambas.
+   Las sesiones se ordenan por su cronología real (en los fines de semana sprint el orden cambia según el año).
 3. `compare_20261028.py`: la Ec. 1 por GP, con la misma muestra y fórmula que hoy (datos v10d, filtro A, factor 2021
    de 0.74), solo cambiando `TyreLife`.
 4. `grid_20261028.py`: grilla de pesos `TyreLife = GQ + θ·(vueltas SC/VSC) + φ·(vueltas lentas previas)`.
+5. `grid_quali_20261028.py` → `grid_quali.csv`, `grid_quali_summary.txt`: peso ψ de las vueltas de empuje de
+   clasificación (Q, SQ y shootout) en la edad con que llega un juego usado; ψ = 1 es `GQ`.
 
 ## Resultados [V]
 
-- **Juegos usados:** 21 % de las tandas de carrera. En los juegos de la largada se encuentra el 93 % de las vueltas previas;
-  en total, el 58 %, por vueltas sin compuesto en Austria y Mónaco 2022, que igual se descartan. El resto se completa con
-  la proporción global de vueltas de empuje (0,27). La edad media con que llega un juego usado baja de 4,0 a 1,1 vueltas.
+- **Juegos usados:** 20 % de las tandas de carrera (982 de 4 808). Se rastrea el 87,7 % de sus vueltas previas: el
+  94,8 % en los juegos de largada y el 83,2 % en los puestos en una parada. El resto se completa con la proporción
+  global de vueltas de empuje (0,268). La edad media con que llega un juego usado baja de 2,9 a 0,8 vueltas. El 97 % de
+  las vueltas de empuje rastreadas son de clasificación.
+- **Corrección del 28-oct (después de la cadena v10e):** con pandas 3 dos compuestos `NaN` no son iguales, y cada vuelta
+  sin compuesto (Austria y Mónaco 2022) se tomaba como una tanda nueva con juego usado: 66 inicios falsos y 1 363 vueltas
+  previas ficticias, todas sin rastrear. Eso daba el 58 % rastreado que se informó antes. Se corrigió en
+  `ages_20261028.py` y al mismo tiempo se agregaron las sesiones sprint. Efecto [V]:
+  - la proporción usada para completar (0,267 → 0,268) y la grilla θ–φ no cambian;
+  - el cambio de SSE de la Ec. 1 cambia ≤ 0,01 puntos porcentuales;
+  - cambian las edades `TL_Q` y `TL_GQ` de 1 846 vueltas: las sin compuesto, que la Ec. 1 y LogitStop descartan (la
+    fórmula usa `C(Compound_Detail)`), y las de juegos con vueltas en sprint;
+  - la cadena v10e (sección siguiente) se corrió con las edades anteriores. [H] Para v10eG no importa (`TL_G` cambia en
+    14 vueltas sin compuesto); para v10eGQ habría que re-correrla si se adopta.
 - **Ajuste:** la variante `GQ` reduce la suma de cuadrados de residuos frente a FastF1:
 
   | Conjunto | GQ | G | Q |
@@ -81,3 +101,23 @@ Estrategias óptimas de la QMIP mono-piloto que cambian:
   es un error de formulación.
 - En v10eGQ falta, en el simulador, llevar a vueltas de empuje las edades de los juegos usados (inventario 2024 y tandas
   reales de los rivales).
+
+## Peso de las vueltas de empuje de clasificación (28-oct)
+
+Pedido del autor: probar un desgaste extra para las vueltas rápidas de clasificación, por ejemplo ×2. Grilla ψ ∈
+{0, 0,5, 1, 1,5, 2, 3, 4} × θ ∈ {0, 0,25}, con el mismo procedimiento (`grid_quali_summary.txt`). Cambio de SSE frente a
+FastF1 con θ = 0 [V]:
+
+| Conjunto | ψ = 0 | ψ = 1 (GQ) | ψ = 2 | ψ = 4 | G | Mejor ψ |
+|---|---|---|---|---|---|---|
+| 2021–23, 25 GP | −1,28 % | −1,19 % | −0,91 % | +0,08 % | −0,50 % | 0 |
+| 2021–23, 8 GP | −2,35 % | −2,17 % | −1,78 % | −0,51 % | −1,03 % | 0 |
+| 2024, 21 GP | −0,42 % | −0,56 % | −0,57 % | −0,32 % | −0,31 % | 1,5 |
+| 2024, 8 GP | −0,35 % | −0,52 % | −0,55 % | −0,31 % | −0,35 % | 1,5–2 |
+
+- En 2021–23 el ajuste empeora a medida que ψ sube; en 2024 el mejor ψ está entre 1,5 y 2, pero la ventaja sobre ψ = 1
+  es de 0,03 puntos. Los datos no respaldan un factor ×2 de forma consistente; ψ = 1 queda cerca del mejor en los cuatro
+  conjuntos.
+- [H] La diferencia entre períodos podría venir de la regla 2021 de largar con los neumáticos de Q2, de la selección (los
+  equipos que llegan con juegos usados de clasificación) o de que la edad solo cambia el nivel de cada tanda, por lo que el
+  peso se identifica débilmente.
