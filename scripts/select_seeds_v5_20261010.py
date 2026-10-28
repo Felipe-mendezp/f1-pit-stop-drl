@@ -57,9 +57,11 @@ SIM = {'v5': 'trained_models/simulation_v5_20261010',
        'v6': 'trained_models/simulation_v6_20261014',         # 2026-10-14: v6 (correr via scripts/rival_dnf_v6_20261014.py)
        'v7': 'trained_models/simulation_v7_20261015',         # 2026-10-15: v7 (igual que v6: via rival_dnf_v6)
        'v8': 'trained_models/simulation_v7_20261015',         # 2026-10-19: v8 (via rival_start_v8; mismo simulador que v7)
-       'v9r2': 'trained_models/simulation_v7_20261015'}       # 2026-10-23: v9r2 (via tyre_reuse_v9r2 + tyre_sets_v9 + rival_start_v8)
+       'v9r2': 'trained_models/simulation_v7_20261015',       # 2026-10-23: v9r2 (via tyre_reuse_v9r2 + tyre_sets_v9 + rival_start_v8)
+       'v10': 'trained_models/simulation_v10_20261027'}       # 2026-10-27: v10 (via v10_wrapper + los envoltorios de v9r2)
 AGENTS = {'v5': 'rl_agents_v5_20261010', 'v5h': 'rl_agents_v5h_20261011', 'v6': 'rl_agents_v6_20261014',
-          'v7': 'rl_agents_v7_20261015', 'v8': 'rl_agents_v8_20261018', 'v9r2': 'rl_agents_v9r2_20261022'}
+          'v7': 'rl_agents_v7_20261015', 'v8': 'rl_agents_v8_20261018', 'v9r2': 'rl_agents_v9r2_20261022',
+          'v10': 'retrained_v10_20261027'}
 ALGOS = ['PPO', 'RecurrentPPO']
 VAL_SEED = 2026          # Fig 6 del paper usa 42
 
@@ -98,14 +100,16 @@ import compat; compat.setup_all()  # noqa: E402
 # arriba; hay que pasarlo tambien por fuera. Control de que el simulador cargado es el de --calib:
 assert os.path.realpath(str(config.SIMULATION_DIR)) == os.path.realpath(os.path.join(ROOT, SIM[A.calib])), \
     f'config.SIMULATION_DIR={config.SIMULATION_DIR} no es {SIM[A.calib]}: exportar F1_SIMULATION_DIR={SIM[A.calib]}'
-if A.calib in ('v6', 'v7', 'v8', 'v9r2'):
+if A.calib in ('v6', 'v7', 'v8', 'v9r2', 'v10'):
     assert os.environ.get('F1_RIVAL_DNF'), '--calib v6/v7: correr via scripts/rival_dnf_v6_20261014.py (validacion con abandonos)'
-if A.calib in ('v8', 'v9r2'):
+if A.calib in ('v8', 'v9r2', 'v10'):
     assert os.environ.get('F1_RIVAL_START_ALPHA') and os.environ.get('F1_LAP0_ACTION0_MEDIUM'), \
         '--calib v8: correr via scripts/rival_start_v8_20261018.py'
-if A.calib == 'v9r2':   # 2026-10-23
+if A.calib in ('v9r2', 'v10'):   # 2026-10-23
     assert os.environ.get('F1_TYRE_SETS') and os.environ.get('F1_TYRE_REUSE') == '1', \
         '--calib v9r2: correr via scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py'
+if A.calib == 'v10':    # 2026-10-27
+    assert os.environ.get('F1_VSC_FIRST_LAP_ONLY') == '1', '--calib v10: correr via scripts/v10_wrapper_20261027.py'
 
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
