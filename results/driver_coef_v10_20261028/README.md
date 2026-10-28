@@ -48,3 +48,17 @@ El autor eligió corregirlo:
 (v10c más Bélgica y Mónaco 2022). Comparación en `compare_v10d_20261028.py` → `compare_v10d_20261028.txt` [V]:
 - pilotos del simulador frente a v10c: media 0.0003, máximo 0.0026 s/vuelta;
 - Fig. 4: solo cambia Bélgica "sin corrección", 0.341 → 0.327.
+
+## v10eGQ (28-oct, noche): versión del paper
+
+Cadena `results/sim_v10eGQ_20261028/` con el rastreo corregido (factor 2021 0,78). Corridas [V]:
+`F1_TYRELIFE_2021=v10eGQ python results/driver_coef_v10_20261028/run_20261028.py v10eGQ` (salidas 12:21), luego
+`python results/driver_coef_v10_20261028/v10eGQ/eq2_variants_20261014.py`, `fallback_mse_20261028.py` y
+`belgian_table_20261028.py` (estos dos ahora incluyen v10eGQ).
+- Fig. 4: con corrección media 0,190, sin corrección 0,625; la corrección mejora en todos los GP salvo Qatar (0,451 vs 0,379).
+- `tab:reg_coef_drivers`: 2023 0.136/0.153/0.166/0.135/0.249/0.538; 2024 (276 pares) 0.221/0.195/0.210/0.191/0.322/0.618.
+  La especificación porcentual sigue siendo la mejor en ambas temporadas.
+- Respaldos: quitar X_Q cambia como máximo 0,0196; sin carreras previas, hasta 0,342 (texto "about 0.34", antes 0.36).
+- `tab:regression_pitstops` (Belgian): 929/1022 obs., R² 0.578/0.516; todos los coeficientes ***.
+- Aplicado al paper en `\vten{}` el 28-oct noche (`docs/CAMBIOS_PAPER_V10_20261027.md`, ítems 25–28). Commit `9508bda`.
+
