@@ -56,7 +56,12 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
             # 2026-10-26: E4 = barrido B con los PPO/RPPO post-entrenados con largada sorteada (F1_START_MIX apagado al
             # evaluar; docs/PROPUESTA_POSTENTRENAMIENTO_LARGADA_20261025.md); requiere F1_DS_FORCE=hist
             'v9r2smhist': ('simulation_v7_20261015', 'retrained_v9r2_startmix_20261025',
-                           'decision_support_v9r2smrealhist_20261026', 'v7')}
+                           'decision_support_v9r2smrealhist_20261026', 'v7'),
+            # 2026-10-27: simulador v10 (paradas reales, TyreLife 2021 x 0.740, VSC solo en la 1a vuelta; requiere
+            # F1_VSC_FIRST_LAP_ONLY=1 y F1_WORLD2024_TYRES=v10). v10smhist = Fig. 11 con los post-entrenados v10.
+            'v10': ('simulation_v10_20261027', 'retrained_v10_20261027', 'decision_support_v10w24belief_20261027', 'v10'),
+            'v10smhist': ('simulation_v10_20261027', 'retrained_v10_startmix_20261027',
+                          'decision_support_v10smrealhist_20261027', 'v10')}
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
@@ -144,7 +149,7 @@ def main():
     assert os.environ.get('F1_WORLD2024_TYRES') == tyres, f'F1_WORLD2024_TYRES={tyres}'
     assert os.environ.get('F1_SC_REVEAL') == '1' and os.environ.get('F1_YF_LAPS_2024'), \
         'source reproduce/env_paper_v3_20261007.sh'
-    if a.version.startswith('v9r2') and a.version != 'v9r2':   # 2026-10-24
+    if (a.version.startswith('v9r2') and a.version != 'v9r2') or a.version == 'v10smhist':   # 2026-10-24
         global ROLLOUTS
         ROLLOUTS = REALHIST
         force = 'hist' if a.version.endswith('hist') else 'start'   # 2026-10-26: antes a.version[4:] (v9r2smhist)
@@ -152,13 +157,15 @@ def main():
         assert not os.environ.get('F1_START_MIX'), 'sin F1_START_MIX al evaluar'
     else:
         assert not os.environ.get('F1_DS_FORCE'), 'F1_DS_FORCE solo con --version v9r2start|v9r2hist'
-    if a.version in ('v8',) or a.version.startswith('v9r2'):   # 2026-10-19
+    if a.version in ('v8',) or a.version.startswith(('v9r2', 'v10')):   # 2026-10-19
         assert all(os.environ.get(k) for k in ('F1_RIVAL_START_ALPHA', 'F1_LAP0_ACTION0_MEDIUM', 'F1_LAP0_PENALTY')), \
             '--version v8: exportar F1_RIVAL_START_ALPHA, F1_LAP0_ACTION0_MEDIUM y F1_LAP0_PENALTY'
-    if a.version.startswith('v9r2'):   # 2026-10-23
+    if a.version.startswith(('v9r2', 'v10')):   # 2026-10-23
         assert (os.path.basename(os.environ.get('F1_TYRE_SETS', '')) == 'tyre_sets_2024_reg_20261021.csv'
                 and os.environ.get('F1_TYRE_REUSE') == '1' and os.environ.get('F1_NO_SET_PENALTY') == '-1000'), \
             '--version v9r2: exportar F1_TYRE_SETS, F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000'
+    if a.version.startswith('v10'):   # 2026-10-27
+        assert os.environ.get('F1_VSC_FIRST_LAP_ONLY') == '1', '--version v10: exportar F1_VSC_FIRST_LAP_ONLY=1'
     assert 'F1_RIVAL_DNF' not in os.environ, 'sin F1_RIVAL_DNF (rivales --real-yf sin abandonos, como v5h)'
     for p in (SIM, AGENTS):
         assert os.path.isdir(p), p
