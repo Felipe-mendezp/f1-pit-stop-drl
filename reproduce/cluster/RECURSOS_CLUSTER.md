@@ -63,3 +63,10 @@ Con DummyVecEnv, el multi-piloto usa ~0,5 GB por tarea en lugar de ~8 GB con Sub
 - mono-piloto: **540M** (1,2 × 445 MB), con 2 CPU.
 
 Las tareas son `tasks_v10d_20261028.tsv` y `tasks_onedriver_v10d_20261028.tsv`.
+
+**28-oct (noche), v10eGQ** (versión adoptada; tareas `tasks_v10eGQ_20261028.tsv` y
+`tasks_onedriver_v10eGQ_20261028.tsv`, no lanzadas). Mismo código y tamaño que v10d, así que se esperan los mismos
+pedidos (PPO/RPPO 830M, DQN 1950M, A2C/TRPO 530M; mono 540M con 2 CPU). Prueba en curso: `18033848` (multi 52, 71,
+`--mem=2G`) y `18033849` (mono 6, 7). La prueba 18033607/08 falló porque un `rsync -R --delete` borró
+`~/F1DLR/trained_models/` en el cluster; se repusieron solo los árboles v10eGQ y los 16 destinos de sus enlaces
+(`simulation/`, `simulation_v6_20261014/`). **No usar `--delete` hacia el cluster.**
