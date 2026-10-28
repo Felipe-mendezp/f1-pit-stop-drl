@@ -30,3 +30,14 @@ Sí cambian, pero muy poco:
   error de predicción de la Ec. 2 (MSE ≈ 0.19 (s/vuelta)²).
 - **`tab:regression_pitstops`** (Ec. 2 de Belgian): no se re-estimó. Usa las mismas entradas, así que se esperan cambios
   del mismo orden [H].
+
+## Decisión y aplicación (28-oct)
+
+El autor eligió corregirlo:
+- `scripts/build_simulation_v10_20261028.py` → `trained_models/simulation_v10_20261028`: solo cambian los dummies de
+  piloto, y se verifica.
+- Relanzamiento del multi-piloto.
+- Paper: Fig. 4, `tab:reg_coef_drivers` y `tab:regression_pitstops` en `\vten`.
+- `belgian_table_20261028.py` reproduce la tabla de Belgian (control exacto; antes no tenía script).
+- `fallback_mse_20261028.py` reproduce los respaldos (control exacto). Las cifras del texto, 0.02 y 0.36, no cambian.
+- Mono-piloto: sus predicciones no cambian (usa VER, la referencia).

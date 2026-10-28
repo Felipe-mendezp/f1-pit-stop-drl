@@ -50,7 +50,7 @@ los coeficientes ya estimados.
 | K1 (compuesto de los rivales) | no (LapsLeft, alternativa) | — |
 | Logit de adelantamiento (Ec. 1 histórica, TyreLife) | sí | 0.740 (re-estimado) |
 | Modelo SC/VSC | no (sin TyreLife) | — |
-| Ec. 2 (pilotos, por carrera) | no (factor común a todos los compuestos; verificado en v7) | pilotos de v6, como v7 |
+| Ec. 2 (pilotos, por carrera) | **sí** (poco: la Ec. 1 por carrera y la histórica usan TyreLife y PitIn) | árbol del 27-oct: pilotos de v6 (error); **árbol `simulation_v10_20261028`: Ec. 2 v10** (`results/driver_coef_v10_20261028/`, ≤ 0.005 s/vuelta) |
 | Compuestos de partida (Dirichlet), abandonos | no | sin cambio |
 
 ## Resultados [V]
@@ -81,5 +81,7 @@ los coeficientes ya estimados.
 Ver `reproduce/cluster/RECURSOS_CLUSTER.md` para los recursos.
 - **Mono-piloto:** `reproduce/cluster/tasks_onedriver_v10.tsv` y `train_onedriver_v10_20261027.sbatch`, envoltorio
   `scripts/one_driver_v10_20261027.py`, salida `trained_models/retrained_v10_onedriver_20261027/`.
-- **Multi-piloto:** `tasks_v10.tsv` y `train_v10_20261027.sbatch`, envoltorio `scripts/v10_wrapper_20261027.py`
+- **Multi-piloto (definitivo, 28-oct):** `tasks_v10_20261028.tsv`, árbol `simulation_v10_20261028`, salida
+  `trained_models/retrained_v10_20261028/`. El arreglo del 27-oct (`tasks_v10.tsv`, pilotos de v6) se canceló.
+- **Multi-piloto (27-oct, cancelado):** `tasks_v10.tsv` y `train_v10_20261027.sbatch`, envoltorio `scripts/v10_wrapper_20261027.py`
   (`F1_VSC_FIRST_LAP_ONLY=1`, `F1_VEC_DUMMY=1`), salida `trained_models/retrained_v10_20261027/`.

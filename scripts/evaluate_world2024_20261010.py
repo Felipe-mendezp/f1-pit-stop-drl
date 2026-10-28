@@ -46,7 +46,7 @@ WORLD, BELIEF = {
     # 2026-10-15: v7 (TyreLife 2021 x 0.716): creencia = simulation_v7_20261015, mundo = opcion3h 2021-24 con el mismo factor
     'v7': (os.path.join(ROOT, 'results', 'sim_v7_20261015', 'tyre_v7', 'coefs_opcion3h_2021_24.csv'),
            os.path.join(ROOT, 'results', 'sim_v7_20261015', 'tyre_v7', 'coefs_opcion3h.csv')),
-    # 2026-10-27: v10 (paradas reales, TyreLife 2021 x 0.740): creencia = simulation_v10_20261027, mundo = opcion3h 2021-24 v10
+    # 2026-10-27: v10 (paradas reales, TyreLife 2021 x 0.740): creencia = F1_SIMULATION_DIR (simulation_v10_20261028 desde el 28-oct), mundo = opcion3h 2021-24 v10
     'v10': (os.path.join(ROOT, 'results', 'sim_v10_20261027', 'tyre_v10', 'coefs_opcion3h_2021_24.csv'),
             os.path.join(ROOT, 'results', 'sim_v10_20261027', 'tyre_v10', 'coefs_opcion3h.csv')),
 }[TYRES]

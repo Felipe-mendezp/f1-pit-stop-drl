@@ -1,9 +1,10 @@
 #!/bin/zsh
 # Pipeline v10 (2026-10-27): copia de reproduce/pipeline_v9r2_20261023.sh para el simulador v10
-# (trained_models/simulation_v10_20261027: paradas reales en vez de PitIn de FastF1, TyreLife 2021 x 0.740, VSC solo en
-# la 1a vuelta para agente y QMIP; results/sim_v10_20261027/README.md) y los agentes trained_models/retrained_v10_20261027.
+# 2026-10-28: arbol y agentes apuntan a simulation_v10_20261028 / retrained_v10_20261028 (pilotos de la Ec. 2 v10; el arreglo del 27-oct se cancelo).
+# (trained_models/simulation_v10_20261028: paradas reales en vez de PitIn de FastF1, TyreLife 2021 x 0.740, VSC solo en
+# la 1a vuelta para agente y QMIP; results/sim_v10_20261027/README.md) y los agentes trained_models/retrained_v10_20261028.
 # Diferencias con v9r2: mundo 2024 = tyre_v10 (F1_WORLD2024_TYRES=v10), F1_VSC_FIRST_LAP_ONLY=1 en todas las etapas (y el
-# envoltorio scripts/v10_wrapper_20261027.py), --calib v10, salida results/world2024_v10_20261027, y --max-dsq 0 por
+# envoltorio scripts/v10_wrapper_20261027.py), --calib v10, salida results/world2024_v10_20261028, y --max-dsq 0 por
 # defecto (la variante dsq0 es la version del paper desde el 24-oct). Las etapas figs usan los scripts de
 # results/world2024_v9r2_20261023 (leen $OUT via F1_V9R2_DIR).
 #   zsh reproduce/pipeline_v10_20261027.sh qmip              # sin agentes
@@ -15,15 +16,15 @@
 set -e -o pipefail
 cd "$(dirname $0)/.."
 source reproduce/env_paper_v3_20261007.sh
-export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10 F1_SIMULATION_DIR=trained_models/simulation_v10_20261027 F1_VSC_FIRST_LAP_ONLY=1
+export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10 F1_SIMULATION_DIR=trained_models/simulation_v10_20261028 F1_VSC_FIRST_LAP_ONLY=1
 export F1_RIVAL_START_ALPHA=$(~/.venvs/f1-drl-v2/bin/python -c "import json; print(json.load(open('data/rival_start_alpha_2021_2023_20261018.json'))['alpha'])")
 export F1_LAP0_ACTION0_MEDIUM=1 F1_LAP0_PENALTY=-1000 F1_QMIP_SYMMETRY=full
 export F1_TYRE_SETS=$PWD/data/tyre_sets_2024_reg_20261021.csv F1_TYRE_REUSE=1 F1_NO_SET_PENALTY=-1000
 unset F1_RIVAL_DNF
 PY=~/.venvs/f1-drl-v2/bin/python
 JOBS=${JOBS:-8}; NVAL=${NVAL:-200}; NSIMS=${NSIMS:-500}
-OUT=${OUT:-results/world2024_v10_20261027}
-AGENTS=${AGENTS:-trained_models/retrained_v10_20261027}
+OUT=${OUT:-results/world2024_v10_20261028}
+AGENTS=${AGENTS:-trained_models/retrained_v10_20261028}
 SELOUT=${SELOUT:-results/seed_selection_v5_20261010/v10}
 FIGS=results/world2024_v9r2_20261023   # scripts de figuras y tabla (leen $OUT via F1_V9R2_DIR)
 ALGOS=(DQN A2C TRPO PPO RecurrentPPO)

@@ -58,10 +58,10 @@ SIM = {'v5': 'trained_models/simulation_v5_20261010',
        'v7': 'trained_models/simulation_v7_20261015',         # 2026-10-15: v7 (igual que v6: via rival_dnf_v6)
        'v8': 'trained_models/simulation_v7_20261015',         # 2026-10-19: v8 (via rival_start_v8; mismo simulador que v7)
        'v9r2': 'trained_models/simulation_v7_20261015',       # 2026-10-23: v9r2 (via tyre_reuse_v9r2 + tyre_sets_v9 + rival_start_v8)
-       'v10': 'trained_models/simulation_v10_20261027'}       # 2026-10-27: v10 (via v10_wrapper + los envoltorios de v9r2)
+       'v10': 'trained_models/simulation_v10_20261028'}       # 2026-10-27: v10 (via v10_wrapper + los envoltorios de v9r2)
 AGENTS = {'v5': 'rl_agents_v5_20261010', 'v5h': 'rl_agents_v5h_20261011', 'v6': 'rl_agents_v6_20261014',
           'v7': 'rl_agents_v7_20261015', 'v8': 'rl_agents_v8_20261018', 'v9r2': 'rl_agents_v9r2_20261022',
-          'v10': 'retrained_v10_20261027'}
+          'v10': 'retrained_v10_20261028'}
 ALGOS = ['PPO', 'RecurrentPPO']
 VAL_SEED = 2026          # Fig 6 del paper usa 42
 

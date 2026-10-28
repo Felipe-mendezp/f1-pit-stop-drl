@@ -28,7 +28,8 @@ y ControlMaster. Con la IP sin `-i` falla por publickey.
 |---|---|---|---|
 | mono-piloto v10 | 1G (1,2 × 805 MB) | 2 | `train_onedriver_v10_20261027.sbatch` |
 | multi-piloto v10, PPO/RPPO | 700M (1,2 × 557 MB) | 4 | `train_v10_20261027.sbatch` + `--mem=700M` (job f1v10, 28-oct) |
-| multi-piloto v10, DQN/A2C/TRPO | por medir (prueba f1v10t2, tareas 21-23, 2G) | 4 | ídem |
+| multi-piloto v10, DQN | 1900M (1,2 × 1,58 GB) | 4 | ídem, job f1v10d (%20) |
+| multi-piloto v10, A2C/TRPO | 550M (1,2 × 434 MB) | 4 | ídem, job f1v10o (%40) |
 | post-entrenamiento v10 | 1G (1,2 × 822 MB) | 4 | `train_v10_20261027.sbatch` + `--mem=1G` (tareas `tasks_v10sm.tsv`) |
 
 ## Mediciones v10 [V]
@@ -38,5 +39,12 @@ y ControlMaster. Con la IP sin `-i` falla por publickey.
 | f1od10t (mono-piloto, 2 CPU) | Bahrain PPO, RPPO semilla 1 | 352 MB (sstat, en curso) | ≈ 25 min |
 | f1v10t (multi-piloto, DummyVecEnv, 4 CPU) | Saudi PPO semilla 1 | 403 MB | 1 h 26 min |
 | f1v10t (ídem) | Saudi RPPO semilla 1 | 557 MB | 2 h 15 min |
+
+| f1v10t2 (ídem) | Singapore DQN / A2C / TRPO semilla 1 | 1582 / 423 / 434 MB | 1 h 28 / 1 h 18 / 1 h 35 |
+
+| f1v10 / f1v10d / f1v10o (27-oct, 216 tareas completas antes de cancelar) | PPO+RPPO / DQN / A2C+TRPO | máx. 687 / 1606 / 436 MB | máx. 4 h 00 / 1 h 49 / 1 h 56 |
+
+**28-oct, relanzamiento con el árbol `simulation_v10_20261028`:** f1v10b PPO/RPPO `--mem=830M` (1,2 × 687 MB; el pedido
+de 700M quedaba justo), f1v10bd DQN `--mem=1950M` (1,2 × 1606 MB) y f1v10bo A2C/TRPO `--mem=530M` (1,2 × 436 MB).
 
 Con DummyVecEnv, el multi-piloto usa ~0,5 GB por tarea en lugar de ~8 GB con SubprocVecEnv, y 1 CPU efectiva.

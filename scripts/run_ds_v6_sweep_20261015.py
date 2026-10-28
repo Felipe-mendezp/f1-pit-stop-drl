@@ -59,9 +59,9 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
                            'decision_support_v9r2smrealhist_20261026', 'v7'),
             # 2026-10-27: simulador v10 (paradas reales, TyreLife 2021 x 0.740, VSC solo en la 1a vuelta; requiere
             # F1_VSC_FIRST_LAP_ONLY=1 y F1_WORLD2024_TYRES=v10). v10smhist = Fig. 11 con los post-entrenados v10.
-            'v10': ('simulation_v10_20261027', 'retrained_v10_20261027', 'decision_support_v10w24belief_20261027', 'v10'),
-            'v10smhist': ('simulation_v10_20261027', 'retrained_v10_startmix_20261027',
-                          'decision_support_v10smrealhist_20261027', 'v10')}
+            'v10': ('simulation_v10_20261028', 'retrained_v10_20261028', 'decision_support_v10w24belief_20261028', 'v10'),
+            'v10smhist': ('simulation_v10_20261028', 'retrained_v10_startmix_20261028',
+                          'decision_support_v10smrealhist_20261028', 'v10')}
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
