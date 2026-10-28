@@ -1,10 +1,12 @@
 #!/bin/zsh
 # Pipeline v10 (2026-10-27): copia de reproduce/pipeline_v9r2_20261023.sh para el simulador v10
-# 2026-10-28: arbol y agentes apuntan a simulation_v10_20261028 / retrained_v10_20261028 (pilotos de la Ec. 2 v10; el arreglo del 27-oct se cancelo).
-# (trained_models/simulation_v10_20261028: paradas reales en vez de PitIn de FastF1, TyreLife 2021 x 0.740, VSC solo en
-# la 1a vuelta para agente y QMIP; results/sim_v10_20261027/README.md) y los agentes trained_models/retrained_v10_20261028.
+# 2026-10-28: scripts/gp_configs_fix_20261028.py (v5hd + estrategias reales de los rivales corregidas) en lugar de
+# gp_drivers_v5hd_20261014.py y al inicio de WRAP.
+# 2026-10-28: arbol y agentes v10c: simulation_v10c_20261028 / retrained_v10c_20261028 (compuestos de FastF1 corregidos con OpenF1, pilotos re-estimados; mundo 2024 = F1_WORLD2024_TYRES=v10c). Los arreglos del 27 y del 28-oct (v10) se cancelaron.
+# (trained_models/simulation_v10c_20261028: paradas reales en vez de PitIn de FastF1, TyreLife 2021 x 0.740, VSC solo en
+# la 1a vuelta para agente y QMIP; results/sim_v10_20261027/README.md) y los agentes trained_models/retrained_v10c_20261028.
 # Diferencias con v9r2: mundo 2024 = tyre_v10 (F1_WORLD2024_TYRES=v10), F1_VSC_FIRST_LAP_ONLY=1 en todas las etapas (y el
-# envoltorio scripts/v10_wrapper_20261027.py), --calib v10, salida results/world2024_v10_20261028, y --max-dsq 0 por
+# envoltorio scripts/v10_wrapper_20261027.py), --calib v10, salida results/world2024_v10c_20261028, y --max-dsq 0 por
 # defecto (la variante dsq0 es la version del paper desde el 24-oct). Las etapas figs usan los scripts de
 # results/world2024_v9r2_20261023 (leen $OUT via F1_V9R2_DIR).
 #   zsh reproduce/pipeline_v10_20261027.sh qmip              # sin agentes
@@ -16,20 +18,20 @@
 set -e -o pipefail
 cd "$(dirname $0)/.."
 source reproduce/env_paper_v3_20261007.sh
-export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10 F1_SIMULATION_DIR=trained_models/simulation_v10_20261028 F1_VSC_FIRST_LAP_ONLY=1
+export MPLBACKEND=Agg F1_WORLD2024_TYRES=v10c F1_SIMULATION_DIR=trained_models/simulation_v10c_20261028 F1_VSC_FIRST_LAP_ONLY=1
 export F1_RIVAL_START_ALPHA=$(~/.venvs/f1-drl-v2/bin/python -c "import json; print(json.load(open('data/rival_start_alpha_2021_2023_20261018.json'))['alpha'])")
 export F1_LAP0_ACTION0_MEDIUM=1 F1_LAP0_PENALTY=-1000 F1_QMIP_SYMMETRY=full
 export F1_TYRE_SETS=$PWD/data/tyre_sets_2024_reg_20261021.csv F1_TYRE_REUSE=1 F1_NO_SET_PENALTY=-1000
 unset F1_RIVAL_DNF
 PY=~/.venvs/f1-drl-v2/bin/python
 JOBS=${JOBS:-8}; NVAL=${NVAL:-200}; NSIMS=${NSIMS:-500}
-OUT=${OUT:-results/world2024_v10_20261028}
-AGENTS=${AGENTS:-trained_models/retrained_v10_20261028}
+OUT=${OUT:-results/world2024_v10c_20261028}
+AGENTS=${AGENTS:-trained_models/retrained_v10c_20261028}
 SELOUT=${SELOUT:-results/seed_selection_v5_20261010/v10}
 FIGS=results/world2024_v9r2_20261023   # scripts de figuras y tabla (leen $OUT via F1_V9R2_DIR)
 ALGOS=(DQN A2C TRPO PPO RecurrentPPO)
 ALL=(Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG)
-WRAP=(scripts/v10_wrapper_20261027.py scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py scripts/rival_start_v8_20261018.py)
+WRAP=(scripts/gp_configs_fix_20261028.py scripts/v10_wrapper_20261027.py scripts/tyre_reuse_v9r2_20261022.py scripts/tyre_sets_v9_20261021.py scripts/rival_start_v8_20261018.py)
 mkdir -p $OUT/logs
 log() { echo "$(date +%T) $*" | tee -a $OUT/logs/status.txt; }
 
@@ -53,9 +55,9 @@ stage_eval() {     # $1 = fig6 | fig7 ; $2 = carpeta de agentes ; $3 = salida ; 
   for g in $@; do echo $g; done | xargs -P $JOBS -L 1 zsh -c '
     g=$0; k='$kind'; o='$out'; py='$PY'; n='$NSIMS'
     case $k in
-      fig6) $py scripts/gp_drivers_v5hd_20261014.py scripts/evaluate_world2024_20261010.py --fig 6 --real-dnf \
+      fig6) $py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 6 --real-dnf \
               --world 2024 --gps $g --n-sims $n --algos '"$ALGOS"' --out $o ;;
-      fig7) $py scripts/gp_drivers_v5hd_20261014.py scripts/evaluate_world2024_20261010.py --fig 7 \
+      fig7) $py scripts/gp_configs_fix_20261028.py scripts/evaluate_world2024_20261010.py --fig 7 \
               --world 2024 --gps $g --n-sims $n --algos '"$ALGOS"' --out $o ;;
     esac > $o/logs/${k}_$g.log 2>&1
     echo "$(date +%T) $k $g exit $?" >> $o/logs/status.txt'
@@ -85,13 +87,13 @@ EOF
 
 stage_summary() {
   log "summary"
-  $PY scripts/gp_drivers_v5hd_20261014.py results/world2024_v6_20261014/summarize_v6_20261014.py --dir $OUT \
+  $PY scripts/gp_configs_fix_20261028.py results/world2024_v6_20261014/summarize_v6_20261014.py --dir $OUT \
       2>&1 | grep -v -i warning | tee $OUT/logs/summary.log
 }
 
 stage_figs() {
   log "figs"
-  F1_V9R2_DIR=${OUT:a} $PY scripts/gp_drivers_v5hd_20261014.py $FIGS/figs67_2x4_20261023.py
+  F1_V9R2_DIR=${OUT:a} $PY scripts/gp_configs_fix_20261028.py $FIGS/figs67_2x4_20261023.py
   F1_V9R2_DIR=${OUT:a} $PY $FIGS/ci_table_v9r2_20261023.py
 }
 

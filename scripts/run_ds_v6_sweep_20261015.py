@@ -59,9 +59,9 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
                            'decision_support_v9r2smrealhist_20261026', 'v7'),
             # 2026-10-27: simulador v10 (paradas reales, TyreLife 2021 x 0.740, VSC solo en la 1a vuelta; requiere
             # F1_VSC_FIRST_LAP_ONLY=1 y F1_WORLD2024_TYRES=v10). v10smhist = Fig. 11 con los post-entrenados v10.
-            'v10': ('simulation_v10_20261028', 'retrained_v10_20261028', 'decision_support_v10w24belief_20261028', 'v10'),
-            'v10smhist': ('simulation_v10_20261028', 'retrained_v10_startmix_20261028',
-                          'decision_support_v10smrealhist_20261028', 'v10')}
+            'v10': ('simulation_v10c_20261028', 'retrained_v10c_20261028', 'decision_support_v10cw24belief_20261028', 'v10c'),
+            'v10smhist': ('simulation_v10c_20261028', 'retrained_v10c_startmix_20261028',
+                          'decision_support_v10csmrealhist_20261028', 'v10c')}   # 2026-10-28: v10c (compuestos corregidos)
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
 
@@ -166,6 +166,8 @@ def main():
             '--version v9r2: exportar F1_TYRE_SETS, F1_TYRE_REUSE=1 y F1_NO_SET_PENALTY=-1000'
     if a.version.startswith('v10'):   # 2026-10-27
         assert os.environ.get('F1_VSC_FIRST_LAP_ONLY') == '1', '--version v10: exportar F1_VSC_FIRST_LAP_ONLY=1'
+        global WRAP   # 2026-10-28: v5hd + estrategias reales de los rivales corregidas (docs/AUDITORIA_V10_20261028.md)
+        WRAP = os.path.join(ROOT, 'scripts', 'gp_configs_fix_20261028.py')
     assert 'F1_RIVAL_DNF' not in os.environ, 'sin F1_RIVAL_DNF (rivales --real-yf sin abandonos, como v5h)'
     for p in (SIM, AGENTS):
         assert os.path.isdir(p), p
