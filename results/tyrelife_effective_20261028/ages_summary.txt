@@ -1,0 +1,8 @@
+PUSH = 1.1
+  clasif./sprint: 8137 tandas, vueltas de empuje 0.323 del total
+  practicas: 19043 tandas, vueltas de empuje 0.445 del total
+tandas de carrera 4872; con juego usado 1046 (21%); vueltas previas encontradas 58.3%; RHO = 0.267
+  juego usado: A0 media 4.00 -> A0_ef media 1.07
+  TL_G: vueltas con edad distinta 31.5%; diferencia media -1.07, percentil 5 -6.00
+  TL_Q: vueltas con edad distinta 18.5%; diferencia media -0.37, percentil 5 -2.00
+  TL_GQ: vueltas con edad distinta 43.9%; diferencia media -1.45, percentil 5 -6.00
