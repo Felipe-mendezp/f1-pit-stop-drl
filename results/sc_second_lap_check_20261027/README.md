@@ -46,3 +46,10 @@ Puntos medios. "Δ" es la diferencia pareada frente a la mejor acción del paper
 [H] La parada en la 2.ª vuelta puede salir algo favorecida por la mecánica del modelo. En esa vuelta los gaps se reducen a
 la mitad después de aplicar el PitIn, y en la 3.ª la fila borra la vuelta de salida. Por eso la ventaja de +0,75 en la
 Fig. 8 no debe leerse como "mejor parar en la 8".
+
+## ¿En qué vuelta del SC paran los equipos? [V]
+
+`sc_stop_lap_share_20261027.py`, 2021–2024, carreras secas y sin bandera roja: 258 paradas bajo SC. De ellas, 173 (67 %)
+fueron en la 1.ª vuelta del período, 60 (23 %) en la 2.ª y 25 (10 %) en la 3.ª o después. La vuelta de SC se define por
+el TrackStatus mayoritario, así que algunas paradas "en la 2.ª" pueden ser la primera oportunidad de quien ya había pasado
+la entrada a boxes [H]. La bandera `PitIn` no sirve para esto, porque bajo SC cuenta de más.
