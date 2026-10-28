@@ -148,3 +148,15 @@ FastF1 con θ = 0 [V]:
    v10smhist), `make_tasks_v10sm_20261027.py` (→ `tasks_v10eGQsm_20261028.tsv`), `evaluate_world2024_20261010.py`
    (`F1_WORLD2024_TYRES=v10eGQ`), `reproduce/pipeline_v10_20261027.sh` (salida `results/world2024_v10eGQ_20261028`),
    `results/decision_support_v10eGQw24belief_20261028/run_20261028.sh`.
+
+### Revisión de dependencias antes de lanzar (28-oct, noche) [V]
+
+- Pilotos (Ec. 2): usan la edad; su corrida aplica los ganchos de compuestos y edad (`v10eGQ/run.log`). Actualizados.
+- LogitStop: usa `TyreLife:C(Compound_Detail)`; re-estimado con los ganchos. Actualizado.
+- K1 (logit condicional del compuesto): covariables compuesto, vueltas restantes y cambio de compuesto; no usa la edad.
+- Modelo SC/VSC: razón LapTime / vuelta verde de referencia del GP (mediana), sin edad; idéntico al de v10d.
+- **Adelantamiento: no aplicaba los ganchos.** `overtake_v10_20261027.py` ejecuta el script de v7, que lee los CSV
+  directamente, así que el logit se estimaba con los compuestos sin corregir y la edad de FastF1 (con la Ec. 1 de la
+  carpeta). Corregido en `results/sim_v10eGQ_20261028/overtake_v10_20261027.py` (importa `common_v10_20261027`); los
+  coeficientes cambian ≤ 0,03 en intercepto y pendiente. Árboles reconstruidos: solo cambia `overtake_logit.pkl` (y el
+  umbral). El mismo problema estaba en las cadenas v10c y v10d (reemplazadas, no se corrigieron).
