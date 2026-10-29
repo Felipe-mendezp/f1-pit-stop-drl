@@ -12,7 +12,7 @@ import config, compat; compat.setup_all()  # noqa: E401
 import pandas as pd
 import matplotlib.pyplot as plt
 import evaluate_qmip_vs_drl as E6
-VAL = os.path.join(ROOT, 'results', 'real_strategy_check_20261027', 'fig7')
+VAL = os.path.join(os.environ.get('F1_REALSTRAT_DIR') or os.path.join(ROOT, 'results', 'real_strategy_check_20261027'), 'fig7')  # 2026-10-29: F1_REALSTRAT_DIR (v10eGQf)
 E6.ALGO_ORDER = ['Actual'] + [a for a in E6.ALGO_ORDER if a != 'Actual']
 E6.ALGO_COLORS['Actual'] = '#BDBDBD'
 E6.ALGO_ABBREV['Actual'] = 'Actual'

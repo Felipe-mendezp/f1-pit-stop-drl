@@ -1,0 +1,24 @@
+07:38:14 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (v10f: F1_OVERTAKE_MAX_GAP=inf F1_FOLLOWING_GAP_SCALE=0.26 F1_TYRE_SETS=/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/data/tyre_sets_2024_reg_v10eGQ_20261028.csv F1_TYRE_STINT_AGES=/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv F1_TYRE_REUSE=1)
+08:22:23 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+08:22:29 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10eGQf_20261029/selected -> results/world2024_v10eGQf_20261029)
+08:35:55 fig6 Saudi_Arabian_NOR exit 0
+08:36:15 fig6 Belgian_GAS exit 0
+08:38:42 fig6 Singapore_HUL exit 0
+08:39:30 fig6 Miami_OCO exit 0
+08:39:43 fig6 Bahrain_ALO exit 0
+08:40:28 fig6 United_States_MAG exit 0
+08:41:37 fig6 Dutch_STR exit 0
+08:42:15 fig6 Hungarian_TSU exit 0
+08:42:15 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10eGQf_20261029/selected -> results/world2024_v10eGQf_20261029)
+08:48:28 fig7 Saudi_Arabian_NOR exit 0
+08:51:24 fig7 Singapore_HUL exit 0
+08:52:05 fig7 Belgian_GAS exit 0
+08:52:28 fig7 Bahrain_ALO exit 0
+08:52:32 fig7 Miami_OCO exit 0
+08:53:07 fig7 Dutch_STR exit 0
+08:53:18 fig7 United_States_MAG exit 0
+08:53:47 fig7 Hungarian_TSU exit 0
+08:53:47 qmipcheck
+08:53:47 summary
+08:53:55 figs
+08:54:01 fin all
