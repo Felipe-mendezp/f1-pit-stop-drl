@@ -15,6 +15,7 @@ ap.add_argument('--laps', default='6,7,8,10,12,15,18,21,24,27,30,33,36,40,45')
 ap.add_argument('--agents', default='')   # e.g. PPO:1,DQN:8
 ap.add_argument('--time-only', action='store_true'); ap.add_argument('--out', required=True)
 ap.add_argument('--part', default='0/1')
+ap.add_argument('--tree', default='trained_models/retrained_v10eGQf_20261029/seed{seed:02d}')   # 29-oct B3: p.ej. trained_models/probe_miami_entropy_20261029/ent0.05_seed{seed:02d}
 A = ap.parse_args()
 e = next(c for c in GP_CONFIGS if c['model_dir'] == A.gp)
 gp, drv = e['gp_name'], e['agent_driver']
@@ -68,7 +69,7 @@ for name, plan in plans:
 # agentes
 for spec in filter(None, A.agents.split(',')):
     al, sd = spec.split(':')
-    mp = os.path.join('trained_models/retrained_v10eGQf_20261029', f'seed{int(sd):02d}', A.gp, al, 'best_model.zip')
+    mp = os.path.join(A.tree.format(seed=int(sd)), A.gp, al, 'best_model.zip')
     ve = DummyVecEnv([lambda: env]); vn = os.path.join(os.path.dirname(mp), 'vecnormalize_stats.pkl')
     ve = VecNormalize.load(vn, ve); ve.training = False; ve.norm_reward = False
     m = ALGO_CLASSES[al].load(mp, env=ve)

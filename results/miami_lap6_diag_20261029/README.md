@@ -71,3 +71,26 @@ posterior de un SC, no tiene efecto (regla `sc_bunching`), así que se hace en l
 
 Reproducir: `bash results/miami_lap6_diag_20261029/lanzar_20261029.sh` desde la raíz del repo (~12 min con 7 procesos)
 y luego los scripts de análisis. Datos en `data/`.
+
+## 7. Prueba B3: PPO Miami con más entropía, 1,5 M pasos en el Mac (29-oct, noche)
+
+Lanzador `b3_lanzar_20261029.sh` (mismo comando que el cluster, salvo `--ent-coef`, `--timesteps 1500000` y
+`--out-root`). Agentes en `trained_models/probe_miami_entropy_20261029/`. Evaluación en `b3_evaluar_20261029.sh`, con las
+mismas 200 carreras de la §4; resultados en `b3/`.
+
+| `ent_coef`, semilla | Mejor eval. en el entrenamiento | Recompensa (200 carreras) | Posición | Primera parada en la v. 6 | Patrón más común |
+|---|---|---|---|---|---|
+| 0,05, s1 | −5144 | −5148 | 17,5 | 84 % | C2, v6→C3, v8/9→C3 |
+| 0,05, s2 | −5173 | −5161 | 17,5 | 72 % | C2, v6→C2, v8→C2 |
+| 0,10, s1 | −4539 (a los 0,15 M) | −4496 | 14,3 | 51 % | C3, v6→C4 |
+| 0,10, s2 | −5111 | −5117 | 17,4 | 50 % | C3, v4→C2, v7→C2 |
+| original 0,02, s1 (5 M) | −4173 | −4264 | 13,4 | 89 % | C3, v6→C2 |
+
+- **Verificado:** con más entropía, la entropía sí se mantiene alta (0,65–0,73 al 0,9 M, contra 0,015 de la original).
+  Pero la parada en la vuelta 6 **sigue** siendo la primera en el 50–84 % de las carreras, y además aparece una
+  segunda parada temprana (vueltas 7–10). Al 1,5 M los agentes son peores que la original. Más entropía, por sí sola,
+  no saca a PPO de la parada temprana en este horizonte. No se probó a 5 M.
+- **Hipótesis (no verificada):** el atractor viene de la estructura de acciones. 3 de las 4 acciones son "parar", así
+  que una política casi uniforme para en casi todas las vueltas. Aprender a no parar durante 20–30 vueltas seguidas,
+  esperando un SC, exige muchas decisiones consecutivas iguales. Para un método on-policy, la frontera natural es la
+  primera vuelta sin penalización. DQN parte de otro lado: con ε-greedy en torno a un Q aprendido fuera de la política.
