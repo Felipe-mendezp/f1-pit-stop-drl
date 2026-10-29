@@ -94,3 +94,26 @@ mismas 200 carreras de la §4; resultados en `b3/`.
   que una política casi uniforme para en casi todas las vueltas. Aprender a no parar durante 20–30 vueltas seguidas,
   esperando un SC, exige muchas decisiones consecutivas iguales. Para un método on-policy, la frontera natural es la
   primera vuelta sin penalización. DQN parte de otro lado: con ε-greedy en torno a un Q aprendido fuera de la política.
+
+## 8. Opción 1: las mismas 4 pruebas a 5 M pasos (29-oct, noche)
+
+`b3_lanzar_5M_20261029.sh` y `b3_evaluar_5M_20261029.sh`. Agentes en `trained_models/probe_miami_entropy5M_20261029/`,
+resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
+
+| `ent_coef`, semilla | Mejor eval. (paso) | Recompensa | Posición | DSQ | Primera parada en la v. 6 | Entropía final |
+|---|---|---|---|---|---|---|
+| **0,05, s1** | **−3692 (4,95 M)** | **−3720** | **11,46** | 2 % | 3 % | 0,017 |
+| 0,05, s2 | −4656 (3,9 M) | −4604 | 14,49 | 15 % | 66 % | 0,65 |
+| 0,10, s1 | −4539 (0,15 M) | −4496 | 14,32 | 6 % | 51 % | 0,75 |
+| 0,10, s2 | −4502 (2,55 M) | −4449 | 14,35 | 2 % | 100 % | 0,77 |
+| original 0,02 (10 semillas) | −4145 (media) | | 13,4 (s1) | | 9/10 semillas | ≈ 0,001 |
+| DQN s8 (elegida) | | −3630 | 11,26 | | 0 % | |
+
+- **Verificado:** con `ent_coef` 0,05, la semilla 1 sale de la parada temprana hacia los 2,5 M pasos. Su evaluación pasa
+  de ≈ −6400 a −3968 y sigue subiendo hasta −3692 a los 4,95 M. Llega al nivel de DQN (11,46 contra 11,26) y aprende lo
+  mismo que DQN: el 55 % de sus paradas cae junto a un SC/VSC, igual que DQN. En las carreras con SC/VSC después de la
+  vuelta 6 queda en 11,27 (DQN 10,87).
+- Con 0,10 la entropía no baja (0,75–0,77 al final) y la política determinista no se ordena. Con 0,05, una de dos
+  semillas escapa. Con la original 0,02, ninguna de 10.
+- **Lectura:** el problema de Miami es de exploración. Un `ent_coef` algo mayor lo corrige en parte: con 10 semillas y la
+  selección habitual, es probable que haya semillas buenas. Esto es una inferencia a partir de 2 semillas.
