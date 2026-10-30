@@ -1,0 +1,26 @@
+== r28_k: por carrera, misma muestra que el logit (delta_total en [-30, 5])
+                  real                                                                 sim                                                          
+                 filas      ot ot_sinpit  ot_pit    le1 tasa_le1 tasa_1_2 tasa_gt2   filas     ot ot_sinpit ot_pit    le1 tasa_le1 tasa_1_2 tasa_gt2
+GP                                                                                                                                                  
+Bahrain        491.667  78.333    47.000  31.333  0.258    0.332    0.085    0.109  582.55  98.07     51.12  46.95  0.405    0.240    0.132    0.111
+Belgian        482.000  91.500    63.500  28.000  0.381    0.327    0.086    0.115  458.08  77.93     44.08  33.85  0.397    0.242    0.148    0.103
+Dutch          517.000  43.333    33.667   9.667  0.326    0.168    0.036    0.048  738.77  73.33     33.95  39.38  0.419    0.153    0.059    0.062
+Hungarian      656.333  68.667    42.000  26.667  0.226    0.254    0.055    0.065  689.78  83.16     32.49  50.67  0.386    0.178    0.079    0.088
+Miami          650.500  66.000    51.000  15.000  0.341    0.200    0.046    0.053  610.85  58.34     33.94  24.40  0.363    0.175    0.049    0.051
+Saudi Arabian  447.667  35.333    31.000   4.333  0.328    0.175    0.031    0.033  504.24  47.03     27.44  19.59  0.386    0.161    0.058    0.044
+Singapore      421.000  21.500    19.500   2.000  0.398    0.110    0.014    0.009  608.63  55.67     33.32  22.35  0.388    0.156    0.045    0.056
+United States  547.000  66.333    38.333  28.000  0.241    0.280    0.091    0.058  557.35  79.51     44.87  34.64  0.357    0.243    0.096    0.081
+
+Total 8 GP: real 471.0 | sim misma muestra 573.0 | sim sin filtro delta_total (conteo anterior) 573.1
+
+Descomposicion (por carrera): pares por tramo de gap x tasa por tramo
+               real   sim  pares_real_tasas_sim  pares_sim_tasas_real
+GP                                                                   
+Bahrain        78.3  98.1                  72.5                 113.6
+Belgian        91.5  77.9                  79.1                  88.4
+Dutch          43.3  73.3                  45.2                  72.1
+Hungarian      68.7  83.2                  67.2                  94.8
+Miami          66.0  58.3                  60.0                  64.4
+Saudi Arabian  35.3  47.0                  38.1                  44.0
+Singapore      21.5  55.7                  37.9                  30.3
+United States  66.3  79.5                  64.8                  84.3

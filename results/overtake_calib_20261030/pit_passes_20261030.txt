@@ -1,0 +1,25 @@
+               real_filas_ypit  real_tasa_ot|ypit  real_filas_xpit  real_paradas_x_carrera  real_paradas_en_muestra  sim_filas_ypit  sim_tasa_ot|ypit  sim_tasa_ot|prev_y  sim_tasa_ot|pit_y  sim_paradas_x_carrera(prev, pares)
+GP                                                                                                                                                                                                                              
+Bahrain                  34.33               0.91             2.67                   49.00                    34.33           74.01              0.63                0.81               0.42                               39.15
+Belgian                  32.00               0.88             2.00                   37.00                    32.00           50.50              0.66                0.70               0.61                               27.78
+Dutch                    10.67               0.91             0.67                   41.33                    10.67           69.22              0.56                0.63               0.47                               40.18
+Hungarian                28.67               0.93             0.67                   32.33                    28.67           83.84              0.60                0.82               0.37                               43.33
+Miami                    15.50               0.97             0.00                   24.00                    15.50           37.11              0.65                0.67               0.63                               20.55
+Saudi Arabian             4.33               1.00             0.00                   30.67                     4.33           37.34              0.52                0.55               0.47                               23.18
+Singapore                 2.00               1.00             0.00                   14.50                     2.00           37.41              0.59                0.48               0.77                               23.75
+United States            29.67               0.94             1.33                   39.00                    29.67           69.27              0.49                0.80               0.15                               36.62
+
+filas reales por carrera en toda la base (vueltas 4+, verde L+1 aprox):
+{'Bahrain': 975.0, 'Belgian': 746.0, 'Dutch': 941.0, 'Hungarian': 1150.0, 'Miami': 1038.0, 'Saudi Arabian': 811.0, 'Singapore': 695.0, 'United States': 957.0}
+
+adelantamientos en pista (sin paradas) por carrera real, por año, y sim (media, p10-p90 por carrera)
+Year           2021  2022  2023  sim_media  sim_p10  sim_p90
+GP                                                          
+Bahrain        58.0  48.0  35.0       51.1     40.9     62.2
+Belgian         NaN  67.0  60.0       44.1     35.9     55.0
+Dutch          16.0  24.0  61.0       34.0     26.0     43.0
+Hungarian      21.0  72.0  33.0       32.5     23.0     41.1
+Miami           NaN  44.0  58.0       33.9     26.0     42.0
+Saudi Arabian  22.0  33.0  38.0       27.4     20.0     34.1
+Singapore       NaN   9.0  30.0       33.3     23.0     44.0
+United States  22.0  53.0  40.0       44.9     34.9     55.1
