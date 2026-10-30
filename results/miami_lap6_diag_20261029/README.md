@@ -168,3 +168,38 @@ resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
   `results/seed_selection_v5_20261010/v10f_rppoent05/`):
   - elige la **semilla 9, con 11,41** (DSQ 0); la RPPO elegida hoy en Miami queda en 13,4;
   - sus cifras por semilla coinciden exactamente con las del evaluador de esta sección.
+
+## 11. Resultado PPO con `ent_coef` 0,05 en los 8 GP (cluster 18083158 + 18083095, 30-oct)
+
+- Las 80 tareas terminaron bien (COMPLETED). Se bajaron con rsync, sin `--delete`, a
+  `trained_models/retrained_v10eGQf_ppoent05_20261029/`.
+- Selección: `ent05_seleccion_20261030.sh`, mismas reglas que `pipeline_v10` (`--max-dsq 0`), 200 carreras, 10 min con
+  8 procesos. Salida en `results/seed_selection_v5_20261010/v10f_ppoent05/` (el anterior `v10f/` no se tocó). Los
+  agentes elegidos quedan en `.../ppoent05_20261029/selected/`.
+
+| GP | PPO elegida hoy (semilla: pos.) | PPO 0,05 elegida | Diferencia pareada (IC 95 %) | Mejor otro método elegido |
+|---|---|---|---|---|
+| Bahrain | s8: 3,275 | s6: 3,145 | −0,13 ± 0,20 | RPPO 3,170 |
+| Saudi | s8: 3,460 | s7: 3,480 | +0,02 ± 0,14 | RPPO 3,560 |
+| **Miami** | s1: 13,365 | **s4: 11,695** | **−1,67 ± 0,42** | DQN 11,265 |
+| Hungarian | s4: 6,735 | s10: 6,645 | −0,09 ± 0,23 | RPPO 6,720 |
+| Belgian | s10: 8,560 | s4: 8,555 | −0,01 ± 0,29 | RPPO 8,605 |
+| Dutch | s10: 6,025 | s6: 5,675 | −0,35 ± 0,29 | RPPO 5,645 |
+| Singapore | s6: 5,385 | s8: 5,525 | +0,14 ± 0,21 | RPPO 5,370 |
+| United States | s2: 7,420 | s4: 7,315 | −0,11 ± 0,25 | RPPO 7,335 |
+| Media | 6,778 | **6,504** | | |
+
+- **Verificado:**
+  - **Miami:** 4 de 10 semillas escapan de la vuelta 6 (s4, s6, s8, s10). Solo s4 pasa el filtro (s6, s8 y s10 tienen
+    DSQ > 0). La elegida mejora 1,67 posiciones; contra DQN queda en +0,43 ± 0,40, sin diferencia significativa.
+  - Varias semillas de Miami quedan peor que antes: s5, s9 y s10 en 15,5–15,6, con 2,2 paradas, DSQ y cumplimiento de
+    reglas bajo. La mediana de las semillas sube de 13,43 a 13,82. La selección lo absorbe.
+  - En los otros 7 GP la PPO elegida no empeora de forma significativa (todos los IC contienen 0). Mejora en 5 de 7,
+    y en Saudi y Singapore cambia +0,02 y +0,14. En Bahrain, Dutch y United States pasan 8–10 semillas el filtro. En
+    Saudi pasan 6 y en Singapore 7.
+- **RPPO Miami 0,05 (§10), comparado del mismo modo:** −2,01 ± 0,41 contra la RPPO elegida hoy, y +0,15 ± 0,39 contra
+  DQN.
+- **Lectura:**
+  - `ent_coef` 0,05 corrige Miami en PPO y en RPPO hasta el nivel de DQN, sin costo apreciable en los otros GP para PPO.
+  - Para RPPO falta reentrenar los otros 7 GP con 0,05 si se quiere el mismo criterio para los dos métodos.
+  - Las Figs. 6–7 (500 carreras, mundo 2024) no se han rehecho.
