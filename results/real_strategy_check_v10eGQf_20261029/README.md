@@ -28,3 +28,21 @@ La caja "Actual" de la Fig. 7 se genera así:
         python scripts/gp_configs_fix_20261028.py results/world2024_v9r2_20261023/fig7_actual_20261027.py
 
 Propuesta para el paper: `docs/PROPUESTA_FIGS67_V10F_20261029.md` (raíz del proyecto).
+
+## Ablación Hungarian, Fig. 7 (30-oct)
+
+La Fig. 7 de Hungarian casi no tiene dispersión (TSU entre 7.º y 9.º en el 90 % de las carreras, contra 6.º–13.º en
+v10eGQ previo). Réplica de 300 carreras con la estrategia real (`ablacion_hungarian_20261030/`, `run_20261030.sh`) [V]:
+
+| Variante | TSU media / de | Ancho medio del 90 %, todos |
+|---|---|---|
+| A: v10eGQf (vigente) | 8,11 / 0,76 | 3,3 |
+| D: A con seguimiento Exp(1) | 7,58 / 0,75 | 3,7 |
+| E: logit en todo gap, gap con ruido | 7,45 / 1,73 | 6,3 |
+| F: logit solo ≤ 1 s, gap medio | 8,50 / 1,84 | 4,7 |
+| B: logit nuevo, física previa | 7,94 / 1,84 | 6,0 |
+| C: árbol previo al adelantamiento v10f | 8,08 / 2,02 | 6,4 |
+
+La concentración viene de combinar `F1_OVERTAKE_MAX_GAP=inf` con `F1_OVERTAKE_MEAN_GAP=1`: el orden solo cambia
+según el ritmo medio y las paradas, y el ruido del tiempo de vuelta queda absorbido por el bloqueo. El gap de
+seguimiento 0,26 y los coeficientes nuevos del logit no lo explican.
