@@ -135,5 +135,5 @@ resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
 - Arreglo completo: 18083158 (PPO, tareas 1-21 y 23-80, `%20`) y 18083159 (RPPO, 2-10), con 830M.
 - Después:
   - bajar con rsync, sin `--delete`;
-  - evaluar Miami con `b3_evaluar`-style (primera parada en la vuelta 6, posición);
+  - evaluar Miami como en `b3_evaluar_5M_20261029.sh` (primera parada en la vuelta 6, posición, mismas 200 carreras);
   - rehacer la selección y las Figs. 6–7 con PPO (y RPPO) nuevos.
