@@ -174,3 +174,17 @@ Fig. 7, 8 GP × 500 carreras (`../overtake_noise_frac_20261030/compare_eq2noise_
 
 Tareas preparadas (no lanzadas) para el piloto de Hungría: `scripts/eq2_noise_20261030.py` (σ 0,28) y
 `reproduce/cluster/tasks_v10eGQfq_hun_20261030.tsv` (50 tareas, PPO con ent 0,05; salida `retrained_v10eGQfq_20261030`).
+
+## 8. v10g: piloto PPO en los 8 GP lanzado (30-oct, OK del autor)
+
+- **v10g** = v10eGQf + ruido de la Ec. 2 (σ 0,28, `scripts/eq2_noise_20261030.py`). Tareas:
+  `reproduce/cluster/tasks_v10g_ppo8_20261030.tsv` (80 = PPO ent 0,05 × 8 GP × 10 semillas; `make_tasks_v10g_20261030.py`,
+  que también genera `tasks_v10g_hun_20261030.tsv`, 50 tareas de Hungría con los 5 métodos, no lanzadas).
+- Salida en el cluster: `trained_models/retrained_v10g_20261030/`.
+- Subido: `src/environment/f1_env_all_drivers.py` (antes = versión previa a las opciones opt-in, md5 fe541b79) y el
+  envoltorio. rsync por el alias `nlhpc` (la IP no respondió el 30-oct).
+- Prueba: 18138628 (tareas 22 = Miami s1 y 23 = Hungría s1), 830M. Logs con `[eq2 noise]`, `[v10f]`, `ent_coef=0.05`,
+  ~1000 fps, 0,40 GB a los 10 min.
+- Arreglo: 18138645 (tareas 1-21 y 24-80, `%20`), 830M.
+- Después: bajar sin `--delete`, seleccionar semilla y correr Figs. 6–7 de PPO vs QMIP en v10g, comparando con los PPO
+  actuales (v10f, ent 0,05).
