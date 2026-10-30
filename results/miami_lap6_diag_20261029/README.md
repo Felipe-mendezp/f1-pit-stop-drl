@@ -164,3 +164,7 @@ resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
     escapa.
   - Falta ver si el cambio empeora a RPPO en los otros 7 GP. Para eso habría que reentrenarlo en los 8 GP (70 tareas
     más), como PPO. Requiere OK del autor.
+- **Selección de semillas** (`ent05_seleccion_20261030.sh`, mismas reglas que `pipeline_v10`, salida en
+  `results/seed_selection_v5_20261010/v10f_rppoent05/`):
+  - elige la **semilla 9, con 11,41** (DSQ 0); la RPPO elegida hoy en Miami queda en 13,4;
+  - sus cifras por semilla coinciden exactamente con las del evaluador de esta sección.

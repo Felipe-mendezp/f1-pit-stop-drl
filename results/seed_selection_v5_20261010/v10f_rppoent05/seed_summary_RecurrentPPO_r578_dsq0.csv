@@ -1,0 +1,11 @@
+model_dir,algo,seed,pos_media,pos_sd,dsq,share_ok,paradas_media,a0_cero,pasa,elegida,nota
+Miami_OCO,RecurrentPPO,1,13.345,2.267528041080292,0.0,0.99,1.0,0.0,True,False,
+Miami_OCO,RecurrentPPO,2,11.72,2.542423961102859,0.0,1.0,1.125,0.0,True,False,
+Miami_OCO,RecurrentPPO,3,13.46,2.191440635815058,0.0,1.0,1.04,0.0,True,False,
+Miami_OCO,RecurrentPPO,4,11.735,2.3691431353930255,0.0050000000000000044,0.995,1.095,0.0,False,False,
+Miami_OCO,RecurrentPPO,5,11.635,2.2996121586915494,0.0,1.0,1.095,0.0,True,False,
+Miami_OCO,RecurrentPPO,6,11.525,2.5101552535620026,0.0,1.0,1.345,0.0,True,False,
+Miami_OCO,RecurrentPPO,7,13.47,2.214411454642579,0.0,1.0,1.14,0.0,True,False,
+Miami_OCO,RecurrentPPO,8,11.555,2.3717294328216627,0.0,1.0,1.155,0.0,True,False,
+Miami_OCO,RecurrentPPO,9,11.41,2.288687495544402,0.0,1.0,1.115,0.0,True,True,
+Miami_OCO,RecurrentPPO,10,11.515,2.6295145433460414,0.0050000000000000044,0.995,1.0,0.0,False,False,
