@@ -125,6 +125,13 @@ multi-driver environment (`results/sim_v10eGQ_20261028/README_adelantamiento_202
 
 Without these options the environment is bit-identical to the published one.
 
+**Revision v10g (pilot, 2026-10-30).** v10g = v10eGQf plus a per-race noise on the Eq. 2 driver coefficient: at each
+reset every driver draws e ~ N(0, 0.28^2) s/lap, added to its clear-track lap times for the whole race (the Eq. 2
+prediction error in 2024, net of the sampling error of the realised coefficient). Wrapper `scripts/eq2_noise_20261030.py`
+(goes first in the chain) sets `F1_RACE_EFFECT_SD=0.28` and `F1_RACE_EFFECT_KEEP_STD=1` (the iid lap noise is unchanged).
+Other opt-in options of the same study (`F1_OVERTAKE_NOISE_FRAC`, `F1_RACE_EFFECT_LOGIT`, `F1_FOLLOWING_GAP_EMP`) are
+documented in `results/dispersion_hyp_20261030/README.md`. All default to off; with them off the environment is unchanged.
+
 **Single-driver benchmark (Fig. 5).** Compounds used in less than 5 % of a circuit's 2021–2023 race laps
 are excluded for both the agents and the QMIP, because their coefficients rest on very few stints
 (Dutch C1, Emilia-Romagna C5, Hungarian C5, Miami C4, Saudi Arabian C4, United States C4;
