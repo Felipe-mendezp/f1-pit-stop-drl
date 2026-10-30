@@ -8,12 +8,13 @@ H=results/overtake_noise_frac_20261030
 #   sufijo f1 (p. ej. l100f1, Ef1): gap de seguimiento 0.4 + Exp(1) en vez de Exp(0.26)
 #   tags extra (results/dispersion_hyp_20261030): opciones separadas por "_", p. ej. l000_r24_emp
 #     rNN  = F1_RACE_EFFECT_SD 0.NN (efecto piloto-carrera); emp = gap de seguimiento empirico del GP; empP = empirico
-#     de todos los GP; chk = sin cambio (control de equivalencia)
+#     de todos los GP; chk = sin cambio (control de equivalencia); k = ruido de la Ec. 2 (no achica el ruido por vuelta)
 T=$1
 for o in ${(s:_:)1}; do case $o in
   r[0-9]*) export F1_RACE_EFFECT_SD=$(printf '%s' "${o#r}" | awk '{printf "%.3f", $1/100}');;
   emp) export F1_FOLLOWING_GAP_EMP=$PWD/results/dispersion_hyp_20261030/blocked_gaps_20261030.csv;;
   x) export F1_RACE_EFFECT_LOGIT=0;;
+  k) export F1_RACE_EFFECT_KEEP_STD=1;;
   empP) export F1_FOLLOWING_GAP_EMP=$PWD/results/dispersion_hyp_20261030/blocked_gaps_20261030.csv F1_FOLLOWING_GAP_EMP_POOLED=1;;
 esac; done
 set -- ${1%%_*} "${@:2}"

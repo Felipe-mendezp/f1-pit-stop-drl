@@ -297,6 +297,9 @@ class F1EnvAllDrivers(Env):
         # F1_RACE_EFFECT_LOGIT=0: the overtake logit (overtake_mean_gap) is evaluated without u, like its estimation
         # (Eq. 1 means do not know the driver-race effect). Default 1 = u is part of the mean pace.
         self.race_effect_in_logit = os.environ.get('F1_RACE_EFFECT_LOGIT', '1') != '0'
+        # F1_RACE_EFFECT_KEEP_STD=1: u is read as the Eq. 2 prediction error of the driver coefficient (noise on the
+        # predicted coefficient), so the iid lap noise is left unchanged. Default 0 = shrink as above.
+        self.race_effect_keep_std = os.environ.get('F1_RACE_EFFECT_KEEP_STD', '0') == '1'
         # Empirical following gap (opt-in F1_FOLLOWING_GAP_EMP=<csv GP,gap>, 2026-10-30): a car that cannot pass settles
         # at a gap resampled from the real gaps of blocked cars of this GP (F1_FOLLOWING_GAP_EMP_POOLED=1: all GPs)
         # instead of MIN_GAP + Exp(following_gap_scale). Default unset = legacy behaviour.
@@ -1636,7 +1639,8 @@ class F1EnvAllDrivers(Env):
                     laptime, pred_std = self.fast_predictor_clear.predict_single_with_std(driver.lap_state)
                     if self._race_effect:
                         laptime += self._race_effect.get(driver.name, 0.0)
-                        pred_std = float(np.sqrt(max(pred_std ** 2 - self.race_effect_sd ** 2, 0.0)))
+                        if not getattr(self, 'race_effect_keep_std', False):
+                            pred_std = float(np.sqrt(max(pred_std ** 2 - self.race_effect_sd ** 2, 0.0)))
                     driver.mean_laptime = laptime
                     laptime = self.np_random.normal(laptime, pred_std)
                 else:

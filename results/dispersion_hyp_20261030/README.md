@@ -142,3 +142,35 @@ debería cambiar la historia, pero eso es una hipótesis.
    - El mono-piloto no tiene rivales: u solo mueve el tiempo total. No es necesario reentrenarlo, por decidir.
 3. Paper: una frase en la Ec. 1 / Alg. 2 (efecto aleatorio piloto-carrera N(0, 0,24²), con el ruido iid reducido para
    mantener la varianza por vuelta), y el ítem correspondiente del suplementario con la estimación (§1).
+
+## 6. Relación con el error de la Ec. 2 (30-oct) [V]
+
+El simulador usa el coeficiente de piloto predicho por la Ec. 2 como valor fijo, sin ruido; antes de `F1_RACE_EFFECT_SD`
+no había ningún término persistente por piloto-carrera. Error de la Ec. 2 porcentual
+(`results/driver_coef_v10_20261028/v10eGQ/eq2_predictions.csv` y `race_coefs.csv`), sin Australia ni VER, descontado el
+desplazamiento común de cada carrera:
+
+| Muestra | n | sd del error | Neto del error de muestreo (iid) | Neto (AR 0,5) |
+|---|---|---|---|---|
+| 2023, 8 GP | 82 | 0,267 | 0,248 | 0,207 |
+| 2024, 8 GP | 126 | 0,301 | 0,284 | 0,246 |
+| 2024, todos | 333 | 0,329 | 0,311 | 0,273 |
+
+El ruido de la Ec. 2 y el efecto piloto-carrera son el mismo fenómeno, medido por dos vías, y dan magnitudes compatibles
+(0,21–0,28 frente a 0,235). No hay que sumarlos: σ = 0,24 ya representa la incertidumbre de la Ec. 2.
+
+## 7. Ruido de la Ec. 2 en vez del efecto piloto-carrera (30-oct, propuesta del autor) [V]
+
+Opción nueva `F1_RACE_EFFECT_KEEP_STD=1` (tag `k`): el mismo sorteo por piloto y carrera, leído como error de predicción del
+coeficiente de la Ec. 2; el ruido por vuelta de la Ec. 1 no se achica. σ = 0,28 (neto) y 0,30 (bruto), de la tabla del §6.
+Fig. 7, 8 GP × 500 carreras (`../overtake_noise_frac_20261030/compare_eq2noise_20261030.txt`):
+
+| Variante | Cobertura 90 % | Ancho | Quintiles PIT | MAE mediana | Spearman | Adelantamientos (real 470) |
+|---|---|---|---|---|---|---|
+| vigente (l000) | 80,3 % | 3,9 | 37 19 24 22 50 | 1,66 | 0,907 | 564 |
+| r24 (efecto, ruido achicado) | 90,1 % | 5,9 | 29 26 32 32 33 | 1,54 | 0,912 | 569 |
+| **r28_k (Ec. 2, 0,28)** | **92,8 %** | 6,4 | 27 28 34 33 30 | 1,53 | 0,912 | 573 |
+| r30_k (Ec. 2, 0,30) | 92,8 % | 6,7 | 23 28 36 36 29 | 1,55 | 0,912 | — |
+
+Tareas preparadas (no lanzadas) para el piloto de Hungría: `scripts/eq2_noise_20261030.py` (σ 0,28) y
+`reproduce/cluster/tasks_v10eGQfq_hun_20261030.tsv` (50 tareas, PPO con ent 0,05; salida `retrained_v10eGQfq_20261030`).
