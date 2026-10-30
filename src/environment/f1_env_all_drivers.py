@@ -109,6 +109,9 @@ PIT_PASS_DETERMINISTIC_DEFAULT = False
 #                     already contains the lap-time uncertainty; evaluating it at the noisy gap counted that randomness
 #                     twice (24% more passes than observed for pairs within 1 s, diagnosis 2026-10-28/29).
 # The deterministic branches (SC/VSC, gap above overtake_max_gap, pit_pass_deterministic) keep the noisy pred_gap.
+#   overtake_noise_frac (F1_OVERTAKE_NOISE_FRAC, default 0, only with overtake_mean_gap; 2026-10-30): tau is evaluated
+#                     at the start-of-lap gap + mean difference + lambda * (difference of the lap-time noise draws),
+#                     i.e. lambda = 0 is overtake_mean_gap and lambda = 1 the noisy predicted gap.
 VSC_DURATION = 2  # VSC lasts 2 laps
 SC_DURATION = 4   # SC lasts 4 laps
 MIN_STINT_LENGTH = 8  # Minimum stint length for rivals (unless SC/VSC)
@@ -284,6 +287,27 @@ class F1EnvAllDrivers(Env):
         # construction path (factories, direct construction) honours them. Default = legacy behaviour.
         self.overtake_max_gap = float(os.environ.get('F1_OVERTAKE_MAX_GAP', OVERTAKE_MAX_GAP))
         self.overtake_mean_gap = bool(os.environ.get('F1_OVERTAKE_MEAN_GAP'))
+        self.overtake_noise_frac = float(os.environ.get('F1_OVERTAKE_NOISE_FRAC', 0.0))
+        # Driver-race pace effect (opt-in F1_RACE_EFFECT_SD, s/lap, 2026-10-30, results/dispersion_hyp_20261030): each
+        # driver draws u ~ N(0, sd) at reset, added to every clear-track lap time (mean and noisy). The Eq. 1 residuals
+        # have a persistent driver-race component (~0.24 s/lap net of the season effect); the iid noise is shrunk to
+        # sqrt(pred_std^2 - sd^2) so the per-lap variance is unchanged. Default 0 = no draw, legacy behaviour.
+        self.race_effect_sd = float(os.environ.get('F1_RACE_EFFECT_SD', 0.0))
+        self._race_effect = {}
+        # F1_RACE_EFFECT_LOGIT=0: the overtake logit (overtake_mean_gap) is evaluated without u, like its estimation
+        # (Eq. 1 means do not know the driver-race effect). Default 1 = u is part of the mean pace.
+        self.race_effect_in_logit = os.environ.get('F1_RACE_EFFECT_LOGIT', '1') != '0'
+        # Empirical following gap (opt-in F1_FOLLOWING_GAP_EMP=<csv GP,gap>, 2026-10-30): a car that cannot pass settles
+        # at a gap resampled from the real gaps of blocked cars of this GP (F1_FOLLOWING_GAP_EMP_POOLED=1: all GPs)
+        # instead of MIN_GAP + Exp(following_gap_scale). Default unset = legacy behaviour.
+        self._fg_emp = None
+        _fg = os.environ.get('F1_FOLLOWING_GAP_EMP')
+        if _fg:
+            _t = pd.read_csv(_fg)
+            if not os.environ.get('F1_FOLLOWING_GAP_EMP_POOLED'):
+                _t = _t[_t.GP == gp]
+            self._fg_emp = _t.gap.to_numpy(float)
+            assert len(self._fg_emp) > 20, (gp, len(self._fg_emp))
         self.deterministic = deterministic
         self.yf_enabled = yf_enabled
         self.initial_positions = initial_positions
@@ -448,6 +472,10 @@ class F1EnvAllDrivers(Env):
         """Reset environment to initial state."""
         super().reset(seed=seed)
         self._initialize_race_state()
+        self._race_effect = {}
+        if getattr(self, 'race_effect_sd', 0.0) > 0:
+            g = np.random.default_rng(int(self.np_random.integers(2**62)))
+            self._race_effect = {d.name: float(g.normal(0.0, self.race_effect_sd)) for d in self.drivers}
         # ABANDONOS DE RIVALES (opt-in `rival_dnf`, 2026-10-14): con rivales
         # estocasticos, cada rival abandona con prob. p_dnf en la vuelta
         # round(frac * n_laps) (frac de la distribucion empirica 2021-23, ver
@@ -1606,6 +1634,9 @@ class F1EnvAllDrivers(Env):
                 # y ~ N(y_hat, sigma^2 * [1 + X0^T (X^T X)^{-1} X0])
                 if not self.deterministic and hasattr(self.fast_predictor_clear, 'predict_single_with_std'):
                     laptime, pred_std = self.fast_predictor_clear.predict_single_with_std(driver.lap_state)
+                    if self._race_effect:
+                        laptime += self._race_effect.get(driver.name, 0.0)
+                        pred_std = float(np.sqrt(max(pred_std ** 2 - self.race_effect_sd ** 2, 0.0)))
                     driver.mean_laptime = laptime
                     laptime = self.np_random.normal(laptime, pred_std)
                 else:
@@ -1629,6 +1660,9 @@ class F1EnvAllDrivers(Env):
         MIN_GAP + Exponential(scale), resampled per pair per lap, so the field
         spreads the way the real Interval_front data does. Uses the env RNG, so
         runs stay reproducible and paired across counterfactual arms."""
+        emp = getattr(self, '_fg_emp', None)
+        if emp is not None:
+            return float(emp[self.np_random.integers(len(emp))])
         scale = getattr(self, 'following_gap_scale', 0.0)
         if not scale:
             return MIN_GAP
@@ -1694,6 +1728,12 @@ class F1EnvAllDrivers(Env):
         max_gap = getattr(self, 'overtake_max_gap', OVERTAKE_MAX_GAP)
         mean = ({d.name: d.mean_laptime for d in sorted_drivers}
                 if getattr(self, 'overtake_mean_gap', False) else None)
+        if mean is not None and self._race_effect and not getattr(self, 'race_effect_in_logit', True):
+            mean = {k: v - self._race_effect.get(k, 0.0) for k, v in mean.items()}
+        lam = getattr(self, 'overtake_noise_frac', 0.0)
+        # raw[d] = this lap's noisy predicted lap time before any pass clamp (d.predicted_laptime is only updated after
+        # the loop), so raw - mean is the lap-time noise draw.
+        raw = {d.name: d.predicted_laptime for d in sorted_drivers} if (mean is not None and lam) else None
         pit_affected = ({d.name for d in sorted_drivers
                          if d.lap_state.get('PitIn', 0.0)
                          or d.lap_state.get('PitOut', 0.0)}
@@ -1738,8 +1778,11 @@ class F1EnvAllDrivers(Env):
                     if mean is not None and self.logit_overtake is not None:
                         # overtake_mean_gap: tau at start-of-lap gap + mean lap-time difference (also for pairs
                         # formed by a swap earlier in this lap)
-                        tau = self._quick_tau_estimate(
-                            gap_k_to_k1 + mean[driver_k.name] - mean[driver_k_1.name])
+                        d_mean = gap_k_to_k1 + mean[driver_k.name] - mean[driver_k_1.name]
+                        if raw is not None:
+                            d_mean += lam * ((raw[driver_k.name] - mean[driver_k.name])
+                                             - (raw[driver_k_1.name] - mean[driver_k_1.name]))
+                        tau = self._quick_tau_estimate(d_mean)
                     elif pair_key in tau_lookup:
                         tau = tau_lookup[pair_key]
                     elif self.logit_overtake is not None:

@@ -1,0 +1,38 @@
+     var   n  cover90  width90    sd  mae_median  spearman      pit_quint  agent_in  agent_optim
+ vigente 152    0.921    7.882 2.481       1.901     0.879 31 18 35 33 35         7        0.977
+    l000 152    0.921    7.882 2.481       1.901     0.879 29 19 31 35 38         7        0.977
+l000_r15 152    0.934    8.296 2.606       1.914     0.874 31 18 40 32 31         7        0.923
+l000_r24 152    0.954    8.921 2.789       1.914     0.878 28 22 37 36 29         8        0.897
+
+var                l000  l000_r15  l000_r24  vigente
+gp                                                  
+Bahrain_ALO        0.95      1.00      1.00     0.95
+Belgian_GAS        0.84      0.89      0.89     0.84
+Dutch_STR          0.95      0.95      1.00     0.95
+Hungarian_TSU      0.95      0.95      1.00     0.95
+Miami_OCO          0.79      0.79      0.84     0.79
+Saudi_Arabian_NOR  1.00      1.00      1.00     1.00
+Singapore_HUL      1.00      1.00      0.94     1.00
+United_States_MAG  0.89      0.89      0.95     0.89
+
+var                l000  l000_r15  l000_r24  vigente
+gp                                                  
+Bahrain_ALO         9.4      10.2      10.6      9.4
+Belgian_GAS         6.9       7.7       8.2      6.9
+Dutch_STR           9.8       9.9      10.4      9.8
+Hungarian_TSU       8.3       8.6       9.4      8.3
+Miami_OCO           6.8       7.3       8.3      6.8
+Saudi_Arabian_NOR   7.2       7.5       7.9      7.2
+Singapore_HUL       8.0       8.2       8.7      8.0
+United_States_MAG   6.4       6.8       7.6      6.4
+
+var                                              l000                            l000_r15                            l000_r24                             vigente
+gp                                                                                                                                                               
+Bahrain_ALO           ALO real 9 sim 5.84±2.92 [2,11]     ALO real 9 sim 5.99±3.04 [2,12]     ALO real 9 sim 5.98±3.18 [2,12]     ALO real 9 sim 5.84±2.92 [2,11]
+Belgian_GAS         GAS real 14 sim 12.41±2.28 [9,16]   GAS real 14 sim 12.48±2.33 [9,17]   GAS real 14 sim 12.34±2.54 [8,16]   GAS real 14 sim 12.41±2.28 [9,16]
+Dutch_STR            STR real 12 sim 7.98±2.52 [5,13]    STR real 12 sim 8.07±2.65 [5,13]    STR real 12 sim 8.40±2.85 [5,14]    STR real 12 sim 7.98±2.52 [5,13]
+Hungarian_TSU         TSU real 9 sim 8.40±2.27 [6,12]     TSU real 9 sim 8.40±2.42 [5,13]     TSU real 9 sim 8.63±2.88 [5,14]     TSU real 9 sim 8.40±2.27 [6,12]
+Miami_OCO          OCO real 10 sim 14.54±2.08 [11,18]  OCO real 10 sim 14.47±2.32 [11,19]  OCO real 10 sim 14.34±2.50 [10,18]  OCO real 10 sim 14.54±2.08 [11,18]
+Saudi_Arabian_NOR     NOR real 8 sim 6.36±2.89 [3,12]     NOR real 8 sim 6.30±2.93 [3,13]     NOR real 8 sim 6.34±3.10 [2,13]     NOR real 8 sim 6.36±2.89 [3,12]
+Singapore_HUL         HUL real 9 sim 9.24±2.78 [5,14]     HUL real 9 sim 9.17±2.77 [5,14]     HUL real 9 sim 9.20±2.97 [5,14]     HUL real 9 sim 9.24±2.78 [5,14]
+United_States_MAG    MAG real 11 sim 9.41±2.24 [6,14]    MAG real 11 sim 9.73±2.46 [6,14]    MAG real 11 sim 9.59±2.60 [6,14]    MAG real 11 sim 9.41±2.24 [6,14]
