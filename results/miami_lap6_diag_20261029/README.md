@@ -117,3 +117,23 @@ resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
   semillas escapa. Con la original 0,02, ninguna de 10.
 - **Lectura:** el problema de Miami es de exploración. Un `ent_coef` algo mayor lo corrige en parte: con 10 semillas y la
   selección habitual, es probable que haya semillas buenas. Esto es una inferencia a partir de 2 semillas.
+
+## 9. Reentrenamiento con `ent_coef` 0,05 en el cluster (29-oct, OK del autor: "B1 para PPO" + prueba análoga en RPPO)
+
+- Tareas: `reproduce/cluster/make_tasks_v10eGQf_ent05_20261029.py`, derivadas de `tasks_v10eGQf_20261029.tsv`. Usan el
+  mismo comando; solo cambia la entropía y el árbol de salida.
+  - **PPO**: `tasks_v10eGQf_ppoent05_20261029.tsv`, 8 GP × 10 semillas, `--ent-coef 0.05`, salida en
+    `trained_models/retrained_v10eGQf_ppoent05_20261029/`.
+  - **RPPO**: `tasks_v10eGQf_rppoent05_20261029.tsv`, solo Miami, 10 semillas, `--hyperparams rppoent05_20261029`
+    (`hyperparams/config_rppoent05_20261029.py` = v1 con `ent_coef` 0,05), salida en
+    `trained_models/retrained_v10eGQf_rppoent05_20261029/`.
+    Si funciona en Miami, se extiende a los 8 GP.
+- Prueba pequeña:
+  - trabajos 18083095 (PPO, tarea 22 = Miami s1) y 18083096 (RPPO, tarea 1 = Miami s1);
+  - los logs muestran `[v10f]`, `ent_coef=0.05` efectivo y ~900 fps;
+  - MaxRSS a los 10 min: 0,44 GB (PPO) y 0,62 GB (RPPO).
+- Arreglo completo: 18083158 (PPO, tareas 1-21 y 23-80, `%20`) y 18083159 (RPPO, 2-10), con 830M.
+- Después:
+  - bajar con rsync, sin `--delete`;
+  - evaluar Miami con `b3_evaluar`-style (primera parada en la vuelta 6, posición);
+  - rehacer la selección y las Figs. 6–7 con PPO (y RPPO) nuevos.
