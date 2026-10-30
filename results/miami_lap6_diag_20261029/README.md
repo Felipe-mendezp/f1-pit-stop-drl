@@ -137,3 +137,30 @@ resultados en `b3_5M/`. Mismas 200 carreras que en la §4.
   - bajar con rsync, sin `--delete`;
   - evaluar Miami como en `b3_evaluar_5M_20261029.sh` (primera parada en la vuelta 6, posición, mismas 200 carreras);
   - rehacer la selección y las Figs. 6–7 con PPO (y RPPO) nuevos.
+
+## 10. Resultado RPPO Miami con `ent_coef` 0,05 (cluster 18083159 + 18083096, 30-oct madrugada)
+
+- Las 10 tareas se completaron en 1,7–1,9 h cada una, con MaxRSS de 0,59–0,74 GB.
+- Los agentes se bajaron con rsync, sin `--delete`, a `trained_models/retrained_v10eGQf_rppoent05_20261029/`.
+- Evaluación: `ent05_evaluar_20261029.sh` con las mismas 200 carreras de la §4. Resumen con
+  `ent05_resumen_20261029.py` (correr tras `source env_seleccion_20261029.sh`). La línea base son los agentes originales
+  con `ent_coef` 0,02, pasados por el mismo evaluador (`ent05/base_*`).
+
+| | Posición media (10 semillas) | Mejor semilla | Semillas con 1.ª parada en la v. 6 < 20 % | Semillas con pos. < 12 |
+|---|---|---|---|---|
+| RPPO original (0,02) | 13,46 | 13,19 | 2/10 | 0/10 |
+| **RPPO 0,05** | **12,14** | **11,41** (s9, DSQ 0) | **7/10** | **7/10** |
+| PPO original (0,02) | 13,44 | 13,37 | 0/10 | 0/10 |
+| DQN s8 (elegida, §4) | 11,26 | | | |
+
+- **Verificado:**
+  - Las 7 semillas que escapan quedan en 11,41–11,74. Entre el 38 % y el 56 % de sus paradas cae junto a un SC/VSC
+    (las originales, 6–28 %). Es la misma política reactiva de DQN.
+  - Las otras 3 semillas (1, 3, 7) siguen parando en la vuelta 6, en 13,3–13,5.
+  - La mejor evaluación del entrenamiento sube de −3991 a −4246 (originales) a −3537 a −3665 en las 7 que escapan.
+  - La entropía se mantiene en ≈ 0,4–0,7 durante el entrenamiento (s9).
+- **Lectura:**
+  - Con `ent_coef` 0,05, RPPO corrige Miami en la mayoría de las semillas, y la selección habitual elegiría una que
+    escapa.
+  - Falta ver si el cambio empeora a RPPO en los otros 7 GP. Para eso habría que reentrenarlo en los 8 GP (70 tareas
+    más), como PPO. Requiere OK del autor.
