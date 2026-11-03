@@ -51,7 +51,7 @@ PANEL_ORDER = [1, 2, 3, 0]  # Hard, Medium, Soft, No pit (same as histogram pane
 
 
 def continuation_compounds(model, vec_env, cap, forced_action, seed, n_laps,
-                           sim_future=False):
+                           sim_future=False, no_future_yf=False):
     """Force `forced_action` at the decision lap, then deterministic policy
     (rule-feasible masked) to the flag. Returns list of (lap, compound) for the
     agent from the decision lap to the end."""
@@ -59,6 +59,14 @@ def continuation_compounds(model, vec_env, cap, forced_action, seed, n_laps,
     env.np_random = np.random.default_rng(seed)
     if sim_future:
         switch_future_to_stochastic(env)
+    # 2026-11-03 (pedido del autor): el diagrama ilustra el ESCENARIO BASE del futuro, sin nuevas banderas, en vez de
+    # un sorteo con la semilla dada; el efecto medio de la decision lo siguen midiendo los M rollouts del barrido (que
+    # si sortean banderas). Se anula solo el hazard de eventos NUEVOS: una bandera ACTIVA en la vuelta de decision es
+    # informacion del presente, viene en el snapshot y termina su duracion real (en Saudi la decision cae dentro del SC
+    # real de las vueltas 7-9). Por eso no se usa yf_enabled=False, que pondria esos contadores en cero de inmediato.
+    if no_future_yf:
+        env.lap_sc_prob = 0.0
+        env.lap_vsc_prob = 0.0
     lstm = copy.deepcopy(cap['lstm'])
     ep = np.zeros((1,), dtype=bool)
 
@@ -115,6 +123,9 @@ def main():
                     help='Condition the prefix and the four continuations on the '
                          'actual 2024 race (fixed SC/VSC and rivals); the four bars '
                          'then share the real event timeline exactly.')
+    ap.add_argument('--no-future-yf', action='store_true',
+                    help='2026-11-03: dibujar la continuacion en el escenario base (sin banderas nuevas desde la '
+                         'vuelta de decision). Una bandera ya activa en esa vuelta si termina su duracion real.')
     ap.add_argument('--real-yf', action='store_true',
                     help='Fix only the SC/VSC to the real race; rivals + lap times '
                          'stochastic. The four bars share a common seed so rivals '
@@ -210,7 +221,8 @@ def main():
     rows = []
     for a in PANEL_ORDER:
         seq = continuation_compounds(model, vec_env, cap, a, args.seed, n_laps,
-                                     sim_future=args.sim_future)
+                                     sim_future=args.sim_future,
+                                     no_future_yf=args.no_future_yf)
         stints = to_stints(prefix + seq)
         # Every stop of the CONTINUATION (incl. the forced one) gets a glyph:
         # bar-boundary edges alone hide same-length neighbouring stints.

@@ -73,7 +73,11 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
             'v10f': ('simulation_v10eGQ_20261028', 'retrained_v10eGQf_20261029',
                      'decision_support_v10eGQfw24belief_20261029', 'v10eGQ'),
             'v10fsmhist': ('simulation_v10eGQ_20261028', 'retrained_v10eGQf_startmix_20261029',
-                           'decision_support_v10eGQfsmrealhist_20261029', 'v10eGQ')}
+                           'decision_support_v10eGQfsmrealhist_20261029', 'v10eGQ'),
+            # 2026-11-02: v10g = v10f + ruido de la Ec. 2 (F1_RACE_EFFECT_SD=0.28, scripts/eq2_noise_20261030.py);
+            # v10gsmhist = Fig. 11 con los post-entrenados v10gsm (10 semillas por carrera, E1 con la largada real)
+            'v10gsmhist': ('simulation_v10eGQ_20261028', 'retrained_v10g_startmix_20261101',
+                           'decision_support_v10gsmrealhist_20261102', 'v10eGQ')}
 FGS = '1.0'   # gap de seguimiento 0.4 + Exp(FGS); 2026-10-29: 0.26 con --version v10f*
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']
@@ -162,7 +166,8 @@ def main():
     assert os.environ.get('F1_WORLD2024_TYRES') == tyres, f'F1_WORLD2024_TYRES={tyres}'
     assert os.environ.get('F1_SC_REVEAL') == '1' and os.environ.get('F1_YF_LAPS_2024'), \
         'source reproduce/env_paper_v3_20261007.sh'
-    if (a.version.startswith('v9r2') and a.version != 'v9r2') or a.version in ('v10smhist', 'v10fsmhist'):   # 2026-10-24
+    if (a.version.startswith('v9r2') and a.version != 'v9r2') or a.version in ('v10smhist', 'v10fsmhist',
+                                                                               'v10gsmhist'):   # 2026-10-24
         global ROLLOUTS
         ROLLOUTS = REALHIST
         force = 'hist' if a.version.endswith('hist') else 'start'   # 2026-10-26: antes a.version[4:] (v9r2smhist)
@@ -188,7 +193,10 @@ def main():
         global WRAP   # 2026-10-28: v5hd + estrategias reales de los rivales corregidas (docs/AUDITORIA_V10_20261028.md)
         WRAP = os.path.join(ROOT, 'scripts', 'gp_configs_fix_20261028.py')
     ov = {k: os.environ.get(k) for k in ('F1_OVERTAKE_MAX_GAP', 'F1_OVERTAKE_MEAN_GAP', 'F1_FOLLOWING_GAP_SCALE')}
-    if a.version.startswith('v10f'):   # 2026-10-29: adelantamiento v10f (scripts/overtake_v10f_20261029.py)
+    if a.version.startswith('v10g'):   # 2026-11-02: v10g, ruido de la Ec. 2 (scripts/eq2_noise_20261030.py)
+        assert os.environ.get('F1_RACE_EFFECT_SD') == '0.28' and os.environ.get('F1_RACE_EFFECT_KEEP_STD') == '1', \
+            f'--version {a.version}: exportar F1_RACE_EFFECT_SD=0.28 y F1_RACE_EFFECT_KEEP_STD=1'
+    if a.version.startswith(('v10f', 'v10g')):   # 2026-10-29: adelantamiento v10f (scripts/overtake_v10f_20261029.py)
         assert ov == {'F1_OVERTAKE_MAX_GAP': 'inf', 'F1_OVERTAKE_MEAN_GAP': '1', 'F1_FOLLOWING_GAP_SCALE': '0.26'}, \
             f'--version {a.version}: exportar F1_OVERTAKE_MAX_GAP=inf F1_OVERTAKE_MEAN_GAP=1 F1_FOLLOWING_GAP_SCALE=0.26 ({ov})'
         global FGS

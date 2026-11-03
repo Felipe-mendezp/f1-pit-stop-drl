@@ -5,7 +5,11 @@ Fila "Actual": estrategia real 2024 (data/session_2024_V2.csv, misma convencion 
 la parada de la vuelta L abre la tanda nueva en L, como en la Fig. 9). Fila por vuelta n con rec != real (PPO, banderas
 sorteadas desde n = archivos *_real_*): prefijo real hasta n-1 (atenuado) y, desde n, la continuacion representativa al
 forzar la recomendacion y dejar decidir a la politica, obtenida con scripts/plot_decision_stints.py a traves de los
-envoltorios del barrido E4 (mismo prefijo, fisica y semilla comun 1000 que la Fig. 9). A la derecha, diferencia pareada
+envoltorios del barrido E4 (mismo prefijo, fisica y semilla comun 1000 que la Fig. 9). 2026-11-03 (pedido del
+autor): esa continuacion se dibuja en el ESCENARIO BASE, sin banderas nuevas desde la vuelta de decision
+(--no-future-yf); antes era un sorteo y las paradas bajo SC sorteado quedaban sin explicacion visible, porque el
+sombreado solo marca las banderas reales. Los numeros de la derecha no cambian: salen del barrido con
+--sim-future (M = 500 con banderas sorteadas). A la derecha, diferencia pareada
 media de puntos "recomendacion - real" +-2 SE (M = 500, compare_laps_20261026.csv). SC/VSC reales sombreados.
 Requiere el entorno del barrido E4 (ver results/decision_support_v9r2smrealhist_20261026/run_20261026.sh) y ademas
 F1_DS_FORCE=hist F1_DS_WORLD2024=1 F1_SIMULATION_DIR F1_RL_AGENTS_DIR:
@@ -16,7 +20,7 @@ import argparse, json, os, re, subprocess, sys
 import pandas as pd
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib.patches import Patch
+from matplotlib.patches import Patch, Rectangle
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from plot_decision_evolution import _contiguous_runs
@@ -44,6 +48,8 @@ FGS = os.environ.get('F1_FOLLOWING_GAP_SCALE', '1.0')
 WRAP = [GPWRAP, 'scripts/ds_rollouts_realhist_20261024.py', '--run',
         'scripts/plot_decision_stints.py']
 SEED = 1000
+# 2026-11-03: --laps permite apuntar a otro barrido (v10gsm usa compare_laps_20261103.csv)
+LAPS = 'compare_laps_20261026.csv'
 GROUP = True   # agrupar vueltas consecutivas con la misma recomendacion
 TRI = 1.0   # escala de los triangulos (la grilla del paper los agranda)
 FS_BAR = 9   # tamano del numero de vueltas dentro de las barras (la grilla 2x4 lo reduce)
@@ -63,6 +69,7 @@ def continuation(key, n, label, algo, rd, tmp):
     cmd = [sys.executable] + WRAP + ['--gp', gp, '--driver', drv, '--model-dir', md, '--lap', str(n), '--real-2024',
                                      '--seed', str(SEED), '--algo', algo, '--results-dir', os.path.join(rd, algo),
                                      '--following-gap-scale', FGS, '--sim-future',
+                                     '--no-future-yf',
                                      '--out-pdf', os.path.join(tmp, f'{md}_{n}.pdf'),
                                      '--out-png', os.path.join(tmp, f'{md}_{n}.png')]
     txt = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True).stdout
@@ -124,14 +131,14 @@ def gp_rows(key, rd, out, algo='PPO', scen='(ii)'):
     """Datos de un panel: tandas reales + una fila por vuelta con rec != real (continuaciones en cache JSON)."""
     gp, drv, md, name = GPS[key]
     m = json.load(open(os.path.join(rd, algo, f'{key}_real_lap1_meta.json')))
-    L = pd.read_csv(os.path.join(rd, 'compare_laps_20261026.csv'))
+    L = pd.read_csv(os.path.join(rd, LAPS))
     g = L[(L.gp == key) & (L.algo == algo) & (L.scen == scen)].sort_values('lap')
     cache_p = os.path.join(out, 'stints_cache_20261026.json')
     cache = json.load(open(cache_p)) if os.path.exists(cache_p) else {}
     tmp = os.path.join(out, 'stints_tmp'); os.makedirs(tmp, exist_ok=True)
     rows = [dict(label='Actual', stints=real_stints(real_plan(gp, drv), m['n_laps']), lap=None)]
     for r in g[g.real != g.rec].itertuples():
-        ck = f'{key}|{algo}|{r.lap}|{r.rec}|{SEED}'
+        ck = f'{key}|{algo}|{r.lap}|{r.rec}|{SEED}|baseyf'   # 2026-11-03: 'baseyf' = continuacion sin banderas nuevas
         if ck not in cache:
             cache[ck] = continuation(key, r.lap, r.rec, algo, rd, tmp)
             json.dump(cache, open(cache_p, 'w'), indent=0)
@@ -144,33 +151,65 @@ def gp_rows(key, rd, out, algo='PPO', scen='(ii)'):
 
 
 def group_rows(rows):
-    """Agrupa vueltas consecutivas con la misma recomendacion en una fila (pedido del autor, 26-oct): la barra es la
-    continuacion de la primera vuelta del grupo, un triangulo por vuelta, y a la derecha la diferencia de la primera vuelta."""
-    out = [rows[0]]
+    """Agrupa vueltas consecutivas con la misma recomendacion en una fila (pedido del autor, 26-oct): un triangulo por
+    vuelta y una sola diferencia a la derecha. 2026-11-03 (pedido del autor): la fila representa la vuelta de MAYOR
+    efecto |DRL - real| del grupo, no la primera, y la barra es la continuacion de esa vuelta. Con los grupos largos de
+    v10g la primera vuelta podia estar cerca de cero y ocultar una ganancia significativa del mismo grupo (Bahrein
+    v. 35-40: la primera da -0,07 y la v. 39 da +0,81*)."""
+    groups = [[rows[0]]]
     for r in rows[1:]:
-        q = out[-1]
-        if q['lap'] is not None and q['rec'] == r['rec'] and r['lap'] == q['laps'][-1] + 1:
-            q['laps'].append(r['lap']); q['ds'].append(r['d']); q['sigs'].append(r['sig'])
-            q['label'] = f"DRL at laps {q['laps'][0]}\u2013{q['laps'][-1]}"
+        q = groups[-1][-1]
+        if q['lap'] is not None and q['rec'] == r['rec'] and r['lap'] == q['lap'] + 1:
+            groups[-1].append(r)
         else:
-            out.append(dict(r, laps=[r['lap']], ds=[r['d']], sigs=[r['sig']]))
+            groups.append([r])
+    out = []
+    for g in groups:
+        if g[0]['lap'] is None:
+            out.append(g[0]); continue
+        rep = max(g, key=lambda r: abs(r['d']))
+        q = dict(rep, laps=[r['lap'] for r in g], ds=[r['d'] for r in g], sigs=[r['sig'] for r in g])
+        if len(g) > 1:
+            q['label'] = f"DRL at laps {g[0]['lap']}\u2013{g[-1]['lap']}"
+        out.append(q)
     return out
+
+
+def yf_laps_for_row(laps, lap_dec):
+    """SC/VSC reales visibles en una fila. La continuacion va en el escenario base (sin banderas nuevas), de modo que
+    sombrear la carrera real completa pondria bloques que la barra no obedece (Miami: SC real 28-32, decision en la 22).
+    Se muestran el prefijo real hasta la vuelta de decision y, si esa vuelta cae dentro de un bloque activo, el bloque
+    completo: es presente conocido y la continuacion lo termina. Fila 'Actual' (lap_dec None): la carrera real entera."""
+    if not laps:
+        return []
+    if lap_dec is None:
+        return list(laps)
+    out = [l for l in laps if l < lap_dec]
+    k = lap_dec
+    while k in laps:
+        out.append(k); k += 1
+    return sorted(set(out))
+
+
+def draw_yf_row(ax, y, sc_laps, vsc_laps):
+    """Sombreado por fila (2026-11-03), por encima de las barras y semitransparente, como el de panel completo."""
+    for st, en in _contiguous_runs(sc_laps or []):
+        ax.add_patch(Rectangle((st - 0.5, y - 0.5), en - st + 1, 1.0, color=SC_COLOR, alpha=SC_ALPHA, lw=0, zorder=4.5))
+    for st, en in _contiguous_runs(vsc_laps or []):
+        ax.add_patch(Rectangle((st - 0.5, y - 0.5), en - st + 1, 1.0, facecolor='none',
+                               edgecolor=YF_STYLE['VSC']['edgecolor'], hatch=YF_STYLE['VSC']['hatch'],
+                               lw=0, zorder=4.5))
 
 
 def draw_panel(ax, P, header=True, nrows=None, short=False, fs=9):
     m, rows = P['meta'], P['rows']
     n_laps, comps = m['n_laps'], m['available_compounds']
     color_of = {c: STINT_COLORS[i] for i, c in enumerate(comps)}
-    draw_yf_hatch(ax, m['laps_sc_2024'], m['laps_vsc_2024'])
-    nr = nrows or len(rows)
-    frac = (nr - 0.4 - (len(rows) - 0.5)) / (nr + 0.2)   # SC/VSC solo sobre las filas usadas (eje y invertido)
-    for pa in ax.patches:   # SC/VSC por encima de las barras (semitransparente), visibles en todas las filas
-        pa.set_zorder(4.5)
-        if hasattr(pa, 'set_height') and frac > 0:
-            pa.set_y(frac); pa.set_height(1 - frac)
     tr = ax.get_yaxis_transform()   # x en fraccion del eje, y en datos
     for i, r in enumerate(rows):
         draw_bar(ax, i, r['stints'], color_of, H, alpha_until=r['lap'])
+        draw_yf_row(ax, i, yf_laps_for_row(m['laps_sc_2024'], r['lap']),
+                    yf_laps_for_row(m['laps_vsc_2024'], r['lap']))
         if r['lap'] is None:
             continue
         # triangulo negro invertido justo encima de la barra, al inicio de la vuelta de la decision (n - 0.5; pedido del autor)
@@ -178,7 +217,7 @@ def draw_panel(ax, P, header=True, nrows=None, short=False, fs=9):
             ax.scatter(lp - 0.5, i - H / 2 - 0.1, marker='v', s=TRI * (40 if len(r.get('laps', [0])) == 1 else 22),
                        color='black', zorder=6, clip_on=False)
         # grupo: diferencia de la primera vuelta (la de la barra dibujada) con +-2 SE (pedido del autor, 26-oct)
-        lap_txt = f"\n(lap {r['laps'][0]})" if len(r.get('laps', [0])) > 1 else ''
+        lap_txt = f"\n(lap {r['lap']})" if len(r.get('laps', [0])) > 1 else ''
         txt = f"{r['rec']}: {fmt_d(r['d'])} $\\pm$ {r['se2']:.1f}" + ('*' if r['sig'] else '') + lap_txt
         ax.text(1.02, i, txt,
                 transform=tr, va='center', ha='left', fontsize=fs, clip_on=False)
@@ -257,18 +296,20 @@ def figure_grid(panels, out, ncols=4):
 
 
 def main():
+    global GROUP, LAPS
     ap = argparse.ArgumentParser()
     ap.add_argument('--res', required=True)
     ap.add_argument('--gps', nargs='+', default=list(GPS))
     ap.add_argument('--out', default=None)
     ap.add_argument('--no-group', action='store_true', help='una fila por vuelta (sin agrupar)')
+    ap.add_argument('--laps', default=LAPS, help='CSV vuelta a vuelta dentro de --res')
     a = ap.parse_args()
     assert os.environ.get('F1_DS_FORCE') == 'hist' and os.environ.get('F1_TYRE_REUSE') == '1', 'entorno del barrido E4'
     rd = os.path.abspath(a.res)
     out = a.out or os.path.join(rd, 'figs')
     os.makedirs(out, exist_ok=True)
-    global GROUP
     GROUP = not a.no_group
+    LAPS = a.laps
     panels = [gp_rows(k, rd, out) for k in a.gps]
     for P in panels:
         figure(P, out)
