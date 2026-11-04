@@ -1,0 +1,55 @@
+{
+ "gp": "Bahrain Grand Prix",
+ "driver": "Driver_ALO",
+ "algo": "PPO",
+ "available_compounds": [
+  1,
+  2,
+  3
+ ],
+ "n_laps": 57,
+ "laps": {
+  "15": {
+   "mounted": {
+    "compound": 3,
+    "age": 15
+   },
+   "pool": {
+    "1": [
+     0,
+     0
+    ],
+    "2": [
+     0
+    ],
+    "3": [
+     1,
+     1
+    ]
+   },
+   "position": 3,
+   "rec": "No pit"
+  },
+  "39": {
+   "mounted": {
+    "compound": 1,
+    "age": 23
+   },
+   "pool": {
+    "1": [
+     0
+    ],
+    "2": [
+     0
+    ],
+    "3": [
+     1,
+     1,
+     16
+    ]
+   },
+   "position": 3,
+   "rec": "Hard (C1)"
+  }
+ }
+}

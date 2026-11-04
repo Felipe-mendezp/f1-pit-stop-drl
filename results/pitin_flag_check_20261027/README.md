@@ -1,5 +1,7 @@
 # La columna PitIn/PitOut de session_*_V2.csv bajo SC (27-oct-2026)
 
+> **Nota del 3-nov-2026:** este README describe el simulador anterior a v10. v10 elimina las vueltas de paso sin cambio de neumático (`05_yf_v4_drop_pass_20261027.py`; hoy k_in 0,366 y k_out 0,702 en `results/sim_v10eGQ_20261028/yf_model_v10_20261027.csv`), así que el "≈ 3 s" de abajo ya no aplica al simulador vigente.
+
 Diagnóstico, **sin cambios en el simulador ni en el paper**. Una parada "real" se define por el cambio de juego (baja
 TyreLife o cambia Compound_Detail entre la vuelta L y L+1), como `real_plan`.
 

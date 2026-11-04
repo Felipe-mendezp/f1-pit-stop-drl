@@ -54,3 +54,16 @@ results/decision_support_v9r2smrealhist_20261026/RecurrentPPO/
 results/decision_support_v9r2smrealhist_20261026/figs/PPO/
 results/decision_support_v9r2smrealhist_20261026/figs/RecurrentPPO/
 results/decision_support_v9r2smrealhist_20261026/figs/stints_tmp/
+
+# 2026-11-03 (v10g): same policy as v9r2 (rollouts, per-GP sweep figures, simulator pickles and agent copies not versioned;
+# they go to the Zenodo archives). READMEs, scripts, summaries, paper figures and the decision web page are versioned.
+results/decision_support_v10gw24belief_20261103/PPO/
+results/decision_support_v10gw24belief_20261103/figs/
+results/decision_support_v10gw24belief_20261103/figs_paper_20261103/tmp/
+results/decision_support_v10gsmrealhist_20261102/PPO/
+results/decision_support_v10gsmrealhist_20261102/figs/PPO/
+results/sim_v10_20261027/artifacts/
+results/overtake_noise_frac_20261030/**/*.pkl
+results/overtake_calib_20261030/**/*.pkl
+results/overtake_calib_20261030/*.pkl
+results/startmix_v10g_20261101/**/*.zip

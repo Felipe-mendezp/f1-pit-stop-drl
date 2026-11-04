@@ -1,0 +1,13 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas,seed
+United_States_MAG,PPO,propia,200,0.0,7.71,2.0,C2:100%,1
+United_States_MAG,PPO,C2,200,0.0,7.71,2.0,,1
+United_States_MAG,PPO,C3,200,10.5,8.945,1.97,,1
+United_States_MAG,PPO,C4,200,4.0,8.095,2.045,,1
+United_States_MAG,PPO,propia,200,0.0,7.69,2.14,C2:100%,2
+United_States_MAG,PPO,C2,200,0.0,7.69,2.14,,2
+United_States_MAG,PPO,C3,200,0.0,7.505,2.185,,2
+United_States_MAG,PPO,C4,200,0.0,7.525,2.175,,2
+United_States_MAG,PPO,propia,200,0.0,7.555,2.175,C2:100%,3
+United_States_MAG,PPO,C2,200,0.0,7.555,2.175,,3
+United_States_MAG,PPO,C3,200,0.5,7.605,2.175,,3
+United_States_MAG,PPO,C4,200,0.5,7.755,2.22,,3

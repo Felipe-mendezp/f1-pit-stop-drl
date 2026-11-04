@@ -1,0 +1,6 @@
+18:00:39 fig6 Miami_OCO (agentes results/startmix_v10g_20261101/alt_miami_s7_20261102/selected -> results/startmix_v10g_20261101/e3_miami_s7_20261102)
+18:04:09 fig6 Miami_OCO exit 0
+18:04:09 fin Miami_OCO
+18:04:09 fig7 Miami_OCO (agentes results/startmix_v10g_20261101/alt_miami_s7_20261102/selected -> results/startmix_v10g_20261101/e3_miami_s7_20261102)
+18:06:01 fig7 Miami_OCO exit 0
+18:06:01 fin Miami_OCO

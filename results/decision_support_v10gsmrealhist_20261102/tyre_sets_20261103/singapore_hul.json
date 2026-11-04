@@ -1,0 +1,33 @@
+{
+ "gp": "Singapore Grand Prix",
+ "driver": "Driver_HUL",
+ "algo": "PPO",
+ "available_compounds": [
+  3,
+  4,
+  5
+ ],
+ "n_laps": 62,
+ "laps": {
+  "29": {
+   "mounted": {
+    "compound": 4,
+    "age": 28
+   },
+   "pool": {
+    "3": [
+     0
+    ],
+    "4": [],
+    "5": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "position": 5,
+   "rec": "No pit"
+  }
+ }
+}

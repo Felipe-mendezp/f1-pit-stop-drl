@@ -77,7 +77,11 @@ VERSIONS = {'v6': ('simulation_v6_20261014', 'rl_agents_v6_20261014', 'decision_
             # 2026-11-02: v10g = v10f + ruido de la Ec. 2 (F1_RACE_EFFECT_SD=0.28, scripts/eq2_noise_20261030.py);
             # v10gsmhist = Fig. 11 con los post-entrenados v10gsm (10 semillas por carrera, E1 con la largada real)
             'v10gsmhist': ('simulation_v10eGQ_20261028', 'retrained_v10g_startmix_20261101',
-                           'decision_support_v10gsmrealhist_20261102', 'v10eGQ')}
+                           'decision_support_v10gsmrealhist_20261102', 'v10eGQ'),
+            # 2026-11-03: barrido de apoyo a la decision (Figs. 8-10) en v10g, con los agentes seleccionados el 31-oct;
+            # sin prefijo forzado (no lleva F1_DS_FORCE), a diferencia de v10gsmhist
+            'v10g': ('simulation_v10eGQ_20261028', 'retrained_v10g_20261030',
+                     'decision_support_v10gw24belief_20261103', 'v10eGQ')}
 FGS = '1.0'   # gap de seguimiento 0.4 + Exp(FGS); 2026-10-29: 0.26 con --version v10f*
 REALHIST = os.path.join(ROOT, 'scripts', 'ds_rollouts_realhist_20261024.py')
 VARIANTS = ['--real-yf', '--real-2024']

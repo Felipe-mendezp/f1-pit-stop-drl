@@ -1,0 +1,32 @@
+05:45:26 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+05:54:00 fig6 Saudi_Arabian_NOR exit 0
+05:56:02 fig6 Singapore_HUL exit 0
+05:56:03 fig6 Belgian_GAS exit 0
+05:56:36 fig6 Miami_OCO exit 0
+05:57:08 fig6 Bahrain_ALO exit 0
+05:57:55 fig6 United_States_MAG exit 0
+05:58:09 fig6 Dutch_STR exit 0
+05:58:44 fig6 Hungarian_TSU exit 0
+05:58:44 fin 
+05:58:44 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+06:02:59 fig7 Saudi_Arabian_NOR exit 0
+06:05:47 fig7 Singapore_HUL exit 0
+06:06:41 fig7 Miami_OCO exit 0
+06:06:59 fig7 Belgian_GAS exit 0
+06:07:17 fig7 Bahrain_ALO exit 0
+06:07:48 fig7 Dutch_STR exit 0
+06:08:15 fig7 United_States_MAG exit 0
+06:08:29 fig7 Hungarian_TSU exit 0
+06:08:29 fin 
+06:09:26 fig6 United_States_MAG (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+06:14:25 fig6 United_States_MAG exit 0
+06:14:25 fin United_States_MAG
+06:14:25 fig7 United_States_MAG (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+06:17:37 fig7 United_States_MAG exit 0
+06:17:37 fin United_States_MAG
+07:08:13 fig6 Miami_OCO (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+07:11:48 fig6 Miami_OCO exit 0
+07:11:49 fin Miami_OCO
+07:11:49 fig7 Miami_OCO (agentes trained_models/retrained_v10g_startmix_20261101/selected -> results/startmix_v10g_20261101/e3_world2024_20261102)
+07:13:30 fig7 Miami_OCO exit 0
+07:13:30 fin Miami_OCO

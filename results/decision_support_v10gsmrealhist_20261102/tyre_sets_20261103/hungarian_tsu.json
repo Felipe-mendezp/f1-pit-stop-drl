@@ -1,0 +1,33 @@
+{
+ "gp": "Hungarian Grand Prix",
+ "driver": "Driver_TSU",
+ "algo": "PPO",
+ "available_compounds": [
+  3,
+  4,
+  5
+ ],
+ "n_laps": 70,
+ "laps": {
+  "29": {
+   "mounted": {
+    "compound": 4,
+    "age": 28
+   },
+   "pool": {
+    "3": [
+     0,
+     0
+    ],
+    "4": [],
+    "5": [
+     1,
+     1,
+     2
+    ]
+   },
+   "position": 7,
+   "rec": "No pit"
+  }
+ }
+}

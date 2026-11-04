@@ -1,0 +1,3 @@
+23:52:30 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes results/world2024_v10_20261027/qmip_only/no_agents -> results/world2024_v10_20261027/qmip_only)
+00:03:00 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes results/world2024_v10_20261027/qmip_only/no_agents -> results/world2024_v10_20261027/qmip_only)
+00:10:58 fin 

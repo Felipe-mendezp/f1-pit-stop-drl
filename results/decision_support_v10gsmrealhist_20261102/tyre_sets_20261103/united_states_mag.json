@@ -1,0 +1,78 @@
+{
+ "gp": "United States Grand Prix",
+ "driver": "Driver_MAG",
+ "algo": "PPO",
+ "available_compounds": [
+  2,
+  3,
+  4
+ ],
+ "n_laps": 56,
+ "laps": {
+  "3": {
+   "mounted": {
+    "compound": 3,
+    "age": 2
+   },
+   "pool": {
+    "2": [
+     0
+    ],
+    "3": [
+     0,
+     2
+    ],
+    "4": [
+     1,
+     1,
+     1
+    ]
+   },
+   "position": 9,
+   "rec": "Medium (C3)"
+  },
+  "17": {
+   "mounted": {
+    "compound": 3,
+    "age": 13
+   },
+   "pool": {
+    "2": [
+     0
+    ],
+    "3": [
+     0,
+     2
+    ],
+    "4": [
+     1,
+     1,
+     1
+    ]
+   },
+   "position": 10,
+   "rec": "No pit"
+  },
+  "36": {
+   "mounted": {
+    "compound": 2,
+    "age": 18
+   },
+   "pool": {
+    "2": [],
+    "3": [
+     0,
+     2,
+     14
+    ],
+    "4": [
+     1,
+     1,
+     1
+    ]
+   },
+   "position": 13,
+   "rec": "Medium (C3)"
+  }
+ }
+}

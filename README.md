@@ -309,6 +309,50 @@ the races when forced to start on the compound they always pit to (`scripts/star
 `--vec dummy` = the 10 envs in one process, same results). 48 tasks (8 GP × 2 algorithms × 3 seeds) in
 `reproduce/cluster/tasks_v9r2sm.tsv` → `trained_models/retrained_v9r2_startmix_20261025/seedXX/`.
 
+### Tire sets at the decision points of Fig. 11 (2026-11-03)
+
+Table L.1 of the supplementary material lists, for every row of Fig. 11, the sets the driver still has at that lap,
+with the age of each one, and the set on the car. It answers why the hard tire sometimes runs fewer laps than a
+softer one: in the United States and Singapore the driver has a single hard set, so its stint length is the remainder
+of the plan.
+
+- `scripts/tyre_sets_at_decisions_20261103.py` rebuilds the driver's actual prefix with the same chain as the figure
+  (`gp_configs_fix_20261028.py` + `ds_rollouts_realhist_20261024.py --run`, `F1_DS_FORCE=hist`, `--real-2024`,
+  prefix seed 0) and dumps, at each decision lap, the mounted set with its effective age and the remaining pool per
+  compound. With `F1_TYRE_REUSE=1` the set taken off returns to the pool only at the stop, so it is reported apart.
+- `scripts/table_tyre_sets_decisions_20261103.py` builds the LaTeX table, one row per row of Fig. 11 (same groups,
+  representative lap = largest |difference|).
+- Runner, per-GP JSON and the LaTeX fragment: `results/decision_support_v10gsmrealhist_20261102/tyre_sets_20261103/`
+  (17 s in total).
+
+### Lap-by-lap value of a recommendation (2026-11-03)
+
+Figure Q.1 of the supplementary material plots the mean paired difference in points, with 2 SE, for each lap around
+the second pit stop of the Bahrain Grand Prix. It shows that within a group of laps carrying the same recommendation
+the value of following it changes from lap to lap: stopping pays only from lap 38 and peaks at lap 39.
+
+- `scripts/plot_realhist_dlap_20261103.py --res results/decision_support_v10gsmrealhist_20261102 --gp bahrain_alo
+  --from-lap 33 --to-lap 42` (with `F1_PAPER_FONTS=1`). It reads the sweep CSV, so it runs no new rollouts.
+- Output: `results/decision_support_v10gsmrealhist_20261102/figs/realhist_dlap_<gp>.{pdf,png}`, copied to the paper
+  folder as `realhist_dlap_bahrain.pdf`.
+
+### Pending: Figures 8-10 in the v10g world (prepared 2026-11-03, not run)
+
+The three decision-support figures in the manuscript still come from the 2026-10-24 sweep, which used the v9r2
+simulator and agents, while the rest of the paper is in v10g. The replacement sweep is ready to launch:
+
+```
+caffeinate -i zsh results/decision_support_v10gw24belief_20261103/run_20261103.sh \
+    2>&1 | tee results/decision_support_v10gw24belief_20261103/sweep_20261103.log
+```
+
+PPO only, 8 GPs by two scenarios, M = 500, 8 workers, about 2 h on the Mac (add `--gps Saudi_Arabian_NOR` for the
+case of Figures 8-10 alone, about 35 min). It uses the new `v10g` entry of `VERSIONS` in
+`scripts/run_ds_v6_sweep_20261015.py` (simulator `simulation_v10eGQ_20261028`, agents
+`retrained_v10g_20261030/selected`). These sweeps have always been run locally, never on the cluster. Compare the
+numbers against the v9r2 sweep before editing the manuscript: the paragraph of `sec:decision_support` and the three
+captions quote eight values from them.
+
 ## Citation
 
 ```bibtex

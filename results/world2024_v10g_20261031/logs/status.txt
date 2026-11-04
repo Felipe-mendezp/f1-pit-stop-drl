@@ -1,0 +1,52 @@
+13:03:51 fig7 Hungarian_TSU (agentes trained_models/retrained_v10g_20261030/selected -> results/world2024_v10g_20261031)
+13:06:48 fig7 Hungarian_TSU exit 0
+13:06:48 fin Hungarian_TSU
+13:06:57 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_20261030/selected -> results/world2024_v10g_20261031)
+13:47:59 fig6 Saudi_Arabian_NOR exit 0
+14:21:56 fig6 Belgian_GAS exit 0
+14:37:42 fig6 Singapore_HUL exit 0
+14:38:25 fig6 Miami_OCO exit 0
+14:54:02 fig6 Bahrain_ALO exit 0
+15:09:56 fig6 United_States_MAG exit 0
+15:10:16 fig6 Dutch_STR exit 0
+15:10:51 fig6 Hungarian_TSU exit 0
+15:10:51 fin 
+15:10:51 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_20261030/selected -> results/world2024_v10g_20261031)
+16:33:36 fig7 Saudi_Arabian_NOR exit 0
+17:16:30 fig7 Singapore_HUL exit 0
+17:18:16 fig7 Miami_OCO exit 0
+17:18:42 fig7 Belgian_GAS exit 0
+17:18:54 fig7 Bahrain_ALO exit 0
+17:19:21 fig7 Dutch_STR exit 0
+17:19:46 fig7 United_States_MAG exit 0
+17:20:01 fig7 Hungarian_TSU exit 0
+17:20:01 fin 
+18:09:11 select eval Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (v10f: F1_OVERTAKE_MAX_GAP=inf F1_FOLLOWING_GAP_SCALE=0.26 F1_TYRE_SETS=/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/data/tyre_sets_2024_reg_v10eGQ_20261028.csv F1_TYRE_STINT_AGES=/Users/charlesthraves/MIT Dropbox/Charles Thraves/Research/F1 DLR/Codigos/f1-pit-stop-drl-v2/data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv F1_TYRE_REUSE=1)
+18:44:37 select pick Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG
+18:44:41 fin 
+18:46:43 fig6 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_20261030/selected -> results/world2024_v10g_20261031)
+19:01:16 fig6 Saudi_Arabian_NOR exit 0
+19:01:43 fig6 Belgian_GAS exit 0
+19:04:51 fig6 Singapore_HUL exit 0
+19:05:07 fig6 Miami_OCO exit 0
+19:05:57 fig6 Bahrain_ALO exit 0
+19:06:48 fig6 United_States_MAG exit 0
+19:08:15 fig6 Dutch_STR exit 0
+19:08:44 fig6 Hungarian_TSU exit 0
+19:08:44 fin 
+19:08:44 fig7 Bahrain_ALO Saudi_Arabian_NOR Miami_OCO Hungarian_TSU Belgian_GAS Dutch_STR Singapore_HUL United_States_MAG (agentes trained_models/retrained_v10g_20261030/selected -> results/world2024_v10g_20261031)
+19:15:19 fig7 Saudi_Arabian_NOR exit 0
+19:18:52 fig7 Singapore_HUL exit 0
+19:19:15 fig7 Belgian_GAS exit 0
+19:19:18 fig7 Miami_OCO exit 0
+19:20:09 fig7 Bahrain_ALO exit 0
+19:20:57 fig7 United_States_MAG exit 0
+19:21:02 fig7 Dutch_STR exit 0
+19:21:26 fig7 Hungarian_TSU exit 0
+19:21:26 fin 
+19:23:43 summary
+19:23:48 fin summary
+19:23:51 summary
+19:23:56 fin summary
+19:24:04 figs
+19:24:08 fin figs

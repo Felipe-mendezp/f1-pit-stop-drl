@@ -1,0 +1,35 @@
+{
+ "gp": "Miami Grand Prix",
+ "driver": "Driver_OCO",
+ "algo": "PPO",
+ "available_compounds": [
+  2,
+  3,
+  4
+ ],
+ "n_laps": 57,
+ "laps": {
+  "22": {
+   "mounted": {
+    "compound": 3,
+    "age": 21
+   },
+   "pool": {
+    "2": [
+     0
+    ],
+    "3": [
+     2,
+     2
+    ],
+    "4": [
+     1,
+     1,
+     1
+    ]
+   },
+   "position": 11,
+   "rec": "Soft (C4)"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "gp": "Dutch Grand Prix",
+ "driver": "Driver_STR",
+ "algo": "PPO",
+ "available_compounds": [
+  1,
+  2,
+  3
+ ],
+ "n_laps": 72,
+ "laps": {
+  "30": {
+   "mounted": {
+    "compound": 2,
+    "age": 29
+   },
+   "pool": {
+    "1": [
+     0
+    ],
+    "2": [],
+    "3": [
+     1,
+     1,
+     1,
+     2
+    ]
+   },
+   "position": 9,
+   "rec": "No pit"
+  }
+ }
+}

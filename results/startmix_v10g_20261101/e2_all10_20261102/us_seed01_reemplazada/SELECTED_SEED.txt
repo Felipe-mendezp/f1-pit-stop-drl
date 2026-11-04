@@ -1,0 +1,1 @@
+seed 1  pos_media_val 8.020  share_ok 1.000  ok-neutral reglas 5/7/8 max-dsq 0.0

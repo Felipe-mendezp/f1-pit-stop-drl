@@ -1,0 +1,78 @@
+{
+ "gp": "Belgian Grand Prix",
+ "driver": "Driver_GAS",
+ "algo": "PPO",
+ "available_compounds": [
+  2,
+  3,
+  4
+ ],
+ "n_laps": 44,
+ "laps": {
+  "9": {
+   "mounted": {
+    "compound": 3,
+    "age": 8
+   },
+   "pool": {
+    "2": [
+     0,
+     0
+    ],
+    "3": [],
+    "4": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "position": 11,
+   "rec": "No pit"
+  },
+  "25": {
+   "mounted": {
+    "compound": 2,
+    "age": 15
+   },
+   "pool": {
+    "2": [
+     0
+    ],
+    "3": [
+     9
+    ],
+    "4": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "position": 8,
+   "rec": "Hard (C2)"
+  },
+  "26": {
+   "mounted": {
+    "compound": 2,
+    "age": 16
+   },
+   "pool": {
+    "2": [
+     0
+    ],
+    "3": [
+     9
+    ],
+    "4": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "position": 8,
+   "rec": "Soft (C4)"
+  }
+ }
+}

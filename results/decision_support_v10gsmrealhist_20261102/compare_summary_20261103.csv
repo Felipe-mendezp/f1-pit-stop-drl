@@ -1,0 +1,17 @@
+gp,algo,scen,N,real 2024,rec = real %,en paradas reales: rec (dif. pts real-rec),vueltas con rec = parar y real = no parar (signif.),pts real - rec (suma en vueltas distintas),vueltas donde otra accion supera a la real (signif.): mejor(+pts)
+bahrain_alo,PPO,(i),56,15:Hard (C1) 41:Hard (C1),88,15:No pit(+0.0) 41:Hard (C1)(+0.0),35:Hard (C1) 36:Hard (C1)* 37:Hard (C1)* 38:Hard (C1)* 39:Hard (C1) 40:Hard (C1)*,-1.73,14:Hard (C1)(+0.4) 36:Hard (C1)(+0.2) 37:Medium (C2)(+0.9) 38:Medium (C2)(+0.9) 40:Medium (C2)(+0.5) 41:Medium (C2)(+0.2)
+bahrain_alo,PPO,(ii),56,15:Hard (C1) 41:Hard (C1),88,15:No pit(-0.1) 41:Hard (C1)(+0.0),35:Hard (C1) 36:Hard (C1)* 37:Hard (C1) 38:Hard (C1)* 39:Hard (C1)* 40:Hard (C1)*,-1.39,38:Hard (C1)(+0.3) 39:Hard (C1)(+0.8) 40:Medium (C2)(+0.8) 41:Medium (C2)(+0.2)
+belgian_gas,PPO,(i),43,9:Hard (C2) 28:Hard (C2),88,9:No pit(-0.5*) 28:Soft (C4)(+0.0),25:Hard (C2)* 26:Hard (C2) 27:Hard (C2),-0.4,9:No pit(+0.5)
+belgian_gas,PPO,(ii),43,9:Hard (C2) 28:Hard (C2),88,9:No pit(+0.1) 28:Soft (C4)(+0.1),25:Hard (C2) 26:Soft (C4)* 27:Soft (C4),0.35,—
+dutch_str,PPO,(i),71,30:Hard (C1),99,30:No pit(-0.1),—,-0.07,—
+dutch_str,PPO,(ii),71,30:Hard (C1),99,30:No pit(-0.1),—,-0.07,—
+hungarian_tsu,PPO,(i),69,29:Hard (C3),97,29:Hard (C3)(+0.0),25:Hard (C3) 28:Hard (C3),-0.31,19:Soft (C5)(+0.5) 21:Soft (C5)(+0.5) 22:Soft (C5)(+0.6) 23:Soft (C5)(+0.2) 40:Soft (C5)(+0.1) 44:Soft (C5)(+0.1) 49:Soft (C5)(+0.1) 50:Soft (C5)(+0.2) 51:Soft (C5)(+0.3) 52:Soft (C5)(+0.3) 53:Soft (C5)(+0.3) 54:Soft (C5)(+0.2)
+hungarian_tsu,PPO,(ii),69,29:Hard (C3),99,29:No pit(-0.1),—,-0.08,—
+miami_oco,PPO,(i),56,22:Hard (C2),96,22:Soft (C4)(+0.0),28:Soft (C4),0.0,—
+miami_oco,PPO,(ii),56,22:Hard (C2),98,22:Soft (C4)(-0.0),—,0.0,—
+saudi_arabian_nor,PPO,(i),49,37:Soft (C4),96,37:Soft (C4)(+0.0),7:Soft (C4)* 36:Soft (C4),-2.37,7:Soft (C4)(+2.6)
+saudi_arabian_nor,PPO,(ii),49,37:Soft (C4),84,37:Soft (C4)(+0.0),7:Soft (C4)* 29:Soft (C4) 31:Soft (C4) 32:Soft (C4) 33:Soft (C4)* 34:Soft (C4)* 35:Soft (C4) 36:Soft (C4)*,-2.25,7:Soft (C4)(+2.9)
+singapore_hul,PPO,(i),61,29:Hard (C3),98,29:No pit(-1.7*),—,-1.72,29:No pit(+1.7)
+singapore_hul,PPO,(ii),61,29:Hard (C3),98,29:No pit(-0.2*),—,-0.23,29:No pit(+0.2)
+united_states_mag,PPO,(i),55,17:Hard (C2) 38:Medium (C3),89,17:No pit(-0.1*) 38:Medium (C3)(+0.0),3:Medium (C3)* 34:Medium (C3) 35:Medium (C3) 36:Medium (C3) 37:Medium (C3),-0.26,3:Hard (C2)(+0.2) 17:No pit(+0.1)
+united_states_mag,PPO,(ii),55,17:Hard (C2) 38:Medium (C3),93,17:No pit(-0.1*) 38:Medium (C3)(+0.0),3:Medium (C3)* 36:Medium (C3) 37:Medium (C3),-0.27,3:Hard (C2)(+0.2) 17:No pit(+0.1)

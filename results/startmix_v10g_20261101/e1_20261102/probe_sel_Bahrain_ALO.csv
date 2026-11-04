@@ -1,0 +1,5 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Bahrain_ALO,PPO,propia,200,0.0,3.65,2.085,C2:100%
+Bahrain_ALO,PPO,C1,200,4.5,4.64,2.07,
+Bahrain_ALO,PPO,C2,200,0.0,3.65,2.085,
+Bahrain_ALO,PPO,C3,200,0.0,3.92,2.075,

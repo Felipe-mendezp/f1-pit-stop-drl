@@ -1,0 +1,5 @@
+gp,algo,modo,n,dsq_pct,pos,paradas,largadas
+Miami_OCO,PPO,propia,200,0.0,11.755,1.195,C2:100%
+Miami_OCO,PPO,C2,200,0.0,11.755,1.195,
+Miami_OCO,PPO,C3,200,0.5,11.51,1.265,
+Miami_OCO,PPO,C4,200,0.0,11.505,1.325,
