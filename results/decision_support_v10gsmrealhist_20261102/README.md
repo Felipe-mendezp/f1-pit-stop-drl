@@ -67,3 +67,29 @@ alrededor de la segunda parada de Bahrein, leyendo `compare_laps_20261103.csv`: 
 `figs/realhist_dlap_bahrain_alo.{pdf,png}`, copiada al paper como `realhist_dlap_bahrain.pdf`. Hace visible que dentro
 de un grupo de vueltas con la misma recomendacion el valor de seguirla cambia vuelta a vuelta (parar paga desde la
 v. 38 y el maximo esta en la 39). Detalle en `docs/TRASPASO_SESION_20261015.md` 15.13.
+
+## Fig. 11 nueva del cuerpo: Bahrein con la mejor de las cuatro acciones (11-nov)
+
+Pedido del autor: la Fig. 11 de 8 GP pasa al suplementario (Fig. Q.1, `app:realhist`) y en el cuerpo va solo Bahrein,
+una fila por vuelta de desacuerdo, con dos columnas: "DRL − actual" y "Best of the four − actual" ("Same as DRL" si la
+mejor coincide con la recomendación). Script `scripts/plot_realhist_best_20261111.py` (importa el de la Fig. 11);
+salida en `figs_best_20261111/`, copiada al paper como `realhist_best.pdf`.
+
+**Verificación independiente** (`verif_best_20261111/`): las 28 vueltas de desacuerdo del escenario (ii), 4 acciones,
+M = 500, semillas 100000+ (el barrido usa 1000+), mismo estado (`--prefix-seed 0`). `run_verif_20261111.sh PRUEBA` corre
+con las semillas originales y reproduce el barrido bit a bit [V]. Corrida completa: 4 min con 8 procesos.
+`analyze_verif_20261111.py` → `verif_best_20261111.csv`. Suma sobre las 28 vueltas, en puntos frente a la decisión real:
+
+| | Barrido | Repetición |
+|---|---|---|
+| Seguir al DRL | +3,95 | +4,13 |
+| Seguir la mejor de las cuatro (elegida en el barrido) | +5,82 | +4,92 |
+
+La mejor pierde ≈ 0,9 puntos al medirla aparte (sesgo de selección); el DRL se replica. Las diferencias chicas por vuelta
+no son estables: Bahrein v. 38 (+0,30\* → +0,06) y Saudi v. 33 y 36 no se replican; la mejor cambia de etiqueta en 10 de
+28 vueltas, casi siempre entre acciones empatadas. Bahrein se sostiene: v. 35-36 mejor no parar (significativo en la
+repetición), v. 39 +0,62\*, v. 40 medio +0,76\* (medio − duro +0,22 ± 0,10 en el barrido y +0,15 ± 0,09 en la repetición).
+
+**Opción (a) del autor:** la mejor se elige con el barrido (`compare_laps_20261103.csv`) y las dos columnas de la figura
+se miden con la repetición (`--vals verif_best_20261111`). Cifras del texto de §7: v. 39 +0,6; 14/10/4 (mejor = piloto /
+DRL / otra, según el barrido); +4,9 frente a +4,1.

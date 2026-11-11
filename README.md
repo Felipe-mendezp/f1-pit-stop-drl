@@ -1,4 +1,4 @@
-# Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming
+# AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming
 
 Code, data, trained agents and final figures for the article by **Felipe Méndez and Charles Thraves**
 (Department of Industrial Engineering, University of Chile), submitted to *Annals of Operations Research*.
@@ -24,18 +24,18 @@ benchmark (QMIP, solved by model-predictive control), and the decision-support a
 │   ├── double_dqn.py, reg.py, utils.py
 ├── scripts/                 training, evaluation and plotting entry points (see the map below)
 ├── hyperparams/config.py    DRL hyper-parameters (Table F.2)
-├── reproduce/               one-command reproduction scripts + MODELS_MANIFEST.csv
+├── reproduce/               figures_v10g_20261105.sh, pipelines, cluster tasks and archive scripts
 ├── data/                    race data (FastF1) and fitted coefficient tables
 ├── figures/                 the final figures and tables of the paper (main/, supplementary/)
-├── results/                 result tables behind the figures (CSV)
-├── trained_models/          empty in git: download the Zenodo archive (trained_models/README.md)
+├── results/                 scripts and result tables behind the figures, by dated study
+├── trained_models/          empty in git: download the Zenodo archives (trained_models/README.md)
 ├── config.py, compat.py     paths and unpickling compatibility shims
 └── requirements.txt
 ```
 
-Script file names keep the dates of the research log in which they were introduced
-(e.g. `train_dqn_fix_20260831.py`); they were left unchanged so that the provenance recorded in
-`reproduce/MODELS_MANIFEST.csv` points to the exact code that produced each model.
+Script file names keep the dates of the research log in which they were introduced; they were left unchanged so that
+the recorded provenance points to the exact code that produced each model. Comments in many of the dated scripts and
+READMEs are in Spanish.
 
 ## Installation
 
@@ -49,145 +49,112 @@ pip install -r requirements.txt
 
 * **Gurobi.** The QMIP benchmark uses `gurobipy`; the licence bundled with the pip package is
   size-limited but sufficient for all models of the paper. Scripts that import the QMIP module
-  (Figs. 5–7 and the single-driver tools) require it.
+  (Figs. 5-7 and the single-driver tools) require it.
 * **Exact versions matter.** The simulator pickles were written with pandas 3.0 / numpy 2.4; keep the
   pinned versions. Every entry point calls `compat.setup_all()` before unpickling.
 
 ### Trained models and simulator (Zenodo)
 
-Download `f1-pit-stop-drl-v2.0.0-models.tar.gz` (116 MB) from the Zenodo record of this version and
-extract it at the repository root:
+The Zenodo record of this version holds two archives. Extract both at the repository root:
 
 ```bash
-tar -xzf f1-pit-stop-drl-v2.0.0-models.tar.gz      # -> trained_models/{simulation,rl_agents,rl_agents_reward}
+tar -xzf f1-pit-stop-drl-v2.0.0-models.tar.gz    # 106 MB: simulator and the 88 selected agents
+tar -xzf f1-pit-stop-drl-v2.0.0-rollouts.tar.gz  # 51 MB: look-ahead rollouts behind Figs. 8-11
 ```
 
-See [`trained_models/README.md`](trained_models/README.md) for its contents and SHA-256.
+See [`trained_models/README.md`](trained_models/README.md) for their contents.
 
-## Quick start: regenerate every figure of the paper
+The scripts under `results/` call the interpreter at `~/.venvs/f1-drl-v2/bin/python`, so create the environment there:
 
 ```bash
-bash reproduce/figures.sh          # a few minutes; writes figures_regenerated/{main,supplementary}
+python3.12 -m venv ~/.venvs/f1-drl-v2 && ~/.venvs/f1-drl-v2/bin/pip install -r requirements.txt
 ```
 
-It re-plots Figs. 6–7 and Section P from the cached 500-race results, re-solves the QMIP and re-runs
-the agents for Fig. 5 / Table N.1, re-runs the agent rollouts of Fig. 9, rebuilds Figs. 8 and 10 from
-the shipped decision-support results and Figs. 3, 4 and H.1 from the data. At the end it checks that the regenerated tables and CSVs are
-byte-identical to the published ones.
+## Quick start: regenerate the figures of the paper
+
+```bash
+zsh reproduce/figures_v10g_20261105.sh    # about 1 min; collects the files in figures_regenerated_v2.0.0/
+```
+
+It re-solves the QMIP and re-runs the agents for Fig. 5 and Table N.1, and re-simulates one continuation per action for
+Fig. 9. The other figures are redrawn from the cached results. Starting from a clean copy of the repository and the two
+archives, the 10 regenerated PDFs matched the manuscript's pixel by pixel at 110 dpi, and Tables N.1 and O.1 matched the
+versioned files byte by byte. Figs. 1, 2 and 4 are drawn in LaTeX. `reproduce/figures.sh` and `reproduce/evaluate.sh`
+belong to earlier versions and need models that are not shipped.
 
 ## Reproducibility map
 
-| Paper item | Published file (`figures/`) | Generator | Inputs |
+| Paper item | Manuscript file | Generator | Inputs |
 |---|---|---|---|
-| Fig. 3 | `main/fig03_facet_compounds_belgian.pdf` | `scripts/plot_fig3_facet_compounds.py --gp "Belgian Grand Prix"` | `data/session_2021–2023_V2.csv`, `data/completed_coefs_V2_filled.xlsx` |
-| Fig. 4 | `main/fig04_driver_coef_mse.png` | `scripts/plot_driver_coef_mse.py` | `data/coef_drivers_2024.csv`, `data/practice_2024.csv` |
-| Fig. 5, Table N.1 | `main/fig05_stints_single_driver.*`, `supplementary/tableN1_optimality_gap.tex` | `scripts/one_driver_filter_20260925.py fig5` / `m1` | `trained_models/rl_agents/one_driver/`, `data/compound_filter_one_driver_5pct_20260925.json` |
-| Fig. 6 + table | `main/fig06_qmip_vs_drl_stochastic.*`, `main/table_fig06_*.tex` | `scripts/evaluate_qmip_vs_drl.py --n-sims 500` (`--plot-only` from cache) | `trained_models/rl_agents/`, `results/fig06_stochastic/` |
-| Fig. 7 + table | `main/fig07_real_2024_replay.*`, `main/table_fig07_*.tex` | `scripts/evaluate_all_gps_with_qmip.py` (`--plot-only` from cache) | `trained_models/rl_agents/`, `results/fig07_real_2024/` |
-| Fig. 8 | `main/fig08_decision_support_singapore_lap18.*` | `scripts/plot_decision_support.py --tag singapore_hul_real_lap18` | `results/decision_support/` |
-| Fig. 9 | `main/fig09_decision_stints_singapore_lap18.*` | `scripts/plot_decision_stints.py --lap 18 --algo PPO …` | `trained_models/rl_agents/Singapore_HUL/PPO`, `results/decision_support/` |
-| Fig. 10 | `main/fig10_decision_evolution_singapore.*` | `scripts/plot_decision_evolution.py --name singapore_hul_real` | `results/decision_support/singapore_hul_real_lap{1..61}.*` |
-| Fig. H.1 | `supplementary/laptimes_outliers_2022.*` | `scripts/plot_fig_h1_outlier_laptimes.py` | `data/session_*_V2.csv` |
-| Figs. P.1–P.4 | `supplementary/sectionP_*` | `scripts/evaluate_reward_comparison{,_stochastic}.py`, `scripts/reward_comparison_stats.py [--stochastic]` | `trained_models/rl_agents_reward/`, `results/sectionP_reward_comparison/` |
-
-The exact command lines (paths, environment variables, flags) are in `reproduce/figures.sh`.
-Figures 8–10 use the PPO agent (`F1_DS_ALGO=PPO`) and the paper style (`F1_DS_PAPER_STYLE=1`).
-
-Other supplementary values come directly from shipped artefacts: circuit data and 2024 safety-car laps
-(Tables C.1, D.1) from `trained_models/simulation/<GP>/config.json`; yellow-flag coefficients (J.1) from
-`data/yf_regression_2024.xlsx` and `trained_models/simulation/<GP>/laptime_yf_fast_v2.pkl`; overtake
-logit (L.1) from `trained_models/simulation/<GP>/overtake_logit.pkl`; DRL hyper-parameters (F.2) from
-`hyperparams/config.py` and `reproduce/MODELS_MANIFEST.csv`.
+| Fig. 3 | `facet_compounds.pdf` | `results/sim_v10eGQ_20261028/fig3_v10_20261027.py --laps 28` | `data/`, `results/sim_v10eGQ_20261028/` |
+| Fig. 5, Table N.1 | `stints_alone.pdf` | `results/onedriver_v10eGQ_20261028/run_fig5_tableN1_20261028.sh` | `results/onedriver_v10eGQ_20261028/selected`, simulator |
+| Figs. 6 and 7, Table P.1 | `qmip_vs_drl_stochastic_boxplot.pdf`, `all_gps_2024_qmip_boxplot.pdf` | `reproduce/pipeline_v10g_20261031.sh figs`, `results/world2024_v9r2_20261023/fig7_actual_20261027.py`; Table P.1 with significance marks: `results/world2024_v10g_20261031/ci_table_v10g_20261111.py` | `results/world2024_v10g_20261031/`, `results/overtake_noise_frac_20261030/l000_r28_k/` |
+| Figs. 8, 9 and 10 | `decision_support_real_lap7.pdf`, `decision_stints_real_lap7.pdf`, `saudi_arabian_nor_real_evolution_points.pdf` | `results/decision_support_v10gw24belief_20261103/figs_paper_20261103.sh` | rollouts archive, `retrained_v10g_20261030/selected` |
+| Fig. 11 | `realhist_best.pdf` | `scripts/plot_realhist_best_20261111.py --gp bahrain_alo --vals results/decision_support_v10gsmrealhist_20261102/verif_best_20261111 --no-title` (environment of `fig11_20261103.sh`) | `compare_laps_20261103.csv` (choice of the best action), `verif_best_20261111/PPO/` (independent rollouts, seeds 100000+, `run_verif_20261111.sh`) |
+| Fig. Q.1 | `realhist_stints.pdf` | `results/decision_support_v10gsmrealhist_20261102/fig11_20261103.sh` | rollouts archive, `compare_laps_20261103.csv`, `figs/stints_cache_20261026.json` |
+| Fig. H.1 | `laptimes_outliers_2022.pdf` | `results/sim_v10eGQ_20261028/outliers_us_v10_20261027.py` | `data/` |
+| Table L.1 | body of the table | `tyre_sets_20261103/run_20261103.sh`, `scripts/table_tyre_sets_decisions_20261103.py` | rollouts archive, simulator |
 
 ## Simulator configuration of the paper
 
-All results use the following settings (set by `reproduce/env_paper.sh`; the defaults in the code
-reproduce earlier, superseded configurations and are **not** those of the paper):
+The defaults in the code reproduce earlier configurations and are **not** those of the paper. The current scripts first
+source `reproduce/env_paper_v3_20261007.sh`, then set the following:
 
 | Variable | Value | Meaning |
 |---|---|---|
-| `F1_DSQ_PENALTY` | `-1000` | penalty of the *mix* reward when no second compound is used (disqualification) |
-| `F1_LASTLAP_PITOUT` | `1` | a pit stop on the final lap also pays the pit-out time loss |
-| `F1_SC_BUNCHING`, `F1_SC_BUNCH_DELTA` | `1`, `1.5` | the field bunches up behind the safety car (1.5 s target gap) |
-| `F1_FOLLOWING_GAP_SCALE` | `1.0` | stochastic following gap after a blocked overtake |
-| `F1_ONE_DRIVER_DSQ_PENALTY` | `-1000` | single-driver benchmark (Fig. 5) |
+| `F1_SIMULATION_DIR` | `trained_models/simulation_v10eGQ_20261028` | simulator (effective tire age; single-driver: `simulation_onedriver_v10eGQ_20261028`) |
+| `F1_WORLD2024_TYRES` | `v10eGQ` | evaluation races use the 2021-2024 tire coefficients; agents and QMIP keep the 2021-2023 ones |
+| `F1_VSC_FIRST_LAP_ONLY` | `1` | under VSC, the agent and the QMIP can stop only on the first lap of the period, like the rivals |
+| `F1_TYRE_SETS`, `F1_TYRE_STINT_AGES` | `data/tyre_sets_2024_reg_v10eGQ_20261028.csv`, `data/tyre_race_stint_ages_2024_v10eGQ_20261028.csv` | 2024 tire sets available in each race and the age of each real stint |
+| `F1_TYRE_REUSE`, `F1_NO_SET_PENALTY` | `1`, `-1000` | a set taken off can be fitted again; penalty for asking for a compound with no set |
+| `F1_RIVAL_START_ALPHA` | from `data/rival_start_alpha_2021_2023_20261018.json` | rivals' starting compounds |
+| `F1_LAP0_ACTION0_MEDIUM`, `F1_LAP0_PENALTY` | `1`, `-1000` | action 0 at lap 0: medium compound with a penalty |
+| `F1_OVERTAKE_MAX_GAP`, `F1_OVERTAKE_MEAN_GAP`, `F1_FOLLOWING_GAP_SCALE` | `inf`, `1`, `0.26` | overtaking (`scripts/overtake_v10f_20261029.py`) |
+| `F1_RACE_EFFECT_SD`, `F1_RACE_EFFECT_KEEP_STD` | `0.28`, `1` | per-race noise on the Eq. 2 driver coefficient (`scripts/eq2_noise_20261030.py`) |
 
-Training entry points receive the same physics through `--following-gap-scale 1.0 --sc-bunching
---sc-bunch-delta 1.5`. The reward-comparison agents (Section P) keep the disqualification penalty of
-their own reward (−500 time, −200 position, −50 points), i.e. `F1_DSQ_PENALTY` is unset for them.
-
-**Revision v10eGQ (in progress, 2026-10-29).** The revised simulator also changes the overtake model of the
-multi-driver environment (`results/sim_v10eGQ_20261028/README_adelantamiento_20261029.md`). The wrapper
-`scripts/overtake_v10f_20261029.py` sets three options:
-- `F1_OVERTAKE_MAX_GAP=inf`: the logit decides every clear-track battle (default 1.0 s);
-- `F1_OVERTAKE_MEAN_GAP=1`: tau is evaluated at the start-of-lap gap plus the mean predicted lap-time difference;
-- `F1_FOLLOWING_GAP_SCALE=0.26`, also forced as `--following-gap-scale 0.26`.
-
-Without these options the environment is bit-identical to the published one.
-
-**Revision v10g (pilot, 2026-10-30).** v10g = v10eGQf plus a per-race noise on the Eq. 2 driver coefficient: at each
-reset every driver draws e ~ N(0, 0.28^2) s/lap, added to its clear-track lap times for the whole race (the Eq. 2
-prediction error in 2024, net of the sampling error of the realised coefficient). Wrapper `scripts/eq2_noise_20261030.py`
-(goes first in the chain) sets `F1_RACE_EFFECT_SD=0.28` and `F1_RACE_EFFECT_KEEP_STD=1` (the iid lap noise is unchanged).
-Other opt-in options of the same study (`F1_OVERTAKE_NOISE_FRAC`, `F1_RACE_EFFECT_LOGIT`, `F1_FOLLOWING_GAP_EMP`) are
-documented in `results/dispersion_hyp_20261030/README.md`. All default to off; with them off the environment is unchanged.
-
-**Single-driver benchmark (Fig. 5).** Compounds used in less than 5 % of a circuit's 2021–2023 race laps
-are excluded for both the agents and the QMIP, because their coefficients rest on very few stints
-(Dutch C1, Emilia-Romagna C5, Hungarian C5, Miami C4, Saudi Arabian C4, United States C4;
-`data/compound_filter_one_driver_5pct_20260925.json`). The filter is applied in memory by
-`scripts/one_driver_filter_20260925.py`, which wraps the original single-driver tools. The
-multi-driver environment uses all three compounds.
+Every training, selection and evaluation runs through a chain of wrapper scripts that applies these options; see `WRAP`
+in `reproduce/pipeline_v10g_20261031.sh`.
 
 ## Full pipeline (from scratch)
 
-| Step | Command | Time (laptop CPU) |
+| Step | Command or tasks | Notes |
 |---|---|---|
-| 1. Simulator (auxiliary models) | `bash reproduce/build_simulator.sh` (optionally `WITH_FASTF1=1` to re-download the race data) | ~hours |
-| 2. Multi-driver agents (45) | `bash reproduce/train_multi_driver.sh` | 20–60 min per agent |
-| 3. Single-driver agents (45) | `bash reproduce/train_single_driver.sh` | ~45 min per GP |
-| 4. Reward-comparison agents (9) | `bash reproduce/train_reward_comparison.sh` | ~4 h |
-| 5. Re-evaluation | `bash reproduce/evaluate.sh {fig7,fig6,ds,reward,all}` | 45 min – several hours each |
-| 6. Figures | `bash reproduce/figures.sh` | minutes |
+| 1. Simulator | `results/sim_v10eGQ_20261028/run_chain_v10e_20261028.sh`, `scripts/build_simulation_v10e_20261028.py GQ` | steps in `results/sim_v10eGQ_20261028/` |
+| 2. Multi-driver agents | `reproduce/cluster/tasks_v10g_ppo8_20261030.tsv`, `tasks_v10g_others_rppo05_20261031.tsv` | cluster; 8 GP, 5 methods, 10 seeds each |
+| 3. Single-driver agents | `reproduce/cluster/tasks_onedriver_v10eGQ_20261028.tsv` | cluster; 5 seeds each; selection and figure in `results/onedriver_v10eGQ_20261028/README.md` |
+| 4. Seed selection, Figs. 6-7 | `zsh reproduce/pipeline_v10g_20261031.sh all` | about 2 h per figure with 8 jobs |
+| 5. Further training (Fig. 11) | `reproduce/cluster/tasks_v10gsm_20261101.tsv`, `tasks_v10gsm_miami_20261102.tsv`, `tasks_v10gsm_rest_20261102.tsv` | selection in `results/startmix_v10g_20261101/README.md` |
+| 6. Look-ahead rollouts | `results/decision_support_v10gw24belief_20261103/run_20261103.sh`, `results/decision_support_v10gsmrealhist_20261102/run_20261102.sh` | about 2 h each with 8 workers |
+| 7. Figures | `zsh reproduce/figures_v10g_20261105.sh` | about 1 min |
 
-Training writes to new trees (`trained_models/retrained_*`), and evaluation runs on copies, so the
-shipped models and caches are never overwritten. Use `--dry-run` to print the exact training commands.
+Training writes to new dated trees under `trained_models/`.
 
 ### Provenance of the agents
 
-`reproduce/MODELS_MANIFEST.csv` records, for every shipped agent, the script, arguments, effective seed
-and simulator switches with which it was trained. In short:
+`MODELS_MANIFEST_v10g_20261105.csv`, inside the models archive, lists the seed and SHA-256 of each shipped agent. The
+training command of each one is in the task files above. `reproduce/MODELS_MANIFEST*.csv` describe earlier versions.
 
-* 5 M environment steps per agent; DQN with final exploration 0.02 and PPO with entropy coefficient
-  0.02 (Table F.2).
-* Seed 42. `train_rl_agents.py` offsets the seed by the algorithm's position in `--algorithms`, so the
-  effective seeds are recorded per model. Recurrent PPO in Belgian (seed 7) and Saudi Arabian (seed 2024)
-  are rescue seeds: the seed-42 agent was degenerate in the pit-timing screening (1–4 stops, first
-  stop after lap 4; `scripts/diag_prefix_pits.py`).
-* Closing the final-lap pit loophole (`F1_LASTLAP_PITOUT=1`) required retraining the 7 agents that
-  exploited it (Saudi Arabian RPPO, PPO, TRPO, A2C; Miami TRPO; Dutch TRPO; Emilia-Romagna A2C). The
-  other 38 were trained before the fix. They never pit on the final lap, and 37 of them evaluate
-  bit-identically with and without it; Singapore TRPO differs only through rivals' final-lap stops.
-* Single-driver: the configuration of Table F.1 (without competition). Bahrain, Belgian and Singapore
-  (no compound filtered) come from the unfiltered run.
+* Multi-driver: 5 M timesteps with early stopping and an entropy coefficient of 0.05 in PPO and Recurrent PPO. Seeds are
+  selected on 200 validation races (`scripts/select_seeds_v5_20261010.py`).
+* Further training: PPO only, from the selected agents, 1.5 M timesteps with a random start on half of the races
+  (`F1_START_MIX=0.5`). The selection also requires the check with the real start.
+* Single-driver: the seed with the smallest gap to the QMIP (`results/onedriver_v10eGQ_20261028/selection_20261028.tsv`).
 
-Training is seeded, but bit-identical retraining across machines and library versions is not guaranteed.
-The figures are reproduced from the shipped agents.
+Training is seeded, but bit-identical retraining across machines and library versions is not guaranteed. The figures
+are reproduced from the shipped agents.
 
-## Revised version (v8, manuscript under revision)
+## Development history
 
-> **Status (2026-10-20).** The figures and tables of the revised manuscript come from the **v8** agents and the
-> **v7** simulator described here. The sections above still describe the shipped v2.0.0 archive; the Zenodo record
-> will be updated with the v8 archive (`reproduce/pack_models_v8_20261020.py`). Nothing in the v2.0.0 trees
-> (`trained_models/simulation`, `trained_models/rl_agents*`) was modified: every revised artefact lives in a new,
-> dated tree.
+> The notes below record how the simulator and the agents changed on the way to v2.0.0, in date order. Their status
+> lines are as of their dates, and the models of the earlier trees they mention are not shipped. For the versions before
+> this work, see the tags `v1.0.0` and `v1.1.0`.
 
 ### What changed
 
-| Component | v2.0.0 | Revised (v8) | Code |
+| Component | v1.1.0 | v8 | Code |
 |---|---|---|---|
 | Tire coefficients | matrix completion | joint hierarchical model (offsets and monotone slopes, GP random effect), 2021–2023, with 2021 tire life rescaled by 0.716 | `results/tyre_coef_study_20260930/`, `results/tyrelife_2021_20261015/`, `results/sim_v7_20261015/` |
-| Driver coefficients (2024) | Eq. 2 (v2.0.0 version) | Eq. 2 in percent; races where the reference driver has < 15 clean laps are excluded | `results/driver_coef_study_20261010/` |
+| Driver coefficients (2024) | Eq. 2 (v1.1.0 version) | Eq. 2 in percent; races where the reference driver has < 15 clean laps are excluded | `results/driver_coef_study_20261010/` |
 | Lap times under SC/VSC | OLS on 2024 | single 2021–2023 regression on 100 % SC/VSC laps (YF v4) | `scripts/fit_yf_model_v4_20261007.py` |
 | QMIP pit loss under SC/VSC | half the green-flag loss | same loss as the simulator (`F1_QMIP_YF_LOSS=model`) | `src/optimization/qmip.py` |
 | SC/VSC timing | revealed after the decision | revealed before the agent decides (`F1_SC_REVEAL=1`) | `src/environment/f1_env_all_drivers.py` |
@@ -336,36 +303,19 @@ the value of following it changes from lap to lap: stopping pays only from lap 3
 - Output: `results/decision_support_v10gsmrealhist_20261102/figs/realhist_dlap_<gp>.{pdf,png}`, copied to the paper
   folder as `realhist_dlap_bahrain.pdf`.
 
-### Pending: Figures 8-10 in the v10g world (prepared 2026-11-03, not run)
-
-The three decision-support figures in the manuscript still come from the 2026-10-24 sweep, which used the v9r2
-simulator and agents, while the rest of the paper is in v10g. The replacement sweep is ready to launch:
-
-```
-caffeinate -i zsh results/decision_support_v10gw24belief_20261103/run_20261103.sh \
-    2>&1 | tee results/decision_support_v10gw24belief_20261103/sweep_20261103.log
-```
-
-PPO only, 8 GPs by two scenarios, M = 500, 8 workers, about 2 h on the Mac (add `--gps Saudi_Arabian_NOR` for the
-case of Figures 8-10 alone, about 35 min). It uses the new `v10g` entry of `VERSIONS` in
-`scripts/run_ds_v6_sweep_20261015.py` (simulator `simulation_v10eGQ_20261028`, agents
-`retrained_v10g_20261030/selected`). These sweeps have always been run locally, never on the cluster. Compare the
-numbers against the v9r2 sweep before editing the manuscript: the paragraph of `sec:decision_support` and the three
-captions quote eight values from them.
-
 ## Citation
 
 ```bibtex
 @article{mendez_thraves_pitstops,
   author  = {M{\'e}ndez, Felipe and Thraves, Charles},
-  title   = {Optimizing Pit Stop Strategies in {Formula} 1: Deep Reinforcement Learning vs. Mathematical Programming},
+  title   = {{AI}-Assisted Decision Support for {Formula} 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming},
   journal = {Annals of Operations Research},
   note    = {Under review},
   year    = {2026}
 }
 @software{mendez_thraves_code,
   author    = {M{\'e}ndez, Felipe and Thraves, Charles},
-  title     = {Data and Code for: Optimizing Pit Stop Strategies in {Formula} 1},
+  title     = {Data and Code for: {AI}-Assisted Decision Support for {Formula} 1 Pit-Stop Strategy},
   version   = {2.0.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20060265},
@@ -375,17 +325,9 @@ captions quote eight values from them.
 
 ## Version history
 
-* **v2.0.0 (2026)** — version of the *Annals of Operations Research* manuscript. The simulator was audited
-  and corrected, with changes to:
-  * the yellow-flag coefficients (re-estimated on 2024 data);
-  * the pit-aware overtake logit;
-  * safety-car bunching and the stochastic following gap;
-  * the disqualification penalty (−1000);
-  * the final-lap pit-out loss;
-  * the 5 % compound filter of the single-driver benchmark.
-
-  All agents were retrained, and only the final code, figures, data and agents are included.
-* v1.1.0 / v1.0.0 (2026) — earlier submission snapshots (version DOIs `10.5281/zenodo.20060266` for v1.0.0 and `10.5281/zenodo.20114287` for v1.1.0).
+* **v2.0.0 (2026)**: version of the *Annals of Operations Research* manuscript, with the simulator v10eGQ and the agents
+  v10g and v10gsm. See "Development history" for what changed.
+* v1.1.0 / v1.0.0 (2026): earlier submission snapshots (version DOIs `10.5281/zenodo.20060266` for v1.0.0 and `10.5281/zenodo.20114287` for v1.1.0).
 
 ## License
 

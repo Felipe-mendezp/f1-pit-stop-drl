@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite both the article and this archive."
-title: "Data and Code for: Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming"
+title: "Data and Code for: AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming"
 type: software
 authors:
   - family-names: "Méndez"
@@ -12,7 +12,7 @@ authors:
     affiliation: "Department of Industrial Engineering, University of Chile, Santiago, Chile"
     email: "cthraves@dii.uchile.cl"
 version: "2.0.0"
-date-released: "2026-09-29"
+date-released: "2026-11-05"
 license: MIT
 repository-code: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
 url: "https://github.com/Felipe-mendezp/f1-pit-stop-drl"
@@ -29,7 +29,7 @@ keywords:
   - "Formula 1"
 preferred-citation:
   type: article
-  title: "Optimizing Pit Stop Strategies in Formula 1: Deep Reinforcement Learning vs. Mathematical Programming"
+  title: "AI-Assisted Decision Support for Formula 1 Pit-Stop Strategy: Deep Reinforcement Learning and Mathematical Programming"
   authors:
     - family-names: "Méndez"
       given-names: "Felipe"

@@ -67,3 +67,13 @@ results/overtake_noise_frac_20261030/**/*.pkl
 results/overtake_calib_20261030/**/*.pkl
 results/overtake_calib_20261030/*.pkl
 results/startmix_v10g_20261101/**/*.zip
+
+# 2026-11-05 (v2.0.0): regenerated figures and the Zenodo archives
+figures_regenerated_v2.0.0/
+/f1-pit-stop-drl-*.tar.gz
+/MODELS_MANIFEST_v10g_20261105.csv
+
+# 2026-11-11: rollouts of the independent check behind Fig. 11 (Bahrain) go to the Zenodo rollouts archive
+results/decision_support_v10gsmrealhist_20261102/verif_best_20261111/PPO/
+results/decision_support_v10gsmrealhist_20261102/verif_best_20261111/prueba/
+results/decision_support_v10gsmrealhist_20261102/figs_best_20261111/stints_tmp/
