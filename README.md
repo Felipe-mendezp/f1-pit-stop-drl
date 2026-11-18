@@ -143,6 +143,11 @@ training command of each one is in the task files above. `reproduce/MODELS_MANIF
 Training is seeded, but bit-identical retraining across machines and library versions is not guaranteed. The figures
 are reproduced from the shipped agents.
 
+Note (2026-11-18): in Fig. 7 the leftmost box (the driver's actual 2024 strategy simulated in the same races) is now labelled
+"Replay" instead of "Actual"; "Actual" is kept for the real race data (dashed lines in the legend). The data are unchanged,
+so `figures_v10g_20261105.sh` reproduces the new figure and differs from the v2.0.0 archive only in that label
+(`results/world2024_v9r2_20261023/fig7_actual_20261027.py`, commit `64cf358b`).
+
 ## Development history
 
 > The notes below record how the simulator and the agents changed on the way to v2.0.0, in date order. Their status
