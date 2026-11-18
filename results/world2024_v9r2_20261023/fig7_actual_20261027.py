@@ -15,7 +15,7 @@ import evaluate_qmip_vs_drl as E6
 VAL = os.path.join(os.environ.get('F1_REALSTRAT_DIR') or os.path.join(ROOT, 'results', 'real_strategy_check_20261027'), 'fig7')  # 2026-10-29: F1_REALSTRAT_DIR (v10eGQf)
 E6.ALGO_ORDER = ['Actual'] + [a for a in E6.ALGO_ORDER if a != 'Actual']
 E6.ALGO_COLORS['Actual'] = '#BDBDBD'
-E6.ALGO_ABBREV['Actual'] = 'Actual'
+E6.ALGO_ABBREV['Actual'] = 'Replay'  # 2026-11-18: 'Actual' = real race data (dashed lines); the box is the simulated replay
 _save = plt.savefig
 def savefig(*a, **kw):   # linea vertical tenue entre la referencia y los metodos
     for ax in plt.gcf().axes:
