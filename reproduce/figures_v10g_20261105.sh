@@ -12,10 +12,12 @@
 # ~/.venvs/f1-drl-v2, the interpreter the results/ scripts call.
 # Long runs behind the cached results: reproduce/pipeline_v10g_20261031.sh (Figs. 6-7),
 # results/decision_support_v10gw24belief_20261103/run_20261103.sh (Figs. 8-10),
-# results/decision_support_v10gsmrealhist_20261102/run_20261102.sh (Fig. 11 and Fig. Q.1) and
-# results/decision_support_v10gsmrealhist_20261102/verif_best_20261111/run_verif_20261111.sh (Fig. 11, about 4 min).
-# 2026-11-11: Fig. 11 is now the Bahrain figure (realhist_best.pdf); the 8-GP figure moved to the supplementary
-# material as Fig. Q.1; Table P.1 carries significance marks.
+# results/decision_support_v10gsmrealhist_20261102/run_20261102.sh (Fig. 10 and Fig. R.1) and
+# results/decision_support_v10gsmrealhist_20261102/verif_best_20261111/run_verif_20261111.sh (Fig. 10, about 4 min).
+# 2026-11-11: the Bahrain figure (realhist_best.pdf) is in the body; the 8-GP figure is in the supplementary material;
+# Table P.1 carries significance marks. 2026-11-18: appendices renumbered by first citation, so the 8-GP figure is
+# Fig. R.1, the stints of the candidate actions Fig. Q.1, and the look-ahead review in the body is Fig. 10;
+# Fig. L.1 (probability of overtaking) is added.
 set -e
 cd "$(dirname $0)/.."
 PY=${PY:-$HOME/.venvs/f1-drl-v2/bin/python}
@@ -33,7 +35,7 @@ for d in trained_models/simulation_v10eGQ_20261028 trained_models/simulation_one
 done
 step() { echo; echo "=== $*"; }
 
-step "Fig. 3 and Fig. H.1: compound effects and outlier laps, United States GP"
+step "Fig. 3 and Fig. J.1: compound effects and outlier laps, United States GP"
 source reproduce/env_paper_v3_20261007.sh >/dev/null
 export MPLBACKEND=Agg
 F1_TYRELIFE_2021=v10eGQ $PY $SIM/fig3_v10_20261027.py --laps 28
@@ -56,12 +58,13 @@ cp $W/fig7_2024/figure_7_2x4_actual.pdf $OUT/main/all_gps_2024_qmip_boxplot.pdf
 $PY $W/ci_table_v10g_20261111.py
 cp $W/ci_table_v10g_20261111.tex $OUT/supplementary/tableP1_ci_2024.tex
 
-step "Figs. 8-10: look-ahead, Saudi Arabian GP 2024 (NOR), lap 7, PPO, from the cached rollouts"
+step "Figs. 8 and 9 and Fig. Q.1: look-ahead, Saudi Arabian GP 2024 (NOR), lap 7, PPO, from the cached rollouts"
 zsh $DS/figs_paper_20261103.sh
 F=$DS/figs_paper_20261103/pdf
-cp $F/decision_support_real_lap7.pdf $F/decision_stints_real_lap7.pdf $F/saudi_arabian_nor_real_evolution_points.pdf $OUT/main/
+cp $F/decision_support_real_lap7.pdf $F/saudi_arabian_nor_real_evolution_points.pdf $OUT/main/
+cp $F/decision_stints_real_lap7.pdf $OUT/supplementary/
 
-step "Fig. 11, Fig. Q.1 and Table L.1: review of the 2024 decisions, from the cached rollouts"
+step "Fig. 10, Fig. R.1 and Table E.1: review of the 2024 decisions, from the cached rollouts"
 OUT=$OUT/tmp_fig11 zsh $RH/fig11best_20261111.sh
 cp $OUT/tmp_fig11/realhist_best_bahrain_alo.pdf $OUT/main/realhist_best.pdf
 rm -rf $OUT/tmp_fig11
@@ -70,5 +73,8 @@ cp $RH/figs/realhist_stints_grid4x2.pdf $OUT/supplementary/realhist_stints.pdf
 zsh $RH/tyre_sets_20261103/run_20261103.sh
 $PY scripts/table_tyre_sets_decisions_20261103.py --res $RH --laps compare_laps_20261103.csv \
     --out $OUT/supplementary/tab_tyre_sets_decisions.tex
+
+step "Fig. L.1: probability of overtaking by predicted gap (Appendix L), from the fitted coefficients"
+$PY scripts/plot_overtake_prob_20261118.py --out $OUT/supplementary
 
 echo; echo "done -> $OUT/ (compare with the manuscript's figures; PDFs embed timestamps, compare visually)"

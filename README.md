@@ -23,7 +23,7 @@ benchmark (QMIP, solved by model-predictive control), and the decision-support a
 │   ├── model_loader.py      loads the per-GP simulator models
 │   ├── double_dqn.py, reg.py, utils.py
 ├── scripts/                 training, evaluation and plotting entry points (see the map below)
-├── hyperparams/config.py    DRL hyper-parameters (Table F.2)
+├── hyperparams/config.py    DRL hyper-parameters (Table H.2)
 ├── reproduce/               figures_v10g_20261105.sh, pipelines, cluster tasks and archive scripts
 ├── data/                    race data (FastF1) and fitted coefficient tables
 ├── figures/                 the final figures and tables of the paper (main/, supplementary/)
@@ -77,8 +77,8 @@ zsh reproduce/figures_v10g_20261105.sh    # about 1 min; collects the files in f
 ```
 
 It re-solves the QMIP and re-runs the agents for Fig. 5 and Table N.1, and re-simulates one continuation per action for
-Fig. 9. The other figures are redrawn from the cached results. Starting from a clean copy of the repository and the two
-archives, the 10 regenerated PDFs matched the manuscript's pixel by pixel at 110 dpi, and Tables N.1 and O.1 matched the
+Fig. Q.1. The other figures are redrawn from the cached results. Starting from a clean copy of the repository and the two
+archives, the 10 regenerated PDFs matched the manuscript's pixel by pixel at 110 dpi (Fig. L.1, drawn in LaTeX in the manuscript, is replotted from the same coefficients), and Tables N.1 and O.1 matched the
 versioned files byte by byte. Figs. 1, 2 and 4 are drawn in LaTeX. `reproduce/figures.sh` and `reproduce/evaluate.sh`
 belong to earlier versions and need models that are not shipped.
 
@@ -89,11 +89,12 @@ belong to earlier versions and need models that are not shipped.
 | Fig. 3 | `facet_compounds.pdf` | `results/sim_v10eGQ_20261028/fig3_v10_20261027.py --laps 28` | `data/`, `results/sim_v10eGQ_20261028/` |
 | Fig. 5, Table N.1 | `stints_alone.pdf` | `results/onedriver_v10eGQ_20261028/run_fig5_tableN1_20261028.sh` | `results/onedriver_v10eGQ_20261028/selected`, simulator |
 | Figs. 6 and 7, Table P.1 | `qmip_vs_drl_stochastic_boxplot.pdf`, `all_gps_2024_qmip_boxplot.pdf` | `reproduce/pipeline_v10g_20261031.sh figs`, `results/world2024_v9r2_20261023/fig7_actual_20261027.py`; Table P.1 with significance marks: `results/world2024_v10g_20261031/ci_table_v10g_20261111.py` | `results/world2024_v10g_20261031/`, `results/overtake_noise_frac_20261030/l000_r28_k/` |
-| Figs. 8, 9 and 10 | `decision_support_real_lap7.pdf`, `decision_stints_real_lap7.pdf`, `saudi_arabian_nor_real_evolution_points.pdf` | `results/decision_support_v10gw24belief_20261103/figs_paper_20261103.sh` | rollouts archive, `retrained_v10g_20261030/selected` |
-| Fig. 11 | `realhist_best.pdf` | `scripts/plot_realhist_best_20261111.py --gp bahrain_alo --vals results/decision_support_v10gsmrealhist_20261102/verif_best_20261111 --no-title` (environment of `fig11_20261103.sh`) | `compare_laps_20261103.csv` (choice of the best action), `verif_best_20261111/PPO/` (independent rollouts, seeds 100000+, `run_verif_20261111.sh`) |
-| Fig. Q.1 | `realhist_stints.pdf` | `results/decision_support_v10gsmrealhist_20261102/fig11_20261103.sh` | rollouts archive, `compare_laps_20261103.csv`, `figs/stints_cache_20261026.json` |
-| Fig. H.1 | `laptimes_outliers_2022.pdf` | `results/sim_v10eGQ_20261028/outliers_us_v10_20261027.py` | `data/` |
-| Table L.1 | body of the table | `tyre_sets_20261103/run_20261103.sh`, `scripts/table_tyre_sets_decisions_20261103.py` | rollouts archive, simulator |
+| Figs. 8 and 9, Fig. Q.1 | `decision_support_real_lap7.pdf`, `saudi_arabian_nor_real_evolution_points.pdf`, `decision_stints_real_lap7.pdf` (Fig. Q.1) | `results/decision_support_v10gw24belief_20261103/figs_paper_20261103.sh` | rollouts archive, `retrained_v10g_20261030/selected` |
+| Fig. 10 | `realhist_best.pdf` | `scripts/plot_realhist_best_20261111.py --gp bahrain_alo --vals results/decision_support_v10gsmrealhist_20261102/verif_best_20261111 --no-title` (environment of `fig11_20261103.sh`) | `compare_laps_20261103.csv` (choice of the best action), `verif_best_20261111/PPO/` (independent rollouts, seeds 100000+, `run_verif_20261111.sh`) |
+| Fig. R.1 | `realhist_stints.pdf` | `results/decision_support_v10gsmrealhist_20261102/fig11_20261103.sh` | rollouts archive, `compare_laps_20261103.csv`, `figs/stints_cache_20261026.json` |
+| Fig. J.1 | `laptimes_outliers_2022.pdf` | `results/sim_v10eGQ_20261028/outliers_us_v10_20261027.py` | `data/` |
+| Table E.1 | body of the table | `tyre_sets_20261103/run_20261103.sh`, `scripts/table_tyre_sets_decisions_20261103.py` | rollouts archive, simulator |
+| Fig. L.1 | drawn in LaTeX (pgfplots) from the coefficients of Table L.1; `overtake_probability.pdf` plots the same curves | `scripts/plot_overtake_prob_20261118.py` (also prints the values quoted in Appendix L) | `results/sim_v10eGQ_20261028/overtake_v10f/params.csv` |
 
 ## Simulator configuration of the paper
 
@@ -123,7 +124,7 @@ in `reproduce/pipeline_v10g_20261031.sh`.
 | 2. Multi-driver agents | `reproduce/cluster/tasks_v10g_ppo8_20261030.tsv`, `tasks_v10g_others_rppo05_20261031.tsv` | cluster; 8 GP, 5 methods, 10 seeds each |
 | 3. Single-driver agents | `reproduce/cluster/tasks_onedriver_v10eGQ_20261028.tsv` | cluster; 5 seeds each; selection and figure in `results/onedriver_v10eGQ_20261028/README.md` |
 | 4. Seed selection, Figs. 6-7 | `zsh reproduce/pipeline_v10g_20261031.sh all` | about 2 h per figure with 8 jobs |
-| 5. Further training (Fig. 11) | `reproduce/cluster/tasks_v10gsm_20261101.tsv`, `tasks_v10gsm_miami_20261102.tsv`, `tasks_v10gsm_rest_20261102.tsv` | selection in `results/startmix_v10g_20261101/README.md` |
+| 5. Further training (Figs. 10 and R.1) | `reproduce/cluster/tasks_v10gsm_20261101.tsv`, `tasks_v10gsm_miami_20261102.tsv`, `tasks_v10gsm_rest_20261102.tsv` | selection in `results/startmix_v10g_20261101/README.md` |
 | 6. Look-ahead rollouts | `results/decision_support_v10gw24belief_20261103/run_20261103.sh`, `results/decision_support_v10gsmrealhist_20261102/run_20261102.sh` | about 2 h each with 8 workers |
 | 7. Figures | `zsh reproduce/figures_v10g_20261105.sh` | about 1 min |
 
@@ -256,7 +257,7 @@ zsh reproduce/pipeline_v9r2_20261023.sh all      # select, fig6, fig7, qmipcheck
 > **Status (2026-10-27).** All 48 tasks done and checked (E1–E4, `results/startmix_proposal_20261025/README.md`). In the
 > E4 sweep, mask corrections drop from 9.9 % to 2.2 %; US RPPO still needs the mask. The fine-tuned agents
 > (`trained_models/retrained_v9r2_startmix_20261025/selected`) are used **only** for the review of the actual 2024
-> decisions in §7, which is Fig. 11 (`scripts/plot_realhist_stints_20261026.py`), with data in
+> decisions in §7 (Fig. 10 and Fig. R.1, `scripts/plot_realhist_stints_20261026.py`), with data in
 > `results/decision_support_v9r2smrealhist_20261026/`. Only PPO is used there since 2026-10-27; Table Q.1
 > (`scripts/plot_realhist_audit_20261026.py`) was removed from the paper. Figs. 5–10 keep the original v9r2 agents.
 
@@ -281,9 +282,9 @@ the races when forced to start on the compound they always pit to (`scripts/star
 `--vec dummy` = the 10 envs in one process, same results). 48 tasks (8 GP × 2 algorithms × 3 seeds) in
 `reproduce/cluster/tasks_v9r2sm.tsv` → `trained_models/retrained_v9r2_startmix_20261025/seedXX/`.
 
-### Tire sets at the decision points of Fig. 11 (2026-11-03)
+### Tire sets at the decision points of Fig. R.1 (2026-11-03)
 
-Table L.1 of the supplementary material lists, for every row of Fig. 11, the sets the driver still has at that lap,
+Table E.1 of the supplementary material lists, for every row of Fig. R.1, the sets the driver still has at that lap,
 with the age of each one, and the set on the car. It answers why the hard tire sometimes runs fewer laps than a
 softer one: in the United States and Singapore the driver has a single hard set, so its stint length is the remainder
 of the plan.
@@ -292,14 +293,14 @@ of the plan.
   (`gp_configs_fix_20261028.py` + `ds_rollouts_realhist_20261024.py --run`, `F1_DS_FORCE=hist`, `--real-2024`,
   prefix seed 0) and dumps, at each decision lap, the mounted set with its effective age and the remaining pool per
   compound. With `F1_TYRE_REUSE=1` the set taken off returns to the pool only at the stop, so it is reported apart.
-- `scripts/table_tyre_sets_decisions_20261103.py` builds the LaTeX table, one row per row of Fig. 11 (same groups,
+- `scripts/table_tyre_sets_decisions_20261103.py` builds the LaTeX table, one row per row of Fig. R.1 (same groups,
   representative lap = largest |difference|).
 - Runner, per-GP JSON and the LaTeX fragment: `results/decision_support_v10gsmrealhist_20261102/tyre_sets_20261103/`
   (17 s in total).
 
 ### Lap-by-lap value of a recommendation (2026-11-03)
 
-Figure Q.1 of the supplementary material plots the mean paired difference in points, with 2 SE, for each lap around
+This figure (Fig. Q.1 of the 2026-11-03 draft of the supplementary material, no longer in the manuscript) plots the mean paired difference in points, with 2 SE, for each lap around
 the second pit stop of the Bahrain Grand Prix. It shows that within a group of laps carrying the same recommendation
 the value of following it changes from lap to lap: stopping pays only from lap 38 and peaks at lap 39.
 

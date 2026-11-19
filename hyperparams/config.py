@@ -66,7 +66,7 @@ A2C_CONFIG = {
     'learning_rate': 5e-4,   # Higher LR for faster convergence within 5M timesteps
     'ent_coef': 0.01,        # Lower exploration noise -> faster exploitation
     'vf_coef': 0.5,
-    'gae_lambda': 1.0,       # Matches Table F.2 (high-variance Monte-Carlo advantage)
+    'gae_lambda': 1.0,       # Matches Table H.2 (high-variance Monte-Carlo advantage)
     'policy_kwargs': {
         'activation_fn': nn.ReLU,
         'net_arch': [256, 128],  # Compact: sufficient for Discrete(4) action space
