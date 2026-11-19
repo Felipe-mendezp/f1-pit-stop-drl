@@ -1,5 +1,7 @@
 # Barrido B (historia real 2024) con los agentes v10gsm — Fig. 11 del paper
 
+> **Numeración vigente (19-nov-2026).** Este informe es de 3-nov y usa la numeración de entonces. Hoy: Fig. 11 del cuerpo = **Fig. 10**; Fig. Q.1 del suplementario (8 GP) = **Fig. R.1**; Fig. 9 (tandas por acción) = **Fig. Q.1** del suplementario; Tabla L.1 (juegos de neumáticos) = **Tabla E.1**.
+
 2 y 3-nov-2026. Reemplaza a `../decision_support_v9r2smrealhist_20261026`, que era el que alimentaba la Fig. 11 y los
 números de §7 del manuscrito.
 

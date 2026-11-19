@@ -1,5 +1,7 @@
 # Apoyo a la decision en v10g (Figs. 8-10) — CORRIDO EL 3-NOV (19:31 a 21:22, rc=0 en las 16 corridas)
 
+> **Numeración vigente (19-nov-2026).** Este informe es de 3-nov y usa la numeración de entonces. Hoy: Fig. 11 del cuerpo = **Fig. 10**; Fig. Q.1 del suplementario (8 GP) = **Fig. R.1**; Fig. 9 (tandas por acción) = **Fig. Q.1** del suplementario; Tabla L.1 (juegos de neumáticos) = **Tabla E.1**.
+
 Decision del autor (3-nov): correrlo **completo y solo con PPO**, pero mas adelante (no tenia el computador
 conectado). Corrido esa misma noche; el texto del paper y las figuras NO se han actualizado (a la espera del autor).
 

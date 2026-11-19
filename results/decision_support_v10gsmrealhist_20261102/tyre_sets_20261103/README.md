@@ -1,5 +1,7 @@
 # Juegos disponibles en los puntos de decision de la Fig. 11 (3-nov-2026)
 
+> **Numeración vigente (19-nov-2026).** Este informe es de 3-nov y usa la numeración de entonces. Hoy: Fig. 11 del cuerpo = **Fig. 10**; Fig. Q.1 del suplementario (8 GP) = **Fig. R.1**; Fig. 9 (tandas por acción) = **Fig. Q.1** del suplementario; Tabla L.1 (juegos de neumáticos) = **Tabla E.1**.
+
 Idea del autor: una tabla de apendice con los compuestos disponibles y su vida de uso en cada punto de decision
 marcado en la Fig. 11 (`fig:realhist`). **Aplicada al manuscrito el 3-nov**: es la Tabla L.1 del suplementario
 (apendice `app:tyre_sets`), con una frase que la presenta y un puntero desde la seccion 7 de `sn-article.tex`,
