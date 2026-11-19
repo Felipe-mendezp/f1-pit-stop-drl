@@ -149,8 +149,8 @@ def main():
     best_sig = (best_action != rec_action
                 and delta[best_action][0] - delta[best_action][1] > 0)
 
-    # 2026-10-21: shorter in the manuscript variant (author request)
-    fig, axes = plt.subplots(2, 2, figsize=(10, 6.2 if paper else 7.4), sharex=True, sharey=True)
+    # 2026-10-21: shorter in the manuscript variant (author request); 2026-11-18: 4.5 in (was 6.2), F1_DS_FIG_H overrides
+    fig, axes = plt.subplots(2, 2, figsize=(10, float(os.environ.get('F1_DS_FIG_H', 4.5)) if paper else 7.4), sharex=True, sharey=True)
     axes = axes.ravel()
 
     # --- Decision context + global verdict ---------------------------------
@@ -194,7 +194,7 @@ def main():
 
         # Points cutoff: P10 scores, P11 does not — makes the collapse of a
         # dominated arm (mass to the right of the line) immediately legible.
-        if xhi > 10.5:
+        if xhi > 10.5 and not paper:
             ax.axvline(10.5, color='0.45', linestyle=':', linewidth=1.2, zorder=1)
 
         avg_pos = float(np.mean(v))
@@ -220,8 +220,9 @@ def main():
             lines = [f"Average position = {avg_pos:.2f}"]
             if not paper:
                 lines.append(f"Median position = {median:.1f}")
-            lines += [f"Average points = {avg_pts:.2f}",
-                      f"P(final pos. ≤ 10) = {p_le10:.2f}"]
+            lines += [f"Average points = {avg_pts:.2f}"]
+            if not paper:
+                lines.append(f"P(final pos. ≤ 10) = {p_le10:.2f}")
             if not paper:
                 lines.append("(reference arm)")
         else:
@@ -233,8 +234,9 @@ def main():
                 dtxt += " (statistical tie)"
             wr = winrate.get(a)
             lines = [f"Average position = {avg_pos:.2f}",
-                     f"Average points = {avg_pts:.2f}",
-                     f"P(final pos. ≤ 10) = {p_le10:.2f}"]
+                     f"Average points = {avg_pts:.2f}"]
+            if not paper:
+                lines.append(f"P(final pos. ≤ 10) = {p_le10:.2f}")
             if wr is not None:
                 lines.append(f"DRL wins head-to-head = {wr:.0%}")
             lines.append(dtxt)

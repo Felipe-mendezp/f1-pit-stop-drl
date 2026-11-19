@@ -51,6 +51,7 @@ SEED = 1000
 # 2026-11-03: --laps permite apuntar a otro barrido (v10gsm usa compare_laps_20261103.csv)
 LAPS = 'compare_laps_20261026.csv'
 GROUP = True   # agrupar vueltas consecutivas con la misma recomendacion
+TRI_DY = 0.1   # separacion del triangulo sobre la barra (unidades de fila)
 TRI = 1.0   # escala de los triangulos (la grilla del paper los agranda)
 FS_BAR = 9   # tamano del numero de vueltas dentro de las barras (la grilla 2x4 lo reduce)
 S24 = pd.read_csv(os.path.join(ROOT, 'data', 'session_2024_V2.csv'))
@@ -214,7 +215,7 @@ def draw_panel(ax, P, header=True, nrows=None, short=False, fs=9):
             continue
         # triangulo negro invertido justo encima de la barra, al inicio de la vuelta de la decision (n - 0.5; pedido del autor)
         for lp in r.get('laps', [r['lap']]):
-            ax.scatter(lp - 0.5, i - H / 2 - 0.1, marker='v', s=TRI * (40 if len(r.get('laps', [0])) == 1 else 22),
+            ax.scatter(lp - 0.5, i - H / 2 - TRI_DY, marker='v', s=TRI * (40 if len(r.get('laps', [0])) == 1 else 22),
                        color='black', zorder=6, clip_on=False)
         # grupo: diferencia de la primera vuelta (la de la barra dibujada) con +-2 SE (pedido del autor, 26-oct)
         lap_txt = f"\n(lap {r['lap']})" if len(r.get('laps', [0])) > 1 else ''

@@ -26,6 +26,7 @@ import plot_realhist_stints_20261026 as B
 from plot_realhist_audit_20261026 import fmt_d
 
 
+
 def best_info(rd, key, algo='PPO', scen='(ii)'):
     L = pd.read_csv(os.path.join(rd, B.LAPS))
     g = L[(L.gp == key) & (L.algo == algo) & (L.scen == scen)]
@@ -51,7 +52,7 @@ def draw(P, info, out, fs=9, vals=None):
             r['sig'] = abs(r['d']) > r['se2']
     # 11-nov (tarde, pedido del autor): mas compacta en vertical (filas mas juntas, barras mas bajas, letra y triangulos
     # mas chicos, leyenda mas cerca del eje)
-    fig, ax = plt.subplots(figsize=(8, 0.27 * len(rows) + 0.95))
+    fig, ax = plt.subplots(figsize=(8, float(os.environ.get('F1_RH_ROWH', 0.20)) * len(rows) + float(os.environ.get('F1_RH_EXTRA', 0.8))))
     fig.subplots_adjust(left=0.15, right=0.60, top=0.90, bottom=0.21)   # 11-nov: eje fijo, columnas de texto a la derecha
     B.draw_panel(ax, dict(P, rows=[dict(r, rec=r.get('rec', ''), se2=r.get('se2', 0), sig=r.get('sig', False),
                                         d=r.get('d', 0)) for r in rows]), header=False, fs=fs, short=True)   # 11-nov: etiquetas "Lap n" (pedido del autor)
@@ -101,8 +102,9 @@ def main():
     P = B.gp_rows(a.gp, rd, a.out)
     if a.no_title:
         P['title'] = ''
-    B.FS_BAR, B.TRI, B.H = 8.5, 0.45, 0.6   # 11-nov: tamanos para el cuerpo del paper (ancho completo)
-    draw(P, best_info(rd, a.gp), a.out, fs=8.5, vals=os.path.abspath(a.vals) if a.vals else None)
+    B.TRI_DY = float(os.environ.get('F1_RH_TRIDY', 0.2))
+    B.FS_BAR, B.TRI, B.H = float(os.environ.get('F1_RH_FSBAR', 6.5)), float(os.environ.get('F1_RH_TRI', 0.18)), 0.6   # 11-nov: tamanos para el cuerpo del paper (ancho completo); 18-nov: version compacta por defecto (variables F1_RH_*)
+    draw(P, best_info(rd, a.gp), a.out, fs=float(os.environ.get('F1_RH_FS', 7)), vals=os.path.abspath(a.vals) if a.vals else None)
 
 
 if __name__ == '__main__':
