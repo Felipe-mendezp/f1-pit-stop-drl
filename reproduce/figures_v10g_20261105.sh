@@ -77,4 +77,7 @@ $PY scripts/table_tyre_sets_decisions_20261103.py --res $RH --laps compare_laps_
 step "Fig. L.1: probability of overtaking by predicted gap (Appendix L), from the fitted coefficients"
 $PY scripts/plot_overtake_prob_20261118.py --out $OUT/supplementary
 
+step "Fig. H.1: spread of the mean final position across the 10 training seeds (Appendix H), from the seed-selection summary"
+$PY scripts/plot_seed_spread_20261119.py --out $OUT/supplementary
+
 echo; echo "done -> $OUT/ (compare with the manuscript's figures; PDFs embed timestamps, compare visually)"

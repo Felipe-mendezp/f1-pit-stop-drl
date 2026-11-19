@@ -95,6 +95,7 @@ belong to earlier versions and need models that are not shipped.
 | Fig. J.1 | `laptimes_outliers_2022.pdf` | `results/sim_v10eGQ_20261028/outliers_us_v10_20261027.py` | `data/` |
 | Table E.1 | body of the table | `tyre_sets_20261103/run_20261103.sh`, `scripts/table_tyre_sets_decisions_20261103.py` | rollouts archive, simulator |
 | Fig. L.1 | drawn in LaTeX (pgfplots) from the coefficients of Table L.1; `overtake_probability.pdf` plots the same curves | `scripts/plot_overtake_prob_20261118.py` (also prints the values quoted in Appendix L) | `results/sim_v10eGQ_20261028/overtake_v10f/params.csv` |
+| Fig. H.1 | `seed_spread.pdf`: mean final position of each of the 10 training seeds, by circuit and algorithm (seed-selection validation races) | `scripts/plot_seed_spread_20261119.py` | `results/seed_selection_v5_20261010/v10f_v10g/seed_summary_DQN_A2C_TRPO_PPO_RecurrentPPO_r578_dsq0.csv` |
 
 ## Simulator configuration of the paper
 
